@@ -3076,6 +3076,7 @@ html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-
 .sk-lk{position:absolute;inset:0;display:grid;place-items:center;font-size:26px}
 .sk-opt b{font-size:13px;line-height:1.15;text-align:center}
 .sk-st{font-size:12px;display:flex;align-items:center;gap:4px;color:#ffd88a}
+.sel-skin{height:auto!important;padding:3px 10px!important;cursor:default!important;font-size:11px!important;text-transform:none!important;letter-spacing:0!important;color:#ffd88a!important}
 </style>
 
 <div class="wrap">
@@ -3205,7 +3206,7 @@ html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-
       <div class="sel-stage" id="selStage">
         <div class="sel-side l"><button type="button" class="sel-slot p1" id="slot0" aria-pressed="false"><span class="sel-spic" id="slotPic0"></span><span class="sel-st" id="slotT0"></span><span class="sel-sn" id="slotN0">—</span></button><button type="button" class="sel-slot p1" id="slot2" aria-pressed="false"><span class="sel-spic" id="slotPic2"></span><span class="sel-st" id="slotT2"></span><span class="sel-sn" id="slotN2">—</span></button></div>
         <div class="sel-hero">
-          <div class="sel-nrow"><h2 class="sel-name" id="selName">Aleatório</h2><button type="button" class="sel-info" id="btnInfo" aria-label="Ver detalhes" hidden>i</button><button type="button" class="sel-skin" id="btnChSkin" hidden>Skin</button></div><div class="sel-lvl" id="selLvl" hidden></div>
+          <div class="sel-nrow"><h2 class="sel-name" id="selName">Aleatório</h2><button type="button" class="sel-info" id="btnInfo" aria-label="Ver detalhes" hidden>i</button><span class="sel-skin" id="btnChSkin" hidden>🎭 Segure para trocar a skin</span></div><div class="sel-lvl" id="selLvl" hidden></div>
           <div class="sel-photo" id="selPhoto"></div>
           <button type="button" class="sel-go" id="btnLutar">Selecionar</button>
           <p class="sel-hint" id="pickHint"></p>
@@ -6346,7 +6347,6 @@ function selConfirm(){if(!pickOrder().includes(pickSlot))pickSlot=pickOrder()[0]
   pickSlot=nx;selCur=pickSel[nx]||'rnd';renderOfficial();}
 $$('.duo-tog button').forEach(b=>b.onclick=()=>{const v=b.dataset.duo==='1';if(v===pickDuo)return;pickDuo=v;if(!v){pickSel[2]=null;pickSel[3]=null;}pickSlot=nextSlot();selCur=pickSel[pickSlot]||'rnd';SFX.tick();renderOfficial();});
 [0,1,2,3].forEach(i=>$('#slot'+i).onclick=()=>{pickSlot=i;selCur=pickSel[i]||'rnd';pickSel[i]=null;SFX.tick();renderOfficial();});
-$('#btnChSkin').onclick=()=>{const k=selCur;if(!k||k==='rnd'||k.startsWith('u:'))return;skOpen(k.slice(2));};
 $('#btnInfo').onclick=()=>{const k=selCur;if(!k||k==='rnd')return;if(k.startsWith('u:'))openChar(k.slice(2));else openOfficial(k.slice(2));};
 $('#selMenu').onclick=()=>$('#tabMenu').click();
 $('#selPrev').onclick=()=>selGoPage(selPage-1);$('#selNext').onclick=()=>selGoPage(selPage+1);
@@ -9783,6 +9783,17 @@ function skOpen(c){skClose();const M=document.createElement('div');M.id='skModal
     if(id&&!skOwned(id)){const s=skById(id);if(!spendCoins(s.price,'Skin: '+s.n)){SFX.clang();toast(`Faltam ${s.price-MOEDAS} moedas para ${s.n}.`);return}
       KR.skins=KR.skins||[];KR.skins.push(id);krSave();SFX.coin();try{renderCoins()}catch(_){}toast(`${s.n} comprada!`);}
     skEquip(c,id);SFX.hit();draw();try{renderOfficial()}catch(_){}};}
+/* ---- segurar o lutador (≈0,5 s) abre a escolha de skin ---- */
+(function(){let T=null,sx=0,sy=0,held=false;
+  const keyOf=t=>{if(t.closest('#selPhoto'))return selCur;const c=t.closest('.ctile');return c&&!c.classList.contains('barred')&&!c.dataset.rnd?c.dataset.k:null;};
+  const stop=()=>{clearTimeout(T);T=null;};
+  document.addEventListener('pointerdown',e=>{const el=e.target;if(!el.closest||!el.closest('#oGrid,#selPhoto'))return;const k=keyOf(el);if(!k||k==='rnd'||k.startsWith('u:'))return;if(!skOf(k.slice(2)).length)return;
+    sx=e.clientX;sy=e.clientY;held=false;stop();T=setTimeout(()=>{T=null;held=true;try{navigator.vibrate&&navigator.vibrate(25)}catch(_){}skOpen(k.slice(2));},500);},true);
+  document.addEventListener('pointermove',e=>{if(T&&Math.hypot(e.clientX-sx,e.clientY-sy)>12)stop();},true);
+  ['pointerup','pointercancel','pointerleave'].forEach(n=>document.addEventListener(n,stop,true));
+  document.addEventListener('click',e=>{if(held){held=false;e.stopPropagation();e.preventDefault();}},true);
+  document.addEventListener('contextmenu',e=>{if(e.target.closest&&e.target.closest('#oGrid,#selPhoto')&&skOf((keyOf(e.target)||'c:').slice(2)).length)e.preventDefault();},true);
+})();
 
 /* prazo do evento de Halloween: 13 dias; nos 2 últimos vira relógio */
 var EV_END=Date.parse('2026-11-03T00:00:00-03:00');
