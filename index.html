@@ -6529,7 +6529,7 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
   $('#chLock').addEventListener('submit',e=>{e.preventDefault();if($('#chPass').value.trim()===CHEAT.pass){CHEAT.unlocked=true;SFX.gong();SFX.say('Excellent');panel('cheats');}else{SFX.clang();$('#chErr').hidden=false;$('#chPass').select();}});
   $('#chD100').onchange=e=>{CHEAT.d100=e.target.checked;SFX.tick()};$('#chDmg').onchange=e=>{CHEAT.dmg=e.target.checked;SFX.tick()};$('#chGod').onchange=e=>{CHEAT.god=e.target.checked;SFX.tick()};$('#chBar').onchange=e=>{CHEAT.bar=e.target.checked;SFX.tick()};$('#chShao').onchange=e=>{CHEAT.shao=e.target.checked;SFX.tick();if(!CHEAT.shao){pickSel=pickSel.map(k=>k==='c:General Shao'?null:k);}};
   $('#chMoedas').onchange=e=>{SFX.tick();cheatMoedas(e.target.checked);};
-  $('#chCriador').onchange=e=>{CHEAT.criador=e.target.checked;SFX.tick();if(!CHEAT.criador)pickSel=pickSel.map(k=>keyLocked(k)?null:k);};
+  $('#chCriador').onchange=e=>{CHEAT.criador=e.target.checked;SFX.tick();try{hallMenuSync();fshMenuSync()}catch(_){}if(!CHEAT.criador)pickSel=pickSel.map(k=>keyLocked(k)?null:k);};
   const TERESA_CHEAT=['Trapaça? Querido, eu chamo isso de vantagem negociada. Pode usar à vontade. O contrato diz que ninguém precisa saber.',
     'Regras são para quem não tem uma boa advogada. Hoje você tem a melhor. Escolha o seu favor e não me agradeça em público.',
     'Todo mundo trapaceia, meu bem. A diferença é que eu cobro honorários. Esta rodada é por conta da casa.'];
@@ -7916,7 +7916,8 @@ function gameOver(){MUSIC.setOverride('teresa');SFX.say('Game over');
 /* ---- finais da torre ---- */
 let ZERADOS=LS.get('forja_mk_finais',[]);if(!Array.isArray(ZERADOS))ZERADOS=[];
 function finalKey(key){if(key.startsWith('u:'))return key;const f=fighterFrom(key);return 'c:'+(f?f.nome:key.slice(2));}
-function zerou(key){return ZERADOS.includes(finalKey(key));}
+const zeroLiberado=()=>!!(CHEAT.criador||ZERADOS.length);
+function zerou(key){return !!CHEAT.criador||ZERADOS.includes(finalKey(key));}
 function marcarZerado(key){const k=finalKey(key);if(!ZERADOS.includes(k)){ZERADOS.push(k);LS.set('forja_mk_finais',ZERADOS);}}
 function finalFixo(nome){return FINAIS[nome]||null;}
 function finalModelo(ch){const i=ch.input,n=i.nome,al=(i.alinhamento||'').toLowerCase(),bond=(i.lacos||[])[0];
@@ -9771,8 +9772,8 @@ async function shaoCine(opts){opts=opts||{};if(CINE_ON)return;CINE_ON=true;
 function scRelease(){const O=window.SC_HOLD;window.SC_HOLD=null;if(O)setTimeout(()=>O.remove(),700);}
 
 /* ---- Hall dos Campeões (Extras) ---- */
-function hallKeys(){return ZERADOS.filter(k=>{try{return !!fighterFrom(k)}catch(e){return false}});}
-function hallOpen(){const ks=hallKeys();if(!ZERADOS.length){SFX.clang();toast('Bloqueado. Derrote o General Shao no Modo Torre para liberar.');return false;}
+function hallKeys(){if(CHEAT.criador){return D.canon.map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).filter(k=>{try{const f=fighterFrom(k);return !!f&&f.nome!=='General Shao'}catch(e){return false}});}return ZERADOS.filter(k=>{try{return !!fighterFrom(k)}catch(e){return false}});}
+function hallOpen(){const ks=hallKeys();if(!zeroLiberado()){SFX.clang();toast('Bloqueado. Derrote o General Shao no Modo Torre para liberar.');return false;}
   const H=document.createElement('div');H.id='hall';H.className='hall';H.setAttribute('role','dialog');H.setAttribute('aria-label','Hall dos Campeões');
   H.innerHTML=`<div class="hall-bg"></div><div class="hall-head"><div class="hall-t">Hall dos Campeões</div><button type="button" class="kr-close" id="hallX">Voltar</button></div>
     <div class="hall-body"><button type="button" class="hall-cine" id="hallCine"><span class="hall-cine-bg"></span><span class="hall-cine-k">Cena</span><b>A Queda do General Shao</b><span>Veja de novo como o general caiu.</span><span class="hall-play">▶</span></button>
@@ -9784,7 +9785,7 @@ function hallOpen(){const ks=hallKeys();if(!ZERADOS.length){SFX.clang();toast('B
   H.querySelector('.hall-grid').onclick=async e=>{const b=e.target.closest('[data-k]');if(!b)return;SFX.hit();const k=b.dataset.k;const me=fighterFrom(k);if(!me)return;
     const fP=finalPara(k);await champScreen(me);const txt=await fP;await endingScreen(me,txt,'Voltar ▶');MUSIC.setOverride('abertura');};
   return true;}
-function hallMenuSync(){const b=document.getElementById('smHall');if(!b)return;const lk=!ZERADOS.length;b.classList.toggle('sm-lock',lk);b.innerHTML='Hall dos Campeões'+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');}
+function hallMenuSync(){const b=document.getElementById('smHall');if(!b)return;const lk=!zeroLiberado();b.classList.toggle('sm-lock',lk);b.innerHTML='Hall dos Campeões'+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');}
 
 /* ====== BABALITY: a descrição é de quem VIRA bebê ====== */
 const BEBE={
@@ -10912,7 +10913,7 @@ function fshStage(key){const S=FSH;if(S.lastW===key&&S.st)return;S.lastW=key;
   const st=S.stages.shift();S.st=st;{const im=new Image();im.src=st.img;}
   $('#fStage').style.backgroundImage=`url(${st.img})`;$('#fStageN').textContent=st.n;try{stageFx(st)}catch(e){}}
 function fshOpen(){
-  if(!ZERADOS.length){SFX.clang();toast('Bloqueado. Derrote o General Shao no Modo Torre para liberar.');return false;}
+  if(!zeroLiberado()){SFX.clang();toast('Bloqueado. Derrote o General Shao no Modo Torre para liberar.');return false;}
   if(FSH)return true;
   const Q=fshQueue();if(!Q.length)return false;
   const M=$('#startMenu');M.classList.add('out');setTimeout(()=>{M.hidden=true},450);
@@ -10991,7 +10992,7 @@ function fshEnd(toCred){if(!FSH)return;FSH=null;fightTok++;MUSIC.holdFx(false);f
   closeFight(true);fg.classList.remove('finshow');
   if(toCred){MUSIC.setOverride('creditos');showCredits(false);}
   else loading({action:()=>{document.body.style.overflow='';MUSIC.setOverride(null);$('#brand').click();}});}
-function fshMenuSync(){const b=document.getElementById('smFin');if(!b)return;const lk=!ZERADOS.length;b.classList.toggle('sm-lock',lk);b.innerHTML='Finalizações'+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');}
+function fshMenuSync(){const b=document.getElementById('smFin');if(!b)return;const lk=!zeroLiberado();b.classList.toggle('sm-lock',lk);b.innerHTML='Finalizações'+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');}
 
 /* ====== MODO ONLINE (salas com código) ======
    Tudo passa pela "presença" da sala: cada jogador publica o próprio estado
