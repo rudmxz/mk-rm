@@ -3150,7 +3150,7 @@ html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-
 .tc-a{background:#2b3a55;border:1px solid #6b82a8}.tc-b{border:2px solid}
 .tc-A{border-color:#ff5a5a}.tc-B{border-color:#ffd83a}.tc-C{border-color:#5aa8ff}.tc-X{border-color:#ff9a5a}.tc-Y{border-color:#6fe08a}.tc-Z{border-color:#b98aff}
 /* modo de teste e horizontal obrigatório */
-.sm-tela,#fpTela,#fpOpts .sm-tela{display:none!important}
+html.teste .sm-tela,html.teste #fpTela{display:none!important}
 #rotMsg{position:fixed;inset:0;z-index:99999;background:#05070b;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:20px}
 #rotMsg[hidden]{display:none!important}
 #rotMsg .rot-i{font-size:64px;animation:rotHint 1.6s ease-in-out infinite}@keyframes rotHint{0%,30%{transform:rotate(0)}60%,100%{transform:rotate(-90deg)}}
@@ -3559,6 +3559,7 @@ body:has(#fight:not([hidden])) .tst-badge{display:none}
       <button type="button" class="sm-item" data-act="sub" data-sub="torres">Modo Torre</button>
       <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="sobrev">Sobrevivência</button>
       <button type="button" class="sm-item" data-act="sub" data-sub="torneio">Torneio</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="versus" id="smLivre" hidden>Luta livre</button>
       <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="versus">Versus</button>
       <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="2p">2 Jogadores</button>
       <button type="button" class="sm-item" data-act="online">Online</button>
@@ -5881,8 +5882,9 @@ const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.par
 const LAND=matchMedia('(orientation: landscape)');
 const HMAP={'img/load/kitana.jpg':'img/h/load-kitana.jpg','img/load/rudolf.jpg':'img/h/load-rudolf.jpg','img/menu-lua.jpg':'img/h/menu-lua.jpg','img/intro-rm.jpg':'img/h/intro-rm.jpg','img/intro-bg.jpg':'img/h/abertura.jpg','img/menu-poster.jpg':'img/h/menu.jpg','img/menu/jogar.jpg':'img/h/jogar.jpg','img/menu/criar.jpg':'img/h/criar.jpg','img/menu/treino.jpg':'img/h/treino.jpg','img/menu/extras.jpg':'img/h/extras.jpg','img/menu/opcoes.jpg':'img/h/opcoes.jpg','img/menu/cheat.jpg':'img/h/cheat.jpg',
   'img/load/1.jpg':'img/h/criar.jpg','img/load/2.jpg':'img/h/teresa.jpg','img/load/3.jpg':'img/h/extras.jpg','img/load/4.jpg':'img/h/abertura.jpg','img/load/5.jpg':'img/h/opcoes.jpg','img/load/6.jpg':'img/h/treino.jpg','img/load/7.jpg':'img/h/jogar.jpg'};
-let TELA='h';
-const isLand=()=>TELA==='h'||(TELA==='auto'&&LAND.matches);
+var TESTE=false;
+let TELA=(()=>{try{const v=JSON.parse(localStorage.getItem('forja_mk_tela'));return ['auto','v','h'].includes(v)?v:'auto'}catch(e){return 'auto'}})();
+const isLand=()=>TESTE||TELA==='h'||(TELA==='auto'&&LAND.matches);
 const hImg=s=>(isLand()&&HMAP[s])||s;
 function setImgV(im,src){if(!im)return;im.dataset.v=src;const r=hImg(src);if(im.getAttribute('src')!==r)im.src=r;}
 function reHoriz(){const was=document.documentElement.classList.contains('land');document.documentElement.classList.toggle('land',isLand());if(was!==isLand()){try{const s=document.getElementById('tab-elenco');if(s&&!s.hidden)renderOfficial()}catch(e){}}document.querySelectorAll('img[data-v]').forEach(im=>{const r=hImg(im.dataset.v);if(im.getAttribute('src')!==r)im.src=r});}
@@ -9937,24 +9939,22 @@ function tstMoves(key){const F=fighterFrom(key);if(!F)return null;const orb=F.co
   return {F,esp,fins,brut,orb};}
 const tstDistOf=s=>/perto/i.test(s)?170:/mei[oa]/i.test(s)?420:Infinity;
 /* ====== modo de teste: o jogo todo, com luta em tempo real ====== */
-let TESTE=false;
 (function(){const h=document.querySelector('#smOpts h3');if(!h)return;let n=0,t=null;h.addEventListener('click',()=>{n++;clearTimeout(t);t=setTimeout(()=>n=0,2500);if(n>=5){n=0;tstAsk();}});})();
 function tstAsk(){if(document.getElementById('tstPass'))return;const P=document.createElement('div');P.id='tstPass';P.className='tst-pass';
   P.innerHTML=`<form class="tst-pbox"><div class="tst-pt">Área de testes</div><input type="password" inputmode="numeric" autocomplete="off" maxlength="12" placeholder="Senha" aria-label="Senha"><div class="tst-pb"><button type="submit" class="f-btn big">Entrar</button><button type="button" class="f-btn" data-x="1">Cancelar</button></div></form>`;
   document.body.appendChild(P);const inp=P.querySelector('input');setTimeout(()=>{try{inp.focus()}catch(e){}},50);
   P.addEventListener('click',e=>{if(e.target===P||e.target.closest('[data-x]'))P.remove();});
   P.querySelector('form').onsubmit=e=>{e.preventDefault();if(inp.value===TST_PASS){P.remove();SFX.gong();tstSet(!TESTE||true);}else{SFX.clang();inp.value='';const b=P.querySelector('.tst-pbox');b.classList.remove('bad');void b.offsetWidth;b.classList.add('bad');toast('Senha incorreta.');}};}
-function tstSet(on){TESTE=on;document.documentElement.classList.toggle('teste',on);let b=document.getElementById('tstBadge');
+function tstSet(on){TESTE=on;document.documentElement.classList.toggle('teste',on);let b=document.getElementById('tstBadge');const lv=document.getElementById('smLivre');if(lv)lv.hidden=!on;tstLock(on);tstRotChk();try{reHoriz()}catch(e){}
   if(!on){if(b)b.remove();toast('Modo de teste desligado.');return}
   if(!b){b=document.createElement('button');b.id='tstBadge';b.type='button';b.className='tst-badge';b.textContent='MODO TESTE · sair';b.onclick=()=>{SFX.tick();tstSet(false);};document.body.appendChild(b);}
   toast('Modo de teste ligado: as lutas agora são em tempo real.');const back=document.querySelector('#smOpts [data-act="back"]');if(back)back.click();}
-/* ====== horizontal obrigatório (o jogo todo) ====== */
-(function(){const coarse=matchMedia('(pointer:coarse)').matches;
-  const M=document.createElement('div');M.id='rotMsg';M.hidden=true;M.innerHTML='<div class="rot-i">📱</div><div class="rot-t">Gire o celular</div><div class="rot-s">O jogo só funciona na horizontal.</div>';document.body.appendChild(M);
-  const chk=()=>{M.hidden=!(innerHeight>innerWidth);};chk();addEventListener('resize',chk);addEventListener('orientationchange',()=>setTimeout(chk,150));
-  let tried=false;const lock=()=>{if(tried||!coarse)return;tried=true;try{const r=document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen({navigationUI:'hide'});const go=()=>{try{screen.orientation.lock('landscape').catch(()=>{})}catch(e){}};if(r&&r.then)r.then(go).catch(go);else go();}catch(e){}};
-  document.addEventListener('pointerdown',lock,{once:true,capture:true});
-  try{screen.orientation.lock&&screen.orientation.lock('landscape').catch(()=>{})}catch(e){}})();
+/* ====== horizontal obrigatório (só no modo de teste) ====== */
+const tstCoarse=matchMedia('(pointer:coarse)').matches;
+const tstRotM=(()=>{const M=document.createElement('div');M.id='rotMsg';M.hidden=true;M.innerHTML='<div class="rot-i">📱</div><div class="rot-t">Gire o celular</div><div class="rot-s">O modo de teste só funciona na horizontal.</div>';document.body.appendChild(M);return M;})();
+const tstRotChk=()=>{tstRotM.hidden=!(TESTE&&innerHeight>innerWidth);};
+addEventListener('resize',tstRotChk);addEventListener('orientationchange',()=>setTimeout(tstRotChk,150));
+function tstLock(on){if(!tstCoarse)return;try{if(on){const r=document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen({navigationUI:'hide'});const go=()=>{try{screen.orientation.lock('landscape').catch(()=>{})}catch(e){}};if(r&&r.then)r.then(go).catch(go);else go();}else{try{screen.orientation.unlock()}catch(e){}if(document.fullscreenElement&&TELA==='auto')document.exitFullscreen().catch(()=>{});}}catch(e){}}
 /* ====== luta em tempo real dentro da luta do jogo ====== */
 let T=null;
 const TST_ATK={A:{dmg:5,reach:100,su:.07,act:.09,rec:.2,low:false},X:{dmg:4,reach:90,su:.07,act:.08,rec:.18,low:true},C:{dmg:7,reach:125,su:.13,act:.1,rec:.32,low:false},Z:{dmg:6,reach:115,su:.1,act:.1,rec:.28,low:true}};
