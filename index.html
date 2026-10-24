@@ -3049,6 +3049,15 @@ html.land #fight .f-banner .fsh-tc img{width:min(22vw,170px,34vh)!important}
 }
 html.land{}
 html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-frz *{animation-play-state:running!important}
+/* anúncio Ana Letícia */
+.ad-html.adana .adh-in{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.7rem;text-align:center}
+.ad-html.adana .adh-t{font-size:clamp(2.2rem,9vw,3.4rem);line-height:1}
+.ad-html.adana .adana-pic{width:min(46vw,210px);aspect-ratio:1;border-radius:50%;background-size:cover;background-position:center 22%;border:3px solid #d4a017;box-shadow:0 0 0 4px rgba(0,0,0,.55),0 0 34px rgba(212,160,23,.55)}
+.ad-html.adana .adana-q{font-style:italic;max-width:24ch;color:#f6e7b8}
+.ad-html.adana .adana-c{display:flex;flex-direction:column;align-items:center;gap:.35rem;padding:.6rem .9rem;max-width:30ch}
+.ad-html.adana .adana-s{font-size:.8rem;opacity:.9}
+@media (orientation:landscape) and (max-height:520px){.ad-html.adana .adana-pic{width:min(24vh,110px)}.ad-html.adana .adh-in{gap:.35rem}.ad-html.adana .adana-q{font-size:.85rem}}
+@media (orientation:landscape) and (max-height:520px){.ad-html.adana .adh-t{font-size:1.7rem}.ad-html.adana .adh-foot{display:none}.ad-html.adana .adana-pic{width:min(22vh,92px)}.ad-html.adana .adana-s{font-size:.7rem}}
 </style>
 
 <div class="wrap">
@@ -4187,6 +4196,104 @@ LADYBUG.dialogos['Teresa']=[['Você mente pra todo mundo?','Só pra quem merece.
 D.lacosCanon['Kitana']=(D.lacosCanon['Kitana']||[]).concat([{p:'Teresa',l:'Rival'}]);
 D.lacosCanon['Johnny Cage']=(D.lacosCanon['Johnny Cage']||[]).concat([{p:'Teresa',l:'Aliado(a)'}]);
 
+/* ====== ANA LETÍCIA (convidada da novela "Três Vezes Ana") ====== */
+D.canon.push({n:'Ana Letícia',ep:'a vilã que sorri enquanto engatilha (convidada da novela Três Vezes Ana)',tom:'arrogante',g:'f',r:'Plano Terreno',e:'Convidada · Três Vezes Ana (novela)',guest:true,special:true,
+  b:'Ana Letícia é a mais ambiciosa das três irmãs idênticas separadas depois do acidente que matou os pais. Vaidosa, manipuladora e chantagista, finge bondade quando precisa e esconde uma pistola na bolsa. Chegou à Nova Era por uma fenda do caos e achou ali um mundo inteiro de gente para enganar.'});
+D.canon.sort((a,b)=>a.n.localeCompare(b.n,'pt'));
+D.lacosCanon['Ana Letícia']=[{p:'Teresa',l:'Rival'},{p:'Kitana',l:'Rival'}];
+
+const ANA_LETICIA = {
+  id:'ana-leticia', fixo:true, guest:true, criado:0,
+  input:{
+    nome:'Ana Letícia', idade:'28 anos', genero:'Mulher', sexualidade:'Não definida',
+    reino:'Plano Terreno', especie:'Ser Terreno (humana)', elemento:'Ilusão', arma:'Pistola dourada', estilo:'Tiro e golpes sujos',
+    vestimenta:'Blusa branca decotada, óculos escuros brancos, argolas e correntes de ouro, batom vermelho', cor:'#d4a017', alinhamento:'Vilã', faccao:'Nenhuma (age sozinha)',
+    personalidades:['Arrogante','Manipulador','Ambicioso'],
+    lacos:[{p:'Teresa',l:'Rival'},{p:'Kitana',l:'Rival'}],
+    desejo:'Vilã da novela Três Vezes Ana, trazida ao universo de Mortal Kombat.'
+  },
+  ficha:{
+    alcunha:'A Ana Que Sobrou',
+    frase:'Sou uma de três. E a única que importa.',
+    historia:[
+      'Ana Letícia nasceu uma de três irmãs idênticas. Depois de um acidente de carro que matou os pais, as três foram separadas. Ana Lúcia cresceu num circo, alegre e livre. Ana Laura virou uma moça sensível e solitária, com dificuldade para andar. Ana Letícia cresceu sozinha, aprendeu que ninguém dá nada a quem pede e passou a pegar tudo na marra.',
+      'Ficou esperta, vaidosa e sem escrúpulos. Chantageava quem tinha um segredo, fingia bondade quando precisava e chegou a imitar a deficiência da irmã para ganhar pena. Casou com o investigador Marcelo e, quando ele descobriu demais, mandou matá-lo. Ele sobreviveu, perdeu a memória e passou a se chamar Santiago. Ana Letícia nunca soube.',
+      'No fim da novela, a mentira desabou. A avó Ernestina morreu do coração depois de ouvir a verdade, Ana confessou uma série de crimes, ameaçou as irmãs e fugiu de carro com o tio Mariano, a única pessoa a quem ela jamais conseguiu mentir. Houve um acidente grave na estrada. Foi aí que uma fenda do caos se abriu na pista.',
+      'Em Exoterra, Ana Letícia viu rainhas e imperatrizes que a lembravam de tudo o que ela odiava: gente que nasce com tudo. Quando encontrou Teresa, quase sofreu um susto: o mesmo rosto de quem manda, o mesmo olhar de quem conquista. Só que Teresa mente para subir. Ana mente por esporte.'
+    ],
+    estilo:'Tiro e golpes sujos',
+    stats:{Força:68,Velocidade:82,Técnica:84,Magia:60,Resistência:76},
+    poderes:[
+      {n:'Cara de Anjo',d:'Faz cara de inocente e o oponente baixa a guarda. É a hora do tiro.'},
+      {n:'Chantagem',d:'Descobre o ponto fraco do oponente e o usa para fazê-lo errar.'},
+      {n:'Três em Uma',d:'Imita a voz e o jeito das irmãs para confundir quem luta contra ela.'},
+      {n:'Vaidade Ferida',d:'Quando acertam o rosto dela, o contra-ataque vem com o dobro de ódio.'}
+    ],
+    especiais:[
+      {n:'Tiro de Aviso',c:'↓ → 1',d:'Saca a pistola dourada e atira sem nem olhar.'},
+      {n:'Cara de Pena',c:'↓ ← 2',d:'Finge uma perna fraca e chora. Quando o oponente se aproxima, chuta nas costelas.'},
+      {n:'Salto de Salto',c:'↓ ↑ 3',d:'Pula por cima do oponente e acerta a nuca com o salto alto.'},
+      {n:'Segredo Revelado',c:'← → 4',d:'Sussurra o pior segredo do oponente. Ele congela, e ela atira.'},
+      {n:'Bolsa de Chumbo',c:'(perto) → ← 1',d:'Gira a bolsa pesada e acerta o rosto do oponente.'}
+    ],
+    combos:[
+      {n:'Tapa de Vilã',c:'1, 1, 2',dano:13,d:'Dois tapas e um soco de quem nunca perdeu uma briga.'},
+      {n:'Três Vezes Ana',c:'2, 1, →+3',dano:17,d:'Três golpes rápidos, como as três irmãs, e um chute alto.'},
+      {n:'Herança de Sangue',c:'3, 4, ↓+2',dano:19,d:'Golpes sujos que terminam com uma rasteira.'},
+      {n:'Confissão',c:'1, 2, 4, ↓ → 1',dano:27,d:'Quatro golpes seguidos de um tiro à queima-roupa.'}
+    ],
+    fatalities:[
+      {n:'Final de Novela',c:'→ ↓ → 1',dist:'Perto',d:'Ana Letícia saca a pistola, tira os óculos brancos devagar e sorri: "Todo vilão tem um final de capítulo." Dá um tiro entre os olhos do oponente e assopra a fumaça do cano.'},
+      {n:'Acidente na Estrada',c:'← → ↓ 2',dist:'Meia distância',d:'Um carro aparece do nada e atropela o oponente. Ana Letícia desce, ajeita o cabelo e diz: "Foi um acidente. Sempre é." Entra no carro e vai embora.'}
+    ],
+    brutalities:[],
+    golpeFatal:{n:'Três Vezes Ana',d:'Ana Letícia chora, o oponente hesita, e ela acerta três tiros, um tapa e uma coronhada no queixo.'},
+    animality:{animal:'cobra',n:'Víbora de Novela',c:'→ ← ↓ ↓ 1',d:'Ana Letícia vira uma cobra de escamas douradas, dá o bote e morde o pescoço do oponente. Depois ergue a cabeça e sorri para a câmera.'},
+    babality:{n:'Bebê Vilã',c:'↓ ← → 3',d:'Ana Letícia vira uma bebê de óculos escuros brancos que dá uma gargalhada e aponta uma pistolinha de água.'},
+    friendship:{n:'Irmãs de Novo',c:'← ↓ ← 4',d:'Ana Letícia entrega ao oponente uma foto antiga das três irmãs. "Eu era boa pessoa. Por uns dez minutos."'},
+    faccao:null,
+    kameo:{n:'Mariano',d:'O tio aparece dirigindo o carro de fuga e atropela o oponente enquanto ela ri.'}
+  },
+  espelho:[
+    ['Quem te deu permissão pra ter a minha cara?','Eu cheguei primeiro.','Mentira. Mas combina com você.'],
+    ['Você também finge que é boazinha?','Só quando preciso.','Eu também. Quem é a melhor?'],
+    ['Outra Ana? Já bastam duas.','Duas já me dão trabalho.','Então eu resolvo isso rápido.'],
+    ['Você também mandou matar o marido?','Isso é pergunta que se faça?','Entendi. Mandou.'],
+    ['Sou uma de três...','...e a única que importa.','Não. Eu sou.']
+  ],
+  dialogos:{
+    'Teresa':[
+      ['Esse rosto... Eu já vi isso num espelho.','Duas mentirosas de cara bonita. Que desperdício.','Desperdício é você ainda estar de pé.'],
+      ['Você também tem uma irmã que atrapalha?','Eu tenho um passado que atrapalha.','O meu é três vezes pior.'],
+      ['Advogada? Eu prefiro uma pistola.','Eu prefiro as duas.','Então uma de nós vai perder.']
+    ],
+    'Kitana':[['Uma princesa. Aposto que nunca teve que roubar um sorriso.','E você roubou quantos?','Todos. Estão aqui na bolsa.']],
+    'Johnny Cage':[['Ator? Faz o papel de bonzinho pra mim.','Eu faço de tudo na tela.','Eu faço de verdade.']],
+    'Mileena':[['Imperatriz? Ainda bem que não é a minha irmã.','E você tem irmãs?','Duas. Uma boazinha. Outra boazinha demais.']],
+    'Sindel':[['Uma rainha com filha. Eu perdi a minha família num acidente.','Eu perdi o meu reino.','Pelo menos o seu voltou.']],
+    'Li Mei':[['Você luta de espada. Eu luto de verdade.','A honra é minha arma.','A minha é a bala.']],
+    'Shang Tsung':[['Você rouba almas? Eu roubo segredos.','Almas valem mais.','Só até alguém descobrir o segredo.']],
+    'Havik':[['Foi o caos que me trouxe.','Eu só te trouxe uma fenda.','E eu ainda não agradeci.']],
+    'Liu Kang':[['Um deus que quer salvar todo mundo?','Todos merecem uma chance.','Nem todos.']],
+    'Scorpion':[['Você quer vingança? Eu também. De todo mundo.','Eu tenho um motivo.','Eu tenho vários.']],
+    'Sub-Zero':[['Frio como o meu coração. Combina.','Eu não sou vilão.','Ainda.']],
+    'Raiden':[['Um deus do trovão. Ninguém é tão bonzinho assim.','Eu protejo o reino.','E eu, o meu bolso.']],
+    'Rudolf':[['Um príncipe bonito. Solteiro?','Eu tenho mil e duzentos anos.','Então herança de sobra.']],
+    'Katherine Pierce':[['Quinhentos anos de mentira. Você é minha heroína.','E você, uma aprendiz.','Uma aprendiz que atira.']],
+    'Ladybug':[['Uma heroína de máscara. Que fofa.','E você, uma vilã de novela.','Vilã, não. Protagonista da minha história.']]
+  }
+};
+TERESA.dialogos['Ana Letícia']=[
+  ['Você tem o meu rosto. Devolve.','O rosto é meu. O talento também.','Então vamos ver quem usa melhor.'],
+  ['Você é a pobre que virou rica?','E você é a rica que virou perigosa.','Perigosa é pouco.'],
+  ['Duas de nós no mesmo torneio...','Uma vai sair em lágrimas.','Fingidas, claro.']
+];
+RUDOLF.dialogos['Ana Letícia']=[['Uma mulher armada em Edênia?','Armada e sem paciência.','Pelo menos é sincera.']];
+KATHERINE.dialogos['Ana Letícia']=[['Mais uma vilã de novela?','Mais uma que aprendeu com a melhor.','Ainda não aprendeu.']];
+LADYBUG.dialogos['Ana Letícia']=[['Você mente com um sorriso lindo.','E você acredita em sorrisos.','Acredito. Até agora.']];
+D.lacosCanon['Teresa']=(D.lacosCanon['Teresa']||[]).concat([{p:'Ana Letícia',l:'Rival'}]);
+D.lacosCanon['Kitana']=(D.lacosCanon['Kitana']||[]).concat([{p:'Ana Letícia',l:'Rival'}]);
+
 /* ====== JADE (desbloqueada no Modo História) ====== */
 D.canon.push({n:'Jade',ep:'a guarda-costas de Edênia e mentora do Rudolf',tom:'nobre',g:'f',r:'Edênia',e:'Modo História · Umgadi',story:true,
   b:'Guerreira edeniana da guarda Umgadi, amiga de infância e escudo da princesa Kitana. Foi ela quem ensinou o pequeno Rudolf a girar, cortar e voltar para casa com os dois leques na mão. Fala pouco, observa tudo e nunca erra um golpe de bastão.'});
@@ -4305,6 +4412,7 @@ const FINAIS={
 'Takeda':'Takeda prendeu General Shao com os chicotes e o deixou de joelhos na frente do pai. Kenshi não disse nada, só tocou o ombro do filho. Foi o suficiente. Takeda voltou para o Shirai Ryu e virou o mais jovem mestre do clã. Ainda treina todos os dias para ser tão bom quanto o pai. Talvez já seja.',
 'Tanya':'Tanya ficou com a lança de General Shao e o direito de entrar no palácio sem ser anunciada. Com o conquistador derrotado, Edênia ganhou uma voz na corte de Exoterra, e essa voz é a dela. Tanya aprendeu que, num reino de guerreiros, quem sobrevive é quem sabe fazer alianças.',
 'Katherine Pierce':'Katherine Pierce não pretendia lutar até o fim. Mas quando General Shao a chamou de "só mais uma vampira", ela fez questão de provar o contrário. Depois da vitória, roubou o tesouro de guerra dele e sumiu antes que alguém pudesse cobrar. Quinhentos anos de sobrevivência ensinam isso: sempre saia pela porta dos fundos.',
+'Ana Letícia':'Ana Letícia derrubou General Shao, tirou os óculos brancos e sorriu para a câmera: "Todo vilão tem um final de capítulo. O meu acabou de começar." Em vez de fugir, ficou em Exoterra e passou a vender segredos da corte para quem pagasse mais. Mileena a chama de conselheira. Kitana a chama de problema. Teresa a chama de espelho quebrado. Ana ri de todas, ajeita as correntes de ouro e guarda a pistola na bolsa, só por garantia.',
 'Teresa':'Teresa derrubou General Shao e não deixou ninguém esquecer disso. Em vez de voltar para o México, ficou em Exoterra e usou a vitória para conseguir um lugar na corte da imperatriz Mileena, como conselheira jurídica do império. Em poucos meses, os nobres que riam dela passaram a pedir audiência. Kitana ainda a olha de cima, mas agora precisa marcar horário. Entre ser e não ser, Teresa é.',
 'Jade':'Jade derrubou General Shao com o mesmo golpe de bastão que ensinou ao Rudolf mil vezes. Não comemorou. Voltou ao palácio, ficou um passo atrás da princesa Kitana, como sempre, e só à noite, sozinha no pátio, se permitiu um sorriso. No dia seguinte, Rudolf errou o giro de novo. Ela mandou ele fazer mais cem.',
 'Ladybug':'Ladybug derrotou General Shao, gritou "Miraculous Ladybug!" e uma nuvem de joaninhas mágicas consertou cada pedaço da arena destruída pela guerra. Mas ela não conseguiu consertar tudo: algumas feridas de Exoterra precisam de tempo. Ladybug estendeu o punho para Kitana, "Pound it!", e voltou para Paris. A cidade ainda precisa dela.',
@@ -4917,6 +5025,24 @@ function dlgConjunto(ka,kb){
 }
 function dlgDaLuta(ka,kb){const c=dlgConjunto(ka,kb);if(!c)return null;return dlgLinhas(c.lista[Math.floor(Math.random()*c.lista.length)]);}
 function dlgApagarDe(id){const o=dlgSalvos();let mud=false;Object.keys(o).forEach(k=>{if(k.split('|').includes('u:'+id)){delete o[k];mud=true}});if(mud)dlgSalvar(o);}
+
+/* ---- Ana Letícia: diálogos com a Teresa (duas lados) e com o resto do elenco ---- */
+DLGP['Ana Letícia|Teresa']=[
+  ['Que susto. Eu achei que estava olhando no espelho.','Eu também. Só que o meu espelho não tem pistola.','O meu tem. E sabe usar.'],
+  ['Mesmo rosto, mesmo olhar. Quem foi que copiou quem?','Eu nasci pobre e aprendi sozinha. Você nasceu como?','Uma de três. E sobrei.'],
+  ['Você é a advogada que mente bonito, né?','E você é a vilã que atira mal.','Mal? Eu nunca errei um tiro. Só erro quando escolho errar.'],
+  ['Você jurou que ninguém nunca mais ia pisar em você. Que fofo.','E você jurou o quê? Que ia pisar em todo mundo?','Já cumpri. Falta só você.']
+];
+DLGP['Teresa|Ana Letícia']=[
+  ['Esse rosto... Eu já vi isso num espelho.','Duas mentirosas de cara bonita. Que desperdício.','Desperdício é você ainda estar de pé.'],
+  ['Você também tem uma irmã que atrapalha?','Eu tenho duas. Uma é um circo, a outra é um drama.','Então você sobrou. Igual a mim.'],
+  ['Advogada? Eu prefiro uma pistola.','Eu prefiro as duas.','Então uma de nós vai perder.'],
+  ['Você se parece comigo. Só que sem o charme.','Charme é o que se usa quando falta pontaria.','Pontaria eu tenho. Falta só um motivo.']
+];
+Object.keys(ANA_LETICIA.dialogos).forEach(n=>{if(n!=='Teresa'&&!DLGP['Ana Letícia|'+n])DLGP['Ana Letícia|'+n]=ANA_LETICIA.dialogos[n];});
+/* mesma coisa nos objetos de personagem (usados no gerarDialogo) */
+ANA_LETICIA.dialogos['Teresa']=DLGP['Ana Letícia|Teresa'];
+TERESA.dialogos['Ana Letícia']=DLGP['Teresa|Ana Letícia'];
 
 /* ====== PACOTE SOLDADOS (DLC da Kripta): Sonya Blade, Jax e Kano ======
    Fichas fixas usadas só na luta. Não aparecem na aba Fichas. */
@@ -5668,7 +5794,7 @@ let skin=LS.get('forja_mk_skin','submundo');
 let reforja=0, lastInput=null;
 function syncExtra(){globalThis.EXTRA_CHARS=roster.map(c=>({n:c.input.nome,ep:c.ficha.alcunha,g:genKey(c.input.genero),tom:tomDe(c.input),personalidades:c.input.personalidades}));}
 syncExtra();
-function allChars(){return [RUDOLF,KATHERINE,LADYBUG,TERESA,JADE].concat(roster);}
+function allChars(){return [RUDOLF,KATHERINE,LADYBUG,TERESA,ANA_LETICIA,JADE].concat(roster);}
 
 /* ---------- som ---------- */
 /* ---------- locutor (voz grossa gravada; nomes desconhecidos caem no sintetizador) ---------- */
@@ -5984,7 +6110,7 @@ $('#btnRapido').onclick=()=>forjar(false);
 /* ---------- comandos e selos ---------- */
 function keys(c){if(!c)return'';return '<span class="keys">'+String(c).split(/(\s+|,|\+)/).filter(x=>x&&x.trim()!=='').map(t=>{
   if(/^[←→↓↑]$/.test(t))return`<span class="k">${t}</span>`;if(/^[1-4]$/.test(t))return`<span class="k btn${t}" title="${D.botoes[t]}">${t}</span>`;if(t===','||t==='+')return`<span class="ksep">${t}</span>`;return`<span class="ksep">${esc(t)}</span>`}).join('')+'</span>';}
-const FOTO={'Coelho':'img/p/coelho.jpg','Tigre':'img/p/tigre.jpg','Cobra':'img/p/cobra.jpg','Cabra':'img/p/cabra.jpg','Touro':'img/p/touro.jpg','Lorenzo':'img/p/lorenzo.jpg','Art the Clown':'img/p/art-the-clown.jpg','Freddy Krueger':'img/p/freddy-krueger.jpg','Jason Voorhees':'img/p/jason-voorhees.jpg','Stefan':'img/p/stefan.jpg','Damon':'img/p/damon.jpg','Bonnie':'img/p/bonnie.jpg','Lexi':'img/p/lexi.jpg','Sonya Blade':'img/p/sonya-blade.jpg','Jax':'img/p/jax.jpg','Kano':'img/p/kano.jpg','Jade':'img/p/jade.jpg','Teresa':'img/p/teresa.jpg','Rudolf':'img/p/rudolf.jpg','Mileena':'img/p/mileena.jpg','Kitana':'img/p/kitana.jpg','Katherine Pierce':'img/p/katherine.jpg','Sub-Zero':'img/p/sub-zero.jpg','Scorpion':'img/p/scorpion.jpg','Baraka':'img/p/baraka.jpg','Raiden':'img/p/raiden.jpg','Geras':'img/p/geras.jpg','Johnny Cage':'img/p/johnny-cage.jpg','Ladybug':'img/p/ladybug.jpg','Conan':'img/p/conan.jpg','Cyrax':'img/p/cyrax.jpg','Ermac':'img/p/ermac.jpg','General Shao':'img/p/general-shao.jpg','Ashrah':'img/p/ashrah.jpg','Ghostface':'img/p/ghostface.jpg','Havik':'img/p/havik.jpg','Homelander':'img/p/homelander.jpg','Li Mei':'img/p/li-mei.jpg','Liu Kang':'img/p/liu-kang.jpg','Kung Lao':'img/p/kung-lao.jpg','Kenshi':'img/p/kenshi.jpg','Omni-Man':'img/p/omni-man.jpg','Noob Saibot':'img/p/noob-saibot.jpg','Peacemaker':'img/p/peacemaker.jpg','Nitara':'img/p/nitara.jpg','Quan Chi':'img/p/quan-chi.jpg','Reiko':'img/p/reiko.jpg','Rain':'img/p/rain.jpg','Sektor':'img/p/sektor.jpg','Reptile':'img/p/reptile.jpg','Shang Tsung':'img/p/shang-tsung.jpg','Takeda':'img/p/takeda.jpg','Tanya':'img/p/tanya.jpg','Smoke':'img/p/smoke.jpg','T-1000':'img/p/t-1000.jpg','Sindel':'img/p/sindel.jpg'};
+const FOTO={'Coelho':'img/p/coelho.jpg','Tigre':'img/p/tigre.jpg','Cobra':'img/p/cobra.jpg','Cabra':'img/p/cabra.jpg','Touro':'img/p/touro.jpg','Lorenzo':'img/p/lorenzo.jpg','Art the Clown':'img/p/art-the-clown.jpg','Freddy Krueger':'img/p/freddy-krueger.jpg','Jason Voorhees':'img/p/jason-voorhees.jpg','Stefan':'img/p/stefan.jpg','Damon':'img/p/damon.jpg','Bonnie':'img/p/bonnie.jpg','Lexi':'img/p/lexi.jpg','Sonya Blade':'img/p/sonya-blade.jpg','Jax':'img/p/jax.jpg','Kano':'img/p/kano.jpg','Jade':'img/p/jade.jpg','Ana Letícia':'img/p/ana-leticia.jpg','Teresa':'img/p/teresa.jpg','Rudolf':'img/p/rudolf.jpg','Mileena':'img/p/mileena.jpg','Kitana':'img/p/kitana.jpg','Katherine Pierce':'img/p/katherine.jpg','Sub-Zero':'img/p/sub-zero.jpg','Scorpion':'img/p/scorpion.jpg','Baraka':'img/p/baraka.jpg','Raiden':'img/p/raiden.jpg','Geras':'img/p/geras.jpg','Johnny Cage':'img/p/johnny-cage.jpg','Ladybug':'img/p/ladybug.jpg','Conan':'img/p/conan.jpg','Cyrax':'img/p/cyrax.jpg','Ermac':'img/p/ermac.jpg','General Shao':'img/p/general-shao.jpg','Ashrah':'img/p/ashrah.jpg','Ghostface':'img/p/ghostface.jpg','Havik':'img/p/havik.jpg','Homelander':'img/p/homelander.jpg','Li Mei':'img/p/li-mei.jpg','Liu Kang':'img/p/liu-kang.jpg','Kung Lao':'img/p/kung-lao.jpg','Kenshi':'img/p/kenshi.jpg','Omni-Man':'img/p/omni-man.jpg','Noob Saibot':'img/p/noob-saibot.jpg','Peacemaker':'img/p/peacemaker.jpg','Nitara':'img/p/nitara.jpg','Quan Chi':'img/p/quan-chi.jpg','Reiko':'img/p/reiko.jpg','Rain':'img/p/rain.jpg','Sektor':'img/p/sektor.jpg','Reptile':'img/p/reptile.jpg','Shang Tsung':'img/p/shang-tsung.jpg','Takeda':'img/p/takeda.jpg','Tanya':'img/p/tanya.jpg','Smoke':'img/p/smoke.jpg','T-1000':'img/p/t-1000.jpg','Sindel':'img/p/sindel.jpg'};
 function sigil(ch,size){if(ch.foto&&!ch.fixo)return `<img class="sigil photo-sigil" src="${ch.foto}" alt="" ${size?`style="width:${size}px;height:${size}px"`:''}>`;if(FOTO[ch.input.nome]&&ch.fixo)return `<img class="sigil photo-sigil" src="${FOTO[ch.input.nome]}" alt="" ${size?`style="width:${size}px;height:${size}px"`:''}>`;const c=ch.input.cor||'#d4372a';const el=D.elementos[ch.input.elemento]||D.elementos.Fogo;const L=esc((ch.input.nome||'?')[0].toUpperCase());const id='g'+Math.random().toString(36).slice(2,8);
   return `<svg viewBox="0 0 120 120" class="sigil" ${size?`style="width:${size}px;height:${size}px"`:''} aria-hidden="true"><defs><radialGradient id="${id}" cx="50%" cy="40%"><stop offset="0" stop-color="${c}" stop-opacity=".95"/><stop offset="1" stop-color="${c}" stop-opacity=".15"/></radialGradient></defs>
   <polygon points="60,4 112,32 112,88 60,116 8,88 8,32" fill="var(--bg)" stroke="${el.cor}" stroke-width="2.5"/>
@@ -6569,7 +6695,11 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
       <div class="adh-cards"><div class="adh-card"><div class="adh-pic" style="background-image:url(img/luta/bank.jpg)"></div><b>The Bank</b><span class="adh-free">Grátis · já liberada</span></div>
       <div class="adh-card"><div class="adh-pic" style="background-image:url(img/luta/intencao.jpg)"></div><b>Intenção</b><span class="adh-price"><span class="coin"></span>150 na Kripta</span></div></div>
       <div class="adh-foot">Já na Kripta, <br>garanta já a sua.</div></div></div>`,arena:'intencao',alt:'Novas arenas: The Bank, grátis, e Intenção, 150 moedas na Kripta.',bn:{img:'img/luta/intencao.jpg',t:'Novas arenas',s:'The Bank grátis · Intenção 150',c:'Ver'}}];
-  const ADS=[{id:'halloween',ev:1,bg:'img/luta/abobora.jpg',btn:'Girar a roleta',html:()=>{const P=n=>FOTO[n]||'';const S=k=>(STAGES.find(s=>s.k===k)||{}).img||'';
+  const ADS=[{id:'ana',tab:'chars',btn:'Ver na Kripta',bg:'img/luta/mansao.jpg',html:()=>`<div class="ad-html adana"><div class="adh-bg" style="background-image:url(img/luta/mansao.jpg)"></div><div class="adh-in"><div class="adh-k">Nova personagem</div><div class="adh-t">Ana Letícia</div>
+      <div class="adana-pic" style="background-image:url(${FOTO['Ana Letícia']})"></div><div class="adana-q">“Todo vilão tem um final de capítulo.”</div>
+      <div class="adh-card adana-c"><span class="adh-free">Grátis · já liberada</span><span class="adana-s">2 fatalities · animality · friendship · babality · final da torre</span></div>
+      <div class="adh-foot">Vilã de <i>Três Vezes Ana</i>. Já está no seu elenco.</div></div></div>`,alt:'Nova personagem grátis: Ana Letícia, a vilã de Três Vezes Ana, com fatalities, animality, friendship, babality e final da torre. Já liberada.',bn:{img:'img/p/ana-leticia.jpg',t:'Ana Letícia · Grátis',s:'Nova vilã de Três Vezes Ana',c:'Ver'}},
+  {id:'halloween',ev:1,bg:'img/luta/abobora.jpg',btn:'Girar a roleta',html:()=>{const P=n=>FOTO[n]||'';const S=k=>(STAGES.find(s=>s.k===k)||{}).img||'';
     return `<div class="ad-html adw"><div class="adh-bg" style="background-image:url(img/luta/abobora.jpg)"></div><div class="adw-glow" aria-hidden="true"></div><div class="adw-in">
       <div class="adw-head"><div class="adh-k">🎃 Evento de Halloween 🎃</div><div class="adw-t">Roleta de <br>Halloween</div><div class="adw-sub">Gire e leve o <b>Freddy Krueger</b></div></div>
       <div class="adw-sec adw-fs"><div class="adw-h">Novos lutadores</div><div class="adw-row">
@@ -6718,6 +6848,7 @@ const KITS={
  'T-1000':{atr:[3,1,0,4],fx:'lanca',p2:KP('Metal Líquido','O metal se fecha sozinho: recupera 2 de vida quando fica abaixo da metade.',{pk:'regen',v:2}),p4:KG('Braço-Lança','O braço vira uma lança de metal.',{h:2,dd:[2,2],s:'F',e:'sang',ec:.5,fx:'lanca'}),p5:{e:'sang',ec:.4},p6:KS('Perseguição Implacável','Ele não para. Nunca.',{h:3,dd:[3,6],s:'F',e:'lent',ec:1,fx:'lanca'})},
  'Takeda':{atr:[2,4,1,1],fx:'chicote',p2:KP('Treino do Shirai Ryu','Golpe rápido com +1 no acerto.',{pk:'acerto',a:'rapido',v:1}),p4:KG('Chicote de Kunais','As lâminas estalam no alvo.',{h:2,dd:[1,5],s:'A',e:'sang',ec:.5,fx:'chicote'}),p5:{e:'sang',ec:.4},p6:KS('Legado de Kenshi','A telecinese do pai junto com os chicotes.',{h:3,dd:[3,6],s:'M',e:'ator',ec:.7,fx:'tele'})},
  'Tanya':{atr:[1,3,3,1],fx:'fogo',p2:KP('Traição Calculada','Quem está quase caindo sofre mais: +2 de dano.',{pk:'exec',v:2}),p4:KG('Pirotecnia','Fogo saindo do bastão Umgadi.',{h:2,dd:[1,5],s:'M',e:'quei',ec:.5,fx:'fogo'}),p5:{e:'quei',ec:.4},p6:KS('Dança do Umgadi','O bastão gira em chamas.',{h:3,dd:[3,6],s:'A',e:'ator',ec:.6,fx:'impacto'})},
+ 'Ana Letícia':{atr:[2,3,2,1],fx:'bala',p2:KP('Cara de Anjo','Finge inocência e acerta quando ninguém espera: crítico com 19 ou 20.',{pk:'crit',v:1}),p4:KG('Tiro de Aviso','A pistola dourada e um sorriso sem culpa.',{h:2,dd:[1,4],s:'A',e:'ator',ec:.35,fx:'bala'}),p5:{e:'lent',ec:.4},p6:KS('Final de Novela','Todo vilão tem um final de capítulo.',{h:4,dd:[3,6],s:'A',e:'quei',ec:.8,fx:'bala'})},
  'Teresa':{atr:[1,3,2,2],fx:'faca',p2:KP('Cláusula de Proteção','Teresa nunca paga o preço cheio: todo dano recebido cai 1.',{pk:'red',v:1}),p4:KG('Argumento Afiado','A adaga de prata e uma frase que desarma.',{h:2,dd:[1,4],s:'A',e:'lent',ec:.6,fx:'faca'}),p5:{e:'lent',ec:.4},p6:KS('Sentença Final','Caso encerrado.',{h:4,dd:[3,6],s:'M',e:'ator',ec:.7,fx:'impacto'})},
  'Sonya Blade':{atr:[2,4,0,2],fx:'anel',p2:KP('Treino Militar','Sempre pronta: +2 na iniciativa.',{pk:'ini',v:2}),p4:KG('Anéis de Energia','Os braceletes disparam anéis.',{h:3,dd:[1,4],s:'A',e:'ator',ec:.35,fx:'anel'}),p5:{e:'ator',ec:.3},p6:KS('Ataque Aéreo','Sonya chama o apoio das Forças Especiais.',{h:3,dd:[3,6],s:'A',e:'quei',ec:1,fx:'missil'})},
  'Jax':{atr:[5,0,0,3],fx:'impacto',p2:KP('Braços Biônicos','Agarrão com +3 de dano.',{pk:'grab',v:3}),p4:KG('Soco Sísmico','Soca o chão e a onda derruba o alvo.',{h:0,dd:[2,4],s:'F',e:'ator',ec:.5,fx:'onda'}),p5:{e:'ator',ec:.35},p6:KS('Gotcha!','Agarra e soca sem parar.',{h:2,dd:[3,4],s:'F',gr:1,e:'ator',ec:1,fx:'impacto'})},
@@ -9510,7 +9641,7 @@ function cheatMoedas(on){const s=LS.get(SNAP_KEY,null);
   try{renderCoins()}catch(e){}try{if(krOpen)renderKripta()}catch(e){}}
 /* se a página fechou com o cheat ligado, desfaz ao abrir de novo */
 (function(){const s=LS.get(SNAP_KEY,null);if(s&&typeof s==='object'){MOEDAS=+s.m||0;LS.set('forja_mk_moedas',MOEDAS);if(s.kr){KR={chars:s.kr.chars||[],arenas:s.kr.arenas||[],arts:s.kr.arts||[],habs:s.kr.habs||[],ev:s.kr.ev||{hw:0}};krSave();}if(Array.isArray(s.log)){MOEDA_LOG=s.log;LS.set('forja_mk_moedas_log',MOEDA_LOG);}LS.set(SNAP_KEY,null);}})();
-const KR_FREE=['Rudolf','Kitana','Mileena','Sindel','Liu Kang','Kung Lao','Raiden','Johnny Cage','Scorpion','Sub-Zero','Li Mei','Baraka'];
+const KR_FREE=['Rudolf','Kitana','Mileena','Sindel','Liu Kang','Kung Lao','Raiden','Johnny Cage','Scorpion','Sub-Zero','Li Mei','Baraka','Ana Letícia'];
 const KR_STORY={'Reiko':1,'Teresa':2,'Katherine Pierce':3,'Nitara':3,'Rain':6,'Havik':7,'Shang Tsung':9,'Jade':10,'General Shao':10};
 const KR_STORY_LBL=i=>i===10?'terminar o Modo História':`terminar o ${i===0?'Prólogo':'Capítulo '+i} do Modo História`;
 const KR_BASE=['Ashrah','Geras','Kenshi','Reptile','Smoke','Tanya'];
@@ -9828,6 +9959,7 @@ const BEBE={
  'T-1000':{n:'Bebê de Metal',d:'O T-1000 vira um bebê prateado que se derrete numa poça, se refaz de cabeça para baixo e imita a babá.'},
  'Takeda':{n:'Bebê Shirai Ryu',d:'Takeda vira um bebê que gira as kunais de chicote de brinquedo, se enrosca todo e pede ajuda ao pai.'},
  'Tanya':{n:'Bebê Umgadi',d:'Tanya vira uma bebê que gira uma lancinha de espuma e fica de guarda na porta do berço, muito séria.'},
+ 'Ana Letícia':{n:'Bebê Vilã',d:'Ana Letícia vira uma bebê de óculos escuros brancos que dá uma gargalhada de vilã e aponta uma pistolinha de água para o oponente.'},
  'Teresa':{n:'Bebê Advogada',d:'Teresa vira uma bebê de terninho que bate o martelinho de juiz no chão e exige "ordem no berçário".'},
  'Sonya Blade':{n:'Bebê Sargento',d:'Sonya vira uma bebê de boininha militar que faz continência, tenta uma flexão e cai de cara na fralda.'},
  'Jax':{n:'Bebê de Braço Biônico',d:'Jax vira um bebê com bracinhos de metal que bate palmas tão forte que o chão treme.'},
@@ -10572,6 +10704,8 @@ const FA_OVR={
   'Ladybug|Miraculous Ladybug':[{t:'swarm',w:'emoji:🐞',n:24},{t:'die',k:'dust'}],
   'Rudolf|Reverência Real':[{t:'throw',w:'leque_fogo',h:.35,back:true},{t:'throw',w:'leque_fogo',h:.62,back:true},{t:'cut',r:'many'}],
   'Rudolf|Coisa de Família':[{t:'throw',w:'leque',h:.3},{t:'throw',w:'leque_fogo',h:.55},{t:'die',k:'burn'}],
+  'Ana Letícia|Final de Novela':[{t:'barrage',w:'bala',n:1},{t:'die',k:'fall'}],
+  'Ana Letícia|Acidente na Estrada':[{t:'beat',n:2},{t:'drop',w:'emoji:🚗'}],
   'Teresa|Sentença Final':[{t:'throw',w:'faca',h:.45,stick:true},{t:'die',k:'fall'}],
   'Teresa|Humilhação Pública':[{t:'beat',n:2},{t:'drop',w:'emoji:👠'}],
   'Stefan|O Estripador':[{t:'bite'},{t:'die',k:'dust'}],
