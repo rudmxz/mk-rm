@@ -1,0 +1,309 @@
+=Cabra|Cabra
+A: Duas de mim? Isso é perigoso demais pra qualquer arena. / Relaxa, eu sei o que tô fazendo. Na maioria das vezes. / É justamente isso que me assusta.
+A: Qual fio você corta, o vermelho ou o azul? / O vermelho. Sempre o vermelho. / Então eu corto o azul, só pra contrariar.
+
+=Cabra|Touro
+A: Touro! Você nunca sorri? / Sorrio quando a missão termina. / Então hoje eu faço a missão terminar rapidinho.
+A: Ruth, você ainda guarda aquele anel? / Guardo. E não fala dele. / Tá, tá. Mas a Vera ia amar.
+B: Cabra, essas bombas são seguras? / Seguras é uma palavra forte. / Então fica longe de mim com elas.
+B: Você brinca demais pra quem perdeu alguém. / Se eu parar de brincar, eu desmonto. / Então brinca. Mas luta sério.
+
+=Cabra|Ashrah
+A: Uma espada que brilha! Dá pra ligar ela num carregador? / Kriss não é um aparelho. / Que pena, ia ser útil.
+A: Você também carrega culpa, né? / Carrego desde o Submundo. / Eu carrego desde uma explosão.
+B: Sinto uma tristeza enorme em você. / Disfarço bem, né? / Não tão bem quanto pensa.
+B: Kriss pode aliviar sua culpa. / Só se trouxer minha irmã de volta. / Isso ela não pode.
+
+=Cabra|Baraka
+A: Tarkatan! Suas lâminas são de metal? Dá pra ligar num fio? / Lâminas são carne e osso. / Que desperdício de condutividade.
+A: Você explode? / Baraka não explode. / Hoje explode.
+B: Garota pequena com brinquedos de fogo. / Pequena e perigosa. / Baraka vai provar.
+B: Você cheira a pólvora. / É meu cheiro favorito. / Baraka gosta.
+
+=Cabra|Conan
+A: Bárbaro! Já viu dinamite? / Que bruxaria é essa? / Bruxaria moderna, querido.
+A: Sua espada é bonita. Minhas bombas também. / Espada não explode. / Ainda.
+B: Por Crom, que barulho foi esse? / Foi só um teste. / Testa longe de mim!
+B: Mulher guerreira! Respeito. / Valeu, grandão. Agora sai do raio da explosão. / Que raio?
+
+=Cabra|Cyrax
+A: Robô! Me deixa invadir seu sistema? Só um pouquinho? / Acesso bloqueado. / Desafio aceito.
+A: Seu código é mais velho que eu. / Sistema operacional: estável. / Estável e fácil de hackear.
+B: Ameaça detectada: invasão digital. / Opa, me pegou. / Contramedida iniciada.
+B: Pergunta: por que você sorri? / Porque eu já achei uma brecha no seu sistema. / Erro. Erro.
+
+=Cabra|Ermac
+A: Quantas almas cabem aí dentro? Dá pra fazer backup? / Não somos arquivos. / Que pena.
+A: Telecinese! Dá pra desarmar bomba de longe? / Podemos fazer explodir de longe. / Opa, deixa quieto.
+B: Sentimos uma alma pequena perto de você. / Aila? / Ela sente sua falta.
+B: Uma irmã. Nós sentimos. / Para. Por favor. / Nós vamos lembrar por você.
+
+=Cabra|General Shao
+A: General! Que martelo grande. Compensando alguma coisa? / Insolente! / Era só curiosidade.
+A: Seu trono tem fiação elétrica? / Meu trono é de pedra. / Que antiquado.
+B: Uma rata de rua com bombinhas. / Cabra, não rata. E as bombinhas são grandes. / Vou esmagar você e as bombas.
+B: Ajoelhe-se e talvez eu te contrate. / Eu já tenho um chefe ruim. / Então morra.
+
+=Cabra|Geras
+A: Você controla o tempo? Me leva pra antes daquela explosão? / Não posso mudar isso. / Nem um pouquinho?
+A: Areia do tempo! Que bonito. Explode? / Não explode. / Que desanimador.
+B: Em muitas linhas, sua irmã vive. / Não nesta. / Nesta, infelizmente, não.
+B: Você carrega o tempo nas costas. / E você carrega culpa. / As duas pesam.
+
+=Cabra|Ghostface
+A: Ghostface! Faca é tão anos 90. Já pensou em explosivo? / Explosivo é exagerado. / Exagero é minha especialidade.
+A: Você liga pras vítimas? Eu hackeio o telefone delas. / Uau. Isso é mais assustador. / Né?
+B: Qual seu filme de terror favorito? / Aquele em que a bomba não explode. / Esse não existe.
+B: Seus óculos de aviador são legais. / Valeu! E sua máscara é estranha. / Obrigado!
+
+=Cabra|Havik
+A: Havik! Você ri do caos? Eu faço o caos. / Hahaha! Somos amigos! / Não exagera.
+A: Pescoço torto! Posso fazer um raio-X? / Pode explodir também! / Opa, não.
+B: Mostre o caos das suas bombas! / Vai ser barulhento. / Eu adoro barulho!
+B: Uma garota que destrói tudo! / Só o que precisa. / O caos leva todo mundo!
+
+=Cabra|Homelander
+A: Super-herói! Seu laser é feito de quê? / De mim. / Que resposta convencida.
+A: Você é muito famoso. Dá pra hackear suas redes? / Ninguém mexe nas minhas redes. / Já mexi.
+B: Uma garotinha com fogos de artifício. / Garotinha nada. E é dinamite. / Que coisa mais fofa.
+B: Ninguém me fere. / Ninguém, até explodir uma bomba na sua cara. / Tente.
+
+=Cabra|Jade
+A: Jade! Seu bastão gira muito. Dá pra colocar uma bomba na ponta? / Nem pensar. / Tava só sugerindo.
+A: Você protege a princesa. Eu protegia minha irmã. / E aí? / Não deu certo.
+B: Você parece alguém que perdeu muito. / Perdi a única família que eu tinha. / Então lute em nome dela.
+B: Edênia não aceita explosivos. / Edênia nunca viu os meus. / E nem vai.
+
+=Cabra|Johnny Cage
+A: Johnny Cage! Seus filmes têm explosão? / Muita! / Então eu sou sua dublê.
+A: Bora fazer uma cena de ação? Eu explodo um carro. / Você tem um carro? / Hackeei um agora.
+B: Cara, você é muito irada. / Nem precisa dizer. / Faz um filme comigo?
+B: Me dá um autógrafo? / Só se for numa banana de dinamite. / Topo!
+
+=Cabra|Katherine Pierce
+A: Katherine! Quinhentos anos e ainda sem celular decente? / Eu tenho o melhor celular. / Hackeei ele faz duas horas.
+A: Egoísta. / É o segredo da sobrevivência. / Eu pensava na minha irmã.
+B: Uma garota esperta. Gosto disso. / Valeu. Mas não confio em você. / Ninguém confia. É meu charme.
+B: Você trairia seus amigos por um desejo? / Por um desejo específico, sim. / Então somos parecidas.
+
+=Cabra|Kenshi
+A: Você é cego? Que sorte, não vai se assustar com a explosão. / Eu sinto a explosão. / Então se prepara.
+A: Lê minha mente! O que tem lá? / Fios, piadas e uma garotinha. / Não toca na garotinha.
+B: Sinto culpa em você. / Culpa grande, né? / Do tamanho de um orfanato.
+B: Sento vai desarmar suas bombas. / Uma espada desarmando bomba? Quero ver. / Vai ver.
+
+=Cabra|Kitana
+A: Princesa! Seus leques são de metal? Dá pra eletrificar? / Não toque nos meus leques. / Tá, tá.
+A: Você tem irmã? / Tenho. A Mileena. / Cuida bem dela. Eu não cuidei da minha.
+B: Você parece ter perdido alguém. / Minha irmã. Por culpa minha. / Sinto muito. De verdade.
+B: Edênia já teve muitas explosões. / Nenhuma como as minhas. / Vamos ver.
+
+=Cabra|Kung Lao
+A: Kung Lao! Seu chapéu é afiado. Já pensou em colocar um motor? / Nunca. / Ia girar muito mais.
+A: Monge! Você medita? Eu não consigo parar quieta. / Isso dá para ver. / Vou considerar isso um elogio.
+B: Você fala muito rápido. / E penso mais rápido ainda. / Então lute rápido.
+B: Os monges não usam explosivos. / Os monges não sabem o que estão perdendo. / Paz interior.
+
+=Cabra|Ladybug
+A: Ladybug! Você conserta tudo com o Lucky Charm? / Tudo que o vilão estraga. / Conserta uma explosão antiga?
+A: Seu ioiô é tão legal. Dá pra colocar um chip? / Não! / Pergunta inocente.
+B: Ainda dá tempo de escolher outro caminho. / Meu caminho tem uma irmã no final. / Então eu te ajudo a chegar lá do jeito certo.
+B: Lucky Charm, me ajuda! / Que objeto é esse? / Um alicate. Corte o fio vermelho.
+
+=Cabra|Li Mei
+A: Li Mei! Suas explosões são de energia? / São. / As minhas são de pólvora. Mais clássico.
+A: Você é general? Que chique. / E você é uma ladra. / Ex-ladra. Agora sou terrorista.
+B: Sua tecnologia é primitiva. / Primitiva e funcional. / Vamos ver.
+B: Exoterra precisa de engenheiros. / Eu sou péssima com ordens. / Dá para ver.
+
+=Cabra|Liu Kang
+A: Deus do fogo! Me ensina a soltar fogo sem pólvora? / Fogo vem da alma. / A minha só tem fumaça.
+A: Você reescreveu o tempo. Não dava pra salvar a Aila? / Eu sinto muito. / Sente nada.
+B: Sinto uma dor enorme em você. / E eu sinto que você não vai me ajudar. / Posso te ajudar a seguir em frente.
+B: O fogo do dragão purifica. / O meu explode. / São fogos diferentes.
+
+=Cabra|Mileena
+A: Mileena! Você é irmã da Kitana? / Sou. / Cuida bem dela. Por mim.
+A: Seus sais são de metal? Conduzem eletricidade? / Por quê? / Curiosidade científica.
+B: Você parece triste por trás das piadas. / Eu sou triste por trás de tudo. / Eu também já fui.
+B: Vou morder você, cabrinha. / Morde e leva um choque. / Que curioso.
+
+=Cabra|Nitara
+A: Vampira com asas! Já pensou em turbinas? / Minhas asas são naturais. / Turbinas são melhores.
+A: Você quer separar seu reino. Eu quero separar uma alma do outro lado. / Isso não existe. / Veremos.
+B: Seu sangue tem gosto de fumaça. / É o que eu como no café da manhã. / Que nojo.
+B: Você é uma criança com fogo. / Criança nada. E com muito fogo. / Cuidado.
+
+=Cabra|Noob Saibot
+A: Noob! Você some na sombra? Explosão ilumina tudo. / Inclusive você. / Por isso eu tenho óculos.
+A: Você foi Sub-Zero antes? / Fui. / E agora é o quê? Gótico?
+B: As sombras sabem da sua irmã. / Elas que fiquem quietas. / Elas sussurram o nome dela.
+B: Essa luz me fere. / Então vou acender mais. / Experimenta e vê.
+
+=Cabra|Omni-Man
+A: Viltrumita! Você é à prova de explosão? / Sou quase indestrutível. / Quase é uma palavra que eu adoro.
+A: Seu bigode é muito sério. / O seu cabelo é bagunçado. / É moda!
+B: Uma humana com brinquedos de fogo. / Brinquedos que vão te chamuscar. / Duvido.
+B: Viltrumitas não temem nada. / Ninguém teme, até o pavio acabar. / Que ridículo.
+
+=Cabra|Peacemaker
+A: Peacemaker! Você tem um capacete. Eu tenho óculos. Somos estilosos. / Somos demais! / Bora explodir alguma coisa juntos?
+A: Pela paz, eu explodo. Combina? / Combina demais! / Alguém que pensa como eu.
+B: Você tem munição de sobra? / Tenho bombas de sobra. / Ótimo, a gente se completa.
+B: Paz na base da bala! / Paz pela explosão! / Agora sim.
+
+=Cabra|Quan Chi
+A: Feiticeiro! Sua magia tem fio? / Minha magia é antiga. / Antiga e sem wi-fi.
+A: Você traz mortos de volta? / Como revenants. / Então não serve pra mim.
+B: Eu poderia trazer sua irmã de volta. / Do seu jeito? Como zumbi? / Como serva.
+B: Sua alma é cheia de dor. Gosto disso. / Deixa ela em paz. / Já toquei.
+
+=Cabra|Raiden
+A: Deus do trovão! Posso recarregar meu celular em você? / Que falta de respeito. / É economia.
+A: Seus raios dão quantos volts? / Mais do que você aguenta. / Desafio aceito.
+B: Sua dor é grande, criança. / Não sou criança. / Para um deus, todos são.
+B: Proteja os vivos. / Eu tento trazer de volta os mortos. / Isso tem um preço.
+
+=Cabra|Rain
+A: Rain! Água e eletricidade não combinam. Você sabe, né? / Sei. / Então cuida com meus fios.
+A: Você é filho de deus? Que mimado. / Eu não sou mimado! / Um pouquinho.
+B: Você é só uma garota de rua. / E você é só um príncipe molhado. / Insolente!
+B: A chuva vai apagar seus pavios. / Os meus são à prova d'água. / Impossível.
+
+=Cabra|Reiko
+A: Reiko! O cachorrinho do Shao. / Lealdade é força. / Lealdade é coleira.
+A: Seu shuriken tem chip? / Não. / Que desperdício.
+B: Exoterra não aceita ladras. / Ainda bem que eu não pedi pra entrar. / Então vá embora.
+B: Você é leal a alguém? / À minha irmã. / Ela não está aqui.
+
+=Cabra|Reptile
+A: Lagartixa! Você fica invisível? Dá pra fazer isso com tecnologia. / Ssssério? / Me dá cinco minutos e um fio.
+A: Seu ácido derrete fios? / Ssssim. / Então fica longe dos meus.
+B: Ssssinto cheiro de fumaça. / É meu cheiro natural. / Ssssombrio.
+B: Ssssua tecnologia é barulhenta. / E você é escorregadio. / Ssssempre.
+
+=Cabra|Rudolf
+A: Rudolf! Seus leques são de fogo? Que desperdício, devia ser pólvora. / Cara, é fogo mágico. / Mágico e menos eficiente.
+A: Bora fazer uma dupla de comédia? / Já tenho o Tigre de parceiro de piada. / O Tigre é ótimo, mas eu sou melhor.
+B: Cabra, você explode tudo? / Só o necessário. Às vezes o desnecessário. / Minha mãe ia te odiar.
+B: Tua irmã ia gostar de mim? / Ia te achar um bobo. / É o maior elogio que eu já recebi.
+
+=Cabra|Scorpion
+A: Scorpion! Você é feito de fogo? Igual minhas bombas! / Meu fogo vem do inferno. / O meu vem do mercado.
+A: Vem cá! Ficou bom? / Isso é coisa minha. / Desculpa.
+B: Você perdeu sua família. / Perdi minha irmã. Foi culpa minha. / Então lute pela memória dela.
+B: Vingança te consome? / Culpa me consome. / É pior.
+
+=Cabra|Sektor
+A: Robozinha vermelha! Deixa eu ver sua placa-mãe? / Permissão recusada. / Já entrei no sistema.
+A: Seus mísseis são de que modelo? / Classificado. / Classificado e fácil de hackear.
+B: Detectada tentativa de invasão. / Ops. / Iniciando contramedida.
+B: Chance de vitória: mínima. / Probabilidade da sua placa queimar: alta. / Revisando estratégia.
+
+=Cabra|Shang Tsung
+A: Shang Tsung! Você troca de rosto? Dá pra fazer com máscara de silicone. / Minha magia é real. / A minha também. Só que tem fio.
+A: Você rouba almas? Me empresta uma? / Para quê? / Pra uma garotinha que eu conheço.
+B: Eu poderia ser sua irmã. Quer ver? / Não. Por favor, não. / Hah. Fácil demais.
+B: Sua alma tem gosto de culpa. / Vai te dar indigestão. / Veremos.
+
+=Cabra|Sindel
+A: Rainha! Seu grito quebra vidro? Quebra tela de celular também? / Quebra tudo. / Que inconveniente.
+A: Você protege suas filhas? / Até o último suspiro. / Eu não protegi minha irmã.
+B: Você precisa de alguém que cuide de você. / Eu cuidava de alguém. / Agora é a sua vez de ser cuidada.
+B: Nada vale mais que a família. / Tudo que eu perdi. / Então reconstrua.
+
+=Cabra|Smoke
+A: Smoke! Você é feito de fumaça? Minhas bombas fazem fumaça também! / A minha é melhor. / Discutível.
+A: Você some. Eu explodo. / Eu sou mais discreto. / Eu sou mais divertida.
+B: Sua fumaça cheira mal. / É pólvora, querido. / Horrível.
+B: Ser leal é o que importa. / Lealdade à minha irmã. Só isso. / Isso basta.
+
+=Cabra|Sub-Zero
+A: Sub-Zero! Seu gelo apaga meus pavios? / Apaga. / Então vou usar fio elétrico.
+A: Você é muito sério. / O Lin Kuei exige seriedade. / Poxa vida.
+B: Seus explosivos são instáveis. / Como eu. / Isso é perigoso.
+B: O gelo vai parar você. / Por cinco segundos. / Já basta.
+
+=Cabra|T-1000
+A: Metal líquido! Deixa eu ver seu código? / Entrada negada. / Que pena, eu ia te deixar mais bonito.
+A: Você se reconstrói depois de explodir? / Confirmado. / Que desafio interessante.
+B: Analisando: humana com explosivos. / Humana com muito explosivo. / Ameaça elevada.
+B: Proposta: desarmamento. / Proposta recusada. / Esperado.
+
+=Cabra|Takeda
+A: Takeda! Bora testar quem é mais rápido? Você chicoteia, eu explodo. / Mano, isso parece perigoso. / É, é sim.
+A: Você lê mentes? O que tem na minha? / Fios, piadas e uma garotinha. / Não menciona ela.
+B: Sua mente é muito barulhenta. / É o barulho das bombas. / Não, é o barulho da saudade.
+B: Meu pai diria que essa raiva te cega. / Ele parece um homem bom. / Ele é.
+
+=Cabra|Tanya
+A: Tanya! Sua lança tem ponta de metal? Conduz eletricidade? / Não toque nela. / Só curiosidade.
+A: Ainda guarda a rainha? / Sempre. / Eu sou leal à minha irmã.
+B: Quanto barulho você faz. / E você é muito séria. / A seriedade me mantém viva.
+B: Já traí Edênia no passado. / Eu traio quem precisar. / Que honesta.
+
+=Cabra|Teresa
+A: Teresa! Você é advogada? Me defende no tribunal? / Do quê? / De muitas explosões.
+A: Seu celular tem senha fraca. / Quem te contou? / Já hackeei.
+B: Você é um processo ambulante. / E você é uma cliente cara. / Sou mesmo.
+B: Pense na sua defesa antes de explodir algo. / Eu penso depois. / Péssima estratégia.
+
+=Cabra|Sonya Blade
+A: Sonya Blade! Você desarma bombas? / Desarmo bombas e pessoas. / Uau, que medo.
+A: Você parece a Touro. / Quem? / Uma amiga. Mais legal que você.
+B: Você está presa por posse de explosivos. / Você vai ter que me alcançar primeiro. / Fácil.
+B: Bombas caseiras são crime. / E dormir na rua também era? / Não é desculpa.
+
+=Cabra|Jax
+A: Jax! Seus braços são biônicos? Me deixa ver a fiação? / Nem pensar. / Só uma olhadinha.
+A: Você tem filha? / Tenho. / Cuida bem dela.
+B: Você parece uma garota que precisa de ajuda. / Eu já tive ajuda. Não deu certo. / Tenta de novo.
+B: Esses explosivos são perigosos. / Só pra quem chega perto. / Eu tô perto.
+
+=Cabra|Kano
+A: Kano! Você vende explosivos? / Vendo tudo, parceira. / Me vende uma caixa?
+A: Seu olho vermelho é uma câmera? Deixa eu hackear. / Nem pensar. / Já tô vendo o que você vê.
+B: O Dragão Negro adoraria você. / Eu sou ótima em tudo. / Então entra.
+B: Quanto você quer por essas bombas? / Um preço que você não paga. / Eu sempre tenho mais.
+
+=Cabra|Stefan
+A: Stefan! Você escreve diário? Eu tenho um blog secreto. / Que moderno. / Tem até senha.
+A: Você também perdeu alguém? / Muitos. / Eu perdi a mais importante.
+B: Sinto muito pela sua irmã. / Como você percebeu? / Seus olhos falam.
+B: A culpa não traz ninguém de volta. / Mas o desejo do Hexatombe traz. / Todo desejo cobra caro.
+
+=Cabra|Damon
+A: Damon! Você é o vampiro mais irado. / Disso eu sei bem. / Bora explodir alguma coisa juntos?
+A: Você protege seu irmão? / Do jeito torto, sim. / Eu protegia minha irmã do jeito torto também.
+B: Gostei de você, cabrinha. / Não me chama assim. / Cabrinha.
+B: Você trairia o mundo por quem ama? / Trairia. / Então somos farinha do mesmo saco.
+
+=Cabra|Lexi
+A: Lexi! Bora fazer uma festa com fogos de artifício? / Agora sim! / Eu levo os fogos.
+A: Trezentos e cinquenta anos? Você já viu muitas explosões? / Nenhuma tão boa quanto as suas, aposto. / Aposta certa.
+B: Você é muito divertida! / Você também! / Então vamos brigar com carinho.
+B: Sua irmã ia gostar de mim? / Ia te achar a vampira mais legal do mundo. / Que amor.
+
+=Cabra|Bonnie
+A: Bruxa! Seus feitiços explodem? / Nem sempre. / Então somos irmãs de profissão.
+A: Suas ancestrais trazem mortos de volta? / Com um preço enorme. / Pago o que for preciso.
+B: Sinto uma garotinha perto de você. / Aila? Ela tá aqui? / Ela tá sempre perto.
+B: Magia contra explosivos. / Explosivos ganham. / Veremos.
+
+=Cabra|Art the Clown
+A: Um palhaço! Você gosta de fogos de artifício? / (Art bate palmas sem som e acena que sim.) / Então você vai amar isso.
+A: Nem uma palavra? / (Art fecha a boca com um zíper imaginário.) / Tá. Mas explode também?
+B: (Art tenta pegar uma das bombas da Cabra.) / Larga isso! / (Art solta a bomba e sai correndo.)
+B: (Art imita os óculos de aviador da Cabra com as mãos.) / Ficou ridículo. / (Art faz um joinha.)
+
+=Cabra|Freddy Krueger
+A: Freddy! Você entra nos sonhos? Hackeia meu sonho então. / Já hackeei, docinho. Tem uma garotinha lá. / Fica longe dela.
+A: Suas garras contra meus fios. / Quatro lâminas contra fios coloridos. Fácil. / Tem bomba no fio.
+B: Seu pesadelo tem uma explosão. / Todo pesadelo meu tem. / Que delícia.
+B: Durma bem, cabrinha. / Eu não durmo desde aquele dia. / Então eu te visito acordada.
+
+=Cabra|Jason Voorhees
+A: Jason! Facão é tão antiquado. Já pensou em explosivo? / (Jason inclina a cabeça.) / Tá, entendi. Gosta do facão.
+A: Você também perdeu alguém, né? / (Jason aperta o facão, ouvindo a voz da mãe.) / Eu entendo.
+B: (Jason caminha devagar na direção da Cabra.) / Para aí, que tem mina no chão! / (Jason pisa na mina e continua andando.)
+B: (Jason olha para as bombas da Cabra.) / Quer uma? / (Jason nega, sem pressa.)

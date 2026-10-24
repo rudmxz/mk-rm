@@ -1,0 +1,57 @@
+=Scorpion|Scorpion
+A: Outro Kuai Liang. Na sua linha, Bi-Han voltou? / Voltou como sombra. E eu não consegui trazê-lo. / Então lute por nós dois. Eu ainda acredito.
+A: Seu clã sobreviveu? / Sobreviveu. Pequeno e teimoso. / Como o meu. Isso me dá esperança.
+
+=Scorpion|Sektor
+A: Sektor. Você ficou no Lin Kuei quando eu saí. / O clã precisava de alguém para manter a ordem. / O clã precisava de alguém para dizer não ao meu irmão.
+A: Suas armaduras protegem o clã ou o controlam? / As duas coisas. / Então cuidado com o que constrói.
+B: Kuai Liang. Você abandonou o clã. / Eu segui a honra. / A honra deixou o clã sem você.
+B: Análise: fogo de alta intensidade. Origem espiritual. / Obrigado. / Kuai Liang. O clã ainda guarda o seu lugar na mesa. Ninguém tem coragem de sentar.
+
+=Scorpion|Shang Tsung
+A: Feiticeiro. Você ronda os templos do Shirai Ryu. / Seu clã tem almas tão jovens e tão leais. / Por isso eu durmo com a kunai na mão.
+A: Nas linhas antigas, você enganou muitos Scorpions. / E posso enganar você também. / Não nesta linha.
+B: Kuai Liang. Sua alma é tão honrada. Que sabor nobre. / Ela não é sua. / Ainda. Eu tenho a paciência de mil ladrões.
+B: Eu posso virar o Bi-Han. / Então eu vou saber que não é ele. Ele nunca me olharia assim. / Interessante.
+
+=Scorpion|Sindel
+A: Imperatriz. O feitiço do Shang Tsung foi forte. Mas você voltou. / Minhas filhas me trouxeram. / O meu irmão não voltou ainda. Me dê esperança. Lute.
+A: Imperatriz. A sua voz protege. O meu fogo também. / Então vamos ver quem protege com mais força. / Isso é uma competição de guardiões. Eu aceito.
+B: Grão-Mestre. Seu clã é bem-vindo em Edênia. / Obrigado, imperatriz. / Mas lute. Edênia não recebe ninguém sem testar.
+B: Kuai Liang. Lute comigo. Quero ver a honra do Shirai Ryu. / Com prazer. / Então mostre. E diga ao seu irmão que a família espera.
+
+=Scorpion|Smoke
+A: Tomas. Treino ou teste? / Teste. Igual quando o Bi-Han nos colocava para lutar um contra o outro. / Só que hoje, quem perde não fica sem jantar.
+A: Você me seguiu quando eu saí do clã. / Eu sempre vou te seguir. / E eu sempre vou te proteger.
+B: Kuai Liang. Bi-Han ainda pode voltar? / Eu acredito que sim. / Então lutemos para estar prontos.
+B: Kuai Liang. Lute comigo como se eu fosse inimigo. / Eu nunca conseguiria. / Então finja. Por mim. É o único jeito de eu melhorar.
+
+=Scorpion|Sub-Zero
+A: Bi-Han. Volte para o caminho certo. / Eu sou o caminho certo. / Você está se perdendo.
+A: Bi-Han. O gelo está crescendo no seu coração. / O gelo é disciplina. / O gelo é solidão. E eu não vou deixar você ficar sozinho nele.
+B: Kuai Liang. Você traiu o clã. / Eu segui a honra. / A honra é o clã.
+B: Meu gelo vai apagar seu fogo. / Meu fogo vai derreter o seu gelo e encontrar meu irmão. / Seu irmão está aqui. E vai te derrubar.
+
+=Scorpion|T-1000
+A: Máquina. Você não tem honra. / Honra não é necessária. / Para mim, é tudo.
+A: Você imita formas. Imite um ninja. / Posso imitar a forma. / Mas não a honra.
+B: Alvo: ninja de fogo. Ameaça alta. / Obrigado. / Calor não afeta metal líquido. Ou afeta?
+B: Você é ineficiente. / Eu sou honrado. / Honra não é eficiência.
+
+=Scorpion|Takeda
+A: Takeda. Nas outras linhas, você treinou com o Shirai Ryu. / Eu queria treinar nesta também. / Você é bem-vindo.
+A: Takeda. Suas kunais voltam como as minhas. / Eu treinei com o Shirai Ryu em outras linhas. Lembro de você. / Então lute como um aluno que voltou para casa.
+B: Grão-Mestre! Posso aprender com você? / Pode. Mas seu pai precisa autorizar. / Ele vai dizer não.
+B: Grão-Mestre, posso ouvir os seus pensamentos? / Você vai ouvir o meu irmão. / ...Desculpa. Eu não queria ouvir isso.
+
+=Scorpion|Tanya
+A: Umgadi. Você jurou proteger a imperatriz. / Com a vida. / O Shirai Ryu também jura. A honra de vocês é igual à nossa.
+A: Tanya. Sua calma é de quem já viu muita guerra. / Já vi. E já vi a Mileena chorar escondida. / Então sua calma é força. Não frieza.
+B: Grão-Mestre. Seu clã é jovem. / Mas honrado. / Então lute com honra. A Umgadi também é jovem nesta era.
+B: Kuai Liang. Lute comigo. Quero ver o fogo do Shirai Ryu. / Com prazer. / Então mostre. A imperatriz está olhando da sacada.
+
+=Scorpion|Teresa
+A: Advogada. Você vendeu informações dos dois lados. / Eu vendi verdades. Cada lado comprou a que queria. / O Shirai Ryu chamaria isso de traição com recibo.
+A: Teresa. Você quer o mundo inteiro. / E você só quer o seu clã. Que pequeno. / Meu clã é o meu mundo. Ele é grande o bastante.
+B: Fogo e vingança. Eu entendo. / Você não entende nada de honra. / Honra não paga aluguel.
+B: Um ninja de fogo. Você seria um ótimo segurança na minha mansão. / Eu não sirvo a ninguém. / Nem por um salário de nobre? / Nem por um reino.

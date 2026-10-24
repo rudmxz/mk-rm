@@ -1,0 +1,237 @@
+=Ashrah|Ashrah
+A: Você também carrega a Kriss. Ela já te chamou de pura? / Ainda não. Talvez nunca chame. / Então somos duas esperando a mesma resposta.
+A: Uma demônia me olhando com os meus olhos. Que piada cruel. / Ou um aviso. Uma de nós ainda vai cair. / Que seja a que parou de lutar contra si mesma.
+
+=Ashrah|Baraka
+A: Sua pele apodrece, mas sua alma ainda está limpa. / Diga isso aos nobres que fecharam as portas para o meu povo. / Eu digo. Depois que eu terminar com você.
+A: A Tarkat não é castigo, Baraka. É só uma doença. / Fácil dizer quando a sua maldição é bonita. / A minha mata quem eu amo. Não me fale de bonito.
+B: Uma demônia que quer virar santa. Que história engraçada. / E um nobre que virou lâmina. Cada um com a sua. / A minha pelo menos protege alguém.
+B: O Shao me prometeu cura e mentiu. O que você me promete? / Nada. Eu não faço promessas que a Kriss não pode cumprir. / Pelo menos é honesta. Agora lute.
+
+=Ashrah|Conan
+A: Você carrega muitas mortes, bárbaro. Nenhuma pesa? / Eu durmo bem. Quem me atacou primeiro não merece insônia. / Inveja. Eu não durmo há séculos.
+A: Sua espada não tem nome? / Tem dono. Isso basta. / A minha me escolheu. E ainda me julga.
+B: Uma espada que limpa a alma. Em Ciméria a gente lavava a alma no rio gelado. / Funciona para pecados pequenos. / Então os seus devem ser enormes.
+B: Você fala como sacerdotisa e luta como mercenária. / Já fui as duas coisas, de certa forma. / Ótimo. Gosto de gente que não esconde o passado.
+
+=Ashrah|Cyrax
+A: Tanta armadura para um corpo tão jovem. / A armadura sou eu que fiz. O corpo veio de fábrica. / Engraçado. Vamos ver se ela aguenta a Kriss.
+A: O Lin Kuei manda crianças para o torneio agora? / Manda a melhor. Que por acaso é a mais nova. / Orgulho é o primeiro pecado que a espada corta.
+B: Meus sensores dizem que você não é humana. / Seus sensores estão certos. Isso te assusta? / Não. Só muda a calibragem do disparo.
+B: Essa espada brilha quando você acerta. Posso escanear? / Toque nela e ela decide se você é digna. / Ok, vou escanear de longe.
+
+=Ashrah|Ermac
+A: Quantas almas presas aí dentro? / Muitas. E todas ouviram falar da sua espada. / Então todas sabem que eu vim libertá-las.
+A: Eu sinto dor em cada voz que sai de você. / Nós somos dor. E somos força. / A Kriss distingue as duas.
+B: Nós sentimos uma demônia tentando lavar as mãos. / E eu sinto mil prisioneiros fingindo ser um só. / Fingir é tudo o que nos resta.
+B: Sua espada quer nos separar. / Quer dar descanso a quem não pediu para estar aí. / Alguns de nós pediram. Lute por todos.
+
+=Ashrah|General Shao
+A: Você cheira a sangue de inocentes, general. / Cheiro a vitória. Para os fracos, é a mesma coisa. / Então vou te ensinar a diferença.
+A: Exoterra não precisa de mais um tirano. / Exoterra precisa de um punho. E eu tenho dois. / E eu tenho uma lâmina que não perdoa.
+B: Uma demônia arrependida. Você seria uma ótima soldada. / Eu fugi do Submundo para não servir a monstros. / Todo mundo serve a alguém. Escolha bem.
+B: Sua espada sagrada não para o meu martelo. / Seu martelo não para o que eu vim fazer. / Veremos qual dos dois quebra primeiro.
+
+=Ashrah|Geras
+A: Você é feito de tempo. Eu sou feita de culpa. / Os dois passam. Os dois voltam. / Então lute comigo até um de nós cansar.
+A: Você já viu todas as versões de mim? / Em algumas você se purifica. Em outras você cai. / Não me diga qual é esta.
+B: Eu já vi você vencer a sua própria natureza. Mais de uma vez. / E perder? / Também. Por isso estou aqui.
+B: Liu Kang quer saber o que uma demônia faz na Nova Era. / Caça demônios. Diga a ele que o trabalho é infinito. / Ele sabe. Ele mesmo criou essa era.
+
+=Ashrah|Ghostface
+A: Você não é demônio. Mas faz trabalho de um. / Obrigado. Eu ensaio muito. / Pena que a Kriss não aplaude.
+A: Por trás dessa máscara tem só um homem assustado. / Ou dois. Às vezes três. É uma franquia. / Eu não entendo. Mas vou cortar todos.
+B: Alô? Aqui é sua fã número um. Gosta de filmes de terror? / Eu vivi no Submundo. Seus filmes são contos de ninar. / Uau. Vou anotar isso para o roteiro.
+B: Faca contra espada. Que clássico. / Na arena não existe clássico. Existe quem sobra. / Adoro quando a vítima entende as regras.
+
+=Ashrah|Havik
+A: O caos escorre de você como pus. / E a culpa escorre de você como perfume. Eu prefiro o meu cheiro. / A Kriss vai limpar os dois.
+A: As fendas que você abriu trouxeram demônios para a Nova Era. / Trouxeram liberdade! Os demônios só aproveitaram a festa. / Eu estou aqui para encerrar a festa.
+B: Ashrah! Por que lutar contra o que você é? Seja demônio! Seja livre! / Já fui livre do seu jeito. Nunca fui tão presa. / Ahh, a ordem fala bonito pela sua boca.
+B: Sua espada adora regras. Eu adoro quebrá-las. / Então quebre esta: eu não vou fugir de você. / Hahaha! Que delícia de teimosia.
+
+=Ashrah|Homelander
+A: Tanto poder e nenhuma paz. Eu conheço esse olhar. / Você não me conhece. Ninguém me conhece. / Esse é exatamente o olhar.
+A: Você quer ser amado como se fosse um deus. / Eu sou amado. Pergunte a qualquer um. / Eles têm medo. Não é a mesma coisa.
+B: Uma demônia com espada mágica. Bonitinho. / Ela corta coisas que você nem sabe que tem. / Eu não tenho nada para cortar. Eu sou perfeito.
+B: Você acha que pode me julgar? / A espada julga. Eu só seguro. / Então segura firme, porque vai voar.
+
+=Ashrah|Jade
+A: A guarda Umgadi tem fama de não confiar em ninguém. / A Umgadi confia em quem prova. Prove. / Com prazer. A Kriss também precisa me ver lutar por algo bom.
+A: Você protege uma família inteira com um bastão. / Com o bastão e com a vida. / Eu entendo. Só a minha família é a minha própria alma.
+B: Uma demônia perto do palácio. Me dê um motivo para não te derrubar. / Eu caço o que ameaça a sua princesa. / Então caçaremos juntas. Depois desta luta.
+B: Sua espada brilha diferente quando você erra. / Ela me lembra de cada erro. / A minha mentora fazia o mesmo. Chamava de aula.
+
+=Ashrah|Johnny Cage
+A: Você ri de tudo. Até da morte. / Rir da morte é a minha especialidade. Fiz três filmes sobre isso. / Ela não assistiu nenhum.
+A: Seu brilho verde é bonito. Mas é vazio. / Vazio? Isso aqui é carisma, querida. / Carisma não para uma lâmina.
+B: Demônia, espada mágica, olhar trágico. Você seria a vilã perfeita no meu próximo filme. / Eu não sou vilã. / É isso que as melhores vilãs dizem.
+B: Posso autografar sua espada? / Ela queimaria a sua mão. / Tá, eu autografo a bainha.
+
+=Ashrah|Katherine Pierce
+A: Uma vampira de outro mundo. A Kriss não sabe o que pensar de você. / Bem-vinda ao clube. Ninguém sabe. / Eu sei. Você é uma sobrevivente. Eu também.
+A: Você mentiu por quinhentos anos. / E sobrevivi por quinhentos anos. Uma coisa paga a outra. / A minha espada cobra juros.
+B: Uma demônia que quer ser boa. Isso é tão... cansativo. / Ser má também cansa. Você sabe disso. / Touché. Mas eu durmo melhor.
+B: Me empresta essa espada por uma noite? / Ela purificaria você. Você deixaria de ser você. / Então definitivamente não.
+
+=Ashrah|Kenshi
+A: Sua espada guarda espíritos. A minha os liberta. / Os meus ancestrais escolheram ficar. / Então os respeito. E luto contra você mesmo assim.
+A: A Sento fala com você? / Sussurra. E agora sussurra o seu nome. / Bom ou ruim? / Cuidado. É o que ela diz.
+B: Senti sua lâmina antes de te ver. / Ela quer ser sentida. Eu, nem tanto. / Então lute em silêncio. Eu escuto melhor assim.
+B: Duas espadas com alma. Uma de nós sai daqui mais leve. / Ou mais pesada. / A Sento acha que vai ser você.
+
+=Ashrah|Kitana
+A: A princesa que comanda exércitos. Sua guerra é contra quem? / Contra quem ameaça o meu povo. Inclusive demônios. / Então estamos do mesmo lado. Ainda assim, lute.
+A: Seus leques cortam limpo. Você nunca hesita? / Hesitei uma vez. Perdi um soldado. Nunca mais. / Eu hesito todo dia. A Kriss não deixa eu esquecer.
+B: Os relatos dizem que você caça demônios no meu reino. / Os demônios vêm pelas fendas. Eu só sigo o rastro. / Então siga com cuidado. Exoterra tem regras.
+B: Você tem o olhar de quem carrega um fardo. / Você também, princesa. / O meu tem nome. Chama Rudolf. E faz piada o dia inteiro.
+
+=Ashrah|Kung Lao
+A: Seu chapéu corta como uma lâmina sagrada. / Sagrada nada. É de aço e eu afio no domingo. / Pelo menos você é honesto.
+A: Você luta para ser o melhor. Eu luto para ser melhor. / É quase a mesma frase. / Não é.
+B: Uma demônia boazinha. O Raiden vai me pedir para não te machucar. / O Raiden não está aqui. / Ótimo. Então eu posso me exibir.
+B: Já enfrentei coisas piores que você. / Duvido. Mas eu gosto da confiança. / A confiança é metade do golpe. A outra metade é o chapéu.
+
+=Ashrah|Ladybug
+A: Seu poder cria. O meu destrói. / Destruir o que faz mal também é criar espaço. / Você fala como alguém mais velha.
+A: Uma heroína que nunca precisou matar. / Nunca precisei. E não pretendo começar. / Então você é mais forte do que eu.
+B: Essa espada... ela purifica, não é? Como o meu ioiô com as akumas. / Parecido. Só que eu sou a akuma. / Então eu vou te ajudar a se libertar. Depois da luta.
+B: Você parece cansada de lutar contra si mesma. / Todo dia. / Eu também tive dias assim. Tikki diz que passa.
+
+=Ashrah|Li Mei
+A: A nova general de Exoterra. Ouvi falar de você. / Espero que coisas boas. / Ouvi que você não negocia com traidores. Isso é bom.
+A: Sua energia explode. A minha queima por dentro. / A minha também queima. Só que pra fora. / Vamos ver qual fogo dura mais.
+B: Uma demônia dentro das muralhas. Qual é a sua missão? / Caçar os que vieram pelas fendas. / Então reporte para mim. Depois de lutar.
+B: Eu não confio em quem veio do Submundo. / Nem eu. Por isso eu caço. / Bom argumento. Ainda assim, mostre a espada.
+
+=Ashrah|Liu Kang
+A: Deus do Fogo. Na sua Nova Era, existe lugar para alguém como eu? / Existe lugar para quem escolhe o caminho certo. / Então me deixe provar que escolhi.
+A: Você recriou o mundo. Por que não recriou o Submundo? / Algumas sombras precisam existir para a luz fazer sentido. / Fácil falar quando você é a luz.
+B: Eu vi você nas linhas antigas. Você era diferente. / Eu era mais cruel. Ou mais honesta. / Nesta era, você pode ser só livre.
+B: A Kriss reconhece um coração puro. Ela reage a mim? / Ela brilha. Eu não sei se é respeito ou inveja. / Talvez os dois. Venha.
+
+=Ashrah|Mileena
+A: A imperatriz carrega a Tarkat com orgulho. / Eu carrego o trono. A doença vem junto. / Admiro quem não esconde o que é.
+A: Você tem dentes de demônio. / E um coração de imperatriz. Pergunte à Tanya. / Não precisa. Dá para ver.
+B: Uma demônia no meu reino sem convite. / Eu vim limpar o que entrou pelas fendas. / Então você trabalha para mim agora. Mostre serviço.
+B: Me disseram que essa espada pode curar maldições. / Ela cura almas. A Tarkat é do corpo. / Pena. Seria um presente para o meu povo.
+
+=Ashrah|Nitara
+A: Uma criatura da noite com asas. A Kriss está curiosa. / A sua espada que fique longe do meu pescoço. / Isso depende de você.
+A: Você quer libertar Vaeternus. Eu quero libertar a mim mesma. / Libertação custa sangue. / Sempre custa.
+B: Você mata demônios. Eu sou vampira. Somos inimigas? / Depende do que você faz com quem morde. / Faço o que for preciso pelo meu povo.
+B: Seu cheiro é de enxofre e flores. / O Submundo e a esperança. / Que combinação esquisita. Lute.
+
+=Ashrah|Noob Saibot
+A: Pura escuridão. A Kriss treme na sua frente. / Treme de medo. / Treme de vontade.
+A: Você já foi um homem, Bi-Han. / Eu já fui fraco. Agora sou sombra. / Sombras também se dissipam.
+B: Uma demônia lutando pela luz. Patético. / Melhor que um homem lutando pela escuridão. / O Havik me deu o que eu sempre quis.
+B: Sua espada não alcança o vazio. / Então vou trazer o vazio até ela. / Tente.
+
+=Ashrah|Omni-Man
+A: Você conquista mundos e chama isso de ordem. / Viltrum traz estabilidade. Não é bonito, mas funciona. / O Submundo também funciona. Eu fugi de lá.
+A: Você é quase indestrutível. / Quase não. Totalmente. / A Kriss gosta de desafios.
+B: Uma espada brilhante e um passado sombrio. Você seria útil para Viltrum. / Eu não sirvo a impérios. / Todo mundo serve a um império. Uns só não sabem ainda.
+B: Seu povo morreria em um dia contra o meu. / Meu povo já morreu. Eu sou o que sobrou. / Então lute como quem não tem mais nada.
+
+=Ashrah|Peacemaker
+A: Você mata pela paz? / Exato. Paz de verdade custa caro. / Que estranho. Eu mato pela minha própria paz.
+A: Seu capacete brilha mais que a minha espada. / Eu limpo todo dia. Higiene é importante. / Não tenho resposta para isso.
+B: Uma demônia que caça demônios. Isso é tipo um policial que prende policial? / Algo assim. / Respeito. Mas ainda vou atirar em você.
+B: Paz e redenção são quase a mesma coisa, não? / A paz é para os outros. A redenção é minha. / Entendi. Você é tipo eu, só que mais triste.
+
+=Ashrah|Quan Chi
+A: Necromante. Você transforma mortos em escravos. / Eu dou a eles um propósito. / Eu vou te dar um descanso. Para sempre.
+A: Sinto todas as almas que você corrompeu. / Então sinta também a sua própria corrupção. / A minha eu enfrento todo dia. A sua, eu enfrento hoje.
+B: Ashrah. Eu conheço a sua história. Você nunca vai ser pura. / Talvez não. Mas nunca vou ser você. / É o que todos dizem antes de se ajoelhar.
+B: Essa espada pertence ao Submundo. Devolva. / Ela pertence a quem quer sair de lá. / Então você vai voltar junto com ela.
+
+=Ashrah|Raiden
+A: Você não tem mais o poder dos deuses. Mas tem algo puro. / Eu tenho um arado e um amigo com chapéu. É o que eu tenho. / É mais do que muitos deuses tinham.
+A: O campeão da Terra. Você é tão jovem. / Liu Kang diz que idade não importa. Coragem importa. / Concordo. Mostre a sua.
+B: Você parece triste. Posso ajudar? / Você quer ajudar uma demônia? / Liu Kang me ensinou a julgar as ações, não a origem.
+B: Sua espada brilha mais quando você me olha. / Ela sente que você é bom. / Espero que ela não sinta o meu medo também.
+
+=Ashrah|Rain
+A: Você é orgulhoso como um rei sem reino. / Um dia eu vou ter o meu reino. / Cuidado com o preço que vai pagar por ele.
+A: Sua água não apaga a minha culpa. / Minha água apaga qualquer coisa. / Duvido.
+B: Uma demônia achando que é melhor que eu. / Eu não acho que sou melhor. Acho que você é perdido. / Perdido? Eu sou príncipe de Edênia!
+B: Sua espada é bonita. Ficaria bem na minha coleção. / Ela não se deixa colecionar. / Tudo se deixa, se o preço for certo.
+
+=Ashrah|Reiko
+A: Você segue o Shao como um cão. / Eu sigo o poder. O Shao é o poder. / Então vou cortar o seu poder.
+A: Um general sem honra. / Honra não ganha guerras. / Nem o cinismo.
+B: Uma demônia sozinha em Exoterra. Que alvo fácil. / Sozinha, sim. Fácil, nunca. / Vamos ver.
+B: O Shao pagaria bem pela sua espada. / Ele não poderia segurá-la. / Ninguém resiste ao Shao.
+
+=Ashrah|Reptile
+A: Você se esconde do mundo. Eu me escondo de mim. / Às vezes é a mesma coisa. / Você fala com sabedoria, Syzoth.
+A: Os zaterranos são caçados por serem diferentes. / E você, por ser demônia. / Então sabemos o que é fugir.
+B: Senti o cheiro do Submundo em você. / E eu senti o seu medo de ser visto. / Não é medo. É prática.
+B: Por que você não se esconde, como eu? / Porque a minha espada só brilha à luz. / Então eu luto nas sombras e você na luz.
+
+=Ashrah|Rudolf
+A: Você esconde a dor atrás de piadas, príncipe. / E você esconde atrás de uma espada brilhante. Cada um com o seu acessório. / Pelo menos o meu acessório corta.
+A: Seus leques queimam com a chama do Deus do Fogo. / Isso é boato da corte. Eu prefiro dizer que é talento. / A Kriss sente algo divino em você. Mesmo assim.
+B: Uma demônia que quer redenção. Eu quero um café. Cada um tem a sua busca. / Você não leva nada a sério? / Levo. Só não na frente de espadas brilhantes.
+B: Minha mentora Jade diz que você caça demônios nas fronteiras. / A sua mentora é sábia. / Ela é. Mas não conta pra ela que eu disse.
+
+=Ashrah|Scorpion
+A: Você deixou o Lin Kuei por honra. / Deixei por meus princípios. E pela minha família. / Então somos parecidos. Eu deixei o inferno.
+A: Seu fogo é puro. Não é do Submundo. / É do meu clã. Do Shirai Ryu. / A Kriss aprova.
+B: Uma demônia na minha frente. Meu instinto diz para atacar. / O meu diz para entender você. / Então entenda isto.
+B: O Shirai Ryu luta para proteger. E você? / Para me libertar. / Liberte-se lutando com honra.
+
+=Ashrah|Sektor
+A: Uma tenente cheia de máquinas. Onde fica a alma? / Na estratégia. Nos cálculos. Nos planos. / Que alma fria.
+A: Você constrói armaduras para salvar o seu clã. / E você constrói redenção para salvar a si mesma. / Bem colocado.
+B: Meus scanners não conseguem ler a sua espada. / Ela não é para ser lida. É para ser sentida. / Dados insuficientes. Iniciando combate.
+B: Uma demônia. Interessante para estudo. / Eu não sou um experimento. / Todos somos. Até o Grão-Mestre.
+
+=Ashrah|Shang Tsung
+A: Você rouba almas. A minha espada as devolve. / Que desperdício de almas boas. / Quero devolver a sua também.
+A: Eu sinto a podridão das almas presas em você. / Elas são minhas. E delas, eu tiro força. / Hoje eu tiro a sua.
+B: Uma demônia arrependida. Que alma deliciosa. / Ela não está à venda. / Tudo está à venda. Até a redenção.
+B: Sua espada... ela me lembra de algo que eu perdi. / A sua humanidade? / Hah. Algo bem mais valioso.
+
+=Ashrah|Sindel
+A: A imperatriz cuja voz quebra montanhas. / E cujo coração já foi quebrado. / Eu entendo. Os dois podem ser reconstruídos.
+A: Você foi controlada pelo feiticeiro. / E me libertei com a ajuda das minhas filhas. / A família é uma Kriss também.
+B: Uma demônia no meu palácio. Explique-se. / Eu caço o que ameaça a sua família. / Então você tem a minha bênção. E a minha desconfiança.
+B: Sinto tristeza em você. / Tristeza é tudo o que me move. / Então lute por algo maior.
+
+=Ashrah|Smoke
+A: Tomas. Você some na fumaça como as almas que eu caço somem no Submundo. / A diferença é que eu volto por vontade própria. / Então volte inteiro. A Kriss só corta o que precisa.
+A: Você é leal a irmãos que não são de sangue. / Sangue não decide família. / Concordo. Eu escolhi a minha redenção.
+B: Uma demônia lutando por luz. / Um assassino lutando por família. / Todos temos algo para proteger.
+B: Sua espada é bonita. Mas eu não vou estar onde ela bater. / A Kriss sempre encontra. / Duvido.
+
+=Ashrah|Sub-Zero
+A: Você comanda o Lin Kuei com mão de gelo. / Comando com disciplina. / Disciplina sem coração é só frio.
+A: Sinto algo podre crescendo em você, Bi-Han. / Você sente o seu próprio cheiro, demônia. / Cuidado com o que vai virar.
+B: Uma demônia invadindo o nosso território. / Eu caço demônios, não guerreiros. / Hoje você caça o gelo.
+B: O Lin Kuei não precisa de redenção. / Precisa sim. Todos precisam. / Prove isso.
+
+=Ashrah|T-1000
+A: Você não tem alma. A Kriss não sabe como reagir. / Alma não é um requisito funcional. / Talvez seja isso que te falta.
+A: Sua forma muda o tempo todo. / Adaptação é sobrevivência. / Na minha terra, chamamos isso de mentira.
+B: Alvo identificado. Ameaça: moderada. / Moderada? Eu já sobrevivi ao Submundo. / Ajustando. Ameaça: elevada.
+B: Arma brilhante detectada. / Não é só uma arma. / Toda arma é só uma arma.
+
+=Ashrah|Takeda
+A: O filho do espadachim cego. / Meu pai não é cego nesta linha. Mas tudo bem, eu entendo o drama. / Você tem a sabedoria dele. E a língua solta.
+A: Seus chicotes são rápidos. / E a sua espada é linda. Posso dizer isso sem parecer estranho? / Você acabou de dizer.
+B: Meu pai me falou de espadas que guardam almas. A sua é uma delas? / A minha liberta almas. / Então ele vai querer conversar com você.
+B: Você parece triste. Posso fazer uma piada? / Se ela for boa. / Um demônio entra num bar... Ok, não tenho final.
+
+=Ashrah|Tanya
+A: Umgadi. Vocês juram proteger a família real até a morte. / Até depois, se for preciso. / Isso é devoção. Eu respeito.
+A: Sua lealdade é para a imperatriz ou para o coração? / Para as duas. Elas moram no mesmo lugar. / Bonito.
+B: Uma demônia rondando a imperatriz. Afaste-se. / Eu protejo o que ela protege. / Então prove. Comigo.
+B: Sua espada brilha quando você pensa em algo bom. / Você percebeu isso? / Eu observo tudo. É o meu trabalho.
+
+=Ashrah|Teresa
+A: Você mente para subir. Eu luto para me redimir. / Cada uma com a sua escada, querida. / A minha não tem degrau de mentira.
+A: Seu brilho é de diamante. O meu é de culpa. / Diamante dura mais. / Culpa também.
+B: Uma espada que limpa a alma? Eu conheço gente que pagaria fortunas por isso. / Ela não se vende. / Tudo se vende. Só depende de quem compra.
+B: Você tem cara de quem nunca foi feliz. / E você tem cara de quem nunca foi honesta. / Honestidade é luxo de quem nasceu rico.

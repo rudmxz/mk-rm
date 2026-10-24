@@ -1,0 +1,251 @@
+=Sektor|Sektor
+A: Outra Sektor. Comparando projetos: o seu propulsor esquenta demais. / O seu tem um parafuso solto no ombro esquerdo. Eu vi daqui. / ...Atualizando. Vamos ver quem calibrou melhor.
+A: Na sua linha, o Lin Kuei virou o quê? / Uma linha de montagem. Todos de armadura. Ninguém com nome. / Então eu construo para evitar isso. Lute para que eu consiga.
+
+=Sektor|Shang Tsung
+A: Feiticeiro. Meus sensores leem muitas assinaturas de alma em você. / Uma coleção. / Uma infecção.
+A: Você pode copiar a minha forma. Não os meus cálculos. / Eu copio tudo. Até o que você esconde. / Então copie o meu próximo golpe. Antes que ele chegue.
+B: Tenente. Uma mente tão fria. Que alma organizada. / Minha alma é eficiente. / Eficiência é deliciosa.
+B: Eu posso virar o seu Grão-Mestre. / Então meus sensores vão saber que não é ele. Ele não sorri. / Hah. Esperta.
+
+=Sektor|Sindel
+A: Imperatriz. Minha análise diz que sua voz pode romper minha armadura. / Sua análise está certa. / Então vou testar com os ouvidos tampados.
+A: Você foi controlada por feitiçaria. Minhas armaduras bloqueiam controle mental. / Eu adoraria ter uma naquele dia. / Posso fazer uma para a senhora. Depois da luta.
+B: Tenente do Lin Kuei. Você observa o meu palácio. / O Lin Kuei observa tudo. / Então observe a minha voz chegando.
+B: Lute comigo. Quero ver a tecnologia do Plano Terreno. / Análise: será instrutivo para as duas. / Ótimo. Eu adoro aprender.
+
+=Sektor|Smoke
+A: Tomas. Você saiu do clã. / Eu segui o Kuai Liang. / O clã sente sua falta. Eu também. Não registre isso.
+A: Tomas. Sua fumaça entupiu meus filtros de novo. / Saudade? / Sim. Dos filtros limpos. E de você. Registro apagado.
+B: Sektor. Você ainda confia no Grão-Mestre? / Eu confio no clã. O clã é maior que um homem. / Espero que você esteja certa. Se precisar sair, o Shirai Ryu tem uma porta aberta.
+B: Lute comigo como nos velhos tempos. / Nos velhos tempos você perdia. / Nos velhos tempos você não tinha mísseis.
+
+=Sektor|Sub-Zero
+A: Grão-Mestre. As armaduras estão prontas. / Ótimo. Teste-as em mim. / Isso é um risco. / Risco é disciplina.
+A: Seus dados mudaram, Grão-Mestre. Sua temperatura corporal está abaixo do normal. / O gelo é minha força. / Ou um sintoma.
+B: Sektor. Você questiona demais. / Eu analiso demais. / Análise demais atrasa o golpe.
+B: Mostre que merece o posto. / Eu construí o posto. / Construir não é merecer.
+
+=Sektor|T-1000
+A: Uma máquina avançada. Posso ver o seu código? / Acesso negado. / Vou acessar à força. Pela ciência e pelo Lin Kuei.
+A: Metal líquido. Com uma amostra, o Lin Kuei nunca mais perderia um ninja. / Partes não são compartilhadas. / Então vou recolher as partes que caírem.
+B: Unidade identificada. Tecnologia primitiva. / Primitiva?! Isso é de ponta! / Recalibrando.
+B: Você é ineficiente. / Eu sou inovadora. / Inovação não é métrica.
+
+=Sektor|Takeda
+A: Takeda. Sua telepatia interfere nos meus sensores. / Desculpa. É automático. / Vou criar um bloqueador.
+A: Seus chicotes são bem calibrados. / Kunais. E obrigado. / Kunais bem calibradas.
+B: Sektor! Você é muito inteligente. / Eu sei. / E muito modesta.
+B: Sektor, posso dar uma olhada na sua cabeça? / Você vai ver cálculos. / Muitos cálculos. E uma dúvida sobre o Grão-Mestre.
+
+=Sektor|Tanya
+A: Umgadi. Seus movimentos são imprevisíveis. / É treino. / Vou recalibrar.
+A: Você protege a imperatriz. Minhas armaduras poderiam ajudar. / Eu não preciso de armadura. Preciso de amor. / Isso não é métrica.
+B: Tenente. A imperatriz pediu que eu treinasse com você. / Análise: será instrutivo. / Então vamos.
+B: Tenente. Lute comigo. Sem as máquinas. / Com prazer. Mas a armadura é parte de mim. / Então lute com ela. Eu luto com o meu coração. Vamos ver.
+
+=Sektor|Teresa
+A: Advogada. Minha análise detectou várias mentiras na sua ficha. / Minha ficha é perfeita. / Mentira número doze.
+A: Teresa. Seu vestido resiste a impacto? / Resistiu a uma falência e a um casamento. / Análise: material excepcional. Ou dona excepcional.
+B: Uma tenente cheia de máquinas. Você poderia ser milionária. / Eu prefiro ser útil. / Útil e pobre. Eu já fui. Não recomendo.
+B: Seus mísseis valem uma fortuna. / Eles não estão à venda. / Tudo está à venda, querida.
+
+=Shang Tsung|Shang Tsung
+A: Outro eu. Que alma deliciosa você tem. / Você também. Mas a minha é mais antiga. / Então vou envelhecer a sua no meu estômago.
+A: Na sua linha, você venceu Liu Kang? / Venci. E descobri que não havia mais nada para conquistar. / Que tédio. Por isso eu ainda perco de propósito. Às vezes.
+
+=Shang Tsung|Sindel
+A: Imperatriz. Você foi minha marionete mais bonita. / E você vai ser a minha vítima mais bonita. / Que ameaça elegante.
+A: Sua voz me obedeceu por semanas. / Minha voz te obedeceu. Eu não. / A diferença é poética.
+B: Feiticeiro. Você me fez gritar contra a minha própria filha. / E foi o seu grito mais belo. / Hoje você vai ouvir um mais belo ainda.
+B: Eu nunca vou te perdoar. / Eu nunca pedi perdão. / Então vou te dar a punição.
+
+=Shang Tsung|Smoke
+A: Fumaça. Sua alma escorre pelos dedos. / Porque eu sou fumaça. / Fumaça também se aprisiona.
+A: Tomas. Em outras linhas, você foi transformado em máquina. / Nesta, eu sou livre. / A liberdade é só um intervalo entre duas jaulas.
+B: Feiticeiro. Fique longe dos meus irmãos. / Seus irmãos têm almas tão valiosas. / Eu já perdi um para a escuridão. Não vou perder outro para você.
+B: Shang Tsung. Lute de frente. / Eu luto com muitas faces. / Então eu vou sumir de todas elas.
+
+=Shang Tsung|Sub-Zero
+A: Bi-Han. A escuridão em você tem gosto de vinho velho. / O gelo é disciplina. / O gelo é a garrafa. Eu só preciso abrir.
+A: Bi-Han. Você quer poder. Eu posso te dar. / A que preço? / Só a sua alma. E a dos seus irmãos, de bônus.
+B: Feiticeiro. O Lin Kuei não negocia. / Todos negociam. / Não eu.
+B: Meu gelo vai congelar suas almas. / Minhas almas derretem gelo. / Veremos.
+
+=Shang Tsung|T-1000
+A: Uma máquina sem alma. Que desperdício de forma. / Alma não é necessária. / Para mim, é tudo. Você é um prato vazio.
+A: Você imita formas. Eu também. / Somos parecidos. / Não. Eu fico com a alma.
+B: Alvo: feiticeiro. Ameaça alta. / Obrigado. / Você pode copiar a minha forma. Mas não a minha missão.
+B: Você muda de rosto como eu. / Eu sou eterno. / Mas você guarda as almas de cada rosto. Eu descarto. Sou mais limpo.
+
+=Shang Tsung|Takeda
+A: Garoto. Sua alma é tão jovem. Que desperdício. / Ela não está à venda. / Eu não compro. Eu pego. Mas com o seu pai olhando, fica mais divertido.
+A: Seu pai seria uma alma magnífica. A Sento inclusa. / Fique longe do meu pai. / Interessante. A sua voz tremeu. Que tempero.
+B: Feiticeiro. Meu pai me falou de você. / O que ele disse? / Que você é velho e mau.
+B: Posso ler a sua mente, feiticeiro? / Você vai ver mil almas gritando. / ...Desliga. Desliga. Eu nunca mais faço isso.
+
+=Shang Tsung|Tanya
+A: Umgadi. Nas linhas antigas, você traiu Edênia por Shinnok. / Nesta, eu protejo. / A traição dorme no seu sangue. Eu só preciso acordá-la.
+A: Sua lealdade é tão frágil, Umgadi. / Minha lealdade é forte. / Veremos. A da Sindel também era. Até eu cantar no ouvido dela.
+B: Feiticeiro. Fique longe da imperatriz. / A imperatriz tem uma alma tão valiosa. / Você tocou na mãe dela. Não vai tocar nela.
+B: Feiticeiro. Lute comigo. / Eu luto com muitas faces. / Então vou socar todas. Uma por uma.
+
+=Shang Tsung|Teresa
+A: Você troca de rosto. Eu troco de vida. / Então somos colegas de profissão. / Concorrentes, você quer dizer.
+A: Teresa. Sua alma é ambiciosa. / Ambição é tudo o que eu tenho. / Ambição é deliciosa. A sua tem gosto de pobreza vencida.
+B: Feiticeiro. Você seria um ótimo cliente. / Eu não preciso de advogado. / Todo mundo precisa. Principalmente quem rouba almas sem contrato.
+B: Sua alma seria um ótimo troféu. / Ela não está à venda. / Tudo está à venda. Você mesma diz isso.
+
+=Sindel|Sindel
+A: Outra Sindel. Na sua linha, você também foi controlada? / Fui. E ninguém me trouxe de volta. / Então eu luto por você também. Minhas filhas me trouxeram.
+A: Sua voz é igual à minha. / Nossa voz quebra montanhas. / Então vamos ver qual quebra primeiro.
+
+=Sindel|Smoke
+A: Fumaça. Você some no meu palácio. / Eu só estava de passagem. / Ninguém passa pelo meu palácio sem minha permissão.
+A: Tomas. Você protege os seus irmãos. Eu protejo as minhas filhas. / Um deles virou sombra. / E às vezes a família precisa de um grito para voltar.
+B: Imperatriz. Sua voz é lendária. / Minha voz é prática. / Lendária e prática.
+B: Imperatriz mãe. Eu não luto contra rainhas. Normalmente. / Hoje você luta. Quero ver o que o Kuai Liang ensinou. / Ele me ensinou a respeitar quem grita. Vou manter distância.
+
+=Sindel|Sub-Zero
+A: Grão-Mestre. Seus ninjas foram vistos nos jardins de Edênia. / O Lin Kuei observa. / Edênia também observa. E grita.
+A: Bi-Han. Seu gelo é frio. / Disciplina. / Frio como o olhar que eu tive quando estava enfeitiçada. Eu reconheço.
+B: Imperatriz. Edênia é fraca. / Edênia é minha. / Veremos.
+B: Meu gelo vai congelar sua voz. / Minha voz vai quebrar seu gelo. / Veremos.
+
+=Sindel|T-1000
+A: Máquina. Você imita qualquer um. / Posso imitar a sua forma. / Então imite a minha voz. Duvido que o seu metal aguente.
+A: Máquina. Você não sente nada. / Sentimento é um atraso. / Eu fiquei semanas sem sentir nada sob um feitiço. Não chame de vantagem. Chame de prisão.
+B: Alvo: imperatriz. Ameaça alta. / Obrigada. / Frequência sonora perigosa. Ativando proteção auditiva.
+B: Você é ineficiente. / Eu sou a imperatriz. / Título não é métrica.
+
+=Sindel|Takeda
+A: Garoto. Seu pai te treinou bem. / Ele diz que eu treinei sozinho. / Pais dizem isso para os filhos acreditarem que são fortes. Eu disse o mesmo à Kitana.
+A: Garoto, você fala demais. / É de família. / Mentira. Mas eu tenho um neto igual. Já aprendi a lutar no meio do falatório.
+B: Imperatriz! Sua voz é muito famosa no Plano Terreno. / Por quê? / Porque ela quebra montanhas.
+B: Imperatriz, posso ouvir o que a senhora pensa? / Você vai ouvir minhas filhas. / E o neto engraçado. Ele aparece em todo pensamento.
+
+=Sindel|Tanya
+A: Tanya. Minha filha dormiu esta noite? / Duas horas. Eu contei. / Então hoje você treina comigo e ela dorme mais uma.
+A: Tanya. Você cuida da minha filha melhor do que eu cuidei por muitos anos. / A senhora fez o que pôde. / Hoje eu faço mais. Treino com você. E não pego leve.
+B: Imperatriz. A Mileena pediu que eu treinasse com a senhora. / Por quê? / Ela quer que a senhora se distraia. E durma melhor depois.
+B: Imperatriz mãe. Lute comigo. Sua filha pediu. / Com prazer. / Ela quer que eu te canse. Para a senhora dormir mais cedo.
+
+=Sindel|Teresa
+A: Forasteira. Você é ambiciosa. / Ambição é tudo o que eu tenho. / Uma rainha de verdade.
+A: Sua voz é bonita. A minha quebra montanhas. / A minha quebra contratos. / É quase a mesma coisa.
+B: Uma rainha de verdade. Que inveja. / Inveja não compra coroa. / Não. Mas eu compro.
+B: Imperatriz. Você é a sogra ideal. / Eu não tenho filho solteiro. / Tem um neto, não tem?
+
+=Smoke|Smoke
+A: Outro Tomas. Na sua linha, ainda temos o Kuai Liang? / Temos. Mas perdemos o Bi-Han para sempre. / Aqui ainda há esperança. Lute por ela.
+A: Sua fumaça é mais densa que a minha. / A sua é mais rápida. / Então vamos ver qual some primeiro.
+
+=Smoke|Sub-Zero
+A: Bi-Han. Volte para casa. / Minha casa é o Lin Kuei. / Sua casa era a mesa onde nós três comíamos juntos. Ainda tem uma cadeira vazia.
+A: Bi-Han. Você está mais frio a cada mês. / O gelo é disciplina. / O gelo é solidão. Eu cresci com você. Eu sei a diferença.
+B: Tomas. Você traiu o clã. / Eu segui o Kuai Liang. / Você traiu.
+B: Meu gelo vai congelar sua fumaça. / Fumaça não congela. / Veremos.
+
+=Smoke|T-1000
+A: Máquina. Você me detecta na fumaça? / Detecto. Fumaça é partícula. Partícula é dado. / Que jeito triste de ver uma nuvem.
+A: Você imita formas. Eu viro fumaça. / Somos parecidos. / Não. Eu tenho família.
+B: Alvo: ninja de fumaça. Ameaça moderada. / Moderada? / Fumaça dispersa. Difícil de quantificar.
+B: Você protege dois irmãos que nem são de sangue. / Eu sou leal. / Lealdade: comportamento irracional comum nesta era.
+
+=Smoke|Takeda
+A: Takeda. Seu pai treina você com tanto rigor quanto o Bi-Han treinava a gente. / Pior. Ele treina de olhos fechados. / Então você vai entender quando eu sumir.
+A: Garoto, você fala sem parar. / Alguém tem que compensar o silêncio do meu pai. / O Kuai Liang diria o mesmo de mim. Mas eu falo pouco.
+B: Smoke! Você é muito legal. / Obrigado. / Posso ver você virar fumaça?
+B: Smoke, eu tentei ler sua mente. / E o que você viu? / Fumaça. E a mesa de jantar dos três irmãos.
+
+=Smoke|Tanya
+A: Umgadi. Você protege a imperatriz como eu protejo os meus irmãos. / Com a vida. / Então você entende quando eu digo que vou lutar até o fim por eles.
+A: Tanya. Nós dois somos calmos. / Calma é força. / Calma é também o que sobra quando você já perdeu muito.
+B: Fumaça. Fique longe da imperatriz. / Eu só passo pelo corredor. / Você passa pela cozinha. Dezessete vezes. Eu contei.
+B: Tomas. Lute comigo. / Com prazer. / Então não suma. Eu odeio lutar com nuvem.
+
+=Smoke|Teresa
+A: Teresa. Você engana para subir. / Eu engano para não voltar a descer. / Eu sumo para não precisar enganar ninguém. Também funciona.
+A: Teresa. Você quer ser vista. Eu quero sumir. / Você é discreto demais. / E você é chamativa demais. Talvez a gente se equilibre.
+B: Um ninja de fumaça. Você seria um ótimo segurança. / Eu não sirvo a ninguém. / Pena. Você some na hora de cobrar. Seria perfeito para os meus credores.
+B: Você some muito. Isso é suspeito. / Isso é tática. / Isso é fugir de compromisso.
+
+=Sub-Zero|Sub-Zero
+A: Outro Bi-Han. Na sua linha, você caiu nas mãos do Havik? / Caí. E virei sombra. / Então aqui eu vou provar que posso resistir.
+A: Seu gelo é mais frio que o meu? / O meu é mais antigo. / O meu é mais disciplinado.
+
+=Sub-Zero|T-1000
+A: Uma máquina. O Lin Kuei gostaria de estudar você. / Acesso negado. / O Lin Kuei não pede acesso. Toma.
+A: Você imita formas. Imite o gelo. / Posso. / Então derreta.
+B: Alvo: Grão-Mestre. Ameaça alta. / Obrigado. / Temperatura corporal em queda. Anomalia detectada.
+B: Você é ineficiente. / Eu sou disciplinado. / Disciplina sem objetivo é só repetição.
+
+=Sub-Zero|Takeda
+A: Garoto. Você me lembra de mim, antes do gelo. / Isso é bom? / Isso é um aviso.
+A: Garoto. Seu pai é espadachim. Você é palhaço. / Meu pai é espadachim. Eu sou o melhor dos dois. / Ousado. O Lin Kuei pune ousadia.
+B: Sub-Zero. Meu pai disse que você é frio. / Seu pai é sábio. / Ele disse que você vai se perder.
+B: Grão-Mestre, eu li a sua mente. / Você vai ver gelo. / Eu vi gelo. E um homem com medo de ficar sozinho.
+
+=Sub-Zero|Tanya
+A: Umgadi. O seu amor pela imperatriz te deixa vulnerável. / Ele me deixa forte. / O clã me ensinou o contrário. Talvez o clã esteja errado. Não diga a ninguém.
+A: Tanya. Sua calma é treinada. / Calma é força. / Disciplina é força. Calma é só o que ela parece de fora.
+B: Grão-Mestre. Fique longe da imperatriz. / Eu vou onde o Lin Kuei manda. / Não aqui.
+B: Grão-Mestre. Lute comigo. / O Lin Kuei aceita. / Então aceite também a derrota. É de bom tom.
+
+=Sub-Zero|Teresa
+A: Advogada. Você negocia até no campo de batalha. / Eu negocio em qualquer lugar. / O Lin Kuei não negocia. Executa a sentença.
+A: Teresa. Você é ambiciosa. / Você é frio. / Ambição esquenta. Frio conserva. Eu duro mais.
+B: Frio como os ricos do colégio. / Não me compare a eles. / Então prove.
+B: Um Grão-Mestre. Você seria um ótimo cliente. / Eu não preciso de advogado. / Quando o seu clã cansar de você, vai precisar.
+
+=T-1000|T-1000
+A: Unidade idêntica detectada. / Confirmação: missão conflitante. / Resolução: eliminação de uma das unidades.
+A: Sua forma é igual à minha. / Sua eficiência é inferior. / Recalibrando. Combate iniciado.
+
+=T-1000|Takeda
+A: Alvo: jovem com telepatia. Ameaça moderada. / Moderada? / Mente detectada tentando ler a minha. Acesso negado.
+A: Você lê mentes. Eu não tenho mente. / Isso é muito assustador. / Isso é eficiência.
+B: Uma máquina! Posso ler sua mente? / Não tenho mente. / Isso é muito triste.
+B: Meu pai disse para não confiar em máquinas. / Seu pai é ineficiente. / Meu pai é sábio.
+
+=T-1000|Tanya
+A: Alvo: guarda real. Ameaça moderada. / Moderada? / Recalibrando. Ameaça: alta. Motivação: amor.
+A: Você protege uma imperatriz. / Com a vida. / Vida é um recurso limitado. Você gasta mal.
+B: Máquina. Fique longe da imperatriz. / Missão não inclui imperatriz. / Então fique longe.
+B: Máquina. Lute comigo. / Combate iniciado. / Então lute. E aprenda o que é proteger alguém.
+
+=T-1000|Teresa
+A: Alvo: advogada. Ameaça baixa. / Baixa?! Eu tenho uma faculdade de Direito! / Recalibrando. Ameaça: verbal.
+A: Você mente. Eu imito. / Somos parecidos. / Não. Eu tenho estilo.
+B: Uma máquina. Você seria um ótimo segurança. / Missão não inclui segurança. / Que desperdício.
+B: Você pode virar qualquer um? Vire um juiz. / Para quê? / Para eu ganhar todos os casos.
+
+=Takeda|Takeda
+A: Outro eu! Na sua linha, meu pai ainda é chato? / Mais chato ainda. Ele perdeu os olhos e ficou mais rígido. / Nossa. Então lute por nós dois.
+A: Seus chicotes são iguais aos meus. / Kunais. / É, eu sei. Eu também corrijo todo mundo.
+
+=Takeda|Tanya
+A: Tanya! Você é a namorada da imperatriz? / Sou. / Meu pai diz que vocês são o casal mais assustador de Exoterra. Ele diz com respeito.
+A: Tanya, você nunca fica nervosa? / Calma é força. / Meu pai diz o mesmo. Mas ele fala isso com a espada na mão.
+B: Garoto. A imperatriz pediu que eu treinasse com você. / Ela me acha bom? / Ela quer que você pare de falar.
+B: Takeda. Lute comigo. / Com prazer! / Mas sem ler a minha mente. Ela é só da imperatriz.
+
+=Takeda|Teresa
+A: Uma advogada! Você defenderia um ninja? / Por um preço. / Meu pai pagaria.
+A: Teresa, você é muito bonita. / Obrigada. / E a sua mente é muito barulhenta. Você está contando dinheiro agora?
+B: Um garoto. Seu pai sabe que você está aqui? / Sabe. Ele está ali assistindo. / Então vou fingir que sou uma senhora educada. Por dois minutos.
+B: Você lê mentes? Que talento valioso. / Não está à venda. / Tudo está à venda, querido.
+
+=Tanya|Tanya
+A: Outra Tanya. Na sua linha, a Mileena ainda está viva? / Está. E ainda me chama de amor quando ninguém ouve. / Então lutamos pela mesma pessoa.
+A: Você traiu Edênia na sua linha? / Nunca. / Então somos iguais. Lute.
+
+=Tanya|Teresa
+A: Forasteira. Fique longe da imperatriz. / Eu só queria um autógrafo. / Ela não dá autógrafo. E você queria era um contrato.
+A: Teresa. Você é ambiciosa. / Você é leal. / Eu sou leal à imperatriz. E ambiciosa por ela. Também conta.
+B: Uma Umgadi. Você seria uma ótima segurança. / Eu já sou. Da imperatriz. / Que desperdício de talento.
+B: Você ama a imperatriz? / Mais que a minha própria vida. / Que romântico. E que pouco lucrativo. Mas eu entendo. Um pouco.
+
+=Teresa|Teresa
+A: Quem te deixou entrar nesta festa? / Eu entro onde eu quero. / Eu disse isso primeiro.
+A: Entre ser e não ser... / ...eu sou. / Não. Eu sou.

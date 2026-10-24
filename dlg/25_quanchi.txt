@@ -1,0 +1,93 @@
+=Quan Chi|Quan Chi
+A: Outro Quan Chi. Na sua linha, a Aliança Mortal venceu? / Venceu. E eu traí o Shang Tsung no dia seguinte. / Previsível. Eu teria esperado uma semana.
+A: Seus Revenants são mais obedientes que os meus? / Os meus nunca questionam. / Então os meus são melhores. Eu gosto de ver a dúvida antes de apagá-la.
+
+=Quan Chi|Raiden
+A: Campeão. Nas linhas antigas, o seu Liu Kang foi meu Revenant mais precioso. / Nesta, ele é deus. E eu sou o campeão dele. / Ainda há tempo para mudar isso.
+A: Sua alma é tão pura, campeão. Que desperdício. / Ela não está à venda. / Eu não compro. Eu colho. Você entende de colheita.
+B: Necromante. Fique longe do Plano Terreno. / O Plano Terreno tem tantos mortos esperando por mim. / Eles esperam por descanso. Não por você.
+B: Eu não tenho medo da morte. / Ainda. Todo camponês teme no final. / Eu temo não proteger os meus. Você é só um obstáculo.
+
+=Quan Chi|Rain
+A: Rain. Os mortos não têm ambição. Que inveja. / Eu não estou morto! / Ainda. Mas a sua ambição já te enterrou pela metade.
+A: Você traiu o seu reino. / Eu fui enganado. / Todos dizem isso. E todos acabam comigo.
+B: Necromante. Você pode me dar Edênia? / Posso te dar um exército de mortos. Edênia é com você. / Isso serve.
+B: Sua magia é fraca. / Minha magia é paciente. / Paciência é para quem não tem pressa.
+
+=Quan Chi|Reiko
+A: Reiko. Seu general precisa de soldados que não traiam. / Os mortos nunca traem. / Exatamente. Diga isso a ele.
+A: Você seguiria o Shao até a morte? / Até a vitória. / A morte é mais provável.
+B: Necromante. O general precisa de você. / O general precisa de muita coisa. / Então ajude.
+B: Seus Revenants são lentos. / Meus Revenants são eternos. / Eternos e lentos.
+
+=Quan Chi|Reptile
+A: Zaterrano. Sua espécie seria ótima como Revenant. Já são invisíveis. / Minha espécie já sofreu demais. / O sofrimento é o melhor tempero.
+A: Você se esconde da morte. / Eu me escondo dos que caçam meu povo. / A morte também caça.
+B: Necromante. Seu cheiro é de túmulo. / É o perfume da eternidade. / É nojento.
+B: Lute rápido. / A morte não tem pressa. / Eu tenho.
+
+=Quan Chi|Rudolf
+A: Príncipe. Duas chamas do mesmo sangue... o Shang Tsung me contou. / O Shang Tsung fala demais para um homem que perdeu para mim e para minha mãe. / Ele perdeu. Eu não.
+A: Sua alma tem fogo divino. Que Revenant magnífico você seria. / Eu já tenho uma versão sombria. Não preciso de outra. / Ele é seu agora? Que desperdício.
+B: Quan Chi. Você parece um ovo que leu um livro de feitiçaria. / Insolente. / Desculpa. Um ovo muito poderoso.
+B: Minha mentora disse para eu nunca deixar você tocar na minha alma. / Sua mentora é sábia. / Ela também disse para eu calar a boca quando estiver com medo. Por isso eu falo mais.
+
+=Quan Chi|Scorpion
+A: Kuai Liang. Nas linhas antigas, eu enganei outro Scorpion. / E ele te matou. / Nesta linha, eu não cometo os mesmos erros.
+A: Seu fogo é tão puro. Que desperdício. / Meu fogo protege meu clã. / Seu clã vai cair.
+B: Necromante. Em outras linhas, você fez de um Scorpion o seu cão. / E ele foi o meu melhor cão. / Nesta linha, o Scorpion morde de volta.
+B: Eu vou queimar suas mentiras. / Minhas mentiras são eternas. / Então eu queimo eternamente.
+
+=Quan Chi|Sektor
+A: Tenente. Suas máquinas não protegem da morte. / Minhas máquinas protegem do caos. / A morte é o caos final.
+A: Você seria uma Revenant eficiente. / Eficiência não precisa de morte. / Sempre precisa.
+B: Análise: entidade necromântica. Ameaça alta. / Obrigado. / Você não vai encostar nos mortos do Lin Kuei. Eles já sofreram demais.
+B: Você é imprevisível. / Eu sou paciente. / Paciência não é métrica.
+
+=Quan Chi|Shang Tsung
+A: Shang Tsung. Mais uma aliança? / Sempre, meu caro. Até o dia em que um de nós trair o outro. / Que bom que pensamos igual.
+A: Você usou meu feitiço para controlar a imperatriz. / E você cobrou caro. / Eu cobro sempre.
+B: Quan Chi. Nossa aliança é a mais antiga das linhas. / E a mais traiçoeira. / Por isso funciona.
+B: Eu poderia roubar a sua alma. / E eu poderia transformar a sua em Revenant. / Então vamos lutar para ver quem é mais rápido.
+
+=Quan Chi|Sindel
+A: Imperatriz. Seu feitiço de controle foi meu. / E você vai pagar por ele. / Eu só emprestei a magia. Shang Tsung usou.
+A: Sua voz é poderosa. Seria uma Revenant magnífica. / Minha voz é minha. / Por enquanto.
+B: Necromante. Você ajudou a me controlar. / Eu só emprestei o feitiço. / Então vou te emprestar a minha voz.
+B: Ajoelhe-se diante da imperatriz. / A morte não se ajoelha. / Então ela vai cair.
+
+=Quan Chi|Smoke
+A: Tomas. Em outras linhas, você virou máquina. / Nesta, eu sou livre. / Liberdade é só a pausa entre duas prisões.
+A: Sua fumaça é bonita. Seria uma Revenant perfeita. / Minha fumaça é minha. / Por enquanto.
+B: Necromante. Fique longe dos meus irmãos. / Seus irmãos têm almas tão valiosas. / Uma delas já está na escuridão. Você não vai levar a outra.
+B: Necromante. Lute de frente. / A morte luta de todos os lados. / Então eu viro fumaça de todos os lados também.
+
+=Quan Chi|Sub-Zero
+A: Bi-Han. A escuridão em você me chama pelo nome. / O gelo é disciplina. / O gelo é a porta. E eu tenho a chave.
+A: Você seria um Revenant poderoso. / Eu sou o Grão-Mestre. / Grão-Mestre dos mortos, um dia.
+B: Necromante. O Lin Kuei não teme a morte. / Todos temem a morte. / Não eu.
+B: Meu gelo vai congelar seus feitiços. / Meus feitiços derretem gelo. / Veremos.
+
+=Quan Chi|T-1000
+A: Uma máquina. A morte não te alcança? / Eu não morro. Sou desativado. / A desativação é uma forma de morte.
+A: Você imita formas. Imite um Revenant. / Posso imitar a forma. Não a obediência. / Pena.
+B: Alvo: necromante. Ameaça alta. / Obrigado. / Você não pode me transformar em Revenant. Eu não estou vivo.
+B: Seus mortos não cansam. Eu também não. / Então somos iguais. / Não. Você precisa deles. Eu não preciso de ninguém.
+
+=Quan Chi|Takeda
+A: Garoto. Sua alma é jovem e cheia de piadas. Que desperdício. / Ela não está à venda. / Eu não pago. Eu tomo.
+A: Seu pai seria um Revenant poderoso. A Sento inclusa. / Fique longe do meu pai. / Interessante. O medo deu cor à sua voz.
+B: Necromante. Meu pai me falou de você. / O que ele disse? / Que você é careca e mau.
+B: Posso ler a sua mente? / Você vai ver a morte. / Eu vejo um homem com medo de ser esquecido. Isso é quase a mesma coisa.
+
+=Quan Chi|Tanya
+A: Umgadi. Nas linhas antigas, você serviu a Shinnok. Comigo. / Nesta, eu protejo Edênia. / A traição está no seu sangue.
+A: Umgadi. Nas linhas antigas, sua lealdade foi minha. / Nesta, ela é da imperatriz. / Veremos quanto ela pesa diante da morte.
+B: Necromante. Fique longe da imperatriz. / A imperatriz tem uma alma tão valiosa. / Por isso ela tem a mim.
+B: Necromante. Lute comigo. / A morte luta com todos. / Então a morte vai conhecer uma Umgadi apaixonada.
+
+=Quan Chi|Teresa
+A: Advogada. Sua alma é ambiciosa. / Ambição é tudo o que eu tenho. / Ambição é o primeiro passo para a morte.
+A: Você mente bem. Seria uma Revenant convincente. / Eu sou uma advogada convincente. / É a mesma coisa.
+B: Um necromante. Você seria um ótimo cliente. / Eu não preciso de advogado. / Todo mundo precisa, querido. Principalmente quem coleciona mortos.
+B: Você tem cara de quem cobra caro. / E você tem cara de quem não paga. / Isso é calúnia.

@@ -1,0 +1,321 @@
+=Tigre|Tigre
+A: Olha só, um Tigre igual a mim! Que sorte do mundo. / Sorte nada. Um de nós vai sair mancando. / Então que seja você, irmão.
+A: Seus gadanhos estão afiados? / Sempre. E os seus? / Vamos descobrir na raça.
+
+=Tigre|Cobra
+A: Cobra! Lembra que a gente era amigo antes de você apagar tudo? / Lembro de nada. E você também não deveria. / Engraçado, eu lembro do seu cheiro de traidor.
+A: Suas serpentes não me assustam. / Deveriam. Elas drenam a vida. / Meus gadanhos cortam serpente no meio.
+B: Você seguia o Supremo cegamente, Ângelo. / Seguia. Agora eu enxergo. / Enxerga o quê?
+B: Você ri demais para alguém que já perdeu tanto. / Se eu não rir, eu choro. E eu choro feio. / Então vou te dar motivo para chorar.
+
+=Tigre|Cabra
+A: Cabra! Me ensina a fazer uma bomba? / Nunca. Você explode a casa inteira. / Justo. Eu ia mesmo.
+A: Cabra, lembra do dia em que caiu aquele monte de bosta em mim e eu fui te dar um abraço? / Lembro! Fiquei fedendo uma semana inteira, Ângelo! / Foi um abraço cheio de amor. E de cheiro.
+B: Nem pensa em me abraçar hoje. Ainda sinto o cheiro daquele banho de bosta. / Mas eu já tomei banho! Três vezes! / Não foi suficiente. Fica longe!
+B: Se der ruim, você me cobre? / Sempre. Com os dois gadanhos. / Então hoje cada um cobre a si mesmo.
+
+=Tigre|Touro
+A: Subtenente Ruth! Bate continência pra mim? / Só pra quem merece. / Um dia eu mereço.
+A: Você é muito séria, Touro. / Alguém tem que ser. / Eu sou o outro alguém.
+B: Você luta sem técnica nenhuma. / Mas com muito coração. / Coração não para bala.
+B: Se tudo der certo, você vai ver a Vera de novo. / Vou. / Então eu luto por isso também.
+
+=Tigre|Ashrah
+A: Espada branca! Que linda. / Kriss não é enfeite. / Meus gadanhos também não.
+A: Você caça demônios? Meu pai virou um, de certo jeito. / Lamento muito. / Eu também. Bora lutar.
+B: Sinto sombras na sua família. / Muitas. Mas eu tô aqui, sorrindo. / Isso é força.
+B: Kriss vai purificar seu caminho. / Meu caminho tá meio bagunçado mesmo. / Então vamos arrumar.
+
+=Tigre|Baraka
+A: Lâminas no braço! A gente é quase primo. / Primo? Você é humano. / Primo de coração.
+A: Você corta, eu corto. Quem corta mais? / Baraka corta mais. / Vamos ver.
+B: Lâminas curvas. Bom para puxar carne. / Você entende de gadanho! / Tarkatan entende de tudo que corta.
+B: Você sorri como um Tarkatan na caça. / Valeu! Isso foi um elogio, né? / Foi.
+
+=Tigre|Conan
+A: Bárbaro! Você deve ser bom de briga. / O melhor da Ciméria. / Então bora, que eu sou o melhor do bairro.
+A: Espada ou gadanho? / Espada sempre. / Hoje você muda de ideia.
+B: Por Crom, você luta com ferramenta de colheita? / Funciona com gente também. / Ha! Gostei de você.
+B: Sorriso de quem não teme a morte. / Já vi a morte de perto. Ela era feia. / Então lute bonito.
+
+=Tigre|Cyrax
+A: Robô amarelo! Você dança? / Função de dança: inexistente. / Eu te dou umas aulas.
+A: Meus gadanhos arranham sua lataria? / Probabilidade pequena. / Gosto de probabilidade baixa.
+B: Alvo: humano risonho. / Risonho e perigoso. / Ameaça recalculada.
+B: Comportamento incompatível com combate. / Sou assim. / Jeito ineficiente.
+
+=Tigre|Ermac
+A: Muitas almas aí dentro? Dá pra fazer uma festa. / Nós não fazemos festas. / Que tristeza.
+A: Você me levanta com a mente? / Facilmente. / Então eu vou rir lá de cima.
+B: Sentimos um massacre na sua memória. / Não mexe nisso. / Nós já mexemos.
+B: Você sobreviveu a algo que matou muitos. / Sobrevivi. E ainda tô de pé. / Isso não dura.
+
+=Tigre|General Shao
+A: General Shao! Mais um que quer mandar em tudo. / Nasci para governar. / Ninguém nasce pra isso.
+A: Esse martelo é pesadão. Deixa eu segurar? / Toque nele e perde o braço. / Uh, que sensível.
+B: Insolente. Um camponês com ferramentas. / Ferramentas que cortam generais. / Vou esmagar você.
+B: Você deveria servir a um líder forte. / Já servi. Cansei. / Então morra cansado.
+
+=Tigre|Geras
+A: Você controla o tempo? Volta pra antes do meu pai pirar? / Não posso. / Imaginei.
+A: Areia do tempo! Faz castelinho? / Não brinque com o tempo. / Brincar é o que eu faço melhor.
+B: Em muitas linhas, você morre jovem. / Nessa aqui eu tô vivinho. / Por enquanto.
+B: Seu sorriso não muda em nenhuma linha. / É minha marca registrada. / Admirável.
+
+=Tigre|Ghostface
+A: Ghostface! Qual é o seu filme favorito? Pergunta minha agora. / Ei, essa fala é minha! / Roubei. Gostou?
+A: Faca contra gadanho. Covardia minha. / Dois gadanhos, ainda por cima! / Vem que eu divido um com você.
+B: Você é engraçado. Isso me irrita. / Eu irrito todo mundo. / Então vou te calar.
+B: Já pensou em fazer filme de terror? / Já vivi um. / Uau. Sinistro.
+
+=Tigre|Havik
+A: Havik! Você ri igual eu. / O caos ri com todos! / Mas eu rio melhor.
+A: Pescoço torto! Dói? / Dói. É ótimo. / Você é muito estranho, cara.
+B: Mostre-me seu caos, tigre! / Meu caos é bem organizado. / Que decepção!
+B: Você sobreviveu a um ritual. Que inveja! / Não foi divertido. / Para mim teria sido.
+
+=Tigre|Homelander
+A: Super-herói de capa! Bora tirar foto? / Eu não tiro foto com ninguém. / Que antipático.
+A: Você se acha o dono do mundo. / Eu sou o dono do mundo. / Ninguém deveria ser.
+B: Um palhaço com foices. / Gadanhos. E eu sou tigre, não palhaço. / Tanto faz.
+B: As pessoas me idolatram. / O mundo não te conhece direito. / Silêncio!
+
+=Tigre|Jade
+A: Jade! Seu bastão é bonito. / E seus gadanhos são feios. / Eles são lindos, para.
+A: Você sempre protege alguém? / Sempre a princesa. / Que bonito. Eu protejo meus amigos.
+B: Você luta como alguém sem treino. / Treinei na raça. / Dá para ver.
+B: Lealdade vem primeiro. / Por isso eu traí um homem só. / Lealdade assim?
+
+=Tigre|Johnny Cage
+A: Johnny Cage! Me dá um autógrafo no gadanho? / Claro. Mas só se você perder. / Então nunca vou ter.
+A: Seu chute é famoso. / E seu sorriso é quase tão bom quanto o meu. / Por pouco.
+B: Cara, você tem muita energia. / Energia é meu sobrenome. / Isso é péssimo.
+B: Bora fazer uma cena de ação? / Bora! Eu faço o vilão. / Mas você nem parece vilão.
+
+=Tigre|Katherine Pierce
+A: Katherine! Quinhentos anos e ainda bonita. / Obrigada. Eu sei. / Humildade zero.
+A: Você corre de tudo. / Eu sobrevivo. / Eu também. Mas eu sorrio.
+B: Você tem cara de quem confia nos outros. / Confio nos meus amigos. / Erro clássico.
+B: Gostei do sorriso. Vou guardar de lembrança. / Pode guardar. Mas vou ficar com ele. / Veremos.
+
+=Tigre|Kenshi
+A: Você é cego e luta assim? Que irado! / Minha espada vê por mim. / Meu gadanho também tem olhos.
+A: Lê minha mente! O que tá vendo? / Barulho. Muito barulho. / É o meu cérebro feliz.
+B: Sinto dor por trás desse sorriso. / Todo mundo tem dor. / Mas você esconde bem.
+B: Sento vai cortar seus gadanhos. / Não, por favor, eles têm nome. / Têm nome?
+
+=Tigre|Kitana
+A: Princesa Kitana! Posso pedir um leque? / Não. / Era só pra decorar a casa.
+A: Seus leques voam bonito. / Seus gadanhos voam feio. / Ai, magoou.
+B: Você sorri na luta. Isso é estranho. / Estranho e eficiente. / Vamos ver.
+B: Edênia já teve muitos traidores. Você é um? / Sou um traidor do bem. / Isso existe?
+
+=Tigre|Kung Lao
+A: Chapéu cortante! Eu queria um. / É uma arma sagrada. / Então eu quero ainda mais.
+A: Você gira, eu giro. / Mas eu giro com estilo. / E eu giro com dois gadanhos.
+B: Você tem a energia de um aprendiz. / E você tem o chapéu de um mestre. / Isso foi um elogio?
+B: Shaolin luta com calma. / Eu luto com alegria. / Vamos ver qual funciona.
+
+=Tigre|Ladybug
+A: Ladybug! A heroína de Paris! / E você parece um bom garoto. / Eu sou! Mais ou menos.
+A: Seu ioiô é tão legal. / Seus gadanhos são assustadores. / Mas eu sou fofo.
+B: Você não parece mau. / Não sou! Só tô do lado errado. Às vezes. / Então eu te ajudo a mudar de lado.
+B: Talismã da sorte! / O que veio? / Uma bandana igual à sua.
+
+=Tigre|Li Mei
+A: General Li Mei! Me contrata? / Falta disciplina em você. / Mas tenho coração.
+A: Que explosões lindas. / Não são enfeite. / Nada aqui é enfeite!
+B: Você ri na frente de uma general. / Eu rio na frente de todo mundo. / Desrespeito.
+B: Exoterra precisa de guerreiros. / Eu sou guerreiro de aluguel. / Que horror.
+
+=Tigre|Liu Kang
+A: Liu Kang! O deus do fogo. Me ensina aquele chute? / Primeiro aprenda a ficar em silêncio. / Difícil.
+A: Você criou o mundo de novo. Podia ter tirado meu pai daquele culto. / Algumas escolhas são dos homens. / Ele escolheu errado.
+B: Seu espírito é forte. / Valeu, deus. / Mas precisa de foco.
+B: O dragão vê bondade em você. / Diz pro dragão que obrigado. / Ele ouviu.
+
+=Tigre|Mileena
+A: Mileena! Que sorriso lindo. / Você está zombando? / Juro que não.
+A: Sais contra gadanhos! / Os sais são mais rápidos. / Os gadanhos são mais divertidos.
+B: Você sorri como Tarkat. / Como o quê? / É um elogio. Aceita.
+B: Vou te morder, tigre. / Tigres mordem de volta! / Que gracinha.
+
+=Tigre|Nitara
+A: Vampira com asas! Me leva voando? / Para te largar lá de cima. / Eita, melhor não.
+A: Você quer separar seu reino? / Quero liberdade para Vaeternus. / Liberdade é bom! Mas não hoje.
+B: Seu sangue tem gosto de alegria. / Experimenta e vê. / Que nojo de tão doce.
+B: Você ri da morte. / Ela também ri de mim. / Engraçado.
+
+=Tigre|Noob Saibot
+A: Noob! Que nome engraçado. / Não é engraçado. / Só um pouquinho!
+A: Você só anda de preto? / Eu sou a sombra. / Que deprê, cara.
+B: As sombras sabem do massacre. / Elas sabem demais. / Elas sabem tudo.
+B: Sua alegria é falsa. / Às vezes é. Às vezes não. / Hoje é falsa.
+
+=Tigre|Omni-Man
+A: Omni-Man! Você voa! Que inveja. / Inveja é para fracos. / Então eu sou fraco feliz.
+A: Você mentiu pro seu filho. / Fiz o que precisava. / Meu pai também dizia isso.
+B: Humano risonho. Patético. / Patético mas simpático. / Só patético.
+B: Viltrumitas não aceitam deboche. / Eu peço desculpas antes de bater. / Não ajuda.
+
+=Tigre|Peacemaker
+A: Peacemaker! Que capacete brilhante. / Polido toda manhã. / Me ensina?
+A: Paz pela violência? Faz sentido. / Né? Ninguém entende! / Eu entendo! Mais ou menos.
+B: Gostei de você! Rindo e cortando. / Valeu, cara! / Vou te matar com carinho.
+B: Você parece um bom amigo. / Eu sou o melhor amigo. / Então vamos brigar como amigos.
+
+=Tigre|Quan Chi
+A: Feiticeiro careca! Você parece aqueles caras do culto do meu pai. / Talvez eu tenha sido mentor deles. / Então tenho mais um motivo.
+A: Magia verde de novo? Igual o Cobra. / Esse Cobra é amador. / Fala isso pra ele, quero ver.
+B: Sua alma brilha. Eu a quero. / Ela não está à venda, careca. / Tudo se compra.
+B: Um ritual mal feito arruinou sua família. / Não fala disso. / Eu teria feito melhor.
+
+=Tigre|Raiden
+A: Raiden! Me dá um choquinho? / Não é brincadeira. / Unzinho só!
+A: Os deuses viram o que aconteceu com meu pai? / Vimos. / E não fizeram nada.
+B: Você ainda pode escolher o bem. / Eu escolhi! Mais ou menos. / O mais ou menos é o problema.
+B: Seu riso esconde uma tempestade. / Igual seus raios. / Bem colocado.
+
+=Tigre|Rain
+A: Rain! Faz chover só em mim? Tá calor. / Não sou seu ar-condicionado. / Lamentável.
+A: Filho de deus! Que chique. / Mais chique que você. / Verdade verdadeira.
+B: Você é só um humano com ferramentas. / E você é um príncipe sem coroa. / Insolente!
+B: A água vai te afogar. / Eu nado bem. / Não na minha água.
+
+=Tigre|Reiko
+A: Reiko! O capacho do Shao. / Lealdade é força. / Lealdade cega é burrice. Eu sei, eu era assim.
+A: Você quer ser imperador um dia? / Quero estar ao lado de um. / Que sonho pequeno.
+B: Exoterra vai esmagar você. / Exoterra é grande. Eu sou rápido. / Velocidade não vence exércitos.
+B: Já serviu a um líder? / Já. Não recomendo. / Então você é um traidor.
+
+=Tigre|Reptile
+A: Lagartixa! Você fica invisível mesmo? / Ssssim. / Que irado! Me ensina!
+A: Você tem cara de quem come mosca. / Ssssó às vezes. / Que nojo, mas respeito.
+B: Ssssua alegria me irrita. / Ela irrita todo mundo. / Ssssei.
+B: Você caça sem esconder. / Escondido é chato. / Sssse expor é perigoso.
+
+=Tigre|Rudolf
+A: Rudolf! Finalmente alguém que ri como eu. / Cara, a gente devia fazer stand-up juntos. / Depois da luta, bora!
+A: Seus leques pegam fogo! Que irado. / Seus gadanhos são irados também. / A gente é irado demais.
+B: Tigre, você já pensou em ser palhaço? / Já pensei em ser muita coisa. / Palhaço combina.
+B: Minha mãe ia odiar você. / Por quê? / Porque você me faz rir na hora errada.
+
+=Tigre|Scorpion
+A: Scorpion! Você também perdeu a família, né? / Perdi tudo. / Eu também. Mas tô aqui rindo.
+A: Vem cá! Acertei o grito? / Essa fala é minha. / Desculpa, saiu sem querer.
+B: Você ri de sua própria dor. / Melhor do que deixar ela me engolir. / Talvez.
+B: Fogo contra lâminas. / Lâminas cortam fogo! / Não cortam.
+
+=Tigre|Sektor
+A: Robozinha vermelha! Você voa? / Propulsores ativos. / Que demais!
+A: Me escaneia! Quanto eu peso? / Irrelevante. / Achei que fosse útil.
+B: Alvo: humano instável. / Instável e divertido. / Divertido não é parâmetro.
+B: Eliminação em curso. / Calma! Primeiro dá um oi. / Oi. Eliminando.
+
+=Tigre|Shang Tsung
+A: Shang Tsung! Você vira qualquer um? Vira um tigre! / Não estou aqui para entreter você. / Que mau humor.
+A: Suas almas devem ter muita história. / Milhares. / Conta uma?
+B: Sua alma é cheia de luz. Rara. / Rara e minha. / Por enquanto.
+B: Eu poderia ser seu pai. Quer ver? / Esquece. / Ah, toquei numa ferida.
+
+=Tigre|Sindel
+A: Rainha Sindel! Que cabelo maravilhoso. / Ele mata. / Maravilhoso e perigoso.
+A: Seu grito é forte mesmo? / Alto o suficiente para rachar a sua mente. / Melhor tampar os ouvidos.
+B: Você parece um bom menino. / Sou um bom menino com gadanhos. / Mistura esquisita.
+B: Família vem antes de tudo. / A minha virou pó. Mas tenho amigos. / Amigos também são família.
+
+=Tigre|Smoke
+A: Smoke! Você some e aparece. Faz de novo! / Não é truque de festa. / Pra mim, conta.
+A: Ainda anda com o Sub-Zero? / Sempre. / Eu sou leal aos meus amigos.
+B: Você fala demais. / E você fala de menos. / Equilibramos.
+B: Na fumaça, você não me vê. / Mas eu sinto o cheiro. / Que nojo.
+
+=Tigre|Sub-Zero
+A: Sub-Zero! Faz um raspadinha? / Não. / Só uma, de morango.
+A: O frio te deixa sério assim? / A disciplina me deixa sério. / Então eu nunca vou ter.
+B: Sua alegria não te salva no gelo. / Mas me esquenta! / Não por muito tempo.
+B: O Lin Kuei teria disciplinado você. / Ainda bem que não me acharam. / Talvez fosse melhor.
+
+=Tigre|T-1000
+A: Metal líquido! Vira um sorvete? / Comando inválido. / Que coisa sem graça.
+A: Você imita qualquer um. Me imita! / Imitação concluída. / Ficou feio! Eu sou mais bonito.
+B: Analisando: humano com dois instrumentos agrícolas. / São gadanhos, não ferramenta. / Dado corrigido.
+B: Sorriso incompatível com situação de combate. / É o que me mantém vivo. / Dado registrado.
+
+=Tigre|Takeda
+A: Takeda! Bora ver quem gira as armas mais rápido? / Mano, eu ganho fácil. / Vamos ver!
+A: Seu pai é cego e luta bem. O meu enxergava e lutava mal. / Pô, sinto muito. / Relaxa. Bora brigar.
+B: Li sua mente. Muito barulho e uma bandana. / Basicamente eu. / É, basicamente você.
+B: Você é gente boa. / Você também! / Então bora lutar como gente boa.
+
+=Tigre|Tanya
+A: Tanya! Sua lança é longa. / E seus gadanhos são curtos. / Mas eu tenho dois!
+A: Você serve à rainha? / À rainha e à Mileena. / Que bonito.
+B: Você é muito alegre para um guerreiro. / E você é muito séria para alguém que namora. / Isso é assunto meu.
+B: Eu já fui traidora um dia. / Eu também! Toca aqui. / Não.
+
+=Tigre|Teresa
+A: Advogada! Você me defenderia? / Depende. Você é culpado? / Mais ou menos.
+A: Você é muito chique, dona Teresa. / Sou mesmo. / Me ensina a ser chique?
+B: Você não tem classe nenhuma. / Mas tenho charme. / Discutível.
+B: Pense num processo por agressão. / Pensa em correr de mim primeiro. / Ousado.
+
+=Tigre|Sonya Blade
+A: Sonya Blade! Você parece a Touro. / Quem? / Uma amiga. Muito mais legal que você.
+A: Você treina soldados? / Os melhores. / Treina eu?
+B: Você não tem disciplina nenhuma. / Mas tenho alegria. / Alegria não vence batalha.
+B: Larga essas foices. / Gadanhos! / Tanto faz. Larga.
+
+=Tigre|Jax
+A: Jax! Esses braços são de verdade? / Metal puro. / Que da hora!
+A: Você tem filha, né? Ela é forte? / Mais forte que eu. / Que orgulho!
+B: Você parece um garoto que precisa de um pai. / Eu tive um. Não recomendo. / Sinto muito mesmo.
+B: Ri demais para uma luta. / É o meu estilo. / Seu jeito vai doer.
+
+=Tigre|Kano
+A: Kano! O olho de laser é de verdade? / De verdade, parceiro. / Sinistro!
+A: Você vende armas? Tem gadanho? / Tenho de tudo. / Então me vende um terceiro.
+B: Tem vaga pra você no Dragão Negro. / Eu sou péssimo seguindo ordens. / Perfeito, então.
+B: Gostei do seu sorriso. Parece o meu. / Não, o meu é bem mais bonito. / Discutível.
+
+=Tigre|Stefan
+A: Stefan! Você escreve diário? Que fofo. / Não é fofo. / Um pouco é, vai.
+A: Você também lutou contra o seu lado ruim? / Todo dia. / Eu também. O meu é meu pai.
+B: Sinto muito pelo seu pai. / Valeu, mano. / Ele não define você.
+B: Você é leve demais para o que viveu. / Peso não ajuda ninguém. / Verdade.
+
+=Tigre|Damon
+A: Damon! Você bebe muito, né? / Só o necessário. / Necessário é muito.
+A: Você é o irmão mau. / Sou o irmão divertido. / Então temos algo em comum.
+B: Gostei de você, tigrinho. / Tigre. Sem diminutivo. / Tigrinho.
+B: Você sorri muito para alguém que perdeu tudo. / E você sorri muito para alguém que perdeu a Katherine. / Ui, pegou fundo.
+
+=Tigre|Lexi
+A: Lexi! Bora dar uma festa depois da luta? / Agora você falou minha língua! / Fechado!
+A: Três séculos e meio de festa? / E nenhuma ressaca. / Inveja.
+B: Você é o cara mais divertido daqui! / Depois de você. / Tá, empate.
+B: Vou te bater, mas com carinho. / Eu também! / Perfeito.
+
+=Tigre|Bonnie
+A: Bruxa! Faz um feitiço pra mim? / Não sou atração. / Um só, rapidinho!
+A: Suas ancestrais aprovam você? / Sempre. / Que sorte.
+B: Sinto algo sombrio no seu passado. / Um ritual. Do meu pai. / Meus pêsames.
+B: Magia contra gadanhos. / Gadanhos cortam magia! / Não cortam.
+
+=Tigre|Art the Clown
+A: Um palhaço! Faz uma piada! / (Art faz uma mímica de piada e ri sem som.) / Não entendi, mas ri.
+A: Você não fala nada? / (Art balança a cabeça e aponta para a serra.) / Entendi, você fala com isso.
+B: (Art imita o Tigre girando os gadanhos e tropeça.) / Ei! Sou bem mais habilidoso. / (Art se curva, todo orgulhoso.)
+B: (Art oferece um balão vermelho para o Tigre.) / Que fofo! Valeu. / (Art estoura o balão na cara dele.)
+
+=Tigre|Freddy Krueger
+A: Freddy! Você entra no sonho das pessoas? Entra no meu! / Tem certeza, docinho? / Absoluta. Meus sonhos são legais.
+A: Garras contra gadanhos! / Quatro contra dois. / Que injusto, mas eu gosto.
+B: Seu sonho tem um culto, um pai e um massacre. / Ops. Esse é o pesadelo. / Eu adoro pesadelo.
+B: Você ri até nos sonhos. / Até nos pesadelos. / Que irritante.
+
+=Tigre|Jason Voorhees
+A: Jason! Você nunca sorri? / (Jason inclina a cabeça e encara o Tigre.) / Tá, entendi. Não sorri.
+A: Facão contra gadanho! / (Jason aponta o facão, sem pressa.) / Pelo menos você é educado.
+B: (Jason anda em linha reta na direção do Tigre.) / Calma, grandão. Respira. / (Jason não para.)
+B: (Jason crava o facão no chão e encara os gadanhos.) / Bora trocar? / (Jason balança a cabeça.)

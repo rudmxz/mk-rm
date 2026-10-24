@@ -1,0 +1,249 @@
+=Jax|Jax
+A: Os seus braços também rangem quando chove? / Rangem e doem. Mas seguram. / Então vamos ver quais seguram mais.
+A: Na sua linha, a minha filha está bem? / Está treinando boxe. Igual ao pai. / Então eu luto por ela duas vezes.
+
+=Jax|Kano
+A: Kano. Você vendeu as armas que tiraram meus braços. / Negócio é negócio, parceiro. / Hoje eu fecho o seu negócio na marra.
+A: Larga a faca e ninguém se machuca. / Você sempre fala isso, Jax. E sempre alguém se machuca. / Hoje vai ser você.
+B: Jax! Ainda pagando a prestação desses braços? / Paguei com sangue. O seu vem junto hoje. / Ui. Que bonito, parceiro.
+B: Os seus braços de aço valem uma fortuna no mercado negro. / Venha buscar. / Com prazer. Eu trouxe a serra.
+
+=Jax|Ashrah
+A: Você luta para se limpar? / Luto para deixar de ser o que eu era. / Eu entendo. Eu acordo todo dia diferente do que era.
+A: A sua espada canta quando corta. / A Kriss sente a escuridão. / Então ela vai ficar quieta perto de mim.
+B: Soldado. Você carrega culpa nos braços. / Carrego aço. A culpa fica no peito. / Então somos parecidos.
+B: Você não teme demônios? / Eu temo perder a minha filha. O resto é trabalho. / Que força estranha.
+
+=Jax|Baraka
+A: Baraka. Você também tem lâminas no lugar de mãos. / As minhas nasceram comigo. / As minhas vieram de uma explosão. Os dois aprendemos a viver com elas.
+A: Os seus homens cercaram o meu esquadrão. / Estavam famintos. / Eu trago comida. Mas primeiro, a luta.
+B: Humano de braços de metal. Você é meio tarkatano. / Sou meio soldado e meio pai. / A melhor mistura.
+B: A imperatriz confia em você. / Eu confio nela. / Então vamos ver se você aguenta um Tarkatano.
+
+=Jax|Conan
+A: Bárbaro. Você entra em toda briga de taverna? / Em todas. E saio de todas. / Hoje você sai carregado.
+A: A sua espada é grande. / O meu braço é maior. / Os meus braços são de aço.
+B: Homem forte. Na Ciméria você seria chefe de guerra. / Eu já sou major. É parecido, com mais papelada. / Papelada? Que maldição é essa?
+B: Vamos ver quem levanta o outro primeiro. / Não precisa ver. Eu já sei. / Ha! Gostei de você.
+
+=Jax|Cyrax
+A: Você também tem metal no corpo. / Metal substituto. Eficiente. / Eu prefiro chamar de sobrevivente.
+A: O Lin Kuei te transformou. / Fui melhorada. / Disseram o mesmo para mim. Mentiram.
+B: Alvo: humano com braços cibernéticos. / Prazer, colega. / Não somos colegas. Ainda.
+B: Os seus braços são obsoletos. / Mas batem. / Comprovado. Recalculando ameaça.
+
+=Jax|Ermac
+A: Quantas vozes cabem aí dentro? / Mais do que você conseguiria contar. / Lá em casa, uma criança só já faz mais barulho que vocês.
+A: Você move as coisas com a mente. / Nós movemos tudo. / Tente mover dois braços de aço.
+B: Nós sentimos o peso dos seus braços. / Eles também sentem o de vocês. / Interessante. Lutemos.
+B: Soldado. Há almas de soldados aqui dentro. / Diga a eles que eu não esqueci nenhum. / Eles ouviram.
+
+=Jax|General Shao
+A: General. Você quer conquistar o Plano Terreno. / Eu vou conquistar todos os reinos. / Comece por este braço aqui.
+A: O seu martelo é pesado. / Esmaga ossos e escudos. / Os meus ossos agora são de aço.
+B: Humano de metal. Você daria um bom soldado de Exoterra. / Eu já sou um bom soldado. Do lado certo. / Não existe lado certo, só o mais forte.
+B: Ajoelhe-se. / Os meus joelhos são velhos. Prefiro te derrubar. / Insolente!
+
+=Jax|Geras
+A: Você é feito de areia? / Areia do tempo. / Eu sou feito de concreto e teimosia.
+A: Você volta sempre que cai. / O tempo me devolve. / A mim, quem devolve é a vontade de ver a minha filha.
+B: Soldado. Eu vi você perder os braços em outra linha. / E vi eu levantar depois? / Viu. Por isso eu te respeito.
+B: O tempo é paciente. / Eu também. Mas o meu soco não. / ...Veremos.
+
+=Jax|Ghostface
+A: Você liga antes de atacar. / Qual é o seu filme de terror favorito, major? / O que tem um soldado e uma porta arrombada.
+A: Larga a faca. / Por quê? Você tem duas lâminas de aço no lugar das mãos. / Por isso mesmo. É covardia sua.
+B: Alô, Jax? Eu estou bem atrás de você. / Eu sei. Você respira alto. / Que estraga-prazeres.
+B: Você não tem medo de faca? / Eu tenho braço de aço. / ...Vou precisar de uma faca maior.
+
+=Jax|Havik
+A: Você ri enquanto se quebra. / A dor é engraçada. / A minha é séria. Quer conhecer?
+A: O caos espalhou sua doença nas cidades. / Caos é cura! / Caos é trabalho extra para o meu esquadrão.
+B: Soldado de regras. Você é a prisão de si mesmo. / Eu sou o que segura a porta enquanto os outros fogem. / Que tédio heroico.
+B: Os seus braços vão ficar lindos no meu reino. / Eles ficam onde estão. / Por enquanto.
+
+=Jax|Homelander
+A: Você voa e se acha intocável. / Eu sou intocável. / Ninguém é. Eu já toquei muita gente que pensava isso.
+A: Esse sorriso esconde o quê? / Nada. Eu sou perfeito. / Esconde medo. Eu conheço o jeito.
+B: Braços de metal. Bonitinho. / Eles amassam até o seu ego. / Que grosseiro.
+B: Você não pode me machucar. / Mas posso te irritar até você errar. / ...Que coisa feia de se dizer.
+
+=Jax|Jade
+A: Jade. O seu bastão quebrou o meu boneco de treino. / Ele era fraco. / Era de aço.
+A: O príncipe é seu aluno? / É. E me tira do sério todo dia. / Eu tenho um recruta assim. O Johnny.
+B: Major. Os seus braços seguram golpes como um escudo. / E batem como um aríete. / Vamos testar a segunda parte.
+B: Você parece um bom pai. / A minha filha diria que eu sou chato. / Os bons são.
+
+=Jax|Johnny Cage
+A: Johnny. Para de posar e levanta a guarda. / Mas eu fico ótimo de guarda baixa. / Fica ótimo no chão também.
+A: Você ainda usa dublê? / Só em cena perigosa. / Hoje não tem dublê, amigo.
+B: Jax! Os seus braços apareceriam bem num filme. / Não sou ator. / Todo mundo é ator. Você só não tem agente.
+B: Você vai pegar leve comigo, né? / Não. / Foi o que eu imaginei.
+
+=Jax|Katherine Pierce
+A: Vampira. Você está mordendo gente do Plano Terreno? / Só quem merece. / Quem decide isso não é você.
+A: Quinhentos anos fugindo. Cansa? / Fugir nunca cansa. Ficar é que cansa. / Eu acho o contrário.
+B: Major. Os seus braços são frios. Que pena. / O meu sangue é quente. Mas não é para você. / Você não sabe o que perde.
+B: Você protege a filha do jeito que eu queria ter sido protegida. / Ninguém te protegeu? / Ninguém. Por isso eu aprendi a sumir.
+
+=Jax|Kenshi
+A: Kenshi. O Dragão Negro está atrás do seu clã. / O Kano quer as nossas rotas. / Então vamos tirar o Kano do mapa.
+A: A sua espada te avisa de mentiras? / A Sento sente a intenção. / E o que ela sente em mim? / Um pai cansado e honesto.
+B: Major. Você treina o meu filho às vezes? / Quando ele não foge. / Obrigado. Ele precisa de alguém firme.
+B: Lute comigo. Quero saber se os seus braços aguentam a Sento. / Aguentam. Só não arranha a pintura. / Prometo nada.
+
+=Jax|Kitana
+A: General Kitana. O seu exército e o meu esquadrão podiam treinar juntos. / Os meus soldados usam leques. / E os meus usam botas. Alguém sempre leva a pior.
+A: Você comanda na linha de frente. / Sempre. / Eu também. É o único lugar onde eu sei o que fazer.
+B: Major. Os seus braços seriam uma lenda em Exoterra. / São uma lenda lá em casa. A minha filha pendura coisas neles. / Que imagem bonita.
+B: Lute comigo. O meu filho diz que você é uma muralha. / Ele exagera. / Ele nunca exagera para elogiar.
+
+=Jax|Kung Lao
+A: Monge, o seu chapéu riscou o meu braço. / Foi um elogio. / Na minha unidade, elogio é aperto de mão.
+A: Você ri muito para um lutador. / E você ri pouco para um pai. / Eu rio em casa. Aqui eu trabalho.
+B: Major! Aposta? Quem perder paga o almoço do Raiden. / O Raiden come três pratos. / Por isso a aposta é boa.
+B: O seu braço corta chapéus? / Amassa. / Então vou mirar no outro braço.
+
+=Jax|Ladybug
+A: Ladybug. Você salva a cidade e ainda volta para a aula. / Volto atrasada, quase sempre. / A minha filha também. Ela diz que é pela justiça.
+A: Esse ioiô aguenta um braço de aço? / Ele aguentou coisa pior. / Então vamos testar.
+B: Major Jax! Posso pedir um autógrafo para o meu amigo? / Depois da luta, se você levantar. / Eu sempre levanto.
+B: Lucky Charm! ...Um alicate? / Você vai desmontar o meu braço? / Ainda não sei. O Lucky Charm é misterioso.
+
+=Jax|Li Mei
+A: General. Quantos soldados você comanda? / Milhares. E você? / Vinte e uma criança de sete anos. A criança dá mais trabalho.
+A: As suas adagas são rápidas. / Rápidas o bastante para você? / Os meus braços são lentos. Mas quando chegam, ficam.
+B: Major. A força dos humanos me surpreende. / A minha também, todo dia. / Mostre.
+B: Você se rende? / Eu nunca aprendi como. / Então vou te ensinar.
+
+=Jax|Liu Kang
+A: Deus do Fogo. Você podia ter devolvido os meus braços. / Eu posso mudar o tempo, não as escolhas. / Então eu fico com as minhas. E com estes braços.
+A: Você protege a sua era. / E você protege a sua família. / São o mesmo trabalho em tamanhos diferentes.
+B: Major. A sua força vem de onde? / De uma menina que me espera em casa. / Então lute por ela.
+B: Lute comigo. Quero ver a força dos mortais. / Eles cansam, choram e levantam. / Mostre os três.
+
+=Jax|Mileena
+A: Imperatriz. A sua doença não te deixa mais fraca. / Ela me deixa mais teimosa. / Os meus braços fizeram o mesmo comigo.
+A: Os seus dentes assustam soldados. / Os seus braços assustam quem? / Batedores de carteira. Principalmente o Kano.
+B: Humano. Você não olha para mim com nojo. / Por que olharia? Eu também mudei. / Gostei de você, Jax.
+B: Lute comigo. Quero sentir a força do Plano Terreno. / Prepare o seu dentista. / Hah!
+
+=Jax|Nitara
+A: Vampira. Você sobrevoou o meu quartel. / Eu estava com fome. / Então pede pizza como todo mundo.
+A: Você quer salvar o seu povo. / A qualquer custo. / Cuidado com o preço. Eu paguei com dois braços.
+B: O seu sangue cheira a pólvora e coragem. / Não está no cardápio. / Que pena. Seria um banquete.
+B: Os seus braços não sangram. / O resto sangra muito bem. / Interessante.
+
+=Jax|Noob Saibot
+A: Você se esconde na sombra. / Eu sou a sombra. / Então eu vou acender a luz.
+A: Você atacou um posto de vigia meu. / As sombras famintas precisavam de alimento. / Os meus homens precisavam dormir. Você me deve uma.
+B: A escuridão vai engolir os seus braços. / Eles são indigestos. / Veremos.
+B: Você teme a morte? / Temo perder o aniversário da minha filha. / ...Um motivo estranhamente forte.
+
+=Jax|Omni-Man
+A: Viltrumita. Você esmagou um quarteirão inteiro. / Foi um acidente. / Acidente é bater o carro. Aquilo foi um massacre.
+A: Os seus punhos quebram montanhas. / E os seus braços? / Quebram o que vier na frente. Inclusive você.
+B: Humano. Você é forte para alguém tão frágil. / Eu sou frágil e determinado. / A determinação não segura soco.
+B: Eu também tenho um filho. / Então você sabe o que é proteger alguém. / Sei o que é decepcionar. Talvez seja diferente.
+
+=Jax|Peacemaker
+A: Soldado. Esse capacete brilha demais para camuflagem. / A paz não se esconde, major. / Mas o atirador inimigo agradece.
+A: Você atira primeiro e pergunta depois? / Eu nem pergunto depois. / Por isso você nunca é promovido.
+B: Major! Você ouviria uma música minha? / Depois da luta. / Vou cantar durante.
+B: Paz através da força, irmão. / Eu prefiro paz através da força e de um pouco de juízo. / O juízo é opcional.
+
+=Jax|Quan Chi
+A: Feiticeiro. Você ressuscita soldados como marionetes. / Eles servem melhor sem vontade. / Eles mereciam descanso.
+A: Seus truques não funcionam em mim. / Todos têm uma fraqueza. / A minha é uma menina de sete anos. E você nunca vai chegar perto dela.
+B: Soldado. Eu poderia te dar braços de carne de volta. / A que preço? / A sua alma. / Fico com o aço.
+B: Que alma pesada a sua. Cheia de culpa. / Cheia de nomes. Eu carrego todos. / Que desperdício.
+
+=Jax|Raiden
+A: Raiden. Você segura um portão melhor que muito soldado meu. / Eu só não queria que ninguém passasse. / Isso se chama coragem.
+A: Você é o campeão escolhido? / Eu sou um fazendeiro que aprendeu a lutar. / Eu sou um soldado que aprendeu a ser pai. Tudo se aprende.
+B: Major, posso tocar no seu braço? / Pode. / É frio! Igual a ferramenta de arado.
+B: Liu Kang disse para eu aprender resistência com você. / Primeira lição: apanhar sem reclamar. / ...Eu já reclamei.
+
+=Jax|Rain
+A: Príncipe. Você vendeu informação ao Shao. / Eu fui enganado. / Até a minha filha tem uma desculpa melhor.
+A: Você fala muito para quem perde muito. / Eu sou da realeza! / A realeza também cai. Eu vi.
+B: Humano de metal. Os seus braços seriam um belo troféu. / Ficam onde estão. / Por enquanto.
+B: Um príncipe merece reverência, humano. / Reverência eu guardo para a minha mãe. / Que falta de modos!
+
+=Jax|Reiko
+A: Reiko. O seu general te usa como escudo. / Eu sou o escudo dele. Com orgulho. / Escudo também quebra.
+A: Você luta bem para servir um homem tão ruim. / Lealdade não escolhe. / Escolhe sim. E você escolheu mal.
+B: Major. Um soldado sem general. / Eu tenho comandante. E ela não foge. / O meu general vai voltar.
+B: Os seus braços enferrujam? / Só se eu chorar em cima. / ...Você chora?
+
+=Jax|Reptile
+A: Você ficou invisível no meu acampamento. / Eu procurava comida. / Da próxima vez, pede. Eu divido.
+A: O seu povo foi caçado. / Por muitos reinos. / O meu esquadrão não caça refugiado. Caça quem caça.
+B: Humano. Você não tem medo de mim. / Eu tenho medo de muita coisa. Lagarto não é uma delas. / ...Obrigado, eu acho.
+B: O seu metal me acha no escuro? / O meu metal não. O meu instinto sim. / Instinto. Eu respeito isso.
+
+=Jax|Rudolf
+A: Rudolf. Você conta piada até apanhando. / É o meu escudo. / O meu escudo é de aço. O seu é de papel.
+A: Você é filho da General Kitana. / O favorito. Não pergunte para a minha tia. / Vou perguntar para a sua mãe.
+B: Major! Os seus braços combinam com o meu fogo. / Fogo esquenta o metal. / Então vamos fazer uma churrasqueira.
+B: A Jade disse que você é o único humano que bate mais forte que ela. / A Jade é gentil. / A Jade nunca é gentil. Isso foi um aviso.
+
+=Jax|Scorpion
+A: Grão-Mestre. O seu clã ajudou o meu esquadrão na fronteira. / O Shirai Ryu protege inocentes. / Eu também. Hoje é só treino.
+A: Fogo e corrente. Bom estilo. / Honra e paciência. Melhor estilo. / Isso eu aprendi em casa.
+B: Major. Você também perdeu parte de si na guerra. / Perdi os braços. Não a vontade. / Eu perdi um irmão. Também não a vontade.
+B: Lute comigo. Quero sentir a força dos seus braços. / Prepare a armadura. / O Shirai Ryu não usa armadura.
+
+=Jax|Sektor
+A: Tenente. Você também é metade máquina. / Sou máquina com propósito. / Eu sou homem com propósito. É diferente.
+A: Os seus mísseis atingiram o meu jipe. / Alvo de oportunidade. / Era um jipe novo!
+B: Análise: braços cibernéticos de modelo antigo. / Modelo antigo e resistente. / Teste de resistência iniciado.
+B: Você poderia ser melhorado. / Eu já fui o suficiente. / Desperdício de potencial.
+
+=Jax|Shang Tsung
+A: Feiticeiro. Você trocou de rosto e virou eu. / Achei que você ficaria lisonjeado. / Fiquei bravo. O meu rosto não tem esse sorriso.
+A: Você coleciona almas. / E você coleciona cicatrizes. / Pelo menos as minhas eu ganhei lutando.
+B: Major. Que alma resistente. / Resistente demais para você. / Nenhuma é resistente demais.
+B: Eu posso virar a sua filha. / Se fizer isso, eu esqueço que sou soldado. / ...Talvez não.
+
+=Jax|Sindel
+A: Imperatriz. A sua voz quase derrubou o meu helicóptero. / Foi um aviso. / Foi um aviso muito alto.
+A: Você foi controlada. Eu sei o que é perder o controle do corpo. / E como você voltou? / Um dia de cada vez.
+B: Major. Você protege como um pai. / Porque eu sou pai. / Então entende o que eu sinto pelas minhas filhas.
+B: Lute comigo. Quero sentir a força humana. / Prepare os ouvidos dos guardas. / Eu sempre preparo.
+
+=Jax|Smoke
+A: Smoke. Você some e reaparece atrás de mim. / É o meu jeito de cumprimentar. / Eu cumprimento de frente. Com o punho.
+A: O Kuai Liang e você são irmãos de criação? / De escolha. É mais forte que sangue. / A minha filha também é de escolha. Eu sei bem.
+B: Major, você me achou na fumaça. / Fumaça não ri. Você riu. / ...Preciso parar com isso.
+B: O Kuai Liang diz que você é o homem mais confiável do Plano Terreno. / Ele está sendo gentil. / Ele nunca é gentil por acaso.
+
+=Jax|Sub-Zero
+A: Bi-Han. O seu gelo travou o motor do meu caminhão. / O Lin Kuei não tolera intrusos. / Era o estacionamento, Grão-Mestre.
+A: O seu gelo congela os meus braços? / Congela qualquer coisa. / Então eu soco com eles congelados.
+B: Humano. Seus braços são frios como os meus. / Mas o meu coração é quente. / Fraqueza.
+B: O Lin Kuei poderia usar um soldado como você. / Eu já tenho comandante. / Ela não paga como o clã. / Paga com respeito. É o suficiente.
+
+=Jax|T-1000
+A: Metal líquido. Você copiou o meu braço. / A cópia foi exata. / Menos o arranhão que a minha filha fez com giz.
+A: Nada te machuca? / Dano é reparado em segundos. / Comigo é diferente. Eu sinto a dor. E aprendi a usar.
+B: Alvo: humano com membros cibernéticos. Ameaça elevada. / Obrigado, colega. / Não somos colegas.
+B: Os seus braços são inferiores ao meu metal. / Mas são meus. / Variável emocional. Irrelevante. / Vamos ver.
+
+=Jax|Takeda
+A: Takeda. O seu pai pediu para eu ficar de olho em você. / Ele sempre pede isso para todo mundo. / Ele tem motivo, garoto.
+A: O seu pai diz que você ouve pensamentos. / Só quando gritam. / Então escuta este: guarda alta, garoto.
+B: Major! Posso treinar com o seu esquadrão? / Acorda às quatro? / Eu acho que eu prefiro lutar com o senhor agora.
+B: O senhor pensa muito na sua filha. / Você leu a minha mente? / Não precisei. Está no seu rosto.
+
+=Jax|Tanya
+A: Tanya. Dizem que nenhuma Umgadi recua. / Nenhuma. Nunca. / Nem eu. Isso vai demorar.
+A: Você protege a imperatriz como eu protejo a minha família. / Ela é a minha família. / Então você sabe por que eu não caio.
+B: Major. A Umgadi respeita quem não foge. / Eu nunca aprendi a fugir. / Então vamos ver se aprendeu a cair.
+B: A imperatriz confia em vocês, humanos. / Vamos merecer. / Prove.
+
+=Jax|Teresa
+A: Teresa. O seu nome está nos contratos do Dragão Negro. / Eu advogo para quem paga. / Pagou com armas roubadas.
+A: Você negocia tudo. / Tudo tem preço. / A minha filha não tem. Nem a minha lealdade.
+B: Major. O senhor ganharia mais na iniciativa privada. / Eu ganho o suficiente para comprar sorvete no domingo. / ...Que vida pequena.
+B: Quanto o senhor quer para esquecer o meu nome? / Não tem preço. / Todo mundo diz isso até o primeiro cheque.

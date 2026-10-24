@@ -1,0 +1,135 @@
+=Li Mei|Li Mei
+A: Outra general. Na sua linha, o Shao também traiu? / Traiu. E ganhou. Eu comando o que sobrou do exército. / Então lute por elas. As suas soldadas estão olhando.
+A: Você ainda tem a cicatriz da batalha do vale? / Tenho. E a raiva também. / Ótimo. Vamos gastar as duas.
+
+=Li Mei|Liu Kang
+A: Deus do Fogo. Exoterra deve muito ao seu campeão. / Exoterra deve muito a você. Assumiu o exército numa hora difícil. / Assumi com medo. Ainda tenho.
+A: Você confiou em mim quando o Shao caiu. / Eu confiei em quem não fugiu. / Então eu não vou fugir agora.
+B: Li Mei. Você carrega muito peso para alguém tão jovem. / O peso vem com o posto. / Então carregue-o com orgulho.
+B: Mostre a força de Exoterra. / Mostro com explosões. É o que eu tenho. / Então exploda.
+
+=Li Mei|Mileena
+A: Imperatriz. O exército está pronto. / Eu sei. Você me disse ontem. E anteontem. / A senhora me disse para reportar todo dia.
+A: Seus inimigos ainda conspiram. / Meus inimigos sempre conspiram. É por isso que eu tenho você. / Então vou honrar a confiança.
+B: Li Mei. Você é a melhor general que eu já tive. / Melhor que o Shao? / O Shao me traiu. Você nunca. Isso basta.
+B: Lute comigo como se eu fosse inimiga. / A senhora é a imperatriz. / Hoje sou só uma oponente. Obedeça.
+
+=Li Mei|Nitara
+A: Vampira. Seus voos noturnos estão assustando os soldados. / Vaeternus tem interesses. / Então apresente ao conselho. Não às minhas sentinelas.
+A: Vaeternus quer independência. Exoterra precisa de união. / União não é submissão. / Concordo. Mas também não é ataque surpresa.
+B: General. Você protege um império que oprime meu povo. / Eu protejo um império que está mudando. / Lentamente demais.
+B: Lute comigo. Se eu vencer, você leva a minha proposta à imperatriz. / Eu levaria de qualquer jeito. / Então lute por diversão.
+
+=Li Mei|Noob Saibot
+A: Uma sombra no meu território. / Eu sou a escuridão que você não controla. / Eu controlo um exército. Uma sombra não é nada.
+A: O Havik te transformou. Seus homens foram vítimas também. / Eu não sou vítima. / Então você é culpado.
+B: General. Seu exército é luz demais. / Meu exército é força. / A escuridão engole força.
+B: Uma general com explosões. As sombras engolem a luz. / As minhas explosões são rápidas demais para serem engolidas. / Tente.
+
+=Li Mei|Omni-Man
+A: Um conquistador de outro mundo. Exoterra resiste a conquistadores. / Eu não sou como os outros. / Todos diziam isso. Estão nos nossos livros de história.
+A: Você é forte. Mas Exoterra é mais. / Exoterra é fraca. / Exoterra sobreviveu ao Shao. Vai sobreviver a você.
+B: Uma general. Em Viltrum, você seria uma soldada comum. / Em Exoterra, eu sou a general. / Rebaixamento.
+B: Seu exército não me arranha. / Meu exército não precisa. Eu arranho. / Tente.
+
+=Li Mei|Peacemaker
+A: Você fala de paz carregando um arsenal. / Paz é um arsenal bem usado. / Isso não faz sentido.
+A: Seu capacete atrapalha a visão. / Nada atrapalha a visão da paz. / Então veja isso.
+B: General! Você é tipo uma militar de verdade. / Eu sou uma militar de verdade. / Isso é demais.
+B: General Li Mei! Paz através da disciplina militar? / Paz através de Exoterra unida. / Eu adoro um uniforme.
+
+=Li Mei|Quan Chi
+A: Necromante. Seus Revenants atacaram uma vila na fronteira. / Eu só estava recrutando. / Então eu vou desmobilizar você.
+A: Você usa os mortos. Eu honro os meus. / Honra não traz ninguém de volta. / Mas impede que você os use.
+B: General. Seus soldados seriam ótimos Revenants. / Meus soldados são vivos. E leais. / Por enquanto.
+B: A morte vem para todos, general. / Exoterra não cai mais. Eu prometi. / Promessas são o primeiro adubo da morte.
+
+=Li Mei|Raiden
+A: Raiden. O campeão do Plano Terreno. Meus soldados riram quando souberam que você planta arroz. / E depois? / Depois eu mostrei o vídeo do seu raio. Pararam de rir.
+A: Seu raio é sincero, campeão. Mas sinceridade não ganha guerras. / Ganha amigos. E amigos ganham guerras. / ...Vou citar isso no próximo discurso.
+B: General. Você comanda tantos soldados. Não tem medo? / Tenho. Todo dia. / Isso me deixa menos nervoso.
+B: General, posso aprender com o seu exército? / Pode treinar com eles. Mas eles acordam às quatro. / Eu acordo às três para alimentar os búfalos.
+
+=Li Mei|Rain
+A: Rain. A corte pediu que eu vigiasse você depois da masmorra. / Eu não preciso de babá. / Você precisa de uma general. Por isso eu vim.
+A: Sua água é bonita. Mas o seu nome está nas cartas do Shao. / Aquelas cartas eram falsas! / Eu li cada uma. A sua letra é a mais feia de Edênia.
+B: General. Você não tem nada a ver com Edênia. / Tenho a ver com a justiça. / Então afogue-se nela.
+B: Ajoelhe-se diante de um príncipe, general. / Ajoelhe-se diante da lei de Exoterra. / Eu sou a lei de Edênia!
+
+=Li Mei|Reiko
+A: Reiko. Você foi meu superior. Hoje sou eu que assino a sua ficha. / Isso é temporário. / Tudo é temporário. Inclusive o seu orgulho.
+A: Você era meu superior. / E ainda sou. / Não mais.
+B: Li Mei. Você roubou o posto que deveria ser meu. / Você abandonou Exoterra. / Eu segui o general.
+B: O general vai voltar. / E vai encontrar o exército pronto. / Veremos.
+
+=Li Mei|Reptile
+A: Syzoth. Seu povo está seguro na fronteira? / Mais seguro desde que você assumiu. / Isso é bom de ouvir.
+A: Syzoth. Você se esconde até de mim. / Para sobreviver. / Em Exoterra, sob o meu comando, ninguém mais caça o seu povo. Pode aparecer.
+B: General. Você trata o meu povo diferente dos outros. / Eu tento. / Você consegue. Ninguém mais foi preso por ser zaterrano.
+B: General. Lute comigo. Quero ver a força de Exoterra. / Com prazer. Mas não fique invisível. / Isso vai ser difícil.
+
+=Li Mei|Rudolf
+A: Príncipe. Você atrapalhou a formação no último treino. / Eu estava testando a flexibilidade da tropa. / Você estava fazendo piada com o tenente.
+A: Seus arqueiros ainda falam de você na ponte. / Foi o meu melhor incêndio. / Foi a sua melhor estratégia. Mas não conte para eles que eu disse.
+B: Li Mei! Você sorriu uma vez? Eu vi. / Eu nunca sorrio em serviço. / Então você estava de folga. Na guerra.
+B: General, eu posso comandar o flanco leste amanhã? / Só se você me vencer hoje. / Você sabe que eu adoro um desafio.
+
+=Li Mei|Scorpion
+A: Grão-Mestre do Shirai Ryu. Seu clã é bem-vindo em Exoterra. / Obrigado, general. / Mas lute.
+A: Grão-Mestre do Shirai Ryu. Seu fogo protegeria bem as nossas fronteiras. / Meu fogo protege meu clã. / Então seu clã pode proteger o meu exército. Aliança?
+B: General. Você comanda com honra. / Eu tento. / Você consegue.
+B: General. O Shirai Ryu oferece ajuda nas fronteiras. / Exoterra aceita. Depois de testar vocês. / Então teste com toda a força.
+
+=Li Mei|Sektor
+A: Tenente. Suas armaduras seriam úteis ao meu exército. / Elas não estão à venda. / Então talvez uma aliança.
+A: Tenente, suas máquinas são precisas. / Mais que explosões. / Explosões não precisam ser precisas. Precisam ser grandes.
+B: Análise: general eficiente. Força explosiva. / Obrigada. / Pedido: aliança entre o Lin Kuei e o seu exército. Depois desta luta.
+B: General. Seus soldados marcham sempre no mesmo ritmo. / Disciplina. / Previsibilidade. Mas uma previsibilidade que funciona. Respeito.
+
+=Li Mei|Shang Tsung
+A: Feiticeiro. Você ajudou o Shao. / Eu ajudei a mim mesmo. / Então você vai pagar por si mesmo.
+A: Você controlou a imperatriz mãe. / Foi fascinante. / Foi um crime contra Exoterra.
+B: General. Sua alma seria deliciosa. Tão disciplinada. / Minha alma é de Exoterra. / Exoterra também tem alma. E eu sou guloso.
+B: Eu posso virar o Shao. / Então eu vou derrotar ele de novo. Com prazer. / Interessante. Você gosta de vingança. Isso me abre portas.
+
+=Li Mei|Sindel
+A: Imperatriz mãe. Seus olhos estão de volta. / Graças às minhas filhas. E a você, que segurou o portão. / Eu só cumpri meu dever.
+A: Sua voz é uma arma poderosa. / Minha voz protege minha família. / E Exoterra.
+B: General. Você é leal. / Sempre. / Então lute com lealdade.
+B: General. Lute comigo. Quero ver a força de Exoterra. / Com prazer. Mas eu não vou pegar leve com a imperatriz mãe. / Ótimo. Ninguém pegou leve comigo quando eu estava enfeitiçada.
+
+=Li Mei|Smoke
+A: Smoke. Os guardas reclamam de fumaça na cozinha do palácio. / Eu estava só de passagem. / Você estava comendo os doces da imperatriz.
+A: Você protege os seus irmãos. Eu protejo um exército inteiro. / Um exército é muita gente para chamar de família. / Um exército também é família. Só que maior e mais barulhento.
+B: General. Seu exército é forte. / Graças à disciplina. / E à liderança.
+B: General. Seus guardas reclamam de fumaça nos corredores. / Eu estava de passagem. / Você estava comendo os doces da imperatriz.
+
+=Li Mei|Sub-Zero
+A: Grão-Mestre. Seus ninjas foram vistos nas fronteiras. / O Lin Kuei observa. / Então eu vou observar de volta. Com a lança.
+A: Seu gelo cobre o chão. Meus soldados escorregam. / Bom. Soldados que escorregam aprendem. / Os meus aprendem a explodir o gelo.
+B: General. Seu exército está espalhado demais. / Está cobrindo as fronteiras que o seu clã observa. / Então você já sabe que observamos. Bom.
+B: Meu gelo vai congelar suas explosões. / Minhas explosões derretem gelo. / Veremos.
+
+=Li Mei|T-1000
+A: Máquina. Você pode imitar qualquer soldado. / Posso. / Então imite um soldado leal. Vamos ver se você entende o conceito.
+A: Máquina. Seu cálculo prevê o meu exército? / Previsto. Probabilidade de vitória: baixa. / O Shao calculou o mesmo. E perdeu para soldados que lutavam por amor.
+B: Alvo: general. Ameaça alta. / Obrigada. / Análise: lidera pelo exemplo. Ineficiente. Mas funcional.
+B: Você é previsível. / Eu sou disciplinada. / Disciplina é um ótimo dado. Obrigado por fornecer.
+
+=Li Mei|Takeda
+A: Takeda. Seu pai é o espadachim mais respeitado do Plano Terreno. / Ele diz que eu sou o mais barulhento. / Os dois títulos são verdadeiros.
+A: Takeda, se você estivesse no meu exército, faria flexões até calar a boca. / Isso levaria anos. / Então seriam anos.
+B: General! Você é muito famosa no Plano Terreno. / Por quê? / Porque você comanda um exército inteiro.
+B: General, posso treinar com o seu exército? / Pode. Eles acordam às quatro. / O meu pai acorda às três. Vou dormir até mais tarde lá.
+
+=Li Mei|Tanya
+A: Tanya. A imperatriz está segura? / Sempre. Ela pediu para eu te vencer hoje. / Ela pediu para eu te vencer também. Ela adora uma competição.
+A: Tanya, você nunca perde a calma. / Perdi uma vez. Quando o Shao tocou na imperatriz. / Lembro. Ele ficou uma semana sem andar direito.
+B: General. A imperatriz pediu que a Umgadi e o exército treinassem juntos. / Ela quer medir forças. / Ela quer que nós duas melhoremos. E que eu ganhe.
+B: General. A imperatriz quer que a Umgadi e o exército treinem juntos. / Com prazer. / Então o exército começa apanhando. Tradição.
+
+=Li Mei|Teresa
+A: Forasteira. Você lutou sujo comigo no corredor. / Eu luto para ganhar. / Hoje você luta para não ser presa.
+A: Aquelas cartas do Shao. Você ficou com elas ou entregou? / Depende de quem pergunta. / A general pergunta. Com a lança.
+B: General! Você me perseguiu pelo palácio inteiro. / Você invadiu a sala do tesoureiro. / Eu estava procurando o banheiro.
+B: Você é muito séria. Precisa de um advogado. / Para quê? / Para processar quem te fez tão chata.

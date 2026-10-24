@@ -1,0 +1,117 @@
+=Nitara|Nitara
+A: Outra Nitara. Na sua linha, Vaeternus é livre? / É livre e vazia. A guerra levou quase todos. / Então a liberdade tem preço. Eu vou lutar para pagar menos.
+A: Suas asas estão rasgadas. / Uma batalha contra o Shao. Na minha linha, ele venceu. / Na minha, ele perdeu. Venha ver como se voa sem medo.
+
+=Nitara|Noob Saibot
+A: Sombra. Seu sangue não tem gosto. / Porque eu não tenho sangue. Só escuridão. / Que desperdício de corpo.
+A: O Havik te prometeu poder e te tirou o resto. / Eu não perdi nada. / Você perdeu o nome.
+B: Vampira. Suas asas cortam a noite. Eu sou a noite. / A noite é minha casa. / Então eu vou fechar a porta.
+B: Vaeternus vai cair na escuridão. / Vaeternus nasceu na escuridão. / Então volte para ela.
+
+=Nitara|Omni-Man
+A: Um viltrumita. Seu sangue deve ter um gosto poderoso. / Ninguém prova o meu sangue. / Sempre tem uma primeira vez.
+A: Você conquista mundos. Eu só quero libertar o meu. / Libertar é só uma forma de conquistar. / Para você. Não para mim.
+B: Uma vampira alada. Viltrum teria eliminado sua espécie. / Vaeternus sobreviveu a impérios piores. / Não existe império pior.
+B: Suas asas são lentas. / Minhas asas são silenciosas. Você nem viu de onde vim. / Eu vejo tudo.
+
+=Nitara|Peacemaker
+A: Paz através da violência. Vaeternus entende isso. / Sério? Então somos aliados! / Não. Mas eu respeito a sinceridade.
+A: Seu capacete reflete a lua. / É cromado! / É irritante.
+B: Uma vampira! Você tem medo de alho? / Não. / E de água benta? / De homens que falam demais.
+B: Vamos lutar pela paz! / Eu luto pela liberdade. / Paz livre, então!
+
+=Nitara|Quan Chi
+A: Necromante. Você usa os mortos. Eu me alimento dos vivos. / Somos dois lados da mesma moeda. / Não. Você escraviza. Eu sobrevivo.
+A: Você ofereceu ajuda a Vaeternus nas linhas antigas. / E posso oferecer de novo. / Seu preço é sempre alto demais.
+B: Vampira. Sua espécie seria Revenant perfeita. Já está meio morta. / Meio viva, você quer dizer. / Detalhe.
+B: A morte é a minha especialidade, vampira. / A noite é a minha. E a noite engole a morte. / Então a noite e a morte vão brigar aqui.
+
+=Nitara|Raiden
+A: Campeão. Seu sangue tem gosto de raio? / Não sei. Prefiro não descobrir. / Sábio.
+A: Você é puro demais. Isso me dá sede. / Isso é assustador. / Era para ser.
+B: Vampira. Você ameaça os inocentes? / Eu ameaço quem ameaça Vaeternus. / Então eu não sou ameaça.
+B: Vampira, você vai me morder? / Se você deixar a guarda aberta. / Então eu vou lutar com o pescoço coberto. E rezar um pouquinho.
+
+=Nitara|Rain
+A: Rain. Edênia e Vaeternus têm algo em comum. Os dois querem liberdade. / Edênia quer um rei. Eu. / Você quer um trono. Eu quero um céu.
+A: Sua água não me alcança no ar. / Meu raio alcança. / Então tente.
+B: Vampira. Você e eu poderíamos ser aliados. / Você trai seus aliados. / Eu fui enganado!
+B: Vaeternus merece liberdade? / Merece. / Então Edênia merece um rei.
+
+=Nitara|Reiko
+A: Reiko. Seu general prometeu independência para Vaeternus. / O general promete muitas coisas. / E não cumpre nenhuma.
+A: Reiko. Seu general me prometeu Vaeternus livre. / O general negocia. / O general mente. E você entrega as mentiras dele.
+B: Vampira. O general ainda pode cumprir a promessa. / O general mente. / O general negocia.
+B: Suas asas são lentas. / Minhas asas são silenciosas. / Silenciosas e lentas.
+
+=Nitara|Reptile
+A: Syzoth. Vaeternus e Zaterra conhecem o desprezo de Exoterra. / Conhecemos. / Então lute comigo, não contra mim.
+A: Syzoth. Vaeternus e Zaterra foram esquecidas por Exoterra. / Fomos. / Então lute ao meu lado no conselho. Depois de lutar contra mim.
+B: Vampira. Você é rápida no ar. / E você é invisível no chão. / Somos complementares.
+B: Lute comigo. Quero ver se Vaeternus é tão forte quanto dizem. / Mais forte. / Então mostre.
+
+=Nitara|Rudolf
+A: Príncipe. Seu sangue tem cheiro de fogo divino. / Isso é perfume. Eu passo todo dia. / Mentiroso. E apetitoso.
+A: Você é amigo da imitação sem asas. / A Katherine? Ela não é imitação. Ela é edição limitada. / Hmph. Você tem um gosto horrível para amizades.
+B: Nitara. Você ronda o palácio de madrugada. Isso é crush ou espionagem? / Espionagem. / Pena. Eu ia me sentir lisonjeado.
+B: Se eu ganhar, você para de assustar as sentinelas? / Se você ganhar, eu penso no assunto. / Até você? Essa frase é uma doença de Exoterra.
+
+=Nitara|Scorpion
+A: Grão-Mestre. Seu fogo queima vampiros? / Queima inimigos. / Então espero não ser uma.
+A: Você protege seu clã. Eu protejo meu reino. / Família e reino são a mesma coisa. / Concordo.
+B: Vampira. Você bebe sangue de inocentes? / Só de quem ameaça Vaeternus. / Então eu não sou ameaça.
+B: Lute com honra. / Eu luto com garras. / Então lute com honra e garras.
+
+=Nitara|Sektor
+A: Tenente. Suas máquinas analisam asas? / Análise: envergadura impressionante. / Obrigada.
+A: Você confia nas máquinas. Eu confio no instinto. / Instinto é imprevisível. / Por isso funciona.
+B: Análise: espécie vampírica. Asas com envergadura de quatro metros. / Obrigada. / Isso foi uma medição. Mas foi um pouco um elogio.
+B: Seus ataques aéreos vêm sempre do lado da lua. / Porque a noite é minha. / Então eu vou lutar com a lanterna ligada.
+
+=Nitara|Shang Tsung
+A: Feiticeiro. Você ofereceu ajuda a Katherine. Não a mim. / Ela mente melhor. / Ela é uma imitação. Eu sou original.
+A: Sua alma é feita de outras almas. Isso é nojento. / Sua dieta é feita de sangue. Isso é elegante? / Mais que a sua.
+B: Vampira. Sua alma seria deliciosa. / Minha alma é de Vaeternus. / Vaeternus vai cair.
+B: Eu posso dar liberdade a Vaeternus. / Por um preço. / Por uma alma. A sua. Liberdade total.
+
+=Nitara|Sindel
+A: Imperatriz mãe. Vaeternus sempre teve respeito por Edênia. / E Edênia por Vaeternus. / Então ouça o meu pedido.
+A: Imperatriz mãe. Sua voz derrubou muralhas. Ela pode abrir portas para Vaeternus? / Pode. Se Vaeternus pedir com a boca, não com os dentes. / Então eu vou aprender a pedir. Depois.
+B: Vampira. Você ronda o palácio de madrugada. / Vaeternus quer ser ouvida. / Então venha de dia.
+B: Vampira. Lute comigo. Quero ver a força de Vaeternus. / Se eu vencer, Vaeternus fala no conselho. / Se você vencer, eu penso no assunto.
+
+=Nitara|Smoke
+A: Fumaça. Seu sangue é invisível? / Meu sangue é vermelho como o seu. / Então você é visível para mim.
+A: Fumaça. Você some. Eu voo. / Somos dois fugitivos. / Não. Eu fujo para cima. Você foge para dentro.
+B: Vampira. Você é rápida. / E você é discreto. / Somos complementares.
+B: Lute de frente. / Eu luto de cima. / Então lute de cima.
+
+=Nitara|Sub-Zero
+A: Grão-Mestre. Seu sangue é gelado? / Meu sangue é disciplina. / Que sem graça.
+A: Seu gelo não alcança o céu. / Meu gelo alcança tudo. / Tente.
+B: Vampira. O Lin Kuei não teme você. / Vaeternus não teme o Lin Kuei. / Então lutemos.
+B: Meu gelo vai congelar suas asas. / Minhas asas aguentam tempestades. / Veremos.
+
+=Nitara|T-1000
+A: Máquina. Você não tem sangue. / Sangue não é necessário. / Para mim, é tudo.
+A: Você imita formas. Imite as minhas asas. / Posso. / Então voe comigo.
+B: Alvo: vampira alada. Ameaça alta. / Obrigada. / Asas: ponto fraco. Vou começar por elas.
+B: Você é imprevisível. / Eu sou da noite. / Visão noturna ativada. Agora você é previsível.
+
+=Nitara|Takeda
+A: Garoto. Seu sangue tem cheiro de juventude e de pai preocupado. / Meu pai está ali, aliás. / Então eu vou só mordiscar.
+A: Você fala demais para quem tem um pai tão calado. / Alguém na família tem que falar. / Então fale enquanto pode.
+B: Vampira! Você é tipo uma personagem de filme de terror. / Eu sou real. / Isso é ainda mais assustador.
+B: Posso lutar sem ser mordido? / Pode tentar. / Ok. Vou ler a sua mente para saber quando desviar. Ai, você pensa muito em pescoço.
+
+=Nitara|Tanya
+A: Umgadi. Você protege a imperatriz. Proteja também o meu pedido. / Peça de dia, pela porta. / Vaeternus não usa portas.
+A: Você é calma como a noite. / A noite é traiçoeira. Eu não. / Então você é uma noite sem lua. Ainda mais perigosa.
+B: Vampira. Fique longe da imperatriz. / Eu só quero uma audiência. / Então peça de dia.
+B: Vampira. Lute comigo. Se perder, você para de sobrevoar o quarto da imperatriz. / E se eu ganhar? / Você não vai ganhar.
+
+=Nitara|Teresa
+A: Forasteira. Você negocia com todos os lados. / E ganho em todos. / Então negocie com Vaeternus.
+A: Você é ambiciosa. / Você também. Você quer um reino. Eu quero um palácio. / O seu é menor.
+B: Uma vampira com asas. Você seria um ótimo investimento. / Vaeternus não está à venda. / Tudo está à venda, querida.
+B: Suas asas são lindas. Quanto custa um par? / Não se compra. Se nasce. / Que injustiça. Igual a tudo neste mundo.

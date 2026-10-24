@@ -1,0 +1,63 @@
+=Rudolf|Rudolf
+A: Você faz piada. Por quê? / Porque é isso ou chorar, e eu fico feio chorando. / ...Eu sei. Eu também fico.
+A: Eu sou a versão que treinou com a Jade. / E eu sou a versão que o Shao criou. Pelo menos agora a gente come cereal juntos. / Então lute como irmão. Não como sombra.
+
+=Rudolf|Scorpion
+A: Scorpion! Seu fogo é mais bonito que o meu? / O meu é mais antigo. / O meu é mais bem penteado.
+A: Você deixou um clã inteiro por princípios. Eu deixo a corte toda vez que tem reunião. / Isso não é princípio. É preguiça. / É princípio de preguiça.
+B: Príncipe. Seu fogo é forte, mas impulsivo. / Minha mãe diz o mesmo. A Jade também. Agora você. / Talvez seja verdade.
+B: Lute com honra. / Eu luto com charme. A honra vem de bônus. / Então mostre os dois.
+
+=Rudolf|Sektor
+A: Sektor! Seus mísseis são mais rápidos que os meus leques? / Análise: sim. / Que análise cruel.
+A: Você analisa tudo. Me analisa. / Análise: sarcasmo elevado, técnica acima da média, insegurança alta. / ...Não precisava do último item.
+B: Análise: príncipe com fogo divino. Origem paterna inconclusiva. / Até você sabe do boato? / Os dados vazam.
+B: Você faz uma piada antes de cada ataque. Uma por golpe. / É o meu charme. / É o seu sinal. Obrigada pelo aviso, príncipe.
+
+=Rudolf|Shang Tsung
+A: Shang Tsung. Da última vez você perdeu para mim e para a minha mãe. Juntos. / Duas chamas do mesmo sangue... foi sorte. / Foi hora da família.
+A: Você controlou a minha avó. Isso foi baixo até para você. / Eu prefiro chamar de criativo. / Eu prefiro chamar de motivo para te queimar.
+B: Principezinho. Sua alma ainda me chama. / Ela não te chama. Ela te manda embora com sotaque. / Hah. Insolente como a mãe.
+B: Eu posso virar você. / Então vai ficar bonito pela primeira vez. / Que língua venenosa.
+
+=Rudolf|Sindel
+A: Vó! Você ainda grita quando eu chego atrasado? / Eu grito quando você chega. O atraso é só um bônus. / Isso foi carinho, né?
+A: Você está bem? Depois do feitiço do Shang Tsung... / Estou, meu neto. Graças à sua mãe e a você. / Então lute comigo como a avó mais forte de Edênia.
+B: Rudolf. Postura. Você é o herdeiro de Edênia. / Vó, eu sou o herdeiro do sarcasmo de Edênia. / Ensinei etiqueta a você por cem anos. Sem sucesso.
+B: Você ainda não sabe quem é o seu pai? / Ninguém me conta! Nem a senhora. / Algumas respostas pertencem à sua mãe.
+
+=Rudolf|Smoke
+A: Smoke! Você some como fumaça. Eu incendeio a fumaça. / Fumaça não queima. / Vamos testar.
+A: Você protege seus irmãos. Eu protejo a minha tia. Ela morde. / E quem protege você? / A Jade. E a minha língua afiada.
+B: Rudolf. Você me achou na cozinha três vezes. / Isso é carisma ou faro? / Faro. E você cheira a doce de tia Mileena.
+B: Rudolf. Você roubou o meu doce. / Você estava comendo o doce da minha tia. / ...Justo. Mas ainda vou te derrubar.
+
+=Rudolf|Sub-Zero
+A: Sub-Zero! Meus leques derretem o seu gelo? / Tente. / Ótimo. Se eu derreter, você vira Sub-Morno. Já tenho o apelido pronto.
+A: Você é frio. Eu sou quente. Somos opostos perfeitos. / Somos inimigos. / Opostos perfeitos inimigos.
+B: Príncipe. O Lin Kuei não teme você. / Ninguém teme. Mas todos riem. / Eu não rio. / Eu percebi. Isso é um problema de saúde, Bi-Han.
+B: Meu gelo vai apagar seu fogo. / Meu fogo vai derreter seu gelo. E seu humor. / Eu não tenho humor.
+
+=Rudolf|T-1000
+A: T-1000! Vira eu. Quero ver se você consegue o meu sorriso. / Sorriso replicado. / Não. Faltou o charme. O charme não se replica.
+A: Você não sente nada? Que vida triste. / Sentimento é ineficiente. / Então você nunca vai entender por que eu conto piada no meio da luta. É por eficiência emocional.
+B: Alvo: príncipe. Ameaça moderada. / Moderada?! Eu sou o Leque Ardente! / Recalibrando. Ameaça: moderada e ofendida.
+B: Príncipe. Você fez sete piadas desde que eu cheguei. / Oito. Uma foi mental. / Este torneio tem muito carisma e pouca eficiência.
+
+=Rudolf|Takeda
+A: Takeda! Seu pai ainda acorda você antes do sol? / Antes do sol e do galo. / A Jade acorda antes do galo e antes do sol. E ainda me acusa de dormir demais.
+A: Você lê mentes. Lê a minha. / Você está pensando em piadas. / E agora você também.
+B: Rudolf! Você é muito famoso no Plano Terreno. / Eu sei. / Por causa das piadas ruins.
+B: Rudolf, eu li a sua mente sem querer. / E o que você viu? / Insegurança, muito estilo e uma pergunta sobre o seu pai.
+
+=Rudolf|Tanya
+A: Tanya. A tia Mileena está segura? / Sempre. E a sua mãe? / Sempre irritada comigo.
+A: Você é a única que faz a minha tia sorrir. / Você também. Às vezes. / Às vezes é melhor que nunca.
+B: Príncipe. A imperatriz pediu que eu treinasse com você. / A tia quer me ver apanhar? / Ela quer que você pare de fazer piada no meio da luta.
+B: Lute comigo como se eu fosse sua inimiga. / Eu nunca conseguiria. Você me dá doce escondido. / Isso é segredo.
+
+=Rudolf|Teresa
+A: Teresa. Você me deve uma. Ou eu te devo. Já perdi a conta. / Eu cobro com juros, alteza. / Então vamos resolver na base do leque.
+A: Uma advogada no torneio? / E um príncipe que fala demais. / Pelo menos eu falo bonito.
+B: Rudolf. Você foi o único no palácio que não me olhou de cima. / Eu olho para todo mundo de baixo. Sou baixinho perto da minha tia. / Isso é... estranhamente fofo.
+B: Príncipe de Edênia? Solteiro? / Moça, eu tenho mil e duzentos anos. / Melhor ainda. Herança antiga.

@@ -1,0 +1,87 @@
+=Raiden|Raiden
+A: Outro Raiden. Na sua linha, você também planta arroz? / Planto milho. O arroz não cresce na minha vila. / Então a gente vai brigar por quem tem a melhor colheita. Depois desta luta.
+A: Você também tem medo de machucar demais? / Tenho. Liu Kang diz que é bom. / Então vamos ter medo juntos e lutar mesmo assim.
+
+=Raiden|Rain
+A: Príncipe. Por que você traiu o seu reino? / Eu fui enganado. / Às vezes a gente quer tanto uma coisa que acredita em qualquer um.
+A: Sua água é bonita. Meu raio pode atravessar? / Meu raio também é roxo. Vamos ver qual é mais forte. / Ok. Mas sem brigar depois.
+B: Camponês. Você não sabe nada de realeza. / Não sei. Mas sei o que é trabalhar para merecer. / Insolente.
+B: Camponês. Ajoelhe-se diante de um príncipe. / Eu me ajoelho para plantar. Não para você. / Então se afogue no seu arrozal.
+
+=Raiden|Reiko
+A: Reiko. Você seguiu o Shao até o fim. Por quê? / Porque o general é o futuro. / O futuro deveria ser melhor que o passado.
+A: Reiko. Seu general perdeu de novo. / Ele vai voltar. / Então eu vou estar aqui. Plantando e esperando.
+B: Camponês. Você não pertence ao torneio. / Liu Kang me escolheu. / Liu Kang escolheu mal.
+B: Seus golpes são fracos. / Meus golpes são sinceros. / Sinceros e fracos.
+
+=Raiden|Reptile
+A: Syzoth. Você se esconde de todos. / Para sobreviver. / Na minha vila, você seria bem-vindo. Os búfalos nem iam notar.
+A: Seu povo sofre. Eu quero ajudar. / Ninguém nunca quis. / Eu quero. E o Liu Kang também. Ele só não tem tempo.
+B: Campeão. Você me vê mesmo invisível? / Eu sinto o cheiro do mato que você pisa. / Isso é assustador.
+B: Lute comigo. Quero ver se você merece o título. / Eu também quero ver. / Então vamos.
+
+=Raiden|Rudolf
+A: Rudolf. Você me ensinou uma piada sobre o Kung Lao. Ele ficou bravo. / Era para ele ficar bravo. Essa é a graça. / Agora ele quer revanche com você.
+A: Você é muito engraçado. Como você consegue? / Treino. E muita insegurança. / Isso foi uma piada? / Metade.
+B: Raiden! O fazendeiro mais forte do multiverso. / Você fala isso para todo mundo. / Só para quem tem raio. Ou seja, só você.
+B: Minha mentora disse que você é o guerreiro mais humilde do torneio. / Sua mentora é gentil. / Ela não é. Por isso é um elogio de verdade.
+
+=Raiden|Scorpion
+A: Grão-Mestre. Seu clã é jovem, mas honrado. / Honra é tudo o que temos. / Na minha vila, também.
+A: Seu fogo é bonito. Meu raio também. / Meu fogo protege. / Meu raio também.
+B: Raiden. O Liu Kang fala de você com orgulho. / Eu ainda não sei por quê. / Eu sei. Você pede desculpas a cada golpe. Isso é raro num guerreiro.
+B: Raiden. Treino de verdade, sem pedir desculpas. / Eu vou pedir mesmo assim. / Então peça depois que eu cair. Se eu cair.
+
+=Raiden|Sektor
+A: Tenente, suas armaduras são incríveis. / Obrigada. / Eu queria uma para arar a terra. Com propulsor.
+A: Você confia nas máquinas. Eu confio nas pessoas. / Pessoas falham. / Máquinas também.
+B: Análise: campeão com potencial elevado. / Obrigado. / Hesitação antes de cada golpe: dois décimos de segundo. Corrija isso e você vence qualquer um.
+B: Você pede desculpas antes de bater. / Eu não consigo evitar. / É um sinal. Eu sei exatamente quando o golpe vem. Pare de ser educado.
+
+=Raiden|Shang Tsung
+A: Feiticeiro. Liu Kang me falou de você. / O que ele disse? / Que você é o maior perigo desta era.
+A: Você rouba almas. / E a sua é tão pura. Que delícia. / Ela não está à venda.
+B: Camponês. Sua alma seria a mais pura da minha coleção. / Minha alma é minha. E do arrozal. / Arrozal? Que tempero inesperado.
+B: Eu posso virar o Liu Kang. / Então eu vou saber que não é ele. Ele nunca sorri assim. / Hah. Esperto.
+
+=Raiden|Sindel
+A: Imperatriz. Sua voz é tão poderosa. / Obrigada. / Eu queria um poder assim para assustar os corvos da plantação.
+A: Imperatriz, você foi controlada por feitiço. Isso deve ter sido horrível. / Foi. Gritei contra minha filha. / Então eu luto por você também. Para você gritar de alegria um dia.
+B: Campeão. Você é muito educado para um guerreiro. / Minha mãe me ensinou. / Sua mãe fez um bom trabalho.
+B: Campeão. Lute comigo. Quero ver a força do Plano Terreno. / Com prazer, imperatriz. Mas com cuidado. / Cuidado é para quem nunca foi enfeitiçada. Lute com tudo.
+
+=Raiden|Smoke
+A: Smoke. Você some como fumaça. / Eu sumo, mas volto. / Na minha vila, quem some assim é chamado de espírito do arrozal.
+A: Você protege os seus irmãos. Eu protejo o Kung Lao. / Ele também é seu irmão, então. / É. Mesmo quando ele aposta o meu almoço.
+B: Campeão. Você é humilde. / Eu sou fazendeiro. / Isso é humilde.
+B: Raiden. Você é o campeão mais educado que eu já vi. / Minha mãe fazia questão. / A minha mãe adotiva também. Por isso o Bi-Han era tão mal-educado.
+
+=Raiden|Sub-Zero
+A: Grão-Mestre. O gelo está crescendo no seu coração. / O gelo é disciplina. / Liu Kang disse que é solidão.
+A: Grão-Mestre, o meu raio derrete o seu gelo? / Tente. / Ok. Mas se derreter, você me ajuda com a irrigação.
+B: Campeão. O Lin Kuei não teme você. / Eu não quero que ninguém me tema. / Fraqueza.
+B: Meu gelo vai congelar seu raio. / Meu raio vai quebrar seu gelo. / Veremos.
+
+=Raiden|T-1000
+A: Uma máquina. Você não sente nada? / Sentimento é ineficiente. / Na minha vila, sentimento é o que faz a colheita crescer.
+A: Você imita formas. Imite um fazendeiro. / Posso imitar a forma. / Mas não o calo na mão.
+B: Alvo: campeão. Ameaça moderada. / Moderada? / Recalibrando. Ameaça: elevada.
+B: Você é ineficiente. / Eu sou sincero. / Sinceridade não é estatística.
+
+=Raiden|Takeda
+A: Takeda! Seu pai é muito sério. / Muito. / O meu também era.
+A: Takeda, seus chicotes são rápidos. / Kunais. / Desculpa. Kunais rápidas. Na minha vila, tudo que estala é chicote.
+B: Raiden! O Kung Lao disse que você treina de madrugada. / Ele não devia ter contado. / Ele se orgulha.
+B: Raiden, tô ouvindo seus pensamentos. / E o que você ouve? / Arroz. Muito arroz. E uma preocupação com o Kung Lao.
+
+=Raiden|Tanya
+A: Tanya, você ama a imperatriz de verdade. / Mais que a minha própria vida. / Isso é bonito. Eu espero amar alguém assim um dia.
+A: Tanya, como você fica tão calma antes de lutar? / Penso na imperatriz. / Eu penso na minha mãe. E ainda assim tremo. Acho que vou pensar na sua imperatriz.
+B: Campeão. A imperatriz pediu que eu treinasse com você. / Por quê eu? / Ela quer ver se o Plano Terreno é forte. E se você chora quando apanha.
+B: Campeão. Lute comigo. / Com prazer. Mas com cuidado. / Cuidado é para os fracos. Lute como se eu fosse o Shao.
+
+=Raiden|Teresa
+A: Uma advogada. Você defenderia um fazendeiro numa briga por terra? / Por um preço. / Eu pago em arroz. É a moeda da minha vila.
+A: Você é muito bonita. / Obrigada. / E muito assustadora. Igual tempestade no meio da colheita.
+B: Um camponês. Você tem cara de quem nunca teve dinheiro. / Eu tenho uma plantação. / Isso não é dinheiro.
+B: Um camponês que virou campeão. / Pelo meu povo. / Eu fiz pelo meu bolso.

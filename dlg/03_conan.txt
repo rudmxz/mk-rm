@@ -1,0 +1,225 @@
+=Conan|Conan
+A: Outro cimério. Crom deve estar rindo lá da montanha. / Crom não ri. Crom observa. / Então vamos dar um espetáculo para ele.
+A: Você também foi rei? / Fui ladrão, pirata e rei. Na mesma semana. / Então somos o mesmo homem. Só um é mais rápido.
+
+=Conan|Cyrax
+A: Uma moça dentro de uma armadura que pisca. / Uma moça que pode te derrubar com um botão. / Botão não sangra. Venha com a mão.
+A: Seus brinquedos fazem barulho demais. / São para assustar. Funcionou? / Não. Mas foi divertido.
+B: Seus músculos são reais? Meu scanner disse que sim. / Foram feitos com guerra, não com feitiço. / Vou anotar: método antigo, resultados ótimos.
+B: Você nunca ouviu falar em tecnologia? / Já. Os feiticeiros também tinham brinquedos. Morreram do mesmo jeito. / Que referência animadora.
+
+=Conan|Ermac
+A: Muitas vozes num corpo só. Isso é feitiçaria. / Somos o que a feitiçaria deixou. / Eu odeio feitiçaria. Nada pessoal.
+A: Quantos de vocês querem lutar comigo? / Todos. / Ótimo. Eu gosto de multidão.
+B: Nós sentimos uma alma simples e forte. / Simples, não. Direta. / A diferença é pequena.
+B: Algumas das nossas almas eram guerreiros como você. / Então mande os guerreiros na frente. / Eles já estão.
+
+=Conan|General Shao
+A: Um general que quer ser rei. Eu já fui os dois. / E perdeu a coroa? / Larguei. Coroa pesa mais que espada.
+A: Seu martelo é grande. Será que você também é? / Você vai descobrir no chão. / Promessas.
+B: Um bárbaro. Na minha tropa, você seria a vanguarda. / Na minha, você seria o saque. / Insolente!
+B: Ajoelhe-se diante do futuro rei de Exoterra. / Eu não ajoelhei diante de reis de verdade. / Então morra de pé.
+
+=Conan|Geras
+A: Você controla o tempo? Então volte para antes da minha ressaca. / Não é para isso que eu existo. / Que desperdício de poder.
+A: Você já me viu morrer? / Nunca. Você sempre levanta. / Crom me fez teimoso.
+B: Em muitas linhas, você é rei. / E nesta? / Nesta, você é só um convidado.
+B: O tempo esmaga todos. / O tempo ainda não me pegou de jeito. / Ele é paciente.
+
+=Conan|Ghostface
+A: Você usa máscara para matar. Isso é covardia. / É estilo. / Em Ciméria, estilo é mostrar a cara.
+A: Uma faquinha. Na minha terra, isso é para cortar pão. / E na minha, é para cortar gente. / Então vem cortar.
+B: Oi, grandão. Qual é o seu filme favorito? / Eu não sei o que é um filme. / Ah. Então você vai ser o meu.
+B: Você corre de mim? / Bárbaros não correm. Andam em direção ao inimigo. / Bom. Facilita.
+
+=Conan|Havik
+A: Um sacerdote do caos. Eu já matei uns trinta como você. / Mas nenhum sorria como eu. / Isso é verdade.
+A: Seu pescoço está torto. Vou arrumar. / Hahaha! O caos agradece! / Não foi elogio.
+B: Bárbaro! Você é o caos em pessoa! / Eu sou um homem com uma espada. Nada mais. / É isso que é caos!
+B: Venha para o meu lado. Lá não existe lei. / Eu nunca obedeci lei. Mas também não obedeço você. / Ah, o caos perfeito!
+
+=Conan|Homelander
+A: Você voa e sorri como criança mimada. / Eu sou o maior herói do mundo. / Eu já conheci reis que diziam o mesmo. Viraram poeira.
+A: Muito poder e nenhum respeito. / Respeito é o que eles me dão. / Medo, você quer dizer.
+B: Um homem das cavernas com uma espada. Que fofo. / Um menino com capa. Que ridículo. / Cuidado com o tom.
+B: Eu poderia te derreter com os olhos. / E eu poderia te cortar com o tédio. / Isso não faz sentido.
+
+=Conan|Jade
+A: Uma guerreira de poucas palavras. Gosto disso. / Gosto de quem fala menos ainda. / Então lutemos.
+A: Seu bastão é bonito. / Ele não é para ser bonito. / Mas é.
+B: Você é forte, mas desajeitado. / Desajeitado não. Eficiente. / Vou te ensinar a diferença.
+B: Você protege a princesa? / Com a vida. / Isso é lealdade. Coisa rara.
+
+=Conan|Johnny Cage
+A: Você fala muito. / E você fala pouco. Somos o equilíbrio perfeito. / Não. Somos uma briga.
+A: Seus óculos escuros não te protegem de mim. / São de grife. Protegem do sol e da inveja. / Então protejam do soco.
+B: Cara, você é igual àquele filme! Sabe qual? / Não sei o que é filme. / Ótimo, assim você não processa ninguém.
+B: Posso fazer o seu papel um dia? / Você não sobreviveria uma semana em Ciméria. / Eu tenho dublê.
+
+=Conan|Katherine Pierce
+A: Você é bonita e perigosa. Igual às rainhas que conheci. / E igual às rainhas, eu sobrevivo a todo mundo. / Veremos.
+A: Você sorri como quem vai te trair. / É porque eu vou. / Pelo menos é honesta.
+B: Bárbaro. Você tem cara de quem nunca foi enganado. / Fui enganado muitas vezes. Matei todos. / Ah. Ótimo saber.
+B: Quer fazer um acordo? / Eu faço acordos com espada na mão. / Que primitivo. Eu gosto.
+
+=Conan|Kenshi
+A: Sua espada é estranha. / Ela guarda os meus ancestrais. / A minha guarda só sangue.
+A: Um espadachim sem medo. / O medo é um conselheiro. Eu só não deixo ele mandar. / Bem dito.
+B: Seu passo é pesado. Mas é honesto. / Eu não escondo nada. / Isso é raro. Lute.
+B: A Sento quer testar você. / Que teste. / Ela é exigente.
+
+=Conan|Kitana
+A: Uma princesa guerreira. Em Ciméria, você seria lenda. / Em Exoterra, eu sou comandante. / Então mostre o comando.
+A: Seus leques são armas estranhas. / São armas mortais. / Vamos ver.
+B: Um bárbaro sem reino. / Eu já tive um. Larguei porque o trono era chato. / Você não sabe o que é dever.
+B: Meu exército teria usado você. / Seu exército teria me pagado. / Talvez seja verdade.
+
+=Conan|Kung Lao
+A: Seu chapéu é uma arma. Que coisa idiota. / Idiota é quem subestima o chapéu. / Mostre.
+A: Você é rápido como um ladrão. / Eu sou monge. / Monges também roubam vitórias.
+B: Grandalhão, você é lento. / Sou forte. Não preciso ser rápido. / Isso é o que todos dizem antes do chapéu.
+B: O Raiden ia gostar de você. Vocês dois são... diretos. / Seu amigo é guerreiro? / Ele é fazendeiro. Mas bate forte.
+
+=Conan|Ladybug
+A: Uma heroína colorida. / Colorida e perigosa. / Isso eu quero ver.
+A: Seu ioiô parece brinquedo. / É o que todos pensam. Até levarem uma volta. / Mostre.
+B: Você é bem direto, né? / Em Ciméria, palavras são para os fracos. / Na França, a gente fala muito. Mas também luta.
+B: O meu Lucky Charm me deu... uma corda. / Corda? Para me amarrar? / Você vai ver.
+
+=Conan|Li Mei
+A: Uma general. Exoterra tem boas mulheres de guerra. / Exoterra tem bons soldados. Ponto. / Gosto de você.
+A: Seu poder é explosivo. / Literalmente. / Vamos ver se aguenta a espada.
+B: Um forasteiro armado no meu reino. / Um forasteiro que paga em ouro e briga. / Lute primeiro.
+B: Você seria um ótimo soldado. / E você uma ótima rainha. / Não tenho interesse em trono.
+
+=Conan|Liu Kang
+A: Você é um deus. Crom é melhor. / Crom não fez nada para o mundo. / Por isso ele é melhor.
+A: Seu fogo é divino. Minha espada é de ferro. / Ferro não vence o divino. / Até hoje, venceu.
+B: Você veio de uma terra cheia de feitiçaria e guerra. / Como todas as terras. / Tem razão.
+B: Mostre a força de Ciméria. / Eu não mostro força. Eu uso. / Então use.
+
+=Conan|Mileena
+A: Uma imperatriz com dentes de lobo. / E apetite de lobo. / Então vamos ver quem morde primeiro.
+A: Você manda em um reino inteiro. / E você manda em quê? / Em mim. E basta.
+B: Um bárbaro no meu salão. Se ajoelhe. / Eu não ajoelho. / Eu gosto disso.
+B: Você seria um ótimo general. / E você seria uma ótima companheira de taverna. / Não abuse.
+
+=Conan|Nitara
+A: Uma criatura alada que bebe sangue. Já matei piores. / Nunca me mataram. / Sempre tem uma primeira vez.
+A: Suas asas são bonitas. / São armas. / Tudo é arma para quem quer.
+B: Seu sangue tem cheiro de guerra. / Tem cheiro de Ciméria. / Deve ter um gosto forte.
+B: Vaeternus quer independência. / E Ciméria nunca teve rei. / Então você entende.
+
+=Conan|Noob Saibot
+A: Uma sombra viva. Isso é feitiçaria das mais sujas. / É o que me sobrou. / Então eu vou tirar o resto.
+A: Você foi homem um dia. / E fui fraco. / Fraco é quem esquece o que era.
+B: Você é só carne e aço. / E você é só sombra e raiva. / A sombra vence.
+B: Lute com a escuridão. / Lutei com escuridões maiores. / Não como esta.
+
+=Conan|Omni-Man
+A: Um conquistador que voa. Já matei conquistadores que andavam. / Eles não atravessavam planetas para conquistar. / Mas sangravam do mesmo jeito. Vamos ver se você sangra.
+A: Você destruiu povos. / Eu os unifiquei. / Unificou na cova.
+B: Você é forte para um humano. / Eu não sou um humano qualquer. Sou cimério. / Ainda é humano.
+B: Viltrum precisaria de homens como você. / Eu não sirvo a ninguém. / Então você é inútil para mim.
+
+=Conan|Peacemaker
+A: Você mata pela paz? Eu mato pelo ouro. Pelo menos sou honesto. / Paz vale mais que ouro. / Não no mercado.
+A: Seu capacete é ridículo. / É um símbolo! / Símbolo de quê? / De paz! E de que eu tenho estilo.
+B: Cara, você é tipo um super-herói das antigas! / Eu sou um guerreiro. / Isso é um super-herói sem plano de saúde.
+B: Conan! Vamos lutar pela paz! / Eu luto pelo ouro e pela cerveja. / É praticamente paz. Paz alcoólica.
+
+=Conan|Quan Chi
+A: Feiticeiro. Minha espada adora feiticeiros. / Sua espada vai servir aos meus Revenants. / Primeiro, ela vai sentir o seu sangue.
+A: Sua magia é suja. / Minha magia é poder. / Poder sem coragem não é nada.
+B: Bárbaro. Seu corpo seria um Revenant perfeito. / Meu corpo é meu. / Por enquanto.
+B: A morte é inevitável. / Então ela que venha. / Ela já está aqui.
+
+=Conan|Raiden
+A: Um fazendeiro com raio nas mãos. / O raio é presente do Liu Kang. A enxada é minha. / A enxada também é arma.
+A: Você é jovem. / E você é velho. / Velho é quem viveu muito. Eu só sobrevivi.
+B: Você não tem medo de nada? / Tenho medo de não ter mais nada para lutar. / Isso é triste.
+B: Meu amigo Kung Lao ia gostar de você. / Ele bebe? / Não muito.
+
+=Conan|Rain
+A: Um príncipe sem reino. Eu conheço o caminho. Primeiro você perde tudo. / E depois? / Depois você descobre que a coroa era o de menos.
+A: Sua água é bonita. / É poder. / Poder bonito morre primeiro.
+B: Um bárbaro sem cultura. / Cultura não para uma espada. / Mas para minha água.
+B: Eu sou príncipe de Edênia! / Eu sou cimério. Ninguém se importa com títulos aqui. / Eu me importo.
+
+=Conan|Reiko
+A: O cão do general. / O braço direito. / O braço direito que nunca teve o próprio braço.
+A: Você segue o Shao. Eu nunca segui ninguém. / Seguir é sabedoria. / Seguir é fraqueza.
+B: Bárbaro. Você seria útil ao general. / Eu não sou útil a ninguém. / Então você é inútil.
+B: O Shao vai reinar. / Reinos caem. / Este não.
+
+=Conan|Reptile
+A: Um lagarto que fala. / Um bárbaro que pensa. / Ah, engraçado.
+A: Você fica invisível. Em Ciméria, quem se esconde morre de frio. / Em Zaterra, quem aparece morre de lança. / Justo. Então apareça só o tempo de levar um golpe.
+B: Seu cheiro é de suor e sangue. / É o cheiro de um guerreiro. / É o cheiro de um alvo fácil.
+B: Você é forte, mas eu sou rápido. / Vamos ver se é rápido o suficiente. / Sempre sou.
+
+=Conan|Rudolf
+A: Um príncipe que faz piada. Em Ciméria, piada boa vale ouro. / Então eu sou milionário. / Mostre se a espada é tão boa quanto a língua.
+A: Seus leques pegam fogo. Que exibido. / Disse o homem que luta sem camisa. / Isso é praticidade.
+B: Conan! Eu sempre quis perguntar: você nunca sente frio? / Frio é para os fracos. / Então eu sou fraco. E bem agasalhado.
+B: Minha mãe disse para eu respeitar os mais velhos. / Sua mãe é sábia. / Então vou te bater com respeito.
+
+=Conan|Scorpion
+A: Um ninja de fogo. Lutei contra assassinos assim no oriente. / Eu não sou assassino. Sou guerreiro. / Melhor ainda.
+A: Seu fogo é forte. / E a sua espada é pesada. / Vamos ver o que vence.
+B: Você luta sem honra? / Luto para vencer. / Então eu luto por honra. Veremos qual dura mais.
+B: Bárbaro. Você tem família? / Tenho a espada. / Isso não é família.
+
+=Conan|Sektor
+A: Mais uma moça de lata. / Uma tenente de lata. / Respeito o título.
+A: Suas armas voam. / São mísseis. / Eu tenho uma espada. É mais honesta.
+B: Análise: força acima da média, técnica baixa. / Técnica não é tudo. / Vou recalibrar.
+B: Você é um enigma de força bruta. / Eu sou um homem com fome. / Isso não é estratégia.
+
+=Conan|Shang Tsung
+A: Feiticeiro! Já cortei muitas gargantas que recitavam feitiços. / A minha recita mais rápido. / Então eu corto mais rápido.
+A: Sua magia é covarde. / Minha magia é sabedoria. / Sabedoria de cobra.
+B: Bárbaro. Sua alma seria uma ótima coleção. / Minha alma é de Crom. / Crom não está aqui.
+B: Eu posso te dar riquezas inimagináveis. / Eu pego as minhas riquezas com a espada. / Então você vai morrer pobre.
+
+=Conan|Sindel
+A: Uma rainha com voz que quebra pedras. / E quebra homens. / Quero ver.
+A: Um feiticeiro fez você gritar contra a própria filha. Eu teria arrancado a cabeça dele. / Minha filha preferiu me trazer de volta. / Sua filha é mais sábia que eu. Isso é raro.
+B: Um bárbaro no meu palácio. / Um bárbaro com sede. Tem vinho? / Primeiro, lute.
+B: Você tem coragem. / E você tem uma voz bonita. Para gritar. / Cuidado com o que deseja.
+
+=Conan|Smoke
+A: Um homem que vira fumaça. Os sacerdotes de Set faziam truques assim. / Eu não sou sacerdote. Sou irmão de dois ninjas teimosos. / Então você é mais perigoso. Família luta sujo.
+A: Pare de sumir e lute como homem. / Fumaça também é homem. Só muda de endereço. / Ha! Gostei. Mas vou bater no endereço novo.
+B: Você é direto demais. / E você é indireto demais. / Equilíbrio.
+B: Um bárbaro forte. Mas lento. / Lento, mas sempre acerto. / Quero ver.
+
+=Conan|Sub-Zero
+A: Um homem de gelo. Eu nasci na neve de Ciméria. / O meu gelo é mais frio. / Veremos.
+A: Seu clã é disciplinado. / E você é selvagem. / Selvagem e vivo.
+B: Bárbaro. O frio vai te quebrar. / O frio me criou. / Então ele vai te enterrar.
+B: Ajoelhe-se ao Lin Kuei. / Eu não me ajoelho. / Então congele de pé.
+
+=Conan|T-1000
+A: Uma máquina? Já vi golens de barro em Stygia. / Eu não sou um golem. Sou superior. / Os golens também achavam isso. Até a primeira rachadura.
+A: Você pode virar qualquer forma. / Inclusive a sua. / Isso é feitiçaria pura.
+B: Ameaça: baixa. / Baixa?! Repete isso com a espada no seu peito. / Recalculando. Ameaça: considerável.
+B: Você é ineficiente. / Eu sou cimério. / Isso não é argumento.
+
+=Conan|Takeda
+A: Um rapaz com chicotes. / São kunais. / Parece chicote.
+A: Seu pai é espadachim? / É. E ele é melhor que eu. Por enquanto. / Bom.
+B: Você é enorme! / E você é pequeno. / Isso é preconceito de tamanho.
+B: Meu pai mandou eu respeitar os guerreiros antigos. / Seu pai é sábio. / Então eu vou te respeitar. E bater.
+
+=Conan|Tanya
+A: Uma guarda leal. / Leal até a morte. / Isso é bom. Mas eu prefiro a vida.
+A: Você protege a imperatriz. / E ela me protege. / Isso é amor?
+B: Bárbaro. Fique longe da imperatriz. / Eu só quero vinho. / Então pegue o vinho e vá embora.
+B: Você é forte. / E você é calma. Isso me irrita. / Calma vence força.
+
+=Conan|Teresa
+A: Uma mulher de olhar afiado. Já vi rainhas assim. / E o que aconteceu com elas? / Morreram ricas.
+A: Você mente bem. / Obrigada. É um talento. / Em Ciméria, mentir é perigoso.
+B: Você é bonito. E pobre, aposto. / Rico às vezes. Depois gasto tudo. / Que desperdício.
+B: Eu poderia te transformar num nobre. / Eu já fui rei. / E largou? Que burrice.

@@ -1,0 +1,81 @@
+=Rain|Rain
+A: Outro Rain. Na sua linha, você finalmente é rei? / Sou rei de uma Edênia em ruínas. Ninguém se curva. / Então pelo menos você tem a coroa. Eu vou tomá-la.
+A: Você também foi enganado pelo Shao? / Eu enganei o Shao. Ele só demorou a perceber. / Mentiroso. Somos iguais até nisso.
+
+=Rain|Reiko
+A: Reiko. Você me jogou para os lobos no tribunal. / Você caiu sozinho. / Você empurrou.
+A: Seu general me prometeu Edênia. / O general promete muitas coisas. / E você sabia que ele mentia.
+B: Rain. Você foi um peão útil. / Eu sou um príncipe! / Um príncipe peão.
+B: O general ainda pode te libertar. / O general me traiu. / O general negocia.
+
+=Rain|Reptile
+A: Um zaterrano. Edênia nunca deu atenção ao seu povo. / Nem Exoterra. / Então somos iguais em ser esquecidos.
+A: Zaterrano. Você se esconde. Eu exijo atenção. / Cada um sobrevive como pode. / Eu não sobrevivo. Eu reino. Um dia.
+B: Príncipe. Seu cheiro é de água parada. / É o cheiro da realeza. / É o cheiro de pântano.
+B: Lute rápido, príncipe. / Eu luto como um príncipe. / Então lute devagar e com muita pose.
+
+=Rain|Rudolf
+A: Rudolf. Eu ainda não te perdoei pelo tribunal. / Você me acusou de traição. Eu é que não te perdoei. / Detalhes.
+A: Você não é edeniano de verdade. É meio. / E você não é príncipe de verdade. É inteiro de mentira. / Como ousa?
+B: Rain! Você ainda está na masmorra? / Eu saí por bom comportamento. / Que comportamento? Você me acusou de traição!
+B: Minha mãe disse que você queria Edênia. / Edênia é meu direito! / Edênia não é uma herança, Rain. É um reino com gente dentro.
+
+=Rain|Scorpion
+A: Grão-Mestre. Seu fogo não queima a água. / Meu fogo queima mentiras. / Então eu estou em perigo. Muito.
+A: Você protege seu clã. Eu protejo minha ambição. / Ambição não é família. / Para mim, é.
+B: Príncipe. Você entregou o seu reino ao Shao por uma coroa. / Eu fui enganado. / Eu deixei um clã para não trair ninguém. Você traiu todos para ter um.
+B: Rain. Lute com honra. / Eu luto como um príncipe. / Príncipes de verdade lutam com honra. Mostre que é um.
+
+=Rain|Sektor
+A: Tenente. Suas máquinas analisam a realeza? / Análise: príncipe sem reino. / Isso é cruel.
+A: Tenente. Seus mísseis são rápidos. Minha água também. / Mísseis são trinta por cento mais rápidos. / Mas minha água não precisa de recarga.
+B: Análise: ego elevado, estratégia baixa. / Como ousa? / Confirmado. Indignação dentro do esperado.
+B: Você sempre começa com a água e termina com o raio. / É a combinação real! / É a combinação que eu já desviei catorze vezes.
+
+=Rain|Shang Tsung
+A: Feiticeiro. Você me ajudou a enganar todos. / Eu só vendi o feitiço. Você usou. / E me deixou cair.
+A: Você pode me dar Edênia? / Posso te dar a ilusão de Edênia. / Isso serve.
+B: Rain. Lembra quando eu emprestei o rosto do príncipe para você? / Você disse que era uma ilusão inofensiva! / Nenhuma ilusão é inofensiva. Eu só esqueço de avisar.
+B: Rain. Você sabia que eu forjei o rosto do príncipe para te ajudar? / Você me disse que era uma ilusão inofensiva! / Nenhuma ilusão é inofensiva. Por isso eu cobro tão caro.
+
+=Rain|Sindel
+A: Imperatriz. Edênia é meu direito. / Edênia é de todos os edenianos. / Então eu sou um deles.
+A: Imperatriz. Sua voz não me assusta. / Deveria, Rain. Eu te vi crescer mimado. / Eu sou um príncipe!
+B: Rain. Você tentou destruir o meu neto. / Eu fui enganado. / Você quis ser enganado. E eu quero ver você pedir desculpas a ele.
+B: Ajoelhe-se diante da imperatriz. / Eu me ajoelho. Mas só porque você é Sindel. / Bom menino.
+
+=Rain|Smoke
+A: Fumaça. Sua fumaça apaga minha água? / Não. / Então eu vou te afogar.
+A: Você protege seus irmãos. Eu protejo meu título. / Título não segura a sua mão quando você cai. / Mas segura a coroa. E isso basta.
+B: Rain, você grita até quando ataca. / Um príncipe anuncia a sua chegada! / Um ninja aproveita o anúncio.
+B: Rain. Você acusou um príncipe de traição. / Eu fui enganado. / Eu sei como é ser chamado de traidor por quem você ama. Mas eu não traí ninguém.
+
+=Rain|Sub-Zero
+A: Grão-Mestre. Seu gelo congela minha água? / Meu gelo congela tudo. / Então vamos ver quem derrete o orgulho de quem.
+A: Você é frio, Bi-Han. / Disciplinado. / Frio. E solitário. E não tem uma coroa.
+B: Príncipe. O Lin Kuei não teme você. / Todos devem temer um príncipe. / Um príncipe sem reino teme mais do que é temido.
+B: Meu gelo vai congelar sua água. / Minha água vai derreter seu gelo. / Veremos.
+
+=Rain|T-1000
+A: Uma máquina líquida. Somos parecidos. / Eu sou metal. Você é água. / Ambos são líquidos.
+A: Você imita formas. Imite um príncipe. / Posso imitar a forma. / Mas não a majestade.
+B: Alvo: príncipe. Ameaça baixa. / Baixa?! / Recalibrando. Ameaça: baixa e ofendida.
+B: Príncipe. Você exige reverência. / Eu sou majestoso. / Majestade não é variável de combate.
+
+=Rain|Takeda
+A: Garoto. Seu pai é espadachim. Você é um palhaço. / Meu pai é espadachim. Eu sou o melhor dos dois. / Ousado. Mas palhaço.
+A: Garoto, quem te deu permissão para lutar com um príncipe? / Ninguém. Eu só vim. / Igual ao seu pai. Os Takahashi não sabem respeitar a realeza.
+B: Rain! Você é muito roxo. / Eu sou príncipe. / Príncipe roxo. Combina com a sua raiva.
+B: Rain, sua mente está gritando. / Você não tem permissão para ler um príncipe! / Já li. É Edênia, Edênia e um pouco de inveja do Rudolf.
+
+=Rain|Tanya
+A: Umgadi. Você protege a imperatriz. Eu deveria ser protegido também. / Você é um traidor. / Eu fui enganado!
+A: Você é leal. Eu sou ambicioso. / Lealdade vence. / Ambição também.
+B: Príncipe. Fique longe da imperatriz. / Eu só queria uma audiência. / Mentira.
+B: Rain. Lute comigo. Se perder, você pede desculpas ao príncipe. / E se eu ganhar? / Você pede desculpas do mesmo jeito.
+
+=Rain|Teresa
+A: Advogada. Você me destruiu no tribunal. / Eu apresentei os fatos. / Você apresentou as minhas cartas!
+A: Você é ambiciosa. Eu também. / Mas eu sou mais esperta. / Isso é questão de opinião.
+B: Rain. Você queria Edênia. Eu queria um palácio. / Somos parecidos. / Não. Eu consegui o meu.
+B: Excelência, o réu Rain alega inocência. De novo. / Isso não é tribunal! / Para mim, tudo é tribunal.

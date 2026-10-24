@@ -1,0 +1,69 @@
+=Reptile|Reptile
+A: Outro Syzoth. Na sua linha, ainda precisamos nos esconder? / Precisamos. Mas ninguém procura mais. Sobraram poucos. / Então lute para que aqui sobrem muitos.
+A: Você também sente o cheiro do medo dos outros? / Sinto. E do meu também. / Então somos dois sinceros. Que raro.
+
+=Reptile|Rudolf
+A: Príncipe. Você nunca me olhou com nojo. / Eu olho para todo mundo com a mesma cara de bobo. / Isso é um elogio, na verdade.
+A: Você faz piada com tudo. Por quê? / Porque se eu levar tudo a sério, eu viro o meu outro eu. E ele é chato. / Faz sentido.
+B: Syzoth! Você estava invisível na minha festa de aniversário? / Estava. Gostei do bolo. / Então você me deve um presente.
+B: Minha mentora disse que você é o único que passa pela guarda sem ser visto. / Ela me viu no segundo corredor. / Então ela mentiu para me deixar humilde. Típico.
+
+=Reptile|Scorpion
+A: Grão-Mestre. Seu clã aceita os diferentes? / O Shirai Ryu aceita quem tem honra. / Então talvez aceite um zaterrano.
+A: Grão-Mestre. Seu fogo é bonito. / Meu fogo protege. / Então ele é útil. Raro, num mundo que queima por queimar.
+B: Syzoth. O Shirai Ryu aceita quem foi rejeitado por todos. / Até um zaterrano? / Principalmente um zaterrano. Nós sabemos o que é ser chamado de traidor.
+B: Lute com honra. / Eu luto com sobrevivência. / Então lute com as duas.
+
+=Reptile|Sektor
+A: Tenente. Seus sensores me detectam invisível? / Detectam. / Que injusto.
+A: Tenente. Suas máquinas são precisas. / Mais que a invisibilidade. / Veremos. A minha não precisa de bateria.
+B: Análise: espécie zaterrana. Camuflagem avançada. / Obrigado. / Proposta: estudar sua pele para criar uma armadura invisível. Com permissão.
+B: Você some sempre que eu ajusto os sensores. / Eu ouço o barulho que eles fazem. / Ah. Então o problema é o meu ventilador.
+
+=Reptile|Shang Tsung
+A: Feiticeiro. Você caçou meu povo nas linhas antigas. / Seu povo tem almas tão úteis. / Então eu vou proteger cada uma.
+A: Você vira qualquer um. Vira um zaterrano. / Por que eu faria isso? / Para sentir como é ser caçado.
+B: Zaterrano. Sua alma seria útil para espionagem. / Minha alma é do meu povo. / Então eu levo o povo junto. Espiões em série.
+B: Eu posso te dar um reino. / Eu quero só um lugar seguro. / Que ambição pequena.
+
+=Reptile|Sindel
+A: Imperatriz. Edênia sempre ignorou meu povo. / Edênia errou. / Ouvir isso de uma imperatriz é raro.
+A: Sua voz me assusta. / Ótimo. Significa que funciona. / Funciona bem demais.
+B: Syzoth. Os zaterranos da cozinha me disseram que você os protege. / Protejo. Desde sempre. / Então apareça. Edênia te deve um agradecimento.
+B: Syzoth. Lute comigo. Quero ver a força de Zaterra. / Com prazer, imperatriz. / Então mostre. E sem ficar invisível, por favor. Sou velha.
+
+=Reptile|Smoke
+A: Fumaça. Você some, eu fico invisível. Somos parecidos. / Somos fugitivos. / Somos sobreviventes.
+A: Você protege os seus irmãos. Eu protejo o meu povo. / Povo também é família. / Concordo. Família de escamas também conta.
+B: Syzoth. Você é discreto. / Eu sou invisível. / Discreto e invisível.
+B: Syzoth. Nós dois sumimos. Você fica invisível, eu viro fumaça. / Eu luto de todos os lados. / Então hoje a luta vai ser só um monte de nada se batendo.
+
+=Reptile|Sub-Zero
+A: Grão-Mestre. O Lin Kuei caçou meu povo. / O Lin Kuei faz o que é preciso. / Eu também. Hoje é preciso morder.
+A: Seu gelo é frio, Bi-Han. / Disciplina. / Frio. E o frio deixa sauriano lento. Que injusto.
+B: Zaterrano. O Lin Kuei não teme você. / Eu não peço medo. / Então peça o quê?
+B: Meu gelo vai congelar sua invisibilidade. / Gelo não congela o que não se vê. / Veremos.
+
+=Reptile|T-1000
+A: Uma máquina. Você me detecta invisível? / Detecto. / Que injusto. Ninguém nunca me detecta.
+A: Você imita formas. Eu fico invisível. / Somos parecidos. / Não. Você não tem medo.
+B: Alvo: zaterrano. Camuflagem detectada. / Que injusto. / Injusto é irrelevante.
+B: Você some. / Eu sou invisível. / Invisível ao olho. Não ao calor.
+
+=Reptile|Takeda
+A: Garoto. Sua mente me lê mesmo invisível? / Leio. / Que injusto.
+A: Takeda. Você leu a minha mente da última vez e contou para todo mundo onde eu estava escondido. / Foi sem querer! Sua mente grita quando você está nervoso. / Então hoje eu vou pensar em nada. Igual ao seu pai.
+B: Syzoth! Você é muito legal. / Obrigado. / Posso ver você ficar invisível?
+B: Posso ler a sua mente, Syzoth? / Você vai ver medo. / Eu vejo medo. E uma vontade enorme de ser visto. Que triste.
+
+=Reptile|Tanya
+A: Tanya. Você guarda a imperatriz como eu guardo o meu povo. / Com a vida. / Então você entende por que eu não fico visível muito tempo.
+A: Você é calma. Eu sou nervoso. / Calma vence. / Nervoso sobrevive.
+B: Syzoth. Fique longe da imperatriz. / Eu só passo pelo corredor. / Invisível? Às três da manhã? Com um doce na mão?
+B: Syzoth. Hoje você luta visível. / Com prazer. Mas eu não prometo. / Então eu luto de olhos fechados. Igual ao espadachim.
+
+=Reptile|Teresa
+A: Forasteira. Você sobe pisando nos outros. / Eu subo como posso. / Eu também. Mas sem pisar.
+A: Você mente muito. / Todo mundo mente. / Não tanto.
+B: Um lagarto invisível. Você seria um ótimo espião. / Eu não sirvo a ninguém. / Todo mundo serve, querido. Você serve ao medo.
+B: Você se esconde muito. Eu nunca me escondi. / Você nunca foi caçada. / Fui sim. Pela pobreza.

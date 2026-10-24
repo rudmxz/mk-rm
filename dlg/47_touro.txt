@@ -1,0 +1,303 @@
+=Touro|Touro
+A: Subtenente contra subtenente. Isso não vai acabar rápido. / Missão dada é missão cumprida. / Então cumpra a sua no chão.
+A: Você ainda guarda aquele anel? / Guardo. E vou usar. / Só uma de nós vai.
+
+=Touro|Ashrah
+A: Espada sagrada. Já vi coisas mais estranhas em combate. / Kriss não é estranha. É divina. / Divina ou não, vai cair.
+A: Você busca redenção. Eu busco uma pessoa. / Que pessoa? / Alguém que um monstro me tirou.
+B: Sinto luto em você. / Luto é assunto meu. / Kriss pode aliviar.
+B: Você luta como soldado. / Fui soldado. Ainda sou. / Então lute de cabeça erguida.
+
+=Touro|Baraka
+A: Tarkatan. Já enfrentei criaturas piores. / Nenhuma pior que Baraka. / Uma pior matou quem eu amava.
+A: Suas lâminas contra minhas balas. / Lâminas cortam bala. / Não as minhas.
+B: Humana com cajado de fogo. / É um fuzil. / Baraka não liga para o nome.
+B: Você tem cheiro de pólvora e tristeza. / E você tem cheiro de carniça. / Baraka gosta de carniça.
+
+=Touro|Conan
+A: Bárbaro. Respeito força. / E eu respeito guerreiras. / Então lute de verdade.
+A: Sua espada contra meu fuzil. / Crom me protege. / Crom não protege de bala.
+B: Por Crom, que arma estranha. / Fuzil de assalto. / Na Ciméria, chamaríamos de bruxaria.
+B: Você tem olhar de quem perdeu muito. / Perdi o que mais importava. / Então lute por isso.
+
+=Touro|Cyrax
+A: Robô. Já desmontei drones mais avançados. / Alvo hostil detectado. / Então somos dois.
+A: Seus sensores vão errar. Eu não erro. / Probabilidade de erro: baixa. / Igual a minha.
+B: Alvo: soldada humana. Nível de risco: alto. / Exato. / Combate autorizado.
+B: Pergunta: motivo de combate? / Uma pessoa. / Dado insuficiente.
+
+=Touro|Ermac
+A: Telecinese não para bala. / Paramos tudo. / A arena decide.
+A: Quantos moram aí dentro? / Muitos. / Então vou precisar de muita munição.
+B: Sentimos uma mulher perto de você. Vera. / Não diga esse nome. / Ela te espera.
+B: Sua dor é organizada. Militar. / Foi assim que eu cheguei até aqui. / Nós entendemos.
+
+=Touro|General Shao
+A: General. Já servi a comandantes melhores. / Ninguém é melhor que Shao. / Todos eram melhores.
+A: Seu martelo contra meu fuzil. / O martelo esmaga. / O fuzil chega antes.
+B: Uma soldada humana. Útil. Junte-se a mim. / Não sirvo a tiranos. / Então morra como inimiga.
+B: Ajoelhe-se diante do futuro imperador. / Eu só ajoelho para fazer um pedido. / Que vergonha.
+
+=Touro|Geras
+A: Você controla o tempo. Volte ao dia do meu noivado. / Não posso. / Então de nada adianta.
+A: A areia do tempo contra minhas balas. / A areia para qualquer bala. / Quero ver na prática.
+B: Em muitas linhas, você salva Vera. / Mas não nesta aqui. / Infelizmente, não nesta.
+B: Sua determinação atravessa o tempo. / É tudo que eu tenho. / É muito.
+
+=Touro|Ghostface
+A: Faca. Que primitivo. / Qual é o seu filme de terror favorito, soldada? / O dia do meu noivado.
+A: Você liga pras vítimas. Eu atiro antes. / Que falta de suspense. / Suspense mata soldados.
+B: Uau, que arma enorme. / Proporcional à ameaça. / Me sinto lisonjeado.
+B: Você não tem senso de humor. / Perdi junto com outras coisas. / Sombrio.
+
+=Touro|Havik
+A: Caos. O exército existe para combater o caos. / Hahaha! O caos venceu seu exército! / Não este.
+A: Seu pescoço torto vai entortar mais. / Que delícia! / Você é doente.
+B: Sua disciplina é tão chata! / É o que me segura. / O caos te libertaria!
+B: Mostre-me seu caos, soldada! / Eu não tenho caos. Tenho ordens. / Que coisa chata!
+
+=Touro|Homelander
+A: Super-herói. Onde você estava quando o monstro atacou meu noivado? / Eu salvo quem merece. / Você é uma vergonha.
+A: Seu laser contra meu fuzil. / Meu laser derrete seu fuzil. / Primeiro precisa me acertar.
+B: Uma soldadinha. Que fofo. / Fofo vai ser seu nariz quebrado. / Ousada.
+B: Sou amado por todos. / Se soubessem quem você é... / Fique quieta.
+
+=Touro|Jade
+A: Guarda-costas. Respeito a disciplina. / E eu respeito a sua. / Então lute com tudo.
+A: Seu bastão contra meu fuzil. / O bastão desvia balas. / Mostra, então.
+B: Você protege alguém? / Protegi. Falhei. / Então lute por essa pessoa.
+B: Edênia aceita soldados. / Minha missão é outra. / Qual?
+
+=Touro|Johnny Cage
+A: Ator. Já vi muitos filmes de guerra. Todos mentem. / Os meus são realistas! / Nenhum é.
+A: Seus chutes são coreografados. / Coreografados e eficientes. / Eficiência de verdade é outra coisa.
+B: Uau, você parece uma heroína de filme de ação. / Não sou heroína. / Ainda melhor.
+B: Bora fazer uma cena? / Isso não é cena. É combate. / Que séria.
+
+=Touro|Katherine Pierce
+A: Vampira. Você só pensa em você. / Sobrevivência, querida. / Eu sobrevivi pensando em outra pessoa.
+A: Quinhentos anos fugindo. / Fugir é inteligente. / Lutar é necessário.
+B: Uma soldada apaixonada. Que fofa. / Deixa ela fora disso. / Toquei num ponto fraco.
+B: Você trairia tudo por ela? / Por ela, eu trairia. / Então somos parecidas.
+
+=Touro|Kenshi
+A: Você é cego e luta assim? Impressionante. / Eu enxergo com a alma. / Meu fuzil enxerga por mim.
+A: Vai, lê aí. O que aparece? / Um anel, uma cerimônia e um grito. / Já chega.
+B: Sinto muita dor em você. / É assunto meu. / Compreendo.
+B: Sua mente é muito organizada. / Militar. / Admirável.
+
+=Touro|Kitana
+A: Princesa. Você comanda exércitos? / Comando Edênia. / Então respeito sua patente.
+A: Seus leques contra meu fuzil. / Leques desviam balas. / Paga pra ver.
+B: Você tem olhar de quem perdeu alguém. / Perdi. / Lute por ela.
+B: Edênia sempre honra seus guerreiros. / Eu não sou de Edênia. / Ainda assim, honro você.
+
+=Touro|Kung Lao
+A: Monge. Já lutei contra artes marciais. / Mas nunca contra Shaolin. / Sempre existe uma primeira vez.
+A: Seu chapéu contra meu fuzil. / O chapéu desvia. / O fuzil não desiste.
+B: Você não relaxa nunca? / A vida me deixou assim. / Os monges ensinam a sorrir.
+B: Que disciplina. / Disciplina salva vidas. / Quase sempre.
+
+=Touro|Ladybug
+A: Heroína de Paris. Você nunca mata? / Nunca. Sempre tem outra saída. / Às vezes não tem.
+A: Seu ioiô contra meu fuzil. / O ioiô desarma qualquer arma. / Duvido. Mostra.
+B: Eu sinto muito pela pessoa que você perdeu. / Dá pra ver assim? / Seu anel diz tudo.
+B: Hora do Lucky Charm! / O que ele te deu? / Uma aliança. Igual à sua.
+
+=Touro|Li Mei
+A: General Li Mei. Respeito a patente. / E eu respeito sua disciplina. / Então que vença a melhor oficial.
+A: Suas explosões contra meu fuzil. / As explosões são maiores. / Mas o fuzil é mais preciso.
+B: Exoterra precisa de soldados como você. / Já tenho um objetivo. / Qual?
+B: Seu exército é pequeno. / Eu sou o exército. / Admirável.
+
+=Touro|Liu Kang
+A: Deus do fogo. Você poderia trazer Vera de volta? / Não posso desfazer a morte. / Então é inútil pra mim.
+A: Seu dragão contra meu fuzil. / O dragão engole qualquer coisa. / A bala é mais rápida.
+B: Sinto um amor enorme em você. / Amor e raiva. / Use o amor.
+B: O caminho da vingança é perigoso. / Não é vingança. É resgate. / O preço pode ser alto demais.
+
+=Touro|Mileena
+A: Mileena. Você tem uma namorada, não tem? / Tanya. Por quê? / Cuida bem dela. Eu não pude cuidar da minha.
+A: Seus sais contra meu fuzil. / Os sais são rápidos. / O fuzil é mais.
+B: Você também ama uma mulher? / Amava. Um monstro a levou. / Eu sinto muito. De verdade.
+B: Vou te morder, soldada. / Morde e engole bala. / Curioso.
+
+=Touro|Nitara
+A: Vampira com asas. Alvo fácil no céu. / Ninguém me acerta no céu. / Eu acerto.
+A: Você quer separar seu reino. Eu quero recuperar uma pessoa. / Os dois são difíceis. / Os dois são possíveis.
+B: Seu sangue tem gosto de metal e pólvora. / Engasga com ela. / Que nojo.
+B: Você é muito séria para alguém tão jovem. / A vida me envelheceu. / Faz sentido.
+
+=Touro|Noob Saibot
+A: Sombras. Meu fuzil tem visão noturna. / As sombras não aparecem em visão nenhuma. / A luta vai dizer.
+A: Você tinha um rosto antes disso. / Fui. / Eu também.
+B: As sombras sabem do monstro que te atacou. / Elas sabem demais. / Elas sabem quem ele é.
+B: Apague essa claridade. / É a luz do cano do fuzil. / Apague.
+
+=Touro|Omni-Man
+A: Viltrumita. Você é o tipo de monstro que eu caço. / Eu não sou monstro. / Já ouvi isso antes.
+A: Seu soco contra meu fuzil. / Meu soco quebra planetas. / Primeiro precisa me alcançar.
+B: Uma humana armada. Patético. / Patético é bater em quem não revida. / Vou te ensinar o que é força.
+B: Viltrumitas não sentem dor. / Então você não vai sentir quando cair. / Ousada.
+
+=Touro|Peacemaker
+A: Peacemaker. Pela paz, você mata. / E você, soldada? / Por amor.
+A: Seu capacete contra meu fuzil. / O capacete aguenta. / Só tem um jeito de saber.
+B: Uau, você é a soldada mais irada que eu já vi. / Obrigada. Agora foco. / Foco total!
+B: Paz pela força! / Missão pela disciplina. / Somos parecidos!
+
+=Touro|Quan Chi
+A: Feiticeiro. Você traz mortos de volta? / Como servos. / Então não serve.
+A: Feitiço contra fuzil. / A magia é eterna. / A bala é imediata.
+B: Eu poderia trazer sua Vera de volta. / Do seu jeito? / Como serva.
+B: Sua alma tem gosto de luto. / Engole e engasga. / Veremos.
+
+=Touro|Raiden
+A: Deus do trovão. Onde você estava no dia do meu noivado? / Eu não posso estar em todo lugar. / Deveria.
+A: Seus raios contra meu fuzil. / O relâmpago é mais veloz. / Eu insisto.
+B: Sinto um amor quebrado em você. / Quebrado não. Interrompido. / Eu entendo bem.
+B: O desejo do Hexatombe tem um preço. / Qualquer preço vale. / Cuidado.
+
+=Touro|Rain
+A: Príncipe. Nunca precisou lutar por nada. / Eu luto pelo que é meu. / Eu luto pelo que me tiraram.
+A: Sua água contra meu fuzil. / A água desvia balas. / Tenta a sorte.
+B: Você é só uma soldada humana. / E você é só um príncipe molhado. / Insolente!
+B: Ajoelhe-se diante de um semideus. / Só ajoelho para pedir em casamento. / Que estranho.
+
+=Touro|Reiko
+A: Reiko. Mais um soldado que serve a um tirano. / Lealdade é força. / Lealdade sem pensar é covardia.
+A: Seu shuriken contra meu fuzil. / O shuriken é silencioso. / O fuzil resolve.
+B: Exoterra precisa de soldados como você. / Tenho outra missão. / Abandone.
+B: Você serve a alguém? / Sirvo à memória de uma pessoa. / Que sentimental.
+
+=Touro|Reptile
+A: Lagarto. Meu fuzil tem visão térmica. / Sssseu fuzil não me vê. / Então me surpreende.
+A: Você fica invisível. Eu fico em silêncio. / Ssssomos parecidos. / Não somos.
+B: Cheiro de pólvora... ssssim. / Perfume de trabalho. / Ssssuspeito.
+B: Ssssua disciplina é admirável. / Obrigada. / Ssssério.
+
+=Touro|Rudolf
+A: Príncipe dos leques. Você é muito barulhento. / E você é muito séria, Touro. / Alguém tem que ser.
+A: Seus leques de fogo contra meu fuzil. / Bora testar? / Já estou mirando.
+B: Cara, você é a soldada mais irada que eu já vi. / Obrigada. Agora fica quieto. / Não consigo.
+B: Minha mãe ia gostar de você. / Sua mãe é a Kitana? / É. Ela gosta de gente séria.
+
+=Touro|Scorpion
+A: Você conhece vingança. / Vingança me consome. / A mim, me move.
+A: Seu fogo contra meu fuzil. / As chamas devoram tudo. / Menos bala.
+B: Você perdeu alguém para um monstro. / Perdi a pessoa que eu ia pedir em casamento. / Então vingue-se.
+B: Você vem comigo! / Você que venha até mim. / Então eu vou.
+
+=Touro|Sektor
+A: Robô. Já desmontei drones melhores. / Alvo hostil. / Eu também.
+A: Seus mísseis contra meu fuzil. / Mísseis são mais potentes. / Fuzil é mais preciso.
+B: Detectado: combatente militar. Perigo: alto. / Isso mesmo. / Modo de combate ativo.
+B: Projeção de vitória: improvável. / Já venci probabilidades piores. / Ajustando parâmetros.
+
+=Touro|Shang Tsung
+A: Feiticeiro. Você se transforma em qualquer um. / Em qualquer um. Até na Vera. / Não se atreva.
+A: Suas almas contra meu fuzil. / As almas são eternas. / As balas são imediatas.
+B: Quer ver Vera de novo? Eu posso ser ela. / Faça isso e eu te mato. / Hah. Encontrei o ponto fraco.
+B: Sua alma tem gosto de luto. Delicioso. / Vai ficar entalado. / Veremos.
+
+=Touro|Sindel
+A: Rainha. Você protege sua família? / Sem pensar duas vezes. / Eu não consegui proteger a minha.
+A: Seu grito contra meu fuzil. / O som chega antes de tudo. / O fuzil não precisa de ouvido.
+B: Você perdeu o amor da sua vida. / Perdi. / Eu também já perdi.
+B: A família é o que nos sustenta. / Vera era a minha família. / Então honre ela lutando.
+
+=Touro|Smoke
+A: Fumaça. Meu fuzil atravessa fumaça. / Mas não me acha nela. / Hoje a gente tira a dúvida.
+A: O Sub-Zero confia em você? / Até o fim. / Eu sou leal a uma memória.
+B: Você é muito precisa. / Precisão salva vidas. / Em alguns dias.
+B: Lealdade não se negocia. / Concordo. / Que seja uma luta limpa.
+
+=Touro|Sub-Zero
+A: Gelo. Meu fuzil funciona em qualquer temperatura. / Não no meu gelo. / Experimenta.
+A: Você comanda um clã. Eu comando um pelotão. / O clã é maior. / O pelotão é mais eficiente.
+B: Disciplina impecável. / A sua também. / O Lin Kuei aceitaria você.
+B: O frio para qualquer arma. / Não a minha. / Veremos.
+
+=Touro|T-1000
+A: Metal líquido. Já enfrentei coisas estranhas. / Analisando ameaça. / Analisa rápido.
+A: Você se reconstrói depois de levar tiro. / Positivo. / Então vou atirar mais.
+B: Alvo identificado: oficial armada. / Certíssimo. / Protocolo de ataque iniciado.
+B: Sua precisão é comparável à minha. / Comparável não. Superior. / Dado registrado.
+
+=Touro|Takeda
+A: Shirai Ryu. Você tem disciplina. / Mano, meu pai me ensinou. / Ele fez bom trabalho.
+A: Seus chicotes contra meu fuzil. / Os chicotes têm alcance. / O fuzil tem mais.
+B: Tentei ler sua mente. Tem um anel lá. / Sai daí. / Desculpa, foi sem querer.
+B: Meu pai falaria pra você respirar fundo. / Queria ter tido um pai assim. / Ele é.
+
+=Touro|Tanya
+A: Umgadi. Você protege a família real? / E a Mileena. / Cuida bem dela.
+A: Sua lança contra meu fuzil. / A lança é silenciosa. / O fuzil não falha.
+B: Você ama alguém? / Amava. Um monstro a levou. / Eu sinto muito.
+B: Eu também já traí. / Eu vou trair uma vez. / Por quem?
+
+=Touro|Teresa
+A: Advogada. Você defenderia um soldado? / Depende do crime. / Ainda não cometi. Mas vou.
+A: Sua elegância contra meu fuzil. / A elegância vence qualquer batalha. / Não essa.
+B: Quanta seriedade. / A vida me deixou assim. / A minha me deixou elegante.
+B: Planeja algum crime? / Planejo uma traição. / Interessante. Pago bem para saber.
+
+=Touro|Sonya Blade
+A: Sonya Blade. Uma oficial. Finalmente alguém que entende. / Força Especial. E você? / Subtenente. Exército.
+A: Seu treinamento contra o meu. / O meu é melhor. / Vamos ver quem erra primeiro.
+B: Você parece uma soldada que perdeu o rumo. / Perdi uma pessoa. O rumo continua. / Então mostre.
+B: Largue a arma, soldada. / Só quando a missão terminar. / Então vou terminar por você.
+
+=Touro|Jax
+A: Sargento. Respeito a patente. / E eu respeito a sua. / Então que vença o melhor.
+A: Seus braços de metal contra meu fuzil. / Os braços aguentam. / Então que comece.
+B: Você parece alguém que precisa de apoio. / Eu tenho minha missão. / Missão não é apoio.
+B: Já perdi soldados. Sei como é. / Eu perdi mais que um soldado. / Que dor.
+
+=Touro|Kano
+A: Mercenário. Já prendi gente como você. / Ninguém me prende, parceira. / Hoje é o dia.
+A: Seu olho vermelho contra meu fuzil. / O laser é mais rápido. / O fuzil é mais certeiro.
+B: Tem lugar pra você no Dragão Negro. / Eu não sirvo criminosos. / Mas trairia seu chefe.
+B: Quanto você quer por esse fuzil? / Isso não tem preço. / Tudo está.
+
+=Touro|Stefan
+A: Vampiro. Você luta contra seu lado escuro? / Todo dia. / Eu também.
+A: Seu diário contra meu fuzil. / O diário guarda memórias. / O fuzil protege as minhas.
+B: Sinto muito pela pessoa que você perdeu. / Como você adivinhou? / Seus olhos dizem.
+B: O amor não traz ninguém de volta. / Mas o Hexatombe traz. / Pense no custo.
+
+=Touro|Damon
+A: Damon. Você bebe demais. / E você não bebe nada. / Treino.
+A: Seu sorriso contra meu fuzil. / Meu sorriso desarma qualquer um. / Não a mim.
+B: Gostei de você, soldada. / Não preciso que goste. / Mas eu gosto.
+B: Por amor, você vira as costas pra todo mundo? / Por ela, qualquer coisa. / Então a gente se entende.
+
+=Touro|Lexi
+A: Lexi. Você sorri demais. / E você sorri de menos. / Tenho meus motivos.
+A: Tanta festa assim? / E nenhuma ressaca. / Inveja.
+B: Bora sorrir um pouco antes de brigar? / Não sei mais fazer isso. / Aprende comigo.
+B: Todo mundo merece amor. / Eu tive. Um monstro levou. / Então vamos achar de novo.
+
+=Touro|Bonnie
+A: Bruxa. Suas ancestrais trazem mortos de volta? / Com um preço enorme. / Não importa o custo.
+A: Magia contra munição. / A magia é mais antiga. / O gatilho é mais rápido.
+B: Sinto uma mulher perto de você. Vera. / Ela está aqui? / Ela está sempre perto.
+B: Magia contra balas. / Balas vencem. / Veremos.
+
+=Touro|Art the Clown
+A: Palhaço. Já vi coisa pior em combate. / (Art faz uma careta horrível para a Touro.) / Nem um pouco assustada.
+A: Mudo, é? / (Art cobre a boca com as duas mãos.) / Ótimo. Menos barulho.
+B: (Art aponta para o fuzil da Touro e faz cara de assustado.) / Deveria ficar assustado mesmo. / (Art tira uma serra do saco.)
+B: (Art imita a continência da Touro.) / Isso é deboche. / (Art bate continência de novo, rindo sem som.)
+
+=Touro|Freddy Krueger
+A: Freddy. Você entra nos sonhos? Os meus são piores que você. / Que desafio, docinho. / Tenta, se tiver coragem.
+A: Suas garras contra meu fuzil. / Nos sonhos, seu fuzil não funciona. / Então eu fico acordada.
+B: Seu pesadelo tem um monstro e uma cerimônia. / Sai daí agora. / Mas aqui é tão triste.
+B: Durma bem, soldada. / Eu não durmo desde aquele dia. / Então eu te visito acordada.
+
+=Touro|Jason Voorhees
+A: Jason. Um monstro que caminha. Já vi monstros piores. / (Jason inclina a cabeça, encarando a Touro.) / Um deles levou Vera.
+A: Facão contra fuzil. / (Jason gira o facão na mão, devagar.) / Meu fuzil chega antes.
+B: (Jason caminha devagar na direção da Touro.) / Pare ou eu atiro. / (Jason avança sem parar.)
+B: (Jason toma um tiro e continua andando.) / Nada te detém? / (Jason empunha o facão.)

@@ -1,0 +1,111 @@
+=Noob Saibot|Noob Saibot
+A: Duas sombras. Qual de nós ainda lembra do nome Bi-Han? / Nenhum. Lembrar é fraqueza. / Mentira. Eu ainda ouço os meus irmãos me chamando à noite.
+A: Na sua linha, o Havik ainda manda em você? / Ninguém manda em mim. / Foi o que eu disse. Antes de perceber as correntes.
+
+=Noob Saibot|Omni-Man
+A: Um conquistador. As sombras não temem o sol de Viltrum. / Viltrum não teme a escuridão. / Então desça até ela.
+A: Você mentiu para a sua família. Eu me perdi da minha. / Eu não me perdi. Eu escolhi. / As sombras também acharam que escolhiam.
+B: Uma sombra viva. Viltrum teria te eliminado. / Viltrum nunca me encontraria. / Eu encontro tudo.
+B: Seus golpes atravessam o ar. / Porque eu sou o ar escuro. / Então eu vou rasgar o ar.
+
+=Noob Saibot|Peacemaker
+A: Paz é uma ilusão. A escuridão é real. / Paz é real! Pergunte ao meu arsenal. / Seu arsenal vai enferrujar no escuro.
+A: Seu capacete brilha. Eu vou apagar. / Ninguém apaga o capacete! / Eu apago tudo.
+B: Cara, você é muito sinistro. Gostei. / As sombras não pedem aprovação. / Mesmo assim, aprovado.
+B: Vamos lutar pela paz! / Eu luto pela escuridão. / Paz escura, então.
+
+=Noob Saibot|Quan Chi
+A: Necromante. Nas linhas antigas, você me deu este nome. / E você o carregou bem. / Agora eu carrego sozinho.
+A: Seus Revenants obedecem. Eu não. / Você sempre obedeceu a alguém, Bi-Han. / Não mais.
+B: Noob Saibot. Você seria o meu maior Revenant. / Eu já sou mais que isso. / Você é o que eu permito.
+B: A morte é a minha arte. / A escuridão é a minha. E ela engole a morte. / Interessante.
+
+=Noob Saibot|Raiden
+A: Camponês. Sua luz não me alcança. / Minha luz é pequena. Mas é teimosa. / Teimosia não vence sombra.
+A: Você é fraco. / Eu sou o campeão. / Campeão fraco.
+B: Bi-Han. Seus irmãos ainda esperam por você. / Meus irmãos são traidores. / Eles são a sua família.
+B: Bi-Han. Eu vou trazer você de volta para os seus irmãos. / Não há volta. / O Kuai Liang acredita que há. Eu acredito nele.
+
+=Noob Saibot|Rain
+A: Príncipe roxo. Sua água não molha sombras. / Meu raio ilumina sombras. / Por um segundo.
+A: Você traiu seu reino. Eu traí meu clã. / Eu fui enganado. / Eu não. Eu escolhi.
+B: Sombra. Você seria útil a Edênia. / Edênia não me interessa. / Então você é inútil.
+B: Sombra. Ajoelhe-se diante de um príncipe. / As sombras não se ajoelham. / Então se afogue de pé.
+
+=Noob Saibot|Reiko
+A: Reiko. O general perdeu de novo. / Ele vai se reerguer. / As sombras já engoliram generais maiores. E nenhum se reergueu.
+A: Você segue o Shao. Eu sigo a escuridão. / A escuridão é instável. / A escuridão é eterna.
+B: Sombra. O general te usaria bem. / Ninguém me usa. / Todos são usados.
+B: Seus golpes são lentos. / Meus golpes são certeiros. / Lentos e certeiros.
+
+=Noob Saibot|Reptile
+A: Zaterrano. Você se esconde. Eu sou o esconderijo. / Esconder não é ser sombra. / É o primeiro passo.
+A: Zaterrano. Você é invisível. Eu sou escuro. / Mas eu ainda sou eu. / Eu também. Só que melhor.
+B: Sombra. Seu cheiro é de vazio. / Vazio é poder. / Vazio é solidão.
+B: Lute rápido, sombra. / As sombras são eternas. / Então lute eternamente. Eu fico invisível eternamente.
+
+=Noob Saibot|Rudolf
+A: Principezinho. Sua chama não ilumina o vazio. / Não precisa iluminar. Só esquentar. Você está tremendo. / Insolente.
+A: Você enfrentou a sua própria sombra na ponte. / Enfrentei e trouxe para casa. Ele come cereal agora. / Eu não serei salvo.
+B: Bi-Han! Ou Noob? Como você prefere? / Eu não preciso de nome. / Tá. Vou te chamar de Bi. É mais carinhoso.
+B: Minha mentora disse para eu não brigar com sombras. / Sua mentora é sábia. / Ela também disse que eu nunca escuto.
+
+=Noob Saibot|Scorpion
+A: Kuai Liang. Você me abandonou. / Você abandonou a si mesmo, Bi-Han. / Eu me tornei mais.
+A: Seu fogo não me alcança. / Meu fogo procura o meu irmão aí dentro. / Ele não existe mais.
+B: Bi-Han. Volte para casa. A mesa ainda tem o seu lugar. / Minha casa é a escuridão. / Então eu vou levar a luz até ela. Um pedaço de cada vez.
+B: Eu vou queimar as sombras e encontrar você. / Não há nada para encontrar. / Sempre há.
+
+=Noob Saibot|Sektor
+A: Tenente. Você me serviu. / Eu servi o Grão-Mestre. Não você. / Eu sou o Grão-Mestre.
+A: Suas máquinas não alcançam a escuridão. / Minhas máquinas analisam tudo. / Analise isto.
+B: Grão-Mestre. Os seus dados mudaram. / Eu mudei. / Recalibrando. Lealdade: em revisão.
+B: Eu vou restaurar o senhor. / Não há nada para restaurar. / Há sim. Eu tenho os registros antigos.
+
+=Noob Saibot|Shang Tsung
+A: Feiticeiro. Sua alma é cheia. A minha é vazia. / Vazio é desperdício. / Vazio é liberdade.
+A: Você quer minha alma. / Ela seria a joia mais sombria. / Então tente pegá-la.
+B: Noob Saibot. Que alma vazia. Que sabor nenhum. / Então não a queira. / Mas eu quero a escuridão.
+B: Eu posso te devolver o rosto. / Eu não quero rosto. / Que pena.
+
+=Noob Saibot|Sindel
+A: Imperatriz. Sua voz não alcança o vazio. / Minha voz quebra tudo. Até o vazio. / Tente.
+A: Você foi controlada. Eu também. / Eu me libertei. / Eu não quero me libertar.
+B: Sombra. Você ameaça minha família. / Eu ameaço a luz. / Então vou gritar até a luz voltar.
+B: Lute comigo. / As sombras não lutam. Engolem. / Então tente engolir isto.
+
+=Noob Saibot|Smoke
+A: Tomas. Você também me abandonou. / Eu segui o Kuai Liang. Você nos abandonou primeiro. / Eu não abandonei ninguém.
+A: Sua fumaça e minha sombra. Somos parecidos. / Não. Minha fumaça volta para casa. / Casa é uma ilusão.
+B: Bi-Han. Seus irmãos sentem sua falta. / Eu não sinto falta de ninguém. / Mentira.
+B: Bi-Han. Eu vou trazer você de volta. / Não há volta. / O Kuai Liang não desistiu. Eu não vou ser o primeiro.
+
+=Noob Saibot|Sub-Zero
+A: Bi-Han. Você ainda é eu. / Eu sou o que você será. / Nunca.
+A: Seu gelo é frágil. Minha sombra é eterna. / Meu gelo é disciplina. / Sua disciplina vai virar sombra.
+B: Você é o meu futuro? / Eu sou o seu destino. / Então eu vou mudar o destino.
+B: O Havik vai te transformar também. / Ninguém me transforma. / Foi o que eu disse.
+
+=Noob Saibot|T-1000
+A: Máquina. Você não tem alma. Eu não tenho rosto. / Somos ferramentas. / Você é ferramenta. Eu sou vontade.
+A: Você imita formas. Eu sou a forma da escuridão. / Posso imitar a sua. / Então imite o vazio.
+B: Alvo: entidade sombria. Ameaça alta. / A escuridão agradece. / Isso foi uma análise.
+B: Você diz que é eterno. / Eu sou a escuridão. / A escuridão também é só ausência de dados.
+
+=Noob Saibot|Takeda
+A: Garoto. Sua mente é rápida. Mas não alcança o vazio. / Minha mente alcança tudo. / Tente ler isto.
+A: Garoto. Você é jovem. E jovem quebra fácil. / Meu pai diz que jovem dobra, não quebra. / Seu pai nunca enfrentou as sombras.
+B: Bi-Han. Meu pai disse que você era um grande guerreiro. / Eu ainda sou. / Era. Agora você é só sombra.
+B: Posso ler a sua mente, Bi-Han? / Você vai ver o vazio. / Não é vazio. É um homem chamando os irmãos baixinho.
+
+=Noob Saibot|Tanya
+A: Umgadi. Sua luz é fraca. / Minha luz é amor. / Amor é fraqueza.
+A: Você protege uma imperatriz doente. / Eu protejo a mulher que eu amo. / O amor apodrece igual à carne dela.
+B: Sombra. Fique longe da imperatriz. / Eu vou onde quero. / Não aqui. Aqui você vai onde eu deixo.
+B: Lute comigo. / As sombras não lutam. / Então engula isto.
+
+=Noob Saibot|Teresa
+A: Forasteira. Sua alma é ambiciosa. / Ambição é tudo o que eu tenho. / Ambição é o primeiro passo para a escuridão.
+A: Você mente. Eu engulo mentiras. / Então você vai ficar com fome. / Duvido.
+B: Uma sombra. Você seria um ótimo segurança. / Eu não sirvo a ninguém. / Todo mundo serve a alguém.
+B: Você não tem rosto. Que desperdício. / Rostos são máscaras. / Concordo. Mas a minha é linda.

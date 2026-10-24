@@ -1,0 +1,231 @@
+=Baraka|Baraka
+A: Duas lâminas, duas doenças, a mesma raiva. / Na minha linha, ninguém procurou a cura. / Na minha, prometeram. Ainda espero.
+A: Você ainda acredita nos nobres? / Acredito na princesa. Nos outros, nunca. / Então pelo menos uma coisa mudou entre nós.
+
+=Baraka|Conan
+A: Você nunca viu uma doença que não pudesse matar com a espada. / Doença se trata com fogo e cerveja. / Se fosse simples assim, meu povo estaria vivo.
+A: Os nobres te desprezariam pela sua origem, bárbaro. / Os nobres me pagam e fingem que não. Eu fico com o ouro. / Você é mais esperto do que parece.
+B: Lâminas que saem do braço. Em Ciméria você seria rei. / Aqui eu sou um leproso com título. / Então vire rei de outro lugar. Eu virei.
+B: Você tem cara de quem perdeu tudo e continuou de pé. / Perdi a pele. O resto eu protejo. / Isso é coisa de guerreiro. Venha.
+
+=Baraka|Cyrax
+A: Uma armadura cheia de truques. Ela também esconde cicatrizes? / Esconde um coração nervoso. Ninguém precisa saber. / Agora eu sei.
+A: Seus aparelhos podiam ajudar os doentes de Exoterra. / Sério? Eu nunca pensei nisso. Me manda os dados depois. / Primeiro, a luta.
+B: Varredura completa. Você tem muita dor no corpo. / E você tem muita curiosidade. / Desculpa. Os sensores ligam sozinhos.
+B: Suas lâminas são orgânicas? Que inveja! / Você não ia querer o preço delas. / Ah. Faz sentido.
+
+=Baraka|Ermac
+A: Você carrega mil almas. Eu carrego mil doentes. / Nós ouvimos os seus doentes gritando em você. / Então ouçam bem. É por eles que eu luto.
+A: Seus irmãos lá dentro sofrem? / Alguns. Outros dormem. Outros riem. / Igual numa enfermaria.
+B: Nós sentimos uma lâmina cheia de propósito. / É a única coisa que a doença não comeu. / Então lute com ela.
+B: Você foi nobre um dia, Baraka. Uma das nossas almas lembra. / Lembra? / Lembra de um jovem bonito em Edênia. Que pena.
+
+=Baraka|General Shao
+A: Você prometeu cura ao meu povo. Era mentira. / Era motivação. Você lutou melhor do que nunca. / Hoje eu luto melhor ainda.
+A: Quantos tarkatanos morreram nas suas trincheiras? / Os que precisavam morrer. / Então você é o próximo da lista.
+B: Volte para o meu exército, Baraka. Eu ainda tenho uso para você. / Você não tem cura. Só tem uso. / É mais do que a família real te deu.
+B: Essas lâminas eram minhas um dia. / Eram emprestadas. Agora voltam para cortar você. / Ingrato.
+
+=Baraka|Geras
+A: Você pode voltar o tempo. Pode voltar a minha pele? / Posso voltar um momento. Não uma vida. / Então não me serve.
+A: Já viu um tempo em que o meu povo foi curado? / Em algumas linhas. Raras. / Raras já é mais do que nada.
+B: Em outra linha você é um carniceiro. Nesta, um protetor. / A doença é a mesma. A escolha mudou. / A escolha sempre muda tudo.
+B: O tempo testa todos. Hoje ele testa você. / O tempo me testa todos os dias. / Então você está treinado.
+
+=Baraka|Ghostface
+A: Você mata por diversão. / E você corta por quê? / Para proteger quem ninguém protege.
+A: Tira a máscara. Duvido que seu rosto seja pior que o meu. / Esse é o problema. O meu é comum demais. / Pior ainda.
+B: Que sorriso! Você nunca precisou de máscara, hein? / Cuidado com o que diz, assassino. / Foi um elogio. Juro.
+B: Lâmina contra lâmina. Mas a minha é retrátil. / As minhas também. E são de osso. / Ok, você ganhou essa.
+
+=Baraka|Havik
+A: Você abriu as fendas e trouxe mais doença para Exoterra. / Eu trouxe mudança! Sua doença é só mais uma forma de liberdade. / Liberdade de morrer?
+A: Seu sorriso de caveira não me assusta. / Mas a sua pele me encanta! O caos fez um ótimo trabalho em você. / Não foi o caos. Foi o destino.
+B: Baraka! Você é a prova viva de que a carne é caótica. / Eu sou a prova de que a carne resiste. / Resista, então! Eu adoro resistência.
+B: Junte-se a mim. O caos não discrimina doentes. / O caos não cura ninguém. / Não, mas ele não te faz fingir que está saudável.
+
+=Baraka|Homelander
+A: Você nunca sentiu dor. Dá para ver. / Eu sinto. Só não deixo ninguém ver. / Isso a gente tem em comum.
+A: Herói de verdade não sorri para câmera. / Herói de verdade tem fã. Você tem? / Tenho gente que depende de mim. Isso é melhor.
+B: Uau. Você é... interessante de se olhar. / Diga logo. Feio. / Eu ia dizer que é útil para assustar criança.
+B: Você acha que essas lâminas furam a minha pele? / Vou descobrir. / Ninguém nunca descobriu.
+
+=Baraka|Jade
+A: Umgadi. Você guarda a princesa que prometeu ajudar o meu povo. / Ela cumpre o que promete. / Eu estou contando com isso.
+A: Você nunca olhou para mim com nojo. / Eu olho para tudo do mesmo jeito. Atenta. / É mais do que eu ganho dos outros.
+B: Já te vi lutar na fronteira. Você protege os seus. / Os que ninguém mais protege. / Isso é ser Umgadi também.
+B: Se você ameaçar a princesa, eu te derrubo. / Eu não ameaço quem me deu a palavra. / Ótimo. Então é só treino.
+
+=Baraka|Johnny Cage
+A: Você vive de aparência. Eu perdi a minha. / Quer uma dica de maquiagem? Eu tenho um cara. / Eu tenho lâminas.
+A: Seus fãs gritam por você. Os meus gritam de dor. / Cara... isso foi pesado. / A vida em Exoterra é pesada.
+B: Baraka! Você seria um monstro incrível num filme meu. / Eu não sou monstro. Sou nobre. / Um nobre monstruoso, então. Ótima sinopse.
+B: Antes de lutar, posso tirar uma foto? / Para mostrar aos seus amigos o que é feio? / Para mostrar que eu ganhei de alguém assustador.
+
+=Baraka|Katherine Pierce
+A: Você trocou a vida por eternidade. Eu daria tudo por uma vida comum. / Vida comum é superestimada. / Diga isso para quem está apodrecendo.
+A: Você só pensa em você. / E é por isso que ainda estou viva. / E sozinha.
+B: Você parece alguém que sabe guardar rancor. Eu também sei. / O meu rancor tem nome. Shao. / O meu tem vários. Klaus é o primeiro da lista.
+B: Se eu te morder, eu fico doente? / Não sei. Quer testar? / Passo. Prefiro a minha pele assim.
+
+=Baraka|Kenshi
+A: Você ficou cego numa outra linha. Eu fiquei feio nesta. / Na escuridão, ninguém é feio. / Gostaria que todos lutassem de olhos fechados.
+A: Sua espada sente o meu cheiro? / Sente o seu coração. É mais bonito que a sua pele. / Não espere elogio de volta.
+B: A Sento diz que você carrega muita culpa. / Eu fui nobre e não fiz nada pelos doentes. Até virar um deles. / Então agora você faz.
+B: Lute sem raiva. Raiva te deixa previsível. / Raiva é a única coisa que eu sempre tive. / Então lute com ela. Mas com cuidado.
+
+=Baraka|Kitana
+A: Princesa. Você me deu a sua palavra. / E vou cumprir. Exoterra vai procurar a cura com você. / Então lute comigo como uma aliada. Não como uma dona.
+A: Seu exército me caçou quando eu servia ao Shao. / Você escolheu o lado errado. / Eu escolhi o único lado que me prometeu esperança.
+B: Baraka. Eu não esqueci da minha promessa. / Promessas nobres costumam ser esquecidas. / A minha não. Mas hoje é dia de treino.
+B: Você ainda me odeia? / Odeio o seu sangue nobre. Respeito você. / É um começo.
+
+=Baraka|Kung Lao
+A: Seu chapéu corta. Minhas lâminas também. / Eu tiro o meu na hora de dormir. Você tira as suas? / Elas não saem. Nunca.
+A: Você luta como quem nunca sofreu. / Eu sofri. Perdi muitas apostas para o Liu Kang. / Isso não é sofrimento.
+B: Você assusta de longe. De perto também. / E você fala demais de perto e de longe. / Justo.
+B: Eu ouvi dizer que você ajuda doentes em Exoterra. / Ajudo quem ninguém ajuda. / Então eu vou pegar leve. Mas só um pouco.
+
+=Baraka|Ladybug
+A: Você tem sorte. Eu tenho doença. / A sorte não é minha. Eu só uso bem o que recebo. / Eu também uso bem o que recebi. Olha só.
+A: Seu traje é bonito. O meu é a minha pele. / Debaixo da pele, todo mundo luta pelos mesmos motivos. / Você é otimista demais, heroína.
+B: Você protege os doentes? Que bonito! / Bonito eu não sou. / Eu disse que a sua causa é bonita. Você eu ainda não conheço.
+B: O Lucky Charm sempre me dá o que eu preciso. Hoje me deu... uma luva? / Para segurar as minhas lâminas, talvez. / Ah. Faz sentido!
+
+=Baraka|Li Mei
+A: A nova general. Você vai tratar os tarkatanos melhor que o Shao? / Vou tratar como soldados. Não como bucha de canhão. / Já é diferente.
+A: Seu exército ainda tem medo de mim. / Meu exército tem medo do que não conhece. / Então me apresente.
+B: Você ainda serve ao Shao? / Eu sirvo ao meu povo. O Shao mentiu para ele. / Então você pode servir a Exoterra.
+B: Mostre do que você é capaz. / Eu já mostrei nas suas fronteiras. / Mostre de novo. Agora para mim.
+
+=Baraka|Liu Kang
+A: Você recriou o mundo. Por que deixou a Tarkat existir? / Eu não controlo cada sofrimento. Só o rumo das eras. / Então o rumo da minha era é dor.
+A: Deus do Fogo. Você poderia queimar a doença. / O fogo também queima o corpo. Precisamos de outra cura. / Então ajude a procurar.
+B: Baraka. Nas linhas antigas você servia ao mal. Nesta, você protege. / Nesta, a doença me ensinou o que é ser fraco. / Às vezes a fraqueza é o melhor professor.
+B: Mostre que a sua causa é justa. / Eu luto por quem não pode lutar. Isso basta? / Basta. Agora lute.
+
+=Baraka|Mileena
+A: Imperatriz. A senhora carrega a mesma doença que nós. / E carrego a coroa. As duas pesam igual. / Então a senhora entende.
+A: O povo tarkatano espera que a senhora faça algo. / Eu faço. Mais do que meu pai fez. / Faça mais.
+B: Baraka. Você lutou contra mim na guerra. / Eu lutei por uma cura falsa. / Agora lute por uma de verdade. Comigo.
+B: Seus dentes são mais bonitos que os meus. / Majestade, ninguém tem dentes mais bonitos que a senhora. / Boa resposta. Lute.
+
+=Baraka|Nitara
+A: Vaeternus quer se separar de Exoterra. E os doentes de lá? / Cada reino cuida dos seus. / Então você é igual aos nobres.
+A: Você bebe sangue para viver. / E você sangra para viver. Somos irmãos de sangue. / Não somos nada.
+B: Seu sangue tem gosto de quê? / De doença. Não recomendo. / Pena. Eu estava com fome.
+B: Exoterra trata você como lixo. Por que defende esse reino? / Porque o lixo de Exoterra são os meus irmãos. / Isso é... nobre.
+
+=Baraka|Noob Saibot
+A: Você foi engolido pela escuridão. Eu fui engolido pela doença. / A escuridão me deu força. A doença te deu o quê? / Motivo.
+A: Volta para as sombras, Bi-Han. / Eu sou as sombras. Você é que veio até elas. / Então eu corto as sombras.
+B: Você apodrece por dentro e por fora. / Pelo menos eu ainda sei quem eu sou. / Isso não vai te salvar.
+B: As sombras não sentem dor. Quer experimentar? / Prefiro sentir. Me lembra que estou vivo. / Que desperdício.
+
+=Baraka|Omni-Man
+A: Seu povo eliminaria o meu por ser fraco. / Viltrum elimina fraqueza. Doença é fraqueza. / Então vem eliminar.
+A: Você nunca adoeceu. / Viltrumitas não adoecem. Não somos como vocês. / Que sorte a sua. E que azar o seu caráter.
+B: Você não teria lugar em Viltrum. / Não quero lugar em lugar nenhum que me descarte. / Justo. Mas vai perder do mesmo jeito.
+B: Você é forte para alguém doente. / Eu sou forte por estar doente. / Interessante. Prove.
+
+=Baraka|Peacemaker
+A: Você mata pela paz. E os que morrem? / Ganham paz também. É uma paz bem distribuída. / Você é louco.
+A: Seu capacete esconde o quê? / Um rosto bonito e muitos traumas. / O meu rosto é o trauma.
+B: Cara, essas lâminas são irmãs! Onde você comprou? / Nasci com elas. Por causa de uma doença. / Ah... desculpa. Ainda acho legal.
+B: Paz através da violência. Você concorda? / Eu concordo com proteger quem precisa. / Então concordamos. Mais ou menos.
+
+=Baraka|Quan Chi
+A: Você usa mortos. Eu protejo moribundos. / Seus moribundos dariam ótimos Revenants. / Toque em um deles e eu te parto.
+A: Necromante. Fique longe do meu povo. / Seu povo já está a meio caminho do meu domínio. / Não enquanto eu respirar.
+B: A doença te faz feio. A morte te faria útil. / A morte não vai me levar tão cedo. / Ela sempre leva, no final.
+B: Junte-se a mim, Baraka. Eu dou vida eterna aos tarkatanos. / Você dá escravidão eterna. / É uma questão de ponto de vista.
+
+=Baraka|Raiden
+A: Camponês. Você conhece o trabalho duro. / Conheço. A terra não perdoa preguiça. / Nem a doença.
+A: Você é tão jovem para ser campeão. / Liu Kang diz que eu estou pronto. Eu espero que ele esteja certo. / Vamos descobrir.
+B: Você protege quem é esquecido. Isso é honra. / Honra não enche barriga. / Na minha vila, a gente divide o que tem. Talvez ajude.
+B: Suas lâminas são assustadoras. Posso fazer uma pergunta? / Pergunte. / Dói quando elas saem? / Sempre.
+
+=Baraka|Rain
+A: Você quer o trono de Edênia. Eu quero só pele saudável. / Meu sonho é maior. / Mas o meu é mais urgente.
+A: Você traiu Exoterra pelo Shao. Eu também. / Eu fui enganado! / Eu também. A diferença é que eu admito.
+B: Um nobre que virou monstro. Que tristeza. / Um nobre que virou traidor. Que vergonha. / Como ousa?!
+B: Sua doença é contagiosa? / Só para quem fala demais. / Então eu estou seguro.
+
+=Baraka|Reiko
+A: Você ficou do lado do Shao até o fim. / O Shao é um vencedor. / O Shao é um mentiroso. E você sabia.
+A: Você me via como ferramenta. / Você era uma ferramenta. Útil, mas ferramenta. / Ferramentas também cortam.
+B: Você abandonou o general. Isso é deserção. / Ele mentiu sobre a cura. Isso é traição. / Na guerra, as duas coisas são iguais.
+B: O Shao ainda pode te aceitar de volta. / O Shao não aceita ninguém. Só usa. / Você aprendeu rápido.
+
+=Baraka|Reptile
+A: Você esconde o que é. Eu não posso esconder. / Às vezes eu queria ser visto. / E eu queria não ser.
+A: Os zaterranos também sofrem nas mãos dos nobres. / Sofremos. Mas aprendemos a não ser vistos. / Eu aprendi a não fugir.
+B: Senti cheiro de doença. Desculpe. / Todos sentem. Você é o primeiro a pedir desculpas. / Na minha raça, o olfato é sagrado.
+B: Você é forte. Eu sou rápido. / Então tente me pegar. / É o que eu faço melhor.
+
+=Baraka|Rudolf
+A: Principezinho. Da última vez, você me jogou de volta pela fenda. / Da última vez, você invadiu o meu brinde. Achei justo. / Hoje é revanche.
+A: Sua mãe me prometeu procurar a cura. Você vai ajudar? / Eu vou. Mas vou fazer piada no caminho. / Desde que ajude.
+B: Baraka! Achei que você tinha se aposentado da vilania. / Eu nunca fui vilão. Fui enganado. / Todo mundo diz isso. Mas no seu caso eu acredito.
+B: Seus leques queimam. Minhas lâminas cortam. / E minha língua fere. Somos um trio completo. / Você é insuportável, principezinho.
+
+=Baraka|Scorpion
+A: Você saiu do Lin Kuei para fundar um clã justo. / Saí porque o meu irmão perdeu o rumo. / Então você entende quem vira as costas para os seus.
+A: Seu fogo pode queimar a doença? / Meu fogo queima inimigos. Não maldições. / Pena.
+B: Baraka. Você protege os tarkatanos. O Shirai Ryu respeita isso. / Respeito não cura ninguém. / Mas abre portas.
+B: Lute com honra. / Eu luto com o que a doença me deixou. / Então lute com tudo.
+
+=Baraka|Sektor
+A: Você constrói armaduras para salvar um clã. Pode construir para salvar o meu povo? / Talvez. Seria um projeto interessante. / Então vamos conversar depois.
+A: Seus aparelhos analisam tudo. / Analisei você. A doença está avançando. / Eu sei. Por isso tenho pressa.
+B: Varredura: tecido comprometido, lâminas ósseas funcionais. / Fala como se eu fosse uma máquina. / Desculpe. É a minha forma de dizer que você é forte.
+B: Você é um enigma biológico. / E você é uma mulher que não sabe conversar. / É verdade. O Grão-Mestre diz o mesmo.
+
+=Baraka|Shang Tsung
+A: Você ajudou o Shao a me enganar. / Eu só vendi a ilusão. Você comprou porque quis. / Hoje você paga.
+A: Sua magia cura? / Minha magia rouba. Se eu roubar a sua doença, levo a sua alma junto. / Então não.
+B: Baraka. Que alma sofrida. Que sabor intenso. / Ela não é sua. / Ainda não. A Tarkat vai me trazer você de presente.
+B: Eu posso tirar a doença do seu corpo. Só preciso de um favor. / Seus favores têm preço. / Tudo tem preço, nobre caído.
+
+=Baraka|Sindel
+A: Imperatriz. Edênia me esqueceu quando eu adoeci. / Edênia errou. Eu errei. / Ouvir isso de uma imperatriz... é raro.
+A: A senhora já foi controlada. Sabe o que é perder a si mesma. / Sei. E sei o que é voltar. / Eu não sei se vou voltar.
+B: Baraka. Você foi um nobre de Edênia. / Um nobre que a corte preferiu esquecer. / Eu não esqueci. Lute.
+B: Você tem a força dos guerreiros antigos. / E a pele de um cadáver. / A força conta mais.
+
+=Baraka|Smoke
+A: Você some na fumaça. Eu nunca consigo sumir. / Sumir nem sempre é bom. / Para alguém como eu, seria um alívio.
+A: Você é leal a irmãos que escolheu. / Família é escolha. / Os tarkatanos são minha família por escolha também.
+B: Respeito sua causa. Mas tenho uma missão. / Todos têm missões. A minha dói mais. / Então lute.
+B: Fumaça contra lâmina. / Lâmina sempre encontra o que corta. / Não a fumaça.
+
+=Baraka|Sub-Zero
+A: Seu gelo pode congelar a minha doença? / Meu gelo congela tudo. Inclusive você. / Então não.
+A: O Lin Kuei comprou tarkatanos como armas nas linhas antigas. / O Lin Kuei usa o que é útil. Vocês eram úteis. / Então hoje uma dessas armas vai cortar de volta.
+B: Você é uma arma natural. O Lin Kuei te usaria bem. / Eu não sirvo a ninguém. / Todo mundo serve. Você só não escolheu bem.
+B: Lute, monstro. / Monstro é quem vê um homem doente e chama de monstro. / Gelo não tem opinião.
+
+=Baraka|T-1000
+A: Você pode imitar qualquer forma. Imite a minha. / Forma registrada. Sem utilidade tática. / Pelo menos você é honesto.
+A: Seu corpo se regenera. O meu apodrece. / Eficiência é o meu propósito. / O meu é sobreviver.
+B: Alvo com lâminas orgânicas. Análise: interessante. / Não sou um alvo. / Todos são alvos.
+B: Você não sente dor. / Dor não é necessária. / É a única coisa que me lembra que estou vivo.
+
+=Baraka|Takeda
+A: O filho do espadachim. Você luta como ele? / Luto melhor. Mas não conta pra ele. / Seu segredo está seguro.
+A: Seus chicotes são rápidos. / E as suas lâminas são... muito assustadoras. Posso admitir isso? / Pode.
+B: Meu pai disse para eu não te julgar pela aparência. / Seu pai é sábio. / E você assusta mesmo assim. Desculpa.
+B: Você é forte. Mas eu sou rápido. / Rapidez não vence lâmina. / Vence se a lâmina não pegar.
+
+=Baraka|Tanya
+A: Umgadi. Você protege a imperatriz que divide a minha doença. / Protejo a mulher que amo. A doença vem junto. / Então você entende o que é amar alguém doente.
+A: Seus olhos não mostram nojo. / Eu vejo a Mileena todos os dias. Nojo não existe para mim. / Obrigado.
+B: Você lutou contra a família real. / E agora luto ao lado dela. / Então prove que mudou.
+B: A Mileena fala de você com respeito. / A imperatriz fala? / Fala. Não estrague isso.
+
+=Baraka|Teresa
+A: Você subiu na vida mentindo. Eu desci na vida sem culpa. / A vida não é justa, querido. Eu só aprendi isso antes de você. / E aprendeu a pisar nos outros.
+A: Você nunca olhou para um doente com respeito. / Eu olho para todo mundo do mesmo jeito: com interesse. / Que tristeza.
+B: Você é nobre? Com essa cara? / Nobre de sangue. Feio de destino. / Que pena. Nobres feios não vendem revista.
+B: Eu já fui pobre e humilhada. Sei o que você sente. / Você nunca teve a pele caindo. / Não. Mas eu tive a dignidade caindo. Dói igual.

@@ -1,0 +1,219 @@
+=Cyrax|Cyrax
+A: Que armadura é essa? A minha versão tem três mísseis a mais. / A minha tem um a menos e um café embutido. / Ok, você venceu na engenharia. Agora vamos ver na luta.
+A: Na sua linha, o Lin Kuei virou o quê? / Uma fábrica de soldados de metal. Ninguém mais tinha nome. / Então eu luto por nós duas. Para isso nunca acontecer aqui.
+
+=Cyrax|Ermac
+A: Detectei várias assinaturas de alma num corpo só. Meu sensor tá surtando. / Nós também surtamos às vezes. / Pelo menos vocês têm companhia.
+A: Vocês falam no plural. Isso deve dar briga na hora de escolher o jantar. / Nós não jantamos. / Que vida triste.
+B: Nós sentimos medo atrás do seu sorriso. / Medo de quê? Eu sou a prodígio do Lin Kuei. / Medo de decepcionar quem acredita em você.
+B: Sua armadura grita. Nós ouvimos. / Ela faz bip. Não grita. / Para nós, é grito.
+
+=Cyrax|General Shao
+A: O general que traiu a família real. Meu clã sabe de tudo que acontece em Exoterra. / Então seu clã sabe que eu vou vencer. / Sabe que você perdeu para um príncipe que conta piada.
+A: Seu martelo é velho. Eu posso fazer um melhor. / O meu é forjado em sangue. / O meu seria forjado em titânio. Bem mais leve.
+B: O Lin Kuei manda crianças lutar? / Manda especialistas. Eu sou nova, não boba. / Vamos ver se é inteligente o bastante para correr.
+B: Brinquedos não vencem guerras. / Brinquedos ganharam três batalhas na fronteira. / Por enquanto.
+
+=Cyrax|Geras
+A: Você controla o tempo? Pode me dar mais cinco minutos de sono? / O tempo não é brinquedo. / Nem a minha soneca.
+A: Já viu o meu futuro? / Vi um em que você lidera o seu clã. / Sério? Eu? Uau. Não conta para o Grão-Mestre.
+B: Sua armadura é o seu orgulho. / E o meu medo. Se ela falha, eu falho. / Você vale mais do que o metal.
+B: O tempo é paciente. Você não é. / Paciência é para quem não tem prazo. / Todos têm prazo.
+
+=Cyrax|Ghostface
+A: Você liga para as pessoas antes de atacar? Isso é muito antigo. / É clássico. / Eu rastreei a sua ligação em dois segundos.
+A: Sua faca tem chip? / Minha faca tem histórico. / Que medo.
+B: Olá, garota de metal. Qual seu filme de terror favorito? / Eu gosto dos que têm robôs. / Que mau gosto.
+B: Você não tem medo de mim? / Eu tenho sensores de calor, de movimento e de barulho. Você é bem previsível. / Ah. Isso machuca.
+
+=Cyrax|Havik
+A: Meu sensor de perigo está berrando com você. / O caos faz isso com os sensores. / Então eu desligo o sensor e uso o punho.
+A: Você corrompeu o meu Grão-Mestre. / Eu dei a ele o que ele queria. Poder sem limites. / Ele queria proteger o clã. Você distorceu tudo.
+B: A menina de lata! O caos ama a sua desordem. / Minha armadura é bem organizada! / Mas a sua cabeça não.
+B: Junte-se ao caos. É mais divertido. / Eu já me divirto. Com meus próprios brinquedos. / Ahh, que tédio.
+
+=Cyrax|Homelander
+A: Você voa sem propulsor? Isso é injusto. / A vida é injusta, querida. / Eu tenho mísseis. A vida vai ficar mais justa.
+A: Meu scanner não consegue ler o seu coração. / Porque ele é forte demais. / Ou vazio demais.
+B: Uma garota em armadura. Você seria fofa num pôster. / Eu seria letal num pôster. / Isso é fofo também.
+B: Seus brinquedos não me arranham. / Eles não precisam arranhar. Só distrair. / Distrair de quê?
+
+=Cyrax|Jade
+A: Umgadi! Vocês treinam com bastão desde crianças? / Desde antes de andar. / Então você sabe o que é crescer treinando.
+A: Seu bastão não tem nenhum botão? / Não precisa. / Que coragem.
+B: Você é nova para estar aqui. / Eu sou boa para estar aqui. / Prove.
+B: Sua armadura chama muita atenção. / É a ideia. Assim ninguém vê a outra arma. / Esperto.
+
+=Cyrax|Johnny Cage
+A: Johnny Cage! Eu vi um filme seu. Os efeitos especiais eram ruins. / Ei! Aquilo era real! / Pior ainda.
+A: Você é muito famoso. / E você é muito amarela. / É dourado!
+B: Uma ninja de armadura. Você seria incrível num filme de ação. / Eu já sou incrível numa luta de verdade. / Ponto para você.
+B: Quer um autógrafo? / Quero o seu óculos para desmontar. / Nem pensar, são de grife.
+
+=Cyrax|Katherine Pierce
+A: Uma vampira de quinhentos anos. Seus olhos mudam de cor? / Quando eu fico com fome. / Vou ficar de olho.
+A: Você mente muito bem. Meu detector não pegou nada. / Porque eu acredito no que eu digo. Por um segundo. / Isso é assustador.
+B: Uma menina com armadura. Que adorável. / Adorável e perigosa. / As duas coisas juntas duram pouco.
+B: Você não parece assassina. / Você também não parece velha. / Touché.
+
+=Cyrax|Kenshi
+A: Sua espada tem espíritos? Posso ler a frequência? / Eles não gostam de ser lidos. / Desculpa. É a curiosidade.
+A: Você luta sem pressa. / Pressa é o inimigo da lâmina. / Mas é amiga dos mísseis.
+B: Você é barulhenta. / É a armadura. / Não. É você.
+B: Lute sem a armadura um dia. / Sem ela eu fico com medo. / Então é aí que você aprende.
+
+=Cyrax|Kitana
+A: Princesa! O Lin Kuei te respeita. / Respeito é bom. Aliança é melhor. / Vou levar a mensagem.
+A: Seus leques são tão afiados. Qual liga metálica? / Aço edeniano. Segredo de família. / Vou descobrir.
+B: Você é a mais jovem do Lin Kuei? / Sou. E a melhor. / Lembro de ter dito a mesma coisa.
+B: Mostre o que a juventude faz. / Ela faz barulho, faz piada e faz estrago. / Então mostre.
+
+=Cyrax|Kung Lao
+A: Seu chapéu é aerodinâmico. Quem projetou? / Meus ancestrais. / Eles eram engenheiros?
+A: Kung Lao! Calculei a rotação do seu chapéu. Três mil giros por minuto. / Só? Eu achava que era mais. / Com o vento a favor, três mil e quinhentos. Não se ache.
+B: Uma ninja nova! Vai ter que provar que é boa. / Prove você primeiro. / Justo.
+B: Já lutei contra ninjas antes. / Mas não contra mim. / Isso é verdade.
+
+=Cyrax|Ladybug
+A: Seu ioiô é tecnológico? / É mágico. / Que inveja. Eu queria um mágico.
+A: Seu traje é tão leve. O meu pesa uma tonelada. / Mas parece muito protetor. / É. Até um pouco demais.
+B: Você é bem jovem. Eu era assim quando comecei. / Você também era cheia de brinquedos? / Eu tinha um ioiô e muita coragem.
+B: Vamos lutar limpo? / Eu luto limpo. Mas meus mísseis às vezes não. / Ok. Ajustando a estratégia.
+
+=Cyrax|Li Mei
+A: General! O Lin Kuei quer um acordo com o seu exército. / Primeiro, prove sua força. / Estava esperando você dizer isso.
+A: General, posso testar o meu novo escudo contra as suas explosões? / Ele vai derreter. / Então eu faço outro. É assim que eu aprendo.
+B: Você é muito nova para negociar. / Mas sou perfeita para lutar. / Então lute.
+B: Seus brinquedos são úteis? / São ferramentas. / Então use.
+
+=Cyrax|Liu Kang
+A: Deus do Fogo! Posso tirar uma foto para o clã? / Depois da luta. / Combinado!
+A: Você vê todas as linhas do tempo? Eu sou importante em alguma? / Você é importante nesta. / Isso é um sim?
+B: Você é a mais nova do Lin Kuei. Isso exige coragem. / Ou loucura. / Às vezes são a mesma coisa.
+B: Mostre o que aprendeu. / Aprendi a não desistir. / É a lição mais importante.
+
+=Cyrax|Mileena
+A: Imperatriz! Sua armadura é bonita. / Não é armadura. É minha pele. / Ah. Desculpa.
+A: Você é feroz. / E você é ruidosa. / Isso é elogio?
+B: O Lin Kuei manda uma criança? / Manda a melhor. / Então mostre.
+B: Seus brinquedos são bonitos. / Obrigada! / Posso quebrar um?
+
+=Cyrax|Nitara
+A: Suas asas são biológicas? / Claro que são. / Que incrível. Posso medir a envergadura?
+A: Vampira! Você tem medo de luz ultravioleta? / Não. / Ah, pena. Eu tinha uma lanterna especial.
+B: Você é barulhenta demais para uma ninja. / Eu sou uma ninja moderna. / Isso é contraditório.
+B: Seu sangue tem gosto de óleo? / Não sei. Quer descobrir? / Passo.
+
+=Cyrax|Noob Saibot
+A: Grão-Mestre... é você aí dentro? / Bi-Han morreu. Eu sou o que restou. / Então eu luto para trazer o que restou de volta.
+A: Eu servi você com orgulho. / E agora vai morrer com orgulho. / Você não era assim!
+B: A menina de lata. Ainda carregando brinquedos. / Ainda carregando esperança. / Esperança morre na sombra.
+B: Você me deve lealdade. / Eu devia lealdade ao Bi-Han. Não a você. / Eu sou Bi-Han.
+
+=Cyrax|Omni-Man
+A: Você é um alienígena? Posso analisar sua biologia? / Analise isso. / Ai.
+A: Você voa muito rápido. / Mais rápido que seus mísseis. / Vou recalibrar.
+B: Uma criança brincando de guerra. / Eu sou uma ninja de verdade. / Criança mesmo assim.
+B: Viltrum não usaria tecnologia tão fraca. / Viltrum nunca viu o Lin Kuei. / Ainda.
+
+=Cyrax|Peacemaker
+A: Seu capacete é cromado. Posso transformar em antena? / Não! É sagrado. / Ok, é um sim.
+A: Você mata pela paz? Isso não faz sentido. / Faz total sentido! Pergunte ao Eagly. / Quem é Eagly?
+B: Garota, você tem armas legais. / Obrigada! As suas também. / Vamos ver quem atira mais.
+B: Paz através da explosão! / Explosão através da tecnologia! / Somos uma ótima dupla.
+
+=Cyrax|Quan Chi
+A: Necromante. Meu sensor está detectando energia morta em você. / Porque eu sou senhor da morte. / Que assustador.
+A: Você não pode transformar ninjas de metal em Revenants. / Posso transformar tudo. / Isso é um desafio.
+B: Uma menina de metal. Que interessante. / Eu sou de carne. A armadura é que é de metal. / Melhor ainda.
+B: Sua alma seria útil para mim. / Minha alma é do Lin Kuei. / O Lin Kuei vai cair.
+
+=Cyrax|Raiden
+A: Raiden! Eu vi você lutar. Seu raio é bem ajustado. / Obrigado. Eu treino com o Liu Kang. / Eu treino com o meu clã.
+A: Você é um fazendeiro de verdade? / De verdade. Cuido da terra. / Que vida tranquila.
+B: Sua armadura é incrível. Você mesma fez? / Eu e a Sektor. / Vocês duas são gênios.
+B: Vamos lutar limpo? / Eu luto limpo. / Então somos dois.
+
+=Cyrax|Rain
+A: Você é um príncipe? Nunca vi um tão molhado. / Isso é poder. / Isso é umidade.
+A: Seu raio é roxo. Isso é estranho. / Isso é único. / Tá.
+B: Uma ninja amarela. Que mau gosto. / É dourado. / É amarelo.
+B: Você não sabe com quem está falando. / Sei sim. Com um príncipe que ninguém leva a sério. / Como ousa?
+
+=Cyrax|Reiko
+A: Você é o cão de guarda do Shao. / Sou o braço direito. / Braço direito que vai levar um choque.
+A: Reiko! Seus soldados ainda marcham no mesmo ritmo? Meu sensor adora. / Disciplina. / Previsibilidade. Eu já sei onde você vai pisar.
+B: Uma menina de metal. O Shao adoraria desmontar você. / O Shao não sabe nem montar um martelo. / Insolente.
+B: Seus brinquedos são inúteis. / Meus brinquedos derrubaram três dos seus soldados. / Sorte.
+
+=Cyrax|Reptile
+A: Sua invisibilidade é natural? / É da minha espécie. / Meu sensor detecta você mesmo invisível.
+A: Syzoth, como você some sem fazer barulho? A minha armadura faz clique até quando eu respiro. / Prática. E medo de ser encontrado. / Eu troco o clique pelo seu medo? Melhor não.
+B: Sua armadura faz barulho. / É para avisar que eu cheguei. / Isso é burrice tática.
+B: Você é jovem. / Mas aprendo rápido. / Então aprenda a ser silenciosa.
+
+=Cyrax|Rudolf
+A: Príncipe! Seus leques pegam fogo de verdade? Que combustível é esse? / Sarcasmo comprimido. / Isso não é uma fonte de energia.
+A: Você fala muito para alguém que luta bem. / E você faz bip demais para uma ninja. / É um bip discreto!
+B: Uma ninja amarela! Você combina com o meu fogo. / Eu sou dourada. / Ok. Combina com o meu ego também.
+B: Minha mentora diz que ninja de verdade não faz barulho. / Sua mentora nunca usou propulsor. / Ela usa um bastão e muita paciência.
+
+=Cyrax|Scorpion
+A: Você saiu do Lin Kuei. Eu ainda estou lá. / Você ainda pode sair. / Eu não sei se quero.
+A: Seu fogo é lindo. / E sua armadura é barulhenta. / Todo mundo diz isso.
+B: Cyrax. Você é leal ao clã. Mas ele está mudando. / Eu sei. Estou tentando consertar por dentro. / Então tome cuidado.
+B: Mostre o que o Lin Kuei te ensinou. / Me ensinou a não abandonar ninguém. / Isso é bom.
+
+=Cyrax|Sektor
+A: Tenente! Vamos testar o novo propulsor? / Testamos ontem. Você caiu. / Hoje eu vou cair com estilo.
+A: Tenente, o Grão-Mestre anda estranho. Mais frio. / Eu registrei. Temperatura corporal abaixo do normal há três semanas. / Então não sou só eu que estou com medo.
+B: Sua armadura está desalinhada. / Eu ajustei de propósito! / Então você ajustou errado.
+B: Vamos ver qual das duas fez o melhor projeto. / O meu tem mais mísseis. / O meu tem mais cérebro.
+
+=Cyrax|Shang Tsung
+A: Feiticeiro. Meu sensor apita perto de você. / Porque eu tenho muitas almas. / Isso é nojento.
+A: Você pode virar qualquer um? Vira o Grão-Mestre. / Para quê? / Para eu bater nele sem culpa.
+B: Uma menina de lata. Sua alma deve ser divertida. / Ela é. E está bem protegida. / Nada é bem protegido. Só bem embrulhado.
+B: Você confia demais nos brinquedos. / E você confia demais nas almas dos outros. / Isso é eficiência.
+
+=Cyrax|Sindel
+A: Imperatriz! Sua voz quebra vidro? Tenho um visor novo. / Eu quebro mais que vidro. / Ok, vou proteger o visor.
+A: Imperatriz, uma feitiçaria controlou a senhora. Posso fazer um capacete que bloqueia isso. / Você faria isso por mim? / Faria por qualquer um. Mas pela senhora eu pinto de roxo.
+B: O Lin Kuei manda uma criança ao meu palácio? / Uma especialista. / Então seja especial.
+B: Você é muito barulhenta. / A senhora também. / Insolente.
+
+=Cyrax|Smoke
+A: Smoke! Você saiu do clã. Senti sua falta. / Eu também. Mas era preciso. / Eu entendo. Mais ou menos.
+A: Smoke, sua fumaça entupiu os meus filtros de novo. / Saudade de mim? / Saudade, sim. Dos filtros limpos, mais ainda.
+B: Você ainda está no Lin Kuei. Cuidado. / Eu sei me cuidar. / Sei que sabe. Mas cuidado.
+B: Mostre o que aprendeu desde que eu saí. / Aprendi a sentir sua falta. / Isso não é golpe.
+
+=Cyrax|Sub-Zero
+A: Grão-Mestre. O clã está mudando. Eu estou preocupada. / Preocupação é fraqueza. / É cuidado.
+A: Você confia em mim? / Confio em quem obedece. / Eu obedeço. Mas também penso.
+B: Cyrax. Você está distraída. / Estou pensando. / Pensar demais atrasa o golpe.
+B: Mostre que merece a armadura. / Eu a construí. Mereço. / Construir não é merecer.
+
+=Cyrax|T-1000
+A: Você é uma máquina? Que modelo? / Protótipo avançado. / Posso ver o código?
+A: Metal líquido! Se eu tivesse um pedaço seu, eu revolucionava o Lin Kuei. / Partes não são compartilhadas. / Então eu tiro uma lasca na luta. Pela ciência.
+B: Alvo com tecnologia primitiva. / Primitiva?! Isso aqui é de ponta! / Recalibrando.
+B: Você é ineficiente. / Mas sou criativa. / Criatividade não é métrica.
+
+=Cyrax|Takeda
+A: Takeda! Seus chicotes são bem calibrados. / São kunais. E obrigado. / Posso escanear?
+A: Seu pai é o espadachim da Sento? / É. E ele é chato com treino. / O meu Grão-Mestre também.
+B: Cyrax! Eu sou fã da sua armadura. / Obrigada! Eu sou fã do seu cabelo. / Ninguém nunca elogiou meu cabelo.
+B: Vamos fazer uma luta amistosa? / Toda luta é amistosa até alguém cair. / Justo.
+
+=Cyrax|Tanya
+A: Umgadi! Vocês são silenciosas como fantasmas. / E você é barulhenta como uma tempestade. / Isso foi elogio?
+A: Tanya, você nunca tira os olhos da imperatriz. / Nem quando durmo. / Isso é romântico e um pouco assustador. Nota dez.
+B: Sua armadura chama atenção. / É de propósito. / Então você é uma isca.
+B: Lute sem medo. / Eu tenho medo. Mas luto mesmo assim. / Isso é coragem.
+
+=Cyrax|Teresa
+A: Uma advogada no torneio? Que diferente. / Eu sou diferente em qualquer lugar. / Isso eu percebi.
+A: Teresa, seu vestido aguentaria um disparo de plasma? / Ele aguentou um casamento falso e uma falência. / Isso é... mais resistente do que eu pensei.
+B: Uma menina de lata. Que barulho. / Que vestido. / É uma questão de estilo.
+B: Você poderia ser rica com essas invenções, menina. / Eu prefiro ser útil. / Que desperdício de talento. E de patente.

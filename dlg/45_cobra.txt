@@ -1,0 +1,315 @@
+=Cobra|Cobra
+A: Dois corpos, uma alma antiga. Que coincidência incômoda. / Só um de nós é o original, Meri-an. / Então a serpente decide.
+A: Você lembra do Nilo? / Lembro de muito pouco. Apaguei quase tudo. / Então eu lembro por nós dois.
+
+=Cobra|Cabra
+A: Sabrina. Você ainda acha que o desejo traz sua irmã de volta? / Eu não acho. Eu sei. / A esperança é a doença mais cruel que existe.
+A: Seus explosivos são barulhentos. / E sua magia é silenciosa demais. Dá medo. / É para dar.
+B: Você contou tudo pro Supremo. / Contei o necessário. / Você vendeu a gente, Cobra.
+B: Me devolve minha memória. / Não. Para o seu próprio bem. / Então eu tiro na explosão.
+
+=Cobra|Touro
+A: Subtenente. Sua disciplina seria útil ao Supremo. / Eu não sirvo a ninguém além de mim. / Todos servem. Você só não sabe ainda.
+A: Suas balas não atravessam serpentes. / Atravessam quem segura as serpentes. / Tente.
+B: Você traiu sua própria equipe. / Eu protegi a missão. / Missão de quem?
+B: Eu não lembro de tudo, mas lembro que não confio em você. / Instinto militar. / Instinto de sobrevivência.
+
+=Cobra|Ashrah
+A: Uma espada que purifica. Já curei com as mãos o que você corta. / Você drena vidas. Isso não é cura. / É sobrevivência.
+A: Sua lâmina brilha. Minhas serpentes preferem o escuro. / Kriss vai iluminá-las. / Vai cegá-las, no máximo.
+B: Há algo preso à sua alma. / Ela é minha. E eu sou dela. / Kriss pode separar vocês.
+B: Você busca redenção, curandeiro? / Eu busco sobreviver. / As duas coisas andam juntas.
+
+=Cobra|Baraka
+A: Tarkatan. Já curei doenças parecidas com a sua. / Tarkatan não é doença. / No Egito, chamaríamos de maldição.
+A: Lâminas no braço. Serpentes nas mãos. / As lâminas são mais rápidas. / As serpentes são mais pacientes.
+B: Você tem cheiro de areia antiga. / Séculos de areia. / Baraka come areia também.
+B: Feiticeiro de óculos. Fraco. / Os óculos são do corpo. A força é minha. / Vamos ver.
+
+=Cobra|Conan
+A: Bárbaro. Já enfrentei homens como você no deserto. / E o que aconteceu com eles? / Viraram areia.
+A: Sua espada contra minha serpente. / Crom me protege. / Crom não conhece o Egito.
+B: Por Crom, um feiticeiro! Odeio feiticeiros. / Sou curandeiro. / Que coisa horrível.
+B: Essas cobras são de verdade? / Mais que você imagina. / Então vou cortar uma por uma.
+
+=Cobra|Cyrax
+A: Máquina. Não tem vida para drenar em você. / Sinais vitais: baixos. / Então ainda há algo aí dentro.
+A: Seus sensores detectam magia? / Energia desconhecida detectada. / É assim que começa o medo.
+B: Alvo: humano com anomalia mágica. / Não sou humano há três mil anos. / Atualização registrada.
+B: Pergunta: sua serpente é real? / Pergunte quando ela morder. / Dado pendente.
+
+=Cobra|Ermac
+A: Muitas almas num corpo só. Eu vivi isso de outro jeito. / Você roubou um corpo. / Eu ganhei um.
+A: Sua telecinese é forte. / Somos muitos. / Eu sou antigo.
+B: Sentimos uma entidade enrolada na sua alma. / Ela é minha companheira. / Ela é sua prisão.
+B: Você apagou memórias. Nós lembramos de tudo. / Então vocês sofrem por tudo. / Sim.
+
+=Cobra|General Shao
+A: Mais um general que quer um trono. O Supremo também quer. / O trono é meu. / Os dois vão perder.
+A: Seu martelo é pesado. Minhas serpentes são leves. / Leve não esmaga. / Leve sufoca.
+B: Feiticeiro magrelo. / Curandeiro. E magreza não é fraqueza. / Vou te quebrar ao meio.
+B: Junte-se a Exoterra. / Eu já tenho um mestre. / Troque.
+
+=Cobra|Geras
+A: Você controla o tempo. Eu vivi tempo demais. / Três mil anos não é tempo para mim. / Para um mortal, é uma eternidade.
+A: Já viu o Egito antigo? / Vi tudo. / Então sabe quem eu era.
+B: Você não pertence a esse corpo. / Agora pertenço. / O tempo vai cobrar.
+B: Em muitas linhas, você vira pó. / Nesta, eu vivo. / Por enquanto.
+
+=Cobra|Ghostface
+A: Faca e máscara. Que primitivo. / E você com essas cobras brilhantes? Muito Egito. / Exatamente.
+A: Você liga para as vítimas. Eu drenava viajantes sem avisar. / Ok, isso é pior. / Bem pior.
+B: Me diz, qual filme de terror te assusta? / Nenhum. Eu vivi os piores. / Sombrio. Gostei.
+B: Seus óculos são de grau? / São do Pietro. / Quem é Pietro?
+
+=Cobra|Havik
+A: Caos. Eu prefiro ordem. / A ordem é uma prisão! / Uma prisão que eu controlo.
+A: Seu pescoço torto lembra uma serpente. / Hahaha! Somos parentes! / Não somos.
+B: Sua alma tem cheiro de areia e morte! / É o perfume do Egito. / Delicioso!
+B: Você serve a alguém. Que chato! / Eu escolhi servir. / O caos não pede licença!
+
+=Cobra|Homelander
+A: Você drena o amor das pessoas. Eu drenava a vida. / Eu não drenei nada. Eles me amam. / Por enquanto.
+A: Acha que é divino. / Eu sou um deus. / Já vi deuses de verdade. Você não chega perto.
+B: Um mágico de óculos. Que piada. / Curandeiro. / Mesma coisa.
+B: Seu sangue deve ter gosto de areia. / Experimente e perca a língua. / Engraçado.
+
+=Cobra|Jade
+A: Guardiã. Você protege a princesa. Eu protejo o Supremo. / Seu senhor é cruel? / Necessário.
+A: Seu bastão é rápido. / Suas cobras são devagar. / São pacientes.
+B: Sinto cheiro de traição em você. / Eu não traio. Os outros traem. / Isso é pior.
+B: Edênia não aceita feitiçaria do deserto. / Eu não pedi permissão. / Então vou expulsar você.
+
+=Cobra|Johnny Cage
+A: Um ator. Já vi muitos no Egito. Todos de máscara. / O meu rosto não precisa de máscara. / Que desperdício.
+A: Seu chute é famoso. Minhas serpentes também. / Elas fazem filme? / Fazem pesadelo.
+B: Cara, esse visual de feiticeiro é muito anime. / É de três mil anos atrás. / Então é vintage.
+B: Me ensina a fazer cobra brilhante? / Nunca. / Ah, sem graça.
+
+=Cobra|Katherine Pierce
+A: Vampira. Eu fazia o que você faz muito antes de existir. / Drenar vidas? / Com elegância.
+A: Quinhentos anos. Bonito número. / E você, três mil. Que velho. / Experiente.
+B: Óculos, cabelo verde e uma cobra. Interessante. / Não tente me seduzir. / Eu nem comecei.
+B: Você e eu somos parecidos. Sobrevivemos a qualquer custo. / Eu não sou parecido com ninguém. / É o que todos falam.
+
+=Cobra|Kenshi
+A: Você não enxerga. Eu enxergo demais. / Vejo sua mente. É um labirinto. / Eu mesmo construí.
+A: Sua espada tem alma. Minha serpente também. / Sento é ancestral. / Minha serpente é mais.
+B: Você apagou sua própria memória. / Para proteger um segredo. / Que segredo vale isso?
+B: Sinto sua mente vazia em alguns lugares. / Escolhi esquecer. / Então eu te lembro.
+
+=Cobra|Kitana
+A: Princesa. A realeza do Egito era mais bonita. / Edênia não se compara. / Duvido.
+A: Seus leques voam. Minhas serpentes rastejam. / Os leques chegam antes. / As serpentes chegam com veneno.
+B: Você serve a um tirano. / Sirvo a quem me libertou. / Isso é escravidão com outro nome.
+B: Edênia já teve feiticeiros traidores. / Eu não traí. Fui leal. / A um monstro.
+
+=Cobra|Kung Lao
+A: Monge. Já curei monges no deserto. / E eu já derrotei feiticeiros. / Que conversa produtiva.
+A: Seu chapéu é afiado. / Suas cobras também. / Elas são mais.
+B: A magia escura não é bem-vinda no templo. / Eu não vim rezar. / Então vá embora.
+B: Você tem a calma de um monge. / Tenho a calma de três mil anos. / Isso é inveja.
+
+=Cobra|Ladybug
+A: Heroína de Paris. Você purifica akumas. Eu tenho algo parecido dentro de mim. / Uma entidade? / Uma companheira.
+A: Seu ioiô é brilhante. / Suas víboras também. / Mas as minhas mordem.
+B: Ainda dá tempo de escolher o bem. / Eu já fui o bem. Curava pessoas. / Então volte a ser.
+B: Miraculous, Lucky Charm! / E aí, o que apareceu? / Uma mangueira de jardim. Parece uma cobra.
+
+=Cobra|Li Mei
+A: General. Você protege seu povo. Eu protejo meu mestre. / Seu mestre merece? / Merece minha lealdade.
+A: Suas explosões são um show. / Suas serpentes são feias. / São antigas.
+B: Exoterra não precisa de magia do deserto. / Ninguém precisa até ficar doente. / Não somos doentes.
+B: Sua magia tem cheiro de morte. / Morte e cura são irmãs. / Que horror.
+
+=Cobra|Liu Kang
+A: Deus do fogo. Você criou um mundo novo. Eu vivi no velho. / O velho tinha muita dor. / Também tinha cura.
+A: Seu dragão contra minha serpente. / Meu dragão é gigante. / A serpente é mais velha.
+B: Uma criatura está enrolada em você. / Não preciso da sua pena. / Não é pena. É um aviso.
+B: Você poderia voltar a curar. / Curar me deixou doente. / A escolha ainda é sua.
+
+=Cobra|Mileena
+A: Tarkat. Uma doença parecida com a minha. / A minha é parte de mim. / A minha idem.
+A: Seus sais são rápidos. / Suas serpentes se arrastam. / Pacientes.
+B: Você entende a fome. / Entendo a sede de vida. / Somos parecidos.
+B: Não me olhe com pena. / Não tenho pena. Tenho curiosidade. / Aí piorou.
+
+=Cobra|Nitara
+A: Vampira. Você bebe sangue. Eu bebo a vida inteira. / Que ganancioso. / Que eficiente.
+A: Dá pra ouvir suas asas de longe. / Suas serpentes fazem silêncio. / O silêncio é mais letal.
+B: Você é um vampiro de outro tipo. / Um curandeiro amaldiçoado. / Isso é vampiro.
+B: Vaeternus aceitaria você. / Eu já tenho um lar. / Com um mestre cruel.
+
+=Cobra|Noob Saibot
+A: Sombras. Eu prefiro a areia. / A areia some no escuro. / Mas volta com o vento.
+A: Antes das sombras, quem era você? / Fui. / Eu também.
+B: As sombras sabem o que você apagou. / Elas que guardem segredo. / Não guardamos.
+B: Sua magia é verde. A minha é preta. / A sua é vazia. / A sua é velha.
+
+=Cobra|Omni-Man
+A: Viltrumita. Você se acha imortal. Eu já fui. / Eu sou quase indestrutível. / Quase é uma palavra perigosa.
+A: Você mente para o seu filho. / Faço o necessário. / Eu também apaguei memórias.
+B: Um mago fraco. / Curandeiro. E fraco não sobrevive três mil anos. / Vou ser o fim desse tempo todo.
+B: Seu corpo é emprestado. / E o seu é arrogante. / Fique quieto.
+
+=Cobra|Peacemaker
+A: Paz pela violência. Simples demais. / Simples e eficiente! / Ingênuo.
+A: Seu capacete reflete minhas serpentes. / Que massa! / É para assustar.
+B: Cara, você parece um mago de anime. / Eu sou anterior aos animes. / Muito anterior?
+B: Pela paz, eu atiro em cobras. / Elas desviam. / Eu atiro mais.
+
+=Cobra|Quan Chi
+A: Feiticeiro. Finalmente alguém que entende de verdade. / Entendo mais que você. / Duvido.
+A: Sua magia é verde. A minha também. / A minha é mais antiga. / Não é. Eu vivi no Egito.
+B: Você roubou um corpo. Admirável. / Eu ganhei um corpo. / Mesma coisa.
+B: Junte-se a mim. Esqueça esse Supremo. / Não trocaria um mestre por outro. / Que lealdade burra.
+
+=Cobra|Raiden
+A: Deus do trovão. Já curei sacerdotes dos seus irmãos. / Os deuses do Egito eram outros. / Mas a dor era a mesma.
+A: Seus raios contra minhas serpentes. / O trovão chega primeiro. / A serpente já mordeu.
+B: Sinto uma entidade presa à sua alma. / Ela é minha e eu sou dela. / Ela vai te consumir.
+B: Você protege um homem perigoso. / Protejo quem me libertou. / Ele te prendeu primeiro.
+
+=Cobra|Rain
+A: Semideus. A chuva nunca chegou ao meu deserto. / Eu poderia ter trazido. / Tarde demais.
+A: Sua água contra minhas serpentes. / Cobras se afogam. / As minhas são de energia.
+B: Você é um mago velho. / Vivido. / Velho.
+B: Curve-se diante de um príncipe de Edênia. / Já curei faraós. / Faraós não são príncipes de Edênia.
+
+=Cobra|Reiko
+A: Mais um servo. Como eu. / Eu sirvo ao futuro imperador. / E eu sirvo ao Supremo. Quem tem o pior mestre?
+A: Lealdade é força, você diz. / Sem lealdade, não sobra nada. / Até que enfim alguém me entende.
+B: Você entregou sua própria equipe. / Por lealdade. / Respeito isso.
+B: Exoterra precisa de magia. / Exoterra não me interessa. / Uma pena.
+
+=Cobra|Reptile
+A: Ssssserpente? Igual a mim. / Você é lagarto. Eu sou serpente. / Detalhesss.
+A: Seu ácido é forte. / Seu veneno é mais lento. / Mais eficaz.
+B: Ssssinto cheiro de deserto. / Areia de três mil anos. / Ssssaudade?
+B: Ssssua cobra branca é linda. / Ela não é para você. / Ssssó elogiei.
+
+=Cobra|Rudolf
+A: Príncipe dos leques. Você é barulhento. / E você é um cara de óculos com uma cobra. Muito suspeito. / Suspeito e perigoso.
+A: Seus leques de fogo queimariam minhas serpentes? / Bora testar? / Cuidado com o que pede.
+B: Cara, essa cobra branca tem nome? / Tem. Mas não é da sua conta. / Vou chamar de Bolinha.
+B: Você entregou seus amigos? Que feio. / Protegi o Hexatombe. / Minha mãe diria que isso é desculpa.
+
+=Cobra|Scorpion
+A: Você voltou do inferno. Eu voltei de um objeto amaldiçoado. / Os dois são prisões. / Mas eu escapei.
+A: Seu fogo contra minha serpente. / Meu fogo queima qualquer coisa. / Menos o que é eterno.
+B: Você traiu seus irmãos. / Protegi meu mestre. / Isso não tem honra.
+B: Aqui, agora! / Eu não sou de ir. As serpentes vão. / Então que venham.
+
+=Cobra|Sektor
+A: Máquina. Você não tem vida para me alimentar. / Nenhuma energia vital encontrada. / Que decepção.
+A: Seus mísseis contra minhas serpentes. / Mísseis mais rápidos. / Serpentes desviam.
+B: Alvo: anomalia mágica. / Anomalia antiga. / Protocolo atualizado.
+B: Probabilidade de vitória: indeterminada. / É assim que eu gosto. / Atualizando cálculo.
+
+=Cobra|Shang Tsung
+A: Ladrão de almas. Eu fui ladrão de vidas. / Somos bem parecidos. / Eu sou mais antigo.
+A: Você se transforma. Eu troco de corpo. / Elegante. / Necessário.
+B: Sua alma tem três mil anos. Deliciosa. / E indigesta. / Vou arriscar.
+B: Junte-se a mim e esqueça esse Supremo. / Nunca. / Que lealdade cansativa.
+
+=Cobra|Sindel
+A: Rainha. Já servi rainhas no Egito. / Eu não sou servida por qualquer um. / Nem eu sirvo qualquer uma.
+A: Seu grito contra minha serpente. / Meu grito alcança primeiro. / A serpente não tem ouvidos.
+B: Você carrega uma maldição. / Carrego uma companheira. / Ela vai te destruir.
+B: Família é tudo. Você não tem família. / Tive. Há três mil anos. / Que coisa triste.
+
+=Cobra|Smoke
+A: Fumaça. Já curei pulmões cheios dela. / Eu não preciso de cura. / Todos precisam, cedo ou tarde.
+A: Você some. Eu fico. / Eu sou mais rápido. / Eu sou mais paciente.
+B: Você tem cheiro de areia. / E você, de fumaça. / Que dupla estranha.
+B: A lealdade nos define. / Finalmente concordamos. / Pena que servimos lados opostos.
+
+=Cobra|Sub-Zero
+A: Frio. O deserto nunca conheceu o seu gelo. / Vai conhecer agora. / Serpentes não gostam de frio.
+A: Você comanda um clã. Eu comando uma equipe. Que me odeia. / A disciplina resolve isso. / Eu apaguei a memória deles.
+B: O gelo vai parar suas serpentes. / Por um instante só. / É o bastante.
+B: Você traiu seus aliados. / Preservei o ritual. / O Lin Kuei chamaria isso de traição.
+
+=Cobra|T-1000
+A: Máquina líquida. Sem vida para drenar. / Fonte de vida: ausente. / Inútil.
+A: Você imita corpos. Eu habito corpos. / Diferença registrada. / A minha é mais permanente.
+B: Analisando: humano com dados anômalos. / Não sou humano. / Correção registrada.
+B: Sua serpente: biológica ou energética? / Descubra quando morder. / Análise pendente.
+
+=Cobra|Takeda
+A: Telepata. Leia minha mente se puder. / Mano, tem um buraco enorme aí. / Fui eu mesmo que cavei.
+A: Seus chicotes contra minhas serpentes. / Os chicotes cortam. / As serpentes desviam.
+B: Você apagou a memória dos seus amigos? / Para o bem deles. / Isso é muito sinistro.
+B: Meu pai diria que você tá perdido. / Seu pai não me conhece. / Ele sente tudo.
+
+=Cobra|Tanya
+A: Umgadi. Você é leal à realeza. / E você, a quem? / A quem me libertou.
+A: Sua lança contra minha serpente. / A lança é mais longa. / A serpente é mais flexível.
+B: Já virei casaca uma vez. / Eu nunca traí. Os outros traíram. / Então você é o leal.
+B: Que calma assustadora. / Calma de três mil anos. / Assustador.
+
+=Cobra|Teresa
+A: Advogada. Eu fui julgado uma vez. Pelo Supremo. / E qual foi a sentença? / Séculos de prisão.
+A: Defende gente culpada? / Defendo quem paga. / Eu pago com séculos.
+B: Óculos, cobra e ar de sábio. Interessante. / Sou sábio. / Sábios perdem processos também.
+B: Você entregou seus colegas. Isso é delação premiada. / Chama isso de lealdade? / Na lei, é delação.
+
+=Cobra|Sonya Blade
+A: Militar. A Touro também é. / Não conheço. / Ela me odeia. Você vai odiar também.
+A: Suas armas contra minhas serpentes. / As armas são mais rápidas. / As serpentes são mais silenciosas.
+B: Você é uma ameaça biológica. / Sou uma ameaça antiga. / Não melhorou nada.
+B: Mãos para cima, feiticeiro. / Minhas mãos são perigosas para cima também. / Entendido.
+
+=Cobra|Jax
+A: Braços de metal. Sem vida para drenar neles. / Mas tem no resto de mim. / Excelente.
+A: Você protege sua família. / Sempre. / Eu protejo meu mestre.
+B: Você parece um professor esquisito. / Fui curandeiro. / Essa foi pior.
+B: Essa cobra branca morde? / Só se eu mandar. / Não peça.
+
+=Cobra|Kano
+A: Mercenário. Você vende tudo. / Tudo tem preço, parceiro. / Minha lealdade não tem.
+A: Seu olho vermelho contra minha serpente. / O laser chega antes. / A serpente desvia.
+B: Quanto você quer por essa cobra branca? / Ela não está à venda. / Tudo está.
+B: Você daria um ótimo capanga. / Já tenho um mestre. / Troca de mestre.
+
+=Cobra|Stefan
+A: Vampiro. Você bebe sangue com culpa. Eu bebia vida sem culpa. / Isso é pior. / Era necessário.
+A: Seu lado escuro te domina às vezes. / De vez em quando. / O meu me domina sempre.
+B: Você poderia se libertar dessa entidade. / Ela é parte de mim. / Eu pensava o mesmo do Estripador.
+B: Seus amigos sabem o que você fez? / Eles esqueceram. / Amigo não faz isso.
+
+=Cobra|Damon
+A: Vampiro sarcástico. Você drena com estilo. / Obrigado. Você também. / Eu tive três mil anos para aprender.
+A: Você protege seu irmão. Eu protejo meu mestre. / Meu irmão vale a pena. / Meu mestre também.
+B: Cobra branca no pescoço? Que acessório. / Não é acessório. / Parece.
+B: Você trairia seus amigos por um chefe? / Já traí. / Uau. Até eu tenho limites.
+
+=Cobra|Lexi
+A: Vampira alegre. Eu nunca vi isso em três mil anos. / Precisa sair mais. / Talvez.
+A: Quanto sorriso. / E você nunca sorri. / Não há motivo.
+B: Vem, eu te ensino a sorrir. / Não. / Só um pouquinho.
+B: Você precisa de amigos de verdade. / Eu tinha. Apaguei a memória deles. / Isso é tão triste.
+
+=Cobra|Bonnie
+A: Bruxa. Suas ancestrais aprovam magia de cura? / Aprovam. A de drenar, não. / Então elas não me aprovariam.
+A: Sua magia é da natureza. A minha é do deserto. / A minha é mais limpa. / A minha é mais antiga.
+B: Você carrega um ser antigo dentro. / Companheira. / Prisão.
+B: Eu poderia te libertar dela. / Não quero. / Todo mundo diz isso no começo.
+
+=Cobra|Art the Clown
+A: Palhaço silencioso. Você entende o valor do silêncio. / (Art faz sinal de silêncio com o dedo.) / Exato.
+A: Minhas serpentes não gostam de você. / (Art faz uma careta para a cobra branca.) / Nem eu.
+B: (Art tenta fazer carinho na cobra branca.) / Não toque nela. / (Art recolhe a mão, ofendido.)
+B: (Art imita os óculos do Cobra com os dedos.) / Ridículo. / (Art tira o chapeuzinho e agradece.)
+
+=Cobra|Freddy Krueger
+A: Senhor dos sonhos. Eu fui senhor do deserto. / E agora é senhor de um corpo emprestado. / Que eu domino perfeitamente.
+A: Seus sonhos contra minhas serpentes. / Serpentes também sonham, docinho. / As minhas não dormem.
+B: Seus pesadelos têm areia e pirâmides. / Três mil anos de pesadelos. / Que delícia.
+B: Você apagou memórias? Que desperdício. Eu teria usado. / Eu usei. / Inteligente.
+
+=Cobra|Jason Voorhees
+A: Um morto que caminha. Sem vida para drenar. / (Jason inclina a cabeça, encarando as serpentes.) / Inútil para mim.
+A: Facão contra serpente. / (Jason segura o facão com força.) / A serpente é mais rápida.
+B: (Jason caminha devagar na direção do Cobra.) / Você não sente medo? / (Jason segue em frente.)
+B: (Jason ouve um sussurro de mãe e aperta o facão.) / Você também carrega alguém dentro. / (Jason avança.)

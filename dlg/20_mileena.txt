@@ -1,0 +1,123 @@
+=Mileena|Mileena
+A: Uma Mileena de outra linha. Você também carrega a Tarkat? / Carrego. E na minha, ninguém procurou a cura. / Aqui procuram. Lute para ver o que você perdeu.
+A: Na sua linha, a Tanya ainda está ao seu lado? / Está. Sempre esteve. / Então pelo menos isso não muda em nenhum tempo.
+
+=Mileena|Nitara
+A: Vaeternus ronda o meu palácio de novo. / Vaeternus quer uma resposta, imperatriz. / Então peça audiência. Morder minhas sentinelas não é pedido.
+A: Você quer independência. Eu quero um império unido. / Unido por quem? Por você? / Por quem sobreviver a esta luta.
+B: Imperatriz. Seus dentes são quase tão afiados quanto os meus. / Quase. / Hm. Você me lembra por que Vaeternus nunca se rendeu.
+B: Se eu vencer, Vaeternus ganha um assento no conselho. / Se você vencer, eu penso no assunto. / Essa família inteira responde assim?
+
+=Mileena|Noob Saibot
+A: Uma sombra no meu reino. Você trouxe o caos do Havik. / Eu trouxe a escuridão. É diferente. / Para mim, é tudo lixo que eu vou varrer.
+A: Você foi Grão-Mestre de um clã. Agora é capacho do Havik. / Ninguém me controla. / Diga isso aos seus olhos vazios.
+B: Imperatriz. Sua doença é fraqueza. / Minha doença é fardo. Fraqueza é deixar outro te transformar. / Cuidado com a língua.
+B: As sombras vão engolir o seu trono. / Meu trono já sobreviveu ao Shao. Vai sobreviver a você. / Veremos.
+
+=Mileena|Omni-Man
+A: Um conquistador de outro mundo no meu salão. / Eu vim ver o que Exoterra tem para oferecer. / Ela oferece dentes. Muitos.
+A: Viltrum elimina os doentes. / Viltrum elimina fraqueza. / Então Viltrum nunca conheceu a minha força.
+B: Uma imperatriz doente. Em Viltrum, você não chegaria à idade adulta. / Em Exoterra, eu cheguei ao trono. / Isso diz muito sobre Exoterra.
+B: Seus dentes não furam minha pele. / Não preciso furar. Basta arrancar o seu orgulho. / Tente.
+
+=Mileena|Peacemaker
+A: Você fala de paz com um canhão no ombro. / Paz e canhão são irmãos. / Exoterra tem muitos irmãos assim. Estão todos enterrados.
+A: Seu capacete brilha demais. Vou usá-lo como espelho. / Ele é sagrado! / Então vou usá-lo como prato.
+B: Imperatriz! Você é assustadora. Gostei. / Ótimo. Mantenha distância. / Isso foi um flerte?
+B: Vamos lutar pela paz! / Eu luto pelo meu trono. / Paz no trono, então.
+
+=Mileena|Quan Chi
+A: Necromante. Seus Revenants tocaram em tarkatanos mortos. / Eles não precisavam mais dos corpos. / Eles precisavam de descanso. Você vai precisar também.
+A: Você usou a minha mãe com o Shang Tsung. / Eu só emprestei o feitiço. / Então vou te emprestar a dor.
+B: Imperatriz. Sua doença me fascina. Como Revenant, você seria eterna. / Eu prefiro ser mortal e livre. / Que escolha desperdiçada.
+B: A morte vem para todos, imperatriz. / Ela vem para você primeiro. / Veremos qual de nós ela prefere.
+
+=Mileena|Raiden
+A: O campeão camponês. Você tremeu da última vez que me viu sorrir. / O seu sorriso é... intenso. / Isso foi diplomático. Lute.
+A: Campeão. Liu Kang confia em você mais do que confia em mim. / Ele confia em todos. Eu só tento não decepcionar. / Então não decepcione a imperatriz também.
+B: Imperatriz. Posso fazer uma pergunta? Dói muito? / A Tarkat? Todos os dias. / Então eu vou lutar com respeito.
+B: O Kung Lao disse que você morde. / O Kung Lao fala demais. Mas está certo. / Ok. Vou manter distância.
+
+=Mileena|Rain
+A: Rain. O traidor que eu mandei para a masmorra. / Eu fui enganado! / Você estava com o nome nas cartas do Shao.
+A: Você queria o trono de Edênia. Edênia nem tem trono vago. / Teria, se o Shao vencesse. / O Shao não venceu. Nem você.
+B: Imperatriz. Me tire da masmorra e eu sirvo você. / Você servia ao Shao ontem. / Hoje eu sirvo a quem me liberta.
+B: Sua doença vai te matar. / Mas não antes de você apodrecer na cela. / Como ousa?
+
+=Mileena|Reiko
+A: Reiko. O braço direito do traidor. / O braço direito do futuro imperador. / Do imperador que eu expulsei três vezes.
+A: Suas kunais quase acertaram minha irmã. / Quase. / Hoje não tem quase.
+B: Imperatriz. O general manda dizer que vai voltar. / Diga a ele que eu mando dizer: estou esperando. / Ele vai gostar de ouvir isso.
+B: Seu trono é instável. / Meu trono é firme. Porque eu tenho família. / Família é fraqueza.
+
+=Mileena|Reptile
+A: Syzoth. Você ainda anda invisível pelos corredores do meu palácio. / Hábito. Eu cuido dos zaterranos que trabalham aqui. / Cuide à vista. Sob a minha coroa, ninguém mais caça o seu povo.
+A: Seu povo sofreu nas mãos do meu pai. / Sofreu nas mãos de muitos. / Não nas minhas.
+B: Imperatriz. Você mudou Exoterra. / Ainda não o suficiente. / Mas mudou.
+B: Lute comigo. Quero ver se mereço a sua confiança. / Você merece. Mas lute. / Com prazer.
+
+=Mileena|Rudolf
+A: Sobrinho. Você está atrasado para o próprio brinde de novo. / Tia, eu não me atraso. O mundo é que começa cedo demais. / Então comece a apanhar cedo.
+A: Você me protegeu no festival quando a fenda abriu. / Ninguém toca na minha tia. Ela morde, mas é minha. / Hmph. Não conte para ninguém que eu fiquei feliz.
+B: Tia Mileena! Me ensina a morder primeiro e perguntar depois? / Eu já te ensinei. Sua mãe passou anos desfazendo. / Mas a Jade disse que eu mordo com estilo agora.
+B: Se eu ganhar, você me empresta o trono por um dia? / Se você ganhar, eu penso no assunto. / Isso é praticamente um sim. A família inteira fala assim.
+
+=Mileena|Scorpion
+A: Kuai Liang. Você fundou um clã em vez de herdar um. Eu herdei um trono doente. / E governa melhor que muitos saudáveis. / Elogios não me amolecem. Mas eu guardo esse.
+A: Seu fogo é limpo, ninja. O do meu sobrinho é bagunçado. / Ele é jovem. / Ele tem mil e duzentos anos. Mas eu entendi o elogio.
+B: Imperatriz. Você governa com dentes e com coração. / As duas coisas são necessárias. / Concordo.
+B: Imperatriz. Lute com honra. / Eu luto com fome. / O meu clã tem um ditado: a fome honesta é uma forma de honra.
+
+=Mileena|Sektor
+A: Tenente. Suas armaduras poderiam proteger meu povo da Tarkat? / Talvez retardar. / Então vamos conversar depois.
+A: Você analisa tudo. / Analisei você. A doença está avançando. / Eu sei. Não precisa de máquina para isso.
+B: Análise: imperatriz com força acima da média. A Tarkat está avançando. / Eu sei. / Posso construir um suporte para os ossos. Se a senhora permitir.
+B: A senhora ataca quando sente cheiro de sangue. Padrão claro. / Então eu vou me cortar e enganar você. / Isso é... assustadoramente eficaz.
+
+=Mileena|Shang Tsung
+A: Feiticeiro. Você controlou a minha mãe. / Foi um experimento fascinante. / Então eu vou experimentar a sua carne.
+A: Você se aliou ao Shao. / Eu me aliei a quem pagou mais. / Então vai pagar comigo agora.
+B: Imperatriz. Sua alma doente seria tão saborosa. / Minha alma é de Exoterra. E do meu povo. / Então eu levo o povo junto. Sobremesa.
+B: Eu posso tirar a sua doença. Por um preço. / Seu preço é a minha alma. / Que imperatriz esperta.
+
+=Mileena|Sindel
+A: Mãe. Os seus olhos estão de volta. / Graças a você e à sua irmã. / Eu segurei o portão. Ela segurou você.
+A: A senhora ainda me olha como se eu fosse quebrar. / Eu olho como mãe. Você é a coisa mais forte que eu já fiz. / ...Lute, mãe. Antes que eu chore na frente dos embaixadores.
+B: Mileena. Você governa melhor do que eu jamais governei. / Eu aprendi com a senhora. / Aprendeu com os meus erros.
+B: Lute comigo. Quero ver se a imperatriz ainda é forte. / A imperatriz é. A filha também. / Então mostre as duas.
+
+=Mileena|Smoke
+A: Fumaça. Você some e aparece na cozinha do palácio. Sempre na hora do doce. / Coincidência. / A Tanya anotou as coincidências. São dezessete.
+A: Você seguiu o seu irmão para fora do Lin Kuei. Eu seguiria a minha irmã para fora de Exoterra. / Irmãos são a única coroa que não pesa. / Fale isso para a minha irmã. Ela morde.
+B: Imperatriz. Seus dentes são lendários. / Meus dentes são práticos. / Lendários e práticos.
+B: Imperatriz. A senhora contou dezessete visitas minhas à cozinha. / A Tanya contou. Eu só autorizei. / Então hoje eu pago com uma luta.
+
+=Mileena|Sub-Zero
+A: Grão-Mestre. Seus ninjas sobrevoam as minhas fronteiras. / O Lin Kuei observa. / Observe os dentes da imperatriz. Mais de perto.
+A: Seu gelo é bonito, Bi-Han. / E mortal. / Minha boca também. Vamos ver quem morde primeiro.
+B: Imperatriz. Exoterra é instável. / Exoterra é minha. / Veremos.
+B: Meu gelo vai congelar seus dentes. / Meus dentes já morderam coisa mais fria. / Veremos.
+
+=Mileena|T-1000
+A: Máquina. Imite o meu rosto. / Rosto replicado. Dentes incluídos. / Agora imite a dor da Tarkat. Ah, não dá. Que pena.
+A: Você não sente nada? Nem dor? / Dor é um dado. / A Tarkat me dá dor todos os dias. É o que me lembra que ainda estou viva. Você está?
+B: Alvo: imperatriz. Ameaça alta. / Obrigada. / Doença detectada. A sua força apesar dela não faz sentido.
+B: Você é previsível. / Eu sou faminta. / Fome é um padrão. Você ataca quando sente cheiro de sangue.
+
+=Mileena|Takeda
+A: Garoto. Você me olha como se eu fosse um monstro. / Não! É só que... seus dentes são muito impressionantes. / Boa resposta. Seu pai te ensinou diplomacia.
+A: Garoto. Você fala tanto quanto o meu sobrinho. / Ele fala mais. / Ninguém fala mais que ele. Mas você está tentando.
+B: Imperatriz! Meu pai disse para eu ser educado. / Seu pai é sábio. / Ele também disse para eu não chegar perto da senhora.
+B: Posso aprender com a senhora? / Pode. Primeiro aprenda a sobreviver. / Ok. Isso é meio assustador.
+
+=Mileena|Tanya
+A: Tanya. Hoje você luta contra mim. Não pegue leve. / Eu nunca pego leve com você, meu amor. / É por isso que eu te amo.
+A: Você dormiu? / Dormi quando você dormiu. / Então nenhuma das duas dormiu. Vamos lutar cansadas.
+B: Minha imperatriz. Se eu ganhar, você descansa amanhã. / Se você ganhar, eu penso no assunto. / Você e a sua família inteira.
+B: Minha imperatriz. Lute comigo como se eu fosse sua inimiga. / Eu nunca conseguiria. / Então finja. Por mim. Eu preciso saber se você ainda tem força.
+
+=Mileena|Teresa
+A: A forasteira que eu mandei soltar por curiosidade. / E que você nunca se arrependeu de soltar. / Ainda não. Mas o dia não acabou.
+A: Você assumiu a defesa do meu sobrinho no tribunal. / Assumi. E venci. Ou perdi. Depende da versão. / Comigo, só existe uma versão: a que me obedece.
+B: Imperatriz. Seus dentes são icônicos. Você deveria lançar uma linha de batons. / Você quer vender meu rosto? / Quero vender o seu poder. É diferente.
+B: Imperatriz? Você subiu rápido. / Mais rápido do que você vai subir. / Isso a gente vê.

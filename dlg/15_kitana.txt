@@ -1,0 +1,153 @@
+=Kitana|Kitana
+A: Outra Kitana. Na sua linha, você teve um filho? / Não. Na minha, o Shao venceu e eu não sobrevivi para ser mãe. / Então eu luto por nós duas. E por ele.
+A: Seus leques estão gastos. Muitas guerras? / Uma guerra só. Que nunca terminou. / Aqui ela terminou. Venha ver como é a paz. Depois de apanhar.
+
+=Kitana|Kung Lao
+A: Monge. O Raiden ainda está perdendo para você nas apostas? / Ele perde porque é honesto demais. / Então seja honesto comigo e lute sem truque.
+A: Na outra linha, uma versão sua apareceu sombria no meu palácio. / Eu soube. Não foi o meu melhor dia. / Foi o pior dele. Meu filho cuidou disso.
+B: Princesa. Seu filho disse que eu planto coisas no Plano Terreno. / Você planta? / Planto. Mas não precisava espalhar.
+B: Você comanda exércitos e ainda arranja tempo para treinar. / Quem comanda precisa treinar mais que todos. / Então hoje eu sou o seu treino.
+
+=Kitana|Ladybug
+A: Marinette. Sempre bom lutar com quem entende de honra. / Você me ensinou mais sobre isso do que Paris inteira. / E você me ensinou que dá para vencer sem matar. Ainda estou aprendendo.
+A: Como está a sua kwami? / A Tikki manda dizer que seus leques são lindos. / Diga a ela que o ioiô também é.
+B: Kitana. O Havik ainda está solto. / Eu sei. Exoterra inteira está de olho. / Então vamos treinar para quando ele aparecer.
+B: Posso perguntar uma coisa? Como você aguenta o Rudolf? / Eu não aguento. Eu amo. São coisas diferentes. / Que lindo. E que cansativo.
+
+=Kitana|Li Mei
+A: General. Os soldados do flanco leste ainda hesitam. / Eu sei. A memória da guerra pesa. / Então vamos mostrar que a guerra acabou. Com um treino de verdade.
+A: Você assumiu o posto do Shao com honra. / Assumi com medo de falhar. / O medo é o que vai te impedir de virar ele.
+B: Princesa. Você ainda confia na forasteira? / Confio no que ela fez. Não em quem ela é. / Sábia distinção.
+B: Comandante. Mostre aos soldados por que você lidera. / Mostro a eles todos os dias. Hoje mostro a você. / Então não pegue leve.
+
+=Kitana|Liu Kang
+A: Deus do Fogo. O Rudolf ainda espera uma resposta. / Algumas respostas pertencem a você. Não a mim. / Eu sei. Só não sei se tenho coragem.
+A: Você recriou o mundo e me deu uma mãe que me ama. / Eu dei a todos uma chance. Você a aproveitou. / Então me deixe agradecer do jeito que eu sei.
+B: Kitana. O seu filho cresce rápido. / Rápido demais. E teimoso demais. / Ele puxou isso de alguém.
+B: Mostre o que a princesa de Edênia pode fazer. / A princesa de Edênia e comandante de Exoterra. / Então mostre os dois títulos.
+
+=Kitana|Mileena
+A: Irmã. Você ainda me deixa ganhar no treino? / Eu nunca te deixei ganhar. Você só tinha sorte. / Então hoje veremos se a sorte acabou.
+A: Você está cansada, Mileena. A Tarkat está pior. / Eu sei. Não precisa me lembrar. / Eu vou lembrar todos os dias. Até encontrarmos a cura.
+B: Kitana. Você ensinou o meu sobrinho a ser educado. Fracassou. / Você ensinou ele a morder. Funcionou. / Eu sou uma ótima tia.
+B: Lute comigo como na nossa infância. / Na infância eu puxava o seu cabelo. / Então puxe. Eu mordo.
+
+=Kitana|Nitara
+A: Vaeternus ainda quer se separar de Exoterra? / Vaeternus quer respeito. / Então negocie. Não sobrevoe meu palácio à noite.
+A: Suas asas são rápidas. Meus leques também. / Leques não voam. / Os meus voam.
+B: Princesa. Você comanda exércitos. Mas não comanda Vaeternus. / Vaeternus faz parte de Exoterra. / Por enquanto.
+B: Lute comigo. Se eu ganhar, Vaeternus tem voz no conselho. / Você não precisa ganhar. Basta pedir. / ...Então peço depois de ganhar.
+
+=Kitana|Noob Saibot
+A: Bi-Han. O Havik te transformou numa sombra. / Eu me transformei. Ele só ajudou. / Então ele te enganou.
+A: Sombras não me assustam. / As minhas engolem princesas. / Não esta.
+B: Princesa. Seus leques brilham demais. / Brilham porque têm propósito. / Propósito apaga.
+B: A escuridão vai engolir Exoterra. / Não enquanto eu comandar os exércitos. / Então eu vou engolir você primeiro.
+
+=Kitana|Omni-Man
+A: Um conquistador de outro mundo. Exoterra já teve muitos. / Nenhum como eu. / Todos diziam isso. Todos estão enterrados.
+A: Você mentiu para a sua família por anos. / Foi necessário. / Eu guardo um segredo do meu filho. Mas eu nunca menti sobre o que eu sou. Você mentiu sobre tudo.
+B: Uma princesa guerreira. Em Viltrum, você seria uma soldada comum. / Em Exoterra, eu comando os exércitos. E derrotei generais maiores que você. / Maiores, talvez. Mais fortes, não.
+B: Seus leques não me cortam. / Eles não precisam cortar. Só distrair. Meu exército faz o resto. / Que exército?
+
+=Kitana|Peacemaker
+A: Você mata pela paz. Eu mato para protegê-la. / Isso é a mesma coisa, não? / Não. Eu choro por cada um.
+A: Seu capacete brilha tanto que meus arqueiros conseguiram mirar em você de três colinas. / Isso é estratégia de distração. / Isso é um convite para flechas.
+B: Princesa! Você é tipo uma heroína de quadrinho. / Eu sou uma comandante real. / Isso é ainda mais quadrinho.
+B: Vamos lutar pela paz! / Eu luto pelo meu povo. / Isso é paz com outro nome.
+
+=Kitana|Quan Chi
+A: Necromante. Fique longe da minha família. / Sua família tem almas tão valiosas. / Então eu vou proteger cada uma.
+A: Você ajudou Shang Tsung nas linhas antigas. / E posso ajudar de novo. / Então vou te deter primeiro.
+B: Princesa. Sua alma daria uma Revenant magnífica. / Meu filho e eu já mandamos o seu sócio para o chão. / Shang Tsung foi descuidado. Eu não sou.
+B: A morte vem para todos, princesa. / Mas não para quem tem um exército e um filho teimoso. / Então ela vai esperar. Paciente.
+
+=Kitana|Raiden
+A: Raiden. O Rudolf diz que você é o único guerreiro que pede desculpas antes de bater. / Eu peço depois também. / Então hoje você vai pedir muitas.
+A: Seu raio hesita antes de cair. / Eu tenho medo de ferir demais. / A Jade diria que esse medo te salva. Eu digo: hoje, confie em mim e erre para cima.
+B: Princesa. O Rudolf me ensinou uma piada. / Ele te ensina muitas coisas ruins. / Ela é boa! Sobre o Kung Lao.
+B: Princesa, posso treinar com você? / Pode. Mas não espere que eu pegue leve. / Eu espero que não pegue. O Kung Lao já pega leve demais e eu não aprendo nada.
+
+=Kitana|Rain
+A: Rain. Você acusou o meu filho de traição. / Eu fui enganado. / Você quis ser enganado. Por um trono que nunca seria seu.
+A: Sua ambição te levou à masmorra. / Minha ambição é legítima. / Sua ambição é tola.
+B: Princesa. Você tem tudo. Eu não tenho nada. / Você teve tudo. Escolheu o Shao. / O Shao me prometeu Edênia!
+B: Edênia merece alguém melhor que você, princesa. / Edênia merece paz. / Edênia merece um rei. Um rei edeniano de verdade.
+
+=Kitana|Reiko
+A: Reiko. Suas kunais erraram o meu pescoço por um dedo, na fronteira. / Um dedo. / Eu medi. E hoje eu vou acertar o seu nariz por um dedo também.
+A: Você continua leal ao Shao. Ele te deixou para trás em todas as derrotas. / Ele volta para me buscar. / Ele nunca voltou para buscar ninguém.
+B: Princesa. O general ainda tem planos para você. / O general tem muitos planos. Nenhum funcionou. / Este vai funcionar.
+B: Seus leques são lentos. / Meus leques são precisos. / Precisos e lentos.
+
+=Kitana|Reptile
+A: Syzoth. Você entrou no meu palácio invisível. / Eu queria ver se era seguro. / É. Graças à Jade.
+A: Seu povo sofre em Exoterra. / Sempre sofreu. / Então eu vou mudar isso.
+B: Princesa. Você é diferente dos outros nobres. / Eu tento ser. / Você consegue. Os zaterranos da cozinha dizem isso.
+B: Princesa. Deixa eu lutar com você. Quero saber se mereço a confiança que você me deu. / Você já merece. Mas lute. / Então não segure os leques. Eu quero aprender.
+
+=Kitana|Rudolf
+A: Rudolf. Postura. Há embaixadores de quatro reinos olhando para você. / Então eles finalmente têm algo bonito para olhar, mãe. / Lute como meu filho, não como meu bobo da corte.
+A: Fique do meu lado desta vez. / Mãe, eu sempre fiquei do seu lado. Só ficava um pouco à frente para aparecer mais. / Então hoje você fica na frente. Contra mim.
+B: Mãe, se eu ganhar, você me conta quem é o meu pai? / Se você ganhar, eu penso no assunto. / Isso é praticamente um sim. A Jade usa a mesma frase.
+B: Você está preocupada comigo de novo. / Eu sempre estou. Você treina escondido até sangrar. / ...A Jade te contou? / A Jade nunca conta. Eu vejo.
+
+=Kitana|Scorpion
+A: Grão-Mestre do Shirai Ryu. Seu clã é jovem, mas honrado. / Honra é tudo o que temos. / É mais do que muitos reinos.
+A: Seu fogo é bonito. O do meu filho é mais rápido. / O seu filho é impulsivo. / É o que eu digo todo dia.
+B: Princesa. Você protege sua família com tudo. / Eu protejo meu povo. Minha família vem junto. / Isso é sabedoria.
+B: Princesa. O Shirai Ryu respeita quem protege a família. / Eu protejo a minha e o meu reino. Às vezes é a mesma coisa. / Então lutemos como dois guardiões.
+
+=Kitana|Sektor
+A: Tenente. O Lin Kuei observa Exoterra. / O Lin Kuei observa tudo. / Então observe isto.
+A: Tenente. O Lin Kuei faz armaduras melhores que as forjas de Exoterra. / Análise: oitenta por cento melhores. / Então hoje os leques vão testar os outros vinte.
+B: Análise: técnica alta, precisão elevada. / Obrigada. / Isso foi uma análise, não um elogio.
+B: Princesa. Você sempre abre com o leque esquerdo. / Você percebeu? / Percebi. E vou me preparar para o direito. Você é esperta.
+
+=Kitana|Shang Tsung
+A: Feiticeiro. Você controlou a minha mãe. Ela gritou o meu nome como inimiga. / Foi o grito mais belo que eu já regi. / Então hoje você vai ouvir o meu. Sem regente.
+A: Você queria a alma do meu filho. / Duas chamas do mesmo sangue... irresistível. / Então vai ter que passar por mim.
+B: Princesa. Sua alma seria a joia da minha coleção. / Você já tentou. E perdeu. Para mim e para o meu filho. / Desta vez, você está sozinha.
+B: A princesa e o principezinho. Que família adorável. / Que família perigosa para você. / Veremos.
+
+=Kitana|Sindel
+A: Mãe. Seus olhos estão de volta. / Graças a você. E às flores de sal. / Eu lembrei de cada uma.
+A: Treino com a imperatriz mãe. Isso é raro. / Eu ainda tenho força, Kitana. / Eu sei. Por isso eu tenho medo.
+B: Kitana. Minha filha. Minha filha que me salvou. / Eu só lembrei você de quem era. / Isso é salvar.
+B: Lute comigo. Quero ver se eu ainda te ensino algo. / Você sempre me ensina, mãe. / Então aprenda isto.
+
+=Kitana|Smoke
+A: Fumaça. O meu filho já te encontrou três vezes na cozinha do palácio. / Seu filho tem faro de cão de caça. / E você tem fome de cão de rua. Lute.
+A: Você protege os seus irmãos. Eu protejo a minha irmã. Ela morde. / O meu irmão mais velho virou sombra. / Então lute por ele também. Eu lutaria pela minha.
+B: Princesa. Seus leques são lendários. / Meus leques são práticos. / Lendários e práticos.
+B: Princesa. O seu filho me achou na cozinha do palácio. Três vezes. / Ele tem faro para doce e para confusão. / Eu também. Por isso nos encontramos.
+
+=Kitana|Sub-Zero
+A: Grão-Mestre. Seus ninjas estão nas fronteiras de Exoterra. Explique. / O Lin Kuei observa os reinos instáveis. / Exoterra não é instável. Exoterra está atenta.
+A: Seu gelo é bonito. Mas frio demais. / Frio é disciplina. / Frio é solidão.
+B: Princesa. Exoterra está instável. / Exoterra está atenta. Seus ninjas foram vistos. / Então seus olhos são bons. Lute.
+B: Meu gelo vai congelar seus leques. / Meus leques são de aço edeniano. / Então eu vou quebrar.
+
+=Kitana|T-1000
+A: Máquina. Você pode copiar o meu rosto. / Rosto copiado. / Agora copie o jeito que eu olho para o meu filho quando ele faz besteira. Esse ninguém imita.
+A: Você não sente nada? / Sentimento atrasa a execução. / Sentimento foi o que me fez proteger o meu filho em cada guerra. Ele não atrasa. Ele empurra.
+B: Alvo: comandante. Ameaça alta. / Obrigada. / Análise: protege um filho. Ponto fraco identificado.
+B: Você abre sempre com o leque esquerdo. / Você percebeu rápido. / Eu percebo tudo. Exceto por que você sorriu agora.
+
+=Kitana|Takeda
+A: Takeda. Seu pai é o melhor espadachim que eu conheço. / Ele diz que é só um homem com uma espada. / Ele diz isso porque você está sempre ouvindo.
+A: Takeda, você e o meu filho juntos são um desastre de piadas. / Ele é mais engraçado. / Não diga isso para ele. O ego dele já não cabe no palácio.
+B: Princesa! Você é muito famosa no Plano Terreno. / Por quê? / Por causa dos leques. E do seu filho engraçado.
+B: Princesa, me deixa treinar com você? / Pode. Mas não espere que eu pegue leve. / Meu pai já não pega leve. Estou acostumado a apanhar com estilo.
+
+=Kitana|Tanya
+A: Tanya. Minha irmã está segura? / Sempre. E o seu filho? / Sempre metido em confusão.
+A: Tanya. Você ama a minha irmã. / Mais que a minha própria vida. / Então você é minha irmã também. E irmãs não pegam leve.
+B: Princesa. A sua irmã pediu que eu treinasse com você. / Ela quer me ver apanhar? / Ela quer que você pare de vencer ela nos treinos. E acha que eu consigo.
+B: Lute comigo como se eu fosse a Mileena. / Então vou puxar o seu cabelo. / Ela faz isso?
+
+=Kitana|Teresa
+A: Teresa. Você vendeu o meu filho. Ou o salvou. Qual das duas vai ser hoje? / Depende de quem está pagando, alteza. / Ninguém paga hoje. Hoje você luta.
+A: Você me olha como se eu tivesse roubado algo seu. / Você nasceu com tudo que eu tive que roubar. / Então talvez eu te deva algo. Mas não hoje.
+B: Princesa. Você é tão perfeita que dá raiva. / Eu não sou perfeita. Sou treinada. / É a mesma coisa vista de baixo.
+B: Uma princesa que nasceu com tudo. / E você, uma plebeia que quer tudo. / E vou ter, alteza. Um dia.

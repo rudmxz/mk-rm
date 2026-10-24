@@ -1,0 +1,159 @@
+=Kenshi|Kenshi
+A: A Sento hesita. Ela não sabe qual de nós é o dono. / Na minha linha, eu perdi os olhos. Você ainda vê. / Então lute de olhos fechados. Quero sentir a diferença.
+A: Seu filho ainda treina com você? / Treina. E me supera todo mês. / Então somos dois pais orgulhosos. E dois espadachins teimosos.
+
+=Kenshi|Kitana
+A: Princesa. A Sento sente fogo ao seu redor. / É o meu filho. Ele nunca está longe. / Ela sente orgulho também.
+A: Seus leques cortam como lâminas antigas. / São tão antigos quanto Edênia. / Então lutemos com respeito pelo passado.
+B: Espadachim. O Plano Terreno manda bons guerreiros. / O Plano Terreno manda quem tem algo a proteger. / Todos aqui têm.
+B: Você luta sem pressa. Eu respeito isso. / A pressa matou muitos dos meus ancestrais. / Então honre-os.
+
+=Kenshi|Kung Lao
+A: Seu chapéu canta quando gira. / Você ouve isso? / Eu ouço tudo. Inclusive a sua arrogância.
+A: Você e o Raiden são inseparáveis. / Ele é meu irmão de escolha. / Os melhores irmãos são assim.
+B: Kenshi. O Takeda me disse que você é chato no treino. / O Takeda diz isso de todos. / Ele disse que você é o pior.
+B: Vamos ver se a Sento é mais rápida que o meu chapéu. / A Sento não compete. / Então ela perde.
+
+=Kenshi|Ladybug
+A: Seu poder purifica. A Sento sente. / Eu sinto a sua espada também. Ela é antiga. / Então lutemos com cuidado.
+A: Você luta sem matar. Isso é raro. / Eu acredito que sempre existe outro jeito. / Que bela crença.
+B: Kenshi. Sua espada guarda os seus ancestrais? / Guarda. E eles me aconselham. / Que bonito. Eu só tenho a Tikki.
+B: Lucky Charm! Hm... uma venda? / O universo quer que você lute como eu. / Então vamos lá.
+
+=Kenshi|Li Mei
+A: General. Exoterra está mais estável. / Graças ao exército. E aos aliados do Plano Terreno. / A Sento sente gratidão.
+A: Seu poder explode. A Sento prefere o silêncio. / O meu poder é barulhento. / Então lutemos com barulho.
+B: Espadachim. Você treinou o seu filho bem. / Ele treinou a si mesmo. Eu só observei. / Isso é humildade.
+B: Kenshi. Mostre a técnica da Sento ao exército. Meus soldados precisam ver. / Ela não é um espetáculo. / Então trate como uma aula. Eu pego leve no relatório.
+
+=Kenshi|Liu Kang
+A: Deus do Fogo. A Sento reconhece você. / Ela me conhece de muitas linhas. / Então ela sabe que eu vou lutar com tudo.
+A: Você recriou o mundo. Meus ancestrais estão gratos. / Seus ancestrais protegem você. / E eu protejo meu filho.
+B: Kenshi. Você é um dos pilares do Plano Terreno. / Eu sou só um espadachim. / Pilares também se acham simples.
+B: Mostre o que a Sento pode fazer. / Ela pode muito. Mas eu escolho o quanto. / Sabedoria.
+
+=Kenshi|Mileena
+A: Imperatriz. A Sento sente dor em você. / A Tarkat dói. / Mas você não deixa ninguém ver.
+A: Seu trono é pesado. / Mais pesado que sua espada. / Talvez.
+B: Espadachim. Você não tem medo de mim? / A Sento não sente medo. Só respeito. / Bom.
+B: Lute sem piedade. / Eu luto com equilíbrio. / Então equilibre isto.
+
+=Kenshi|Nitara
+A: Vampira. A Sento sente o sangue que você bebeu. / Eu bebo para viver. / Ela entende. Mas não aprova.
+A: Suas asas cortam o ar. / Minhas asas são armas. / A Sento também.
+B: Espadachim. Você luta de olhos fechados? / Eu sinto. / Então sinta isso.
+B: Espadachim. A sua espada sente o meu desejo por Vaeternus? / Sente. E sente que você não está sozinha nele. / Então ela é mais sábia que o conselho de Exoterra.
+
+=Kenshi|Noob Saibot
+A: Bi-Han. A Sento sente o vazio em você. / O vazio é força. / O vazio é perda.
+A: Você foi um homem. Agora é sombra. / Sombras não sentem dor. / Então não sentem nada.
+B: Espadachim. Você luta na escuridão. / Eu luto com a luz dos meus ancestrais. / Eles não vão te salvar.
+B: A Sento sente a escuridão? / Sente. E sente o seu irmão chorando aí dentro. / Mentira.
+
+=Kenshi|Omni-Man
+A: Viltrumita. A Sento sente arrogância em você. / Arrogância é merecida. / Arrogância é cegueira.
+A: Você é forte. Mas é previsível. / Ninguém me previu. / A Sento previu.
+B: Um espadachim de olhos fechados. Patético. / Eu vejo mais que você. / Prove.
+B: Viltrum não teme espadas. / A Sento não pede medo. Pede atenção. / Então ela vai ter toda a minha atenção. Até quebrar.
+
+=Kenshi|Peacemaker
+A: Paz através da violência. A Sento discorda. / Ela é tipo uma pacifista? / Ela é sábia.
+A: Seu capacete reflete a luz. A Sento não gosta. / É estilo, cara. / É distração.
+B: Kenshi! Você é tipo um samurai cego? / Eu não sou cego nesta linha. / Ah. Então é só estilo.
+B: Kenshi! Paz através do aço? / Equilíbrio através do aço. / Equilíbrio é paz de óculos escuros.
+
+=Kenshi|Quan Chi
+A: Necromante. A Sento sente as almas que você corrompeu. / E ela teme o mesmo destino. / Ela não teme. Ela despreza.
+A: Você usa os mortos. Meus ancestrais escolheram ficar. / Escolha é uma ilusão. / Não para quem honra os seus.
+B: Espadachim. Sua espada seria minha. / A Sento escolhe o dono. / Então eu escolho por ela.
+B: A morte vem para todos. / E meus ancestrais vêm comigo. / Então eles vão morrer de novo.
+
+=Kenshi|Raiden
+A: Raiden. Você ainda hesita antes de atacar. / Tenho medo de machucar demais. / A Sento diz que esse medo é bom. Mas não exagere.
+A: Seu raio é jovem. / Mas é sincero. / A Sento gosta de sinceridade.
+B: Kenshi. O Takeda disse que você é o melhor espadachim do Plano Terreno. / O Takeda exagera. / Ele disse que você ia dizer isso.
+B: Me ensina a lutar como você? / Primeiro, aprenda a ouvir. / Eu ouço bem!
+
+=Kenshi|Rain
+A: Príncipe. A Sento sente o cheiro da masmorra em você. / Eu saí por bom comportamento. / A Sento sente que você saiu por pressão da família real.
+A: Sua água é forte. Mas ela está turva de raiva. / Minha raiva é justa! / Raiva justa ainda turva a água.
+B: Espadachim. Você não tem nada a ver com Edênia. / Tenho a ver com o equilíbrio. / Então afogue-se nele.
+B: Ajoelhe-se diante de um príncipe. / A Sento não se ajoelha. / Então eu a quebro.
+
+=Kenshi|Reiko
+A: Reiko. A Sento sente lealdade cega em você. / Lealdade é força. / Cega, é fraqueza.
+A: Seu general perdeu de novo, Reiko. / Ele vai se reerguer. / A Sento sente que você também não acredita mais.
+B: Espadachim. Você é lento. / Eu sou preciso. / Preciso e lento.
+B: O general vai vencer, espadachim. / O general vai cair. A Sento sente. / A Sento é cega.
+
+=Kenshi|Reptile
+A: Syzoth. A Sento vibra quando você some. / Isso é ruim para mim. / Não. É o jeito dela dizer que você é um bom adversário.
+A: Você pisa mais leve que qualquer ninja que eu já enfrentei. / Eu aprendi a pisar sem existir. / A Sento aprendeu a ouvir quem não existe.
+B: Kenshi. Você me sente? / Sinto o seu medo. / Eu não tenho medo. / Tem. E é saudável.
+B: Espadachim. Lute rápido. Eu tenho que sumir depois. / Eu luto preciso. A pressa é do inimigo. / Então eu sou o inimigo apressado.
+
+=Kenshi|Rudolf
+A: Príncipe. A Sento sente fogo divino em você. / Isso é boato. Eu prefiro dizer que é talento. / A Sento não fofoca. Ela só sente.
+A: Você faz piada para esconder o medo. / E você usa venda para esconder o quê? / Nada. É só respeito pela Sento.
+B: Kenshi! A Sento sabe quem é o meu pai? / A Sento sabe. / E vai contar? / Não.
+B: Minha mentora disse para eu aprender com você. / Sua mentora é sábia. / Ela também disse para eu não te irritar.
+
+=Kenshi|Scorpion
+A: Grão-Mestre. Meu filho treinou com o Shirai Ryu em outras linhas. / Ele é sempre bem-vindo. / Obrigado. A Sento sente honra em você.
+A: Seu fogo é puro. / Meu fogo protege. / A Sento aprova.
+B: Kenshi. Você luta com os seus ancestrais. Eu luto pelo meu clã. / Somos guardiões. / Então lutemos com honra.
+B: Kenshi. Meu clã treinou seu filho em outras linhas. Hoje quero ver a Sento. / Ela vai mostrar o que ela quiser. / Isso é exatamente o que o Takeda diz das kunais dele.
+
+=Kenshi|Sektor
+A: Tenente. A Sento sente pouca alma em você. / Alma não é métrica. / É tudo.
+A: Tenente. Suas máquinas são precisas. Mas não ouvem. / Não precisam ouvir. Medem. / A Sento ouve. E ouve que você tem dúvidas sobre o seu Grão-Mestre.
+B: Análise: espadachim experiente. Ameaça alta. / A Sento agradece. / Erro: a espada não tem como agradecer. Ou tem?
+B: Seu tempo de reação é o mesmo há dez anos. / Porque eu não tenho pressa. / Isso deveria ser uma fraqueza. Mas não é. Recalibrando.
+
+=Kenshi|Shang Tsung
+A: Feiticeiro. A Sento sente muitas almas em você. / Todas minhas. / Nenhuma sua.
+A: Você quer a Sento. / Ela seria a joia da minha coleção. / Ela nunca seria sua.
+B: Espadachim. Seus ancestrais seriam deliciosos. / Eles vão te devorar primeiro. / Interessante.
+B: Eu posso te dar visão eterna. / Eu já vejo o que preciso. / Que pena.
+
+=Kenshi|Sindel
+A: Imperatriz. A Sento sente força na sua voz. / Minha voz protege minha família. / Então ela é sagrada.
+A: Você foi controlada. / E me libertei. / A Sento respeita isso.
+B: Espadachim. Você é bem-vindo em Exoterra. / Obrigado, imperatriz. / Mas lute. Quero ver se a Sento respeita uma rainha.
+B: Kenshi. Mostre a Sento ao palácio. Meus netos querem ver. / Seu neto vai querer pegar nela. / Ele vai. E ela vai queimar a mão dele. Ótima lição.
+
+=Kenshi|Smoke
+A: Smoke. A Sento sente você mesmo na fumaça. / Isso é injusto. / Isso é útil.
+A: Tomas. Você seguiu o seu irmão para fora do Lin Kuei. / Sangue não decide quem é irmão. A escolha decide. / A Sento concorda. E o meu filho também, quando quer algo de mim.
+B: Kenshi. Você é calmo. / Eu sou equilibrado. / Então lutemos com equilíbrio.
+B: Kenshi. O Takeda diz que você luta de olhos fechados nos treinos. / Para não precisar abrir na guerra. / Então eu vou sumir. Vamos ver se a Sento me acha.
+
+=Kenshi|Sub-Zero
+A: Grão-Mestre. A Sento sente algo podre crescendo em você. / Você sente seu próprio medo. / A Sento não mente.
+A: O Lin Kuei está mudando. / Para melhor. / A Sento discorda.
+B: Espadachim. O Lin Kuei não teme a Sento. / A Sento não pede medo. Pede respeito. / Respeito é para quem merece. Prove.
+B: Meu gelo vai congelar a Sento. / Ela já sobreviveu a coisas piores. / Veremos.
+
+=Kenshi|T-1000
+A: Máquina. A Sento não sente alma em você. / Alma não é necessária. / Para ela, é tudo.
+A: Você imita formas. / Posso imitar a sua. / Não a Sento.
+B: Alvo: espadachim. Ameaça alta. / A Sento agradece. / Erro. Espadas não agradecem. A sua parece agradecer. Dados inconsistentes.
+B: Você nunca acelera. / Eu não preciso. / Velocidade constante. Previsível. Mas eu ainda não consegui te acertar.
+
+=Kenshi|Takeda
+A: Takeda. Postura. / Pai, eu acabei de chegar. / A postura chega antes de você.
+A: Você usou a telepatia para trapacear no último treino. / Usei para antecipar. É diferente. / A Sento diz que é a mesma coisa.
+B: Pai, hoje eu vou te vencer. / Você diz isso todo mês. / Este mês eu treinei escondido.
+B: A Sento ainda fala de mim? / Fala. Diz que você é impaciente. / Ela poderia falar das coisas boas também.
+
+=Kenshi|Tanya
+A: Umgadi. A Sento sente amor em você. / Pela imperatriz. / É um amor forte.
+A: Umgadi. Sua calma é verdadeira. A Sento não sente medo em você. / Eu tenho medo. Só nunca da luta. / Do quê, então? / De um dia acordar e a imperatriz não estar lá.
+B: Espadachim. Você é bem-vindo no palácio. / Obrigado. / Mas a Umgadi testa todos os bem-vindos.
+B: Kenshi. Mostre a Sento à imperatriz. Ela tem curiosidade. / A Sento não gosta de exibição. / A imperatriz também não. Por isso vão se dar bem.
+
+=Kenshi|Teresa
+A: Advogada. A Sento sente mentiras em você. / A Sento seria uma ótima testemunha. / Ela nunca testemunharia a seu favor.
+A: Você tem fome de algo que não é comida. / Respeito. Eu sempre tive fome de respeito. / A Sento entende essa fome.
+B: Espadachim de olhos fechados. Você não vê como sou bonita. / Eu sinto como você é perigosa. / É a mesma coisa.
+B: Sua espada vale uma fortuna. / Ela não tem preço. / Tudo tem preço, querido.

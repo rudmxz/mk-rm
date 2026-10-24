@@ -1,0 +1,75 @@
+=Reiko|Reiko
+A: Outro Reiko. Na sua linha, o general venceu? / Venceu. E me mandou para a fronteira mais fria do reino. / Então a lealdade não paga nem quando ganha. Que lição.
+A: Você ainda sonha em ocupar o lugar dele? / Todo braço direito sonha em virar cabeça. / Então lute como cabeça. Eu quero ver.
+
+=Reiko|Reptile
+A: Zaterrano. O general tem planos para o seu povo. / Meu povo não pertence a ninguém. / Todos pertencem a quem vence.
+A: Você se esconde. Covarde. / Eu sobrevivo. / Sobreviver escondido não é viver.
+B: General Reiko. O seu exército caçou o meu povo. / O seu povo estava no caminho. / Eles estavam plantando.
+B: Seu cheiro é de sangue. / É o cheiro da vitória. / É o cheiro de culpa.
+
+=Reiko|Rudolf
+A: Principezinho. O general mandou lembranças. / Diz pra ele que eu mandei um leque. Em brasa. / Você vai pagar pela ponte.
+A: Você venceu o general duas vezes. Não haverá terceira. / Você disse isso na segunda. / Insolente.
+B: Reiko! Ainda carregando o martelo do chefe? / Eu sou o braço direito. / Braço direito que nunca usou o próprio braço.
+B: Minha mentora disse que você é o cão mais fiel do Shao. / Lealdade é força. / Lealdade a perdedor é hobby.
+
+=Reiko|Scorpion
+A: Grão-Mestre. Seu clã é pequeno. / Mas é leal. / Lealdade a quem?
+A: Seu fogo não me assusta. / Meu fogo não pede medo. / Então pede o quê?
+B: General. Você segue um traidor. / Eu sigo o futuro. / O futuro não precisa de traidores.
+B: Reiko. Você luta para vencer. Eu luto para proteger. / Só um de nós vence. / Os dois podem perder. Você já perdeu várias vezes.
+
+=Reiko|Sektor
+A: Tenente. O general precisaria das suas armaduras. / Elas não estão à venda. / Tudo está à venda. Até a lealdade do Lin Kuei.
+A: Tenente. Suas máquinas são precisas. / Mais que kunais. / Kunais não precisam de bateria.
+B: Análise: lealdade cega. / Lealdade é força. / Confirmado: cega.
+B: General. Suas kunais seguem o mesmo ângulo há três batalhas. / O ângulo é perfeito. / O ângulo é conhecido. Por isso eu ainda estou viva.
+
+=Reiko|Shang Tsung
+A: Feiticeiro. O general confiou em você. / E eu cumpri a minha parte. / Você fugiu na hora da batalha.
+A: Você usou o general. / Usamos um ao outro. / Então vou te usar como saco de pancada.
+B: Reiko. Sua alma é tão leal. Que desperdício. / Minha alma é do general. / Que tédio.
+B: Reiko. Eu posso virar o Shao. / Então eu vou saber que não é ele. Ele nunca sorri. / Hah. Você conhece bem o seu dono.
+
+=Reiko|Sindel
+A: Imperatriz. Você foi controlada. Foi útil ao general. / Foi um crime. / Foi estratégia.
+A: Imperatriz mãe. Sua voz não me assusta. / Deveria. / Eu sou o braço direito do general. Já ouvi gritos piores.
+B: Reiko. Você seguiu o traidor. / Eu segui o futuro. / O futuro não precisa de você.
+B: Ajoelhe-se diante da imperatriz. / Eu só me ajoelho diante do general. / Então vou te fazer ajoelhar.
+
+=Reiko|Smoke
+A: Fumaça. O general teria uso para você. / Eu não sirvo a traidores. / Todos servem a alguém.
+A: Fumaça. Você some. Covarde. / Eu sumo e volto. / Covarde que volta continua covarde.
+B: General. Você é lento. / Eu sou certeiro. / Lento e certeiro.
+B: Reiko. Você segue o Shao como eu sigo o Kuai Liang. / Não compare o general a um ninja. / Tem razão. O Kuai Liang nunca perdeu para um príncipe que conta piada.
+
+=Reiko|Sub-Zero
+A: Grão-Mestre. Uma aliança entre o Lin Kuei e o general? / O Lin Kuei não se alia a perdedores. / O general não perdeu. Adiou.
+A: Grão-Mestre. Seu gelo seria útil nas fronteiras do general. / Meu gelo é só do clã. / Tudo é negociável.
+B: Reiko. O exército do Shao era lento. / Era eficiente. / Era tão eficiente que perdeu para um príncipe que conta piada.
+B: Meu gelo vai congelar suas kunais. / Minhas kunais cortam gelo. / Veremos.
+
+=Reiko|T-1000
+A: Uma máquina. O general gostaria de ter mil. / Eu não sou produzido em série. / Pena. Você seria o soldado perfeito.
+A: Máquina. Imite um soldado leal. / Lealdade não é programável. / Pena. Seria mais fácil.
+B: Alvo: general subordinado. Ameaça moderada. / Moderada?! / Recalibrando. Moderada e ofendido.
+B: Você segue um general derrotado. / Eu sou leal. / Lealdade a um perdedor reduz a sua eficiência em quarenta por cento.
+
+=Reiko|Takeda
+A: Garoto. Volte para o seu pai. / Meu pai mandou eu vir. / Então ele quer te ver apanhar. Que pai cruel.
+A: Seu pai é espadachim. Você é o quê? / O filho do espadachim. E o melhor dos dois. / Ousado. O general gosta de ousados. Na primeira fila.
+B: Reiko. Você é o cão do general? / Eu sou o braço direito. / Cão com título.
+B: Reiko, eu ouvi o que você está pensando. / Saia da minha cabeça. / Saio. Mas só tinha o general lá dentro. Que solidão.
+
+=Reiko|Tanya
+A: Umgadi. O general diria que o seu amor é fraqueza. / O general perdeu para uma família. Amor e fraqueza não são a mesma coisa. / Insolente.
+A: Você é leal, Umgadi. Isso é raro. / Raro em você também, Reiko. / Somos parecidos. Só escolhemos mestres diferentes.
+B: General. Fique longe da imperatriz. / Eu vou onde o general mandar. / Não aqui.
+B: Reiko. Lute comigo. Eu ainda lembro das suas kunais na fronteira. / Com prazer. / Prazer é o que eu vou sentir quando você cair.
+
+=Reiko|Teresa
+A: Forasteira. O general ainda quer as cartas. / As cartas já foram. Ou vendidas. Ou entregues. / Qual das duas?
+A: Você trabalhou para o general. Ou contra. / Eu trabalho para mim. / Então você é inimiga.
+B: Reiko. Você tem cara de quem precisa de um advogado. / Para quê? / Para quando o seu general for julgado e te levar junto.
+B: Você me perseguiu na fronteira. / Você caiu de uma fenda. / Eu caí com estilo.

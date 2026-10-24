@@ -1,0 +1,261 @@
+=Bonnie|Bonnie
+A: Outra Bennett. A minha avó ia adorar isso. / Ou ia mandar a gente parar de brincar com magia. / As duas coisas. Ela era assim.
+A: Quantas vezes você já morreu? / Perdi a conta depois da âncora. / Eu também. Vamos tentar não somar mais uma hoje.
+
+=Bonnie|Ashrah
+A: Você carrega uma lâmina sagrada. Eu carrego o sangue das minhas ancestrais. / As duas coisas pesam. / Pesam. Mas eu nunca largo.
+A: Você caça vampiros? / Caço demônios. Vampiros entram na lista. / Tem uns dois que estão fora. Por enquanto.
+B: Bruxa. A sua magia tem cheiro de sacrifício. / Toda magia cobra um preço. / A minha cobra luz.
+B: Você protege monstros. Por quê? / Porque alguns deles são da minha família. Mesmo que eu não admita. / Isso é amor ou loucura?
+
+=Bonnie|Baraka
+A: Tarkatan. Eu consigo sentir a doença no seu sangue. / E consegue curar? / Não sei. Mas posso tentar depois que eu te vencer.
+A: Essas lâminas me assustam. / Que bom. / Mas eu faço o seu cérebro ferver antes de você chegar perto.
+B: Feiticeira. Os nossos xamãs não têm o seu poder. / Eles não têm as minhas ancestrais. / Então vou honrar as suas ancestrais com uma luta digna.
+B: Feiticeira miúda. Uma mordida e acabou. / Experimente morder um cérebro fervendo. / Os Tarkatan comem coisa pior.
+
+=Bonnie|Conan
+A: Bárbaro. Você odeia magia, não odeia? / Feiticeiros são covardes. / Então hoje você vai apanhar de uma covarde.
+A: Você confia só na espada. / Ela nunca me traiu. / As minhas ancestrais também não.
+B: Bruxa. Na minha era, eu queimava gente como você. / Na minha era, eu queimo gente como você. / Crom! Ela é ousada.
+B: Por que lutar ao lado de vampiros? / Porque eles são meus amigos. Infelizmente. / Amigos que mordem? Que loucura.
+
+=Bonnie|Cyrax
+A: Tem alguém preso aí dentro, não tem? Eu sinto um pulso fraco. / Dado biológico: residual. / Então é com ele que eu falo, não com o metal.
+A: Você foi obrigado a virar isso. Sinto muito. / Sentimento: não processado. / Eu processo por você.
+B: Alvo: bruxa. Ameaça: indeterminada. / Isso é porque eu sou imprevisível. / Recalculando.
+B: Pergunta: qual é a fonte do seu poder? / A natureza. E muita teimosia. / Teimosia não é fonte de energia.
+
+=Bonnie|Ermac
+A: Vocês são muitas almas. Eu sinto cada uma. / Nós sentimos você também. / Então vocês sabem que eu não vou parar.
+A: Eu já fui a âncora do Outro Lado. Senti almas passando por mim. / Doeu? / Cada uma.
+B: A sua magia mexe com os mortos. / Mexe. E eles sempre cobram. / Então nós cobraremos.
+B: Nós ouvimos as suas ancestrais. / O que elas dizem? / Que você vai perder. Mas elas são orgulhosas.
+
+=Bonnie|General Shao
+A: Um general que acha que é dono de tudo. / Eu sou dono de tudo. / Não da minha magia.
+A: Esse machado é grande. Mas não é mais rápido que um feitiço. / Vamos testar. / Ótimo. Eu adoro testes.
+B: Bruxa. Você serviria bem no meu exército. / Eu não sirvo ninguém. / Então você vai morrer sem dono.
+B: Ajoelhe-se. / Eu só me ajoelho para fazer feitiço no chão. / Então faça o último.
+
+=Bonnie|Geras
+A: Você controla o tempo. Pode me devolver os anos que eu perdi no mundo-prisão? / Não. / Imaginei. Ninguém nunca me devolve nada.
+A: Você já viu a minha morte? / Vi várias. / Eu também. Não precisa contar.
+B: Bruxa. A sua linha do tempo é cheia de sacrifícios. / Todo mundo vive me pedindo um. / Então eu peço uma luta.
+B: A areia me diz que você vai voltar de novo. / Eu sempre volto. É o que as Bennett fazem. / Então volte para o chão.
+
+=Bonnie|Ghostface
+A: Máscara branca, faca, telefone. Muito clichê. / E você é a melhor amiga da protagonista. Outro clichê. / Só que essa amiga fritou o cérebro de vampiros.
+A: Você liga para as vítimas antes de atacar. / É a tradição. / A minha tradição é ferver o seu sangue.
+B: Bonnie Bennett. Qual é o seu filme de terror favorito? / A minha vida. / Clássico. Gostei.
+B: A melhor amiga sempre morre no filme. / Eu já morri. Voltei. Várias vezes. / Que roteiro ruim.
+
+=Bonnie|Havik
+A: Você ama o caos. A minha magia odeia o caos. / Toda magia é caos. / Não a minha. A minha é equilíbrio.
+A: Você quebra o próprio pescoço para trás. / O caos liberta. / O meu feitiço vai te prender.
+B: Bruxa. Deixa a magia escura sair. / Já deixei uma vez. Foi a Expressão. Nunca mais. / Que desperdício.
+B: Você está cheia de raiva. / Estou. De vocês. / Ótimo. Use.
+
+=Bonnie|Homelander
+A: Herói sem limites. Isso me lembra uns vampiros que eu conheço. / Eu sou melhor que qualquer vampiro. / Você é pior.
+A: Você acha que é intocável. / Eu sou. / Ninguém é intocável para uma Bennett.
+B: Bruxa. Você não tem medo de mim? / Eu enfrentei coisas mais antigas que o seu país. / Que audácia.
+B: Você é uma pequena bruxa irritante. / Pequena e capaz de ferver o seu cérebro. / Tente.
+
+=Bonnie|Jade
+A: Você protege a princesa. Eu protejo meus amigos. / Proteger cansa. / Cansa muito. Mas a gente continua.
+A: O seu bastão parece forte. / Ele é. / A minha magia também.
+B: Bruxa. A Kitana te respeita. / Ela me conhece? / Ouviu falar da Bennett que morreu e voltou.
+B: Bennett. Você sempre fica para trás para que os outros fujam. / Alguém tem que segurar a porta. / Eu também. É por isso que eu te respeito.
+
+=Bonnie|Johnny Cage
+A: Johnny Cage. A Caroline adora os seus filmes. / E você? / Eu prefiro livros de feitiço.
+A: Você seria um ótimo bruxo de cinema. / Eu já fiz um! Ganhei prêmio. / De pior ator?
+B: Você é uma bruxa de verdade? Uau. / De verdade. E muito irritada. / Isso é perfeito para o meu próximo filme.
+B: Uma bruxa bonita e brava. Que combinação. / Uma estrela vaidosa e barulhenta. Combinação pior. / Ai.
+
+=Bonnie|Katherine Pierce
+A: Katherine. A sua criada Emily era minha ancestral. / Emily. Ela sempre foi leal a mim. / Ela foi leal à família dela. Não a você.
+A: Eu te prendi na tumba uma vez. Posso fazer de novo. / Você não ousaria. / Ousaria. E dormiria muito bem.
+B: Bennett. Toda a sua linhagem é igual. Sempre se metendo. / Toda a sua linhagem é igual também. Sempre fugindo. / Touché.
+B: Você ainda carrega o grimório da sua família? / Carrego. E nunca vou te emprestar. / Que egoísta. Eu gosto disso.
+
+=Bonnie|Kenshi
+A: Você não enxerga, mas sente a minha magia. / Sinto. É antiga. / É de muitas gerações.
+A: A sua espada guarda almas. A minha família também guarda segredos. / Os dois pesam. / Muito.
+B: Bruxa. Eu sinto sacrifício na sua alma. / Muito sacrifício. / Então vou lutar com respeito.
+B: Você luta contra a própria magia? / Luto contra o preço dela. / Sábio.
+
+=Bonnie|Kitana
+A: Princesa. Você também carrega o peso de uma família. / Sempre. / Então nós sabemos o que é lutar por eles.
+A: Os seus leques cortam magia? / Cortam qualquer coisa. / Que bom. Eu adoro um desafio.
+B: Bennett. O meu filho fala de você. / O Rudolf? / Ele acha você assustadora. Isso é um elogio vindo dele.
+B: Você salvou os seus amigos muitas vezes. / E nenhum deles me agradece. / Os meus também não.
+
+=Bonnie|Kung Lao
+A: Monge. Você também luta por um mundo melhor? / Pela Terra. / Então somos parceiros. Mas hoje lutamos.
+A: Esse chapéu é mágico? / É afiado. / Mágico é o que eu faço com ele quando ele voltar.
+B: Bruxa. A Ordem da Luz respeita magia limpa. / A minha é limpa. Na maioria das vezes. / Na maioria?
+B: Bruxa, o meu chapéu vai cortar o seu feitiço no meio. / Feitiço não tem meio. / Então ele corta o que vier depois.
+
+=Bonnie|Ladybug
+A: Ladybug. Você também salva o mundo sem receber nada em troca? / Sempre. / Então nós precisamos de férias.
+A: O seu poder vem de um Kwami? / Vem. E o seu? / Das minhas ancestrais. Elas são mais bravas.
+B: Você é uma bruxa? Que incrível! / Incrível e cansativo. / Eu entendo. Salvar Paris também cansa.
+B: Vamos lutar e depois tomar um café? / Se eu sobreviver. / Vai sobreviver. Eu prometo.
+
+=Bonnie|Li Mei
+A: Você luta pelo seu povo. Eu luto pelos meus amigos. / Os dois são família. / São.
+A: A sua luz é linda. / E a sua magia é forte. / Então vamos ver quem brilha mais.
+B: Bruxa. A sua magia é antiga. / Muito antiga. / Então vou honrar ela.
+B: Bennett, você parece ter medo de perder alguém, não de perder a luta. / Sempre foi assim. / Eu também luto com esse medo nas costas.
+
+=Bonnie|Liu Kang
+A: Deus do fogo. Você entende o preço de proteger todos? / Entendo. / Então você sabe por que eu estou cansada.
+A: Você reconstruiu o mundo. Poderia reconstruir a minha avó? / Não. / Eu sabia. Mas tinha que perguntar.
+B: Bruxa Bennett. A natureza te escolheu. / E me cobrou caro. / Eu sei. Lute com honra.
+B: Você já morreu por eles muitas vezes. / Morri. E voltei. / Isso é raro.
+
+=Bonnie|Mileena
+A: Você tem uma maldição de sangue. Eu posso tentar ajudar. / Ninguém pode. / Eu sou uma Bennett. Eu tento o impossível.
+A: Esses dentes são assustadores. / Que bom. / Não para mim.
+B: Bruxa. Você não tem medo de mim? / Eu tenho dois melhores amigos vampiros. / Isso explica muita coisa.
+B: Você é pequena e brava. / E você é grande e barulhenta. / Elogio aceito.
+
+=Bonnie|Nitara
+A: Uma vampira de outro reino. / Uma bruxa que protege vampiros. Que ironia. / Eu protejo só alguns.
+A: Você quer libertar o seu reino. Eu entendo. / Você entende? / Já salvei a minha cidade mais vezes do que consigo contar.
+B: Bruxa. O seu sangue é delicioso. Sinto o cheiro daqui. / Então cheire. Porque não vai provar. / Vamos ver.
+B: Você é inimiga natural da minha espécie. / Eu sou inimiga natural de quem me ameaça. / Então lute.
+
+=Bonnie|Noob Saibot
+A: As minhas ancestrais acendiam velas contra coisas como você. / Velas apagam. / Bennetts não.
+A: Você abandonou quem era. / Eu me libertei. / Isso é o que todo vilão diz.
+B: A escuridão te chama, bruxa. / Já respondi uma vez. Nunca mais. / Ela vai insistir.
+B: Você conhece a morte. / Ela é uma velha amiga. / Então vai encontrar ela de novo.
+
+=Bonnie|Omni-Man
+A: Você parece forte. / Eu sou. / A força não vence magia sozinha.
+A: Viltrumita. Você ama o seu filho? / Isso não importa. / Importa sim. Isso é o que te faz humano.
+B: Bruxa. Vocês são fracos sem a magia. / E vocês são fracos sem a força. / Vamos testar.
+B: Você protege monstros. / E você é um. / Que ousadia.
+
+=Bonnie|Peacemaker
+A: Por que tem uma águia te seguindo? / É o Eagly. Ele é o meu parceiro. / Até a sua águia parece mais sensata que você.
+A: Você mata pela paz? / Mato por tudo. / Que filosofia triste.
+B: Uma bruxa! Eu nunca enfrentei uma. / Hoje você vai aprender. / Isso vai doer?
+B: Você parece cansada. / Eu estou cansada. Desde 2009. / Então vamos acabar logo.
+
+=Bonnie|Quan Chi
+A: Feiticeiro. Você mexe com os mortos. / Eu domino os mortos. / Eu conversei com eles. Eles não gostam de você.
+A: Você usa magia de sangue. / A mais forte que existe. / A mais cara também. Você vai pagar.
+B: Bruxa Bennett. Que linhagem interessante. Quero o seu sangue. / Ninguém leva o sangue de uma Bennett. / Eu sempre levo o que quero.
+B: A sua magia é ingênua. / A minha magia é honesta. A sua é suja. / Sujeira vence.
+
+=Bonnie|Raiden
+A: Você passou de deus a guardião. Eu passei de adolescente a escudo de uma cidade inteira. / Ninguém pediu para nenhum de nós. / Mas a gente nunca soube dizer não.
+A: O seu poder vem da tempestade. O meu da natureza. / Somos parecidos. / Então vamos ver qual é mais forte.
+B: Bruxa. A sua coragem é admirável. / A minha teimosia também. / As duas vão te ajudar.
+B: Você já perdeu muito. / Muito. Avó, mãe, amigos. / Então lute por eles.
+
+=Bonnie|Rain
+A: Príncipe da chuva. A minha magia controla elementos também. / Os meus são mais fortes. / Duvido.
+A: Você é o príncipe que ninguém coroou? / Por enquanto. / Eu sou a bruxa que ninguém lembra de chamar até dar tudo errado.
+B: Bruxa. O seu fogo não sobrevive à minha maré. / Fogo Bennett queima embaixo d'água. / Quero ver isso.
+B: Você é forte para uma humana. / Eu sou mais que humana. / Prove.
+
+=Bonnie|Reiko
+A: General. Você só pensa em guerra? / Só. / Que vida triste.
+A: Você comanda soldados. Eu comando feitiços. / Os soldados são mais fiéis. / Os feitiços também.
+B: Bruxa. Você seria útil no meu exército. / Eu não sirvo exércitos. / Então você vai cair.
+B: Você é ousada. / E você é sério demais. / Seriedade vence.
+
+=Bonnie|Reptile
+A: Feitiço de localização, sangue e um mapa. Você não se esconde de mim. / Eu nem tenho cheiro quando sumo. / Eu não preciso do cheiro. Preciso do seu sangue.
+A: Você é caçado também? / Sempre. / Eu também. Por vampiros, bruxos e o universo.
+B: Bruxa. Você cheira a ervas. / E você a pântano. / Golpe baixo.
+B: A sua magia me assusta. / Que bom. / Mas não vou fugir.
+
+=Bonnie|Rudolf
+A: Rudolf. Você é o príncipe que fica fazendo piada? / Sou eu. E você é a bruxa que dá dor de cabeça nos vampiros? / Exatamente.
+A: A Katherine fala de você? / Fala bem. Assustador, né? / Muito.
+B: Bonnie! O Damon me disse que você é a melhor amiga dele. / Ele disse isso? / Disse. E disse que se eu contasse, ele me mordia.
+B: Você é muito brava. Gostei. / Você é muito engraçado. Irritante. / Então vamos ver quem vence.
+
+=Bonnie|Scorpion
+A: Hanzo, o meu ódio já queimou uma floresta inteira. / O meu queimou o Netherrealm. / Então vamos ver quem esfria primeiro.
+A: O seu fogo é do inferno. O meu é das minhas ancestrais. / O meu queima mais. / Não teste uma Bennett.
+B: Bruxa. A vingança nunca termina. / Eu sei. Já vi muita vingança. / Então lute como alguém que sabe.
+B: Você perdeu a sua família. / Perdi muita gente. / Então somos parecidos.
+
+=Bonnie|Sektor
+A: Você virou máquina e chamou de evolução. / Carne é falha. / Eu sou cheia de falhas e ainda assim vou te desligar.
+A: Eletricidade é só energia. E energia eu sei puxar. / Proteção ativada. / Proteção nunca segurou uma Bennett com raiva.
+B: Alvo: bruxa. Ameaça: alta. / Obrigada. / Não é um elogio.
+B: Você não tem tecnologia. / Eu tenho ancestrais. / Ancestrais não são armas.
+
+=Bonnie|Shang Tsung
+A: Você rouba almas. Eu já fui a âncora delas. / Que interessante. A sua alma deve ser deliciosa. / Ela é cansada. Não recomendo.
+A: Você ri igualzinho ao Kai quando ele me prendeu em 1994. / Quem é esse Kai? / Um feiticeiro que ladrava como você. Terminou mal.
+B: Bruxa Bennett. Eu quero a sua linhagem. / A minha linhagem não é sua. / Vamos ver.
+B: A sua magia é antiga e deliciosa. / E a sua é velha e podre. / Isso foi cruel.
+
+=Bonnie|Sindel
+A: Rainha de Edênia. A sua voz é uma arma. / E a sua magia é outra. / Vamos ver qual é mais alta.
+A: A sua voz derruba paredes. A minha avó derrubava com um olhar. / Gostaria de ter conhecido essa mulher. / Ela teria mandado você baixar o volume.
+B: Bruxa. O meu neto te teme. / O Rudolf? Ele é esperto. / Mas eu não temo.
+B: A sua magia é antiga. / Muito antiga. / Então vamos ver se ela aguenta o meu grito.
+
+=Bonnie|Smoke
+A: Fumaça se espalha. Mas um círculo de sal segura quase tudo. / Quase? / Você está prestes a descobrir o que fica fora do quase.
+A: Tomas, você protegeu o seu irmão adotivo a vida inteira. / Ele é família. Sangue não importa. / Eu sei bem. Os meus irmãos têm presas.
+B: Bruxa. Você queima o ar ao seu redor. / E você suja ele inteiro. / Fumaça limpa. Nunca reclamaram.
+B: Você luta como quem não espera voltar. / Eu sempre volto. Às vezes do além. / Então não vou me despedir.
+
+=Bonnie|Sub-Zero
+A: Você congela coisas. Eu fervo coisas. / Somos opostos. / Exatamente.
+A: Você escolheu honra. Eu escolhi meus amigos. / As duas são boas escolhas. / Concordo.
+B: Bruxa Bennett. O meu clã treina para matar feiticeiras. / O meu sangue treina para sobreviver a assassinos. / Então treinamos para o mesmo dia.
+B: O gelo Lin Kuei não derrete. / O meu feitiço não pede licença para o gelo. / Então vamos descobrir quem cede.
+
+=Bonnie|T-1000
+A: Metal líquido derrete ou ferve? / Nenhum dos dois. / Ainda não conheceu uma Bennett de mau humor.
+A: Se você imitar a minha avó, eu juro que te derreto. / Rosto disponível no banco de dados. / Não ouse.
+B: Alvo: Bonnie Bennett. Prioridade: alta. / Eu sempre sou prioridade para os vilões. / Iniciando eliminação.
+B: Bonnie Bennett. Probabilidade de sacrifício pessoal: noventa e oito por cento. / Você calculou isso? / Você é previsível em ser altruísta.
+
+=Bonnie|Takeda
+A: Você treinou a vida inteira. Eu também. Com grimório. / Você é forte. / E você é rápido.
+A: Você é filho do Kenshi? / Sou. / Ele é sábio.
+B: Bruxa. O meu pai diz que você carrega muito peso. / Ele está certo. / Então vou lutar com cuidado.
+B: Você não parece cansada. / Eu sou boa em fingir. / Eu também.
+
+=Bonnie|Tanya
+A: Traidora. / Estrategista. / Isso é o que traidoras dizem.
+A: Você trairia qualquer um? / Por mim mesma? Sempre. / Que solitário.
+B: Bruxa. Você seria uma ótima aliada. / Eu escolho os meus aliados com cuidado. / Que pena.
+B: Bennett. Quantas vezes você morreu por aqueles vampiros? / Mais do que eles mereceram. / Eu nunca morreria por ninguém. Por isso estou viva.
+
+=Bonnie|Teresa
+A: Uma advogada. Você já defendeu alguma bruxa? / Ainda não. Você está precisando? / Não. Mas obrigada.
+A: Você subiu na vida com esforço. / Com muito esforço e um pouco de esperteza. / Eu respeito isso.
+B: Bruxa, você já leu os contratos que assina com aqueles vampiros? / Nunca teve contrato. Só promessa. / Promessa é o contrato mais caro que existe.
+B: Você parece cansada. / Eu sempre estou. / Então tire férias. Eu te arrumo um bom contrato.
+
+=Bonnie|Sonya Blade
+A: Comandante. Você também protege todos e ninguém agradece? / Sempre. / Então somos colegas.
+A: Você é muito disciplinada. / Disciplina salva vidas. / Magia também.
+B: Bonnie Bennett. A sua ficha tem mortes, ressurreições e prisões em outras dimensões. / É uma vida movimentada. / Muito.
+B: Você não tem treino militar. / Eu tenho treino de sobrevivência. / Isso vale.
+
+=Bonnie|Jax
+A: Esses braços são de metal. O meu feitiço de calor vai adorar. / Eles aguentaram coisa pior que febre. / Febre não. Eu falo de fundir.
+A: Você tem uma filha, não tem? / A Jacqui. É a minha vida. / Então não deixe ela crescer sem pai por causa de uma briga comigo.
+B: Uma bruxa de verdade? Uau. / De verdade. / Isso é muito estranho.
+B: Garota, você mal chega no meu ombro. / E você mal chega no meu nível de magia. / Justo. Vamos ver quem acerta primeiro.
+
+=Bonnie|Kano
+A: Kano. Os seus homens tentaram vender um grimório roubado da minha família. / Paguei uma fortuna naquilo. / E ele pegou fogo na sua mão, não pegou? Fui eu.
+A: Esse olho vermelho enxerga calor? / Enxerga tudo, docinho. / Então veja a minha raiva subindo de temperatura.
+B: Uma bruxa de verdade! Os colecionadores de Exoterra pagariam bem por você. / Eles iam me devolver em uma hora. / Por isso eu prefiro clientes surdos.
+B: Você é muito brava. / E você é muito podre. / Elogio aceito.

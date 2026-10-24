@@ -1,0 +1,105 @@
+=Omni-Man|Omni-Man
+A: Outro Nolan. Na sua linha, você voltou para Viltrum? / Voltei. E me arrependi todos os dias. / Então talvez eu esteja na linha certa. Vamos descobrir.
+A: Você ainda pensa no garoto? / Todos os dias. / Eu também. Por isso não vou pegar leve. Ele também nunca pegou.
+
+=Omni-Man|Peacemaker
+A: Um soldado que mata pela paz. Viltrum teria uso para você. / Eu não trabalho para alienígenas. / Você trabalha para quem paga a munição.
+A: Seu capacete não aguenta um soco meu. / É cromado reforçado! / Vamos testar.
+B: Omni-Man! Você é tipo um herói das antigas. / Eu nunca fui herói. Fingi por vinte anos. / Uau. Isso é muito... americano.
+B: Paz através da violência. Concordamos? / Concordamos na violência. / Já é um começo.
+
+=Omni-Man|Quan Chi
+A: Um necromante. Em Viltrum, os mortos ficam mortos. / Aqui, eles me servem. / Então você nunca enfrentou um viltrumita vivo.
+A: Seus feitiços não me tocam. / Os mortos são pacientes. Um dia você vai ser um deles. / Esse dia não vai chegar.
+B: Viltrumita. Seu corpo seria um Revenant indestrutível. / Meu corpo não é seu. / Ainda não.
+B: A morte vem para todos. / Viltrumitas vivem milhares de anos. / E depois morrem do mesmo jeito.
+
+=Omni-Man|Raiden
+A: Um fazendeiro com raio. Seu deus escolheu mal. / Ele escolheu alguém que não quer conquistar nada. / Isso é fraqueza.
+A: Você me lembra do meu filho. Ingênuo e teimoso. / Isso é um elogio? / É um aviso. Ele apanhou muito antes de aprender.
+B: Você destruiu planetas. / Unifiquei. / Destruiu. As palavras não mudam o que aconteceu.
+B: Eu não tenho medo de você, viltrumita. / Deveria ter. / Eu tenho medo de não proteger os meus. Você não está na lista.
+
+=Omni-Man|Rain
+A: Um príncipe sem reino. Viltrum entende o seu desejo. / Então me ajude a conquistar Edênia. / Viltrum não ajuda. Viltrum toma.
+A: Sua água é fraca. / Minha água afoga deuses. / Eu não sou deus.
+B: Viltrumita. Você entende de impérios. / Eu construo impérios. / Então construa um para mim.
+B: Viltrumita. Ajoelhe-se diante do príncipe de Edênia. / Viltrumitas não se ajoelham. Nem para reis de verdade. / Então se afogue com orgulho.
+
+=Omni-Man|Reiko
+A: Um general que segue outro general. Patético. / Lealdade é força. / Lealdade a perdedores é fraqueza.
+A: Seu general perdeu para uma criança. / Para um príncipe. / Que fazia piada.
+B: Viltrumita. O general admiraria o seu poder. / Eu não preciso de admiração de perdedores. / O general não é perdedor. Ele só está... reorganizando.
+B: Seus golpes são fortes. Mas previsíveis. / Ninguém prevê Viltrum. / Eu prevejo.
+
+=Omni-Man|Reptile
+A: Um lagarto que se esconde. Viltrum teria eliminado sua espécie. / Minha espécie sobreviveu a impérios. / Não ao meu.
+A: Você é fraco. / Eu sou rápido. / Velocidade não vence força.
+B: Viltrumita. Seu cheiro é de sangue. / É o cheiro de mundos conquistados. / É o cheiro de culpa.
+B: Lute rápido. Antes que eu suma. / Ninguém some de mim. / Eu sumo.
+
+=Omni-Man|Rudolf
+A: Um príncipe que faz piada. Meu filho também fazia. / E o que aconteceu com ele? / Ele cresceu. E me venceu. Não vá se animar.
+A: Você esconde a dor atrás do humor. / E você esconde atrás do bigode. Cada um com o seu disfarce. / Insolente.
+B: Omni-Man. Você parece um pai que nunca disse "eu te amo". / ...Não fale do meu filho. / Eu falei de você. Mas obrigado pela confirmação.
+B: Minha mãe comanda exércitos. Ela te daria uma surra. / Sua mãe é humana. / Minha mãe é Kitana. Isso é outra categoria.
+
+=Omni-Man|Scorpion
+A: Um ninja de fogo. Viltrum não teme fogo. / Meu fogo não pede medo. Pede respeito. / Respeito é para iguais.
+A: Você protege um clã pequeno. / Pequeno e leal. / Lealdade não para socos.
+B: Viltrumita. Você destruiu famílias. / Eu unifiquei raças. / Você destruiu famílias.
+B: Eu vou queimar o seu orgulho. / Meu orgulho é à prova de fogo. / Vamos ver.
+
+=Omni-Man|Sektor
+A: Uma tenente com armadura. Em Viltrum, armadura é fraqueza. / Em Exoterra, é estratégia. / Estratégia não para socos.
+A: Seus mísseis nem me arranham. / Não precisam. Cada impacto me dá a sua velocidade de reação. / E o que você descobriu? / Que você hesita quando falo de filhos.
+B: Análise: força extrema. Arrogância extrema. / Precisão. / Confirmado.
+B: Você é previsível. / Viltrum é imprevisível. / Viltrum é previsível. Sempre ataca.
+
+=Omni-Man|Shang Tsung
+A: Um feiticeiro que rouba almas. Viltrumitas não têm alma. / Todos têm alma. Alguns só a escondem melhor. / A minha não está à venda.
+A: Você vira qualquer um. Vire eu. / Eu já virei. E gostei da força. / Então vai gostar do soco.
+B: Viltrumita. Sua alma seria a mais forte da minha coleção. / Minha alma é de Viltrum. / Viltrum também tem preço. Eu pago em séculos.
+B: Eu posso te dar o universo. / Viltrum já tem o universo. / Que pena.
+
+=Omni-Man|Sindel
+A: Uma imperatriz com voz destruidora. Viltrum respeitaria você. / Edênia não precisa do respeito de Viltrum. / Todo reino precisa.
+A: Sua voz não quebra meus tímpanos. / Minha voz quebra orgulhos. / Tente.
+B: Viltrumita. Você mentiu para a sua família por anos. / Foi necessário. / Eu fui controlada contra a vontade. Você mentiu por escolha. Isso é pior.
+B: Viltrumita. Ajoelhe-se diante da imperatriz. / Viltrumitas não se ajoelham. / Então vou fazer você se ajoelhar. Com a voz.
+
+=Omni-Man|Smoke
+A: Fumaça. Viltrum não teme fumaça. / Fumaça não pede medo. / Então pede o quê?
+A: Você protege os seus irmãos. / Eles são tudo o que eu tenho. / Então você me mostrou exatamente onde bater.
+B: Viltrumita. Você abandonou sua família. / Eu protegi Viltrum. / Você abandonou sua família.
+B: Viltrumita. Você nunca teve um irmão para te puxar de volta. / Eu tive um império. / Um império não segura a sua mão quando você cai.
+
+=Omni-Man|Sub-Zero
+A: Um homem de gelo. Viltrum já pisou em planetas congelados. / O meu gelo não é planeta. É vontade. / Vontade também derrete.
+A: Você é frio. Eu gosto de frieza. / Frieza é disciplina. / Disciplina é força.
+B: Viltrumita. O Lin Kuei não teme você. / Todos temem. / O gelo não sente nada. Por isso não teme.
+B: Meu gelo vai congelar seu orgulho. / Meu orgulho é inquebrável. / Veremos.
+
+=Omni-Man|T-1000
+A: Uma máquina. Você imita formas. Imite um viltrumita. / Posso imitar a forma. Não a força. / Então é inútil.
+A: Você não sente nada. Eu admiro isso. / Sentimento é ineficiente. / Concordo. Mas às vezes escapa.
+B: Alvo: viltrumita. Ameaça máxima. / Finalmente alguém com bom senso. / Ameaça máxima. Respeito: nenhum.
+B: Você é ineficiente. / Viltrum é perfeito. / Viltrum perdeu. Perfeição não perde.
+
+=Omni-Man|Takeda
+A: Um garoto. Você me lembra do meu filho. / Isso é bom? / Depende. Ele apanhou muito antes de aprender.
+A: Seus chicotes são fracos. / Kunais. / Fracas.
+B: Omni-Man! Você é tipo um super-herói que virou vilão. / Eu nunca fui herói. / Isso é ainda mais triste.
+B: Posso ler a sua mente? / Você vai ver Viltrum. / Não. Eu vejo um garoto. O seu filho. Você pensa nele toda hora.
+
+=Omni-Man|Tanya
+A: Uma guarda leal. Viltrum admira lealdade. / Minha lealdade não está à venda. / Lealdade é força.
+A: Umgadi. Você daria a vida por uma imperatriz que está morrendo. / Ela não está morrendo. Está lutando. / Eu também lutei por alguém. E desisti. Talvez você seja mais forte que eu.
+B: Viltrumita. Fique longe da imperatriz. / Eu vou onde quero. / Não aqui. A Umgadi não pede duas vezes.
+B: Viltrumita. Hoje você luta contra a Umgadi. / Com prazer. / Prazer é uma palavra que você ainda não aprendeu a usar direito.
+
+=Omni-Man|Teresa
+A: Uma advogada. Você defenderia um viltrumita? / Por um preço. / Viltrum paga bem.
+A: Você é ambiciosa. Viltrum admira ambição. / Eu não preciso da admiração de ninguém. / Todos precisam.
+B: Um conquistador. Você seria um ótimo cliente. / Eu não preciso de advogado. / Todos precisam, querido.
+B: Você mentiu para a sua família? Eu também menti para a minha. / Foi necessário. / Pois é. Mas eu me arrependo. Você também, eu vejo nos seus olhos.

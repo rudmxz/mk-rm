@@ -1,0 +1,243 @@
+=Kano|Kano
+A: Que cara feia, parceiro. Ah, sou eu. / De qual linha você veio, camarada? / Uma em que eu sou rico. Bem, quase.
+A: Quanto você cobra para sumir? / Mais do que você tem. / Então vou ter que tirar de você no soco.
+
+=Kano|Ashrah
+A: Uma espada que brilha. Quanto vale no mercado? / Ela não está à venda. / Tudo está, querida. Só falta o comprador certo.
+A: Você quer ser santa. Que desperdício de talento. / Você não sabe o que é talento. / Sei sim. É vender o que os outros acham que não tem preço.
+B: Mercenário. Você carrega mais escuridão que muitos demônios. / Obrigado, querida. É trabalho de anos. / A Kriss vai gostar de você.
+B: Você nunca pensou em se redimir? / Pensei. Aí passou. / Que pena.
+
+=Kano|Baraka
+A: Baraka! Tenho um remédio para a sua doença. Pela metade do preço. / Mostre. / Bem... ainda está em fase de testes.
+A: Os seus homens são bons de briga. Quer alugar alguns? / O meu povo não está à venda. / Ninguém nunca quer vender o povo. Até a fome apertar.
+B: Kano. Você vendeu armas para os dois lados da guerra. / E para um terceiro que eu nem lembro. / Hoje você paga em sangue.
+B: Você cheira a mentira e ferrugem. / Ferrugem é do olho, parceiro. A mentira é minha mesmo. / Então vou arrancar as duas.
+
+=Kano|Conan
+A: Um bárbaro! Você saqueia, eu revendo. Seríamos ótimos sócios. / Eu não divido o ouro. / Então vamos ver quem fica com ele no final.
+A: A sua espada é bonita. Quanto quer por ela? / A sua cabeça. / Muito caro.
+B: Ladrão. Na Ciméria, eu enforcaria você numa árvore. / Aqui eu sou empresário, parceiro. / Então eu enforco o empresário.
+B: Você fala como um mercador de taverna. / E você luta como um. Brindemos! / Depois que eu te derrubar.
+
+=Kano|Cyrax
+A: Um cyborg do Lin Kuei! Você vale uma fortuna em peças. / Protocolo de defesa ativado. / Calma, querida. Eu só estava avaliando.
+A: Esse olho meu é mais moderno que o seu. / Análise: o seu é sucata. / Isso doeu.
+B: Alvo: mercenário Kano. Recompensa ativa em três reinos. / Só três? Estou ficando velho. / Recalculando: quatro.
+B: Você vendeu tecnologia do Lin Kuei. / Encontrei na rua, juro. / Mentira detectada.
+
+=Kano|Ermac
+A: Quantos de vocês aí dentro aceitariam um bom negócio? / Nenhum. / Com tanta gente, ninguém? Que mercado difícil.
+A: Vocês movem as coisas com a mente. Imagina os furtos! / Nós não roubamos. / Desperdício.
+B: Mercenário. Algumas almas aqui dentro morreram por suas armas. / Elas não deviam estar na frente. / Elas querem conversar com você. De perto.
+B: Nós sentimos a sua ganância. / É um sentimento bonito, não é? / É pesado. E vai te afundar.
+
+=Kano|General Shao
+A: General! Eu vendi as armas que o seu exército usou. / E elas quebraram. / Garantia não cobre uso em guerra, parceiro.
+A: Eu tenho os mapas que o senhor queria. Pelo preço certo. / Eu tomo os mapas e a sua cabeça. / Vamos negociar depois da luta.
+B: Kano. Você me vendeu e depois vendeu os meus planos ao inimigo. / Eu vendo para quem paga, general. Nada pessoal. / Então isto também não será.
+B: Ajoelhe-se diante do conquistador. / Só se o senhor pagar adiantado. / Insolente!
+
+=Kano|Geras
+A: Você controla o tempo? Me empresta um pouco. / Para quê? / Para voltar ao dia em que eu não pedi aquele empréstimo.
+A: Areia do tempo deve valer muito. / Vale a eternidade. / Eu aceito em parcelas.
+B: Mercenário. Em todas as linhas do tempo você trai alguém. / Pelo menos sou constante. / Constância não te salva.
+B: O tempo cobra todas as dívidas. / Ele vai ter que entrar na fila, parceiro. / Ele já entrou.
+
+=Kano|Ghostface
+A: Você também gosta de faca? Que bom gosto, parceiro. / Você gosta de filmes de terror, Kano? / Eu gosto do meu extrato bancário. É mais assustador.
+A: Quanto você cobra por um serviço? / Eu não cobro. Eu me divirto. / Amador.
+B: Alô, Kano? Eu estou do lado de fora da sua casa. / Qual delas? Eu tenho sete. / ...Vou ligar para todas.
+B: A sua faca é maior que a minha. / Mas a sua é mais assustadora. Quer trocar? / Nunca.
+
+=Kano|Havik
+A: Caos é bom para os negócios, parceiro. / O caos não tem negócios! / Tem sim. Eu vendo os escombros.
+A: Você é uma bagunça. Eu gosto de bagunça. / Então junte-se ao caos! / Só se pagar comissão.
+B: Kano. Você entende o caos melhor que muitos. / Eu entendo de lucro. O caos só ajuda. / Que alma pequena.
+B: Quebre as suas regras, mercenário. / Eu não tenho regras. / Então tem tudo para ser feliz.
+
+=Kano|Homelander
+A: Você voa e solta laser pelos olhos. Eu também solto laser! / Um olho só. Que coisa triste. / Pelo menos o meu não vem com ego.
+A: Quanto você cobra para posar numa propaganda? / Eu não sou vendido. / Todo herói tem patrocinador, parceiro.
+B: Um bandido com olho de lata. Que fofo. / Fofo é o seu cabelo, campeão. / Vou derreter esse olho.
+B: Você trabalha para quem? / Para mim mesmo. / Então você é o único funcionário que eu respeito.
+
+=Kano|Jade
+A: Jade, querida. Esse bastão vale uma nota. / E a sua cabeça também. Tem recompensa. / Eu sempre esqueço que sou famoso.
+A: Você treina o príncipe? Quanto ele paga? / Ele me paga em dor de cabeça. / Má negociação.
+B: Mercenário. Você tentou vender o mapa do palácio. / Tentei. Ninguém comprou. / Porque eu queimei antes.
+B: Você cheira a pólvora e mentira. / E você cheira a incenso e problema. / Hoje o problema é seu.
+
+=Kano|Johnny Cage
+A: Johnny Cage! Você ainda faz filme? / Faço. E você ainda rouba? / Faço. Pelo menos o meu dá lucro.
+A: Quer um figurante para o próximo filme? / Você? / Eu faço o vilão de graça. Bem, quase.
+B: Kano. Você roubou o meu carro de cena. / Era de cena? Por isso o motor não funcionava. / Ele valia muito pra mim!
+B: Quer um autógrafo? / Quero o seu relógio. / ...Fica longe do meu relógio.
+
+=Kano|Katherine Pierce
+A: Vampira. Você vale uma fortuna em três reinos. / Você também. Podíamos dividir os cartazes. / Ou eu te entrego e fico com tudo.
+A: Quinhentos anos de golpes. Me dá umas dicas. / Nunca confie em ninguém. / Eu já sigo essa. Me dá outra.
+B: Kano, querido. Você mente quase tão bem quanto eu. / Quase? Eu sou profissional. / Eu sou artista. Há diferença.
+B: Faz um acordo comigo? / Só se você pagar primeiro. / Que homem desconfiado. Gostei.
+
+=Kano|Kenshi
+A: Takahashi. O seu clã ainda controla o porto? / Por enquanto. / Eu vim fazer uma oferta. Ou uma ameaça. Você escolhe.
+A: Essa espada fala com você? Que ela me diga o preço. / A Sento sente a sua ganância. / Então ela sabe que eu pago bem.
+B: Kano. O Dragão Negro queimou dois armazéns da minha família. / Foi um acidente com fósforo. / A Sento diz que você está mentindo.
+B: Você ameaçou o meu filho. / Foi só uma conversa de negócios. / Então este é o meu contrato.
+
+=Kano|Kitana
+A: General! Tenho uma carga de armas que o seu exército vai adorar. / O meu exército não compra de traidores. / Ninguém é traidor de quem paga em dia.
+A: Esses leques valem uma fortuna. / Venha buscar. / Eu prefiro mandar alguém. Mas hoje estou sem funcionário.
+B: Kano. Você vendeu armas ao Shao. / E aos rebeldes. E a vocês, por um intermediário. / Você é uma doença.
+B: O meu filho disse que você tentou vender um retrato meu. / Era um retrato bonito. / Hoje você vai sair dele.
+
+=Kano|Kung Lao
+A: Monge! Quanto vale esse chapéu? / Mais do que você pode pagar. / Eu não pago. Eu pego.
+A: Você ri demais para alguém pobre. / Eu sou monge. A riqueza não importa. / Que filosofia terrível.
+B: Kano. Você roubou a doação do templo. / Eu peguei emprestado. / Por três anos?
+B: O Raiden diz que você é um homem triste. / O Raiden é um fazendeiro. / E está certo.
+
+=Kano|Ladybug
+A: Ladybug! Uma joia como a sua vale muito. / Os brincos não são joia. São um Miraculous. / Melhor ainda. Mais caro.
+A: Esse ioiô é rápido. Mas eu tenho facas. / Eu tenho um amigo que adora vilões que falam demais. / Ele não está aqui, querida.
+B: Kano, você roubou um museu em Paris! / Ele estava aberto, juro. / Era meia-noite!
+B: Lucky Charm! ...Um par de algemas? / Que coincidência. / Não é coincidência. É sorte.
+
+=Kano|Li Mei
+A: General Li Mei. Os seus soldados precisam de armas melhores. / E você precisa de um julgamento. / Primeiro as armas. Depois a gente vê.
+A: Você é rápida. Eu sou mais rápido. / Você é mais barulhento. / Isso também conta.
+B: Kano. Você vendeu armas para os soldados que me atacaram. / E deram defeito, eu espero? / Deram. Agora você também vai dar.
+B: Mercenário sem bandeira. / Bandeira não paga o aluguel, querida. / Honra paga.
+
+=Kano|Liu Kang
+A: Deus do Fogo! Você criou a era. Eu só lucro com ela. / Você é uma mancha nela. / Uma mancha lucrativa, parceiro.
+A: Você vê o futuro. Me diz onde vão ficar os portais. / Para você vender? / Para eu investir.
+B: Kano. Em todas as minhas eras, você escolhe o ouro. / O ouro nunca me decepcionou. / As pessoas também não, se você deixasse.
+B: Lute comigo. Quero ver se resta algo bom em você. / Não procura muito. / Eu sempre procuro.
+
+=Kano|Mileena
+A: Imperatriz! Tenho um remédio para a doença Tarkat. / Você me vendeu um falso no ano passado. / Este é o novo modelo.
+A: Esses dentes assustam até a minha gangue. / Ótimo. Eles vão assustar você também. / Eu tenho o cuidado de não sorrir para eles.
+B: Kano. Você trouxe veneno para o meu palácio. / Trouxe vinho. O veneno veio junto. / Morda a língua. Antes que eu morda.
+B: A sua cabeça vale muito em Exoterra. / Quanto? Eu quero saber se estou bem cotado. / O suficiente para eu cobrar pessoalmente.
+
+=Kano|Nitara
+A: Vampira! Sangue engarrafado, quer comprar? / De onde você tirou? / Não pergunta, querida.
+A: Asas grandes. Seria uma ótima segurança. / Eu não trabalho para humanos. / Eu pago em sangue. Bem, sangue dos outros.
+B: Mercenário. O seu sangue tem gosto de ferrugem. / É do olho, querida. / Vou morder o outro lado.
+B: Você vendeu informações sobre o meu povo. / Vendi barato. Foi um favor. / Hoje você paga o preço cheio.
+
+=Kano|Noob Saibot
+A: Uma sombra que anda. Quanto você cobra por um serviço? / Eu não sirvo humanos. / Que pena. Você seria um ótimo cobrador.
+A: Você aparece do nada. Igual dívida. / Eu sou pior que dívida. / Duvido, parceiro. Você não conhece os meus credores.
+B: Mercenário. A escuridão adora a ganância. / Então somos velhos amigos. / Não. Você é o jantar.
+B: As sombras sussurram o seu nome. / Espero que digam coisas boas. / Dizem que você vai cair.
+
+=Kano|Omni-Man
+A: Um viltrumita! Quanto custa uma viagem para o seu planeta? / Você não sobreviveria. / Então vou mandar o Johnny Cage.
+A: Você destrói cidades. Eu vendo os escombros. Sociedade? / Eu não faço negócios com insetos. / Insetos são ótimos sócios. Não reclamam.
+B: Humano. Você é um parasita. / E você é um planeta inteiro de ego. / Eu poderia te esmagar com um dedo.
+B: Você trairia o próprio filho por dinheiro? / Eu não tenho filho. / Eu tenho. E traí mesmo assim.
+
+=Kano|Peacemaker
+A: Peacemaker! Gosto do capacete. Quer vender? / Ele é parte de mim. / Então eu levo você junto.
+A: Você mata pela paz. Eu mato por dinheiro. No fim, dá na mesma. / Não dá! Eu tenho princípios. / Os meus princípios também têm preço.
+B: Kano. Você é exatamente o tipo de cara que eu fui treinado para eliminar. / Que honra, parceiro. / Não é honra. É lista.
+B: Você trouxe armas novas? / Trouxe. Quer ver? / Quero. Depois eu quebro na sua cabeça.
+
+=Kano|Quan Chi
+A: Feiticeiro! Almas vendem bem no mercado do Submundo? / Muito bem. / Então somos do mesmo ramo.
+A: Quanto você me paga por um cemitério inteiro? / Eu não pago. Eu tomo. / Você é pior que eu.
+B: Kano. A sua alma já está à venda há anos. / Só esperando a oferta certa. / Eu ofereço uma eternidade de servidão.
+B: Os seus mortos trabalhariam de graça para mim. / Os meus mortos cobram juros. / Hah.
+
+=Kano|Raiden
+A: Fazendeiro! Quanto vale a sua colheita? / Mais do que você imagina. / Então eu volto na época da colheita.
+A: Você é o campeão? Que coisa simples. / Simples não é fraco. / Não, mas é pobre.
+B: Kano, você roubou o gado da minha vila. / Peguei emprestado. / Por quanto tempo? / Até eu vender.
+B: Você poderia ter sido um homem bom. / Eu fui. Por uma semana. Não deu lucro. / Que triste.
+
+=Kano|Rain
+A: Príncipe Rain! Lembra do nosso acordo? / Que acordo? / Aquele em que você me pagou e eu sumi.
+A: Você também trai todo mundo. Somos quase irmãos. / Eu fui enganado! / Pelo menos eu admito que faço de propósito.
+B: Kano. Você vendeu os meus planos ao Shao. / E os do Shao a você. Foi um bom mês. / Que vergonha!
+B: Ajoelhe-se diante de um príncipe. / Quanto paga? / Eu sou da realeza! / Então paga o dobro.
+
+=Kano|Reiko
+A: Reiko. O seu general ainda me deve dinheiro. / O general não deve nada a ninguém. / Deve sim. Eu guardo os recibos.
+A: Você serve um homem que perde. Eu sirvo a mim. / A lealdade me fortalece. / A minha conta bancária me fortalece.
+B: Kano. Você vendeu a localização do nosso acampamento. / E vocês mudaram de lugar. Por isso eu vendi de novo. / Que verme.
+B: O general pagaria muito pela sua cabeça. / Avisa que eu aceito proposta. / Proposta de morte.
+
+=Kano|Reptile
+A: Um sauriano! A sua pele vale uma fortuna. / Eu ainda estou usando ela. / Por enquanto, parceiro.
+A: Você fica invisível. Imagina os furtos! / Eu me escondo para sobreviver. / Esconder e roubar é quase a mesma coisa.
+B: Kano. Você caçou o meu povo por dinheiro. / Era um contrato antigo. / O meu povo lembra.
+B: O seu cheiro me guiou até aqui. / Perfume caro, parceiro. / Cheiro de pólvora e cerveja.
+
+=Kano|Rudolf
+A: Principezinho! Sua coroa vale quanto? / Mais do que a sua cabeça. / Isso foi grosseiro. E provavelmente verdade.
+A: Leques de fogo. Bom produto. Quer um distribuidor? / Você tentou vender um retrato da minha mãe. / Era um bom retrato!
+B: Kano! O olho de lata ainda pega o canal de esportes? / Pega o canal de pancadaria. E você está nele. / Ui. Mas eu fico bem na tela.
+B: A Jade disse que você é o pior homem do Plano Terreno. / A Jade tem bom gosto. / Ela disse isso como ofensa.
+
+=Kano|Scorpion
+A: Grão-Mestre! Tenho kunais de ótima qualidade. Quase novas. / Roubadas do Shirai Ryu. / Um detalhe.
+A: Você e o seu clã atrapalham os meus negócios na fronteira. / Os seus negócios são crimes. / Crime é só negócio sem papelada.
+B: Kano. Você vendeu as rotas do meu clã ao Lin Kuei. / E as do Lin Kuei a você. Eu sou justo. / Você é um verme.
+B: O Shirai Ryu não negocia com ladrões. / O Shirai Ryu ainda não ouviu a minha melhor oferta. / Nem vai.
+
+=Kano|Sektor
+A: Tenente! Quanto vale um míssil do Lin Kuei? / Mais do que a sua vida. / Então vou levar dois.
+A: Seu corpo é uma fortuna em peças. / Aproxime-se e vire peça também. / Calma, querida. Era só curiosidade.
+B: Alvo: Kano. Status: procurado. / Só procurado? Que modesto. / Atualizando: alvo prioritário.
+B: Você roubou um protótipo do clã. / Achei na rua. / Registro de câmera: você arrombou o cofre.
+
+=Kano|Shang Tsung
+A: Feiticeiro! Quanto você paga por uma alma de primeira? / Depende de quem. / Eu tenho um estoque. Bem, tenho uma lista.
+A: Você troca de rosto. Eu troco de lado. / Somos parecidos. / Só que eu cobro menos.
+B: Kano. A sua alma é tão podre que eu nem quero. / Que ofensa! Eu me esforcei tanto. / Esforço inútil.
+B: Eu posso virar a Sonya Blade. / Por favor, não. Eu já tenho pesadelo suficiente. / Hah.
+
+=Kano|Sindel
+A: Imperatriz! Tenho um colar que combina com a sua voz. / Esse colar é do meu tesouro. / Que coincidência incrível.
+A: Essa voz quebra vidro. Imagina quebrar cofre. / Eu não roubo. / Desperdício de talento, majestade.
+B: Kano. Você entrou no meu palácio sem convite. / Eu nunca preciso de convite. / Hoje você precisa de um enterro.
+B: Você vendeu mapas do meu palácio para o Shao. / Eram mapas velhos, majestade. / Eram do meu quarto.
+
+=Kano|Smoke
+A: Smoke! Fumaça e sumiço. Seria um ótimo ladrão. / Eu não roubo. / Que desperdício, parceiro.
+A: Você protege os irmãos. Eu protejo o meu dinheiro. / Os irmãos valem mais. / Não no mercado.
+B: Kano. Você vendeu as rotas do Shirai Ryu. / E depois vendi as mentiras sobre as rotas. Dois lucros. / Você é inacreditável.
+B: Some da minha frente. / Esse é o seu truque, parceiro. / Então eu te mostro outro.
+
+=Kano|Sub-Zero
+A: Grão-Mestre! O Lin Kuei pagou direitinho no último serviço. / O Lin Kuei nunca contratou você. / Contratou sim. Pergunta para o seu tesoureiro.
+A: Esse gelo vale muito no verão. / O meu gelo não está à venda. / Tudo derrete, parceiro. Até princípios.
+B: Kano. Você vendeu segredos do Lin Kuei. / Segredos ninguém ia usar mesmo. / Hoje você congela.
+B: O frio vai calar essa boca. / Ela já sobreviveu a coisas piores. Tipo a minha ex. / Patético.
+
+=Kano|T-1000
+A: Metal líquido! Você vale uma fortuna em peças. / Eu não tenho peças. / Melhor ainda. Vendo por litro.
+A: Você imita qualquer um. Imita meu credor? / Pessoa não identificada. / Ainda bem.
+B: Alvo: Kano. Implante ocular de baixa qualidade. / Baixa qualidade é o seu humor. / Insulto registrado.
+B: Seu olho é obsoleto. / Mas funciona, parceiro. / Funcionamento: inferior.
+
+=Kano|Takeda
+A: O garoto Takahashi! Seu pai está bem? / Ele está te procurando. / Que gentil. Diga que eu vou estar longe.
+A: Dizem que você ouve pensamentos, garoto. O que tem aqui? / Só dinheiro e medo. / Medo? Eu? Bem... da Sonya, talvez.
+B: Kano! Você ameaçou o meu pai. / Foi uma proposta comercial. / A Sento disse que era ameaça.
+B: O seu olho brilha quando você mente. / Então ele brilha o tempo todo, garoto. / Isso explica muito.
+
+=Kano|Tanya
+A: Tanya. A Umgadi gosta de joias? / A Umgadi gosta de ladrões mortos. / Que mau gosto.
+A: Você ama a imperatriz. Quanto vale isso? / Não tem preço. / Tudo tem, querida. Você só não ofereceu ainda.
+B: Kano. Você vendeu veneno para os inimigos da imperatriz. / Vendi o antídoto também. Sou justo. / Hoje você morre.
+B: A imperatriz quer a sua cabeça. / Ela só precisa pedir com jeito. / Eu não peço. Eu tomo.
+
+=Kano|Teresa
+A: Teresa, querida! Como vão os nossos contratos? / Que contratos? Eu nunca te vi. / Isso. Exatamente assim, se perguntarem.
+A: Você cobra caro demais para lavar dinheiro. / Eu cobro o justo para não ser presa. / Justo. Mas ainda acho caro.
+B: Kano. Você está me devendo três pagamentos. / A Sonya congelou as minhas contas. / Problema seu, não meu.
+B: Se a polícia perguntar, eu nunca te conheci. / Se perguntarem, eu digo que você é a minha advogada. / Isso é uma ameaça? / É uma carta de recomendação.

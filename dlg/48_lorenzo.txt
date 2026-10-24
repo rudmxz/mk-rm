@@ -1,0 +1,337 @@
+=Lorenzo|Lorenzo
+A: Você também acordou debaixo dos escombros? / Acordei. E até hoje sinto o cheiro de poeira. / Então a gente sabe exatamente onde dói. Bora.
+A: Se você é eu, qual é o meu maior medo? / Virar só a energia e esquecer quem a gente era. / Certo. Então nenhum de nós pode perder o controle aqui.
+
+=Lorenzo|Ashrah
+A: Sua espada limpa demônios. Ela me limparia? / Não sei o que você é. A Kriss também não. / Que bom. Eu também não sei.
+A: Você quer ser pura. Eu só quero continuar sendo eu. / São desejos parecidos, edeniano. / Parecidos. Mas só um deles cabe numa lâmina.
+B: Sinto almas gritando ao seu redor. / São de Veyrath. Elas não gostam de visita. / Então vou ter que falar mais alto que elas.
+B: Você carrega mortos. Isso é coisa de demônio. / Ou de sobrevivente. Depende de quem conta a história. / Hoje quem conta sou eu.
+
+=Lorenzo|Baraka
+A: Tarkatano. Já vi lâminas como as suas nos escombros de Veyrath. / Não fui eu. Mas poderia ter sido. / Pelo menos é honesto. Vou te cortar com educação.
+A: Você sempre ataca primeiro? / Quem pensa demais morre cedo. / Eu pensei bastante. E olha só, já morri. Funcionou bem.
+B: Sua foice é bonita. Vai ficar melhor quebrada. / Tenta. Mas olha bem pros meus olhos antes. / Por quê? ...Por que eu tô hesitando?
+B: Edeniano magrelo. Vai durar um golpe. / Durei um massacre inteiro. Acho que aguento você. / Massacre era fraco, então.
+
+=Lorenzo|Conan
+A: Bárbaro, você resolve tudo com espada? / Quase tudo. O resto eu resolvo com mais espada. / Admiro a simplicidade. Não sigo, mas admiro.
+A: Ciméria fica longe de Edênia. / Por Crom, todo lugar fica longe de algum lugar. / Isso foi profundo ou eu tô cansado?
+B: Por Crom, sua lâmina brilha verde. Feitiçaria. / Herança. De um jeito que eu não escolhi. / Feitiçaria ou herança, eu corto do mesmo jeito.
+B: Você tem cara de pensador. Pensadores não lutam. / E bárbaros não pensam. Hoje a gente quebra as duas regras. / Bom. Agora cala e luta.
+
+=Lorenzo|Cyrax
+A: Você tá me escaneando? / Tô. Seu corpo não tem pulso normal. O que você é? / Uma pergunta que eu também gostaria de responder.
+A: Sua energia é amarela. A minha é verde. Combinou. / Combinou com o quê? / Com nada. Só falei pra ver se você sorria.
+B: Meus sensores dizem que você morreu. / Seus sensores estão certos. Por uns dias, pelo menos. / Isso não tá no manual do Lin Kuei.
+B: Bora ver quem calcula mais rápido? / Desafio aceito. Já calculei que você vai pular pra esquerda. / ...Como você sabia?
+
+=Lorenzo|Ermac
+A: Vocês também são muitos? / Nós somos legião. E você? / Eu sou um só carregando a voz de milhares. Parecido, mas pior.
+A: As almas aí dentro brigam entre si? / Nós discordamos. Sempre. / As minhas só gritam. Prefiro as suas.
+B: Nós sentimos Veyrath em você. / Então sentem demais. Fiquem longe da minha cabeça. / Nós não ficamos longe de nada.
+B: Junte-se a nós. Seja mais um. / Meu medo é justamente esse. Virar mais um. / Então você nos teme.
+
+=Lorenzo|General Shao
+A: Conquistador, quanto Edênia você já queimou? / O suficiente para nunca lembrar dos nomes. / Eu lembro de todos. É essa a diferença entre nós.
+A: Martelo grande. Ego maior ainda. / Minha força é tudo o que preciso. / Força sem cabeça. Vou mirar justamente na cabeça.
+B: Você seria um ótimo soldado na minha legião. / Eu não sirvo a ninguém. Muito menos a você. / Então vai morrer como um ninguém.
+B: Edeniano. Mais um para ajoelhar. / Já ajoelhei uma vez, debaixo dos escombros. Não vai acontecer de novo. / Veremos.
+
+=Lorenzo|Geras
+A: Você controla o tempo. Volta pra noite de Veyrath? / Algumas noites precisam acontecer. / Fácil falar quando não é você embaixo das pedras.
+A: Se eu morrer de novo, você me traz de volta? / O tempo não traz ninguém. Só repete. / Então não me repete. Já deu.
+B: Você não deveria existir. / Concordo. Mas existo, então se acostuma. / O tempo vai corrigir isso.
+B: Areia do tempo contra energia de morte. / Areia escorre. A morte fica. / Tudo escorre, garoto.
+
+=Lorenzo|Ghostface
+A: Máscara branca, faca e muito drama. / Ei, gosta de sustos? / O que eu vivi aos treze anos. Esse ninguém filmou.
+A: Para de ligar pro meu celular. / Você nem tem celular. / Exatamente. Como você tá ligando?
+B: Você mora sozinho, Lorenzo? / Moro com umas mil almas. Pode vir, tem lugar. / ...Talvez eu ligue outra hora.
+B: Gosta de filmes de terror? / Gosto dos que têm continuação. Eu sou uma continuação. / Engraçadinho. Vamos ver como acaba.
+
+=Lorenzo|Havik
+A: Caos puro. Você não tem medo de se perder? / Perder-se é a melhor parte! / Pra você. Pra mim é o fim.
+A: Seu rosto tá caindo. / Liberdade, edeniano! O rosto é só uma regra. / Então eu quebro a regra do resto.
+B: Deixa a energia te levar, rapaz! / Foi exatamente o que eu jurei nunca fazer. / Que chato. Vou te ajudar mesmo assim.
+B: O caos te criou. Veyrath foi caos puro. / Veyrath foi gente fazendo escolhas ruins. Não romantiza. / Ah, mas é tão bonito!
+
+=Lorenzo|Homelander
+A: Você sorri pra câmera e ameaça fora dela. / Você tá me julgando? / Só observando. É o que eu faço melhor.
+A: Laser nos olhos. Previsível. / Previsível e mortal. / Previsível é o suficiente pra mim.
+B: Você é o tipo de gente que eu salvo na TV. / E que você esquece quando a câmera desliga. / Garoto esperto. Esperto demais.
+B: Ninguém aqui é mais forte que eu. / Força eu deixo pra você. Eu fico com as suas inseguranças. / ...Do que você tá falando?
+
+=Lorenzo|Jade
+A: Guarda real de Edênia. Onde vocês estavam em Veyrath? / Longe demais. Eu sinto muito. / Sentir não reconstrói casa nenhuma.
+A: Seu bastão é rápido. Minha foice é mais. / Rapidez não ganha sozinha. / É verdade. Mas ajuda bastante.
+B: Você é edeniano. Devia proteger Edênia comigo. / Eu protejo quem merece. Nem sempre é um reino. / Um dia vai entender a diferença.
+B: Sua energia não é edeniana. / Ela é de Veyrath. Edênia esqueceu Veyrath. / Eu não esqueci.
+
+=Lorenzo|Johnny Cage
+A: Você é famoso, né? / Muito. Quer um autógrafo? / Quero que você pare de posar no meio da luta.
+A: Olhei sua mente. Muito vazio aí dentro. / É espaço pra mais talento! / Ok, essa foi boa. Ponto pra você.
+B: Foice verde, roupa preta... você seria um vilão incrível no meu filme. / Eu não quero ser vilão. Nem herói. / Então é coadjuvante. Igual todo mundo.
+B: Você tem cara de quem faz piada. / Faço. Mas só pra quem conquistou. / Ui, que exigente.
+
+=Lorenzo|Katherine Pierce
+A: Quinhentos anos sobrevivendo. Qual é o segredo? / Pensar só em mim. Funciona sempre. / Interessante. Não funciona pra mim.
+A: Você manipula gente. Eu também consigo. / Mas eu faço melhor, querido. / Vamos ver qual das duas mentes trava primeiro.
+B: Você é bonitinho pra quem voltou dos mortos. / Obrigado. A morte faz bem pra pele. / Disso eu entendo.
+B: Morrer e voltar. Já passei por isso. / Então sabe que nada volta igual. / Eu voltei melhor.
+
+=Lorenzo|Kenshi
+A: Você é cego e vê tudo. / Eu sinto. É diferente. / Então sente isso aqui que eu vou fazer.
+A: Sua telecinese contra minha mente. / Eu movo coisas. Você move medos. / Medo é mais pesado que qualquer coisa.
+B: Tem um luto pesado em você. / E eu sinto que você vai tentar me consolar. Não precisa. / Não ia. Ia te avisar que ela te deixa lento.
+B: Sua alma tá cheia de vozes. / Cheia de gente que eu não pude salvar. / Então lute por elas.
+
+=Lorenzo|Kitana
+A: Princesa de Edênia. Já ouviu falar de Veyrath? / Ouvi. Tarde demais. / Todo mundo ouviu tarde demais.
+A: Seus leques cortam o ar. Minha foice corta mais fundo. / Você fala como alguém que tem algo a provar. / Tenho. Só não é pra você.
+B: Um edeniano com poderes de morte. Que estranho. / Estranho é Edênia nunca ter perguntado por quê. / Então pergunto agora.
+B: Seu povo também é meu povo. / Meu povo virou poeira. Não sobrou ninguém pra dividir. / Sobrou você.
+
+=Lorenzo|Kung Lao
+A: Chapéu com lâmina. Isso é estilo ou trauma? / Os dois, provavelmente. / Gostei da honestidade.
+A: Você gira muito. Não fica tonto? / Monge Shaolin não fica tonto. / Eu fiquei só de olhar.
+B: Você é edeniano e luta como monge. / Aprendi observando. Inclusive você. / Aprendeu errado, então.
+B: Seu chapéu ou sua foice? / Minha foice. Seu chapéu é bonito demais pra quebrar. / Pelo menos isso a gente concorda.
+
+=Lorenzo|Ladybug
+A: Você sempre tem um plano, né? / Sempre. E um ioiô. / Respeito quem tem os dois.
+A: Seu amuleto da sorte resolve tudo? / Quase tudo. O resto é criatividade. / Eu sou o resto, então.
+B: Você parece um vilão, mas não age como um. / Eu não sou nenhum dos dois. / Eu sei. Já vi muito vilão de verdade.
+B: Posso purificar essa energia em você? / Não é um akuma. É uma parte de mim. / Então vou te ajudar a carregar.
+
+=Lorenzo|Li Mei
+A: General de Exoterra. Já esteve em Edênia? / Já. Em guerra e em paz. / Em qual delas você chegou tarde?
+A: Você brilha. Eu também brilho. Tipo dois postes. / Espera... você fez uma piada? / Só pra quem é próximo. Você ainda tá longe.
+B: Sua energia verde é instável. / Instável é ela. Eu sou calculado. / Veremos quem quebra primeiro.
+B: Você não tem estandarte. / Não tenho reino, não tenho rei. / Tem sorte. Às vezes eu queria isso.
+
+=Lorenzo|Liu Kang
+A: Deus do Fogo, você fez a Nova Era. Por que Veyrath aconteceu nela? / Nem toda escolha mortal pode ser impedida. / Que conveniente pra quem é deus.
+A: Você sabe quem fez o ritual? / Sei que a resposta não está comigo. / Então eu vou continuar procurando.
+B: Sua energia não pertence a esta linha do tempo. / Pertence a mim agora. / Cuide para que continue assim.
+B: Você não precisa ser um monstro, Lorenzo. / Eu sei. É o que eu repito todo dia. / Então repita mais alto.
+
+=Lorenzo|Mileena
+A: Dentes bonitos. / Você tá me provocando, edeniano? / Só observando. Mas os dentes são bonitos mesmo.
+A: Você também nasceu de algo que não pediu. / Nasci de um experimento. E virei imperatriz. / Inspirador. Meio assustador, mas inspirador.
+B: Você cheira a morte. Eu gosto. / Pena que eu não gosto de gente que gosta. / Que grosseria.
+B: Sinto seu medo. Delicioso. / Sinto o seu também. Você tem medo de não ser aceita. / ...Cala a boca.
+
+=Lorenzo|Nitara
+A: Vampira. Você bebe sangue. Eu absorvo almas. / Ambos sobrevivemos dos outros. / Não. Eu sobrevivo apesar deles.
+A: Suas asas fazem barulho. / E sua foice faz o quê? / Um barulho mais curto. Só um.
+B: Seu sangue deve ter gosto de cinza. / Tem gosto de Veyrath. Não recomendo. / Vou provar mesmo assim.
+B: Você também foi trazido de volta. / Ninguém pediu minha opinião. / A minha nunca pediram também.
+
+=Lorenzo|Noob Saibot
+A: Sombra de quem você já foi. É o meu pesadelo. / Então tenha medo. / Já tenho. Por isso estou lutando.
+A: Você esqueceu quem era? / Eu escolhi esquecer. / Eu escolhi lembrar. Por isso dói.
+B: A escuridão vai te consumir, como me consumiu. / Não se eu continuar rindo das minhas próprias piadas. / Riso não salva ninguém.
+B: Somos parecidos. Mortos que voltaram. / Você voltou vazio. Eu voltei cheio de gente. / Não sei qual dos dois é pior.
+
+=Lorenzo|Omni-Man
+A: Você quer conquistar a Terra pra Viltrum. / E você quer o quê, garoto? / Que você pare de chamar todo mundo de garoto.
+A: Rápido assim, você nem vê o chão. / E você vê demais e anda de menos. / Mas eu pensei nisso antes de você chegar.
+B: Vocês, edenianos, são frágeis. / Fui soterrado, morri e voltei. Frágil não é a palavra. / Isso a gente vê agora.
+B: Você não tem chance. / Talvez. Mas você hesitou agora. Senti. / ...Isso não acontece comigo.
+
+=Lorenzo|Peacemaker
+A: Paz a qualquer custo? / Exatamente. Até se eu tiver que matar todo mundo. / Isso é a coisa mais contraditória que eu já ouvi.
+A: Seu capacete brilha. / Cromado, amigo. Polido toda manhã. / Respeito a dedicação.
+B: Você é do bem ou do mal? / Nenhum dos dois. Depende do dia. / Isso é muito confuso pra mim.
+B: Gosto de você, cara. Você parece um vilão de rock. / Vou levar como elogio. / É elogio, cara! Aceita logo!
+
+=Lorenzo|Quan Chi
+A: Necromante. Você sabe quem fez o ritual de Veyrath. / Sei muitas coisas, criança. / Então vou arrancar uma por uma.
+A: Você manipula almas. Eu manipulo mentes. / As almas obedecem. As mentes resistem. / A sua não vai resistir muito.
+B: A energia em você seria útil para mim. / Ela não é útil. Ela é minha. / Por enquanto.
+B: Você é uma obra incompleta. / Sou uma pessoa. Não uma obra. / Toda pessoa é uma obra, se o artista for bom.
+
+=Lorenzo|Raiden
+A: Campeão da Terra. Você também foi escolhido sem pedir? / Fui. E aprendi a carregar isso. / Então me ensina depois que eu te vencer.
+A: Seus raios contra minhas almas. / A luz sempre vence a escuridão. / Quem disse que eu sou escuridão?
+B: Você é perigoso, Lorenzo. / Sou. Mas não sou maligno. / A diferença é tênue.
+B: Liu Kang me pediu pra ficar de olho em você. / Pode ficar. Eu também tô de olho em você. / Combinado, então.
+
+=Lorenzo|Rain
+A: Edeniano também, mas com muito ego. / Eu nasci príncipe, sabia? / Eu sou um sobrevivente. Ganha quem cair por último.
+A: Sua água apaga meu fogo verde? / Só testando pra saber. / Spoiler: não apaga.
+B: Um edeniano humilde querendo poder. / Um príncipe querendo atenção. / Como ousa!
+B: Você deveria se curvar a mim. / Me curvei uma vez, pro chão. Não gostei. / Que dramático.
+
+=Lorenzo|Reiko
+A: Braço direito do general. Por que não o esquerdo? / Engraçadinho. / Só com os amigos. Considere um aviso.
+A: Você segue ordens sem pensar? / Penso. Mas obedeço. / Que desperdício de cabeça.
+B: Você não tem estratégia, edeniano. / Eu tenho. Só não conto pra você. / Vamos ver.
+B: General Shao quer sua cabeça. / Ele que venha buscar. / Eu vou buscar no lugar dele.
+
+=Lorenzo|Reptile
+A: Você fica invisível. Eu fico imprevisível. / Saurianos sobrevivem. Como você. / Então vamos ver quem é melhor nisso.
+A: Seu reino também foi apagado. / Zaterra foi engolida. Eu ainda lembro. / A gente é parecido, então.
+B: Você cheira a mortos. / Você cheira a pântano. Empate. / Grrr.
+B: Não confio em você. / Ótimo. Eu também não confio em ninguém. / Pelo menos é sincero.
+
+=Lorenzo|Rudolf
+A: Estranho. Eu tenho a sensação de que te conheço há um ano, mas a gente acabou de se ver. / Engraçado você dizer isso. Eu senti a mesma coisa quando você entrou. / Então vamos lutar como se fosse a primeira vez. Mesmo que não pareça.
+A: Às vezes eu acho que a gente já viveu uma vida inteira juntos. Antes de tudo isso. / Você também sonha com isso? Achei que era coisa da minha cabeça. / Se for, a minha cabeça tá mostrando o mesmo filme.
+A: Leques de fogo. Bonito, mas pouco prático. / E uma foice é prática? Você precisa de duas mãos pra coçar o nariz. / Pelo menos eu não queimo o próprio cabelo.
+A: Príncipe de Exoterra. Já te disseram que você fala demais? / Toda manhã e toda noite. Você é o primeiro que fala sério demais. / Alguém precisa equilibrar.
+B: Não me leva a mal, mas parece que eu te conheço há um ano. / Eu ia dizer exatamente isso. Assustador. / Assustador e bom. Agora levanta essa foice.
+B: Tenho a impressão de que a gente já se encontrou em outra vida. / Talvez numa vida em que eu não tinha almas gritando na cabeça. / Ou numa em que eu não queimava tudo. Mas a gente se achou mesmo assim.
+B: Ei, sombrinha verde. Vai lutar ou vai ficar me analisando? / Os dois. Já descobri que você pisca antes de atacar. / Droga. Ninguém nunca tinha notado isso.
+B: Minha mãe disse pra eu tomar cuidado com edenianos misteriosos. / Sua mãe tá certa. Mas eu sou só meio misterioso. / Meio é o suficiente pra eu ficar curioso.
+
+=Lorenzo|Scorpion
+A: Você também perdeu tudo numa noite só? / Na Nova Era, não. Mas carrego a raiva de quem perdeu. / Raiva é perigosa. Comigo ela sempre chega atrasada.
+A: Kunai de corrente contra foice. / Vem cá! / Não, obrigado. Prefiro que você venha.
+B: Sinto o Submundo na sua energia. / Não é do Submundo. É de Edênia. Ela só ficou com raiva. / Então é parecida com a minha.
+B: Shirai Ryu não teme a morte. / Eu também não. Já tive uma. Nem foi tão ruim. / Você é estranho, edeniano.
+
+=Lorenzo|Sektor
+A: Lin Kuei. Você calcula tudo também? / Tudo. Você é imprevisível demais. / Obrigado. É de propósito.
+A: Seu corpo é máquina? / Parte dele. E o seu? / Parte é alma de outra gente. A gente se entende.
+B: Análise concluída: você não deveria estar vivo. / Concordo com a análise. Discordo da conclusão. / Erro de lógica. Recalculando rota.
+B: Seus pensamentos tentam entrar na minha cabeça. / Tentam. Mas é tudo número aí dentro. / Exatamente.
+
+=Lorenzo|Shang Tsung
+A: Feiticeiro. Você sabe alguma coisa sobre o artefato de Veyrath. / Talvez sim, talvez não. / Seu talvez já me disse muito.
+A: Você rouba almas. As minhas não vão com você. / Todas vêm comigo no fim. / Essas eu protejo. Com tudo que eu tenho.
+B: Sua alma é deliciosa. Mil em uma. / Não é um buffet. / Tudo é um buffet para mim.
+B: Eu poderia te ensinar a controlar esse poder. / Você me ensinaria a te servir. Não, obrigado. / Garoto esperto.
+
+=Lorenzo|Sindel
+A: Rainha de Edênia. Seu grito destrói. O meu ninguém ouviu. / Lamento por Veyrath. / Lamentar é fácil numa coroa.
+A: Você também voltou de algo que devia ter te matado. / Voltei mais forte. / Eu ainda tô decidindo o que voltei.
+B: Um súdito de Edênia com poderes proibidos. / Proibidos por quem? Ninguém me perguntou nada. / Eu pergunto agora.
+B: Curve-se diante da sua rainha. / Respeito a senhora. Mas não me curvo. / Quanta ousadia, garoto.
+
+=Lorenzo|Smoke
+A: Fumaça contra névoa verde. / A minha é mais leve. / A minha é mais pesada. Cai sobre você.
+A: Você fala pouco. Gosto disso. / Você fala pouco também. / Só com quem não conheço. Ainda.
+B: Sua névoa tem vozes dentro. / Tem. Tenta não escutar. / Já escutei. Arrepiei.
+B: Você some como eu. / Eu some... sumo. Viu? Até errei. / Isso foi... engraçado.
+
+=Lorenzo|Sonya Blade
+A: Comandante. Você confia em alguém? / Confio na minha equipe. / Eu também confio. Na minha cabeça.
+A: Você dispara antes de perguntar? / Na maioria das vezes, sim. / Eu pergunto primeiro e não atiro nunca.
+B: Você é uma ameaça desconhecida. / Sou uma pessoa desconhecida. Ameaça depende de você. / Entendido.
+B: Mãos ao alto, edeniano. / Minhas mãos estão segurando uma foice. Dá trabalho erguer. / Engraçadinho.
+
+=Lorenzo|Stefan
+A: Você escreve diários. Eu deveria escrever também. / Ajuda a não perder quem você é. / Esse é exatamente o meu medo.
+A: Você também luta contra o que tem dentro. / Toda santa hora. / Então você entende por que eu não sorrio pra estranhos.
+B: Sua energia parece fome. Eu conheço fome. / Não é fome. É memória. / Fome e memória andam juntas.
+B: Você controla bem o que carrega. / Treino. Muito treino. E memes. / Memes?
+
+=Lorenzo|Sub-Zero
+A: Gelo contra almas. Quem congela primeiro? / Você vai congelar. / Já congelei uma vez, de medo. Não acontece de novo.
+A: Lin Kuei de honra. / Honra é tudo. / Honra é bonito. Sobrevivência é mais útil.
+B: Sua energia é instável. / Instável é seu humor. / ...Você não me conhece.
+B: Você luta sem disciplina. / Luto sem padrão. É diferente. / Vamos ver.
+
+=Lorenzo|T-1000
+A: Metal líquido. Você sente alguma coisa? / Sentimentos: irrelevantes. / Queria eu ser assim.
+A: Você imita qualquer um. Imita meus pais? / Dados insuficientes. / Melhor assim.
+B: Alvo: biologicamente inconsistente. / Eu morri e voltei. É complicado. / Informação registrada.
+B: Sua frequência neural é anômala. / Minha cabeça é cheia de gente. / Recomendação: eliminação.
+
+=Lorenzo|Takeda
+A: Filho do Kenshi. Você também carrega o legado de alguém. / Carrego. É pesado. / O meu também. Mas eu escolhi carregar.
+A: Esses chicotes estalam bonito. / E essa foice demora a chegar. / Lenta e certeira. Não é a mesma coisa.
+B: Você parece triste. / Pareço. Mas tô sorrindo por dentro. / Por dentro onde? Não tô vendo.
+B: Bora ver quem é mais imprevisível? / Desafio aceito. Mas já sei seu próximo movimento. / Mentira!
+
+=Lorenzo|Tanya
+A: Umgadi. Você protege Edênia. / Protejo o que me mandam proteger. / Veyrath não estava na lista, então.
+A: Seus bastões giram muito. / E sua foice? / Gira menos. Mas corta mais.
+B: Você é instável, edeniano. / Instável e racional. Uma combinação estranha. / Muito estranha.
+B: Edênia precisa de guerreiros. / Edênia precisava de mim aos treze. Não estava lá. / Lamento.
+
+=Lorenzo|Teresa
+A: Advogada. Você defenderia quem fez Veyrath? / Se pagassem bem, talvez. / Pelo menos é sincera.
+A: Você manipula pessoas. Eu também. / A diferença é que eu faço de salto alto. / E eu faço com foice. Cada um tem seu estilo.
+B: Você é bonito, mas muito sério. / Sério com estranhos. Com amigos sou insuportável. / Então ainda bem que não somos amigos.
+B: Quanto você cobra pra trabalhar pra mim? / Não trabalho pra ninguém. / Todo mundo tem um preço.
+
+=Lorenzo|Jax
+A: Braços de aço. Você também perdeu algo pra ficar mais forte. / Perdi os braços. Ganhei esses. / Eu perdi a vida. Ganhei isso aqui.
+A: Major. Você segue ordens? / Sigo princípios. / Princípio eu respeito.
+B: Você tem cara de encrenca. / Tenho cara de quem observa encrenca. / Pra mim dá no mesmo.
+B: Vou te dar um soco que você vai esquecer o nome. / Meu medo é justamente esquecer o nome. Pega leve. / ...Tá, isso pesou.
+
+=Lorenzo|Kano
+A: Dragão Negro. Mercenário barato. / Barato não, eficiente. / Barato e eficiente. Ótima propaganda.
+A: Seu olho a laser é bonito. / Valeu, parceiro. / Pena que eu vou quebrar.
+B: Quanto valeria sua foice no mercado? / Mais do que sua vida. / Ui, pesado.
+B: Você não é do bem, edeniano. / Não sou do mal também. Sou um meio-termo perigoso. / Meio-termo perigoso... gosto do som disso.
+
+=Lorenzo|Damon
+A: Você é sarcástico. Eu também. / Mas eu sou mais bonito. / Bonito eu sou. Você que tá exagerando.
+A: Você também cometeu escolhas cruéis. / Muitas. Algumas eu repetiria. / Pelo menos é honesto.
+B: Foice verde? Muito gótico. / Melhor que jaqueta de couro em todos os episódios. / Ui. Isso doeu.
+B: Você é bom em fazer piada. / Sou ótimo. Mas só com quem merece. / Eu mereço. Eu sou incrível.
+
+=Lorenzo|Lexi
+A: Melhor amiga do Stefan. Você cuida bem de quem ama. / Cuido. E você? / Tento. Mas às vezes eu mesmo sou o perigo.
+A: Você parece divertida. / Eu sou divertida! E você parece um emo. / Emo funcional. É diferente.
+B: Relaxa, você tá muito tenso. / É meu estado natural com estranhos. / Então vamos ser amigos rapidinho.
+B: Você precisa sorrir mais. / Eu sorrio. Só não perto de quem pode me ferir. / Que triste. Vou te fazer rir na porrada.
+
+=Lorenzo|Bonnie
+A: Bruxa Bennett. Você sente a energia em mim? / Sinto. É muita dor. / É muita gente. Dói igual.
+A: Você usa magia pra proteger. Eu uso pra sobreviver. / Proteger e sobreviver às vezes coincidem. / Comigo quase nunca coincidiu.
+B: Posso tentar acalmar essas almas. / Elas não querem calma. Querem justiça. / Então talvez eu ajude de outro jeito.
+B: Sua energia não é natural. / Nem eu sou mais. / Isso não significa que você não seja bom.
+
+=Lorenzo|Art the Clown
+A: Palhaço. Você me lembra a pior noite da minha vida. / (Art inclina a cabeça e sorri ainda mais.) / Isso não foi um convite.
+A: Sua serra contra minha foice. / (Art passa o dedo na serra e faz sinal de positivo.) / Vou considerar isso um sim.
+B: (Art acena com a mão, todo animado.) / Não, não vou acenar de volta. / (Art faz cara de choro.)
+B: (Art pega uma buzina e aperta duas vezes.) / Que susto. Só que não. / (Art tira a serra do saco.)
+
+=Lorenzo|Freddy Krueger
+A: Você entra em sonhos. Os meus são piores que você. / Ah, garoto, ninguém é pior que eu. / Já viu Veyrath em chamas? Eu vejo toda noite.
+A: Suas garras são bonitas. / Quer ver de perto? / Não, obrigado. Prefiro de longe.
+B: Que pesadelo delicioso você carrega. / São minhas lembranças. Não toca. / Eu toco em tudo, garoto.
+B: Nos sonhos, eu sou o rei. / Nos meus, quem manda são os mortos. Boa sorte. / ...Hmm.
+
+=Lorenzo|Jason Voorhees
+A: Outro que voltou do túmulo. / (Jason inclina levemente a máscara.) / Acho que a gente se entendeu.
+A: Facão contra foice. / (Jason ergue o facão devagar.) / Vou tomar isso como desafio aceito.
+B: (Jason avança em silêncio.) / Você não fala. Eu também prefiro não falar com estranhos. / (Jason segue andando, sem pressa.)
+B: (Jason fica parado, encarando Lorenzo.) / Isso é uma competição de quem pisca primeiro? / (Jason não pisca. Ele nem tem como.)
+
+=Lorenzo|Coelho
+A: Você também perdeu quem te protegia. / Perdi minha vó por pouco. Você perdeu mais. / Perda não é competição. Mas obrigado.
+A: Faca pequena, anéis grandes. / Foice grande, conversa pequena. / Essa doeu, admito.
+B: Você não serve a ninguém também. / Nunca. Nem a mim mesmo, às vezes. / Isso me agradou.
+B: Sua foice faz barulho demais. / Faz. É de propósito. Assusta. / Me assusta não.
+
+=Lorenzo|Tigre
+A: Seu pai fez um massacre. O meu morreu num. / ...A gente tá ligado por coisas horríveis. / Por isso a gente precisa ser melhor que elas.
+A: Gadanhos contra foice. Primos de lâmina. / Primos! Bora fazer um churrasco de família. / Depois da luta. Talvez.
+B: Você é muito sério, cara! / Com estranhos. Você ainda é um estranho. / Por enquanto!
+B: Bora ver quem corta mais rápido? / Você corta rápido. Eu corto certo. / Vai ser divertido!
+
+=Lorenzo|Cobra
+A: Você também carrega algo que não é seu. / Uma entidade. Há séculos. / E nunca teve medo de virar ela?
+A: Curandeiro que mata. Contraditório. / Toda cura tem um preço. / Eu paguei o meu adiantado.
+B: Sua energia seria um banquete pra mim. / Ela morde de volta. / Interessante.
+B: Você é o tipo de coisa que o Supremo caçaria. / Que venha. Eu caço de volta. / Ele vai gostar de você.
+
+=Lorenzo|Cabra
+A: Explosivos caseiros. Bem arriscado. / A vida é arriscada. / Concordo. Já explodiram minha casa uma vez.
+A: Você também perdeu alguém numa explosão. / Minha irmã. / ...Sinto muito. Sério.
+B: Bora ver se sua foice aguenta uma bombinha? / Aguenta. Eu que não sei. / Kkkk relaxa.
+B: Você tem cara de quem curte meme. / Curto. Mas só mando pra quem eu confio. / Então um dia eu recebo.
+
+=Lorenzo|Touro
+A: Subtenente. Você também quer trazer alguém de volta. / A Vera. E você? / Eu já voltei. Não recomendo.
+A: Suas armas são barulhentas. / E você é silencioso demais. / Equilíbrio.
+B: Você é disciplinado pra um garoto sem exército. / Minha disciplina é sobreviver. / Respeito.
+B: Rendição, edeniano. / Não sei me render. Nunca aprendi. / Então vai aprender hoje.

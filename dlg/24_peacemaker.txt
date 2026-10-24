@@ -1,0 +1,99 @@
+=Peacemaker|Peacemaker
+A: Outro eu! Que dia lindo para a paz! / Paz é quando sobra só um de nós. / Cara, isso foi pesado. E eu concordo totalmente.
+A: Seu capacete é mais brilhante que o meu? / Eu poli três vezes antes de vir. / Eu poli quatro. Paz através do polimento.
+
+=Peacemaker|Quan Chi
+A: Um necromante! Você é tipo um vilão de quadrinho. / Eu sou o mestre da morte. / Isso é exatamente o que um vilão de quadrinho diria.
+A: Seus zumbis são a favor da paz? / Meus Revenants são a favor do que eu mandar. / Então eles são a favor da minha munição.
+B: Soldado. Seu corpo seria um Revenant perfeito. / Meu corpo é um templo. Um templo armado. / Templos também caem.
+B: A morte é a paz definitiva. / Não! A paz definitiva é eu vivo e você não. / Que filosofia rasa.
+
+=Peacemaker|Raiden
+A: Raiden! Você é tipo um super-herói do campo! / Eu sou fazendeiro. / Super-herói fazendeiro. Isso vende muito.
+A: Seu raio é tipo uma arma de paz? / É uma arma de proteção. / Mesma coisa com mais educação.
+B: Você mata pela paz? / Paz através da violência! / Na minha vila, paz é quando ninguém precisa de arma. Você nunca viveu isso, né?
+B: Eu luto para proteger as pessoas. / Eu também! Só que com mais explosão. / Isso é diferente.
+
+=Peacemaker|Rain
+A: Um príncipe roxo. Você é tipo da realeza dos Smurfs? / Eu sou príncipe de Edênia! / Da Edênia dos Smurfs.
+A: Sua água é bonita. Ela apaga minhas explosões? / Ela apaga tudo. / Isso é um desafio.
+B: Soldado. Você brilha como uma panela. / Isso é um capacete cromado! / Uma panela cromada. Com armas.
+B: Ajoelhe-se diante de um príncipe. / Eu não me ajoelho. A não ser para amarrar a bota. / Então amarre e caia.
+
+=Peacemaker|Reiko
+A: Reiko! Todo grande vilão tem um capanga. Você é o do Shao. / Eu sou o braço direito. / O braço direito do capanga, então.
+A: Reiko! O seu general vai voltar? / Sempre. / Ótimo. Eu já guardei munição só para o reencontro.
+B: Soldado. Você é irritante. / Eu sou carismático. / O general mandaria você para a primeira fila.
+B: O general vai vencer. / Não neste roteiro. / Isso não é roteiro.
+
+=Peacemaker|Reptile
+A: Reptile! Fica invisível! Eu quero testar o meu detector de lagarto! / Isso não existe. / Existe. Eu inventei agora.
+A: Você seria um ótimo espião. / Eu prefiro ficar escondido. / Isso é ser espião.
+B: Soldado. Seu cheiro é de pólvora. / É o cheiro da paz! / É o cheiro de problema.
+B: Você chama muita atenção, soldado. / É o meu charme. / O meu é o contrário.
+
+=Peacemaker|Rudolf
+A: Rudolf! Você é engraçado. Eu também sou engraçado. Devíamos fazer um podcast. / Sobre o quê? / Paz e sarcasmo. Episódio um: como explodir uma ponte com estilo.
+A: Você queimou uma ponte inteira na guerra? Isso é paz nível avançado. / Isso foi estratégia. / Estratégia é paz com planejamento.
+B: Peacemaker. Seu capacete é tão brilhante que eu me vejo nele. E eu estou lindo. / Obrigado! Eu poli para você. / Isso foi estranhamente gentil.
+B: Minha mentora diz que você é um perigo para todos ao redor. / Sua mentora tem bom olho. / Ela tem dois. E um bastão.
+
+=Peacemaker|Scorpion
+A: Scorpion! Você é tipo um ninja de paz? / Eu sou um ninja de honra. / Paz com honra. Gostei.
+A: Seu fogo é demais. / Meu fogo protege. / Paz e fogo. Somos irmãos!
+B: Soldado. Você mata sem honra. / Eu mato com paz. / Isso não existe.
+B: Soldado. Você mata em nome da paz. / Paz através da violência! / O Shirai Ryu chama isso de desculpa.
+
+=Peacemaker|Sektor
+A: Sektor! Seus mísseis são lindos. / São eficientes. / Eficiência é paz.
+A: Você é tipo uma ninja robô? / Eu sou uma tenente com armadura. / Ninja robô.
+B: Análise: soldado com arsenal excessivo. / Excessivo e merecido. / Confirmado.
+B: Você muda de arma a cada três segundos. / É estratégia de paz. / É falta de foco. Mas confunde os meus sensores. Ponto para você.
+
+=Peacemaker|Shang Tsung
+A: Shang Tsung, vira eu! / Por quê? / Para eu ver se fico bem de bigode.
+A: Você rouba almas. Eu roubo... munição. / Isso não é o mesmo. / Ambos são roubos.
+B: Soldado. Sua alma seria tão confusa. / Minha alma é linda. / Confusa.
+B: Eu posso te dar a paz eterna. / Eu prefiro a paz temporária com explosões. / Que tolo.
+
+=Peacemaker|Sindel
+A: Imperatriz! Sua voz é tipo uma arma de paz. / Minha voz protege. / Paz com proteção.
+A: Imperatriz, a senhora tem uma elegância de comandante. / E você tem a elegância de um caminhão. / Obrigado! Caminhões são confiáveis.
+B: Soldado. Você está pisando nas minhas rosas. / Eu estou protegendo a paz! / A paz das minhas rosas acabou.
+B: Soldado. Ajoelhe-se diante da imperatriz. / Isso é um pedido? / É uma ordem. E um favor ao meu jardim.
+
+=Peacemaker|Smoke
+A: Smoke! Você some na fumaça. Isso é demais! / É tática. / Tática demais.
+A: Smoke, você seria um ótimo dublê de explosão. / Eu sou um assassino. / Assassinos também explodem. Às vezes por acidente.
+B: Soldado. Você é barulhento até respirando. / Eu sou um pacificador. / Pacificador barulhento. Contradição viva.
+B: Soldado. Lute sem fazer pose. / Isso é impossível. / Então perca com pose e capacete.
+
+=Peacemaker|Sub-Zero
+A: Sub-Zero! Você é tipo um vilão de quadrinho gelado! / Eu sou o Grão-Mestre do Lin Kuei. / Um vilão com plano de carreira.
+A: Seu gelo seria ótimo para conservar minhas armas. / Meu gelo é para inimigos. / Inimigos e armas.
+B: Soldado. O seu capacete brilha demais para um campo de batalha. / É estilo. / Vai ser estilo congelado.
+B: Soldado. O Lin Kuei não teme você. / Ninguém teme. Mas todos me respeitam. / Ninguém respeita. Eles só desviam.
+
+=Peacemaker|T-1000
+A: T-1000! Você é tipo um robô assassino. / Eu sou um protótipo avançado. / Robô assassino avançado.
+A: T-1000, vira eu! / Posso. / Isso é incrível. Agora vira o Eagly.
+B: Alvo: soldado. Ameaça moderada. / Moderada?! / Recalculando. Moderada e barulhenta.
+B: Você é ineficiente. / Eu sou pacificador. / Pacificação com sete armas. Contradição registrada.
+
+=Peacemaker|Takeda
+A: Takeda! Você é meu fã? / Não. / Ninguém nesse multiverso tem bom gosto.
+A: Seus chicotes são demais. / Kunais. / Kunais demais.
+B: Peacemaker! Meu pai disse que você é perigoso. / Seu pai tem bom gosto. / Ele não estava elogiando.
+B: Peacemaker, posso espiar a sua cabeça? / Você vai ver paz. / Eu estou vendo explosões. Muitas.
+
+=Peacemaker|Tanya
+A: Tanya, você namora a imperatriz? Isso é tipo um conto de fadas armado. / Ela também é armada. / Melhor conto de fadas.
+A: Tanya, você é calma demais. Isso me assusta. / Calma é força. / Calma é uma arma silenciosa. E eu gosto de armas.
+B: Soldado. Fique longe da imperatriz. / Eu só pedi um autógrafo. / Ela não dá autógrafo para gente de capacete cromado.
+B: Soldado. Você é engraçado. / Obrigado! / A imperatriz não acha. E a opinião dela é a única que importa aqui.
+
+=Peacemaker|Teresa
+A: Teresa! Você é tipo uma vilã de novela. / Eu sou a protagonista. / Protagonista vilã.
+A: Teresa, você é linda e perigosa. Igual a uma granada com batom. / Isso é um elogio? / É o melhor que eu sei fazer.
+B: Soldado. Você precisa de um advogado. / Para quê? / Para quando a paz explodir na sua cara.
+B: Você mata pela paz? / Exato. / Eu minto pelo lucro. Somos parecidos.
