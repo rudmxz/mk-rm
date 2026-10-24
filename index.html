@@ -3058,6 +3058,24 @@ html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-
 .ad-html.adana .adana-s{font-size:.8rem;opacity:.9}
 @media (orientation:landscape) and (max-height:520px){.ad-html.adana .adana-pic{width:min(24vh,110px)}.ad-html.adana .adh-in{gap:.35rem}.ad-html.adana .adana-q{font-size:.85rem}}
 @media (orientation:landscape) and (max-height:520px){.ad-html.adana .adh-t{font-size:1.7rem}.ad-html.adana .adh-foot{display:none}.ad-html.adana .adana-pic{width:min(22vh,92px)}.ad-html.adana .adana-s{font-size:.7rem}}
+/* skins */
+.sel-skin{flex:none;height:24px;padding:0 10px;border-radius:12px;border:1px solid #c9a46a;background:rgba(0,0,0,.6);color:#f3dcae;font:700 12px/1 var(--f-ui,inherit);letter-spacing:.5px;text-transform:uppercase;cursor:pointer}
+.sel-skin[hidden]{display:none!important}
+.sel-nrow{gap:6px;flex-wrap:wrap}
+.kr-card.skin .kr-sb{font-size:12px;color:#9fb0c9;text-align:center;margin:-2px 0 4px}
+.sk-modal{position:fixed;inset:0;z-index:9500;display:grid;place-items:center;background:rgba(0,0,0,.72);padding:16px}
+.sk-box{width:min(92vw,520px);max-height:92vh;overflow:auto;background:linear-gradient(180deg,#1b2233,#0d111b);border:1px solid #7aa4e0;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:12px;align-items:center;box-shadow:0 0 30px rgba(0,0,0,.7)}
+.sk-t{font-size:22px;color:#fff;letter-spacing:1px;text-transform:uppercase}
+.sk-coins{display:flex;align-items:center;gap:6px;color:#ffd88a;font-weight:700}
+.sk-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.sk-opt{width:120px;background:rgba(10,14,22,.8);border:2px solid #3a4a64;border-radius:6px;padding:6px;color:#dbe6f7;display:flex;flex-direction:column;gap:5px;align-items:center;cursor:pointer;font:inherit}
+.sk-opt.on{border-color:#ffd88a;box-shadow:0 0 14px rgba(255,216,138,.45)}
+.sk-pic{position:relative;width:100%;aspect-ratio:1;border-radius:4px;overflow:hidden;background:#000}
+.sk-pic img{width:100%;height:100%;object-fit:cover;display:block}
+.sk-opt.lock .sk-pic img{filter:grayscale(.6) brightness(.7)}
+.sk-lk{position:absolute;inset:0;display:grid;place-items:center;font-size:26px}
+.sk-opt b{font-size:13px;line-height:1.15;text-align:center}
+.sk-st{font-size:12px;display:flex;align-items:center;gap:4px;color:#ffd88a}
 </style>
 
 <div class="wrap">
@@ -3187,7 +3205,7 @@ html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-
       <div class="sel-stage" id="selStage">
         <div class="sel-side l"><button type="button" class="sel-slot p1" id="slot0" aria-pressed="false"><span class="sel-spic" id="slotPic0"></span><span class="sel-st" id="slotT0"></span><span class="sel-sn" id="slotN0">—</span></button><button type="button" class="sel-slot p1" id="slot2" aria-pressed="false"><span class="sel-spic" id="slotPic2"></span><span class="sel-st" id="slotT2"></span><span class="sel-sn" id="slotN2">—</span></button></div>
         <div class="sel-hero">
-          <div class="sel-nrow"><h2 class="sel-name" id="selName">Aleatório</h2><button type="button" class="sel-info" id="btnInfo" aria-label="Ver detalhes" hidden>i</button></div><div class="sel-lvl" id="selLvl" hidden></div>
+          <div class="sel-nrow"><h2 class="sel-name" id="selName">Aleatório</h2><button type="button" class="sel-info" id="btnInfo" aria-label="Ver detalhes" hidden>i</button><button type="button" class="sel-skin" id="btnChSkin" hidden>Skin</button></div><div class="sel-lvl" id="selLvl" hidden></div>
           <div class="sel-photo" id="selPhoto"></div>
           <button type="button" class="sel-go" id="btnLutar">Selecionar</button>
           <p class="sel-hint" id="pickHint"></p>
@@ -3409,7 +3427,7 @@ html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-
 <div id="krBg" hidden><img class="krbg-main" src="img/kripta/fundo.jpg" alt=""><img class="krbg-tvd" src="img/tvd/fundo.jpg" alt="" loading="lazy"><div class="kr-bats" aria-hidden="true"><i class="kb" style="--t:45%;--d:13.6s;--w:-7.3s;--s:0.53"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb r" style="--t:16%;--d:9.6s;--w:-11.3s;--s:0.86"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb" style="--t:8%;--d:7.6s;--w:-7.0s;--s:0.67"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb r" style="--t:58%;--d:7.4s;--w:-5.2s;--s:1.16"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb" style="--t:11%;--d:11.0s;--w:-7.2s;--s:1.18"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb r" style="--t:9%;--d:10.9s;--w:-10.4s;--s:0.79"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb" style="--t:19%;--d:11.0s;--w:-5.3s;--s:0.98"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb r" style="--t:17%;--d:11.1s;--w:-4.3s;--s:0.76"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb" style="--t:12%;--d:11.0s;--w:-4.6s;--s:0.85"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb r" style="--t:58%;--d:12.4s;--w:-6.4s;--s:1.15"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb" style="--t:50%;--d:9.1s;--w:-2.5s;--s:0.99"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i><i class="kb r" style="--t:35%;--d:7.6s;--w:-8.4s;--s:0.85"><svg viewBox="0 0 64 28"><path d="M32 9c1.6-3 2.4-4 3-6 .5 2 .3 3 .8 4.4 2.6-1.8 7.2-4.6 12.2-5 4.4-.3 9 1.4 13 4.2-3.4-.2-5.6.8-7 2.6-2.2-1.6-4.8-1.2-6.2.8-2.4-1.4-5.2-.4-6.2 2.2-1.8.2-4 2.4-5.6 5.8-1.6-3.4-3.8-5.6-5.6-5.8-1-2.6-3.8-3.6-6.2-2.2-1.4-2-4-2.4-6.2-.8-1.4-1.8-3.6-2.8-7-2.6 4-2.8 8.6-4.5 13-4.2 5 .4 9.6 3.2 12.2 5 .5-1.4.3-2.4.8-4.4.6 2 1.4 3 3 6z" fill="currentColor"/></svg></i></div></div>
 <div id="kripta" hidden role="dialog" aria-label="Kripta">
   <div class="kr-head"><div class="kr-title">Kripta</div><div class="kr-coins"><span class="coin"></span><b id="krCoinN">0</b></div><button type="button" class="kr-close" id="krClose">Sair</button></div>
-  <div class="kr-tabs" role="tablist"><button type="button" role="tab" data-t="chars">Personagens</button><button type="button" role="tab" data-t="arenas">Arenas</button><button type="button" role="tab" data-t="habs">Habilidades</button><button type="button" role="tab" data-t="artes">Artes</button><button type="button" role="tab" data-t="tvd" class="kr-tab-tvd">Vampire Diaries</button></div>
+  <div class="kr-tabs" role="tablist"><button type="button" role="tab" data-t="chars">Personagens</button><button type="button" role="tab" data-t="arenas">Arenas</button><button type="button" role="tab" data-t="habs">Habilidades</button><button type="button" role="tab" data-t="skins">Skins</button><button type="button" role="tab" data-t="artes">Artes</button><button type="button" role="tab" data-t="tvd" class="kr-tab-tvd">Vampire Diaries</button></div>
   <div class="kr-criador" id="krCriador" hidden>Modo do Criador ativo: tudo liberado.</div>
   <div class="kr-body" id="krBody"></div>
   <div class="kr-modal" id="krModal" hidden></div>
@@ -6285,7 +6303,7 @@ function renderOfficial(){
 }
 function selHero(){const k=selCur;const s=k&&k!=='rnd'?selInfo(k):null;
   $('#selName').textContent=s?s.n:'Aleatório';$('#selPhoto').innerHTML=selPicHtml(k);{const el=$('#selLvl');if(el){if(s){const p=PROG.c[k]||{xp:0};const lv=lvFromXp(p.xp||0),nx=xpNext(p.xp||0),prev=LV_XP[lv-1]||0;el.hidden=false;el.innerHTML=`<b>Nível ${lv}</b><span class="sl-bar"><i style="width:${nx?Math.round(((p.xp||0)-prev)/(nx-prev)*100):100}%"></i></span><small>${nx?`${p.xp||0}/${nx} XP`:'máximo'}</small>`;}else el.hidden=true;}}$('#selPhoto').classList.toggle('p2',pickSlot%2===1);
-  $('#btnInfo').hidden=!s;
+  $('#btnInfo').hidden=!s;{const sk=$('#btnChSkin');if(sk)sk.hidden=!(s&&!s.user&&skOf(s.n).length);}
   const who=selLabel(pickSlot);$('#pickHint').textContent=`${who}: ${pickSlot%2===0?(pickSlot>=2?'escolha a reserva':'escolha seu lutador'):(pickSlot>=2?'escolha a reserva':pickMode==='2p'?'escolha seu lutador':pickMode==='treino'?'escolha o boneco':'escolha o oponente')}`;
   const last=pickOrder().filter(i=>!pickSel[i]&&i!==pickSlot).length===0;
   $('#btnLutar').textContent='Selecionar';$('#btnLutar').classList.toggle('last',last);}
@@ -6328,6 +6346,7 @@ function selConfirm(){if(!pickOrder().includes(pickSlot))pickSlot=pickOrder()[0]
   pickSlot=nx;selCur=pickSel[nx]||'rnd';renderOfficial();}
 $$('.duo-tog button').forEach(b=>b.onclick=()=>{const v=b.dataset.duo==='1';if(v===pickDuo)return;pickDuo=v;if(!v){pickSel[2]=null;pickSel[3]=null;}pickSlot=nextSlot();selCur=pickSel[pickSlot]||'rnd';SFX.tick();renderOfficial();});
 [0,1,2,3].forEach(i=>$('#slot'+i).onclick=()=>{pickSlot=i;selCur=pickSel[i]||'rnd';pickSel[i]=null;SFX.tick();renderOfficial();});
+$('#btnChSkin').onclick=()=>{const k=selCur;if(!k||k==='rnd'||k.startsWith('u:'))return;skOpen(k.slice(2));};
 $('#btnInfo').onclick=()=>{const k=selCur;if(!k||k==='rnd')return;if(k.startsWith('u:'))openChar(k.slice(2));else openOfficial(k.slice(2));};
 $('#selMenu').onclick=()=>$('#tabMenu').click();
 $('#selPrev').onclick=()=>selGoPage(selPage-1);$('#selNext').onclick=()=>selGoPage(selPage+1);
@@ -9630,17 +9649,17 @@ const BOOK2={id:2,cap:'Capítulo 2',t:'As Vozes de Veyrath',key:'forja_mk_histor
 
 /* ====== KRIPTA: loja de personagens, arenas e artes ====== */
 const KR_KEY='forja_mk_kripta';
-let KR=(()=>{const v=LS.get(KR_KEY,null)||{};return {chars:Array.isArray(v.chars)?v.chars:[],arenas:Array.isArray(v.arenas)?v.arenas:[],arts:Array.isArray(v.arts)?v.arts:[],habs:Array.isArray(v.habs)?v.habs:[],ev:(v.ev&&typeof v.ev==='object')?v.ev:{hw:0}}})();
+let KR=(()=>{const v=LS.get(KR_KEY,null)||{};return {chars:Array.isArray(v.chars)?v.chars:[],arenas:Array.isArray(v.arenas)?v.arenas:[],arts:Array.isArray(v.arts)?v.arts:[],habs:Array.isArray(v.habs)?v.habs:[],skins:Array.isArray(v.skins)?v.skins:[],ev:(v.ev&&typeof v.ev==='object')?v.ev:{hw:0}}})();
 function krSave(){LS.set(KR_KEY,KR)}
 /* cheat "Moedas 99999": guarda o saldo e as compras de antes; ao desligar, tudo volta */
 const SNAP_KEY='forja_mk_cheat_snap';
 function cheatMoedas(on){const s=LS.get(SNAP_KEY,null);
   if(on){if(!s)LS.set(SNAP_KEY,{m:MOEDAS,kr:JSON.parse(JSON.stringify(KR)),log:MOEDA_LOG.slice()});CHEAT.moedas=true;MOEDAS=99999;LS.set('forja_mk_moedas',MOEDAS);toast('Cheat ligado: 99.999 moedas.');}
-  else{CHEAT.moedas=false;if(s){MOEDAS=+s.m||0;KR.chars=s.kr.chars||[];KR.arenas=s.kr.arenas||[];KR.arts=s.kr.arts||[];KR.habs=s.kr.habs||[];KR.ev=s.kr.ev||{hw:0};krSave();MOEDA_LOG=Array.isArray(s.log)?s.log:[];LS.set('forja_mk_moedas',MOEDAS);LS.set('forja_mk_moedas_log',MOEDA_LOG);LS.set(SNAP_KEY,null);}
+  else{CHEAT.moedas=false;if(s){MOEDAS=+s.m||0;KR.chars=s.kr.chars||[];KR.arenas=s.kr.arenas||[];KR.arts=s.kr.arts||[];KR.habs=s.kr.habs||[];KR.skins=s.kr.skins||[];KR.ev=s.kr.ev||{hw:0};krSave();MOEDA_LOG=Array.isArray(s.log)?s.log:[];LS.set('forja_mk_moedas',MOEDAS);LS.set('forja_mk_moedas_log',MOEDA_LOG);LS.set(SNAP_KEY,null);}
     pickSel=pickSel.map(k=>keyLocked(k)?null:k);toast('Cheat desligado: saldo e compras voltaram ao que eram antes.');}
   try{renderCoins()}catch(e){}try{if(krOpen)renderKripta()}catch(e){}}
 /* se a página fechou com o cheat ligado, desfaz ao abrir de novo */
-(function(){const s=LS.get(SNAP_KEY,null);if(s&&typeof s==='object'){MOEDAS=+s.m||0;LS.set('forja_mk_moedas',MOEDAS);if(s.kr){KR={chars:s.kr.chars||[],arenas:s.kr.arenas||[],arts:s.kr.arts||[],habs:s.kr.habs||[],ev:s.kr.ev||{hw:0}};krSave();}if(Array.isArray(s.log)){MOEDA_LOG=s.log;LS.set('forja_mk_moedas_log',MOEDA_LOG);}LS.set(SNAP_KEY,null);}})();
+(function(){const s=LS.get(SNAP_KEY,null);if(s&&typeof s==='object'){MOEDAS=+s.m||0;LS.set('forja_mk_moedas',MOEDAS);if(s.kr){KR={chars:s.kr.chars||[],arenas:s.kr.arenas||[],arts:s.kr.arts||[],habs:s.kr.habs||[],skins:s.kr.skins||[],ev:s.kr.ev||{hw:0}};krSave();}if(Array.isArray(s.log)){MOEDA_LOG=s.log;LS.set('forja_mk_moedas_log',MOEDA_LOG);}LS.set(SNAP_KEY,null);}})();
 const KR_FREE=['Rudolf','Kitana','Mileena','Sindel','Liu Kang','Kung Lao','Raiden','Johnny Cage','Scorpion','Sub-Zero','Li Mei','Baraka','Ana Letícia'];
 const KR_STORY={'Reiko':1,'Teresa':2,'Katherine Pierce':3,'Nitara':3,'Rain':6,'Havik':7,'Shang Tsung':9,'Jade':10,'General Shao':10};
 const KR_STORY_LBL=i=>i===10?'terminar o Modo História':`terminar o ${i===0?'Prólogo':'Capítulo '+i} do Modo História`;
@@ -9664,7 +9683,7 @@ function spendCoins(n,motivo){if(MOEDAS<n)return false;MOEDAS-=n;LS.set('forja_m
 
 /* ---- artes ---- */
 function krArts(){const a=[];
-  Object.keys(FOTO).filter(n=>!KR_SOON.includes(n)).sort((x,y)=>x.localeCompare(y,'pt')).forEach(n=>a.push({id:'p:'+n,cat:'Personagens',n,src:FOTO[n],price:KR_PRICE.arte}));
+  Object.keys(FOTO).filter(n=>!KR_SOON.includes(n)).sort((x,y)=>x.localeCompare(y,'pt')).forEach(n=>a.push({id:'p:'+n,cat:'Personagens',n,src:fotoOrig(n),price:KR_PRICE.arte}));
   STAGES.filter(s=>!s.soon).forEach(s=>a.push({id:'a:'+s.k,cat:'Arenas',n:s.n,src:s.img,price:KR_PRICE.arte}));
   [['Pôster do menu','img/menu-poster.jpg'],['Tela inicial','img/intro-bg.jpg'],['Jogar','img/menu/jogar.jpg'],['Treinamento','img/menu/treino.jpg'],['Criar Kombatente','img/menu/criar.jpg'],['Extras','img/menu/extras.jpg'],['Opções','img/menu/opcoes.jpg'],
    ['Carregamento 1','img/load/1.jpg'],['Carregamento 2','img/load/2.jpg'],['Carregamento 3','img/load/3.jpg'],['Carregamento 4','img/load/4.jpg'],['Carregamento 5','img/load/5.jpg'],['Carregamento 6','img/load/6.jpg'],['Carregamento 7','img/load/7.jpg'],['A Kripta','img/kripta/fundo.jpg']]
@@ -9676,7 +9695,8 @@ let krGoto=null;let krTab='chars',krScareT=null,krBg=true,krOpen=false;
 function krCoins(){$('#krCoinN').textContent=MOEDAS.toLocaleString('pt-BR');}
 function krBtn(price,owned,id,kind){if(owned)return `<span class="kr-own">✓ Liberado</span>`;if(!price)return `<button type="button" class="kr-buy kr-free" data-buy="${esc(id)}" data-kind="${kind}" data-price="0">Resgatar grátis</button>`;const can=MOEDAS>=price;return `<button type="button" class="kr-buy${can?'':' poor'}" data-buy="${esc(id)}" data-kind="${kind}" data-price="${price}"><span class="coin"></span>${price}</button>`;}
 function krArenaCard(s){const owned=krHasArena(s.k);return `<div class="kr-card arena${owned?' own':''}" data-arena="${s.k}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${owned?'':'<span class="kr-lock">🔒</span>'}${s.price>=250?'<span class="kr-rare">Especial</span>':''}</div><div class="kr-n">${esc(s.n)}</div>${krBtn(s.price,owned,s.k,'arena')}</div>`}
-function krCharCard(n){const owned=krOwns(n);return `<div class="kr-card${owned?' own':''}"><div class="kr-pic">${FOTO[n]?`<img src="${FOTO[n]}" alt="" loading="lazy">`:''}${owned?'':'<span class="kr-lock">🔒</span>'}</div><div class="kr-n">${esc(n)}</div>${krBtn(krCharPrice(n),owned,n,'char')}</div>`;}
+function krCharCard(n){const owned=krOwns(n);return `<div class="kr-card${owned?' own':''}"><div class="kr-pic">${FOTO[n]?`<img src="${fotoOrig(n)}" alt="" loading="lazy">`:''}${owned?'':'<span class="kr-lock">🔒</span>'}</div><div class="kr-n">${esc(n)}</div>${krBtn(krCharPrice(n),owned,n,'char')}</div>`;}
+function krSkinCard(s){const o=skOwned(s.id),base=!charLock(s.c);return `<div class="kr-card skin${o?' own':''}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${o?'':'<span class="kr-lock">🔒</span>'}</div><div class="kr-n">${esc(s.n)}</div><div class="kr-sb">${base?'Para '+esc(s.c):'Precisa de '+esc(s.c)}</div>${krBtn(s.price,o,s.id,'skin')}</div>`}
 function krPackPrice(p){const rest=p.list.filter(n=>!krOwns(n));if(!rest.length)return 0;const each=p.each||KR_PRICE.dlc;return rest.length===p.list.length?(p.pack||KR_PRICE.pack):Math.round(rest.length*each*.83/50)*50;}
 function renderKripta(){krCoins();{const tv=krTab==='tvd';$('#krBg').classList.toggle('tvd',tv);$('#kripta').classList.toggle('tvd',tv);if(krOpen)MUSIC.setOverride(tv?'tvd':'kripta');}$('#krCriador').hidden=!CHEAT.criador;$$('.kr-tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===krTab));const box=$('#krBody');let h='';
   if(krTab==='chars'){
@@ -9687,6 +9707,9 @@ function renderKripta(){krCoins();{const tv=krTab==='tvd';$('#krBg').classList.t
     KR_PACKS.filter(p=>!p.page).forEach(p=>{const pp=krPackPrice(p);h+=`<h4 class="kr-h" data-pack="${p.id}">${esc(p.n)} <small>${p.each||KR_PRICE.dlc} cada</small></h4>${pp?`<div class="kr-pack"><span>Pacote com ${p.list.filter(n=>!krHasChar(n)).length} lutadores</span>${krBtn(pp,false,p.id,'pack')}</div>`:''}<div class="kr-grid">${p.list.map(krCharCard).join('')}</div>`;});
     h+=`<h4 class="kr-h">Participação especial <small>${KR_PRICE.extra} moedas</small></h4><div class="kr-grid">${krCharCard('Ladybug')}</div>`;
     h+=`<h4 class="kr-h">Modo História <small>não estão à venda</small></h4><div class="kr-grid">${Object.keys(KR_STORY).map(n=>{const L=charLock(n);return `<div class="kr-card${L?'':' own'}"><div class="kr-pic">${FOTO[n]?`<img src="${FOTO[n]}" alt="" loading="lazy">`:''}${L?'<span class="kr-lock">📖</span>':''}</div><div class="kr-n">${esc(n)}</div>${L?`<span class="kr-story">${n==='General Shao'?'Termine a história':KR_STORY[n]===10?'Termine a história':'Capítulo '+KR_STORY[n]}</span>`:'<span class="kr-own">✓ Liberado</span>'}</div>`}).join('')}</div>`;
+  }else if(krTab==='skins'){
+    h+=`<p class="kr-hab-note">Skins mudam a aparência do lutador. Todos podem comprar, mas só dá para usar a skin com o personagem liberado. Escolha na seleção de lutador, no botão <b>Skin</b>.</p>`;
+    h+=`<h4 class="kr-h">Ninjas Femininas <small>${SKN[0].price} moedas cada</small></h4><div class="kr-grid">${SKN.map(krSkinCard).join('')}</div>`;
   }else if(krTab==='arenas'){
     h+=`<h4 class="kr-h">Arenas novas</h4><div class="kr-grid wide">${STAGES.filter(s=>s.price&&!s.pack).map(krArenaCard).join('')}</div>`;
     h+=`<h4 class="kr-h kr-hw">🎃 Evento de Halloween <small>só na roleta</small></h4><div class="kr-grid wide">${STAGES.filter(s=>s.ev==='hw').map(s=>{const o=krHasArena(s.k);return `<div class="kr-card arena hw${o?' own':''}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${o?'':'<span class="kr-lock">🎃</span>'}</div><div class="kr-n">${esc(s.n)}</div>${o?'<span class="kr-own">✓ Liberado</span>':'<button type="button" class="kr-story kr-goev" data-goev="1">Só na Roleta de Halloween</button>'}</div>`}).join('')}</div>`;
@@ -9706,14 +9729,14 @@ function renderKripta(){krCoins();{const tv=krTab==='tvd';$('#krBg').classList.t
   }
   box.innerHTML=h;}
 function krConfirm(kind,id,price){if(!price&&(kind==='char'||kind==='hexa')){const ns=kind==='hexa'?KR_HEXA.filter(n=>!KR.chars.includes(n)):[id];ns.forEach(n=>{if(!KR.chars.includes(n))KR.chars.push(n)});krSave();SFX.coin();SFX.gong();renderKripta();toast(kind==='hexa'?'Hexatombe resgatado! Os 5 já estão na seleção.':`${id} resgatado! Já está na seleção.`);return;}
-  const name=kind==='pack'?KR_PACKS.find(p=>p.id===id).n:kind==='arena'?STAGES.find(s=>s.k===id).n:kind==='art'?krArts().find(a=>a.id===id).n:kind==='hab'?habById(id).n:kind==='def'?defById(id).n:id;
+  const name=kind==='pack'?KR_PACKS.find(p=>p.id===id).n:kind==='arena'?STAGES.find(s=>s.k===id).n:kind==='art'?krArts().find(a=>a.id===id).n:kind==='skin'?skById(id).n:kind==='hab'?habById(id).n:kind==='def'?defById(id).n:id;
   const can=MOEDAS>=price;const M=$('#krModal');
   M.innerHTML=`<div class="kr-mbox"><div class="kr-mt">${can?'Desbloquear':'Moedas insuficientes'}</div><div class="kr-mn">${esc(name)}${kind==='art'?' <small>(arte)</small>':''}</div><div class="kr-mp"><span class="coin"></span>${price}</div><p>${can?`Você fica com ${MOEDAS-price} moedas.`:`Faltam ${price-MOEDAS} moedas. Volte a lutar!`}</p><div class="kr-mact">${can?'<button type="button" class="f-btn big" data-ok="1">Comprar</button>':''}<button type="button" class="f-btn" data-no="1">${can?'Cancelar':'Ok'}</button></div></div>`;
   M.hidden=false;SFX.tick();
   M.onclick=e=>{if(e.target.closest('[data-no]')||e.target===M){M.hidden=true;return}
     if(e.target.closest('[data-ok]')){if(!spendCoins(price,'Kripta: '+name)){M.hidden=true;return}
-      if(kind==='char')KR.chars.push(id);else if(kind==='pack')KR_PACKS.find(p=>p.id===id).list.forEach(n=>{if(!KR.chars.includes(n))KR.chars.push(n)});else if(kind==='arena')KR.arenas.push(id);else if(kind==='hab'||kind==='def'){if(!KR.habs.includes(id))KR.habs.push(id);}else KR.arts.push(id);
-      krSave();SFX.coin();SFX.gong();M.hidden=true;renderKripta();toast(kind==='hab'||kind==='def'?`${name} comprada! Equipe em Criar Kombatente › Evolução.`:`${name} desbloqueado!`);}};}
+      if(kind==='char')KR.chars.push(id);else if(kind==='pack')KR_PACKS.find(p=>p.id===id).list.forEach(n=>{if(!KR.chars.includes(n))KR.chars.push(n)});else if(kind==='arena')KR.arenas.push(id);else if(kind==='skin'){if(!KR.skins.includes(id))KR.skins.push(id);}else if(kind==='hab'||kind==='def'){if(!KR.habs.includes(id))KR.habs.push(id);}else KR.arts.push(id);
+      krSave();SFX.coin();SFX.gong();M.hidden=true;renderKripta();toast(kind==='skin'?`${name} comprada! Escolha na seleção de lutador, botão Skin.`:kind==='hab'||kind==='def'?`${name} comprada! Equipe em Criar Kombatente › Evolução.`:`${name} desbloqueado!`);}};}
 function krView(id){const a=krArts().find(x=>x.id===id);if(!a)return;const V=$('#krView');V.innerHTML=`<img src="${a.src}" alt="${esc(a.n)}"><div class="kr-vn">${esc(a.n)}</div><div class="kr-vh">Toque para fechar</div>`;V.hidden=false;V.onclick=()=>{V.hidden=true};}
 function krScareSchedule(){clearTimeout(krScareT);if(!krOpen||LS.get('forja_mk_susto',true)===false)return;const s=[30,45,60,38,52][Math.floor(Math.random()*5)];krScareT=setTimeout(krScare,s*1000);}
 function krScare(){if(!krOpen)return;if(!$('#krModal').hidden||!$('#krView').hidden){krScareT=setTimeout(krScare,4000);return}
@@ -9729,6 +9752,37 @@ function closeKripta(){krOpen=false;clearTimeout(krScareT);
 $('#krClose').onclick=()=>{SFX.hit();closeKripta();};
 $$('.kr-tabs button').forEach(b=>b.onclick=()=>{krTab=b.dataset.t;SFX.tick();renderKripta();$('#krBody').scrollTop=0;});
 $('#krBody').addEventListener('click',e=>{if(e.target.closest('[data-goev]')){SFX.hit();krOpen=false;clearTimeout(krScareT);loading({action:()=>{$('#kripta').hidden=true;$('#krBg').hidden=true;$('#krModal').hidden=true;document.body.classList.remove('krypt');document.body.style.overflow='';WEAP.toggle(krBg);openEventos('roleta');}});return}const b=e.target.closest('[data-buy]');if(b){krConfirm(b.dataset.kind,b.dataset.buy,+b.dataset.price);return}const v=e.target.closest('[data-view]');if(v){SFX.tick();krView(v.dataset.view);}});
+
+/* ====== SKN: aparências extras vendidas na Kripta ====== */
+const SKN=[
+  {id:'mileena-rosa',c:'Mileena',n:'Mileena Neon Rosa',img:'img/s/mileena-rosa.jpg',price:100},
+  {id:'jade-mk2',c:'Jade',n:'Jade MK2 Classic',img:'img/s/jade-mk2.jpg',price:100},
+  {id:'kitana-safira',c:'Kitana',n:'Kitana Safira Imperial',img:'img/s/kitana-safira.jpg',price:100}
+];
+const SK_KEY='forja_mk_skin_eq';
+let SK_EQ=(()=>{const v=LS.get(SK_KEY,null);return v&&typeof v==='object'?v:{}})();
+const FOTO0={};
+const skById=id=>SKN.find(s=>s.id===id)||null;
+const skOf=c=>SKN.filter(s=>s.c===c);
+const skOwned=id=>!!CHEAT.criador||(KR.skins||[]).includes(id);
+/* skin em uso: precisa estar comprada, equipada e o personagem base liberado */
+function skActive(c){const s=skById(SK_EQ[c]);return s&&s.c===c&&skOwned(s.id)&&!charLock(c)?s:null;}
+function skEquip(c,id){if(id)SK_EQ[c]=id;else delete SK_EQ[c];LS.set(SK_KEY,SK_EQ);}
+const fotoOrig=n=>FOTO0[n]||FOTO[n];
+[...new Set(SKN.map(s=>s.c))].forEach(c=>{let orig=FOTO[c];FOTO0[c]=orig;
+  Object.defineProperty(FOTO,c,{enumerable:true,configurable:true,get(){const s=skActive(c);return s?s.img:orig},set(v){orig=v;FOTO0[c]=v}});});
+/* ---- janela de escolha de skin (na seleção) ---- */
+function skClose(){const m=$('#skModal');if(m)m.remove();}
+function skOpen(c){skClose();const M=document.createElement('div');M.id='skModal';M.className='sk-modal';M.setAttribute('role','dialog');M.setAttribute('aria-label','Skins de '+c);
+  const draw=()=>{const cur=skActive(c);const opts=[{id:null,n:'Original',img:FOTO0[c]}].concat(skOf(c));
+    M.innerHTML=`<div class="sk-box"><div class="sk-t">Skins de ${esc(c)}</div><div class="sk-coins"><span class="coin"></span>${MOEDAS.toLocaleString('pt-BR')}</div><div class="sk-row">${opts.map(o=>{const on=(cur?cur.id:null)===o.id;const own=!o.id||skOwned(o.id);
+      return `<button type="button" class="sk-opt${on?' on':''}${own?'':' lock'}" data-sk="${o.id||''}"><span class="sk-pic"><img src="${o.img}" alt="">${own?'':'<span class="sk-lk">🔒</span>'}</span><b>${esc(o.n)}</b><span class="sk-st">${on?'✓ Em uso':own?'Usar':`<span class="coin"></span>${o.price} · Comprar`}</span></button>`}).join('')}</div><button type="button" class="f-btn" data-sk-x="1">Fechar</button></div>`;};
+  draw();document.body.appendChild(M);SFX.tick();
+  M.onclick=e=>{if(e.target===M||e.target.closest('[data-sk-x]')){SFX.tick();skClose();return}
+    const b=e.target.closest('[data-sk]');if(!b)return;const id=b.dataset.sk||null;
+    if(id&&!skOwned(id)){const s=skById(id);if(!spendCoins(s.price,'Skin: '+s.n)){SFX.clang();toast(`Faltam ${s.price-MOEDAS} moedas para ${s.n}.`);return}
+      KR.skins=KR.skins||[];KR.skins.push(id);krSave();SFX.coin();try{renderCoins()}catch(_){}toast(`${s.n} comprada!`);}
+    skEquip(c,id);SFX.hit();draw();try{renderOfficial()}catch(_){}};}
 
 /* prazo do evento de Halloween: 13 dias; nos 2 últimos vira relógio */
 var EV_END=Date.parse('2026-11-03T00:00:00-03:00');
