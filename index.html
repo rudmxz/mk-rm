@@ -3077,6 +3077,12 @@ html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-
 .sk-opt b{font-size:13px;line-height:1.15;text-align:center}
 .sk-st{font-size:12px;display:flex;align-items:center;gap:4px;color:#ffd88a}
 .sel-skin{height:auto!important;padding:3px 10px!important;cursor:default!important;font-size:11px!important;text-transform:none!important;letter-spacing:0!important;color:#ffd88a!important}
+
+/* anúncio Vega */
+.ad-html.advega .adana-pic{border-color:#a98bff;box-shadow:0 0 0 4px rgba(0,0,0,.55),0 0 34px rgba(169,139,255,.6)}
+.ad-html.advega .adana-q{color:#e4d9ff}
+.ad-html.advega .advega-p{display:flex;flex-direction:column;align-items:center;gap:.25rem}
+@media (orientation:landscape) and (max-height:520px){.ad-html.advega .advega-p{flex-direction:row;gap:.5rem}}
 </style>
 
 <div class="wrap">
@@ -4313,6 +4319,72 @@ LADYBUG.dialogos['Ana Letícia']=[['Você mente com um sorriso lindo.','E você 
 D.lacosCanon['Teresa']=(D.lacosCanon['Teresa']||[]).concat([{p:'Ana Letícia',l:'Rival'}]);
 D.lacosCanon['Kitana']=(D.lacosCanon['Kitana']||[]).concat([{p:'Ana Letícia',l:'Rival'}]);
 
+/* ====== VEGA (convidada · agente da Ordem que transcendeu) ====== */
+D.canon.push({n:'Vega',ep:'a agente que deu o próprio corpo pelos amigos (convidada)',tom:'sombrio',g:'f',r:'Plano Terreno',e:'Convidada · Agente da Ordem',guest:true,special:true,
+  b:'Vega nasceu de dois investigadores do governo que nunca tinham tempo para ela. Cresceu sozinha, revoltada e esperta. Quando os pais morreram, ela investigou até encontrar a verdade: o Outro Lado, o paranormal e a Ordem. Virou agente, depois transcendeu, e na última missão trocou o próprio corpo pela vida dos amigos. Agora luta com o que sobrou.'});
+D.canon.sort((a,b)=>a.n.localeCompare(b.n,'pt'));
+D.lacosCanon['Vega']=[{p:'Sonya Blade',l:'Aliado(a)'},{p:'Quan Chi',l:'Rival'}];
+
+const VEGA = {
+  id:'vega', fixo:true, guest:true, criado:0,
+  input:{
+    nome:'Vega', idade:'27 anos', genero:'Mulher', sexualidade:'Não definida',
+    reino:'Plano Terreno', especie:'Ser Terreno (humana transcendida)', elemento:'Sombra', arma:'Fuzil espectral', estilo:'Investigação e tiro do Outro Lado',
+    vestimenta:'Cabelo roxo, rosa e azul com tranças e presilhas, máscara de lobo na cabeça, gargantilha preta, top marrom desbotado, tatuagens de estrelas e ondas pelo corpo, cigarro no canto da boca', cor:'#a98bff', alinhamento:'Anti-herói', faccao:'A Ordem',
+    personalidades:['Rebelde','Melancólico','Estrategista'],
+    lacos:[{p:'Sonya Blade',l:'Aliado(a)'},{p:'Quan Chi',l:'Rival'}],
+    desejo:'Agente da Ordem que transcendeu e deu o corpo para salvar os amigos, trazida ao universo de Mortal Kombat.'
+  },
+  ficha:{
+    alcunha:'A Que Pagou na Troca',
+    frase:'Troca equivalente. Eu já paguei a minha parte.',
+    historia:[
+      'Vega cresceu com dois investigadores do governo, muito inteligentes, que a educaram para seguir o mesmo caminho se quisesse. A infância foi boa nos momentos em que eles tinham tempo, e eles quase nunca tinham. Ela passava mais horas sozinha do que com os pais. Tentou de tudo para ser notada: imitou o jeito deles, estudou o que eles estudavam, fez o que eles faziam. O esforço quase nunca dava resultado, e Vega foi ficando irritada, rebelde e apática. Quando os pais enfim tentaram se aproximar de novo, já era tarde para os dois lados.',
+      'Aos quinze anos, os pais morreram num combate durante uma investigação, contra supostos mercenários. Vega nunca acreditou nessa história. Foi proibida de ver os corpos e recebeu a notícia de gente que ela tinha certeza de que não trabalhava no governo. Foi morar com os avós e usou o luto como combustível: passava os dias trancada no quarto e as noites escapando para investigar em segredo. Diziam que ela estava na fase da raiva. Talvez estivesse mesmo. Talvez ainda esteja. Mas duas pessoas tão habilidosas jamais cairiam diante de simples mercenários.',
+      'Depois de meses, as pistas a levaram a um local onde outras pessoas tinham sido "assassinadas por mais uma gangue de mercenários". Ali ela descobriu o Outro Lado, o paranormal e a Ordem, ao rever as pessoas que lhe deram a notícia da morte dos pais. O caso era de esoterroristas, gente que praticava torturas terríveis para fortalecer o paranormal e enfraquecer a membrana. Os pais tinham morrido combatendo as criaturas nascidas desses rituais. Com a verdade na mão, Vega aceitou o convite da Ordem pelas habilidades de investigadora e passou a ser agente, sempre com o fuzil nas missões.',
+      'Depois ela absorveu mais poder do paranormal e transcendeu. Na última missão, numa troca equivalente, entregou o próprio corpo para reviver os amigos e arrancar o paranormal de dentro deles. Foi assim que a membrana se rasgou perto de Exoterra e Vega atravessou. Ela chegou à Nova Era com o cabelo mudado, as tatuagens no lugar das cicatrizes e a mesma raiva de sempre. O fuzil de agente ficou para trás. O que ela usa agora vem do Outro Lado.'
+    ],
+    estilo:'Investigação e tiro do Outro Lado',
+    stats:{Força:62,Velocidade:76,Técnica:90,Magia:88,Resistência:74},
+    poderes:[
+      {n:'Olhar de Investigadora',d:'Lê o padrão de luta do oponente em poucos segundos e acha o ponto fraco.'},
+      {n:'Troca Equivalente',d:'Dá algo de si, como vida ou barra, para tirar do oponente algo maior.'},
+      {n:'Membrana Fina',d:'Rasga o espaço entre dois lugares e usa a fenda para puxar, bloquear e surgir atrás.'},
+      {n:'Raiva Apática',d:'Quanto mais machucada, mais fria e precisa ela fica.'}
+    ],
+    especiais:[
+      {n:'Rajada do Outro Lado',c:'↓ → 1',d:'Conjura um fuzil espectral e dispara uma rajada de tiros roxos.'},
+      {n:'Rasgo na Membrana',c:'↓ ← 2',d:'Abre uma fenda na frente do oponente e o puxa para dentro por um segundo.'},
+      {n:'Passo do Outro Lado',c:'← → 3',d:'Some pela membrana e surge atrás do oponente com um chute alto.'},
+      {n:'Máscara de Lobo',c:'↓ ↑ 4',d:'A máscara da cabeça ganha vida, ruge e morde o oponente.'},
+      {n:'Interrogatório',c:'(perto) → ← 1',d:'Agarra o oponente, prende o braço e pergunta o que ele sabe. A resposta é sempre uma joelhada.'}
+    ],
+    combos:[
+      {n:'Caso Aberto',c:'1, 1, 2',dano:13,d:'Dois socos rápidos e um cruzado de quem já brigou demais.'},
+      {n:'Linha de Investigação',c:'2, 1, →+3',dano:17,d:'Três golpes seguidos, como pistas que levam a um chute alto.'},
+      {n:'Prova Cabal',c:'3, 4, ↓+2',dano:19,d:'Golpes secos que terminam com uma rasteira.'},
+      {n:'Caso Encerrado',c:'1, 2, 4, ↓ → 1',dano:27,d:'Quatro golpes e uma rajada roxa à queima-roupa.'}
+    ],
+    fatalities:[
+      {n:'Caso Encerrado',c:'← ↓ → 3',dist:'Perto',d:'Vega materializa o fuzil de agente que usava nas missões, mira com calma e esvazia o carregador no oponente. Depois guarda a arma, acende o cigarro e diz: "Arquivado." O corpo vira cinza.'},
+      {n:'Troca Equivalente',c:'↓ ↓ → 4',dist:'Meia distância',d:'Vega estende a mão e o oponente sente tudo o que tem sendo puxado para fora do corpo. A pele some, os ossos aparecem e o esqueleto vira poeira. Ela fecha a mão e murmura: "Fica a conta zerada."'}
+    ],
+    brutalities:[],
+    golpeFatal:{n:'Interrogatório Final',d:'Vega prende o oponente, rasga a membrana atrás dele e o empurra para dentro. Ele volta atordoado, e ela acerta três socos e uma rajada.'},
+    animality:{animal:'lobo',n:'Lobo da Máscara',c:'→ ← ↓ ↓ 1',d:'A máscara de lobo se solta da cabeça de Vega e vira uma matilha de lobos roxos que cerca o oponente e o derruba.'},
+    babality:{n:'Bebê Agente',c:'↓ ← → 3',d:'Vega vira uma bebê de gargantilha preta e máscara de lobo torta que aponta um fuzil de brinquedo, chupa um pirulito no lugar do cigarro e faz cara de brava.'},
+    friendship:{n:'Dia de Folga',c:'← ↓ ← 4',d:'Vega tira o cigarro, abaixa o fuzil e entrega ao oponente um copo de café. "Hoje eu estou de folga. Aproveita antes que eu mude de ideia."'},
+    faccao:null,
+    kameo:{n:'Os Pais',d:'Dois vultos de agentes aparecem atrás dela, apontam os fuzis para o oponente e somem. Ela finge que não viu.'}
+  },
+  espelho:[
+    ['Você tem o meu rosto e a minha cara de poucos amigos.','E o seu cigarro, por favor.','Pega o seu. Esse é meu.'],
+    ['Quem te recrutou?','A mesma Ordem que te recrutou.','Então você também não escolheu.'],
+    ['Cuidado. Eu já fiz uma troca equivalente.','Eu também. E sobrou pouco.','Então vamos ver quem sobra.']
+  ],
+  dialogos:{}
+};
+
 /* ====== JADE (desbloqueada no Modo História) ====== */
 D.canon.push({n:'Jade',ep:'a guarda-costas de Edênia e mentora do Rudolf',tom:'nobre',g:'f',r:'Edênia',e:'Modo História · Umgadi',story:true,
   b:'Guerreira edeniana da guarda Umgadi, amiga de infância e escudo da princesa Kitana. Foi ela quem ensinou o pequeno Rudolf a girar, cortar e voltar para casa com os dois leques na mão. Fala pouco, observa tudo e nunca erra um golpe de bastão.'});
@@ -4432,6 +4504,7 @@ const FINAIS={
 'Tanya':'Tanya ficou com a lança de General Shao e o direito de entrar no palácio sem ser anunciada. Com o conquistador derrotado, Edênia ganhou uma voz na corte de Exoterra, e essa voz é a dela. Tanya aprendeu que, num reino de guerreiros, quem sobrevive é quem sabe fazer alianças.',
 'Katherine Pierce':'Katherine Pierce não pretendia lutar até o fim. Mas quando General Shao a chamou de "só mais uma vampira", ela fez questão de provar o contrário. Depois da vitória, roubou o tesouro de guerra dele e sumiu antes que alguém pudesse cobrar. Quinhentos anos de sobrevivência ensinam isso: sempre saia pela porta dos fundos.',
 'Ana Letícia':'Ana Letícia derrubou General Shao, tirou os óculos brancos e sorriu para a câmera: "Todo vilão tem um final de capítulo. O meu acabou de começar." Em vez de fugir, ficou em Exoterra e passou a vender segredos da corte para quem pagasse mais. Mileena a chama de conselheira. Kitana a chama de problema. Teresa a chama de espelho quebrado. Ana ri de todas, ajeita as correntes de ouro e guarda a pistola na bolsa, só por garantia.',
+'Vega':'Vega derrubou General Shao sem dizer uma palavra, tirou o cigarro da boca e olhou para o céu de Exoterra: "Troca equivalente." O exército do conquistador se desfez como fumaça, e a membrana que ele tentava usar para invadir a Terra se fechou sozinha. Vega ficou mais um tempo ali, sentou numa pedra e acendeu outro cigarro. Sonya Blade ofereceu uma vaga no serviço secreto. Vega recusou. Disse que já tinha servido a Ordem por tempo demais, e que agora ia investigar uma coisa só: onde, em algum lugar, os pais ainda poderiam estar. Os dois vultos de fuzil continuam aparecendo atrás dela nas lutas. Ela continua fingindo que não vê.',
 'Teresa':'Teresa derrubou General Shao e não deixou ninguém esquecer disso. Em vez de voltar para o México, ficou em Exoterra e usou a vitória para conseguir um lugar na corte da imperatriz Mileena, como conselheira jurídica do império. Em poucos meses, os nobres que riam dela passaram a pedir audiência. Kitana ainda a olha de cima, mas agora precisa marcar horário. Entre ser e não ser, Teresa é.',
 'Jade':'Jade derrubou General Shao com o mesmo golpe de bastão que ensinou ao Rudolf mil vezes. Não comemorou. Voltou ao palácio, ficou um passo atrás da princesa Kitana, como sempre, e só à noite, sozinha no pátio, se permitiu um sorriso. No dia seguinte, Rudolf errou o giro de novo. Ela mandou ele fazer mais cem.',
 'Ladybug':'Ladybug derrotou General Shao, gritou "Miraculous Ladybug!" e uma nuvem de joaninhas mágicas consertou cada pedaço da arena destruída pela guerra. Mas ela não conseguiu consertar tudo: algumas feridas de Exoterra precisam de tempo. Ladybug estendeu o punho para Kitana, "Pound it!", e voltou para Paris. A cidade ainda precisa dela.',
@@ -5062,6 +5135,63 @@ Object.keys(ANA_LETICIA.dialogos).forEach(n=>{if(n!=='Teresa'&&!DLGP['Ana Letíc
 /* mesma coisa nos objetos de personagem (usados no gerarDialogo) */
 ANA_LETICIA.dialogos['Teresa']=DLGP['Ana Letícia|Teresa'];
 TERESA.dialogos['Ana Letícia']=DLGP['Teresa|Ana Letícia'];
+
+/* ---- Vega: falas com o elenco (ela fala primeiro) e respostas (o outro fala primeiro) ---- */
+(function(){
+const V={
+ 'Sonya Blade':[['Agente do governo? Meus pais eram.','Eram? Eu sinto muito.','Não sente. Mas valeu por tentar.'],['Você também investiga demais?','É o trabalho.','Era o dos meus pais também.']],
+ 'Kenshi':[['Você enxerga sem ver. Eu vejo e finjo que não.','Às vezes dá no mesmo.','Pelo menos você escolheu.'],['Ouvi dizer que você carrega alguém dentro da espada.','Carrego. E você?','Carrego um buraco no lugar do corpo.']],
+ 'Johnny Cage':[['Você faz filme de luta. Eu faço relatório de morte.','Eu faço os dois e ainda assino autógrafo.','Nenhum dos dois paga bem.'],['Tem câmera aqui?','Sempre tem.','Então eu vou ser breve.']],
+ 'Kitana':[['Princesa. Teve atenção demais?','Atenção demais, e nunca era minha.','A minha foi pouca. Combinam.']],
+ 'Mileena':[['Imperatriz com máscara. Combina com a minha.','A minha cobre a boca. A sua cobre o quê?','A minha cobre a vontade de ir embora.']],
+ 'Sindel':[['Rainha e mãe. Eu era só filha.','Uma filha precisa de mais do que uma rainha.','Precisava. Faz tempo.']],
+ 'Raiden':[['Um deus. Por que não salvou ninguém?','Eu tentei.','Eu também. A troca foi cara.'],['Você protege o reino?','Protejo.','Eu protegi os meus amigos. Paguei com o corpo.']],
+ 'Liu Kang':[['Um campeão que virou deus. Algum conselho?','Lutar com o coração.','O meu ficou do outro lado.']],
+ 'Scorpion':[['Você perdeu a família e virou espectro. Eu perdi e virei agente.','Cada um paga como pode.','Eu paguei com o corpo.']],
+ 'Sub-Zero':[['Frio de fora. Eu sou frio de dentro.','Você parece mais viva do que diz.','Não parece. É só cigarro.']],
+ 'Quan Chi':[['Esoterrorista de verdade. Que prazer.','Eu prefiro "mestre das artes sombrias".','Eu prefiro "morto".'],['Você mexe com a membrana.','Há séculos.','Então vai gostar do que eu aprendi.']],
+ 'Havik':[['Você fala de caos como se fosse um estilo de vida.','É a única lei.','Vou te mostrar a Ordem.']],
+ 'Shang Tsung':[['Você rouba almas. Eu quase perdi a minha.','Quase não vale nada.','Pergunte aos meus amigos.']],
+ 'Rudolf':[['Um príncipe com mil e duzentos anos. Aprendeu a esperar?','Aprendi a lutar.','Eu aprendi a investigar.']],
+ 'Teresa':[['Advogada. Sabe a diferença entre mentir e esconder?','Sei. A segunda paga melhor.','Nas minhas investigações, as duas pagam em sangue.']],
+ 'Ana Letícia':[['Pistola de ouro. Onde você conseguiu?','Eu tenho meus métodos.','Eu tinha fuzil. Agora tenho o Outro Lado.']],
+ 'Katherine Pierce':[['Quinhentos anos de mentira. Qual foi a melhor?','"Eu estou bem."','Essa eu uso toda semana.']],
+ 'Ladybug':[['Uma heroína de joaninha. Eu era uma agente de fuzil.','E ainda é heroína?','Sou uma troca equivalente.']],
+ 'Li Mei':[['Você luta por honra. Eu luto por contas.','Que contas?','As que eu nunca fechei.']],
+ 'Kung Lao':[['Um chapéu que corta. Uma máscara que morde. Quem ganha?','A mais bem treinada.','Então temos uma aposta.']],
+ 'Geras':[['Um guardião do tempo. Dá pra voltar uma noite?','Dá. Mas tudo o que mudou volta junto.','Então não vale a pena.']],
+ 'Jade':[['Uma guarda leal. Dá para ser leal e feliz?','Dá. Mas é raro.','Eu escolhi leal.']],
+ 'Tanya':[['Traiu o próprio povo. Valeu a pena?','Valeu até a conta chegar.','A conta sempre chega.']],
+ 'Ashrah':[['Uma demônia que buscou redenção. Funciona?','Funciona devagar.','O meu caso foi mais rápido: a troca.']],
+ 'Baraka':[['Lâminas no braço. Eu uso a cabeça.','Eu uso as duas.','Então vamos ver qual quebra primeiro.']],
+ 'Smoke':[['Você some e volta. Eu sumo e fico.','Fico no meio.','Isso é pior.']],
+ 'Reptile':[['Último da raça. Eu sou a última da minha família.','Então temos algo em comum.','Temos. E só isso.']]
+};
+const R={
+ 'Sonya Blade':[['Você tem cara de quem passou por muita coisa.','E você tem cara de quem passou por coisa demais.','Dá para dividir o turno?']],
+ 'Kenshi':[['Sinto algo estranho em você. Uma ausência.','É o corpo que eu troquei.','Então o que luta aí dentro?']],
+ 'Johnny Cage':[['Cigarro? Isso estraga a pele.','A pele que eu tenho agora é de outra pessoa.','Que loucura. Quer um autógrafo?']],
+ 'Kitana':[['Sua magia vem de onde?','Do Outro Lado.','Cuidado. Os reinos já têm problemas demais.']],
+ 'Raiden':[['Alguém que atravessou a membrana. Não é pouca coisa.','Eu paguei o preço.','Então você já viu o que ela esconde.']],
+ 'Scorpion':[['Você perdeu alguém.','Perdi todos. Depois recuperei os amigos.','Eu não recuperei ninguém.']],
+ 'Teresa':[['Você parece uma garota perigosa. Tenho clientes assim.','E eu tenho um dossiê sobre advogados.','Então combina com os meus clientes.']],
+ 'Ana Letícia':[['Uma pistola e uma máscara de lobo. Que dupla.','E você não tem nem sombra de arrependimento.','Arrependimento é para quem ainda tem tempo.']],
+ 'Rudolf':[['Uma agente. Em Edênia? Que honra.','Honra nenhuma. É só trabalho.','Então que seja um bom trabalho.']],
+ 'Quan Chi':[['Você tem o cheiro do Outro Lado. Eu conheço bem.','E eu conheço o seu. Esoterrorista.','Chame como quiser. Eu prefiro mestre.']],
+ 'Havik':[['Você também sabe como é perder o corpo.','Perder, não. Trocar.','No fim dá na mesma.']],
+ 'Liu Kang':[['Você carrega uma tristeza antiga.','Carrego uma conta paga.','Quem paga uma conta assim merece descanso.']]
+};
+VEGA.dialogos={};
+Object.keys(V).forEach(n=>{DLGP['Vega|'+n]=V[n];VEGA.dialogos[n]=V[n];});
+Object.keys(R).forEach(n=>{DLGP[n+'|Vega']=R[n];});
+DLGP['Vega|Vega']=VEGA.espelho;
+/* nos objetos dos personagens fixos (usados no gerarDialogo) */
+TERESA.dialogos['Vega']=R['Teresa'];
+ANA_LETICIA.dialogos['Vega']=R['Ana Letícia'];
+RUDOLF.dialogos['Vega']=R['Rudolf'];
+KATHERINE.dialogos['Vega']=[['Cigarro e raiva. Combinação clássica.','E você usa o quê? Cinco séculos de maquiagem?','Maquiagem não fecha nenhuma conta.']];
+LADYBUG.dialogos['Vega']=[['Uma agente com máscara de lobo! Posso ajudar?','Pode ficar fora do meu caminho.','Ah, entendi. Você é difícil de amar.']];
+})();
 
 /* ====== PACOTE SOLDADOS (DLC da Kripta): Sonya Blade, Jax e Kano ======
    Fichas fixas usadas só na luta. Não aparecem na aba Fichas. */
@@ -5813,7 +5943,7 @@ let skin=LS.get('forja_mk_skin','submundo');
 let reforja=0, lastInput=null;
 function syncExtra(){globalThis.EXTRA_CHARS=roster.map(c=>({n:c.input.nome,ep:c.ficha.alcunha,g:genKey(c.input.genero),tom:tomDe(c.input),personalidades:c.input.personalidades}));}
 syncExtra();
-function allChars(){return [RUDOLF,KATHERINE,LADYBUG,TERESA,ANA_LETICIA,JADE].concat(roster);}
+function allChars(){return [RUDOLF,KATHERINE,LADYBUG,TERESA,ANA_LETICIA,VEGA,JADE].concat(roster);}
 
 /* ---------- som ---------- */
 /* ---------- locutor (voz grossa gravada; nomes desconhecidos caem no sintetizador) ---------- */
@@ -6129,7 +6259,7 @@ $('#btnRapido').onclick=()=>forjar(false);
 /* ---------- comandos e selos ---------- */
 function keys(c){if(!c)return'';return '<span class="keys">'+String(c).split(/(\s+|,|\+)/).filter(x=>x&&x.trim()!=='').map(t=>{
   if(/^[←→↓↑]$/.test(t))return`<span class="k">${t}</span>`;if(/^[1-4]$/.test(t))return`<span class="k btn${t}" title="${D.botoes[t]}">${t}</span>`;if(t===','||t==='+')return`<span class="ksep">${t}</span>`;return`<span class="ksep">${esc(t)}</span>`}).join('')+'</span>';}
-const FOTO={'Coelho':'img/p/coelho.jpg','Tigre':'img/p/tigre.jpg','Cobra':'img/p/cobra.jpg','Cabra':'img/p/cabra.jpg','Touro':'img/p/touro.jpg','Lorenzo':'img/p/lorenzo.jpg','Art the Clown':'img/p/art-the-clown.jpg','Freddy Krueger':'img/p/freddy-krueger.jpg','Jason Voorhees':'img/p/jason-voorhees.jpg','Stefan':'img/p/stefan.jpg','Damon':'img/p/damon.jpg','Bonnie':'img/p/bonnie.jpg','Lexi':'img/p/lexi.jpg','Sonya Blade':'img/p/sonya-blade.jpg','Jax':'img/p/jax.jpg','Kano':'img/p/kano.jpg','Jade':'img/p/jade.jpg','Ana Letícia':'img/p/ana-leticia.jpg','Teresa':'img/p/teresa.jpg','Rudolf':'img/p/rudolf.jpg','Mileena':'img/p/mileena.jpg','Kitana':'img/p/kitana.jpg','Katherine Pierce':'img/p/katherine.jpg','Sub-Zero':'img/p/sub-zero.jpg','Scorpion':'img/p/scorpion.jpg','Baraka':'img/p/baraka.jpg','Raiden':'img/p/raiden.jpg','Geras':'img/p/geras.jpg','Johnny Cage':'img/p/johnny-cage.jpg','Ladybug':'img/p/ladybug.jpg','Conan':'img/p/conan.jpg','Cyrax':'img/p/cyrax.jpg','Ermac':'img/p/ermac.jpg','General Shao':'img/p/general-shao.jpg','Ashrah':'img/p/ashrah.jpg','Ghostface':'img/p/ghostface.jpg','Havik':'img/p/havik.jpg','Homelander':'img/p/homelander.jpg','Li Mei':'img/p/li-mei.jpg','Liu Kang':'img/p/liu-kang.jpg','Kung Lao':'img/p/kung-lao.jpg','Kenshi':'img/p/kenshi.jpg','Omni-Man':'img/p/omni-man.jpg','Noob Saibot':'img/p/noob-saibot.jpg','Peacemaker':'img/p/peacemaker.jpg','Nitara':'img/p/nitara.jpg','Quan Chi':'img/p/quan-chi.jpg','Reiko':'img/p/reiko.jpg','Rain':'img/p/rain.jpg','Sektor':'img/p/sektor.jpg','Reptile':'img/p/reptile.jpg','Shang Tsung':'img/p/shang-tsung.jpg','Takeda':'img/p/takeda.jpg','Tanya':'img/p/tanya.jpg','Smoke':'img/p/smoke.jpg','T-1000':'img/p/t-1000.jpg','Sindel':'img/p/sindel.jpg'};
+const FOTO={'Coelho':'img/p/coelho.jpg','Tigre':'img/p/tigre.jpg','Cobra':'img/p/cobra.jpg','Cabra':'img/p/cabra.jpg','Touro':'img/p/touro.jpg','Lorenzo':'img/p/lorenzo.jpg','Art the Clown':'img/p/art-the-clown.jpg','Freddy Krueger':'img/p/freddy-krueger.jpg','Jason Voorhees':'img/p/jason-voorhees.jpg','Stefan':'img/p/stefan.jpg','Damon':'img/p/damon.jpg','Bonnie':'img/p/bonnie.jpg','Lexi':'img/p/lexi.jpg','Sonya Blade':'img/p/sonya-blade.jpg','Jax':'img/p/jax.jpg','Kano':'img/p/kano.jpg','Jade':'img/p/jade.jpg','Ana Letícia':'img/p/ana-leticia.jpg','Vega':'img/p/vega.jpg','Teresa':'img/p/teresa.jpg','Rudolf':'img/p/rudolf.jpg','Mileena':'img/p/mileena.jpg','Kitana':'img/p/kitana.jpg','Katherine Pierce':'img/p/katherine.jpg','Sub-Zero':'img/p/sub-zero.jpg','Scorpion':'img/p/scorpion.jpg','Baraka':'img/p/baraka.jpg','Raiden':'img/p/raiden.jpg','Geras':'img/p/geras.jpg','Johnny Cage':'img/p/johnny-cage.jpg','Ladybug':'img/p/ladybug.jpg','Conan':'img/p/conan.jpg','Cyrax':'img/p/cyrax.jpg','Ermac':'img/p/ermac.jpg','General Shao':'img/p/general-shao.jpg','Ashrah':'img/p/ashrah.jpg','Ghostface':'img/p/ghostface.jpg','Havik':'img/p/havik.jpg','Homelander':'img/p/homelander.jpg','Li Mei':'img/p/li-mei.jpg','Liu Kang':'img/p/liu-kang.jpg','Kung Lao':'img/p/kung-lao.jpg','Kenshi':'img/p/kenshi.jpg','Omni-Man':'img/p/omni-man.jpg','Noob Saibot':'img/p/noob-saibot.jpg','Peacemaker':'img/p/peacemaker.jpg','Nitara':'img/p/nitara.jpg','Quan Chi':'img/p/quan-chi.jpg','Reiko':'img/p/reiko.jpg','Rain':'img/p/rain.jpg','Sektor':'img/p/sektor.jpg','Reptile':'img/p/reptile.jpg','Shang Tsung':'img/p/shang-tsung.jpg','Takeda':'img/p/takeda.jpg','Tanya':'img/p/tanya.jpg','Smoke':'img/p/smoke.jpg','T-1000':'img/p/t-1000.jpg','Sindel':'img/p/sindel.jpg'};
 function sigil(ch,size){if(ch.foto&&!ch.fixo)return `<img class="sigil photo-sigil" src="${ch.foto}" alt="" ${size?`style="width:${size}px;height:${size}px"`:''}>`;if(FOTO[ch.input.nome]&&ch.fixo)return `<img class="sigil photo-sigil" src="${FOTO[ch.input.nome]}" alt="" ${size?`style="width:${size}px;height:${size}px"`:''}>`;const c=ch.input.cor||'#d4372a';const el=D.elementos[ch.input.elemento]||D.elementos.Fogo;const L=esc((ch.input.nome||'?')[0].toUpperCase());const id='g'+Math.random().toString(36).slice(2,8);
   return `<svg viewBox="0 0 120 120" class="sigil" ${size?`style="width:${size}px;height:${size}px"`:''} aria-hidden="true"><defs><radialGradient id="${id}" cx="50%" cy="40%"><stop offset="0" stop-color="${c}" stop-opacity=".95"/><stop offset="1" stop-color="${c}" stop-opacity=".15"/></radialGradient></defs>
   <polygon points="60,4 112,32 112,88 60,116 8,88 8,32" fill="var(--bg)" stroke="${el.cor}" stroke-width="2.5"/>
@@ -6714,7 +6844,11 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
       <div class="adh-cards"><div class="adh-card"><div class="adh-pic" style="background-image:url(img/luta/bank.jpg)"></div><b>The Bank</b><span class="adh-free">Grátis · já liberada</span></div>
       <div class="adh-card"><div class="adh-pic" style="background-image:url(img/luta/intencao.jpg)"></div><b>Intenção</b><span class="adh-price"><span class="coin"></span>150 na Kripta</span></div></div>
       <div class="adh-foot">Já na Kripta, <br>garanta já a sua.</div></div></div>`,arena:'intencao',alt:'Novas arenas: The Bank, grátis, e Intenção, 150 moedas na Kripta.',bn:{img:'img/luta/intencao.jpg',t:'Novas arenas',s:'The Bank grátis · Intenção 150',c:'Ver'}}];
-  const ADS=[{id:'ana',tab:'chars',btn:'Ver na Kripta',bg:'img/luta/mansao.jpg',html:()=>`<div class="ad-html adana"><div class="adh-bg" style="background-image:url(img/luta/mansao.jpg)"></div><div class="adh-in"><div class="adh-k">Nova personagem</div><div class="adh-t">Ana Letícia</div>
+  const ADS=[{id:'vega',tab:'chars',btn:'Ver na Kripta',bg:'img/luta/camara.jpg',html:()=>`<div class="ad-html adana advega"><div class="adh-bg" style="background-image:url(img/luta/camara.jpg)"></div><div class="adh-in"><div class="adh-k">Nova personagem</div><div class="adh-t">Vega</div>
+      <div class="adana-pic" style="background-image:url(${FOTO['Vega']})"></div><div class="adana-q">“Troca equivalente. Eu já paguei.”</div>
+      <div class="adh-card adana-c"><div class="advega-p"><span class="adh-price"><span class="coin"></span>200 na Kripta</span><span class="adh-price"><span class="coin"></span>100 a skin Agente da Ordem</span></div><span class="adana-s">2 fatalities · animality · friendship · babality · final da torre</span></div>
+      <div class="adh-foot">Agente da Ordem que transcendeu. Já na Kripta.</div></div></div>`,alt:'Nova personagem: Vega, a agente da Ordem que transcendeu, 200 moedas na Kripta, com fatalities, animality, friendship, babality e final da torre. A skin Vega Agente da Ordem custa 100 moedas.',bn:{img:'img/p/vega.jpg',t:'Vega · 200 moedas',s:'Agente da Ordem · skin 100',c:'Ver'}},
+  {id:'ana',tab:'chars',btn:'Ver na Kripta',bg:'img/luta/mansao.jpg',html:()=>`<div class="ad-html adana"><div class="adh-bg" style="background-image:url(img/luta/mansao.jpg)"></div><div class="adh-in"><div class="adh-k">Nova personagem</div><div class="adh-t">Ana Letícia</div>
       <div class="adana-pic" style="background-image:url(${FOTO['Ana Letícia']})"></div><div class="adana-q">“Todo vilão tem um final de capítulo.”</div>
       <div class="adh-card adana-c"><span class="adh-free">Grátis · já liberada</span><span class="adana-s">2 fatalities · animality · friendship · babality · final da torre</span></div>
       <div class="adh-foot">Vilã de <i>Três Vezes Ana</i>. Já está no seu elenco.</div></div></div>`,alt:'Nova personagem grátis: Ana Letícia, a vilã de Três Vezes Ana, com fatalities, animality, friendship, babality e final da torre. Já liberada.',bn:{img:'img/p/ana-leticia.jpg',t:'Ana Letícia · Grátis',s:'Nova vilã de Três Vezes Ana',c:'Ver'}},
@@ -6868,6 +7002,7 @@ const KITS={
  'Takeda':{atr:[2,4,1,1],fx:'chicote',p2:KP('Treino do Shirai Ryu','Golpe rápido com +1 no acerto.',{pk:'acerto',a:'rapido',v:1}),p4:KG('Chicote de Kunais','As lâminas estalam no alvo.',{h:2,dd:[1,5],s:'A',e:'sang',ec:.5,fx:'chicote'}),p5:{e:'sang',ec:.4},p6:KS('Legado de Kenshi','A telecinese do pai junto com os chicotes.',{h:3,dd:[3,6],s:'M',e:'ator',ec:.7,fx:'tele'})},
  'Tanya':{atr:[1,3,3,1],fx:'fogo',p2:KP('Traição Calculada','Quem está quase caindo sofre mais: +2 de dano.',{pk:'exec',v:2}),p4:KG('Pirotecnia','Fogo saindo do bastão Umgadi.',{h:2,dd:[1,5],s:'M',e:'quei',ec:.5,fx:'fogo'}),p5:{e:'quei',ec:.4},p6:KS('Dança do Umgadi','O bastão gira em chamas.',{h:3,dd:[3,6],s:'A',e:'ator',ec:.6,fx:'impacto'})},
  'Ana Letícia':{atr:[2,3,2,1],fx:'bala',p2:KP('Cara de Anjo','Finge inocência e acerta quando ninguém espera: crítico com 19 ou 20.',{pk:'crit',v:1}),p4:KG('Tiro de Aviso','A pistola dourada e um sorriso sem culpa.',{h:2,dd:[1,4],s:'A',e:'ator',ec:.35,fx:'bala'}),p5:{e:'lent',ec:.4},p6:KS('Final de Novela','Todo vilão tem um final de capítulo.',{h:4,dd:[3,6],s:'A',e:'quei',ec:.8,fx:'bala'})},
+ 'Vega':{atr:[1,2,3,2],fx:'sombra',p2:KP('Dedução Final','A investigadora vê quem está quase caindo: +2 de dano nele.',{pk:'exec',v:2}),p4:KG('Rajada do Outro Lado','Um fuzil espectral e uma rajada roxa.',{h:2,dd:[1,4],s:'M',e:'ator',ec:.4,fx:'sombra'}),p5:{e:'lent',ec:.4},p6:KS('Troca Equivalente','Ela paga com o que tem e cobra mais de quem está na frente.',{h:4,dd:[3,6],s:'M',e:'sang',ec:.7,fx:'sombra'})},
  'Teresa':{atr:[1,3,2,2],fx:'faca',p2:KP('Cláusula de Proteção','Teresa nunca paga o preço cheio: todo dano recebido cai 1.',{pk:'red',v:1}),p4:KG('Argumento Afiado','A adaga de prata e uma frase que desarma.',{h:2,dd:[1,4],s:'A',e:'lent',ec:.6,fx:'faca'}),p5:{e:'lent',ec:.4},p6:KS('Sentença Final','Caso encerrado.',{h:4,dd:[3,6],s:'M',e:'ator',ec:.7,fx:'impacto'})},
  'Sonya Blade':{atr:[2,4,0,2],fx:'anel',p2:KP('Treino Militar','Sempre pronta: +2 na iniciativa.',{pk:'ini',v:2}),p4:KG('Anéis de Energia','Os braceletes disparam anéis.',{h:3,dd:[1,4],s:'A',e:'ator',ec:.35,fx:'anel'}),p5:{e:'ator',ec:.3},p6:KS('Ataque Aéreo','Sonya chama o apoio das Forças Especiais.',{h:3,dd:[3,6],s:'A',e:'quei',ec:1,fx:'missil'})},
  'Jax':{atr:[5,0,0,3],fx:'impacto',p2:KP('Braços Biônicos','Agarrão com +3 de dano.',{pk:'grab',v:3}),p4:KG('Soco Sísmico','Soca o chão e a onda derruba o alvo.',{h:0,dd:[2,4],s:'F',e:'ator',ec:.5,fx:'onda'}),p5:{e:'ator',ec:.35},p6:KS('Gotcha!','Agarra e soca sem parar.',{h:2,dd:[3,4],s:'F',gr:1,e:'ator',ec:1,fx:'impacto'})},
@@ -9665,9 +9800,10 @@ const KR_STORY={'Reiko':1,'Teresa':2,'Katherine Pierce':3,'Nitara':3,'Rain':6,'H
 const KR_STORY_LBL=i=>i===10?'terminar o Modo História':`terminar o ${i===0?'Prólogo':'Capítulo '+i} do Modo História`;
 const KR_BASE=['Ashrah','Geras','Kenshi','Reptile','Smoke','Tanya'];
 const KR_PACKS=[{id:'hexa',n:'Hexatombe',list:['Coelho','Tigre','Cobra','Cabra','Touro'],each:300,pack:1200,page:'hexa'},{id:'kp1',n:'Kombat Pack 1',list:['Omni-Man','Homelander','Peacemaker','Quan Chi','Ermac','Takeda']},{id:'khaos',n:'Khaos Reigns',list:['Cyrax','Sektor','Noob Saibot','Ghostface','Conan','T-1000']},{id:'soldados',n:'Soldados',list:['Sonya Blade','Jax','Kano'],each:200,pack:500},{id:'tvd',n:'The Vampire Diaries',list:['Stefan','Damon','Bonnie','Lexi','Katherine Pierce'],each:300,pack:1200,page:'tvd'}];
-const KR_PRICE={base:200,dlc:400,extra:600,pack:2000,arte:15,fundo:25,terror:250};
+const KR_GUEST=['Vega'];
+const KR_PRICE={guest:200,base:200,dlc:400,extra:600,pack:2000,arte:15,fundo:25,terror:250};
 const KR_HW=['Art the Clown','Jason Voorhees'];const KR_HEXA=['Coelho','Tigre','Cobra','Cabra','Touro'];const KR_GIFT=['Lorenzo'];const KR_EVENTO=['Freddy Krueger'];
-function krCharPrice(n){if(KR_GIFT.includes(n))return 400;if(KR_BASE.includes(n))return KR_PRICE.base;if(KR_HW.includes(n))return KR_PRICE.terror;if(n==='Ladybug')return KR_PRICE.extra;{const p=KR_PACKS.find(p=>p.list.includes(n));if(p)return p.each||KR_PRICE.dlc;}return 0;}
+function krCharPrice(n){if(KR_GIFT.includes(n))return 400;if(KR_GUEST.includes(n))return KR_PRICE.guest;if(KR_BASE.includes(n))return KR_PRICE.base;if(KR_HW.includes(n))return KR_PRICE.terror;if(n==='Ladybug')return KR_PRICE.extra;{const p=KR_PACKS.find(p=>p.list.includes(n));if(p)return p.each||KR_PRICE.dlc;}return 0;}
 function histDone(){const fin=LS.get('forja_mk_historia_finais',[]);if(Array.isArray(fin)&&fin.length)return 99;return +LS.get('forja_mk_hist_max',0)||0;}
 const KR_SOON=[];
 function charLock(n){if(KR_SOON.includes(n))return CHEAT.criador?null:{tipo:'breve'};if(KR_EVENTO.includes(n))return (CHEAT.criador||KR.chars.includes(n))?null:{tipo:'evento'};if(KR_FREE.includes(n)||CHEAT.criador||KR.chars.includes(n))return null;
@@ -9706,10 +9842,11 @@ function renderKripta(){krCoins();{const tv=krTab==='tvd';$('#krBg').classList.t
     h+=`<h4 class="kr-h">Elenco do MK1 <small>${KR_PRICE.base} moedas cada</small></h4><div class="kr-grid">${KR_BASE.map(krCharCard).join('')}</div>`;
     KR_PACKS.filter(p=>!p.page).forEach(p=>{const pp=krPackPrice(p);h+=`<h4 class="kr-h" data-pack="${p.id}">${esc(p.n)} <small>${p.each||KR_PRICE.dlc} cada</small></h4>${pp?`<div class="kr-pack"><span>Pacote com ${p.list.filter(n=>!krHasChar(n)).length} lutadores</span>${krBtn(pp,false,p.id,'pack')}</div>`:''}<div class="kr-grid">${p.list.map(krCharCard).join('')}</div>`;});
     h+=`<h4 class="kr-h">Participação especial <small>${KR_PRICE.extra} moedas</small></h4><div class="kr-grid">${krCharCard('Ladybug')}</div>`;
+    h+=`<h4 class="kr-h">Convidada <small>${KR_PRICE.guest} moedas</small></h4><div class="kr-grid">${KR_GUEST.map(krCharCard).join('')}</div>`;
     h+=`<h4 class="kr-h">Modo História <small>não estão à venda</small></h4><div class="kr-grid">${Object.keys(KR_STORY).map(n=>{const L=charLock(n);return `<div class="kr-card${L?'':' own'}"><div class="kr-pic">${FOTO[n]?`<img src="${FOTO[n]}" alt="" loading="lazy">`:''}${L?'<span class="kr-lock">📖</span>':''}</div><div class="kr-n">${esc(n)}</div>${L?`<span class="kr-story">${n==='General Shao'?'Termine a história':KR_STORY[n]===10?'Termine a história':'Capítulo '+KR_STORY[n]}</span>`:'<span class="kr-own">✓ Liberado</span>'}</div>`}).join('')}</div>`;
   }else if(krTab==='skins'){
     h+=`<p class="kr-hab-note">Skins mudam a aparência do lutador. Todos podem comprar, mas só dá para usar a skin com o personagem liberado. Escolha na seleção de lutador, no botão <b>Skin</b>.</p>`;
-    h+=`<h4 class="kr-h">Ninjas Femininas <small>${SKN[0].price} moedas cada</small></h4><div class="kr-grid">${SKN.map(krSkinCard).join('')}</div>`;
+    [...new Set(SKN.map(s=>s.g))].forEach(g=>{const L=SKN.filter(s=>s.g===g);h+=`<h4 class="kr-h">${esc(g)} <small>${L[0].price} moedas cada</small></h4><div class="kr-grid">${L.map(krSkinCard).join('')}</div>`;});
   }else if(krTab==='arenas'){
     h+=`<h4 class="kr-h">Arenas novas</h4><div class="kr-grid wide">${STAGES.filter(s=>s.price&&!s.pack).map(krArenaCard).join('')}</div>`;
     h+=`<h4 class="kr-h kr-hw">🎃 Evento de Halloween <small>só na roleta</small></h4><div class="kr-grid wide">${STAGES.filter(s=>s.ev==='hw').map(s=>{const o=krHasArena(s.k);return `<div class="kr-card arena hw${o?' own':''}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${o?'':'<span class="kr-lock">🎃</span>'}</div><div class="kr-n">${esc(s.n)}</div>${o?'<span class="kr-own">✓ Liberado</span>':'<button type="button" class="kr-story kr-goev" data-goev="1">Só na Roleta de Halloween</button>'}</div>`}).join('')}</div>`;
@@ -9755,9 +9892,10 @@ $('#krBody').addEventListener('click',e=>{if(e.target.closest('[data-goev]')){SF
 
 /* ====== SKN: aparências extras vendidas na Kripta ====== */
 const SKN=[
-  {id:'mileena-rosa',c:'Mileena',n:'Mileena Neon Rosa',img:'img/s/mileena-rosa.jpg',price:100},
-  {id:'jade-mk2',c:'Jade',n:'Jade MK2 Classic',img:'img/s/jade-mk2.jpg',price:100},
-  {id:'kitana-safira',c:'Kitana',n:'Kitana Safira Imperial',img:'img/s/kitana-safira.jpg',price:100}
+  {id:'mileena-rosa',c:'Mileena',n:'Mileena Neon Rosa',img:'img/s/mileena-rosa.jpg',price:100,g:'Ninjas Femininas'},
+  {id:'jade-mk2',c:'Jade',n:'Jade MK2 Classic',img:'img/s/jade-mk2.jpg',price:100,g:'Ninjas Femininas'},
+  {id:'kitana-safira',c:'Kitana',n:'Kitana Safira Imperial',img:'img/s/kitana-safira.jpg',price:100,g:'Ninjas Femininas'},
+  {id:'vega-agente',c:'Vega',n:'Vega Agente da Ordem',img:'img/s/vega-agente.jpg',price:100,g:'Convidados'}
 ];
 const SK_KEY='forja_mk_skin_eq';
 let SK_EQ=(()=>{const v=LS.get(SK_KEY,null);return v&&typeof v==='object'?v:{}})();
@@ -10025,6 +10163,7 @@ const BEBE={
  'Takeda':{n:'Bebê Shirai Ryu',d:'Takeda vira um bebê que gira as kunais de chicote de brinquedo, se enrosca todo e pede ajuda ao pai.'},
  'Tanya':{n:'Bebê Umgadi',d:'Tanya vira uma bebê que gira uma lancinha de espuma e fica de guarda na porta do berço, muito séria.'},
  'Ana Letícia':{n:'Bebê Vilã',d:'Ana Letícia vira uma bebê de óculos escuros brancos que dá uma gargalhada de vilã e aponta uma pistolinha de água para o oponente.'},
+ 'Vega':{n:'Bebê Agente',d:'Vega vira uma bebê de gargantilha preta e máscara de lobo torta que aponta um fuzil de brinquedo, chupa um pirulito no lugar do cigarro e faz cara de brava.'},
  'Teresa':{n:'Bebê Advogada',d:'Teresa vira uma bebê de terninho que bate o martelinho de juiz no chão e exige "ordem no berçário".'},
  'Sonya Blade':{n:'Bebê Sargento',d:'Sonya vira uma bebê de boininha militar que faz continência, tenta uma flexão e cai de cara na fralda.'},
  'Jax':{n:'Bebê de Braço Biônico',d:'Jax vira um bebê com bracinhos de metal que bate palmas tão forte que o chão treme.'},
@@ -10771,6 +10910,8 @@ const FA_OVR={
   'Rudolf|Coisa de Família':[{t:'throw',w:'leque',h:.3},{t:'throw',w:'leque_fogo',h:.55},{t:'die',k:'burn'}],
   'Ana Letícia|Final de Novela':[{t:'barrage',w:'bala',n:1},{t:'die',k:'fall'}],
   'Ana Letícia|Acidente na Estrada':[{t:'beat',n:2},{t:'drop',w:'emoji:🚗'}],
+  'Vega|Caso Encerrado':[{t:'barrage',w:'bala',n:9},{t:'die',k:'dust'}],
+  'Vega|Troca Equivalente':[{t:'waves',c:'#b79bff'},{t:'die',k:'flesh'}],
   'Teresa|Sentença Final':[{t:'throw',w:'faca',h:.45,stick:true},{t:'die',k:'fall'}],
   'Teresa|Humilhação Pública':[{t:'beat',n:2},{t:'drop',w:'emoji:👠'}],
   'Stefan|O Estripador':[{t:'bite'},{t:'die',k:'dust'}],
