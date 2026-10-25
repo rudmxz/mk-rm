@@ -7925,7 +7925,7 @@ function hud(){if(!FS)return;chBar();[0,1].forEach(i=>{const hp=Math.max(0,FS.hp
   $('#fS'+i).style.width=FS.bar[i]+'%';$('#fS'+i).parentNode.classList.toggle('ready',FS.bar[i]>=50);
   $('#fW'+i).innerHTML=(FS.need===1?[0]:[0,1]).map(j=>`<img src="img/dragao.png" alt="" class="${FS.wins[i]>j?'on':''}">`).join('')});$('#fRoundN').textContent=FS.training?'Treino':(FS.opts&&FS.opts.mode==='sobrev'&&typeof SV!=='undefined'&&SV)?'💀 '+SV.ko:'Round '+FS.round;
   [0,1].forEach(i=>$('#fF'+i).classList.toggle('open',!!FS.open[i]));hudTeams();}
-function anim(i,c){const el=$('#fF'+i);el.classList.remove('lunge','hit','block','dodge');void el.offsetWidth;el.classList.add(c);}
+function anim(i,c){const el=$('#fF'+i);if(c==='hit'&&window.__animBleed&&FS&&FS.animL===i)window.__animBleed();el.classList.remove('lunge','hit','block','dodge');void el.offsetWidth;el.classList.add(c);}
 async function banner(html,ms,cls){const b=$('#fBanner');b.className='f-banner '+(cls||'');b.innerHTML=html;b.hidden=false;b.classList.remove('pop');void b.offsetWidth;b.classList.add('pop');await sleep(ms);b.hidden=true;}
 function partyFor(key){if(key.startsWith('u:')){const ch=roster.find(c=>c.id===key.slice(2));return ch?Object.assign({},ch.input,{g:genKey(ch.input.genero),dialogos:ch.dialogos,espelho:ch.espelho}):null}return canonParty(key.slice(2)).party;}
 function fichaOf(key){if(key.startsWith('u:')){const ch=roster.find(c=>c.id===key.slice(2));return ch?ch.ficha:null}const fx=allChars().find(x=>x.fixo&&x.input.nome===key.slice(2));return fx?fx.ficha:null}
@@ -8284,7 +8284,7 @@ async function runFight(k0,k1,opts){finCleanup();preloadSfx();preloadBanners();V
       if(FS.wins[w]>=need){await finishSeq(w);return;}
       const flaw=FS.dmg[w]===0;if(flaw&&w===0&&!FS.two)addCoins(COIN.flawless,'Flawless Victory');
       SFX.say(P[w].nome+' wins'+(flaw?'. Flawless victory':''));await banner(`<div class="wins-t">${esc(P[w].nome)} <span>wins</span></div>${flaw?'<div class="flaw-t">Flawless Victory</div>':''}`,2100,'winb');
-      try{await falasDizer(FS.round===1?[[w,falaDe(P[w],'r1v')],[1-w,falaDe(P[1-w],'r1p')]]:[[w,falaDe(P[w],'rv')]]);}catch(e){if(e==='abort')throw e;console.error(e);}
+      try{await falasDizer(FS.round===1?[[w,falaDe(P[w],'r1v')],[1-w,falaDe(P[1-w],'r1p')]]:[[w,falaDe(P[w],'rv')],[1-w,falaDe(P[1-w],'r1p')]]);}catch(e){if(e==='abort')throw e;console.error(e);}
       log(`Fim do round ${FS.round}. Placar: <b>${esc(P[0].nome)} ${FS.wins[0]}</b> × <b>${FS.wins[1]} ${esc(P[1].nome)}</b>.`);await waitChoice([{k:'ok',t:'Próximo round ▶',cls:'big',key:'Espaço'}]);
       FS.round++;
     }
@@ -8371,16 +8371,19 @@ async function finZap(l){const F=$('#fF'+l);F.classList.add('fin-zap');F.insertA
   F.classList.add('fin-dust');finPool(l,'ash');await sleep(900);F.classList.add('fin-gone');}
 async function finMelt(l){const F=$('#fF'+l);F.classList.add('fin-melt');SFX.melt();finPool(l,'goo');finSpray(l,16,false,'goo');await sleep(2200);F.classList.add('fin-gone');}
 async function finDeath(w,l,ch,o){const F=$('#fF'+l),V=FS.P[l];if(!F)return;
-  /* 1. treme, grita e sangra */
+  /* 1. treme, grita e sangra (no Animality, só quando o bicho morde) */
+  const bleed=async()=>{
   F.classList.remove('hit','lunge');F.classList.add('bloody','dying');gritar(V);SFX.hit();
   F.insertAdjacentHTML('beforeend','<div class="fx-blood"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="fx-blood more"><i></i><i></i><i></i><i></i><i></i><i></i></div>');
   try{addGore(l,40)}catch(e){}finSpray(l,18,false);finPool(l);SFX.splat();
   await sleep(500);finSpray(l,14,false);await sleep(ch==='Brutality'?500:150);finSpray(l,12,false);SFX.splat();await sleep(ch==='Brutality'?350:120);
-  F.classList.remove('dying');
+  F.classList.remove('dying');};
+  if(ch==='Animality'){window.__animBleed=()=>{window.__animBleed=null;bleed().catch(()=>{})};}else await bleed();
   if(ch==='Brutality')return finExplode(l,true);
   if(ch==='Fatality'&&typeof finAnimFatality==='function'){try{if(await finAnimFatality(w,l,o))return;}catch(e){if(e==='abort')throw e;console.error(e);}}
-  if(ch==='Animality'&&typeof finAnimAnimality==='function'){try{if(await finAnimAnimality(w,l,o))return;}catch(e){if(e==='abort')throw e;console.error(e);}}
-  if(ch==='Animality'){
+  if(ch==='Animality'){FS.animL=l;}
+  if(ch==='Animality'&&typeof finAnimAnimality==='function'){try{if(await finAnimAnimality(w,l,o)){if(window.__animBleed)window.__animBleed();return;}}catch(e){if(e==='abort')throw e;console.error(e);}}
+  if(ch==='Animality'){if(window.__animBleed)window.__animBleed();
     const rects=[];for(let y=0;y<4;y++)for(let x=0;x<3;x++)rects.push([x*33.34,y*25,(x+1)*33.34,(y+1)*25]);
     finKnife();await sleep(260);
     SFX.gore();const {pieces,r}=finPieces(l,rects);finSpray(l,50,true);try{screenShake()}catch(e){}
@@ -8389,7 +8392,7 @@ async function finDeath(w,l,ch,o){const F=$('#fF'+l),V=FS.P[l];if(!F)return;
   if(ch==='Fatality'){const k=finKind(o,FS.P[w]);
     if(k==='fogo')return finBurn(l);if(k==='gelo')return finFreeze(l);if(k==='raio')return finZap(l);if(k==='acido')return finMelt(l);if(k==='explode')return finExplode(l,true);
     return finCut3(l);}}
-function finCleanup(){try{brutClean();$$('.f-fig').forEach(e=>{e.style.zIndex=''});}catch(e){}try{{const st=document.getElementById('fStage');if(st)st.classList.remove('fin-dark');}$$('.fin-piece,.fin-bone,.fin-drop,.fin-pool,.fin-burst,.fin-slash,.fa-x').forEach(e=>e.remove());$$('.f-fig').forEach(e=>{e.getAnimations().forEach(a=>a.cancel());e.style.transform='';e.style.transformOrigin='';e.style.opacity='';e.classList.remove('fa-glow','fa-morph');delete e.dataset.near;e._pos=null;if(e._html){e.innerHTML=e._html;e._html=null;}});$$('.f-fig').forEach(e=>e.classList.remove('fin-gone','fin-burning','fin-char','fin-skeleton','fin-frozen','fin-crack','fin-zap','fin-dust','fin-melt','dying'));$$('.fin-flames,.fin-skel,.fin-ice,.fin-bolts').forEach(e=>e.remove());}catch(e){}}
+function finCleanup(){window.__animBleed=null;try{brutClean();$$('.f-fig').forEach(e=>{e.style.zIndex=''});}catch(e){}try{{const st=document.getElementById('fStage');if(st)st.classList.remove('fin-dark');}$$('.fin-piece,.fin-bone,.fin-drop,.fin-pool,.fin-burst,.fin-slash,.fa-x').forEach(e=>e.remove());$$('.f-fig').forEach(e=>{e.getAnimations().forEach(a=>a.cancel());e.style.transform='';e.style.transformOrigin='';e.style.opacity='';e.classList.remove('fa-glow','fa-morph');delete e.dataset.near;e._pos=null;if(e._html){e.innerHTML=e._html;e._html=null;}});$$('.f-fig').forEach(e=>e.classList.remove('fin-gone','fin-burning','fin-char','fin-skeleton','fin-frozen','fin-crack','fin-zap','fin-dust','fin-melt','dying'));$$('.fin-flames,.fin-skel,.fin-ice,.fin-bolts').forEach(e=>e.remove());}catch(e){}}
 function finFx(w,l,ch,o){const L=$('#fF'+l),W=$('#fF'+w);if(['Fatality','Friendship','Animality','Brutality'].includes(ch)){const st=$('#fStage');if(st)st.classList.add('fin-dark');}
   if(['Fatality','Brutality','Animality'].includes(ch)){return finDeath(w,l,ch,o).catch(e=>{if(e!=='abort')console.error(e)});}
   else if(ch==='Babality'){L.classList.add('baby');{const sc=typeof BB_SCENES!=='undefined'&&FS.P[l]&&BB_SCENES[FS.P[l].nome];if(sc)return bbRun(w,l,sc);}L.insertAdjacentHTML('beforeend',`<div class="fx-baby"><span class="fx-paci">${PACI_SVG}</span><span class="fx-rattle">${RATTLE_SVG}</span></div>`);}
