@@ -6410,7 +6410,7 @@ const MUSIC=(function(){
   let tailT=null;function tail(k,sec){untail();clearTimeout(tailT);arena=k;unlocked=true;const a=A[k];if(!a){start();return}a._tail=true;a.loop=false;if(a._off){a.src=T[k].src;a._off=false;}
     const fin=T[k]&&T[k].fin;if(fin!=null){const my=a;tailT=setTimeout(()=>{if(my._tail&&arena===k){arena='silencio';start();}},sec*1000+400);}
     const seek=()=>{try{if(fin!=null)a.currentTime=fin;else if(isFinite(a.duration)&&a.duration>sec)a.currentTime=a.duration-sec;}catch(e){}};if(a.readyState>=1)seek();else a.addEventListener('loadedmetadata',seek,{once:true});start();}
-  function fx(k){if(!soundOn||!FX[k])return false;duck=.25;apply();for(const x in FX)if(x!==k)FX[x].pause();clearTimeout(fxStop);try{FX[k].currentTime=0;const pr=FX[k].play();if(pr&&pr.catch)pr.catch(()=>{SFX.boom()})}catch(e){SFX.boom()}FX[k].loop=fxHold;if(k==='Animality'&&!fxHold)fxStop=setTimeout(()=>FX[k].pause(),6500);return true}
+  function fx(k){if(!soundOn||!FX[k])return false;duck=.25;apply();for(const x in FX)if(x!==k)FX[x].pause();clearTimeout(fxStop);try{FX[k].currentTime=0;const pr=FX[k].play();if(pr&&pr.catch)pr.catch(()=>{SFX.boom()})}catch(e){SFX.boom()}FX[k].loop=fxHold;return true}
   let fxHold=false;function holdFx(on){fxHold=on;if(!on){clearTimeout(fxStop);for(const x in FX){FX[x].loop=false;FX[x].pause();}duck=1;apply();}}
   Object.values(FX).forEach(x=>{x.addEventListener('ended',()=>{duck=1;apply()});x.addEventListener('pause',()=>{duck=1;apply()})});
   function animalPage(on){inAnimal=on;unlocked=true;if(on){stopAll();for(const x in FX)FX[x].pause();if(mode!=='nenhuma'){animal.volume=Math.max(vol,.35);animal.currentTime=0;const pr=animal.play();if(pr&&pr.catch)pr.catch(()=>{})}}else{animal.pause();start()}}
@@ -11867,7 +11867,7 @@ const BB_SCENES={
    Brutality:  vários golpes até explodir; na explosão tudo fica preto, luz de palco no vencedor e o tema pula para o 9s
    Babality:   escurece, o oponente vira bebê no 5s
    Friendship: escurece, começa no 4s e o tema segue até a próxima partida
-   Animality:  continua como era */
+   Animality:  escurece, começa no 3s e ao terminar pula para o 14s */
 async function fxAt(k,sec,played){const t=fightTok;
   if(!played){await sleep(sec*1000);if(t!==fightTok)throw 'abort';return;}
   const t0=performance.now();
@@ -11876,19 +11876,17 @@ async function fxAt(k,sec,played){const t=fightTok;
 function finDarkOn(){const st=$('#fStage');if(st)st.classList.add('fin-dark');}
 async function finRun(w,l,ch,o,x){x=x||{};const t=fightTok;const chk=()=>{if(t!==fightTok)throw 'abort'};
   const run=fn=>new Promise(r=>{let v;try{v=fn()}catch(e){console.error(e)}Promise.resolve(v).catch(e=>{if(e!=='abort')console.error(e)}).then(r)});
-  if(ch==='Animality'){anim(w,'lunge');const p=new Promise(r=>setTimeout(()=>r(run(()=>finFx(w,l,ch,o))),300));
-    MUSIC.holdFx(true);if(!MUSIC.fx(ch))SFX.boom();
-    await Promise.all([Promise.race([p,sleep(14000)]),sleep(3400)]);chk();await sleep(500);return;}
   if(ch==='Brutality'){const played=MUSIC.fx('Brutality');if(!played)SFX.boom();await brutRun(w,l,o,played);return;}
   /* Fatality, Babality e Friendship: escurece primeiro e espera o ponto certo do tema */
   finDarkOn();if(ch==='Friendship')MUSIC.holdFx(true);
   const played=MUSIC.fx(ch);if(!played)SFX.boom();
-  const at={Fatality:4,Babality:5,Friendship:4}[ch]||0;
+  const at={Fatality:4,Babality:5,Friendship:4,Animality:3}[ch]||0;
   if(at)await fxAt(ch,at-.3,played);chk();
   anim(w,'lunge');if(x.o2)anim(l,'lunge');await sleep(300);chk();
   const p=run(()=>{const r=finFx(w,l,ch,o);if(x.o2)finFx(l,w,ch,x.o2);return r;});
   await Promise.all([Promise.race([p,sleep(14000)]),sleep(ch==='Babality'?3200:3400)]);chk();
   if(ch==='Fatality'){await sleep(350);chk();if(played)MUSIC.fxSeek('Fatality',16);}
+  if(ch==='Animality'){await sleep(500);chk();if(played)MUSIC.fxSeek('Animality',14);}
 }
 /* ---- Brutality: surra, explosão e luz de palco ---- */
 async function brutRun(w,l,o,played){const t=fightTok,chk=()=>{if(t!==fightTok)throw 'abort'};
