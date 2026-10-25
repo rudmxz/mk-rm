@@ -5280,6 +5280,72 @@ Object.keys(R2).forEach(n=>{if(!DLGP[n+'|Vega'])DLGP[n+'|Vega']=R2[n];});
 VEGA.dialogos['Ana Letícia']=DLGP['Vega|Ana Letícia']||VEGA.dialogos['Ana Letícia'];
 })();
 
+/* ====== FALAS CURTAS DE ROUND ======
+   r1v: venceu o 1º round · r1p: perdeu o 1º round · rv: venceu qualquer outro round · bru: Brutality (2) */
+const FALAS={
+ 'Ana Letícia':{r1v:['Primeiro ponto. Já está no processo.','Objeção negada.','Foi só o aquecimento, querido.'],r1p:['Isso não vale. Quero recurso.','Foi o reflexo dos óculos.','Tudo bem. Eu ganho no próximo.'],rv:['Caso ganho.','Sentença: eu venci.','Mandem a conta.'],bru:['Honorários cobrados.','Fim do expediente.']},
+ 'Ashrah':{r1v:['Que a luz me guie.','Um passo mais perto da pureza.','Perdoe-me. Era necessário.'],r1p:['A escuridão ainda me persegue.','Eu levanto. Sempre levanto.','Ainda não acabou.'],rv:['A luz venceu.','Redenção, round a round.','Perdão.'],bru:['Sem redenção para você!','A Kriss tem fome!']},
+ 'Baraka':{r1v:['Corte feito!','Sangue no chão!','Tarkatan não perde!'],r1p:['Argh! Minhas lâminas!','Você teve sorte!','Vou cortar você ao meio!'],rv:['Mais um corte!','Carne fresca!','Rastejem!'],bru:['Em pedaços!','Lâminas famintas!']},
+ 'Conan':{r1v:['Crom sorri hoje.','O aço fala mais alto.','Caiu como um boi.'],r1p:['Crom! Dê-me forças!','Foi golpe de sorte.','Levanto e esmago você.'],rv:['Mais um no chão.','O aço vence.','Esmagado.'],bru:['Pelo aço de Crom!','Quebrado ao meio!']},
+ 'Cyrax':{r1v:['Alvo neutralizado.','Round um: concluído.','Protocolo cumprido.'],r1p:['Falha detectada.','Recalculando estratégia.','Danos aceitáveis.'],rv:['Missão cumprida.','Eficiência confirmada.','Alvo eliminado.'],bru:['Autodestruição do alvo.','Desmontado.']},
+ 'Ermac':{r1v:['Nós vencemos.','As almas se agitam.','Fácil para muitos.'],r1p:['Nós caímos.','As almas pedem revanche.','Nós voltamos.'],rv:['Muitos vencem como um.','Mais uma alma.','Nós somos legião.'],bru:['Nós esmagamos você.','Almas, devorem.']},
+ 'General Shao':{r1v:['Ajoelhe-se, verme.','Round um é meu.','O Imperador não perde.'],r1p:['Insolente!','Você pagará por isso!','Um deslize. Não se repete.'],rv:['Curve-se!','Esmagado sob o meu martelo.','Mais um para o trono.'],bru:['Meu martelo é a lei!','Reduzido a pó!']},
+ 'Geras':{r1v:['O tempo me favorece.','Eu já vi esse fim.','A areia corre a meu favor.'],r1p:['O tempo me trai?','Voltarei um instante.','Sinto o relógio girar.'],rv:['Era inevitável.','O tempo decidiu.','Mais um segundo seu.'],bru:['Seu tempo acabou!','Areia ao vento!']},
+ 'Ghostface':{r1v:['Qual é o seu filme favorito?','Ops. Round um é meu.','Você grita bem.'],r1p:['Ei! Isso foi trapaça!','Que final inesperado.','Não vai acabar assim.'],rv:['Outro grito, por favor.','Corta! Mais um.','Gostou da cena?'],bru:['Corta! Fim do filme.','Último ato.']},
+ 'Havik':{r1v:['O caos venceu!','Que bagunça linda!','Ordem é fraqueza.'],r1p:['Hahaha! Que dor deliciosa!','O caos não morre.','Mais! Mais!'],rv:['Caos! Caos!','Rasgue a ordem!','Bem-vindo à bagunça.'],bru:['Em pedaços!','Que lindo estrago!']},
+ 'Homelander':{r1v:['Sorria. Você perdeu.','Eu sou o herói aqui.','Que fofo. Você tentou.'],r1p:['Você me machucou?!','Isso vai custar caro.','Eu sou o melhor!'],rv:['Me amem.','Ninguém me para.','Aplaudam.'],bru:['Veja o que eu faço!','Meus olhos, o seu fim.']},
+ 'Jade':{r1v:['Lealdade é força.','Um para a princesa.','Eu protejo os meus.'],r1p:['Perdi o foco.','Não falho de novo.','Ainda sou leal.'],rv:['Pela Kitana.','Dever cumprido.','A guarda vence.'],bru:['Sem escapatória!','Pelo bastão!']},
+ 'Jax':{r1v:['Primeiro round, chefe!','Pode vir mais!','Sem dó nem piedade!'],r1p:['Nada mal, garoto.','Isso doeu.','Eu volto mais forte.'],rv:['Mais um no chão!','Braços de aço!','Esmagado!'],bru:['Cabeça por cabeça!','Quebrou e acabou!']},
+ 'Johnny Cage':{r1v:['Autógrafo grátis!','Round um, bebê!','Isso vai pro filme.'],r1p:['Corta! Chamem o dublê!','Os óculos caíram!','O próximo eu faço sozinho.'],rv:['Show de bola!','Outra cena perfeita.','Aplausos, por favor.'],bru:['Isso vai pro trailer!','Corta pro final!']},
+ 'Kano':{r1v:['Fácil demais.','Dinheiro no bolso.','Round um, mercenário.'],r1p:['Truque sujo, hein?','Eu volto cobrando.','Isso vai te custar.'],rv:['Outro pagando.','Negócio fechado.','Pagamento recebido.'],bru:['Coração de brinde!','Serviço completo!']},
+ 'Katherine Pierce':{r1v:['Que pena. Era fofo.','Eu sempre ganho.','Primeiro ponto meu, querido.'],r1p:['Você me despenteou.','Ah, que grosseria.','Eu sobrevivo. Sempre.'],rv:['Sobrevivência acima de tudo.','Mais um coração partido.','Tchau, querido.'],bru:['Eu avisei.','Adeus, tolo.']},
+ 'Kenshi':{r1v:['Eu vi o golpe.','Silêncio. Um a zero.','O espírito guia a lâmina.'],r1p:['Não vi essa.','Ainda ouço você.','Sakai, me ajude.'],rv:['Sem ver, vencendo.','A lâmina decide.','Paz restaurada.'],bru:['Sangue pela espada!','Sem ver. Sem piedade.']},
+ 'Kitana':{r1v:['A honra é minha.','Um round para Edênia.','Os leques não falham.'],r1p:['Uma falha. Não duas.','Edênia não cai.','Volto mais letal.'],rv:['Por Edênia.','A princesa vence.','O leque decidiu.'],bru:['Fatiada!','O leque corta fundo!']},
+ 'Kung Lao':{r1v:['Pelo Shaolin!','Primeiro round no chapéu.','Cortou fácil!'],r1p:['Que chapéu! Digo, que dor.','Eu me ajeito.','Mais um treino.'],rv:['Mais um no chapéu!','Disciplina vence.','Ponto do Shaolin.'],bru:['Meu chapéu corta tudo!','Em fatias!']},
+ 'Ladybug':{r1v:['Miraculous!','Ponto pra equipe!','Sorte de joaninha.'],r1p:['Ai, ai, ai!','Preciso de um Lucky Charm.','Calma. Eu me recupero.'],rv:['Cura com amor.','Mais uma salva.','Uhuu!'],bru:['Isso não fui eu!','Desculpa! Foi sem querer.']},
+ 'Li Mei':{r1v:['Honra e força.','Eu protejo os meus.','Primeiro round é meu.'],r1p:['Isso não me quebra.','Eu aguento mais.','A escuridão não me vence.'],rv:['Pela honra.','Mais um passo.','Liberta.'],bru:['Fúria libertada!','Sem piedade!']},
+ 'Liu Kang':{r1v:['Que o dragão me guie.','Primeiro round. Respeito.','Campeão é quem insiste.'],r1p:['Ainda não fui derrotado.','O dragão se levanta.','Eu volto.'],rv:['O torneio é meu.','Dragão vencedor.','Honra ao Shaolin.'],bru:['Fogo do dragão!','Queime!']},
+ 'Mileena':{r1v:['Que delícia!','Gostei do seu rosto.','Primeiro prato servido.'],r1p:['Vou comer você vivo!','Isso foi grosseiro!','Eu volto com mais fome.'],rv:['Mais um jantar!','Hmm, saboroso.','Eu sou a rainha.'],bru:['Nham nham!','Que sabor!']},
+ 'Nitara':{r1v:['Seu sangue é doce.','A noite me favorece.','Primeira mordida.'],r1p:['Sedenta. Muito sedenta.','Você vai sangrar por isso.','A noite é longa.'],rv:['Mais sangue.','Vaeternus não esquece.','Obrigada pelo jantar.'],bru:['Eu bebo até o fim!','Ao amanhecer, nada sobra.']},
+ 'Noob Saibot':{r1v:['A sombra venceu.','Você já me conhece.','Nada de luz.'],r1p:['A sombra volta.','Isso não é o fim.','Eu já estive pior.'],rv:['Mais uma sombra.','O vazio vence.','Escuridão.'],bru:['A sombra devora!','Para o vazio!']},
+ 'Omni-Man':{r1v:['Pensei que fosse difícil.','Um round. Nada demais.','Você é frágil.'],r1p:['Isso... doeu?','Não sou invencível. Ainda.','Ninguém faz isso comigo!'],rv:['Pense nisso.','Eu sou mais forte.','Fraco demais.'],bru:['Frágil demais!','É isso que eu faço!']},
+ 'Peacemaker':{r1v:['Paz? Só depois.','Um ponto pela paz.','Mais um para a lista.'],r1p:['Droga. Minha cabeça.','Eu luto pela paz!','Ainda tem muito round.'],rv:['Pela paz, custe o que custar.','Tiro certeiro.','Paz restaurada.'],bru:['Pela paz!','Isso sim é paz!']},
+ 'Quan Chi':{r1v:['Sua alma é minha.','Bobagem. Eu já sabia.','O Netherrealm sorri.'],r1p:['Insolente!','Eu volto dos mortos.','Magia é paciência.'],rv:['Mais uma alma.','A magia vence.','Que o inferno te receba.'],bru:['Sua alma, minha!','Ossos, ossos!']},
+ 'Raiden':{r1v:['Que os deuses me ouçam.','A luz do trovão vence.','Um ponto pela Terra.'],r1p:['A Terra precisa de mim.','Nenhum raio cai sem querer.','Eu volto.'],rv:['Trovão e vitória.','A Terra está segura.','Que o raio fale.'],bru:['Raio nele!','Trovão fatal!']},
+ 'Rain':{r1v:['Edênia se lembra.','A tempestade vence.','Um round. Só o primeiro.'],r1p:['A chuva também cai.','Eu sou o herdeiro!','Isso não pode acontecer.'],rv:['Eu sou o verdadeiro rei.','Trovão e água.','Curve-se.'],bru:['Afogue!','O raio é meu!']},
+ 'Reiko':{r1v:['Pelo Shao.','Fácil.','Round um, general.'],r1p:['Droga!','O Shao vai querer a sua cabeça.','Foi sorte.'],rv:['Obedeça.','Pelo Imperador.','Mais um fraco.'],bru:['Pelo Shao!','Sem piedade!']},
+ 'Reptile':{r1v:['Ssssim.','Caça bem-sucedida.','Primeira mordida.'],r1p:['Ssssofri.','A caça continua.','Ssssó um round.'],rv:['Mais uma caça.','Ssssaboroso.','O último vence.'],bru:['Veneno!','Ssssem piedade!']},
+ 'Rudolf':{r1v:['Mil anos de prática.','Que bela abertura.','Rodada um, meu bem.'],r1p:['Foi só um tropeço.','Mil anos e ainda caio.','Não tenho pressa.'],rv:['Vitória elegante.','Mais uma para o livro.','O príncipe vence.'],bru:['Sangue real!','Isso é moda antiga.']},
+ 'Scorpion':{r1v:['Volte para o inferno.','Primeiro, vingança.','Venha para cá!'],r1p:['Isso não acaba aqui.','Eu volto do inferno.','Sua hora vai chegar.'],rv:['Vá para o inferno!','Vingança servida.','Descanse em paz.'],bru:['Fique aqui!','Queime!']},
+ 'Sektor':{r1v:['Alvo abatido.','Round um: sucesso.','Eficiência máxima.'],r1p:['Erro detectado.','Reparos em andamento.','Recalibrando.'],rv:['Alvo neutralizado.','Meta alcançada.','Próximo alvo.'],bru:['Incinerar.','Alvo derretido.']},
+ 'Shang Tsung':{r1v:['Sua alma será minha.','Juventude para mim.','Round um, feiticeiro.'],r1p:['Insolente mortal!','Eu tomo a sua alma depois.','Você vai pagar.'],rv:['Que delícia de alma.','Poder renovado.','Mais uma alma.'],bru:['Sua alma é minha!','Desapareça!']},
+ 'Sindel':{r1v:['Grite para mim!','A rainha vence.','O primeiro round é meu.'],r1p:['Insolente!','A rainha cai, mas volta.','Ouça o meu grito.'],rv:['Ajoelhem-se!','A rainha manda.','Silêncio!'],bru:['Ouça o meu grito!','Fim da linha!']},
+ 'Smoke':{r1v:['Sumi. Venci.','Fumaça não falha.','Silêncio e vitória.'],r1p:['Eu me dissipei.','Eu volto.','Sem pressa.'],rv:['A fumaça vence.','Mais um sem rastro.','Cinzas.'],bru:['Fumaça fatal!','Sem rastro!']},
+ 'Sonya Blade':{r1v:['Ordem restaurada.','Round um, soldado.','Forças Especiais não perdem.'],r1p:['Fui descuidada.','Isso não se repete.','Reagrupando.'],rv:['Missão cumprida.','Soldado cumpre.','Alvo no chão.'],bru:['Sem misericórdia!','Missão cumprida!']},
+ 'Sub-Zero':{r1v:['Congelado.','Frio e eficiente.','Primeiro round. Sem emoção.'],r1p:['O gelo racha, mas não quebra.','Isso não é o fim.','Calculei errado.'],rv:['Gelado.','Disciplina vence.','O Lin Kuei não falha.'],bru:['Congele!','Seu coração é gelo!']},
+ 'T-1000':{r1v:['Alvo neutralizado.','Missão: round um.','Esperado.'],r1p:['Dano detectado.','Reformando.','Estou me adaptando.'],rv:['Eliminado.','Mimetizando a vitória.','Resistência é inútil.'],bru:['Cortado.','Metal líquido.']},
+ 'Takeda':{r1v:['Foi mal!','O pai ia gostar.','Round um, valeu!'],r1p:['Ai! Eu estou bem!','Pai, me ajuda!','Mais um round.'],rv:['Show!','Gostei!','Fui eu, sim!'],bru:['Foi sem querer!','Doeu mais em você!']},
+ 'Tanya':{r1v:['Fácil, querido.','Um ponto para mim.','Valeu o sacrifício.'],r1p:['Droga, escorreguei.','Eu me resolvo.','Isso tem preço.'],rv:['Dinheiro no bolso.','Vitória justa. Mais ou menos.','Adeus.'],bru:['Nada pessoal.','Fim.']},
+ 'Teresa':{r1v:['Provas suficientes.','Caso ganho.','Round um: julgado.'],r1p:['Isso vai a recurso.','Fui interrompida.','Vou refazer a minha defesa.'],rv:['Condenado.','Sentença executada.','A lei venceu.'],bru:['Pena máxima.','Sem apelação.']},
+ 'Vega':{r1v:['Caso aberto. Um a zero.','Fácil.','Troca equivalente. Você perdeu.'],r1p:['Já passei por pior.','Ainda não paguei tudo.','Eu já estive pior.'],rv:['Caso encerrado.','Arquivado.','Próximo.'],bru:['Deflagração.','Sem apelação.']},
+ 'Stefan':{r1v:['Desculpe por isso.','Um round. Só isso.','Me perdoe.'],r1p:['Eu mereço isso.','Eu volto.','Eu aguento.'],rv:['Perdão.','Vitória sem prazer.','Pelo meu irmão.'],bru:['Desculpe!','Isso me assusta.']},
+ 'Damon':{r1v:['Que graça.','Um a zero, amor.','Sorria. Você perdeu.'],r1p:['Ai. Que rude.','Que bom que eu volto.','Sem graça.'],rv:['Tchau, querido.','Eu sou o melhor.','Sarcasmo e vitória.'],bru:['Saúde.','Isso é diversão!']},
+ 'Bonnie':{r1v:['Feitiço certeiro.','A natureza decide.','Um ponto para mim.'],r1p:['A magia cobra caro.','Eu volto.','Preciso de foco.'],rv:['Magia não falha.','Os ancestrais vencem.','Mais um feitiço.'],bru:['Sem piedade!','A natureza cobra!']},
+ 'Lexi':{r1v:['Oi! Desculpa!','Foi divertido!','Ponto pra mim!'],r1p:['Ai! Que grosseria!','Sem estresse.','Eu volto.'],rv:['Yay!','A fofura vence!','Quem diria.'],bru:['Ops, exagerei.','Foi sem querer!']},
+ 'Art the Clown':{r1v:['*buzina*','...','*gargalhada muda*'],r1p:['...','*buzina triste*','*sorriso largo*'],rv:['*buzina*','*sorriso largo*','...'],bru:['*serra*','*gargalhada*']},
+ 'Freddy Krueger':{r1v:['Doces sonhos.','Um a zero, garotão.','Round um. Dormiu?'],r1p:['Você vai sonhar comigo.','Mais um pesadelo.','Garotinho esperto.'],rv:['Boa noite.','Um a menos.','Eu te visito amanhã.'],bru:['Dorme, dorme!','Pesadelo completo!']},
+ 'Jason Voorhees':{r1v:['Ki ki ki... ma ma ma.','...','*respira fundo*'],r1p:['...','*rosna*','...'],rv:['...','*arrasta o facão*','...'],bru:['...','*golpe final*']},
+ 'Coelho':{r1v:['Um a menos.','A faca decidiu.','Justiça cumprida.'],r1p:['Foi um deslize.','Eu volto.','Aguenta mais um.'],rv:['Justiça feita.','Silêncio.','Mais um arquivado.'],bru:['Isso é justiça!','Faca não perdoa!']},
+ 'Tigre':{r1v:['Hehe, fácil!','Dois gadanhos, dois golpes!','Round um!'],r1p:['Eita! Doeu!','Foi sorte!','Eu volto rindo.'],rv:['Rá!','Gostei!','Mais um no bolso!'],bru:['Rááá!','Gadanhos em ação!']},
+ 'Cobra':{r1v:['Veneno e paciência.','O deserto vence.','Um round, nada mais.'],r1p:['Veneno também falha.','Eu volto.','A serpente aprende.'],rv:['Picada certeira.','O deserto vence.','Mais uma vida.'],bru:['Drenado!','Sem cura!']},
+ 'Cabra':{r1v:['Booom!','Round um é meu!','Fogos de artifício!'],r1p:['Ai! Meu explosivo!','Isso foi trapaça!','Eu volto com mais bombas.'],rv:['Barulho bom!','Mais um!','Explodiu de novo!'],bru:['Booom total!','Explodiu!']},
+ 'Touro':{r1v:['Missão um: ok.','Sem tremer.','Disciplina.'],r1p:['Perdi posição.','Recuar e reagrupar.','Ainda estou em pé.'],rv:['Alvo neutralizado.','Dever cumprido.','Sem baixas.'],bru:['Fogo!','Sem misericórdia!']},
+ 'Lorenzo':{r1v:['Veyrath não se esquece.','Um a zero.','Eu tenho um motivo.'],r1p:['Eu aguento.','Já perdi mais.','Ainda não acabou.'],rv:['Pelos meus.','A herança decide.','Mais um.'],bru:['Veyrath!','Sem volta!']}
+};
+/* personagens criados pelo jogador */
+const FALAS_GEN={r1v:['O primeiro round é meu.','Foi fácil.','Quem é o próximo?'],r1p:['Foi só um tropeço.','Eu volto.','Ainda não acabou.'],rv:['Mais um round.','A vitória é minha.','Seguimos.'],bru:['Sem piedade!','Fim da linha!']};
+function falaDe(f,cat){const o=(f&&FALAS[f.nome])||FALAS_GEN;const L=(o[cat]&&o[cat].length)?o[cat]:FALAS_GEN[cat];return L[Math.floor(Math.random()*L.length)];}
+
 /* ====== PACOTE SOLDADOS (DLC da Kripta): Sonya Blade, Jax e Kano ======
    Fichas fixas usadas só na luta. Não aparecem na aba Fichas. */
 const FICHA_EXTRA={
@@ -7719,6 +7785,27 @@ async function introTalk(){
   }finally{T.classList.add('out');setTimeout(()=>T.remove(),300);}
   await resHide(resEls);
   log('');}
+/* ---- falas curtas de round e de Brutality (mesmo balão dos diálogos) ---- */
+function falasOk(){return !!(FS&&!FS.training&&FS.opts&&FS.opts.mode!=='finshow'&&!(FS.opts.noTalk&&!FS.online));}
+function falaBalao(T,s,txt){const f=FS.P[s];if(!f)return null;const old=T.querySelector('.tk-b.'+(s?'r':'l'));if(old)old.remove();
+  const b=document.createElement('div');b.className='tk-b '+(s?'r':'l');b.innerHTML=`<b>${esc(f.nome)}</b><p>${esc(txt)}</p>`;T.appendChild(b);
+  const hud=($('#fight .f-hud')||{getBoundingClientRect:()=>({bottom:0})}).getBoundingClientRect().bottom;
+  const R=$('#fF'+s).getBoundingClientRect(),cx=R.left+R.width/2,mid=innerWidth/2;
+  b.style.maxWidth=Math.min(320,mid-14)+'px';const w=b.offsetWidth,h=b.offsetHeight;let left=cx-w/2;left=s===0?Math.max(8,Math.min(mid-6-w,left)):Math.max(mid+6,Math.min(innerWidth-w-8,left));
+  const y=Math.max(R.top-14,Math.min(hud+10+h+8,R.top+R.height*.6));
+  b.style.left=left+'px';b.style.setProperty('--tx',Math.max(14,Math.min(w-14,cx-left))+'px');b.style.top=Math.max(8,y-h)+'px';
+  requestAnimationFrame(()=>b.classList.add('in'));try{SFX.tick()}catch(e){}return b;}
+/* fala: lista de [lado, texto]; os balões aparecem em sequência e somem sozinhos (ou ao tocar) */
+async function falasDizer(lista,ms){
+  if(!falasOk()||!lista||!lista.length)return;const t=fightTok,fg=$('#fight');
+  const T=document.createElement('div');T.className='tk-layer';fg.appendChild(T);
+  try{for(const [s,txt] of lista){if(t!==fightTok)break;falaBalao(T,s,txt);await sleep(FAST?250:820);}
+    await new Promise(res=>{const done=()=>{fg.removeEventListener('pointerdown',done);res()};fg.addEventListener('pointerdown',done);setTimeout(done,FAST?700:1900);});
+  }finally{T.classList.add('out');setTimeout(()=>T.remove(),300);}
+  if(t!==fightTok)throw 'abort';}
+/* fala solta durante uma animação (não espera) */
+function falaSolta(s,txt,ms){if(!falasOk())return;const fg=$('#fight');if(!fg)return;const t=fightTok;const T=document.createElement('div');T.className='tk-layer';fg.appendChild(T);
+  try{falaBalao(T,s,txt)}catch(e){T.remove();return}setTimeout(()=>{T.classList.add('out');setTimeout(()=>T.remove(),300)},ms||2800);}
 /* ---- escolhas: humano (lado próprio) ou CPU ---- */
 const isHuman=i=>FS.ctrl[i]==='human';
 const sideBox=i=>FS.two&&!FS.online?(i===0?'#fActL':'#fActR'):'#fAct';
@@ -8014,6 +8101,7 @@ async function runFight(k0,k1,opts){finCleanup();preloadSfx();preloadBanners();V
       if(FS.wins[w]>=need){await finishSeq(w);return;}
       const flaw=FS.dmg[w]===0;if(flaw&&w===0&&!FS.two)addCoins(COIN.flawless,'Flawless Victory');
       SFX.say(P[w].nome+' wins'+(flaw?'. Flawless victory':''));await banner(`<div class="wins-t">${esc(P[w].nome)} <span>wins</span></div>${flaw?'<div class="flaw-t">Flawless Victory</div>':''}`,2100,'winb');
+      try{await falasDizer(FS.round===1?[[w,falaDe(P[w],'r1v')],[1-w,falaDe(P[1-w],'r1p')]]:[[w,falaDe(P[w],'rv')]]);}catch(e){if(e==='abort')throw e;console.error(e);}
       log(`Fim do round ${FS.round}. Placar: <b>${esc(P[0].nome)} ${FS.wins[0]}</b> × <b>${FS.wins[1]} ${esc(P[1].nome)}</b>.`);await waitChoice([{k:'ok',t:'Próximo round ▶',cls:'big',key:'Espaço'}]);
       FS.round++;
     }
@@ -8170,7 +8258,7 @@ async function finishSeq(w){
   if(ch==='Golpe'){anim(w,'lunge');setTimeout(()=>{anim(l,'hit');SFX.hit();SFX.boom();},280);log(`<span class="who ${who(w)}">${esc(P[w].nome)}</span> dispensa a finalização e derruba ${esc(P[l].nome)} com um último golpe.`);await sleep(1300);}
   else if(ch){const o=ch==='Babality'?(bebeDe(P[l])||finSel.o):finSel.o;anim(w,'lunge');const finP=new Promise(r=>setTimeout(()=>{let x;try{x=finFx(w,l,ch,o)}catch(e){console.error(e)}r(x)},300));
     log('');
-    if(ch==='Animality')MUSIC.holdFx(true);if(!MUSIC.fx(ch))SFX.boom();if(ch==='Brutality')setTimeout(()=>anim(l,'hit'),900);await Promise.all([Promise.race([Promise.resolve(finP).catch(()=>{}),sleep(14000)]),sleep(3400)]);
+    if(ch==='Animality')MUSIC.holdFx(true);if(!MUSIC.fx(ch))SFX.boom();if(ch==='Brutality')setTimeout(()=>anim(l,'hit'),900);if(ch==='Brutality')setTimeout(()=>falaSolta(w,falaDe(P[w],'bru'),3200),700);await Promise.all([Promise.race([Promise.resolve(finP).catch(()=>{}),sleep(14000)]),sleep(3400)]);
     if(['Fatality','Brutality','Animality'].includes(ch)){await sleep(500);}
     const IMG={Fatality:'img/fatality.png',Brutality:'img/brutality.png',Animality:'img/animality.png',Babality:'img/babality.png',Friendship:'img/friendship.png'}[ch];
     finHtml=`<div class="fin-t">${IMG?`<img src="${IMG}" alt="${ch}">`:`<b>${ch}</b>`}</div>`;}
