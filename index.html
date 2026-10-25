@@ -4268,12 +4268,12 @@ const ANA_LETICIA = {
       {n:'Confissão',c:'1, 2, 4, ↓ → 1',dano:27,d:'Quatro golpes seguidos de um tiro à queima-roupa.'}
     ],
     fatalities:[
-      {n:'Final de Novela',c:'→ ↓ → 1',dist:'Perto',d:'Ana Letícia saca a pistola, tira os óculos brancos devagar e sorri: "Todo vilão tem um final de capítulo." Dá um tiro entre os olhos do oponente e assopra a fumaça do cano.'},
-      {n:'Acidente na Estrada',c:'← → ↓ 2',dist:'Meia distância',d:'Um carro aparece do nada e atropela o oponente. Ana Letícia desce, ajeita o cabelo e diz: "Foi um acidente. Sempre é." Entra no carro e vai embora.'}
+      {n:'Final de Novela',c:'→ ↓ → 1',dist:'Perto',d:'A tela escurece com o letreiro "último capítulo". Ana Letícia diz "Todo vilão tem um final de capítulo", dá no oponente a bofetada mais famosa da novela e atira à queima-roupa. O oponente cai, ela diz "Corta" e a tela fecha com um "FIM" dourado.'},
+      {n:'Acidente na Estrada',c:'← → ↓ 2',dist:'Meia distância',d:'Dois faróis acendem do nada e o carro do tio Mariano passa em disparada por cima do oponente, buzinando. Ana Letícia ajeita o cabelo e diz: "Foi um acidente. Sempre é."'}
     ],
     brutalities:[],
     golpeFatal:{n:'Três Vezes Ana',d:'Ana Letícia chora, o oponente hesita, e ela acerta três tiros, um tapa e uma coronhada no queixo.'},
-    animality:{animal:'cobra',n:'Víbora de Novela',c:'→ ← ↓ ↓ 1',d:'Ana Letícia vira uma cobra de escamas douradas, dá o bote e morde o pescoço do oponente. Depois ergue a cabeça e sorri para a câmera.'},
+    animality:{animal:'cobra',n:'Víbora de Novela',c:'→ ← ↓ ↓ 1',d:'Ana Letícia vira uma cobra de escamas douradas e óculos brancos, desliza em zigue-zague, dá o bote e morde o pescoço do oponente. Depois ergue a cabeça, sorri para a câmera e avisa: "Próximo capítulo."'},
     babality:{n:'Bebê Vilã',c:'↓ ← → 3',d:'Ana Letícia vira uma bebê de óculos escuros brancos que dá uma gargalhada e aponta uma pistolinha de água.'},
     friendship:{n:'Irmãs de Novo',c:'← ↓ ← 4',d:'Ana Letícia entrega ao oponente uma foto antiga das três irmãs. "Eu era boa pessoa. Por uns dez minutos."'},
     faccao:null,
@@ -4329,8 +4329,8 @@ const VEGA = {
   id:'vega', fixo:true, guest:true, criado:0,
   input:{
     nome:'Vega', idade:'27 anos', genero:'Mulher', sexualidade:'Não definida',
-    reino:'Plano Terreno', especie:'Ser Terreno (humana transcendida)', elemento:'Sombra', arma:'Fuzil espectral', estilo:'Investigação e tiro do Outro Lado',
-    vestimenta:'Cabelo roxo, rosa e azul com tranças e presilhas, máscara de lobo na cabeça, gargantilha preta, top marrom desbotado, tatuagens de estrelas e ondas pelo corpo, cigarro no canto da boca', cor:'#a98bff', alinhamento:'Anti-herói', faccao:'A Ordem',
+    reino:'Plano Terreno', especie:'Ser Terreno (humana transcendida)', elemento:'Caos', arma:'Fuzil de agente e rituais', estilo:'Investigação e rituais de Energia',
+    vestimenta:'Cabelo roxo, rosa e azul com tranças e presilhas, máscara de lobo na cabeça, gargantilha preta, top marrom desbotado, tatuagens de estrelas e ondas pelo corpo, cigarro no canto da boca', cor:'#b57bff', alinhamento:'Anti-herói', faccao:'A Ordem',
     personalidades:['Rebelde','Melancólico','Estrategista'],
     lacos:[{p:'Sonya Blade',l:'Aliado(a)'},{p:'Quan Chi',l:'Rival'}],
     desejo:'Agente da Ordem que transcendeu e deu o corpo para salvar os amigos, trazida ao universo de Mortal Kombat.'
@@ -4344,16 +4344,16 @@ const VEGA = {
       'Depois de meses, as pistas a levaram a um local onde outras pessoas tinham sido "assassinadas por mais uma gangue de mercenários". Ali ela descobriu o Outro Lado, o paranormal e a Ordem, ao rever as pessoas que lhe deram a notícia da morte dos pais. O caso era de esoterroristas, gente que praticava torturas terríveis para fortalecer o paranormal e enfraquecer a membrana. Os pais tinham morrido combatendo as criaturas nascidas desses rituais. Com a verdade na mão, Vega aceitou o convite da Ordem pelas habilidades de investigadora e passou a ser agente, sempre com o fuzil nas missões.',
       'Depois ela absorveu mais poder do paranormal e transcendeu. Na última missão, numa troca equivalente, entregou o próprio corpo para reviver os amigos e arrancar o paranormal de dentro deles. Foi assim que a membrana se rasgou perto de Exoterra e Vega atravessou. Ela chegou à Nova Era com o cabelo mudado, as tatuagens no lugar das cicatrizes e a mesma raiva de sempre. O fuzil de agente ficou para trás. O que ela usa agora vem do Outro Lado.'
     ],
-    estilo:'Investigação e tiro do Outro Lado',
+    estilo:'Investigação e rituais de Energia',
     stats:{Força:62,Velocidade:76,Técnica:90,Magia:88,Resistência:74},
     poderes:[
-      {n:'Olhar de Investigadora',d:'Lê o padrão de luta do oponente em poucos segundos e acha o ponto fraco.'},
+      {n:'Deflagração de Energia',d:'O ritual que ela domina. Risca o círculo de Energia no chão, a energia caótica sobe pelo corpo do oponente em descargas e detona.'},
+      {n:'Olhar de Investigadora',d:'Lê o padrão de luta do oponente em poucos segundos e acha o ponto fraco antes dele.'},
       {n:'Troca Equivalente',d:'Dá algo de si, como vida ou barra, para tirar do oponente algo maior.'},
-      {n:'Membrana Fina',d:'Rasga o espaço entre dois lugares e usa a fenda para puxar, bloquear e surgir atrás.'},
-      {n:'Raiva Apática',d:'Quanto mais machucada, mais fria e precisa ela fica.'}
+      {n:'Raiva Apática',d:'Quanto mais machucada, mais fria e precisa ela fica. Nunca levanta a voz.'}
     ],
     especiais:[
-      {n:'Rajada do Outro Lado',c:'↓ → 1',d:'Conjura um fuzil espectral e dispara uma rajada de tiros roxos.'},
+      {n:'Deflagração de Energia',c:'↓ → 1',d:'Risca o círculo ritual no chão sob o oponente. A energia caótica sobe em descargas e explode.'},
       {n:'Rasgo na Membrana',c:'↓ ← 2',d:'Abre uma fenda na frente do oponente e o puxa para dentro por um segundo.'},
       {n:'Passo do Outro Lado',c:'← → 3',d:'Some pela membrana e surge atrás do oponente com um chute alto.'},
       {n:'Máscara de Lobo',c:'↓ ↑ 4',d:'A máscara da cabeça ganha vida, ruge e morde o oponente.'},
@@ -4363,17 +4363,17 @@ const VEGA = {
       {n:'Caso Aberto',c:'1, 1, 2',dano:13,d:'Dois socos rápidos e um cruzado de quem já brigou demais.'},
       {n:'Linha de Investigação',c:'2, 1, →+3',dano:17,d:'Três golpes seguidos, como pistas que levam a um chute alto.'},
       {n:'Prova Cabal',c:'3, 4, ↓+2',dano:19,d:'Golpes secos que terminam com uma rasteira.'},
-      {n:'Caso Encerrado',c:'1, 2, 4, ↓ → 1',dano:27,d:'Quatro golpes e uma rajada roxa à queima-roupa.'}
+      {n:'Caso Encerrado',c:'1, 2, 4, ↓ → 1',dano:27,d:'Quatro golpes e uma Deflagração de Energia à queima-roupa.'}
     ],
     fatalities:[
-      {n:'Caso Encerrado',c:'← ↓ → 3',dist:'Perto',d:'Vega materializa o fuzil de agente que usava nas missões, mira com calma e esvazia o carregador no oponente. Depois guarda a arma, acende o cigarro e diz: "Arquivado." O corpo vira cinza.'},
-      {n:'Troca Equivalente',c:'↓ ↓ → 4',dist:'Meia distância',d:'Vega estende a mão e o oponente sente tudo o que tem sendo puxado para fora do corpo. A pele some, os ossos aparecem e o esqueleto vira poeira. Ela fecha a mão e murmura: "Fica a conta zerada."'}
+      {n:'Deflagração de Energia',c:'← ↓ → → 4',dist:'Meia distância',d:'Vega diz apenas "Deflagração." e risca no chão, debaixo do oponente, o círculo ritual de Energia. Os símbolos acendem em roxo, descargas de energia caótica sobem pelo corpo dele e o fazem tremer. Quando o círculo fecha, a energia detona por dentro e o oponente explode em partículas roxas.'},
+      {n:'Arquivado',c:'← ↓ → 3',dist:'Perto',d:'Vega materializa o fuzil de agente que usava nas missões e esvazia o carregador sem pressa. O oponente cai, e ela trata o lugar como cena de crime: contorno de giz no chão, fita amarela, marcador de prova número 1 e o flash da câmera de perícia. Carimba "ARQUIVADO" e acende um cigarro.'}
     ],
     brutalities:[],
-    golpeFatal:{n:'Interrogatório Final',d:'Vega prende o oponente, rasga a membrana atrás dele e o empurra para dentro. Ele volta atordoado, e ela acerta três socos e uma rajada.'},
-    animality:{animal:'lobo',n:'Lobo da Máscara',c:'→ ← ↓ ↓ 1',d:'A máscara de lobo se solta da cabeça de Vega e vira uma matilha de lobos roxos que cerca o oponente e o derruba.'},
+    golpeFatal:{n:'Interrogatório Final',d:'Vega prende o oponente, desenha o círculo ritual debaixo dele e o empurra para dentro. Ele volta atordoado, e ela acerta três socos e uma Deflagração de Energia.'},
+    animality:{animal:'lobo',n:'Lobo da Máscara',c:'→ ← ↓ ↓ 1',d:'A máscara de lobo se solta da cabeça de Vega, cresce e ruge. Uma matilha de lobos roxos cerca o oponente e o morde, e a máscara o engole inteiro. Depois volta pequena para a cabeça dela.'},
     babality:{n:'Bebê Agente',c:'↓ ← → 3',d:'Vega vira uma bebê de gargantilha preta e máscara de lobo torta que aponta um fuzil de brinquedo, chupa um pirulito no lugar do cigarro e faz cara de brava.'},
-    friendship:{n:'Dia de Folga',c:'← ↓ ← 4',d:'Vega tira o cigarro, abaixa o fuzil e entrega ao oponente um copo de café. "Hoje eu estou de folga. Aproveita antes que eu mude de ideia."'},
+    friendship:{n:'Dia de Folga',c:'← ↓ ← 4',d:'Vega apaga o cigarro, entrega ao oponente um copo de café e diz: "Hoje eu estou de folga. Aproveita."'},
     faccao:null,
     kameo:{n:'Os Pais',d:'Dois vultos de agentes aparecem atrás dela, apontam os fuzis para o oponente e somem. Ela finge que não viu.'}
   },
@@ -7002,7 +7002,7 @@ const KITS={
  'Takeda':{atr:[2,4,1,1],fx:'chicote',p2:KP('Treino do Shirai Ryu','Golpe rápido com +1 no acerto.',{pk:'acerto',a:'rapido',v:1}),p4:KG('Chicote de Kunais','As lâminas estalam no alvo.',{h:2,dd:[1,5],s:'A',e:'sang',ec:.5,fx:'chicote'}),p5:{e:'sang',ec:.4},p6:KS('Legado de Kenshi','A telecinese do pai junto com os chicotes.',{h:3,dd:[3,6],s:'M',e:'ator',ec:.7,fx:'tele'})},
  'Tanya':{atr:[1,3,3,1],fx:'fogo',p2:KP('Traição Calculada','Quem está quase caindo sofre mais: +2 de dano.',{pk:'exec',v:2}),p4:KG('Pirotecnia','Fogo saindo do bastão Umgadi.',{h:2,dd:[1,5],s:'M',e:'quei',ec:.5,fx:'fogo'}),p5:{e:'quei',ec:.4},p6:KS('Dança do Umgadi','O bastão gira em chamas.',{h:3,dd:[3,6],s:'A',e:'ator',ec:.6,fx:'impacto'})},
  'Ana Letícia':{atr:[2,3,2,1],fx:'bala',p2:KP('Cara de Anjo','Finge inocência e acerta quando ninguém espera: crítico com 19 ou 20.',{pk:'crit',v:1}),p4:KG('Tiro de Aviso','A pistola dourada e um sorriso sem culpa.',{h:2,dd:[1,4],s:'A',e:'ator',ec:.35,fx:'bala'}),p5:{e:'lent',ec:.4},p6:KS('Final de Novela','Todo vilão tem um final de capítulo.',{h:4,dd:[3,6],s:'A',e:'quei',ec:.8,fx:'bala'})},
- 'Vega':{atr:[1,2,3,2],fx:'sombra',p2:KP('Dedução Final','A investigadora vê quem está quase caindo: +2 de dano nele.',{pk:'exec',v:2}),p4:KG('Rajada do Outro Lado','Um fuzil espectral e uma rajada roxa.',{h:2,dd:[1,4],s:'M',e:'ator',ec:.4,fx:'sombra'}),p5:{e:'lent',ec:.4},p6:KS('Troca Equivalente','Ela paga com o que tem e cobra mais de quem está na frente.',{h:4,dd:[3,6],s:'M',e:'sang',ec:.7,fx:'sombra'})},
+ 'Vega':{atr:[1,2,3,2],fx:'caos',p2:KP('Dedução Final','A investigadora vê quem está quase caindo: +2 de dano nele.',{pk:'exec',v:2}),p4:KG('Deflagração de Energia','O círculo ritual no chão e uma descarga de Energia caótica.',{h:2,dd:[1,4],s:'M',e:'ator',ec:.45,fx:'caos'}),p5:{e:'lent',ec:.4},p6:KS('Deflagração Total','Ela paga o custo inteiro do ritual e libera toda a Energia de uma vez.',{h:4,dd:[3,6],s:'M',e:'quei',ec:.8,fx:'caos'})},
  'Teresa':{atr:[1,3,2,2],fx:'faca',p2:KP('Cláusula de Proteção','Teresa nunca paga o preço cheio: todo dano recebido cai 1.',{pk:'red',v:1}),p4:KG('Argumento Afiado','A adaga de prata e uma frase que desarma.',{h:2,dd:[1,4],s:'A',e:'lent',ec:.6,fx:'faca'}),p5:{e:'lent',ec:.4},p6:KS('Sentença Final','Caso encerrado.',{h:4,dd:[3,6],s:'M',e:'ator',ec:.7,fx:'impacto'})},
  'Sonya Blade':{atr:[2,4,0,2],fx:'anel',p2:KP('Treino Militar','Sempre pronta: +2 na iniciativa.',{pk:'ini',v:2}),p4:KG('Anéis de Energia','Os braceletes disparam anéis.',{h:3,dd:[1,4],s:'A',e:'ator',ec:.35,fx:'anel'}),p5:{e:'ator',ec:.3},p6:KS('Ataque Aéreo','Sonya chama o apoio das Forças Especiais.',{h:3,dd:[3,6],s:'A',e:'quei',ec:1,fx:'missil'})},
  'Jax':{atr:[5,0,0,3],fx:'impacto',p2:KP('Braços Biônicos','Agarrão com +3 de dano.',{pk:'grab',v:3}),p4:KG('Soco Sísmico','Soca o chão e a onda derruba o alvo.',{h:0,dd:[2,4],s:'F',e:'ator',ec:.5,fx:'onda'}),p5:{e:'ator',ec:.35},p6:KS('Gotcha!','Agarra e soca sem parar.',{h:2,dd:[3,4],s:'F',gr:1,e:'ator',ec:1,fx:'impacto'})},
@@ -10910,8 +10910,6 @@ const FA_OVR={
   'Rudolf|Coisa de Família':[{t:'throw',w:'leque',h:.3},{t:'throw',w:'leque_fogo',h:.55},{t:'die',k:'burn'}],
   'Ana Letícia|Final de Novela':[{t:'barrage',w:'bala',n:1},{t:'die',k:'fall'}],
   'Ana Letícia|Acidente na Estrada':[{t:'beat',n:2},{t:'drop',w:'emoji:🚗'}],
-  'Vega|Caso Encerrado':[{t:'barrage',w:'bala',n:9},{t:'die',k:'dust'}],
-  'Vega|Troca Equivalente':[{t:'waves',c:'#b79bff'},{t:'die',k:'flesh'}],
   'Teresa|Sentença Final':[{t:'throw',w:'faca',h:.45,stick:true},{t:'die',k:'fall'}],
   'Teresa|Humilhação Pública':[{t:'beat',n:2},{t:'drop',w:'emoji:👠'}],
   'Stefan|O Estripador':[{t:'bite'},{t:'die',k:'dust'}],
@@ -10956,7 +10954,7 @@ const FA_BICHOS=[[/urso polar/,'🐻‍❄️','charge'],[/urso/,'🐻','charge'
   [/pinguim/,'🐧','egg'],[/gambá/,'🦨','gas'],[/enguia/,'⚡','eel'],[/canguru/,'🦘','kick'],[/chimpanzé|macaco|gorila/,'🦍','chase'],[/aranha|tarântula/,'🕷️','web'],[/elefante/,'🐘','stomp'],[/hipopótamo/,'🦛','stomp'],[/touro|búfalo/,'🐂','charge'],
   [/carneiro|bode|cabra/,'🐏','charge'],[/rinoceronte/,'🦏','charge'],[/javali/,'🐗','charge'],[/escorpião/,'🦂','sting'],[/joaninha/,'🐞','fly'],[/cavalo/,'🐎','stomp'],[/fera/,'👹','pounce']];
 function faBicho(an){const t=((an&&an.animal)||'').toLowerCase()+' '+((an&&an.d)||'').toLowerCase();for(const [re,e,b] of FA_BICHOS)if(re.test(t))return {e,b};return {e:'🐾',b:'pounce'};}
-async function finAnimAnimality(w,l,an){const W=$('#fF'+w),R=faR(w),L=faR(l),d=faDir(w,l),{e:em,b}=faBicho(an);const t=((an&&an.d)||'').toLowerCase();
+async function finAnimAnimality(w,l,an){{const ov=typeof FA_AN_OVR!=='undefined'&&FA_AN_OVR[FS.P[w]&&FS.P[w].nome];if(ov)return ov(w,l,an);}const W=$('#fF'+w),R=faR(w),L=faR(l),d=faDir(w,l),{e:em,b}=faBicho(an);const t=((an&&an.d)||'').toLowerCase();
   /* vira o bicho */
   const puff=faEl('fa-puff',null,`left:${R.left+R.width/2}px;top:${R.top+R.height*.55}px;width:${R.width*1.3}px;height:${R.width*1.3}px`);faSfx('boom');W.classList.add('fa-morph');await sleep(350);W.style.opacity='0';
   const size=Math.min(R.height*.72,R.width*1.15);const bx=R.left+R.width/2,by=R.bottom-size*.5;
@@ -11225,6 +11223,172 @@ function faFrHas(o){const t=((o&&(o.n+' '+o.d))||'').toLowerCase();return FR_SCE
 async function faFriendship(w,l,o){const t=((o&&(o.n+' '+o.d))||'').toLowerCase();const sc=FR_SCENES.find(([re])=>re.test(t));
   if(sc){await sleep(150);await sc[1](w,l,frG(w,l),t);await faRestoreW(w);return true;}
   faFriendProps(w,l,t);await sleep(2600);return false;}
+
+/* ====== FINALIZAÇÕES AUTORAIS: Ana Letícia e Vega (cenas feitas à mão, uma por uma) ====== */
+const FC_SAY='background:rgba(8,8,14,.92);color:#fff;padding:6px 11px;border-radius:10px;font:600 13px/1.25 var(--f-ui,system-ui);max-width:min(70vw,250px);white-space:normal;text-align:center;z-index:38;';
+/* fala curta que aparece em cima do lutador (w = quem finaliza, who:'l' = o oponente) */
+async function faSay(w,l,s){const i=s.who==='l'?l:w;const P=faPt(i,.5,.02);const x=Math.max(130,Math.min(innerWidth-130,P.x)),y=Math.max(80,P.y);
+  const e=faEl('fa-say',null,`left:${x}px;top:${y}px;transform:translate(-50%,-100%);border:1px solid ${s.c||'#fff'};${FC_SAY}`);e.textContent=s.txt;
+  await faAn(e,[{opacity:0,transform:'translate(-50%,-85%) scale(.9)'},{opacity:1,transform:'translate(-50%,-100%) scale(1)'}],{duration:220});
+  await sleep(s.ms||1300);await faAn(e,[{opacity:1},{opacity:0}],{duration:240});e.remove();}
+async function faFlash(c,ms){const e=faEl('',null,`left:0;top:0;width:100vw;height:100vh;background:${c||'#fff'};z-index:60`);
+  await faAn(e,[{opacity:0},{opacity:.95,offset:.25},{opacity:0}],{duration:ms||300});e.remove();}
+/* ---------- NOVELA (Ana Letícia) ---------- */
+let FC_BARS=null;
+async function faNovela(w,l,s){
+  if(s.p==='open'){const mk=(top)=>faEl('fa-bar',null,`left:0;${top?'top':'bottom'}:0;width:100vw;height:11vh;background:#000;z-index:33`);
+    FC_BARS=[mk(true),mk(false)];FC_BARS[0].animate([{transform:'translateY(-100%)'},{transform:'none'}],{duration:500,fill:'forwards',easing:'ease-out'});
+    await faAn(FC_BARS[1],[{transform:'translateY(100%)'},{transform:'none'}],{duration:500,easing:'ease-out'});
+    const t=faEl('fa-ntit',null,`left:4vw;bottom:2.4vh;z-index:34;color:#f4d27a;font:italic 700 clamp(13px,3.6vw,20px)/1 Georgia,serif;letter-spacing:.5px;text-shadow:0 2px 6px #000`);
+    t.textContent=s.txt||'Último capítulo';FC_BARS.push(t);faAn(t,[{opacity:0},{opacity:1}],{duration:500});faSfx('gong');await sleep(900);return;}
+  if(s.p==='fim'){const f=faEl('fa-fim',null,`left:50%;top:46%;transform:translate(-50%,-50%);z-index:40;color:#f4d27a;font:italic 900 clamp(64px,24vw,130px)/1 Georgia,serif;text-shadow:0 0 18px #7a5a10,0 4px 10px #000;letter-spacing:6px`);
+    f.textContent='FIM';faSfx('gong');await faAn(f,[{opacity:0,transform:'translate(-50%,-50%) scale(1.8)'},{opacity:1,transform:'translate(-50%,-50%) scale(1)'}],{duration:700,easing:'ease-out'});
+    await sleep(1300);await faAn(f,[{opacity:1},{opacity:0}],{duration:500});f.remove();
+    if(FC_BARS){const b=FC_BARS;FC_BARS=null;b.forEach(x=>x.animate([{opacity:1},{opacity:0}],{duration:400,fill:'forwards'}));await sleep(420);b.forEach(x=>x.remove());}}}
+/* o tapa de vilã */
+async function faSlap(w,l,s){await faGo(w,l,.5);const B=faPt(l,.5,.28),d=faDir(w,l);
+  const hand=faEl('fa-emo','👋',`left:${B.x-d*B.r.width*.7}px;top:${B.y}px;font-size:${B.r.width*.7}px;z-index:36`);faSfx('whoosh');
+  await faAn(hand,[{transform:`translate(-50%,-50%) rotate(${-d*70}deg) scaleX(${-d})`,opacity:1},{transform:`translate(calc(-50% + ${d*B.r.width*.95}px),-50%) rotate(${d*25}deg) scaleX(${-d})`,opacity:1}],{duration:150,easing:'ease-in'});
+  faSfx('hit');faShake();finSpray(l,6,false);
+  const pl=faEl('fa-emo','PLAF!',`left:${B.x}px;top:${B.y-B.r.height*.18}px;font-size:${B.r.width*.34}px;color:#ffd23a;font-weight:900;-webkit-text-stroke:2px #5a1010;z-index:37`);
+  const F=$('#fF'+l);faAn(F,[{transform:'translateX(0) rotate(0)'},{transform:`translateX(${d*16}px) rotate(${d*18}deg)`,offset:.3},{transform:'translateX(0) rotate(0)'}],{duration:520});
+  await sleep(220);faAn(hand,[{opacity:1},{opacity:0}],{duration:250}).then(()=>hand.remove());await sleep(380);faAn(pl,[{opacity:1},{opacity:0}],{duration:250}).then(()=>pl.remove());}
+/* o carro do tio Mariano passa por cima do oponente */
+async function faCarro(w,l,s){const d=faDir(w,l),R=faR(w),L=faR(l);const size=Math.max(R.width*1.3,130);const y=L.bottom-size*.38;
+  const sx=d>0?-size*1.6:innerWidth+size*1.6,ex=d>0?innerWidth+size*1.6:-size*1.6,hit=L.left+L.width/2;
+  const flip=d>0?-1:1;const car=faEl('fa-emo','🚗',`left:0;top:${y}px;font-size:${size}px;z-index:35`);
+  const cone=faEl('',null,`left:0;top:${y}px;width:${size*1.7}px;height:${size*.55}px;background:linear-gradient(${d>0?'to right':'to left'},rgba(255,246,190,.9),rgba(255,246,190,0));clip-path:${d>0?'polygon(0 38%,100% 0,100% 100%,0 62%)':'polygon(100% 38%,0 0,0 100%,100% 62%)'};z-index:34`);
+  const off=d>0?size*.85:-size*.85;const T=1050;
+  faSfx('whoosh');const bip=faEl('fa-emo','BEEEEP!',`left:${R.left+R.width/2}px;top:${R.top}px;font-size:${R.width*.3}px;color:#fff;font-weight:900;-webkit-text-stroke:2px #222;z-index:37`);
+  faAn(bip,[{opacity:0,transform:'translate(-50%,-50%) scale(.4)'},{opacity:1,transform:'translate(-50%,-50%) scale(1)',offset:.3},{opacity:0,transform:'translate(-50%,-50%) scale(1.1)'}],{duration:900}).then(()=>bip.remove());
+  await sleep(450);
+  const a1=car.animate([{transform:`translate(${sx}px,-50%) scaleX(${flip})`},{transform:`translate(${ex}px,-50%) scaleX(${flip})`}],{duration:T,easing:'linear',fill:'forwards'});
+  cone.animate([{transform:`translate(${sx+off}px,-50%)`},{transform:`translate(${ex+off}px,-50%)`}],{duration:T,easing:'linear',fill:'forwards'});
+  const f=(hit-sx)/(ex-sx);await sleep(T*f);faSfx('boom');faShake();finSpray(l,18,true);
+  const F=$('#fF'+l);faAn(F,[{transform:'translate(0,0) rotate(0)'},{transform:`translate(${d*innerWidth*.9}px,${-L.height*.6}px) rotate(${d*720}deg)`}],{duration:800,easing:'ease-out'});
+  await a1.finished.catch(()=>{});car.remove();cone.remove();F.classList.add('fin-gone');await sleep(300);}
+/* ---------- VEGA: o ritual Deflagração de Energia ---------- */
+function fcGlyph(c){const sq=`M-52 -52L52 -52L52 52L-52 52Z`;const rays=Array.from({length:16},(_,i)=>{const a=i/16*Math.PI*2;return `<path pathLength="1" d="M${(Math.cos(a)*78).toFixed(1)} ${(Math.sin(a)*78).toFixed(1)}L${(Math.cos(a)*93).toFixed(1)} ${(Math.sin(a)*93).toFixed(1)}"/>`}).join('');
+  return `<svg viewBox="-100 -100 200 200" style="overflow:visible;fill:none;stroke:${c};stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 7px ${c}) drop-shadow(0 0 16px ${c})"><g class="g1" style="transform-box:fill-box;transform-origin:center"><circle pathLength="1" r="97"/><circle pathLength="1" r="75"/>${rays}</g><g class="g2" style="transform-box:fill-box;transform-origin:center"><path pathLength="1" d="${sq}"/><path pathLength="1" d="${sq}" transform="rotate(45)"/></g><g class="g3"><circle pathLength="1" r="24"/><path pathLength="1" d="M-7 -30L9 -6L-9 4L7 30"/><path pathLength="1" d="M-30 0L-24 0M24 0L30 0"/></g></svg>`;}
+function fcArc(A,B,c){const n=7,pts=[];for(let i=0;i<=n;i++){const t=i/n;pts.push([A.x+(B.x-A.x)*t+(i&&i<n?(Math.random()-.5)*34:0),A.y+(B.y-A.y)*t+(i&&i<n?(Math.random()-.5)*34:0)]);}
+  const x0=Math.min(...pts.map(p=>p[0]))-10,y0=Math.min(...pts.map(p=>p[1]))-10,x1=Math.max(...pts.map(p=>p[0]))+10,y1=Math.max(...pts.map(p=>p[1]))+10;
+  const path=pts.map(p=>`${(p[0]-x0).toFixed(1)},${(p[1]-y0).toFixed(1)}`).join(' ');
+  const e=faEl('fa-arc',`<svg width="${x1-x0}" height="${y1-y0}" style="overflow:visible"><polyline points="${path}" fill="none" stroke="${c}" stroke-width="5" stroke-linejoin="round" opacity=".55"/><polyline points="${path}" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>`,`left:${x0}px;top:${y0}px;z-index:36`);
+  faAn(e,[{opacity:1},{opacity:0}],{duration:160+Math.random()*100}).then(()=>e.remove());}
+async function faRitual(w,l,s){const c=s.c||'#c44dff',L=faR(l),W=$('#fF'+w),F=$('#fF'+l);
+  const cx=L.left+L.width/2,cy=L.top+L.height*.55,sz=Math.max(L.width*2.3,210);
+  /* a mão dela acende */
+  let aura=null;try{aura=W.animate([{filter:'drop-shadow(0 0 0 '+c+')'},{filter:'drop-shadow(0 0 16px '+c+') brightness(1.25)'}],{duration:420,iterations:Infinity,direction:'alternate'});}catch(e){}
+  const wrap=faEl('fa-rit',fcGlyph(c),`left:${cx}px;top:${cy}px;width:${sz}px;height:${sz}px;transform:translate(-50%,-50%) perspective(700px) rotateX(38deg);z-index:31`);
+  const parts=[...wrap.querySelectorAll('[pathLength]')];parts.forEach(p=>{p.style.strokeDasharray='1';p.style.strokeDashoffset='1';});
+  parts.forEach((p,i)=>p.animate([{strokeDashoffset:1},{strokeDashoffset:0}],{duration:900,delay:i*28,fill:'forwards',easing:'ease-out'}));
+  const g1=wrap.querySelector('.g1'),g2=wrap.querySelector('.g2');
+  try{g1.animate([{transform:'rotate(0)'},{transform:'rotate(360deg)'}],{duration:5000,iterations:Infinity});g2.animate([{transform:'rotate(0)'},{transform:'rotate(-360deg)'}],{duration:3500,iterations:Infinity});}catch(e){}
+  faSfx('tick');await sleep(300);
+  /* nome do ritual */
+  const nm=faEl('fa-emo','Deflagração de Energia',`left:${Math.max(110,Math.min(innerWidth-110,cx))}px;top:${Math.max(70,L.top-14)}px;font-size:${Math.max(13,Math.min(18,L.width*.12))}px;color:#efe0ff;font-weight:800;letter-spacing:1px;text-shadow:0 0 10px ${c},0 2px 4px #000;z-index:37`);
+  faAn(nm,[{opacity:0,transform:'translate(-50%,-30%) scale(.8)'},{opacity:1,transform:'translate(-50%,-50%) scale(1)'}],{duration:400});
+  /* o oponente treme e acumula energia */
+  let jit=null;try{jit=F.animate([{transform:'translateX(-3px)'},{transform:'translateX(3px)'}],{duration:55,iterations:Infinity,direction:'alternate',composite:'add'});}catch(e){}
+  try{F.animate([{filter:'brightness(1)'},{filter:'brightness(2.4) saturate(2.2) hue-rotate(255deg)'}],{duration:1500,fill:'forwards'});}catch(e){}
+  for(let i=0;i<11;i++){
+    const a=Math.random()*Math.PI*2,A={x:cx+Math.cos(a)*sz*.34,y:cy+Math.sin(a)*sz*.34*.8};const B={x:cx+(Math.random()-.5)*L.width*.5,y:L.top+L.height*(.25+Math.random()*.5)};
+    fcArc(A,B,c);if(i%2)fcArc({x:cx+(Math.random()-.5)*sz*.5,y:cy},B,c);
+    for(let k=0;k<2;k++){const p=faEl('fa-part',null,`left:${cx+(Math.random()-.5)*sz*.6}px;top:${cy}px;width:6px;height:6px;background:${c};box-shadow:0 0 8px ${c};z-index:35`);
+      faAn(p,[{transform:'translate(-50%,-50%)',opacity:1},{transform:`translate(-50%,${-L.height*(.5+Math.random()*.7)}px)`,opacity:0}],{duration:800+Math.random()*500}).then(()=>p.remove());}
+    faSfx('tick');await sleep(150+(i>6?-40:0));}
+  /* deflagração */
+  const ring=faEl('fa-ring',null,`left:${cx}px;top:${L.top+L.height*.5}px;width:40px;height:40px;border-radius:50%;border:7px solid ${c};box-shadow:0 0 30px ${c},inset 0 0 30px ${c};z-index:37`);
+  faSfx('boom');faShake();faFlash('#f1dcff',420);
+  faAn(ring,[{transform:'translate(-50%,-50%) scale(.3)',opacity:1},{transform:'translate(-50%,-50%) scale(14)',opacity:0}],{duration:800,easing:'ease-out'}).then(()=>ring.remove());
+  if(jit)jit.cancel();if(aura)aura.cancel();nm.remove();
+  await sleep(120);
+  faAn(wrap,[{opacity:1},{opacity:0}],{duration:900,delay:700}).then(()=>wrap.remove());}
+/* ---------- VEGA: cena do crime ---------- */
+const FC_FUZIL=`<svg viewBox="0 0 170 44"><path d="M2 20L36 15L43 27L7 34Z" fill="#5a4630" stroke="#2a1f14" stroke-width="1.5"/><rect x="34" y="14" width="64" height="12" rx="2" fill="#2c3036" stroke="#111" stroke-width="1.5"/><rect x="98" y="17" width="68" height="5" fill="#1b1e22"/><rect x="164" y="15" width="5" height="9" fill="#111"/><rect x="50" y="6" width="30" height="7" rx="2" fill="#3b4048" stroke="#111"/><path d="M64 26L68 40L77 40L75 26Z" fill="#23262b"/><path d="M42 26L47 38L55 38L54 26Z" fill="#23262b"/></svg>`;
+async function faFuzil(w,l,s){const R=faR(w),d=faDir(w,l),L=faR(l);const gw=R.width*1.25,gx=R.left+R.width/2+d*R.width*.35,gy=R.top+R.height*.42;
+  const gun=faEl('fa-obj',FC_FUZIL,`left:${gx}px;top:${gy}px;width:${gw}px;height:${gw*.26}px;z-index:36;transform:translate(-50%,-50%) scaleX(${d})`);
+  await faAn(gun,[{opacity:0,transform:`translate(-50%,-50%) scaleX(${d}) scale(.3)`},{opacity:1,transform:`translate(-50%,-50%) scaleX(${d}) scale(1)`}],{duration:260});
+  const n=s.n||7;for(let i=0;i<n;i++){
+    const mx=gx+d*gw*.5,mf=faEl('fa-emo','💥',`left:${mx}px;top:${gy}px;font-size:${gw*.22}px;z-index:37`);faAn(mf,[{opacity:1,transform:'translate(-50%,-50%) scale(.6)'},{opacity:0,transform:'translate(-50%,-50%) scale(1.3)'}],{duration:130}).then(()=>mf.remove());
+    gun.animate([{transform:`translate(-50%,-50%) scaleX(${d})`},{transform:`translate(calc(-50% - ${d*7}px),-50%) scaleX(${d})`},{transform:`translate(-50%,-50%) scaleX(${d})`}],{duration:120});
+    faSfx('hit');faThrow(w,l,{w:'bala',h:.4,dur:140,size:.16,spin:false,snd:'tick'});await sleep(150);anim(l,'hit');finSpray(l,5,false);if(i%2)faShake();await sleep(60);}
+  faAn(gun,[{opacity:1},{opacity:0}],{duration:300,delay:200}).then(()=>gun.remove());}
+async function faCena(w,l,s){const L=faR(l),d=faDir(w,l);await faFlash('#fff',180);
+  const gb=Math.min(L.bottom,innerHeight-8),bw=Math.min(L.height*1.05,innerWidth-24),bh=bw*.42,bx=Math.max(bw/2+8,Math.min(innerWidth-bw/2-8,L.left+L.width/2+d*L.height*.3)),by=gb-bh*.6;
+  const body=faEl('fa-gis',`<svg viewBox="0 0 100 42" style="overflow:visible;fill:none;stroke:#fff;stroke-width:1.6;stroke-dasharray:3 2.2;stroke-linecap:round;filter:drop-shadow(0 0 3px #fff)"><circle cx="90" cy="21" r="8"/><path d="M82 14L56 11L30 12L4 14M82 28L56 31L30 30L4 28M4 14L4 28M30 12L8 4M30 30L8 38M56 11L66 2M56 31L66 40"/></svg>`,`left:${bx}px;top:${by}px;width:${bw}px;height:${bh}px;transform:translate(-50%,-50%) scaleX(${d});z-index:30`);
+  await faAn(body,[{opacity:0,transform:`translate(-50%,-50%) scaleX(${d}) scale(1.15)`},{opacity:1,transform:`translate(-50%,-50%) scaleX(${d}) scale(1)`}],{duration:600});faSfx('tick');
+  const tape=(top,rot,fromL)=>{const t=faEl('fa-tape',null,`left:-5vw;top:${top}px;width:110vw;height:26px;background:repeating-linear-gradient(-45deg,#f5c400 0 16px,#141414 16px 32px);transform:rotate(${rot}deg);z-index:32;box-shadow:0 2px 6px rgba(0,0,0,.6)`);
+    faAn(t,[{transform:`translateX(${fromL?-110:110}vw) rotate(${rot}deg)`},{transform:`translateX(0) rotate(${rot}deg)`}],{duration:380,easing:'ease-out'});return t;};
+  const t1=tape(Math.min(L.top+L.height*.45,gb-110),-5,true);await sleep(160);const t2=tape(Math.min(L.top+L.height*.65,gb-62),4,false);faSfx('whoosh');await sleep(380);
+  const mk=faEl('fa-mk','1',`left:${Math.max(30,Math.min(innerWidth-30,L.left+L.width/2-d*L.width*.35))}px;top:${gb-8}px;width:30px;height:34px;background:#f5c400;color:#111;font:900 20px/34px var(--f-ui,system-ui);text-align:center;clip-path:polygon(50% 0,100% 100%,0 100%);padding-top:8px;box-sizing:border-box;transform:translate(-50%,-100%);z-index:34`);
+  await faAn(mk,[{opacity:0,transform:'translate(-50%,-260%)'},{opacity:1,transform:'translate(-50%,-100%)'}],{duration:260,easing:'ease-in'});faSfx('thud');
+  const st=faEl('fa-stamp','ARQUIVADO',`left:${Math.max(110,Math.min(innerWidth-110,L.left+L.width/2))}px;top:${Math.min(L.top+L.height*.3,gb-150)}px;border:4px solid #d62a2a;color:#d62a2a;padding:4px 12px;border-radius:6px;font:900 clamp(20px,6.4vw,34px)/1 var(--f-ui,system-ui);letter-spacing:3px;background:rgba(255,255,255,.08);z-index:38`);
+  await faAn(st,[{opacity:0,transform:'translate(-50%,-50%) rotate(-12deg) scale(3)'},{opacity:.95,transform:'translate(-50%,-50%) rotate(-12deg) scale(1)'}],{duration:240,easing:'ease-in'});faSfx('boom');faShake();
+  await sleep(1300);[body,t1,t2,mk,st].forEach(x=>faAn(x,[{opacity:1},{opacity:0}],{duration:500}).then(()=>x.remove()));await sleep(450);}
+Object.assign(FA_STEP,{say:(w,l,s)=>faSay(w,l,s),novela:(w,l,s)=>faNovela(w,l,s),slap:(w,l,s)=>faSlap(w,l,s),carro:(w,l,s)=>faCarro(w,l,s),ritual:(w,l,s)=>faRitual(w,l,s),fuzil:(w,l,s)=>faFuzil(w,l,s),cena:(w,l,s)=>faCena(w,l,s)});
+Object.assign(FA_OVR,{
+  'Ana Letícia|Final de Novela':[{t:'novela',p:'open',txt:'Três Vezes Ana · último capítulo'},{t:'say',txt:'Todo vilão tem um final de capítulo.',c:'#d4a017',ms:1500},{t:'slap'},{t:'barrage',w:'bala',n:1},{t:'die',k:'fall'},{t:'say',txt:'Corta.',c:'#d4a017',ms:800},{t:'novela',p:'fim'}],
+  'Ana Letícia|Acidente na Estrada':[{t:'carro'},{t:'say',txt:'Foi um acidente. Sempre é.',c:'#d4a017',ms:1700}],
+  'Vega|Deflagração de Energia':[{t:'say',txt:'Deflagração.',c:'#c44dff',ms:800},{t:'ritual'},{t:'die',k:'explode'}],
+  'Vega|Arquivado':[{t:'fuzil',n:7},{t:'die',k:'fall'},{t:'cena'},{t:'say',txt:'Arquivado.',c:'#a98bff',ms:1100}]
+});
+/* ---------- animalities e friendships próprias ---------- */
+const FA_AN_OVR={};
+/* Vega: a máscara de lobo ganha vida */
+const FC_MASK=`<svg viewBox="-60 -60 120 120" style="overflow:visible;filter:drop-shadow(0 0 10px #a98bff) drop-shadow(0 0 22px #6a3fd0)"><path d="M-30 -34L-46 -64L-14 -46Z M30 -34L46 -64L14 -46Z" fill="#efe9ff" stroke="#4b2f9a" stroke-width="3"/><path d="M-35 -28C-35 -48 -18 -54 0 -54C18 -54 35 -48 35 -28C35 4 19 34 0 50C-19 34 -35 4 -35 -28Z" fill="#f3eeff" stroke="#4b2f9a" stroke-width="3"/><path d="M-27 -14L-7 -8L-24 -2Z M27 -14L7 -8L24 -2Z" fill="#1a0b33"/><path d="M-30 8Q-19 12 -13 28M30 8Q19 12 13 28M-32 -2Q-22 2 -17 14M32 -2Q22 2 17 14" stroke="#9a6bff" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M-6 30Q0 36 6 30" stroke="#4b2f9a" stroke-width="3" fill="none"/><path d="M-35 -20L-44 -14L-38 -8M35 -20L44 -14L38 -8" fill="#f3eeff" stroke="#4b2f9a" stroke-width="2"/></svg>`;
+FA_AN_OVR['Vega']=async function(w,l,an){const W=$('#fF'+w),R=faR(w),L=faR(l),d=faDir(w,l),c='#a98bff';
+  const hx=R.left+R.width/2,hy=R.top+R.height*.1,ms=Math.max(60,R.width*.38);
+  const M=faEl('fa-mask',FC_MASK,`left:${hx}px;top:${hy}px;width:${ms}px;height:${ms}px;z-index:36;transform:translate(-50%,-50%)`);
+  faSfx('whoosh');await faAn(M,[{transform:'translate(-50%,-50%) scale(1)'},{transform:`translate(-50%,calc(-50% - ${R.height*.2}px)) scale(1.4) rotate(${-d*12}deg)`}],{duration:500,easing:'ease-out'});
+  faSfx('roar');try{SFX.boom()}catch(e){}faShake();faWaves(w,l,{c});
+  await faAn(M,[{transform:`translate(-50%,calc(-50% - ${R.height*.2}px)) scale(1.4) rotate(${-d*12}deg)`},{transform:`translate(-50%,calc(-50% - ${R.height*.28}px)) scale(2.4) rotate(0)`}],{duration:450,easing:'ease-out'});
+  /* a matilha */
+  const lx=L.left+L.width/2,ly=L.bottom-L.height*.28,wolves=[];
+  const sz=Math.min(L.height*.5,L.width*.8);
+  [[-1,0],[1,120],[0,240]].forEach(([k,dl])=>{const x0=k===0?lx:(k<0?-sz:innerWidth+sz),y0=k===0?-sz:ly;
+    const e=faEl('fa-beast','🐺',`left:0;top:0;font-size:${sz}px;filter:hue-rotate(245deg) saturate(2.4) brightness(1.15) drop-shadow(0 0 12px ${c});z-index:35;transform:translate(${x0}px,${y0}px) translate(-50%,-50%)`);
+    wolves.push(e);faAn(e,[{transform:`translate(${x0}px,${y0}px) translate(-50%,-50%) scale(.6)`,opacity:0},{transform:`translate(${x0}px,${y0}px) translate(-50%,-50%) scale(.9)`,opacity:1,offset:.1},{transform:`translate(${lx+k*L.width*.45}px,${ly}px) translate(-50%,-50%) scale(1)`,opacity:1}],{duration:700,delay:dl,easing:'ease-in'});});
+  await sleep(1000);
+  for(let i=0;i<4;i++){anim(l,'hit');faSfx('hit');faSfx('splat');finSpray(l,10,true);if(i%2)faShake();wolves.forEach((e,j)=>{const k=[-1,1,0][j];faAn(e,[{transform:`translate(${lx+k*L.width*.45}px,${ly}px) translate(-50%,-50%) scale(1)`},{transform:`translate(${lx+k*L.width*.3}px,${ly-12}px) translate(-50%,-50%) scale(1.2) rotate(${k*8}deg)`},{transform:`translate(${lx+k*L.width*.45}px,${ly}px) translate(-50%,-50%) scale(1)`}],{duration:240});});await sleep(260);}
+  /* a máscara engole o oponente */
+  const F=$('#fF'+l);const mx=lx,my=L.top+L.height*.45;
+  await faAn(M,[{transform:`translate(-50%,calc(-50% - ${R.height*.28}px)) scale(2.4)`},{transform:`translate(${mx-hx}px,${my-hy}px) translate(-50%,-50%) scale(${Math.max(2.4,L.height/ms*1.1)})`}],{duration:500,easing:'ease-in'});
+  faSfx('boom');faShake();await faAn(F,[{transform:'scale(1)',opacity:1},{transform:'scale(.08)',opacity:0}],{duration:520,easing:'ease-in'});F.classList.add('fin-gone');faSfx('melt');
+  for(let i=0;i<14;i++){const p=faEl('fa-part',null,`left:${mx}px;top:${my}px;width:9px;height:9px;background:${c};box-shadow:0 0 10px ${c};z-index:37`);const a=i/14*Math.PI*2;faAn(p,[{transform:'translate(-50%,-50%)',opacity:1},{transform:`translate(calc(-50% + ${Math.cos(a)*L.width*.7}px),calc(-50% + ${Math.sin(a)*L.height*.5}px))`,opacity:0}],{duration:700}).then(()=>p.remove());}
+  await sleep(500);
+  wolves.forEach(e=>faAn(e,[{opacity:1},{opacity:0}],{duration:400}).then(()=>e.remove()));
+  await faAn(M,[{opacity:1,transform:`translate(${mx-hx}px,${my-hy}px) translate(-50%,-50%) scale(${Math.max(2.4,L.height/ms*1.1)})`},{opacity:1,transform:'translate(-50%,-50%) scale(1)'}],{duration:650,easing:'ease-in-out'});
+  await faAn(M,[{opacity:1},{opacity:0}],{duration:250});M.remove();
+  await faSay(w,l,{txt:'Boa menina.',c,ms:1000});return true;};
+/* Ana Letícia: cobra de escamas douradas, óculos brancos e sorriso para a câmera */
+const FC_COBRA=`<svg viewBox="0 0 100 124" style="width:100%;height:100%;overflow:visible;filter:drop-shadow(0 0 9px #ffd23a) drop-shadow(0 6px 6px rgba(0,0,0,.6))"><defs><linearGradient id="fcg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0a0"/><stop offset=".5" stop-color="#e6ad1c"/><stop offset="1" stop-color="#8a5d06"/></linearGradient><pattern id="fcs" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 4Q4 0 8 4Q4 8 0 4Z" fill="none" stroke="#7a5000" stroke-width=".8" opacity=".7"/></pattern></defs><path d="M50 62C50 78 28 76 24 92C20 108 52 106 60 112C76 120 86 104 72 98" fill="none" stroke="url(#fcg)" stroke-width="15" stroke-linecap="round"/><path d="M50 62C50 78 28 76 24 92C20 108 52 106 60 112C76 120 86 104 72 98" fill="none" stroke="url(#fcs)" stroke-width="15" stroke-linecap="round"/><path d="M41 24C14 32 16 58 38 70L62 70C84 58 86 32 59 24Z" fill="url(#fcg)" stroke="#7a5000" stroke-width="2"/><path d="M41 24C14 32 16 58 38 70L62 70C84 58 86 32 59 24Z" fill="url(#fcs)"/><ellipse cx="50" cy="16" rx="13" ry="12" fill="url(#fcg)" stroke="#7a5000" stroke-width="2"/><path d="M42 18L58 18L56 24Q50 28 44 24Z" fill="#e6ad1c"/><path d="M50 27L50 40M50 40L45 47M50 40L55 47" stroke="#d62a2a" stroke-width="2.4" stroke-linecap="round" fill="none"/><g stroke="#fff" fill="#222"><rect x="35" y="8" width="13" height="9" rx="3.5" stroke-width="2.4"/><rect x="52" y="8" width="13" height="9" rx="3.5" stroke-width="2.4"/><path d="M48 12L52 12" stroke-width="2.4" fill="none"/></g></svg>`;
+FA_AN_OVR['Ana Letícia']=async function(w,l,an){const W=$('#fF'+w),R=faR(w),L=faR(l),d=faDir(w,l);
+  const puff=faEl('fa-puff',null,`left:${R.left+R.width/2}px;top:${R.top+R.height*.55}px;width:${R.width*1.3}px;height:${R.width*1.3}px`);faSfx('boom');W.classList.add('fa-morph');await sleep(350);W.style.opacity='0';
+  const size=Math.min(R.height*.8,R.width*1.2),bx=R.left+R.width/2,by=R.bottom-size*.5;
+  const B=faEl('fa-beast',FC_COBRA,`left:${bx}px;top:${by}px;width:${size*.78}px;height:${size}px;line-height:0`);
+  await faAn(B,[{transform:'translate(-50%,-50%) scale(.2)'},{transform:'translate(-50%,-50%) scale(1.15)'},{transform:'translate(-50%,-50%) scale(1)'}],{duration:450});setTimeout(()=>puff.remove(),600);faSfx('roar');
+  /* desliza em zigue-zague até o pescoço */
+  const tx=(L.left+L.width/2)-bx-d*L.width*.38,ty=(L.top+L.height*.34)-by;const kf=[];for(let i=0;i<=8;i++){const p=i/8;kf.push({transform:`translate(calc(-50% + ${tx*p}px),calc(-50% + ${ty*p+Math.sin(p*Math.PI*4)*(R.height*.12)*(1-p)}px))`});}
+  faSfx('whoosh');await faAn(B,kf,{duration:900,easing:'ease-in'});
+  /* o bote */
+  await faAn(B,[{transform:`translate(calc(-50% + ${tx}px),calc(-50% + ${ty}px)) scale(1)`},{transform:`translate(calc(-50% + ${tx+d*26}px),calc(-50% + ${ty-6}px)) scale(1.3) rotate(${d*14}deg)`},{transform:`translate(calc(-50% + ${tx+d*10}px),calc(-50% + ${ty}px)) scale(1.1)`}],{duration:260,easing:'ease-in'});
+  anim(l,'hit');faSfx('splat');faSfx('hit');finSpray(l,16,true);faShake();await sleep(650);
+  await faDie(w,l,{k:'fall'});
+  /* ergue a cabeça e sorri para a câmera */
+  await faAn(B,[{transform:`translate(calc(-50% + ${tx+d*10}px),calc(-50% + ${ty}px)) scale(1.1)`},{transform:`translate(calc(-50% + ${tx}px),calc(-50% + ${ty-L.height*.25}px)) scale(1.5) rotate(${-d*8}deg)`}],{duration:600,easing:'ease-out'});
+  await faFlash('#fff',220);const sp=faEl('fa-emo','✨',`left:${bx+tx}px;top:${by+ty-L.height*.4}px;font-size:${size*.4}px;z-index:37`);faAn(sp,[{opacity:0,transform:'translate(-50%,-50%) scale(.3)'},{opacity:1,transform:'translate(-50%,-50%) scale(1)'},{opacity:0,transform:'translate(-50%,-50%) scale(1.2)'}],{duration:800}).then(()=>sp.remove());
+  await faSay(w,l,{txt:'Próximo capítulo.',c:'#d4a017',ms:1300});
+  await faAn(B,[{opacity:1},{opacity:0,transform:'translate(-50%,-50%) scale(.2)'}],{duration:350});B.remove();
+  W.style.opacity='';W.classList.remove('fa-morph');await faAn(W,[{opacity:0,transform:'scale(.6)'},{opacity:1,transform:'scale(1)'}],{duration:350});W.getAnimations().forEach(a=>a.cancel());return true;};
+/* friendships */
+FR_SCENES.unshift(
+ [/irmãs de novo/,async(w,l,G)=>{const bag=await frPop('👜',G.wc,G.W.top+G.W.height*.5,G.s*.3);await sleep(450);await frGone(bag,300);
+   await frGive(w,l,'🖼️',{sz:.34,hold:350});await sleep(400);await faSay(w,l,{txt:'Eu era boa pessoa. Por uns dez minutos.',c:'#d4a017',ms:1900});
+   const sg=await frPop('🕶️',G.wc,G.W.top+G.W.height*.2,G.s*.22);await sleep(500);frSpark(G.wc,G.W.top+G.W.height*.2,G.s*.3);frGone(sg,400);await sleep(500);}],
+ [/dia de folga/,async(w,l,G)=>{const cg=await frPop('🚬',G.wc+G.d*G.W.width*.3,G.W.top+G.W.height*.3,G.s*.18);await sleep(350);await frTo(cg,0,G.s*.5,500,0,40);frGone(cg,300);
+   await frGive(w,l,'☕',{sz:.32,hold:300,arc:G.L.height*.15});await sleep(400);await faSay(w,l,{txt:'Hoje eu estou de folga. Aproveita.',c:'#a98bff',ms:1900});await sleep(300);}]
+);
 
 /* ---------- Finalizações (Extras): desfile de todas as finalizações, depois os créditos ---------- */
 let FSH=null;
