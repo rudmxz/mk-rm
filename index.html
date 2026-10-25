@@ -3093,6 +3093,15 @@ html.frozen #fPause,html.frozen #fPause *,html.frozen .fsh-frz,html.frozen .fsh-
 .ad-html.adnin .adnin-c .adh-pic{aspect-ratio:1;border-radius:10px;background-position:center 20%}
 .ad-html.adnin .adnin-c b{font-size:.78rem;line-height:1.15}
 @media (orientation:landscape) and (max-height:520px){.ad-html.adser .adser-pic{width:min(48vh*1.78,300px)}.ad-html.adser .adh-foot,.ad-html.adnin .adh-foot{display:none}.ad-html.adnin .adh-t{font-size:1.5rem}.ad-html.adnin .adnin-c{width:min(80vw,400px)}.ad-html.adser .adh-t{font-size:1.9rem}}
+/* anúncio: skins de The Vampire Diaries */
+.ad-html.adtvs .adh-in{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.7rem;text-align:center}
+.ad-html.adtvs .adh-t{font-size:clamp(1.9rem,8vw,3rem);line-height:1.02}
+.ad-html.adtvs .adtvs-c{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;width:min(86vw,460px)}
+.ad-html.adtvs .adtvs-c .adh-card{width:100%}
+.ad-html.adtvs .adtvs-c .adh-pic{aspect-ratio:1;border-radius:12px;background-position:center 18%}
+.ad-html.adtvs .adtvs-c b{font-size:1rem}
+.ad-html.adtvs .adtvs-n{font-size:.82rem;color:#f6e7b8;font-style:italic}
+@media (orientation:landscape) and (max-height:520px){.ad-html.adtvs .adh-foot{display:none}.ad-html.adtvs .adh-t{font-size:1.5rem}.ad-html.adtvs .adtvs-c{width:min(60vw,330px)}}
 </style>
 
 <div class="wrap">
@@ -7007,7 +7016,11 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
       <div class="adh-cards"><div class="adh-card"><div class="adh-pic" style="background-image:url(img/luta/bank.jpg)"></div><b>The Bank</b><span class="adh-free">Grátis · já liberada</span></div>
       <div class="adh-card"><div class="adh-pic" style="background-image:url(img/luta/intencao.jpg)"></div><b>Intenção</b><span class="adh-price"><span class="coin"></span>150 na Kripta</span></div></div>
       <div class="adh-foot">Já na Kripta, <br>garanta já a sua.</div></div></div>`,arena:'intencao',alt:'Novas arenas: The Bank, grátis, e Intenção, 150 moedas na Kripta.',bn:{img:'img/luta/intencao.jpg',t:'Novas arenas',s:'The Bank grátis · Intenção 150',c:'Ver'}}];
-  const ADS=[{id:'serenata',sub:'jogar',btn:'Jogar agora',bg:'img/luta/serenata.jpg',html:()=>`<div class="ad-html adser"><div class="adh-bg" style="background-image:url(img/luta/serenata.jpg)"></div><div class="adh-in"><div class="adh-k">Nova arena</div><div class="adh-t">Serenata</div>
+  const ADS=[{id:'tvdskins',tab:'tvd',btn:'Ver na Kripta',bg:'img/tvd/fundo.jpg',html:()=>`<div class="ad-html adtvs"><div class="adh-bg" style="background-image:url(img/tvd/fundo.jpg)"></div><div class="adh-in"><div class="adh-k">The Vampire Diaries</div><div class="adh-t">Duas novas <br>skins</div>
+      <div class="adh-cards adtvs-c"><div class="adh-card"><div class="adh-pic" style="background-image:url(img/s/bonnie-baile.jpg)"></div><b>Bonnie</b><span class="adtvs-n">Rainha do Baile</span></div>
+      <div class="adh-card"><div class="adh-pic" style="background-image:url(img/s/katherine-mascaras.jpg)"></div><b>Katherine</b><span class="adtvs-n">Baile de Máscaras</span></div></div>
+      <div class="adh-price adnin-p"><span class="coin"></span>150 cada na Kripta</div><div class="adh-foot">Na página The Vampire Diaries.</div></div></div>`,alt:'Duas novas skins de The Vampire Diaries: Bonnie Rainha do Baile e Katherine Baile de Máscaras, 150 moedas cada, na página The Vampire Diaries da Kripta.',bn:{img:'img/s/bonnie-baile.jpg',t:'Skins The Vampire Diaries',s:'Bonnie e Katherine · 150 cada',c:'Ver'}},
+  {id:'serenata',sub:'jogar',btn:'Jogar agora',bg:'img/luta/serenata.jpg',html:()=>`<div class="ad-html adser"><div class="adh-bg" style="background-image:url(img/luta/serenata.jpg)"></div><div class="adh-in"><div class="adh-k">Nova arena</div><div class="adh-t">Serenata</div>
       <div class="adser-pic" style="background-image:url(img/luta/serenata.jpg)"></div><div class="adh-card adana-c"><span class="adh-free">Grátis · já liberada</span><span class="adana-s">Palco vermelho, violão e luz de show</span></div>
       <div class="adh-foot">Escolha a arena Serenata na hora de lutar.</div></div></div>`,alt:'Nova arena grátis: Serenata, um palco de show em vermelho com música de piano. Já liberada.',bn:{img:'img/luta/serenata.jpg',t:'Arena Serenata · Grátis',s:'Palco de show com piano',c:'Jogar'}},
   {id:'ninjas',tab:'skins',btn:'Ver na Kripta',bg:'img/luta/forja.jpg',html:()=>`<div class="ad-html adnin"><div class="adh-bg" style="background-image:url(img/luta/forja.jpg)"></div><div class="adh-in"><div class="adh-k">Novas skins</div><div class="adh-t">Ninjas <br>Femininas</div>
@@ -10026,7 +10039,7 @@ function renderKripta(){krCoins();{const tv=krTab==='tvd';$('#krBg').classList.t
     h+=`<h4 class="kr-h">Modo História <small>não estão à venda</small></h4><div class="kr-grid">${Object.keys(KR_STORY).map(n=>{const L=charLock(n);return `<div class="kr-card${L?'':' own'}"><div class="kr-pic">${FOTO[n]?`<img src="${FOTO[n]}" alt="" loading="lazy">`:''}${L?'<span class="kr-lock">📖</span>':''}</div><div class="kr-n">${esc(n)}</div>${L?`<span class="kr-story">${n==='General Shao'?'Termine a história':KR_STORY[n]===10?'Termine a história':'Capítulo '+KR_STORY[n]}</span>`:'<span class="kr-own">✓ Liberado</span>'}</div>`}).join('')}</div>`;
   }else if(krTab==='skins'){
     h+=`<p class="kr-hab-note">Skins mudam a aparência do lutador. Todos podem comprar, mas só dá para usar a skin com o personagem liberado. Escolha na seleção de lutador, no botão <b>Skin</b>.</p>`;
-    [...new Set(SKN.map(s=>s.g))].forEach(g=>{const L=SKN.filter(s=>s.g===g);h+=`<h4 class="kr-h">${esc(g)} <small>${L[0].price} moedas cada</small></h4><div class="kr-grid">${L.map(krSkinCard).join('')}</div>`;});
+    [...new Set(SKN.filter(s=>!s.tvd).map(s=>s.g))].forEach(g=>{const L=SKN.filter(s=>s.g===g&&!s.tvd);h+=`<h4 class="kr-h">${esc(g)} <small>${L[0].price} moedas cada</small></h4><div class="kr-grid">${L.map(krSkinCard).join('')}</div>`;});
   }else if(krTab==='arenas'){
     h+=`<h4 class="kr-h">Arenas novas</h4><div class="kr-grid wide">${STAGES.filter(s=>s.price&&!s.pack).map(krArenaCard).join('')}</div>`;
     h+=`<h4 class="kr-h kr-hw">🎃 Evento de Halloween <small>só na roleta</small></h4><div class="kr-grid wide">${STAGES.filter(s=>s.ev==='hw').map(s=>{const o=krHasArena(s.k);return `<div class="kr-card arena hw${o?' own':''}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${o?'':'<span class="kr-lock">🎃</span>'}</div><div class="kr-n">${esc(s.n)}</div>${o?'<span class="kr-own">✓ Liberado</span>':'<button type="button" class="kr-story kr-goev" data-goev="1">Só na Roleta de Halloween</button>'}</div>`}).join('')}</div>`;
@@ -10034,6 +10047,7 @@ function renderKripta(){krCoins();{const tv=krTab==='tvd';$('#krBg').classList.t
     h+=`<div class="tvd-head"><img class="tvd-logo" src="img/tvd/logo.png" alt="The Vampire Diaries"><div class="tvd-sub">Bem-vindo a Mystic Falls</div></div>`;
     h+=`<h4 class="kr-h" data-pack="tvd">Personagens <small>${p.each} moedas cada</small></h4>${pp?`<div class="kr-pack"><span>Pacote com ${p.list.filter(n=>!krOwns(n)).length} lutadores</span>${krBtn(pp,false,p.id,'pack')}</div>`:''}<div class="kr-grid">${p.list.map(krCharCard).join('')}</div>`;
     h+=`<h4 class="kr-h">Arenas de Mystic Falls <small>200 moedas cada</small></h4><div class="kr-grid wide">${STAGES.filter(s=>s.pack==='tvd').map(krArenaCard).join('')}</div>`;
+    h+=`<h4 class="kr-h">Skins <small>150 moedas cada</small></h4><div class="kr-grid">${SKN.filter(s=>s.tvd).map(krSkinCard).join('')}</div>`;
   }else if(krTab==='habs'){
     const card=(x,isDef)=>{const o=krHasHab(x.id);return `<div class="kr-hab${o?' own':''}${x.img?' pic':''}"><div class="kr-hab-i">${habIcon(x)}</div><div class="kr-hab-b"><b>${esc(x.n)}</b><span class="kr-hab-t">${isDef?'Defesa':x.t==='a'?'Habilidade ativa':'Passiva'}</span><p>${esc(x.f)}</p>${isDef?'':`<small>${esc(habMech(x))}</small>`}</div>${x.src==='evento'?(o?'<span class="kr-own">✓ Liberado</span>':'<button type="button" class="kr-story kr-goev" data-goev="1">Só na Roleta</button>'):krBtn(x.price,o,x.id,isDef?'def':'hab')}</div>`};
     h+=`<p class="kr-hab-note">Compre uma vez e equipe em qualquer lutador, em <b>Criar Kombatente › Evolução</b>. Cada lutador tem 4 espaços de habilidade e 4 de defesa.</p>`;
@@ -10075,7 +10089,9 @@ const SKN=[
   {id:'mileena-rosa',c:'Mileena',n:'Mileena Neon Rosa',img:'img/s/mileena-rosa.jpg',price:100,g:'Ninjas Femininas'},
   {id:'jade-mk2',c:'Jade',n:'Jade MK2 Classic',img:'img/s/jade-mk2.jpg',price:100,g:'Ninjas Femininas'},
   {id:'kitana-safira',c:'Kitana',n:'Kitana Safira Imperial',img:'img/s/kitana-safira.jpg',price:100,g:'Ninjas Femininas'},
-  {id:'vega-agente',c:'Vega',n:'Vega Agente da Ordem',img:'img/s/vega-agente.jpg',price:100,g:'Convidados'}
+  {id:'vega-agente',c:'Vega',n:'Vega Agente da Ordem',img:'img/s/vega-agente.jpg',price:100,g:'Convidados'},
+  {id:'bonnie-baile',c:'Bonnie',n:'Bonnie Rainha do Baile',img:'img/s/bonnie-baile.jpg',price:150,g:'The Vampire Diaries',tvd:true},
+  {id:'katherine-mascaras',c:'Katherine Pierce',n:'Katherine Baile de Máscaras',img:'img/s/katherine-mascaras.jpg',price:150,g:'The Vampire Diaries',tvd:true}
 ];
 const SK_KEY='forja_mk_skin_eq';
 let SK_EQ=(()=>{const v=LS.get(SK_KEY,null);return v&&typeof v==='object'?v:{}})();
