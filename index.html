@@ -7630,22 +7630,27 @@ async function rollShow(rolls,title){
   /* quem precisa tocar: lados humanos (o dano é rolado de uma vez pelo atacante) */
   const grpOf=i=>rolls[i].small?'d'+side(rolls[i]):'r'+i;
   const need={};rolls.forEach((r,i)=>{if(FS&&isHuman(side(r)))(need[grpOf(i)]=need[grpOf(i)]||{side:side(r),idx:[]}).idx.push(i)});
-  const keys=Object.keys(need);
+  /* só a iniciativa é rolada na mão; ataque, defesa/esquiva e dano giram sozinhos */
+  const manual=rolls.some(r=>r.label==='Iniciativa');
+  const keys=manual?Object.keys(need):[];
+  let sp=null;
   if(!fast&&keys.length){
     const hint=$('#tapHint');hint.hidden=false;
     hint.textContent=FS.two&&!FS.online?(keys.length>1?'Cada jogador toca no seu dado':'Jogador '+(need[keys[0]].side+1)+': toque no dado'):'Toque no dado para rolar';
     keys.forEach(k=>need[k].idx.forEach(i=>{const el=$('#rd'+i);if(el)el.classList.add('tapme')}));
     await new Promise((res,rej)=>{const left=new Set(keys);let chk=null;
-      const done=()=>{document.removeEventListener('keydown',onKey);clearInterval(chk);clearInterval(sp)};
+      const done=()=>{document.removeEventListener('keydown',onKey);clearInterval(chk)};
       const take=k=>{if(!left.has(k))return;left.delete(k);SFX.tick();need[k].idx.forEach(i=>{const el=$('#rd'+i);if(el)el.classList.remove('tapme');spin.add(i)});
         if(!left.size){done();t===fightTok?res():rej('abort')}};
-      const sp=setInterval(()=>spin.forEach(face),75);
+      sp=setInterval(()=>spin.forEach(face),75);
       keys.forEach(k=>need[k].idx.forEach(i=>{const el=$('#rd'+i);if(el)el.addEventListener('pointerdown',e=>{e.preventDefault();take(k)});if(el)el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();take(k)}})}));
       const onKey=e=>{if(PAUSED)return;const two=FS.two&&!FS.online;let sd=null;if(e.key===' '||e.key==='Enter')sd=two?0:(keys.length?need[keys[0]].side:0);else if(two&&e.key==='0')sd=1;if(sd===null)return;
         const k=keys.find(k=>need[k].side===sd&&left.has(k));if(k){e.preventDefault();take(k)}};
       document.addEventListener('keydown',onKey);
       chk=setInterval(()=>{if(t!==fightTok){done();rej('abort')}},200);});
-    hint.hidden=true;
+    /* online: ninguém vê o resultado antes de o outro também ter rolado */
+    if(FS.online){try{NET.send('tap',1);hint.hidden=false;hint.textContent='Aguardando '+(FS.P[1-FS.online.local]?FS.P[1-FS.online.local].nome:'o amigo')+' rolar…';await NET.recv('tap');}catch(e){clearInterval(sp);throw e}}
+    clearInterval(sp);hint.hidden=true;
   }
   rolls.forEach((r,i)=>{const el=$('#rd'+i);if(el)el.classList.remove('tapme')});
   if(!fast){let step=55;const t0=Date.now();
