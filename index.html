@@ -3259,6 +3259,28 @@ html.land .wv.duo.rt .wv-fat{left:18%}
 #fight.br-black #fFast,#fight.wv-on #fFast{opacity:0;pointer-events:none}
 html.land #fight .f-banner.endb.wvb.wvl{left:0;right:46%}
 html.land #fight .f-banner.endb.wvb.wvr{left:46%;right:0}
+/* ---- Finalizações por personagem ---- */
+.fshp{position:fixed;inset:0;z-index:9000;background:radial-gradient(ellipse at 50% 0,#2a0c0c,#080505 70%);color:#eee;overflow:auto;padding:max(12px,env(safe-area-inset-top)) 14px 24px;font-family:var(--f-ui,inherit)}
+.fshp-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 auto 14px;max-width:1000px}
+.fshp-top h3{margin:0;flex:1;font-size:clamp(20px,5vw,30px);letter-spacing:2px;text-transform:uppercase;color:#ffd040}
+.fshp-q{flex:1 1 160px;max-width:260px;background:#150d0d;border:1px solid #5a2a22;border-radius:8px;color:#eee;padding:9px 12px;font-size:16px}
+.fshp-grid{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:10px}
+.fshp-c{background:#140c0b;border:1px solid #4a231d;border-radius:10px;padding:0 0 8px;color:#eee;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;overflow:hidden}
+.fshp-c:hover,.fshp-c:focus-visible{border-color:#ffd040;outline:none}
+.fshp-c b{font-size:12px;font-weight:600;padding:0 4px;text-align:center;line-height:1.2}
+.fshp-ph{display:block;width:100%;aspect-ratio:1;overflow:hidden;background:#000}
+.fshp-ph img,.fshp-ph .pf-fallback,.fshp-big img,.fshp-big .pf-fallback{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.fshp-det{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:minmax(120px,300px) 1fr;gap:18px;align-items:start}
+.fshp-big{aspect-ratio:1;border-radius:12px;overflow:hidden;border:1px solid #4a231d;background:#000}
+.fshp-list{display:flex;flex-direction:column;gap:8px}
+.fshp-r{display:flex;align-items:center;gap:12px;text-align:left;background:#140c0b;border:1px solid #4a231d;border-radius:10px;padding:8px 12px;color:#eee;cursor:pointer}
+.fshp-r:hover,.fshp-r:focus-visible{border-color:#ffd040;outline:none}
+.fshp-r img{height:30px;width:auto;max-width:96px;object-fit:contain;flex:none}
+.fshp-r span{display:flex;flex-direction:column;gap:2px;min-width:0}
+.fshp-r small{color:#a99;font-size:12px;line-height:1.3}
+.fshp-r.brutality{border-color:#7a3a10}
+.fshp-no{text-align:center;color:#a99;grid-column:1/-1}
+@media (max-width:560px){.fshp-det{grid-template-columns:1fr}.fshp-big{max-width:220px}}
 </style>
 
 <div class="wrap">
@@ -3694,6 +3716,7 @@ html.land #fight .f-banner.endb.wvb.wvr{left:46%;right:0}
       <button type="button" class="sm-item" data-act="moedas">Moedas</button>
       <button type="button" class="sm-item" data-act="hall" id="smHall">Hall dos Campeões</button>
       <button type="button" class="sm-item" data-act="finshow" id="smFin">Finalizações</button>
+      <button type="button" class="sm-item" data-act="finpick" id="smFinP">Ver por Personagem</button>
       <button type="button" class="sm-item" data-act="credits">Créditos</button>
       <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
     </nav>
@@ -7166,6 +7189,7 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
     if(a==='sub'){lastSub=b.dataset.sub;panel(lastSub);try{hallMenuSync()}catch(e){}try{fshMenuSync()}catch(e){}return}
     if(a==='hall'){hallOpen();return}
     if(a==='finshow'){fshOpen();return}
+    if(a==='finpick'){fshPick();return}
     if(a==='historia'){lastSub='main';MUSIC.setOverride('mainmenu');MUSIC.setIntro(false);loading({action:()=>{M.classList.add('out');M.hidden=true;openStory();}});return}
     if(a==='moedas'){panel('moedas');renderCoins();return}
     if(a==='online'){lastSub='jogar';MUSIC.setIntro(false);MUSIC.setOverride('selecao');loading({action:()=>{M.classList.add('out');M.hidden=true;openOnline();}});return}
@@ -12407,10 +12431,10 @@ async function wvShow(w,x){x=x||{};const fg=$('#fight');if(!fg||!FS||!FS.P||!FS.
 
 /* ---------- Finalizações (Extras): desfile de todas as finalizações, depois os créditos ---------- */
 let FSH=null;
-const FSH_PARTS=[['Fatality','Fatalities'],['Animality','Animalities'],['Friendship','Friendships'],['Babality','Babalities']];
-const FSH_IMG={Fatality:'img/fatality.png',Animality:'img/animality.png',Friendship:'img/friendship.png',Babality:'img/babality.png'};
+const FSH_PARTS=[['Fatality','Fatalities'],['Animality','Animalities'],['Friendship','Friendships'],['Babality','Babalities'],['Brutality','Brutalities']];
+const FSH_IMG={Fatality:'img/fatality.png',Animality:'img/animality.png',Friendship:'img/friendship.png',Babality:'img/babality.png',Brutality:'img/brutality.png'};
 const fshCmp=(a,b)=>a.nome.localeCompare(b.nome,'pt',{sensitivity:'base'});
-function fshQueue(){
+function fshQueue(sel){
   const seen=new Set();
   const L=D.canon.map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).map(k=>{try{return fighterFrom(k)}catch(e){return null}})
     .filter(f=>f&&!seen.has(f.nome)&&seen.add(f.nome)).sort(fshCmp);
@@ -12418,6 +12442,12 @@ function fshQueue(){
   /* Babality: dois lutadores viram bebê de uma vez (a lista em ordem alfabética vai de dois em dois) */
   const babL=L.filter(f=>f.nome!=='General Shao'&&(f.fins.Babality||[]).length);
   const babPairs=[];for(let i=0;i<babL.length;i+=2)babPairs.push({w:babL[i].key,v:(babL[i+1]||babL[0]).key,ch:'Babality',dupla:true});
+  if(sel&&sel.key){/* um personagem só (ou uma finalização só) */
+    const f=L.find(x=>x.key===sel.key);if(!f)return [];
+    return FSH_PARTS.filter(([ch])=>!sel.ch||sel.ch===ch).map(([ch,t])=>{const it=[];
+      if(ch==='Babality'){if((f.fins.Babality||[]).length){const ot=babL.filter(x=>x.key!==f.key);const v=ot.length?ot[Math.floor(Math.random()*ot.length)]:f;it.push({w:f.key,v:v.key,ch,dupla:true});}}
+      else{const arr=f.fins[ch]||[];arr.forEach((o,n)=>{if(sel.n==null||sel.n===n)it.push({w:f.key,ch,o,n,tot:arr.length});});}
+      return {ch,t,it,solo:true};}).filter(p=>p.it.length);}
   return FSH_PARTS.map(([ch,t])=>{const it=[];
     if(ch==='Babality')babPairs.forEach(x=>it.push(x));
     else L.forEach(f=>{const arr=f.fins[ch]||[];if(!arr.length)return;
@@ -12431,18 +12461,18 @@ function fshStage(key){const S=FSH;if(S.lastW===key&&S.st)return;S.lastW=key;
   if(!S.stages.length)S.stages=shuffle(STAGES.filter(s=>!s.soon));
   const st=S.stages.shift();S.st=st;{const im=new Image();im.src=st.img;}
   $('#fStage').style.backgroundImage=`url(${st.img})`;$('#fStageN').textContent=st.n;try{stageFx(st)}catch(e){}}
-function fshOpen(){
+function fshOpen(sel){
   if(!zeroLiberado()){SFX.clang();toast('Bloqueado. Derrote o General Shao no Modo Torre para liberar.');return false;}
   if(FSH)return true;
-  const Q=fshQueue();if(!Q.length)return false;
+  const Q=fshQueue(sel);if(!Q.length)return false;
   const M=$('#startMenu');M.classList.add('out');setTimeout(()=>{M.hidden=true},450);
   MUSIC.setIntro(false);MUSIC.setArena(null);MUSIC.setOverride('destino');
   const vic=D.canon.map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).filter(k=>{try{const f=fighterFrom(k);return f&&f.nome!=='General Shao'}catch(e){return false}});
-  FSH={Q,vic,bag:[],stages:[],pi:0,ii:0,titled:false,cmd:null,phase:''};
+  FSH={Q,vic,bag:[],stages:[],pi:0,ii:0,titled:false,cmd:null,phase:'',sel:sel||null};
   closeFight(true);
   const fg=$('#fight');fg.classList.add('finshow');fg.hidden=false;document.body.style.overflow='hidden';
   $('#cheatTag').hidden=true;$('#fRoll').hidden=true;$('#fBanner').hidden=true;$('#fActL').innerHTML='';$('#fActR').innerHTML='';
-  $('#fAct').innerHTML=`<div class="fsh-btns"><button type="button" class="f-btn" data-fsh="next">Próxima</button><button type="button" class="f-btn" data-fsh="part">Pular parte</button><button type="button" class="f-btn" data-fsh="cred">Créditos</button><button type="button" class="f-btn" data-fsh="quit">Sair</button></div>`;
+  $('#fAct').innerHTML=`<div class="fsh-btns"><button type="button" class="f-btn" data-fsh="next">Próxima</button><button type="button" class="f-btn" data-fsh="part">Pular parte</button>${sel?'':'<button type="button" class="f-btn" data-fsh="cred">Créditos</button>'}<button type="button" class="f-btn" data-fsh="quit">Sair</button></div>`;
   $('#fAct').onclick=e=>{const b=e.target.closest('[data-fsh]');if(!b||!FSH)return;SFX.hit();fshCmd(b.dataset.fsh);};
   fg.classList.remove('fsh-hide');
   {const tg=document.createElement('button');tg.type='button';tg.id='fshTg';tg.className='fsh-tg';tg.setAttribute('aria-label','Esconder os controles');tg.textContent='⌄';
@@ -12480,7 +12510,7 @@ async function fshTitle(P){
   finCleanup();fshBlank();FS=null;fshStage('__t'+P.ch);MUSIC.setArena(null);
   $('#fRoundN').textContent=P.t;
   const b=$('#fBanner');b.className='f-banner fsh-tb';
-  b.innerHTML=`<div class="fsh-tc"><img src="${FSH_IMG[P.ch]}" alt="${P.ch}"><span>${P.ch==='Babality'?'Todas as':'Todos os'} ${P.t}</span><small>${P.it.length} ${P.it.length===1?'finalização':'finalizações'} · em ordem alfabética</small></div>`;
+  b.innerHTML=`<div class="fsh-tc"><img src="${FSH_IMG[P.ch]}" alt="${P.ch}"><span>${P.solo?(P.it.length===1?P.ch:P.t):(P.ch==='Babality'?'Todas as':'Todos os')+' '+P.t}</span><small>${P.solo?esc((fighterFrom(P.it[0].w)||{}).nome||''):P.it.length+' '+(P.it.length===1?'finalização':'finalizações')+' · em ordem alfabética'}</small></div>`;
   b.hidden=false;b.classList.remove('pop');void b.offsetWidth;b.classList.add('pop');
   SFX.gong();try{SFX.say(P.ch)}catch(e){}
   await fshW(sleep(2800));b.hidden=true;fshChk();}
@@ -12500,16 +12530,52 @@ async function fshItem(it,idx,P){
   const q=p=>fshW(p.catch(e=>{if(e!=='abort')console.error(e)}));
   try{await q(finRun(0,1,ch,o,ch==='Babality'?{o2}:{}));fshChk();
     if(ch==='Fatality'){await q(wvShow(0,{}));fshChk();await fshW(sleep(900));fshChk();brutClean();}
-    else{const b=$('#fBanner');b.className='f-banner endb';b.innerHTML=`<div class="fin-t end-in"><img src="${FSH_IMG[ch]}" alt="${ch}"></div>`;b.hidden=false;void b.offsetWidth;b.classList.add('pop');
+    else{if(ch==='Brutality')brutClean();const b=$('#fBanner');b.className='f-banner endb';b.innerHTML=`<div class="fin-t end-in"><img src="${FSH_IMG[ch]}" alt="${ch}"></div>`;b.hidden=false;void b.offsetWidth;b.classList.add('pop');
       try{SFX.say(ch)}catch(e){}
       await fshW(sleep(1500));b.hidden=true;fshChk();}}
   finally{MUSIC.holdFx(false);}}
-function fshEnd(toCred){if(!FSH)return;FSH=null;fightTok++;MUSIC.holdFx(false);fshResume();['fshTg','fshPz'].forEach(i=>{const e=document.getElementById(i);if(e)e.remove()});$('#fight').classList.remove('fsh-hide');
+function fshEnd(toCred){if(!FSH)return;const solo=FSH.sel;FSH=null;fightTok++;MUSIC.holdFx(false);fshResume();['fshTg','fshPz'].forEach(i=>{const e=document.getElementById(i);if(e)e.remove()});$('#fight').classList.remove('fsh-hide');
   const fg=$('#fight');$('#fAct').onclick=null;$('#fAct').innerHTML='';$('#fRoundN').textContent='Round 1';
   closeFight(true);fg.classList.remove('finshow');
+  if(solo){fshPick(solo.key);return;}
   if(toCred){MUSIC.setOverride('creditos');showCredits(false);}
   else loading({action:()=>{document.body.style.overflow='';MUSIC.setOverride(null);$('#brand').click();}});}
-function fshMenuSync(){const b=document.getElementById('smFin');if(!b)return;const lk=!zeroLiberado();b.classList.toggle('sm-lock',lk);b.innerHTML='Finalizações'+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');}
+function fshMenuSync(){[['smFin','Finalizações'],['smFinP','Ver por Personagem']].forEach(([id,t])=>{const b=document.getElementById(id);if(!b)return;const lk=!zeroLiberado();b.classList.toggle('sm-lock',lk);b.innerHTML=t+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');});}
+/* ---------- Escolher personagem: vê as finalizações (e os Brutalities) de um lutador ---------- */
+function fshList(){const seen=new Set();
+  return D.canon.map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).map(k=>{try{return fighterFrom(k)}catch(e){return null}})
+    .filter(f=>f&&f.nome!=='General Shao'&&!seen.has(f.nome)&&seen.add(f.nome)).sort(fshCmp);}
+function fshPickClose(){const o=document.getElementById('fshPick');if(o)o.remove();}
+function fshPick(key){
+  if(!zeroLiberado()){SFX.clang();toast('Bloqueado. Derrote o General Shao no Modo Torre para liberar.');return false;}
+  const M=$('#startMenu');if(!M.hidden){M.classList.add('out');setTimeout(()=>{M.hidden=true},450);}
+  MUSIC.setIntro(false);MUSIC.setArena(null);MUSIC.setOverride('destino');document.body.style.overflow='hidden';
+  fshPickClose();const o=document.createElement('div');o.id='fshPick';o.className='fshp';document.body.appendChild(o);
+  const L=fshList();
+  const leave=()=>{fshPickClose();loading({action:()=>{document.body.style.overflow='';MUSIC.setOverride(null);$('#brand').click();}});};
+  const grid=(q)=>{
+    const qq=(q||'').trim().toLowerCase();const arr=L.filter(f=>!qq||f.nome.toLowerCase().includes(qq));
+    o.innerHTML=`<div class="fshp-top"><button type="button" class="f-btn" data-p="leave">Voltar</button><h3>Escolha o personagem</h3><input type="search" class="fshp-q" placeholder="Buscar…" value="${esc(q||'')}" aria-label="Buscar personagem"></div>
+    <div class="fshp-grid">${arr.map(f=>`<button type="button" class="fshp-c" data-k="${esc(f.key)}"><span class="fshp-ph">${portrait(f,'pf')}</span><b>${esc(f.nome)}</b></button>`).join('')||'<p class="fshp-no">Ninguém com esse nome.</p>'}</div>`;
+    const inp=o.querySelector('.fshp-q');inp.oninput=()=>{const p=inp.selectionStart;grid(inp.value);const n=o.querySelector('.fshp-q');n.focus();try{n.setSelectionRange(p,p)}catch(e){}};};
+  const det=(k)=>{const f=L.find(x=>x.key===k);if(!f){grid();return;}
+    const rows=[];FSH_PARTS.forEach(([ch,t])=>{
+      if(ch==='Babality'){if((f.fins.Babality||[]).length)rows.push({ch,n:null,txt:'Babality',d:'Vira bebê o oponente'});return;}
+      (f.fins[ch]||[]).forEach((x,n)=>rows.push({ch,n,txt:x.n,d:x.d||''}));});
+    o.innerHTML=`<div class="fshp-top"><button type="button" class="f-btn" data-p="back">Personagens</button><h3>${esc(f.nome)}</h3></div>
+    <div class="fshp-det"><div class="fshp-big">${portrait(f,'pf')}</div>
+    <div class="fshp-list"><button type="button" class="f-btn big" data-p="all">▶ Ver todas</button>
+    ${rows.map(r=>`<button type="button" class="fshp-r ${r.ch.toLowerCase()}" data-ch="${r.ch}"${r.n==null?'':` data-n="${r.n}"`}><img src="${FSH_IMG[r.ch]}" alt="${r.ch}"><span><b>${esc(r.txt)}</b>${r.d?`<small>${esc(r.d)}</small>`:''}</span></button>`).join('')||'<p class="fshp-no">Sem finalizações.</p>'}</div></div>`;
+    o.dataset.k=k;};
+  o.onclick=e=>{const b=e.target.closest('button');if(!b)return;SFX.hit();
+    if(b.dataset.p==='leave'){leave();return;}
+    if(b.dataset.p==='back'){grid();return;}
+    if(b.dataset.k){det(b.dataset.k);return;}
+    const k=o.dataset.k;
+    if(b.dataset.p==='all'){fshPickClose();fshOpen({key:k});return;}
+    if(b.dataset.ch){fshPickClose();fshOpen({key:k,ch:b.dataset.ch,n:b.dataset.n==null?null:+b.dataset.n});}};
+  if(key)det(key);else grid();
+  return true;}
 
 /* ====== MODO ONLINE (salas com código) ======
    Tudo passa pela "presença" da sala: cada jogador publica o próprio estado
