@@ -4447,7 +4447,11 @@ const ANA_LETICIA = {
       {n:'Final de Novela',c:'→ ↓ → 1',dist:'Perto',d:'A tela escurece com o letreiro "último capítulo". Ana Letícia diz "Todo vilão tem um final de capítulo", dá no oponente a bofetada mais famosa da novela e atira à queima-roupa. O oponente cai, ela diz "Corta" e a tela fecha com um "FIM" dourado.'},
       {n:'Acidente na Estrada',c:'← → ↓ 2',dist:'Meia distância',d:'Dois faróis acendem do nada e o carro do tio Mariano passa em disparada por cima do oponente, buzinando. Ana Letícia ajeita o cabelo e diz: "Foi um acidente. Sempre é."'}
     ],
-    brutalities:[],
+    brutalities:[
+      {n:'Bala de Ouro',cond:'Golpe final: Tiro de Aviso. Segure →.',d:'O tiro de aviso não avisa nada. A bala dourada atravessa a cabeça do oponente, que estoura na hora.'},
+      {n:'Bolsa Pesada',cond:'Golpe final: Bolsa de Chumbo. Pressione 1 três vezes.',d:'Ela gira a bolsa sem parar e bate até a cabeça do oponente sair voando junto com as joias.'},
+      {n:'Lágrima de Crocodilo',cond:'Vencer sem perder um round. Golpe final: Cara de Pena.',d:'Ela chora, o oponente chega perto para consolar, e ela descarrega a pistola inteira no peito dele até ele explodir.'}
+    ],
     golpeFatal:{n:'Três Vezes Ana',d:'Ana Letícia chora, o oponente hesita, e ela acerta três tiros, um tapa e uma coronhada no queixo.'},
     animality:{animal:'cobra',n:'Víbora de Novela',c:'→ ← ↓ ↓ 1',d:'Ana Letícia vira uma cobra de escamas douradas e óculos brancos, desliza em zigue-zague, dá o bote e morde o pescoço do oponente. Depois ergue a cabeça, sorri para a câmera e avisa: "Próximo capítulo."'},
     babality:{n:'Bebê Vilã',c:'↓ ← → 3',d:'Ana Letícia vira uma bebê de óculos escuros brancos que dá uma gargalhada e aponta uma pistolinha de água.'},
@@ -4545,7 +4549,11 @@ const VEGA = {
       {n:'Deflagração de Energia',c:'← ↓ → → 4',dist:'Meia distância',d:'Vega diz apenas "Deflagração." e risca no chão, debaixo do oponente, o círculo ritual de Energia. Os símbolos acendem em roxo, descargas de energia caótica sobem pelo corpo dele e o fazem tremer. Quando o círculo fecha, a energia detona por dentro e o oponente explode em partículas roxas.'},
       {n:'Arquivado',c:'← ↓ → 3',dist:'Perto',d:'Vega materializa o fuzil de agente que usava nas missões e esvazia o carregador sem pressa. O oponente cai, e ela trata o lugar como cena de crime: contorno de giz no chão, fita amarela, marcador de prova número 1 e o flash da câmera de perícia. Carimba "ARQUIVADO" e acende um cigarro.'}
     ],
-    brutalities:[],
+    brutalities:[
+      {n:'Curto-Circuito',cond:'Golpe final: Deflagração de Energia. Segure ↓.',d:'O círculo ritual fecha rápido demais e a energia caótica estoura o oponente de dentro para fora.'},
+      {n:'Interrogatório Encerrado',cond:'Golpe final: Interrogatório. Pressione 1 três vezes.',d:'Ela pergunta uma última vez. Sem resposta, as joelhadas continuam até não sobrar nada para interrogar.'},
+      {n:'Mordida do Lobo',cond:'Vencer sem perder um round. Golpe final: Máscara de Lobo.',d:'A máscara de lobo morde, puxa e não solta até o oponente se desfazer em pedaços.'}
+    ],
     golpeFatal:{n:'Interrogatório Final',d:'Vega prende o oponente, desenha o círculo ritual debaixo dele e o empurra para dentro. Ele volta atordoado, e ela acerta três socos e uma Deflagração de Energia.'},
     animality:{animal:'lobo',n:'Lobo da Máscara',c:'→ ← ↓ ↓ 1',d:'A máscara de lobo se solta da cabeça de Vega, cresce e ruge. Uma matilha de lobos roxos cerca o oponente e o morde, e a máscara o engole inteiro. Depois volta pequena para a cabeça dela.'},
     babality:{n:'Bebê Agente',c:'↓ ← → 3',d:'Vega vira uma bebê de gargantilha preta e máscara de lobo torta que aponta um fuzil de brinquedo, chupa um pirulito no lugar do cigarro e faz cara de brava.'},
@@ -7191,8 +7199,8 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
       <div class="adh-price adnin-p"><span class="coin"></span>100 cada na Kripta</div><div class="adh-foot">Veja na Kripta, aba Skins.</div></div></div>`,alt:'Novas skins Ninjas Femininas: Kitana Safira Imperial, Mileena Neon Rosa e Jade MK2 Classic, 100 moedas cada na Kripta.',bn:{img:'img/s/kitana-safira.jpg',t:'Ninjas Femininas',s:'3 skins · 100 moedas cada',c:'Ver'}},
   {id:'vega',tab:'chars',btn:'Ver na Kripta',bg:'img/luta/camara.jpg',html:()=>`<div class="ad-html adana advega"><div class="adh-bg" style="background-image:url(img/luta/camara.jpg)"></div><div class="adh-in"><div class="adh-k">Nova personagem</div><div class="adh-t">Vega</div>
       <div class="adana-pic" style="background-image:url(${FOTO['Vega']})"></div><div class="adana-q">“Troca equivalente. Eu já paguei.”</div>
-      <div class="adh-card adana-c"><div class="advega-p"><span class="adh-price"><span class="coin"></span>200 na Kripta</span><span class="adh-price"><span class="coin"></span>100 a skin Agente da Ordem</span></div><span class="adana-s">2 fatalities · animality · friendship · babality · final da torre</span></div>
-      <div class="adh-foot">Agente da Ordem que transcendeu. Já na Kripta.</div></div></div>`,alt:'Nova personagem: Vega, a agente da Ordem que transcendeu, 200 moedas na Kripta, com fatalities, animality, friendship, babality e final da torre. A skin Vega Agente da Ordem custa 100 moedas.',bn:{img:'img/p/vega.jpg',t:'Vega · 200 moedas',s:'Agente da Ordem · skin 100',c:'Ver'}}].filter(a=>!a.ev||evOn());
+      <div class="adh-card adana-c"><div class="advega-p"><span class="adh-price"><span class="coin"></span>200 na Kripta</span><span class="adh-price"><span class="coin"></span>100 a skin Agente da Ordem</span></div><span class="adana-s">2 fatalities · 3 brutalities · animality · friendship · babality</span></div>
+      <div class="adh-foot">Agente da Ordem que transcendeu. Já na Kripta.</div></div></div>`,alt:'Nova personagem: Vega, a agente da Ordem que transcendeu, 200 moedas na Kripta, com fatalities, brutalities, animality, friendship, babality e final da torre. A skin Vega Agente da Ordem custa 100 moedas.',bn:{img:'img/p/vega.jpg',t:'Vega · 200 moedas',s:'Agente da Ordem · skin 100',c:'Ver'}}].filter(a=>!a.ev||evOn());
   const AD=$('#adScreen');let adCur=null,adIdx=0;
   function showAd(i){if(typeof i!=='number')i=0;const a=ADS[i];if(!a)return false;adIdx=i;adCur=a;const box=$('.ad-box');const old=box.querySelector('.ad-html');if(old)old.remove();
     box.classList.toggle('is-html',!!a.html);
@@ -7805,6 +7813,7 @@ function fighterFrom(key){
   if(ficha.fatalities&&ficha.fatalities.length)fins.Fatality=ficha.fatalities;
   ['Animality','Babality','Friendship'].forEach(k=>{const o=ficha[k.toLowerCase()];if(o)fins[k]=[o]});
   if(ficha.brutalities&&ficha.brutalities.length)fins.Brutality=ficha.brutalities;
+  else{const e0=(ficha.especiais&&ficha.especiais[0])||null;fins.Brutality=[{n:e0?e0.n+' Sem Fim':'Surra Final',cond:'Golpe final: '+(e0?e0.n:'qualquer golpe')+'. Segure →.',d:'Os golpes não param até o oponente explodir.'}];}
   let st=ficha.stats||{};
   if(!key.startsWith('u:')&&OSTATS[nome]&&!allChars().some(x=>x.fixo&&x.input.nome===nome))st=OSTATS[nome];
   if(key.startsWith('u:')){const ks=['Força','Velocidade','Técnica','Magia','Resistência'];const ord=ks.map((k,i)=>[k,+st[k]||50,i]).sort((a,b)=>b[1]-a[1]||a[2]-b[2]);const val=[86,86,72,72,72];const ns={};ord.forEach(([k],r)=>ns[k]=val[r]);st=ns;}
