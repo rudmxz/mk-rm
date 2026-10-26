@@ -6441,7 +6441,11 @@ const MUSIC=(function(){
   let tailT=null;function tail(k,sec){untail();clearTimeout(tailT);arena=k;unlocked=true;const a=A[k];if(!a){start();return}a._tail=true;a.loop=false;if(a._off){a.src=T[k].src;a._off=false;}
     const fin=T[k]&&T[k].fin;if(fin!=null){const my=a;tailT=setTimeout(()=>{if(my._tail&&arena===k){arena='silencio';start();}},sec*1000+400);}
     const seek=()=>{try{if(fin!=null)a.currentTime=fin;else if(isFinite(a.duration)&&a.duration>sec)a.currentTime=a.duration-sec;}catch(e){}};if(a.readyState>=1)seek();else a.addEventListener('loadedmetadata',seek,{once:true});start();}
-  function fx(k){if(!soundOn||!FX[k])return false;duck=.25;apply();for(const x in FX)if(x!==k)FX[x].pause();clearTimeout(fxStop);try{FX[k].currentTime=0;const pr=FX[k].play();if(pr&&pr.catch)pr.catch(()=>{SFX.boom()})}catch(e){SFX.boom()}FX[k].loop=fxHold;return true}
+  let fxAC=null,fxBus=null;const fxWired=new Set();
+  function fxBoost(k){try{if(LITE.on())return;const a=FX[k];if(!a||fxWired.has(k))return;if(!fxAC){fxAC=new (window.AudioContext||window.webkitAudioContext)();const cp=fxAC.createDynamicsCompressor();cp.threshold.value=-8;cp.knee.value=6;cp.ratio.value=12;cp.attack.value=.003;cp.release.value=.2;const g=fxAC.createGain();g.gain.value=2.6;g.connect(cp).connect(fxAC.destination);fxBus=g;}
+    const u=new URL(a.src,location.href);if(u.protocol!=='blob:'&&u.protocol!=='data:'&&u.origin!==location.origin)return;
+    fxAC.createMediaElementSource(a).connect(fxBus);fxWired.add(k);}catch(e){}}
+  function fx(k){if(!soundOn||!FX[k])return false;duck=.12;apply();fxBoost(k);try{if(fxAC&&fxAC.state==='suspended')fxAC.resume()}catch(e){}for(const x in FX)if(x!==k)FX[x].pause();clearTimeout(fxStop);try{FX[k].currentTime=0;const pr=FX[k].play();if(pr&&pr.catch)pr.catch(()=>{SFX.boom()})}catch(e){SFX.boom()}FX[k].loop=fxHold;return true}
   let fxHold=false;function holdFx(on){fxHold=on;if(!on){clearTimeout(fxStop);for(const x in FX){FX[x].loop=false;FX[x].pause();}duck=1;apply();}}
   Object.values(FX).forEach(x=>{x.addEventListener('ended',()=>{duck=1;apply()});x.addEventListener('pause',()=>{duck=1;apply()})});
   function animalPage(on){inAnimal=on;unlocked=true;if(on){stopAll();for(const x in FX)FX[x].pause();if(mode!=='nenhuma'){animal.volume=Math.max(vol,.35);animal.currentTime=0;const pr=animal.play();if(pr&&pr.catch)pr.catch(()=>{})}}else{animal.pause();start()}}
