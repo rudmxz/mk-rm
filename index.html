@@ -4114,9 +4114,9 @@ const RUDOLF = {
       {n:'Piada Pronta',c:'1, 2, 1, 2, ← → 1',dano:27,d:'Quatro golpes rápidos encerrados no Leque Cometa.'}
     ],
     fatalities:[
-      {n:'Abanando a Brasa',c:'→ ↓ → 3',dist:'Perto',d:'Rudolf abana o oponente com os dois leques até ele virar uma tocha viva. Quando fecha os leques com um estalo, o corpo desmancha em cinzas. Ele tosse e diz: "Desculpa, alergia."'},
-      {n:'Reverência Real',c:'← → ↓ 1',dist:'Meia distância',d:'Faz uma reverência perfeita enquanto os dois leques giram como serras em X. Quando ele se levanta, a metade de cima do oponente escorrega para o lado. "Etiqueta, gente."'},
-      {n:'Coisa de Família',c:'↓ ↓ ← 2',dist:'Perto',d:'Kitana aparece ao lado dele. Mãe e filho arremessam os leques ao mesmo tempo, aço e fogo, e cortam o oponente em quatro. "Valeu, mãe." "Arruma esse cabelo."'}
+      {n:'Moedor Real',c:'→ ↓ → 3',dist:'Meia distância',d:'Rudolf anda um pouco até o oponente, pega os dois leques e os lança. Os leques giram cada vez mais rápido, um por cima e outro por baixo, e vão se aproximando do oponente. Quando se encontram, ele é triturado entre as duas lâminas. Os leques voltam sozinhos para as mãos de Rudolf.'},
+      {n:'Salto Real',c:'← → ↓ 1',dist:'Longe',d:'Rudolf corre para cima do oponente, salta e cai sobre ele, derrubando-o no chão. Com os dois leques, corta a cabeça e o meio do corpo, e o oponente é fatiado em três partes. Rudolf salta de volta ao lugar onde estava.'},
+      {n:'Abanando a Brasa',c:'↓ ↓ ← 2',dist:'Perto',d:'Rudolf abana os dois leques de fogo e as chamas voam até o oponente. Ele é queimado vivo até virar esqueleto e desmoronar em cinzas. Rudolf tosse e diz: "Desculpa, alergia."'}
     ],
     brutalities:[
       {n:'Abre-Alas',cond:'O golpe final deve ser o Leque Cometa. Segure ←.',d:'O leque atravessa o oponente na volta e abre caminho no meio dele.'},
@@ -8428,7 +8428,7 @@ async function finDeath(w,l,ch,o){const F=$('#fF'+l),V=FS.P[l];if(!F)return;
   if(ch==='Fatality'){const k=finKind(o,FS.P[w]);
     if(k==='fogo')return finBurn(l);if(k==='gelo')return finFreeze(l);if(k==='raio')return finZap(l);if(k==='acido')return finMelt(l);if(k==='explode')return finExplode(l,true);
     return finCut3(l);}}
-function finCleanup(){window.__animBleed=null;try{brutClean();$$('.f-fig').forEach(e=>{e.style.zIndex=''});}catch(e){}try{{const st=document.getElementById('fStage');if(st)st.classList.remove('fin-dark');}$$('.fin-piece,.fin-bone,.fin-drop,.fin-pool,.fin-burst,.fin-slash,.fa-x').forEach(e=>e.remove());$$('.f-fig').forEach(e=>{e.getAnimations().forEach(a=>a.cancel());e.style.transform='';e.style.transformOrigin='';e.style.opacity='';e.classList.remove('fa-glow','fa-morph');delete e.dataset.near;e._pos=null;if(e._html){e.innerHTML=e._html;e._html=null;}});$$('.f-fig').forEach(e=>e.classList.remove('fin-gone','fin-burning','fin-char','fin-skeleton','fin-frozen','fin-crack','fin-zap','fin-dust','fin-melt','dying'));$$('.fin-flames,.fin-skel,.fin-ice,.fin-bolts').forEach(e=>e.remove());}catch(e){}}
+function finCleanup(){window.__animBleed=null;try{brutClean();$$('.f-fig').forEach(e=>{e.style.zIndex=''});}catch(e){}try{{const st=document.getElementById('fStage');if(st)st.classList.remove('fin-dark');}$$('.fin-piece,.fin-bone,.fin-drop,.fin-pool,.fin-burst,.fin-slash,.fa-x,.rud-hand').forEach(e=>e.remove());$$('.f-fig').forEach(e=>{e.getAnimations().forEach(a=>a.cancel());e.style.transform='';e.style.transformOrigin='';e.style.opacity='';e.classList.remove('fa-glow','fa-morph');delete e.dataset.near;e._pos=null;if(e._html){e.innerHTML=e._html;e._html=null;}});$$('.f-fig').forEach(e=>e.classList.remove('fin-gone','fin-burning','fin-char','fin-skeleton','fin-frozen','fin-crack','fin-zap','fin-dust','fin-melt','dying'));$$('.fin-flames,.fin-skel,.fin-ice,.fin-bolts').forEach(e=>e.remove());}catch(e){}}
 function finFx(w,l,ch,o){const L=$('#fF'+l),W=$('#fF'+w);if(['Fatality','Friendship','Animality','Brutality'].includes(ch)){const st=$('#fStage');if(st)st.classList.add('fin-dark');}
   if(['Fatality','Brutality','Animality'].includes(ch)){return finDeath(w,l,ch,o).catch(e=>{if(e!=='abort')console.error(e)});}
   else if(ch==='Babality'){L.classList.add('baby');{const sc=typeof BB_SCENES!=='undefined'&&FS.P[l]&&BB_SCENES[FS.P[l].nome];if(sc)return bbRun(w,l,sc);}L.insertAdjacentHTML('beforeend',`<div class="fx-baby"><span class="fx-paci">${PACI_SVG}</span><span class="fx-rattle">${RATTLE_SVG}</span></div>`);}
@@ -11632,6 +11632,189 @@ function faFrHas(o){const t=((o&&(o.n+' '+o.d))||'').toLowerCase();return FR_SCE
 async function faFriendship(w,l,o){const t=((o&&(o.n+' '+o.d))||'').toLowerCase();const sc=FR_SCENES.find(([re])=>re.test(t));
   if(sc){await sleep(150);await sc[1](w,l,frG(w,l),t);await faRestoreW(w);return true;}
   faFriendProps(w,l,t);await sleep(2600);return false;}
+
+/* ====== Fatalities do Rudolf: Moedor Real, Salto Real e Abanando a Brasa ====== */
+/* leque aberto desenhado à mão (aço e laca) e versão em chamas */
+function rudFanSvg(fire){
+  const id='rf'+(fire?'f':'s')+Math.floor(Math.random()*1e6);
+  const N=9,A0=-78,A1=78,R=64,cx=0,cy=18;
+  const pt=(a,r)=>[(cx+Math.sin(a*Math.PI/180)*r).toFixed(1),(cy-Math.cos(a*Math.PI/180)*r).toFixed(1)];
+  let panels='',ribs='',tips='',flames='';
+  for(let i=0;i<N;i++){
+    const a=A0+(A1-A0)*i/N,b=A0+(A1-A0)*(i+1)/N,m=(a+b)/2;
+    const p1=pt(a,R),p2=pt(b,R),p0=pt(a,10),p3=pt(b,10);
+    const col=fire?(i%2?'#ff9a1a':'#ff4a00'):(i%2?'#e8b23a':'#b3122a');
+    panels+=`<path d="M${p0} L${p1} A${R} ${R} 0 0 1 ${p2} L${p3} Z" fill="${col}" opacity="${fire?.93:1}"/>`;
+    ribs+=`<line x1="${pt(a,6)[0]}" y1="${pt(a,6)[1]}" x2="${p1[0]}" y2="${p1[1]}" stroke="${fire?'#7a1500':'#3a0a10'}" stroke-width="1.6"/>`;
+    const q=pt(m,R+7);tips+=`<path d="M${p1} L${q} L${p2} Z" fill="${fire?'#fff3b0':'#e6edf5'}" stroke="${fire?'#ff7a00':'#6a7684'}" stroke-width="1"/>`;
+    if(fire){const f1=pt(a+1,R+2),f2=pt(b-1,R+2),fm=pt(m+(i%2?-4:4),R+24+(i%3)*6);flames+=`<path d="M${f1} Q${pt(m-5,R+14)} ${fm} Q${pt(m+5,R+12)} ${f2} Z" fill="url(#${id}g)"/>`;}
+  }
+  ribs+=`<line x1="${pt(A0,6)[0]}" y1="${pt(A0,6)[1]}" x2="${pt(A0,R)[0]}" y2="${pt(A0,R)[1]}" stroke="#2a0a10" stroke-width="3"/><line x1="${pt(A1,6)[0]}" y1="${pt(A1,6)[1]}" x2="${pt(A1,R)[0]}" y2="${pt(A1,R)[1]}" stroke="#2a0a10" stroke-width="3"/>`;
+  const arc=`<path d="M${pt(A0,R)} A${R} ${R} 0 0 1 ${pt(A1,R)}" fill="none" stroke="${fire?'#ffe08a':'#f4f8fc'}" stroke-width="3.2"/>`;
+  const defs=fire?`<defs><linearGradient id="${id}g" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ff3b00"/><stop offset=".55" stop-color="#ff9a1a"/><stop offset="1" stop-color="#fff3b0"/></linearGradient></defs>`:'';
+  const handle=`<rect x="-4" y="16" width="8" height="22" rx="3" fill="#3a2214" stroke="#1a0e08" stroke-width="1.5"/><circle cx="0" cy="40" r="4.5" fill="#d9a21b" stroke="#6a4a0a" stroke-width="1.2"/><circle cx="0" cy="${cy-2}" r="4" fill="#d9a21b" stroke="#6a4a0a" stroke-width="1.2"/>`;
+  return `<svg viewBox="-90 -80 180 130" xmlns="http://www.w3.org/2000/svg">${defs}${handle}${flames}${panels}${ribs}${tips}${arc}</svg>`;
+}
+FA_SVG.leque_aco=rudFanSvg(false);FA_SVG.leque_brasa=rudFanSvg(true);
+/* leques que ficam nas mãos do Rudolf (filhos do cartão, andam junto com ele) */
+function rudHands(w,fire,pose){
+  const W=$('#fF'+w);W.querySelectorAll('.rud-hand').forEach(e=>e.remove());
+  const out=[];[-1,1].forEach(sd=>{
+    const e=document.createElement('div');e.className='rud-hand';
+    e.style.cssText=`position:absolute;z-index:6;pointer-events:none;width:${Math.round(W.getBoundingClientRect().width*.62)}px;left:${sd<0?'-22':'44'}%;top:42%;transform-origin:50% 62%;filter:drop-shadow(0 0 6px ${fire?'rgba(255,120,20,.9)':'rgba(255,255,255,.55)'}) drop-shadow(0 3px 3px rgba(0,0,0,.6))`;
+    e.innerHTML=faSvg(fire?'leque_brasa':'leque_aco');e.firstChild.style.cssText='display:block;width:100%;overflow:visible';
+    e.dataset.sd=sd;e.style.transform=`rotate(${sd*(pose??28)}deg)`;W.appendChild(e);out.push(e);});
+  return out;
+}
+function rudHandsGone(w){const W=$('#fF'+w);if(W)W.querySelectorAll('.rud-hand').forEach(e=>e.remove());}
+/* leque voador (fixed), girando sozinho */
+function rudFly(x,y,sz,fire){
+  const o=faEl('fa-proj',null,`left:${x}px;top:${y}px;width:${sz}px;height:${sz}px;transform:translate(-50%,-50%);${fire?'filter:drop-shadow(0 0 10px #ff7a00) drop-shadow(0 0 4px #ffd23a)':''}`);
+  const i=document.createElement('div');i.style.cssText='width:100%;height:100%;transform-origin:50% 40%';i.innerHTML=faSvg(fire?'leque_brasa':'leque_aco');o.appendChild(i);
+  o._spin=i;o._sp=i.animate([{transform:'rotate(0deg)'},{transform:'rotate(360deg)'}],{duration:260,iterations:Infinity});return o;
+}
+function rudSpark(x,y,n,fire){for(let i=0;i<n;i++){const s=3+Math.random()*5,a=Math.random()*Math.PI*2,d=24+Math.random()*60;
+  const e=faEl('fa-part',null,`left:${x}px;top:${y}px;width:${s}px;height:${s*2.2}px;border-radius:2px;background:${fire?'#ffb347':'#fff6c8'};box-shadow:0 0 6px ${fire?'#ff5a00':'#ffe08a'}`);
+  faAn(e,[{transform:`translate(-50%,-50%) rotate(${a}rad)`,opacity:1},{transform:`translate(calc(-50% + ${Math.cos(a)*d}px),calc(-50% + ${Math.sin(a)*d}px)) rotate(${a}rad)`,opacity:0}],{duration:300+Math.random()*250}).then(()=>e.remove());}}
+
+/* ---------- 1) Moedor Real: dois leques giram e se fecham sobre o inimigo ---------- */
+async function rudSaw(w,l){
+  const W=$('#fF'+w),d=faDir(w,l);
+  const hs=rudHands(w,false,24);faSfx('whoosh');await sleep(380);
+  await faGo(w,l,1.25);                       /* anda um pouquinho para perto */
+  await sleep(120);
+  /* pega os leques e lança os dois */
+  const W0=faR(w),L0=faR(l),sz=Math.max(70,L0.width*.95);
+  hs.forEach(h=>h.animate([{transform:h.style.transform},{transform:`rotate(${d*-70}deg) scale(1.1)`}],{duration:180,fill:'forwards'}));
+  await sleep(180);faSfx('whoosh');faLunge(w,l);
+  const sx=W0.left+W0.width*(d>0?.85:.15),sy=W0.top+W0.height*.4;
+  hs.forEach(h=>h.remove());
+  const cx=L0.left+L0.width/2,topY=L0.top-sz*.25,botY=L0.bottom+sz*.05;
+  const up=rudFly(sx,sy,sz,false),dn=rudFly(sx,sy,sz,false);
+  const t1=faAn(up,[{transform:'translate(-50%,-50%) scale(.5)',left:sx+'px',top:sy+'px'},{transform:'translate(-50%,-50%) scale(1)',left:cx+'px',top:topY+'px'}],{duration:520,easing:'cubic-bezier(.3,.1,.5,1)'});
+  const t2=faAn(dn,[{transform:'translate(-50%,-50%) scale(.5)',left:sx+'px',top:sy+'px'},{transform:'translate(-50%,-50%) scale(1)',left:cx+'px',top:botY+'px'}],{duration:620,easing:'cubic-bezier(.3,.1,.5,1)'});
+  await Promise.all([t1,t2]);
+  up.style.left=cx+'px';up.style.top=topY+'px';dn.style.left=cx+'px';dn.style.top=botY+'px';
+  /* giram cada vez mais rápido e vão se aproximando: um por cima, outro por baixo */
+  const E=$('#fF'+l);E.style.transformOrigin='50% 100%';
+  const mid=L0.top+L0.height*.5;const steps=7;
+  for(let s=1;s<=steps;s++){
+    const p=s/steps;up._sp.updatePlaybackRate(1+p*3.2);dn._sp.updatePlaybackRate(1+p*3.2);
+    const uy=topY+(mid-topY)*p*.93,dy=botY+(mid-botY)*p*.93;
+    const a1=faAn(up,[{top:up.style.top},{top:uy+'px'}],{duration:260,easing:'ease-in'}),a2=faAn(dn,[{top:dn.style.top},{top:dy+'px'}],{duration:260,easing:'ease-in'});
+    up.style.top=uy+'px';dn.style.top=dy+'px';
+    faSfx('whoosh');
+    /* o inimigo treme e a lâmina começa a morder cada vez mais fundo */
+    try{E.animate([{transform:'translateX(0)'},{transform:`translateX(${-4-s}px)`},{transform:`translateX(${4+s}px)`},{transform:'translateX(0)'}],{duration:200})}catch(e){}
+    rudSpark(cx,uy+sz*.25,2+s,false);rudSpark(cx,dy-sz*.1,2+s,false);
+    if(s>=3){finSpray(l,3+s,false);anim(l,'hit');faSfx('hit');}
+    await Promise.all([a1,a2]);
+  }
+  /* encontro: o inimigo é triturado */
+  faSfx('gore');faShake();rudSpark(cx,mid,26,false);
+  const r=faR(l),rects=[];for(let y=0;y<5;y++)for(let x=0;x<3;x++)rects.push([x*33.34,y*20,(x+1)*33.34,(y+1)*20]);
+  const {pieces,r:rr}=finPieces(l,rects);finSpray(l,70,true);
+  pieces.forEach((p,i)=>{const row=Math.floor(i/3),col=i%3;
+    const dx=(col-1)*r.width*.55+(Math.random()-.5)*40,rot=(Math.random()*420-210).toFixed(0);
+    const peak=row<2?-r.height*.5:row>2?-r.height*.2:-r.height*.35;
+    p.animate([{transform:'translate(0,0) rotate(0deg)'},{transform:`translate(${dx*.5}px,${peak}px) rotate(${rot*.4}deg)`,offset:.35,easing:'ease-out'},{transform:`translate(${dx}px,${(r.height*(1-(row+1)*.2)).toFixed(0)}px) rotate(${rot}deg)`}],{duration:950+Math.random()*350,fill:'forwards',easing:'cubic-bezier(.5,0,.9,.6)'});});
+  setTimeout(()=>faSfx('chunks',8),950);
+  /* os leques atravessam, brilham e voltam sozinhos para a mão */
+  await sleep(140);
+  const R1=faR(w),hx=R1.left+R1.width*(d>0?.85:.15),hy=R1.top+R1.height*.4;
+  const bk=[up,dn].map((o,i)=>{o._sp.updatePlaybackRate(2.2);return faAn(o,[{left:o.style.left,top:o.style.top,transform:'translate(-50%,-50%) scale(1)'},{left:(cx+(hx-cx)*.5)+'px',top:(Math.min(parseFloat(o.style.top),hy)-(i?-60:90))+'px',transform:'translate(-50%,-50%) scale(1.05)',offset:.5},{left:hx+'px',top:hy+'px',transform:'translate(-50%,-50%) scale(.5)'}],{duration:760,easing:'ease-in-out'})});
+  faSfx('whoosh');await Promise.all(bk);
+  up.remove();dn.remove();finPool(l);
+  const back=rudHands(w,false,24);faSfx('tick');
+  back.forEach((h,i)=>h.animate([{transform:h.style.transform+' scale(1.25)'},{transform:h.style.transform}],{duration:240}));
+  await sleep(500);
+}
+
+/* ---------- 2) Salto Real: corre, salta, derruba o inimigo e o fatia em três ---------- */
+async function rudJump(w,l){
+  const W=$('#fF'+w),E=$('#fF'+l),d=faDir(w,l);
+  const hs=rudHands(w,false,24);await sleep(200);
+  /* corrida (balançando) */
+  const R=faR(w),L=faR(l);
+  const x0=0,y0=0;const runX=(L.left-R.left)-d*L.width*1.5,runY=(L.bottom-R.bottom);
+  faSfx('whoosh');W.dataset.near='1';W._pos={x:runX,y:runY};
+  const kf=[];for(let i=0;i<=12;i++){const p=i/12;kf.push({transform:`translate(${(runX*p).toFixed(1)}px,${(runY*p-(i%2?14:0)).toFixed(1)}px) rotate(${d*(i%2?4:-1)}deg)`});}
+  W.getAnimations().forEach(a=>a.cancel());await faAn(W,kf,{duration:620,easing:'linear'});
+  /* salto: arco por cima do inimigo até cair em cima dele */
+  const jx=(L.left+L.width/2)-(R.left+R.width/2)+0,jy=runY-L.height*.1;
+  faSfx('whoosh');
+  hs.forEach(h=>h.animate([{transform:h.style.transform},{transform:`rotate(${-h.dataset.sd*10+d*-20}deg)`}],{duration:300,fill:'forwards'}));
+  await faAn(W,[{transform:`translate(${runX}px,${runY}px)`},{transform:`translate(${runX+(jx-runX)*.5}px,${runY-L.height*1.1}px) rotate(${d*-18}deg)`,offset:.5,easing:'ease-out'},{transform:`translate(${jx-d*L.width*.05}px,${jy}px) rotate(${d*22}deg) scale(1.04)`}],{duration:720,easing:'ease-in'});
+  W._pos={x:jx-d*L.width*.05,y:jy};W.style.transform=`translate(${W._pos.x}px,${W._pos.y}px)`;
+  /* o inimigo vai ao chão (as três partes ainda juntas, caindo como um corpo só) */
+  faSfx('boom');faShake();finSpray(l,10,false);
+  const {pieces:P,r:rr}=finPieces(l,[[0,0,100,26],[0,26,100,66],[0,66,100,100]],'bloody');
+  P.forEach(p=>{p.style.transformOrigin='50% 100%'});
+  const e_=-d;const lie=`rotate(${e_*86}deg) translateY(10%)`;
+  P.forEach(p=>p.animate([{transform:'rotate(0deg)'},{transform:lie}],{duration:560,fill:'forwards',easing:'cubic-bezier(.5,0,1,.8)'}));
+  await sleep(480);faSfx('thud');faShake();
+  /* Rudolf cai ao lado e cruza os dois leques */
+  const hs2=rudHands(w,false,24);
+  await sleep(120);
+  const lx=L.left+L.width/2,ly=L.bottom-L.width*.12;
+  /* dois cortes de leque (cabeça e meio) */
+  const cutAt=async(fx,sdx)=>{const cxp=lx+e_*L.height*fx;faSfx('slice');
+    const sl=faEl('fin-slash',null,`left:${cxp}px;top:${L.bottom-L.width*1.25}px;width:${L.width*1.4}px;transform:rotate(90deg)`);setTimeout(()=>sl.remove(),520);
+    const f=rudFly(cxp-e_*30,L.bottom-L.height*.55,L.width*.8,false);f._sp.cancel();f.firstChild.style.transform='rotate(-60deg)';
+    faAn(f,[{top:(L.bottom-L.height*.55)+'px',left:(cxp-e_*30)+'px'},{top:(L.bottom-L.height*.05)+'px',left:(cxp+e_*30)+'px'}],{duration:230}).then(()=>f.remove());
+    rudSpark(cxp,L.bottom-L.height*.2,16,false);finSpray(l,18,true);SFX.splat();faLunge(w,l);await sleep(300);};
+  await cutAt(.76);
+  /* a cabeça (parte de cima, no lado d) é separada primeiro */
+  P[0].animate([{transform:lie},{transform:`translate(${e_*r2(L.width*.26)}px,${-L.height*.06}px) ${lie}`}],{duration:520,fill:'forwards',easing:'ease-out'});
+  await cutAt(.36);
+  P[2].animate([{transform:lie},{transform:`translate(${-e_*r2(L.width*.26)}px,0) ${lie}`}],{duration:520,fill:'forwards',easing:'ease-out'});
+  P[0].animate([{transform:`translate(${e_*r2(L.width*.26)}px,${-L.height*.06}px) ${lie}`},{transform:`translate(${e_*r2(L.width*.42)}px,0) rotate(${e_*100}deg) translateY(10%)`}],{duration:420,delay:520,fill:'forwards',easing:'ease-in'});
+  finSpray(l,40,true);faSfx('gore');faShake();await sleep(520);finPool(l);setTimeout(()=>faSfx('chunks',5),200);
+  await sleep(300);
+  /* pula de volta ao lugar */
+  faSfx('whoosh');
+  const cur=faPos(W);
+  await faAn(W,[{transform:`translate(${cur.x}px,${cur.y}px) rotate(${d*22}deg)`},{transform:`translate(${cur.x*.5}px,${cur.y*.5-L.height*1.0}px) rotate(${d*-14}deg)`,offset:.5,easing:'ease-out'},{transform:'translate(0px,0px) rotate(0deg)'}],{duration:780,easing:'ease-in'});
+  W.style.transform='';delete W.dataset.near;W._pos=null;faSfx('thud');
+  await sleep(300);
+}
+function r2(v){return Math.round(v)}
+
+/* ---------- 3) Abanando a Brasa: abana os leques e o fogo queima o inimigo vivo ---------- */
+async function rudFire(w,l){
+  const W=$('#fF'+w),d=faDir(w,l);
+  rudHands(w,true,26);faSfx('fireBurst');await sleep(420);
+  await faGo(w,l,.95);
+  const hs=[...W.querySelectorAll('.rud-hand')];
+  const E=$('#fF'+l);
+  const flap=async(n)=>{
+    for(let i=0;i<n;i++){
+      hs.forEach(h=>h.animate([{transform:h.style.transform},{transform:`rotate(${d*(10+i*3)}deg) scale(1.15)`},{transform:h.style.transform}],{duration:230,easing:'ease-in-out'}));
+      faSfx('whoosh');
+      const A=faPt(w,d>0?.82:.18,.42),B=faPt(l,.5,.5);
+      for(let k=0;k<(8+i*2);k++){
+        const s=22+Math.random()*34,ey=(Math.random()-.5)*B.r.height*.7,ex=(Math.random()-.5)*B.r.width*.4;
+        const e=faEl('fa-part',null,`left:${A.x}px;top:${A.y+(Math.random()-.5)*26}px;width:${s}px;height:${s*1.5}px;border-radius:50% 50% 50% 50%/62% 62% 38% 38%;background:radial-gradient(ellipse at 50% 70%,#fff6b0 0%,#ffb21a 38%,#ff4a00 72%,rgba(255,60,0,0) 76%);filter:blur(.6px);mix-blend-mode:screen`);
+        faAn(e,[{transform:'translate(-50%,-50%) scale(.4) rotate(0deg)',opacity:0},{transform:'translate(-50%,-50%) scale(.9)',opacity:1,offset:.2},{transform:`translate(calc(-50% + ${B.x-A.x+ex}px),calc(-50% + ${B.y-A.y+ey}px)) scale(1.5)`,opacity:.15}],{duration:520+Math.random()*260,delay:k*32,easing:'ease-in'}).then(()=>e.remove());
+      }
+      try{SFX.fire()}catch(e){}
+      await sleep(i===0?330:290);
+      if(i>=1){anim(l,'hit');E.classList.add('fa-glow');}
+    }
+  };
+  await flap(5);
+  E.classList.remove('fa-glow');
+  /* o fogo pega e ele queima vivo */
+  hs.forEach(h=>h.animate([{transform:h.style.transform},{transform:`rotate(${d*14}deg) scale(1.2)`}],{duration:300,fill:'forwards'}));
+  await finBurn(l);
+  await sleep(200);
+  hs.forEach(h=>h.animate([{transform:h.style.transform+' scale(1.3)'},{transform:h.style.transform}],{duration:260,fill:'forwards'}));
+}
+
+FA_STEP.rudsaw=(w,l)=>rudSaw(w,l);FA_STEP.rudjump=(w,l)=>rudJump(w,l);FA_STEP.rudfire=(w,l)=>rudFire(w,l);
+FA_OVR['Rudolf|Moedor Real']=[{t:'rudsaw'}];
+FA_OVR['Rudolf|Salto Real']=[{t:'rudjump'}];
+FA_OVR['Rudolf|Abanando a Brasa']=[{t:'rudfire'}];
 
 /* ====== FINALIZAÇÕES AUTORAIS: Ana Letícia e Vega (cenas feitas à mão, uma por uma) ====== */
 const FC_SAY='background:rgba(8,8,14,.92);color:#fff;padding:6px 11px;border-radius:10px;font:600 13px/1.25 var(--f-ui,system-ui);max-width:min(70vw,250px);white-space:normal;text-align:center;z-index:38;';
