@@ -12981,7 +12981,7 @@ BR_SC.caotico=async c=>{const {w,l,d}=c;
   faAn(rift,[{transform:'scale(.1) rotate(0)',opacity:0},{transform:'scale(1) rotate(360deg)',opacity:1,offset:.5},{transform:'scale(1) rotate(900deg)',opacity:1}],{duration:1500,easing:'ease-in-out'});
   faSfx('whoosh');BX.vig('rgba(120,20,140,.5)',1800);
   const {pieces:[a,b,cc],r}=finPieces(l,[[0,0,100,34],[0,34,100,67],[0,67,100,100]],'bloody');
-  const hh=r.height;a.style.transformOrigin='50% 50%';cc.style.transformOrigin='50% 50%';
+  const hh=r.height;a.style.transformOrigin='50% 17%';cc.style.transformOrigin='50% 83.5%';
   await c.sl(500);faSfx('crack');
   /* as partes se soltam e giram trocando de lugar: cabeça embaixo, pernas em cima */
   const swap=(el,dy,rot,ms)=>faAn(el,[{transform:'translate(0,0) rotate(0)'},{transform:`translate(${d*r.width*.5}px,${dy*.5-hh*.2}px) rotate(${rot*.5}deg)`,offset:.5},{transform:`translate(0,${dy}px) rotate(${rot}deg)`}],{duration:ms,easing:'ease-in-out'});
