@@ -1467,8 +1467,8 @@ html.land .adh-free,html.land .adh-price{font-size:1.9cqw}
 .sm-adbar{position:absolute;left:6px;right:6px;bottom:3px;height:2px;background:rgba(255,255,255,.08);overflow:hidden;border-radius:1px}
 .sm-adbar i{display:block;height:100%;width:100%;background:#ffd23a;transform-origin:left;animation:smAdBar 7s linear both}
 @keyframes smAdBar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-html.land .sm-ad{order:-1;margin:0 0 16px}
-@media (max-height:520px){html.land .sm-ad{height:52px;margin-bottom:8px}html.land .sm-adx span{display:none}html.land .sm-adx b{font-size:13px}}
+html.land .sm-ad{order:9;margin:12px 0 0}
+@media (max-height:520px){html.land .sm-ad{height:52px;margin-top:8px}html.land .sm-adx span{display:none}html.land .sm-adx b{font-size:13px}}
 
 .f-pre{text-align:center;font-size:17px;line-height:1.35;color:#f3e6cf;padding:6px 4px;animation:pop .25s both}
 
@@ -7219,7 +7219,7 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
     if(a==='go'){if(b.dataset.tw)towerSize=+b.dataset.tw;go(b.dataset.tab,b.dataset.mode);}else if(a==='opts'){panel('opts');MUSIC.setOpts(true);$('#smFx').checked=soundOn;$('#smMusicOn').checked=MUSIC.getMode()!=='nenhuma';$('#smVol').value=MUSIC.getVol();}
     else if(a==='exit'){MUSIC.halt(true);panel('bye');try{window.close()}catch(_){}}
     else if(a==='back'){if(!$('#smBye').hidden)MUSIC.halt(false);MUSIC.setOpts(false);lastSub='main';panel('main');}});
-  const IS=$('#introScreen');const enter=()=>{if(IS.hidden)return;SFX.gong();IS.classList.add('out');setTimeout(()=>{IS.hidden=true},500);panel('main');MUSIC.setIntro(true);showAd(ADS.findIndex(a=>!a.ev));setTimeout(giftCheck,1200);};
+  const IS=$('#introScreen');const enter=()=>{if(IS.hidden)return;SFX.gong();IS.classList.add('out');setTimeout(()=>{IS.hidden=true},500);panel('main');MUSIC.setIntro(true);setTimeout(giftCheck,1200);};
   /* ---- anúncios: aparecem ao entrar no jogo ---- */
   const ADS_OFF=[{id:'tvd',v:'img/ads/tvd-v.jpg',h:'img/ads/tvd-h.jpg',tab:'tvd',alt:'The Vampire Diaries: Stefan, Damon, Bonnie e Lexi e 3 arenas de Mystic Falls. Já na Kripta.',bn:{img:'img/ads/tvd-h.jpg',t:'The Vampire Diaries',s:'Stefan, Damon, Bonnie e Lexi',c:'Ver'}},
     {id:'soldados',v:'img/ads/soldados-v.jpg',h:'img/ads/soldados-h.jpg',pack:'soldados',alt:'Pacote Soldados: Kano, Sonya e Jax. Já na Kripta.',bn:{img:'img/ads/soldados-h.jpg',t:'Pacote Soldados',s:'Kano, Sonya e Jax · 200 cada',c:'Comprar já'}},
@@ -7227,22 +7227,20 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
       <div class="adh-cards"><div class="adh-card"><div class="adh-pic" style="background-image:url(img/luta/bank.jpg)"></div><b>The Bank</b><span class="adh-free">Grátis · já liberada</span></div>
       <div class="adh-card"><div class="adh-pic" style="background-image:url(img/luta/intencao.jpg)"></div><b>Intenção</b><span class="adh-price"><span class="coin"></span>150 na Kripta</span></div></div>
       <div class="adh-foot">Já na Kripta, <br>garanta já a sua.</div></div></div>`,arena:'intencao',alt:'Novas arenas: The Bank, grátis, e Intenção, 150 moedas na Kripta.',bn:{img:'img/luta/intencao.jpg',t:'Novas arenas',s:'The Bank grátis · Intenção 150',c:'Ver'}}];
-  const ADS=[{id:'tvdskins',tab:'tvd',btn:'Ver na Kripta',bg:'img/tvd/fundo.jpg',html:()=>`<div class="ad-html adtvs"><div class="adh-bg" style="background-image:url(img/tvd/fundo.jpg)"></div><div class="adh-in"><div class="adh-k">The Vampire Diaries</div><div class="adh-t">Duas novas <br>skins</div>
-      <div class="adh-cards adtvs-c"><div class="adh-card"><div class="adh-pic" style="background-image:url(img/s/bonnie-baile.jpg)"></div><b>Bonnie</b><span class="adtvs-n">Rainha do Baile</span></div>
-      <div class="adh-card"><div class="adh-pic" style="background-image:url(img/s/katherine-mascaras.jpg)"></div><b>Katherine</b><span class="adtvs-n">Baile de Máscaras</span></div></div>
-      <div class="adh-price adnin-p"><span class="coin"></span>150 cada na Kripta</div><div class="adh-foot">Na página The Vampire Diaries.</div></div></div>`,alt:'Duas novas skins de The Vampire Diaries: Bonnie Rainha do Baile e Katherine Baile de Máscaras, 150 moedas cada, na página The Vampire Diaries da Kripta.',bn:{img:'img/s/bonnie-baile.jpg',t:'Skins The Vampire Diaries',s:'Bonnie e Katherine · 150 cada',c:'Ver'}},
-  {id:'serenata',sub:'jogar',btn:'Jogar agora',bg:'img/luta/serenata.jpg',html:()=>`<div class="ad-html adser"><div class="adh-bg" style="background-image:url(img/luta/serenata.jpg)"></div><div class="adh-in"><div class="adh-k">Nova arena</div><div class="adh-t">Serenata</div>
-      <div class="adser-pic" style="background-image:url(img/luta/serenata.jpg)"></div><div class="adh-card adana-c"><span class="adh-free">Grátis · já liberada</span><span class="adana-s">Palco vermelho, violão e luz de show</span></div>
-      <div class="adh-foot">Escolha a arena Serenata na hora de lutar.</div></div></div>`,alt:'Nova arena grátis: Serenata, um palco de show em vermelho com música de piano. Já liberada.',bn:{img:'img/luta/serenata.jpg',t:'Arena Serenata · Grátis',s:'Palco de show com piano',c:'Jogar'}},
-  {id:'ninjas',tab:'skins',btn:'Ver na Kripta',bg:'img/luta/forja.jpg',html:()=>`<div class="ad-html adnin"><div class="adh-bg" style="background-image:url(img/luta/forja.jpg)"></div><div class="adh-in"><div class="adh-k">Novas skins</div><div class="adh-t">Ninjas <br>Femininas</div>
-      <div class="adh-cards adnin-c"><div class="adh-card"><div class="adh-pic" style="background-image:url(img/s/kitana-safira.jpg)"></div><b>Kitana Safira Imperial</b></div>
-      <div class="adh-card"><div class="adh-pic" style="background-image:url(img/s/mileena-rosa.jpg)"></div><b>Mileena Neon Rosa</b></div>
-      <div class="adh-card"><div class="adh-pic" style="background-image:url(img/s/jade-mk2.jpg)"></div><b>Jade MK2 Classic</b></div></div>
-      <div class="adh-price adnin-p"><span class="coin"></span>100 cada na Kripta</div><div class="adh-foot">Veja na Kripta, aba Skins.</div></div></div>`,alt:'Novas skins Ninjas Femininas: Kitana Safira Imperial, Mileena Neon Rosa e Jade MK2 Classic, 100 moedas cada na Kripta.',bn:{img:'img/s/kitana-safira.jpg',t:'Ninjas Femininas',s:'3 skins · 100 moedas cada',c:'Ver'}},
-  {id:'vega',tab:'chars',btn:'Ver na Kripta',bg:'img/luta/camara.jpg',html:()=>`<div class="ad-html adana advega"><div class="adh-bg" style="background-image:url(img/luta/camara.jpg)"></div><div class="adh-in"><div class="adh-k">Nova personagem</div><div class="adh-t">Vega</div>
-      <div class="adana-pic" style="background-image:url(${FOTO['Vega']})"></div><div class="adana-q">“Troca equivalente. Eu já paguei.”</div>
-      <div class="adh-card adana-c"><div class="advega-p"><span class="adh-price"><span class="coin"></span>200 na Kripta</span><span class="adh-price"><span class="coin"></span>100 a skin Agente da Ordem</span></div><span class="adana-s">2 fatalities · 3 brutalities · animality · friendship · babality</span></div>
-      <div class="adh-foot">Agente da Ordem que transcendeu. Já na Kripta.</div></div></div>`,alt:'Nova personagem: Vega, a agente da Ordem que transcendeu, 200 moedas na Kripta, com fatalities, brutalities, animality, friendship, babality e final da torre. A skin Vega Agente da Ordem custa 100 moedas.',bn:{img:'img/p/vega.jpg',t:'Vega · 200 moedas',s:'Agente da Ordem · skin 100',c:'Ver'}}].filter(a=>!a.ev||evOn());
+  const ADS=[{id:'halloween',ev:1,bg:'img/luta/abobora.jpg',btn:'Girar a roleta',html:()=>{const P=n=>FOTO[n]||'';const S=k=>(STAGES.find(s=>s.k===k)||{}).img||'';
+    return `<div class="ad-html adw"><div class="adh-bg" style="background-image:url(img/luta/abobora.jpg)"></div><div class="adw-glow" aria-hidden="true"></div><div class="adw-in">
+      <div class="adw-head"><div class="adh-k">🎃 Evento de Halloween 🎃</div><div class="adw-t">Roleta de <br>Halloween</div><div class="adw-sub">Gire e leve o <b>Freddy Krueger</b></div></div>
+      <div class="adw-sec adw-fs"><div class="adw-h">Novos lutadores</div><div class="adw-row">
+        <div class="adw-f"><span class="adw-pic" style="background-image:url(${P('Art the Clown')})"></span><b>Art the Clown</b><span class="adh-price"><span class="coin"></span>250</span></div>
+        <div class="adw-f main"><span class="adw-pic" style="background-image:url(${P('Freddy Krueger')})"></span><b>Freddy Krueger</b><span class="adw-rol">🎃 Roleta</span></div>
+        <div class="adw-f"><span class="adw-pic" style="background-image:url(${P('Jason Voorhees')})"></span><b>Jason</b><span class="adh-price"><span class="coin"></span>250</span></div></div></div>
+      <div class="adw-sec adw-as"><div class="adw-h">Novas arenas</div><div class="adw-row">
+        <div class="adw-a"><span class="adw-apic" style="background-image:url(${S('abobora')})"></span><b>Cemitério das Abóboras</b><span class="adw-rol">🎃 Roleta</span></div>
+        <div class="adw-a"><span class="adw-apic" style="background-image:url(${S('caldeira')})"></span><b>Porão da Caldeira</b><span class="adw-rol">🎃 Roleta</span></div>
+        <div class="adw-a"><span class="adw-apic" style="background-image:url(${S('necroterio')})"></span><b>Necrotério Gaveta 13</b><span class="adh-free">Grátis</span></div></div></div>
+      <div class="adh-foot">Menu Eventos · gire já</div></div></div>`;},
+    alt:'Evento de Halloween: Roleta de Halloween com o Freddy Krueger. Art the Clown e Jason por 250 moedas na Kripta. Arenas novas: Cemitério das Abóboras e Porão da Caldeira na roleta, e Necrotério Gaveta 13 grátis.',
+    bn:{img:'img/luta/abobora.jpg',t:'🎃 Roleta de Halloween',s:'Freddy, Art, Jason e 3 arenas',c:'Girar'}}].filter(a=>!a.ev||evOn());
   const AD=$('#adScreen');let adCur=null,adIdx=0;
   function showAd(i){if(typeof i!=='number')i=0;const a=ADS[i];if(!a)return false;adIdx=i;adCur=a;const box=$('.ad-box');const old=box.querySelector('.ad-html');if(old)old.remove();
     box.classList.toggle('is-html',!!a.html);
@@ -15709,5 +15707,5 @@ document.addEventListener('pointerdown',()=>{if(soundOn){try{window.speechSynthe
 $$('.btn').forEach(b=>b.addEventListener('pointerenter',()=>{if(matchMedia('(hover:hover)').matches)SFX.tick()}));
 })();
 </script>
-<script>if('serviceWorker' in navigator){addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').then(r=>{const go=()=>{try{(r.active||r.waiting||r.installing).postMessage('warm')}catch(e){}};if(r.active)go();else navigator.serviceWorker.ready.then(go)}).catch(()=>{})})}</script>
+<script>if('serviceWorker' in navigator){const had=!!navigator.serviceWorker.controller;let rl=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(had&&!rl){rl=true;location.reload()}});addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').then(r=>{const go=()=>{try{(r.active||r.waiting||r.installing).postMessage('warm')}catch(e){}};if(r.active)go();else navigator.serviceWorker.ready.then(go)}).catch(()=>{})})}</script>
 </body></html>
