@@ -3289,6 +3289,174 @@ html.land #fight .f-banner.endb.wvb.wvr{left:46%;right:0}
 #fight.br-black .f-fig.fin-piece:not(.br-lit){filter:brightness(.2)!important}
 
 .br-frost{position:absolute;inset:0;z-index:5;pointer-events:none;border-radius:4px}
+/* ====== MENU PRINCIPAL v2: aço, ouro e sangue sob a lua ====== */
+#startMenu{--mk-blood:#b3000f;--mk-blood2:#5a0008;--mk-blood3:#2a0004;--mk-gold:#e4b55a;--mk-gold2:#8a6526;--mk-bone:#f2e7d3;--mk-ink:#070405;--mk-mute:#bfae92}
+/* fundo: a lua continua; escurece embaixo e na lateral do menu */
+#startMenu::after{content:"";position:absolute;inset:0;height:auto;pointer-events:none;z-index:1;
+  background:radial-gradient(120% 70% at 50% 108%,rgba(70,0,6,.92),rgba(30,0,3,.6) 45%,transparent 70%),linear-gradient(180deg,rgba(0,0,0,.35),transparent 22%,transparent 38%,rgba(4,0,1,.78) 62%,rgba(4,0,1,.94))}
+#startMenu.sub::after{height:auto}
+#startMenu .sm-rm{display:none}
+/* ---------- efeitos de ambiente: sangue escorrendo, brasas e névoa ---------- */
+.mk-fx{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.mk-drips{position:absolute;left:0;right:0;top:0;height:30vh}
+.mk-drips::before{content:"";position:absolute;left:0;right:0;top:0;height:7px;background:linear-gradient(180deg,#3a0005,var(--mk-blood) 70%,transparent);filter:drop-shadow(0 2px 2px rgba(0,0,0,.6))}
+.mk-drip{position:absolute;top:0;width:var(--w,7px);height:var(--h,60px);border-radius:0 0 50% 50%/0 0 22% 22%;background:linear-gradient(90deg,#4a0006,var(--mk-blood) 40%,#ff3a48 55%,#7a0008);transform-origin:top;transform:scaleY(0);animation:mkDrip var(--t,7s) cubic-bezier(.55,0,.25,1) var(--d,0s) infinite;filter:drop-shadow(0 2px 2px rgba(0,0,0,.5))}
+.mk-drip::after{content:"";position:absolute;left:50%;bottom:-6px;width:calc(var(--w,7px) * 1.6);height:calc(var(--w,7px) * 2);margin-left:calc(var(--w,7px) * -.8);border-radius:50% 50% 50% 50%/40% 40% 60% 60%;background:radial-gradient(circle at 40% 35%,#ff5a66,var(--mk-blood) 55%,#4a0006);animation:mkDrop var(--t,7s) cubic-bezier(.55,0,1,1) var(--d,0s) infinite}
+@keyframes mkDrip{0%{transform:scaleY(0)}55%{transform:scaleY(1)}100%{transform:scaleY(1.04)}}
+@keyframes mkDrop{0%,52%{transform:translateY(0) scale(.2);opacity:0}58%{transform:translateY(0) scale(1);opacity:1}100%{transform:translateY(80vh) scale(.9,1.2);opacity:.9}}
+.mk-ember{position:absolute;bottom:-10px;left:var(--x);width:var(--s,4px);height:var(--s,4px);border-radius:50%;background:#ffb24a;box-shadow:0 0 8px 2px rgba(255,90,20,.8);opacity:0;animation:mkEmber var(--t,9s) linear var(--d,0s) infinite}
+@keyframes mkEmber{0%{transform:translate(0,0);opacity:0}10%{opacity:.95}70%{opacity:.7}100%{transform:translate(var(--dx,30px),-75vh);opacity:0}}
+.mk-fog{position:absolute;left:-20%;right:-20%;bottom:-6%;height:34%;background:radial-gradient(50% 60% at 30% 70%,rgba(140,0,12,.35),transparent 70%),radial-gradient(45% 55% at 75% 80%,rgba(120,0,10,.3),transparent 70%);filter:blur(10px);animation:mkFog 16s ease-in-out infinite alternate}
+@keyframes mkFog{from{transform:translateX(-4%)}to{transform:translateX(4%)}}
+/* ---------- logo ---------- */
+.mk-hero{position:absolute;z-index:2;left:50%;top:calc(env(safe-area-inset-top,0px) + 30.5vh);transform:translate(-50%,-50%);width:min(88vw,520px);text-align:center;pointer-events:none;animation:mkHero 1s cubic-bezier(.2,.9,.25,1) both}
+.mk-logo{width:100%;height:auto;display:block;filter:drop-shadow(0 4px 0 #000) drop-shadow(0 0 18px rgba(0,0,0,.95)) drop-shadow(0 0 26px rgba(179,0,15,.55));animation:mkGlow 3.6s ease-in-out infinite}
+.mk-tag{display:inline-flex;align-items:center;gap:10px;margin-top:2px;font-family:var(--f-ui);font-size:clamp(14px,2.3vh,20px);letter-spacing:.42em;text-transform:uppercase;color:var(--mk-bone);text-shadow:0 2px 0 #000,0 0 10px #000;padding-left:.42em}
+.mk-tag b{color:var(--mk-gold);font-weight:700;letter-spacing:.2em}
+.mk-tag i{width:6px;height:6px;transform:rotate(45deg);background:var(--mk-blood);box-shadow:0 0 8px var(--mk-blood)}
+@keyframes mkHero{from{opacity:0;transform:translate(-50%,-80%) scale(1.15);filter:blur(6px)}to{opacity:1;transform:translate(-50%,-50%) scale(1);filter:none}}
+@keyframes mkGlow{0%,100%{filter:drop-shadow(0 4px 0 #000) drop-shadow(0 0 18px rgba(0,0,0,.95)) drop-shadow(0 0 22px rgba(179,0,15,.4))}50%{filter:drop-shadow(0 4px 0 #000) drop-shadow(0 0 18px rgba(0,0,0,.95)) drop-shadow(0 0 34px rgba(220,20,30,.8))}}
+#startMenu.sub .mk-hero{opacity:.0;transform:translate(-50%,-70%) scale(.9);transition:opacity .35s,transform .35s;animation:none}
+/* ---------- coluna do menu ---------- */
+#startMenu .sm-inner.mk2{position:absolute;left:50%;right:auto;top:auto;bottom:calc(env(safe-area-inset-bottom,0px) + 34px);transform:translateX(-50%);width:min(94vw,470px);max-height:calc(100vh - 44vh);display:flex;flex-direction:column;gap:0;padding:0;z-index:3;overflow:visible}
+#startMenu.sub .sm-inner.mk2{max-height:calc(100vh - 80px)}
+#startMenu .mk2 .sm-ad{order:9;margin-top:12px}
+.mk-main,.mk-sub{display:flex;flex-direction:column;gap:7px;margin:0}
+.mk-main[hidden],.mk-sub[hidden]{display:none}
+.mk-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+/* ---------- botão: placa de aço com fio de ouro; o sangue enche ao passar ---------- */
+.mkb{--cut:14px;position:relative;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px;width:100%;min-height:46px;padding:6px 14px 6px 8px;border:0;cursor:pointer;text-align:left;color:var(--mk-bone);font:inherit;isolation:isolate;
+  clip-path:polygon(var(--cut) 0,100% 0,100% calc(100% - var(--cut)),calc(100% - var(--cut)) 100%,0 100%,0 var(--cut));
+  background:linear-gradient(180deg,rgba(255,255,255,.07),transparent 40%),linear-gradient(100deg,rgba(26,10,8,.94),rgba(12,4,4,.9) 60%,rgba(40,6,8,.9));
+  box-shadow:inset 0 0 0 1px rgba(228,181,90,.38),inset 0 1px 0 rgba(255,230,180,.18);transition:transform .22s cubic-bezier(.2,.9,.3,1.2),color .2s;-webkit-tap-highlight-color:transparent}
+.mkb::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,var(--mk-blood3),var(--mk-blood) 55%,#e0202e 80%,var(--mk-blood));transform:scaleX(0);transform-origin:left;transition:transform .32s cubic-bezier(.6,0,.2,1)}
+.mkb::after{content:"";position:absolute;left:var(--cut);right:0;bottom:0;height:2px;z-index:-1;background:linear-gradient(90deg,var(--mk-gold),transparent);opacity:.55;transition:opacity .2s}
+.mkb:hover,.mkb:focus-visible{outline:none;transform:translateX(4px);color:#fff}
+.mkb:hover::before,.mkb:focus-visible::before{transform:scaleX(1)}
+.mkb:active{transform:translateX(2px) scale(.985)}
+.mkb-ic{width:34px;height:34px;display:grid;place-items:center;color:var(--mk-gold);position:relative}
+.mkb-ic::before{content:"";position:absolute;inset:3px;transform:rotate(45deg);border:1.5px solid rgba(228,181,90,.75);background:radial-gradient(circle,rgba(179,0,15,.45),rgba(0,0,0,.6));box-shadow:0 0 10px rgba(0,0,0,.8);transition:background .25s,box-shadow .25s}
+.mkb-ic svg{position:relative;width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 0 #000)}
+.mkb:hover .mkb-ic,.mkb:focus-visible .mkb-ic{color:#fff}
+.mkb:hover .mkb-ic::before,.mkb:focus-visible .mkb-ic::before{background:radial-gradient(circle,#ff4050,#5a0008);box-shadow:0 0 14px rgba(255,40,50,.9)}
+.mkb-t{min-width:0;display:grid;line-height:1}
+.smi-t{font-family:var(--f-ui);font-weight:600;font-size:clamp(20px,3.1vh,29px);letter-spacing:.06em;text-transform:uppercase;text-shadow:0 2px 0 #000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-top:3px}
+.mkb-t small{font-family:var(--f-body);font-size:12.5px;letter-spacing:.02em;color:var(--mk-mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px;transition:color .2s}
+.mkb:hover .mkb-t small,.mkb:focus-visible .mkb-t small{color:#ffe3d0}
+.mkb-go{width:10px;height:10px;border-top:2px solid var(--mk-gold);border-right:2px solid var(--mk-gold);transform:rotate(45deg);opacity:.75;transition:transform .2s,opacity .2s,border-color .2s}
+.mkb:hover .mkb-go,.mkb:focus-visible .mkb-go{transform:translateX(3px) rotate(45deg);opacity:1;border-color:#fff}
+/* gota que escorre da placa quando ela está acesa */
+.mkb .mk-bead{position:absolute;bottom:-1px;width:5px;height:0;border-radius:0 0 4px 4px;background:linear-gradient(#e0202e,#7a0008);pointer-events:none}
+.mkb:hover .mk-bead,.mkb:focus-visible .mk-bead{animation:mkBead 1.4s cubic-bezier(.5,0,.3,1) forwards}
+@keyframes mkBead{0%{height:0}60%{height:9px}100%{height:12px}}
+/* hierarquia: os dois grandes, a grade, o sair */
+.mk-big{min-height:62px;--cut:18px}
+.mk-big .smi-t{font-size:clamp(28px,4.4vh,40px);letter-spacing:.12em}
+.mk-big .mkb-ic{width:44px;height:44px}.mk-big .mkb-ic svg{width:28px;height:28px}
+.mk-grid .mkb{min-height:50px;padding:5px 10px 5px 6px;gap:7px;--cut:11px}
+.mk-grid .smi-t{font-size:clamp(15px,2.4vh,22px);letter-spacing:.03em}
+.mk-grid .mkb-t small{font-size:11px}
+.mk-grid .mkb-ic{width:28px;height:28px}.mk-grid .mkb-ic svg{width:17px;height:17px}
+.mk-grid .mkb-go{display:none}
+.mk-quit,.mk-back{justify-self:center;align-self:center;width:auto;min-height:0;grid-template-columns:auto;padding:4px 22px;margin-top:2px;background:none;box-shadow:none;clip-path:none;color:var(--mk-mute)}
+.mk-quit::after,.mk-back::after{left:22px;right:22px;opacity:.35;background:linear-gradient(90deg,transparent,var(--mk-gold),transparent)}
+.mk-quit::before,.mk-back::before{background:radial-gradient(60% 100% at 50% 50%,rgba(179,0,15,.7),transparent 75%)}
+.mk-quit .smi-t,.mk-back .smi-t{font-size:clamp(17px,2.5vh,22px);letter-spacing:.3em;font-weight:500}
+.mk-quit:hover,.mk-back:hover,.mk-quit:focus-visible,.mk-back:focus-visible{transform:none;color:#fff}
+.mk-back::before{content:""}
+.mk-back .mkb-t::before{content:"‹";position:absolute;left:4px;top:50%;transform:translateY(-52%);font-family:var(--f-ui);font-size:26px;color:var(--mk-gold)}
+/* eventos: abóbora brilhando e o tempo que falta */
+.mkb.sm-ev .mkb-ic{color:#ffa63a}.mkb.sm-ev .mkb-ic::before{border-color:#ff8a1a;background:radial-gradient(circle,rgba(255,110,0,.55),rgba(40,8,0,.7));animation:mkPulse 2.2s ease-in-out infinite}
+@keyframes mkPulse{0%,100%{box-shadow:0 0 6px rgba(255,120,0,.4)}50%{box-shadow:0 0 16px rgba(255,140,0,.95)}}
+.mkb.sm-ev .sm-evtm{position:absolute;top:3px;right:6px;margin:0;font-family:var(--f-ui);font-size:12px;letter-spacing:.05em;color:#ffb347;text-shadow:0 1px 0 #000}
+.mkb.sm-ev .sm-evtag{display:none}
+.mkb.sm-lock{opacity:.62}.mkb .sm-lk{font-size:.75em;margin-left:6px}
+.mkb .sm-badge{font-size:.55em;vertical-align:.3em}
+/* ---------- cabeçalho do submenu ---------- */
+.mk-subh{position:relative;text-align:center;margin:0 0 6px;padding-bottom:12px}
+.mk-crumb{display:block;font-family:var(--f-ui);font-size:13px;letter-spacing:.35em;text-transform:uppercase;color:var(--mk-gold);opacity:.85;text-shadow:0 1px 0 #000}
+.mk-subh h3{margin:0;font-family:var(--f-display);font-weight:900;font-size:clamp(40px,7vh,62px);line-height:.95;color:#f6ead6;letter-spacing:.02em;text-shadow:0 3px 0 #000,0 0 22px rgba(179,0,15,.85),0 0 2px #000}
+.mk-subline{position:absolute;left:12%;right:12%;bottom:0;height:5px;border-radius:3px;background:linear-gradient(90deg,transparent,var(--mk-blood) 18%,#e0202e 50%,var(--mk-blood) 82%,transparent);box-shadow:0 0 12px rgba(220,20,30,.7)}
+.mk-subline::before,.mk-subline::after{content:"";position:absolute;top:3px;width:4px;border-radius:0 0 3px 3px;background:linear-gradient(#e0202e,#7a0008);animation:mkSubDrip 2.6s cubic-bezier(.5,0,.3,1) .5s both}
+.mk-subline::before{left:34%;height:14px}.mk-subline::after{left:61%;height:22px;animation-delay:.8s}
+@keyframes mkSubDrip{from{transform:scaleY(0);transform-origin:top}to{transform:scaleY(1);transform-origin:top}}
+.mk-sub .mkb{min-height:54px}
+/* ---------- animações de entrada e saída ---------- */
+.mk-main>.mkb,.mk-grid>.mkb,.mk-sub>.mkb,.mk-sub>.mk-subh{animation:mkIn .5s cubic-bezier(.2,.9,.25,1.05) both}
+#startMenu[data-dir="back"] .mk-main>.mkb,#startMenu[data-dir="back"] .mk-grid>.mkb,#startMenu[data-dir="back"] .mk-sub>.mkb{animation-name:mkInBack}
+.mk-sub>.mk-subh{animation-name:mkHead;animation-duration:.55s}
+.mk-main>.mkb:nth-child(1){animation-delay:.05s}.mk-main>.mkb:nth-child(2){animation-delay:.11s}
+.mk-grid>.mkb:nth-child(1){animation-delay:.17s}.mk-grid>.mkb:nth-child(2){animation-delay:.2s}.mk-grid>.mkb:nth-child(3){animation-delay:.23s}.mk-grid>.mkb:nth-child(4){animation-delay:.26s}.mk-grid>.mkb:nth-child(5){animation-delay:.29s}.mk-grid>.mkb:nth-child(6){animation-delay:.32s}
+.mk-main>.mk-quit{animation-delay:.38s}
+.mk-sub>.mkb:nth-of-type(1){animation-delay:.12s}.mk-sub>.mkb:nth-of-type(2){animation-delay:.18s}.mk-sub>.mkb:nth-of-type(3){animation-delay:.24s}.mk-sub>.mkb:nth-of-type(4){animation-delay:.3s}.mk-sub>.mkb:nth-of-type(5){animation-delay:.36s}.mk-sub>.mkb:nth-of-type(6){animation-delay:.42s}.mk-sub>.mkb:nth-of-type(7){animation-delay:.48s}
+@keyframes mkIn{from{opacity:0;transform:translateX(60px) skewX(-8deg);filter:brightness(2.2) saturate(0)}60%{opacity:1;filter:brightness(1.4)}to{opacity:1;transform:none;filter:none}}
+@keyframes mkInBack{from{opacity:0;transform:translateX(-60px) skewX(8deg);filter:brightness(2.2) saturate(0)}60%{opacity:1}to{opacity:1;transform:none;filter:none}}
+@keyframes mkHead{from{opacity:0;transform:translateY(-26px) scale(1.25);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
+/* saída: as placas vão embora uma atrás da outra */
+.mk-leave>.mkb,.mk-leave .mk-grid>.mkb,.mk-leave>.mk-subh{animation:mkOut .3s cubic-bezier(.5,0,.8,.4) both!important}
+.mk-leave-r>.mkb,.mk-leave-r .mk-grid>.mkb,.mk-leave-r>.mk-subh{animation:mkOutR .3s cubic-bezier(.5,0,.8,.4) both!important}
+.mk-leave>*:nth-child(2),.mk-leave-r>*:nth-child(2){animation-delay:.03s!important}.mk-leave>*:nth-child(3),.mk-leave-r>*:nth-child(3){animation-delay:.06s!important}.mk-leave>*:nth-child(4),.mk-leave-r>*:nth-child(4){animation-delay:.09s!important}.mk-leave>*:nth-child(n+5),.mk-leave-r>*:nth-child(n+5){animation-delay:.12s!important}
+@keyframes mkOut{to{opacity:0;transform:translateX(-70px) skewX(10deg)}}
+@keyframes mkOutR{to{opacity:0;transform:translateX(70px) skewX(-10deg)}}
+/* a placa clicada: sangue enche, treme e acende */
+.mkb.mk-hit{animation:mkHit .32s ease-out both!important;color:#fff}
+.mkb.mk-hit::before{transform:scaleX(1);background:linear-gradient(100deg,#7a0008,#ff2a36)}
+@keyframes mkHit{0%{transform:translateX(4px)}30%{transform:translateX(-5px) scale(1.03)}60%{transform:translateX(3px)}100%{transform:none;filter:brightness(1.4)}}
+/* ---------- corte de lâmina entre telas ---------- */
+.mk-slash{position:absolute;inset:0;z-index:4;pointer-events:none;overflow:hidden}
+.mk-slash i{position:absolute;left:-30%;top:50%;width:160%;height:14px;margin-top:-7px;transform:rotate(-14deg) scaleX(0);transform-origin:left;background:linear-gradient(90deg,transparent,#fff 12%,#ffd0d4 30%,#ff2030 60%,transparent);box-shadow:0 0 18px 4px rgba(255,40,50,.85);opacity:0}
+.mk-slash i:nth-child(2){top:46%;height:6px;transform:rotate(-14deg) scaleX(0);background:linear-gradient(90deg,transparent,#ff6070 30%,#b3000f 70%,transparent)}
+.mk-slash.go i{animation:mkSlash .42s cubic-bezier(.7,0,.2,1) both}
+.mk-slash.go i:nth-child(2){animation-delay:.05s}
+.mk-slash.back i{transform-origin:right;animation:mkSlashB .42s cubic-bezier(.7,0,.2,1) both}
+@keyframes mkSlash{0%{opacity:1;transform:rotate(-14deg) scaleX(0)}55%{opacity:1;transform:rotate(-14deg) scaleX(1)}100%{opacity:0;transform:rotate(-14deg) scaleX(1) translateY(8px)}}
+@keyframes mkSlashB{0%{opacity:1;transform:rotate(14deg) scaleX(0)}55%{opacity:1;transform:rotate(14deg) scaleX(1)}100%{opacity:0;transform:rotate(14deg) scaleX(1)}}
+.mk-splat{position:absolute;z-index:4;width:var(--s);height:var(--s);border-radius:50%;background:radial-gradient(circle at 40% 35%,#ff4a56,#b3000f 55%,#4a0006);pointer-events:none;animation:mkSplat .7s cubic-bezier(.2,.8,.4,1) both}
+@keyframes mkSplat{from{transform:translate(-50%,-50%) scale(0);opacity:1}40%{opacity:1}to{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(1);opacity:0}}
+/* ---------- painéis (opções, cheats, moedas) no mesmo estilo ---------- */
+#startMenu .mk2 .sm-panel{clip-path:polygon(16px 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%,0 16px);background:linear-gradient(180deg,rgba(255,255,255,.05),transparent 30%),linear-gradient(160deg,rgba(24,8,8,.95),rgba(8,3,3,.95));border:0;box-shadow:inset 0 0 0 1px rgba(228,181,90,.35);animation:mkHead .45s cubic-bezier(.2,.9,.25,1) both;max-height:calc(100vh - 110px)}
+#startMenu .mk2 .sm-panel h3{font-family:var(--f-display);font-weight:900;font-size:clamp(32px,5vh,44px);letter-spacing:.02em;text-transform:none;color:#f6ead6;text-shadow:0 3px 0 #000,0 0 18px rgba(179,0,15,.8)}
+#startMenu .mk2 .sm-panel .sm-item.small{font-family:var(--f-ui);color:var(--mk-mute);letter-spacing:.3em}
+#startMenu .mk2 .sm-panel .sm-item.small:hover,#startMenu .mk2 .sm-panel .sm-item.small:focus-visible{color:#fff}
+/* ---------- deitado: coluna à direita, logo em cima dela ---------- */
+  html.land .mk-hero{left:auto;right:var(--gx);top:calc(env(safe-area-inset-top,0px) + 7vh);transform:none;width:var(--cw);animation-name:mkHeroL}
+  html.land .mk-logo{width:92%;margin:0 auto}
+  html.land #startMenu.sub .mk-hero{transform:translateY(-20px) scale(.9)}
+  html.land #startMenu .sm-inner.mk2{left:auto;right:var(--gx);top:auto;bottom:calc(env(safe-area-inset-bottom,0px) + 30px);transform:none;width:var(--cw);max-height:calc(100vh - 22vh - 40px);overflow-y:auto;scrollbar-width:none}
+  html.land #startMenu.sub .sm-inner.mk2{top:50%;bottom:auto;transform:translateY(-50%);max-height:calc(100vh - 40px)}
+  html.land #startMenu::after,html.land #startMenu.sub::after{top:0;bottom:0;left:auto;right:0;width:62%;height:auto;background:linear-gradient(90deg,transparent,rgba(6,0,1,.6) 28%,rgba(6,0,1,.9) 60%,rgba(18,0,2,.94))}
+  html.land .mk-drips{height:22vh}
+@keyframes mkHeroL{from{opacity:0;transform:translateY(-30px) scale(1.12);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+@media (max-height:560px){
+  html.land .mk-hero{top:calc(env(safe-area-inset-top,0px) + 3vh);width:calc(var(--cw) * .82)}
+  html.land .mk-tag{font-size:12px}
+  html.land #startMenu .sm-inner.mk2{max-height:calc(100vh - 25vh - 30px);bottom:calc(env(safe-area-inset-bottom,0px) + 26px)}
+  html.land #startMenu .sm-credit{bottom:calc(env(safe-area-inset-bottom,0px) + 6px);font-size:11px}
+  html.land .mkb{min-height:38px;padding-block:3px}
+  html.land .mk-big{min-height:44px}
+  html.land .mk-big .smi-t{font-size:clamp(20px,5.6vh,30px)}
+  html.land .mk-big .mkb-ic{width:32px;height:32px}html.land .mk-big .mkb-ic svg{width:20px;height:20px}
+  html.land .mk-grid .mkb{min-height:36px}html.land .mk-grid .mkb-t small{display:none}
+  html.land .mk-sub .mkb{min-height:40px}
+  html.land .mk-subh h3{font-size:clamp(28px,8vh,44px)}
+  html.land .mk2 .sm-ad{height:48px;margin-top:6px}
+  html.land .mk-main,html.land .mk-sub,html.land .mk-grid{gap:5px}
+}
+/* telas em pé baixinhas */
+@media (max-height:720px){
+  html:not(.land) .mk-hero{top:calc(env(safe-area-inset-top,0px) + 26vh);width:min(80vw,440px)}
+  html:not(.land) #startMenu .sm-inner.mk2{max-height:calc(100vh - 36vh)}
+  html:not(.land) .mkb{min-height:40px}html:not(.land) .mk-big{min-height:50px}
+  html:not(.land) .mk-big .smi-t{font-size:clamp(24px,4vh,34px)}
+  html:not(.land) .mk-grid .mkb{min-height:42px}
+  html:not(.land) .mk2 .sm-ad{height:58px;margin-top:8px}
+}
+@media (prefers-reduced-motion:reduce){
+  .mk-drip,.mk-drip::after,.mk-ember,.mk-fog,.mk-logo{animation:none!important}
+  .mk-main>.mkb,.mk-grid>.mkb,.mk-sub>.mkb,.mk-sub>.mk-subh,.mk-hero{animation-duration:.01s!important}
+}
+body.tvmode .mk-fx{display:none}
+#startMenu .mk2 .sm-panel{background:linear-gradient(180deg,rgba(255,255,255,.05),transparent 30%),linear-gradient(160deg,rgba(24,8,8,.96),rgba(8,3,3,.96))!important}
 </style>
 
 <div class="wrap">
@@ -3665,68 +3833,77 @@ html.land #fight .f-banner.endb.wvb.wvr{left:46%;right:0}
 <div id="startMenu" role="dialog" aria-label="Menu inicial">
   <img class="sm-bgblur" id="smBlur" src="img/menu-lua.jpg" data-v="img/menu-lua.jpg" alt="" aria-hidden="true">
   <img class="sm-poster" id="smPoster" src="img/menu-lua.jpg" data-v="img/menu-lua.jpg" alt="Ponte do Mortal Kombat sob a lua cheia">
-  <div class="sm-rm"><b>RM</b> · Não oficial</div>
   <button type="button" class="sm-skull" id="smSkull" aria-label="Lua cheia" tabindex="-1"></button>
-  <div class="sm-inner">
+  <div class="mk-hero" aria-hidden="true"><img class="mk-logo" src="img/logo-t.png" alt=""><div class="mk-tag"><b>RM</b><i></i>Não oficial</div></div>
+  <div class="mk-fx" aria-hidden="true"><div class="mk-drips"></div><div class="mk-embers"></div><div class="mk-fog"></div></div>
+  <div class="mk-slash" aria-hidden="true"><i></i><i></i></div>
+  <div class="sm-inner mk2">
     <div class="sm-ad" id="smAd" role="region" aria-label="Novidades" aria-roledescription="carrossel"></div>
-    <nav class="sm-menu sm-hub" id="smMain">
-      <button type="button" class="sm-item" data-act="sub" data-sub="jogar">Jogar</button>
-      <button type="button" class="sm-item" data-act="historia">Modo História</button>
-      <button type="button" class="sm-item" data-act="sub" data-sub="treino">Treinamento</button>
-      <button type="button" class="sm-item" data-act="fora" id="smFora">Fora do Ringue</button>
-      <button type="button" class="sm-item" data-act="sub" data-sub="criar">Criar Kombatente</button>
-      <button type="button" class="sm-item" data-act="kripta">Kripta</button>
-      <button type="button" class="sm-item sm-ev" data-act="eventos">Eventos <span class="sm-evtag" aria-hidden="true">🎃</span></button>
-      <button type="button" class="sm-item" data-act="sub" data-sub="extras">Extras</button>
-      <button type="button" class="sm-item sm-wide" data-act="opts">Opções</button>
-      <button type="button" class="sm-item sm-exit" data-act="exit">Sair</button>
+    <nav class="sm-menu mk-main" id="smMain" aria-label="Menu principal">
+      <button type="button" class="mkb mk-big" data-act="sub" data-sub="lutar" data-ic="espadas"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Lutar</span><small>Torres, Versus, Torneio e Online</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb mk-big" data-act="sub" data-sub="aventura" data-ic="pergaminho"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Aventura</span><small>Modo História e Fora do Ringue</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <div class="mk-grid">
+      <button type="button" class="mkb" data-act="sub" data-sub="treino" data-ic="punho"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Treinamento</span><small>Treinar e aprender as regras</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="sub" data-sub="kombatentes" data-ic="bigorna"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Kombatentes</span><small>Forjar, fichas e evolução</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="kripta" data-ic="cranio"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Kripta</span><small>Lutadores, arenas e skins</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb sm-ev" data-act="eventos" data-ic="abobora"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Eventos</span><small>Roleta de Halloween</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="sub" data-sub="extras" data-ic="estrela"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Extras</span><small>Finalizações, Hall e Lore</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="opts" data-ic="engrenagem"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Opções</span><small>Som, tela e controles</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      </div>
+      <button type="button" class="mkb mk-quit" data-act="exit"><span class="mkb-t"><span class="smi-t">Sair</span></span></button>
     </nav>
-    <nav class="sm-menu sm-subm" id="smSub-jogar" data-bg="img/menu/jogar.jpg" hidden>
-      <h3 class="sm-subh">Jogar</h3>
-      <button type="button" class="sm-item" data-act="sub" data-sub="torres">Modo Torre</button>
-      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="sobrev">Sobrevivência</button>
-      <button type="button" class="sm-item" data-act="sub" data-sub="torneio">Torneio</button>
-      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="versus">Versus</button>
-      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="2p">2 Jogadores</button>
-      <button type="button" class="sm-item" data-act="online">Online</button>
-      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
+    <nav class="sm-menu mk-sub" id="smSub-lutar" hidden aria-label="Lutar">
+      <div class="mk-subh"><span class="mk-crumb">Menu</span><h3>Lutar</h3><i class="mk-subline" aria-hidden="true"></i></div>
+      <button type="button" class="mkb" data-act="sub" data-sub="torres" data-ic="torre"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Modo Torre</span><small>Três torres, de 5 a 8 lutas</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="elenco" data-mode="versus" data-ic="espadas"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Versus</span><small>Você contra a máquina</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="elenco" data-mode="2p" data-ic="duelo"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">2 Jogadores</span><small>Dois no mesmo aparelho</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="sub" data-sub="torneio" data-ic="trofeu"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Torneio</span><small>Quatro lutadores de cada lado</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="elenco" data-mode="sobrev" data-ic="caveira2"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Sobrevivência</span><small>Lute até cair</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="online" data-ic="raio"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Online</span><small>Contra um amigo pela internet</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb mk-back sm-exit" data-act="back"><span class="mkb-t"><span class="smi-t">Voltar</span></span></button>
     </nav>
-    <nav class="sm-menu sm-subm" id="smSub-torres" data-bg="img/menu/jogar.jpg" hidden>
-      <h3 class="sm-subh">Escolha a torre</h3>
-      <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="3">Torre do Iniciante<small>5 lutas</small></button>
-      <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="4">Torre do Guerreiro<small>6 lutas</small></button>
-      <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="6">Torre do Campeão<small>8 lutas</small></button>
-      <button type="button" class="sm-item sm-exit" data-act="sub" data-sub="jogar">Voltar</button>
+    <nav class="sm-menu mk-sub" id="smSub-torres" hidden aria-label="Escolha a torre">
+      <div class="mk-subh"><span class="mk-crumb">Menu · Lutar</span><h3>Escolha a torre</h3><i class="mk-subline" aria-hidden="true"></i></div>
+      <button type="button" class="mkb" data-act="go" data-tab="elenco" data-mode="torre" data-tw="3" data-ic="torre"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Torre do Iniciante</span><small>5 lutas</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="elenco" data-mode="torre" data-tw="4" data-ic="torre"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Torre do Guerreiro</span><small>6 lutas</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="elenco" data-mode="torre" data-tw="6" data-ic="torre"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Torre do Campeão</span><small>8 lutas</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb mk-back sm-exit" data-act="sub" data-sub="lutar"><span class="mkb-t"><span class="smi-t">Voltar</span></span></button>
     </nav>
-    <nav class="sm-menu sm-subm" id="smSub-torneio" data-bg="img/menu/jogar.jpg" hidden>
-      <h3 class="sm-subh">Torneio</h3>
-      <button type="button" class="sm-item sm-tw" data-act="torneio" data-two="0">Contra a máquina<small>4 lutadores de cada lado</small></button>
-      <button type="button" class="sm-item sm-tw" data-act="torneio" data-two="1">2 Jogadores<small>Cada um escolhe 4 lutadores</small></button>
-      <button type="button" class="sm-item sm-exit" data-act="sub" data-sub="jogar">Voltar</button>
+    <nav class="sm-menu mk-sub" id="smSub-torneio" hidden aria-label="Torneio">
+      <div class="mk-subh"><span class="mk-crumb">Menu · Lutar</span><h3>Torneio</h3><i class="mk-subline" aria-hidden="true"></i></div>
+      <button type="button" class="mkb" data-act="torneio" data-two="0" data-ic="trofeu"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Contra a máquina</span><small>Quatro lutadores de cada lado</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="torneio" data-two="1" data-ic="duelo"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">2 Jogadores</span><small>Cada um escolhe quatro lutadores</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb mk-back sm-exit" data-act="sub" data-sub="lutar"><span class="mkb-t"><span class="smi-t">Voltar</span></span></button>
     </nav>
-    <nav class="sm-menu sm-subm" id="smSub-treino" data-bg="img/menu/treino.jpg" hidden>
-      <h3 class="sm-subh">Treinamento</h3>
-      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="treino">Treinar</button>
-      <button type="button" class="sm-item" data-act="go" data-tab="sistema">Sistema</button>
-      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
+    <nav class="sm-menu mk-sub" id="smSub-aventura" hidden aria-label="Aventura">
+      <div class="mk-subh"><span class="mk-crumb">Menu</span><h3>Aventura</h3><i class="mk-subline" aria-hidden="true"></i></div>
+      <button type="button" class="mkb" data-act="historia" data-ic="pergaminho"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Modo História</span><small>A campanha completa</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="fora" data-ic="mapa" id="smFora"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Fora do Ringue</span><small>Expedições dos seus lutadores</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb mk-back sm-exit" data-act="back"><span class="mkb-t"><span class="smi-t">Voltar</span></span></button>
     </nav>
-    <nav class="sm-menu sm-subm" id="smSub-criar" data-bg="img/menu/criar.jpg" hidden>
-      <h3 class="sm-subh">Criar Kombatente</h3>
-      <button type="button" class="sm-item" data-act="go" data-tab="forja">Forje seu Lutador</button>
-      <button type="button" class="sm-item" data-act="go" data-tab="fichas">Fichas</button>
-      <button type="button" class="sm-item sm-wide" data-act="go" data-tab="evolucao">Evolução</button>
-      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
+    <nav class="sm-menu mk-sub" id="smSub-treino" hidden aria-label="Treinamento">
+      <div class="mk-subh"><span class="mk-crumb">Menu</span><h3>Treinamento</h3><i class="mk-subline" aria-hidden="true"></i></div>
+      <button type="button" class="mkb" data-act="go" data-tab="elenco" data-mode="treino" data-ic="punho"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Treinar</span><small>Pratique sem pressão</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="sistema" data-ic="livro"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Como Jogar</span><small>Regras, dados e golpes</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb mk-back sm-exit" data-act="back"><span class="mkb-t"><span class="smi-t">Voltar</span></span></button>
     </nav>
-    <nav class="sm-menu sm-subm" id="smSub-extras" data-bg="img/menu/extras.jpg" hidden>
-      <h3 class="sm-subh">Extras</h3>
-      <button type="button" class="sm-item" data-act="go" data-tab="lore">Lore</button>
-      <button type="button" class="sm-item" data-act="go" data-tab="dialogos">Diálogos</button>
-      <button type="button" class="sm-item" data-act="moedas">Moedas</button>
-      <button type="button" class="sm-item" data-act="hall" id="smHall">Hall dos Campeões</button>
-      <button type="button" class="sm-item" data-act="finshow" id="smFin">Finalizações</button>
-      <button type="button" class="sm-item" data-act="finpick" id="smFinP">Ver por Personagem</button>
-      <button type="button" class="sm-item" data-act="credits">Créditos</button>
-      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
+    <nav class="sm-menu mk-sub" id="smSub-kombatentes" hidden aria-label="Kombatentes">
+      <div class="mk-subh"><span class="mk-crumb">Menu</span><h3>Kombatentes</h3><i class="mk-subline" aria-hidden="true"></i></div>
+      <button type="button" class="mkb" data-act="go" data-tab="forja" data-ic="bigorna"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Forjar Lutador</span><small>Crie um lutador do zero</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="fichas" data-ic="ficha"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Fichas</span><small>Todos os lutadores, golpe por golpe</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="evolucao" data-ic="chama"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Evolução</span><small>Níveis e habilidades</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="dialogos" data-ic="balao"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Diálogos</span><small>Conversas antes da luta</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb mk-back sm-exit" data-act="back"><span class="mkb-t"><span class="smi-t">Voltar</span></span></button>
+    </nav>
+    <nav class="sm-menu mk-sub" id="smSub-extras" hidden aria-label="Extras">
+      <div class="mk-subh"><span class="mk-crumb">Menu</span><h3>Extras</h3><i class="mk-subline" aria-hidden="true"></i></div>
+      <button type="button" class="mkb" data-act="finshow" data-ic="gota" id="smFin"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Finalizações</span><small>Todas, uma atrás da outra</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="finpick" data-ic="olho" id="smFinP"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Ver por Personagem</span><small>Escolha um lutador e assista</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="hall" data-ic="trofeu" id="smHall"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Hall dos Campeões</span><small>Quem já venceu o General Shao</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="go" data-tab="lore" data-ic="livro"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Lore</span><small>Reinos, eras e personagens</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="moedas" data-ic="moeda"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Moedas</span><small>Saldo e últimos ganhos</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb" data-act="credits" data-ic="estrela"><span class="mkb-ic" aria-hidden="true"></span><span class="mkb-t"><span class="smi-t">Créditos</span><small>Quem fez o jogo</small></span><span class="mkb-go" aria-hidden="true"></span></button>
+      <button type="button" class="mkb mk-back sm-exit" data-act="back"><span class="mkb-t"><span class="smi-t">Voltar</span></span></button>
     </nav>
     <div class="sm-panel" id="smOpts" hidden>
       <h3>Opções</h3>
@@ -6264,6 +6441,53 @@ const LITE=(()=>{let ac=null;const buf=new Map(),pend={},MAX=28,tags={};let fb=n
   function stop(tag){const set=tags[tag];if(set){set.forEach(s=>{try{s.stop()}catch(e){}});set.clear();}}
   return {on,play,stop};})();
 
+/* ====== MENU PRINCIPAL v2: ícones desenhados, sangue escorrendo, brasas e transições de lâmina ====== */
+const MK_IC={
+  espadas:'<path d="M8 8l18 18M8 8v6M8 8h6M40 8L22 26M40 8v6M40 8h-6"/><path d="M20 28l-6 6m-2-2l6 6M28 28l6 6m2-2l-6 6"/><path d="M11 37l-3 3M37 37l3 3"/>',
+  pergaminho:'<path d="M14 10h22a4 4 0 0 1 0 8H18"/><path d="M14 10a4 4 0 0 0-4 4v22a4 4 0 0 0 4 4h20a4 4 0 0 0 4-4V18"/><path d="M16 24h16M16 30h12"/>',
+  punho:'<path d="M14 22v-6a3 3 0 0 1 6 0v4m0-6a3 3 0 0 1 6 0v6m0-4a3 3 0 0 1 6 0v6m0-2a3 3 0 0 1 6 0v8c0 7-5 12-12 12h-2c-6 0-10-4-10-10v-6a3 3 0 0 1 6 0"/>',
+  bigorna:'<path d="M8 14h28c0 5-4 8-9 8v6h4v4H15v-4h4v-6c-6 0-11-3-11-8z"/><path d="M36 14h5l-5 5"/><path d="M13 40h22"/><path d="M24 4v5M18 6l2 4M30 6l-2 4"/>',
+  cranio:'<path d="M24 6c-9 0-15 6-15 14 0 5 2 8 5 10v6h20v-6c3-2 5-5 5-10 0-8-6-14-15-14z"/><circle cx="18" cy="21" r="3.5"/><circle cx="30" cy="21" r="3.5"/><path d="M24 26l-2 4h4z"/><path d="M19 36v5M24 36v5M29 36v5"/>',
+  abobora:'<path d="M24 12c-4-1-9 0-12 4-4 6-4 15 1 20 4 4 18 4 22 0 5-5 5-14 1-20-3-4-8-5-12-4z"/><path d="M24 12c-3 6-3 18 0 25M24 12c3 6 3 18 0 25"/><path d="M24 12c0-4 2-6 5-7"/><path d="M17 22l3 2-3 2M31 22l-3 2 3 2M18 30q6 4 12 0"/>',
+  estrela:'<path d="M24 5l5 12 13 1-10 8 3 13-11-7-11 7 3-13-10-8 13-1z"/>',
+  engrenagem:'<circle cx="24" cy="24" r="6"/><path d="M24 5v6M24 37v6M5 24h6M37 24h6M10.6 10.6l4.2 4.2M33.2 33.2l4.2 4.2M10.6 37.4l4.2-4.2M33.2 14.8l4.2-4.2"/><circle cx="24" cy="24" r="13"/>',
+  torre:'<path d="M14 42V18h20v24M12 18h24M14 18v-6h4v3h4v-3h4v3h4v-3h4v6"/><path d="M21 42v-8a3 3 0 0 1 6 0v8M20 25h2M26 25h2"/>',
+  duelo:'<circle cx="14" cy="12" r="4"/><circle cx="34" cy="12" r="4"/><path d="M14 16v12l-4 12M14 28l4 12M14 20l8 4M34 16v12l4 12M34 28l-4 12M34 20l-8 4"/>',
+  trofeu:'<path d="M15 8h18v8a9 9 0 0 1-18 0z"/><path d="M15 11H9a6 6 0 0 0 6 7M33 11h6a6 6 0 0 1-6 7"/><path d="M24 25v8M17 40h14l-2-7H19z"/>',
+  caveira2:'<path d="M24 8c-8 0-13 5-13 12 0 4 2 7 4 8v5h18v-5c2-1 4-4 4-8 0-7-5-12-13-12z"/><circle cx="19" cy="20" r="3"/><circle cx="29" cy="20" r="3"/><path d="M8 36l32 6M40 36L8 42"/>',
+  raio:'<path d="M27 4L11 27h11l-3 17 18-24H26z"/>',
+  mapa:'<path d="M6 12l11-4 14 4 11-4v28l-11 4-14-4-11 4z"/><path d="M17 8v28M31 12v28"/><path d="M21 22l4 4m0-4l-4 4"/>',
+  livro:'<path d="M24 12c-4-3-10-4-16-3v28c6-1 12 0 16 3 4-3 10-4 16-3V9c-6-1-12 0-16 3z"/><path d="M24 12v28"/>',
+  ficha:'<rect x="10" y="6" width="28" height="36" rx="2"/><circle cx="24" cy="18" r="5"/><path d="M16 32c2-4 5-6 8-6s6 2 8 6M16 37h16"/>',
+  chama:'<path d="M24 42c-8 0-12-5-12-11 0-7 6-10 6-17 4 3 6 6 6 9 2-2 3-5 3-8 6 5 9 10 9 16 0 6-4 11-12 11z"/><path d="M24 42c-3 0-5-2-5-5 0-4 5-6 5-9 3 3 5 5 5 9 0 3-2 5-5 5z"/>',
+  balao:'<path d="M8 10h32v20H22l-9 8v-8H8z"/><path d="M15 18h18M15 23h12"/>',
+  gota:'<path d="M24 5c6 9 12 16 12 23a12 12 0 0 1-24 0c0-7 6-14 12-23z"/><path d="M18 30a6 6 0 0 0 6 6"/>',
+  olho:'<path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24z"/><circle cx="24" cy="24" r="6"/><circle cx="24" cy="24" r="2"/>',
+  moeda:'<circle cx="24" cy="24" r="16"/><circle cx="24" cy="24" r="11"/><path d="M24 17v14M20 20h6a2.5 2.5 0 0 1 0 5h-4a2.5 2.5 0 0 0 0 5h6"/>'
+};
+function mkInit(){const M=document.getElementById('startMenu');if(!M||M.dataset.mk)return;M.dataset.mk='1';
+  /* ícones e gotas das placas */
+  M.querySelectorAll('.mkb[data-ic]').forEach(b=>{const ic=b.querySelector('.mkb-ic');if(ic&&MK_IC[b.dataset.ic])ic.innerHTML=`<svg viewBox="0 0 48 48">${MK_IC[b.dataset.ic]}</svg>`;
+    if(!b.classList.contains('mk-quit')&&!b.classList.contains('mk-back'))[.22,.58,.83].forEach((x,i)=>{const g=document.createElement('i');g.className='mk-bead';g.style.left=(x*100)+'%';g.style.animationDelay=(i*.12)+'s';b.appendChild(g);});});
+  /* sangue escorrendo do alto da tela */
+  const dr=M.querySelector('.mk-drips');if(dr){let h='';for(let i=0;i<12;i++){const x=(i+.2+Math.random()*.6)/12*100;h+=`<i class="mk-drip" style="left:${x.toFixed(1)}%;--w:${(3+Math.random()*4.5).toFixed(1)}px;--h:${(10+Math.random()*38).toFixed(0)}%;--t:${(5+Math.random()*6).toFixed(1)}s;--d:${(-Math.random()*8).toFixed(1)}s"></i>`;}dr.innerHTML=h;}
+  /* brasas subindo */
+  const em=M.querySelector('.mk-embers');if(em){let h='';for(let i=0;i<18;i++)h+=`<i class="mk-ember" style="--x:${(Math.random()*100).toFixed(1)}%;--s:${(2+Math.random()*3.5).toFixed(1)}px;--t:${(7+Math.random()*7).toFixed(1)}s;--d:${(-Math.random()*12).toFixed(1)}s;--dx:${((Math.random()-.5)*120).toFixed(0)}px"></i>`;em.innerHTML=h;}
+}
+/* respingos de sangue saindo de um ponto */
+function mkSplat(x,y,n){const M=document.getElementById('startMenu');if(!M)return;for(let i=0;i<n;i++){const s=document.createElement('i');s.className='mk-splat';const a=Math.random()*Math.PI*2,d=30+Math.random()*90;
+  s.style.cssText=`left:${x}px;top:${y}px;--s:${(5+Math.random()*12).toFixed(0)}px;--dx:${(Math.cos(a)*d).toFixed(0)}px;--dy:${(Math.sin(a)*d*.7+20).toFixed(0)}px;animation-delay:${(Math.random()*.08).toFixed(2)}s`;M.appendChild(s);setTimeout(()=>s.remove(),900);}}
+/* troca de tela do menu: a placa clicada sangra, a lâmina corta e o próximo menu entra */
+let mkBusy=false;
+function mkSwap(fn,dir,btn){const M=document.getElementById('startMenu');const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(mkBusy)return;const cur=M&&M.querySelector('.sm-inner .sm-menu:not([hidden]),.sm-inner .sm-panel:not([hidden])');
+  if(!M||!cur||reduce||document.body.classList.contains('tvmode')){M&&(M.dataset.dir=dir);fn();return;}
+  mkBusy=true;
+  if(btn){btn.classList.add('mk-hit');const r=btn.getBoundingClientRect();mkSplat(r.left+r.width*.3,r.top+r.height/2,dir==='back'?6:12);}
+  const sl=M.querySelector('.mk-slash');if(sl){sl.classList.remove('go','back');void sl.offsetWidth;sl.classList.add(dir==='back'?'back':'go');}
+  setTimeout(()=>{cur.classList.add(dir==='back'?'mk-leave-r':'mk-leave');},btn?170:0);
+  setTimeout(()=>{cur.classList.remove('mk-leave','mk-leave-r');if(btn)btn.classList.remove('mk-hit');M.dataset.dir=dir;fn();mkBusy=false;},btn?480:320);}
+
 /* ====== FATALITIES E ANIMALITIES OFICIAIS ======
    Ordem de pesquisa: UMK3 → Trilogy → Gold → Armageddon (só tem Kreate-A-Fatality) → MK11 → MK1 (2023).
    Convidados que vieram de outros jogos: Freddy (MK 2011) e Jason (MKX).
@@ -7274,7 +7498,7 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
       await so.lock(t==='h'?'landscape':'portrait');return true}catch(e){return false}}
   $('#smTela').onclick=async e=>{const b=e.target.closest('[data-tela]');if(!b)return;TELA=b.dataset.tela;LS.set('forja_mk_tela',TELA);telaUI();SFX.tick();
     const ok=await lockTela(TELA);reHoriz();
-    if(!ok&&coarse&&TELA!=='auto'&&(TELA==='h')!==LAND.matches)toast(TELA==='h'?'Gire o celular para deitado.':'Gire o celular para em pé.');};  const SUBS=['jogar','torres','torneio','treino','criar','extras'];let lastSub='main';
+    if(!ok&&coarse&&TELA!=='auto'&&(TELA==='h')!==LAND.matches)toast(TELA==='h'?'Gire o celular para deitado.':'Gire o celular para em pé.');};  const SUBS=['lutar','torres','torneio','aventura','treino','kombatentes','extras'];let lastSub='main';try{mkInit()}catch(e){console.error(e)}
   ['img/menu-lua.jpg','img/menu/cheat.jpg'].concat(LOAD_IMGS).forEach(s=>{const im=new Image();im.src=hImg(s)});
   const SIDE={'img/menu/jogar.jpg':'l','img/menu/opcoes.jpg':'c'};
   function setBg(src,side){const po=$('#smPoster'),bl=$('#smBlur');M.dataset.side=side||SIDE[src]||'r';if(po.dataset.v===src)return;po.dataset.v=src;bl.dataset.v=src;po.classList.add('fade');bl.classList.add('fade');
@@ -7283,9 +7507,9 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
     if(id==='cheats'){CHEAT.unlocked=true;$('#chQuote').textContent=TERESA_CHEAT[Math.floor(Math.random()*TERESA_CHEAT.length)];MUSIC.setTop('cheat');}else MUSIC.setTop(null);{const b=document.getElementById('smAd');if(b)b.hidden=id!=='main'||!b.querySelector('.sm-adi');}$('#smOpts').hidden=id!=='opts';$('#smBye').hidden=id!=='bye';$('#smCheat').hidden=id!=='cheats';$('#smCoins').hidden=id!=='moedas';
     SUBS.forEach(s=>{$('#smSub-'+s).hidden=id!==s});M.classList.toggle('sub',id!=='main'&&id!=='bye');
     setBg(id==='cheats'?'img/menu/cheat.jpg':'img/menu-lua.jpg',id==='opts'?'c':'r');
-    if(SUBS.includes(id)){const f=$('#smSub-'+id+' .sm-item');if(f)f.focus({preventScroll:true});return}
+    if(SUBS.includes(id)){const f=$('#smSub-'+id+' .mkb');if(f)f.focus({preventScroll:true});return}
     if(id==='cheats'){$('#chLock').hidden=CHEAT.unlocked;$('#chList').hidden=!CHEAT.unlocked;$('#chErr').hidden=true;$('#chPass').value='';$('#chD100').checked=CHEAT.d100;$('#chDmg').checked=CHEAT.dmg;$('#chGod').checked=CHEAT.god;$('#chBar').checked=CHEAT.bar;$('#chShao').checked=CHEAT.shao;$('#chCriador').checked=CHEAT.criador;$('#chMoedas').checked=CHEAT.moedas;if(!CHEAT.unlocked)setTimeout(()=>$('#chPass').focus(),50);return}
-    const f=M.querySelector(id==='main'?'#smMain .sm-item':'#'+(id==='opts'?'smOpts':'smBye')+' .sm-item');if(f)f.focus({preventScroll:true});}
+    const f=M.querySelector(id==='main'?'#smMain .mkb':'#'+(id==='opts'?'smOpts':'smBye')+' .sm-item');if(f)f.focus({preventScroll:true});}
   $('#chLock').addEventListener('submit',e=>{e.preventDefault();if($('#chPass').value.trim()===CHEAT.pass){CHEAT.unlocked=true;SFX.gong();SFX.say('Excellent');panel('cheats');}else{SFX.clang();$('#chErr').hidden=false;$('#chPass').select();}});
   $('#chD100').onchange=e=>{CHEAT.d100=e.target.checked;SFX.tick()};$('#chDmg').onchange=e=>{CHEAT.dmg=e.target.checked;SFX.tick()};$('#chGod').onchange=e=>{CHEAT.god=e.target.checked;SFX.tick()};$('#chBar').onchange=e=>{CHEAT.bar=e.target.checked;SFX.tick()};$('#chShao').onchange=e=>{CHEAT.shao=e.target.checked;SFX.tick();if(!CHEAT.shao){pickSel=pickSel.map(k=>k==='c:General Shao'?null:k);}};
   $('#chMoedas').onchange=e=>{SFX.tick();cheatMoedas(e.target.checked);};
@@ -7305,23 +7529,23 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
   function open(){M.hidden=false;M.classList.remove('out');panel(lastSub);MUSIC.setIntro(true);}
   function go(t,mode){if(dtSnd())try{SFX.trans()}catch(e){SFX.gong()}M.classList.add('out');setTimeout(()=>{M.hidden=true},450);if(t==='elenco'){pickMode=mode||'versus';selEnter();}curTab=t;showTabNow(t);MUSIC.setIntro(false);
     const ov=$('#dragonT');if(dtVis()&&!matchMedia('(prefers-reduced-motion: reduce)').matches){ov.hidden=false;ov.classList.remove('go');void ov.offsetWidth;ov.classList.add('go');setTimeout(()=>{ov.hidden=true;ov.classList.remove('go')},1700);}}
-  M.addEventListener('click',e=>{const b=e.target.closest('.sm-item,.cheat-open');if(!b)return;const a=b.dataset.act;SFX.hit();
+  M.addEventListener('click',e=>{const b=e.target.closest('.sm-item,.mkb,.cheat-open');if(!b)return;if(mkBusy)return;const a=b.dataset.act;SFX.hit();
     if(a==='cheats'){panel('cheats');return}
-    if(a==='sub'){lastSub=b.dataset.sub;panel(lastSub);try{hallMenuSync()}catch(e){}try{fshMenuSync()}catch(e){}return}
+    if(a==='sub'){const to=b.dataset.sub;const isBack=b.classList.contains('mk-back')||b.classList.contains('small');try{SFX.whoosh()}catch(_){}mkSwap(()=>{lastSub=to;panel(lastSub);try{hallMenuSync()}catch(e){}try{fshMenuSync()}catch(e){}},isBack?'back':'go',isBack?null:b);return}
     if(a==='hall'){hallOpen();return}
     if(a==='finshow'){fshOpen();return}
     if(a==='finpick'){fshPick();return}
     if(a==='historia'){lastSub='main';MUSIC.setOverride('mainmenu');MUSIC.setIntro(false);loading({action:()=>{M.classList.add('out');M.hidden=true;openStory();}});return}
-    if(a==='moedas'){panel('moedas');renderCoins();return}
-    if(a==='online'){lastSub='jogar';MUSIC.setIntro(false);MUSIC.setOverride('selecao');loading({action:()=>{M.classList.add('out');M.hidden=true;openOnline();}});return}
-    if(a==='torneio'){lastSub='jogar';MUSIC.setIntro(false);MUSIC.setOverride('selecao');loading({action:()=>{M.classList.add('out');M.hidden=true;openTorneio(b.dataset.two==='1');}});return}
+    if(a==='moedas'){mkSwap(()=>{panel('moedas');renderCoins();},'go',b);return}
+    if(a==='online'){lastSub='lutar';MUSIC.setIntro(false);MUSIC.setOverride('selecao');loading({action:()=>{M.classList.add('out');M.hidden=true;openOnline();}});return}
+    if(a==='torneio'){lastSub='lutar';MUSIC.setIntro(false);MUSIC.setOverride('selecao');loading({action:()=>{M.classList.add('out');M.hidden=true;openTorneio(b.dataset.two==='1');}});return}
     if(a==='eventos'){lastSub='main';MUSIC.setOverride('halloween');MUSIC.setIntro(false);loading({action:()=>{M.classList.add('out');M.hidden=true;openEventos();}});return}
     if(a==='fora'){lastSub='main';MUSIC.setIntro(false);MUSIC.setOverride('destino');loading({action:()=>{M.classList.add('out');M.hidden=true;foraOpen('hub');}});return}
     if(a==='kripta'){lastSub='main';MUSIC.setOverride('kripta');MUSIC.setIntro(false);loading({action:()=>{M.classList.add('out');M.hidden=true;openKripta();}});return}
     if(a==='credits'){M.classList.add('out');setTimeout(()=>{M.hidden=true},450);MUSIC.setOverride('creditos');MUSIC.setIntro(false);showCredits(false);return}
-    if(a==='go'){if(b.dataset.tw)towerSize=+b.dataset.tw;go(b.dataset.tab,b.dataset.mode);}else if(a==='opts'){panel('opts');MUSIC.setOpts(true);$('#smFx').checked=soundOn;$('#smMusicOn').checked=MUSIC.getMode()!=='nenhuma';$('#smVol').value=MUSIC.getVol();}
-    else if(a==='exit'){MUSIC.halt(true);panel('bye');try{window.close()}catch(_){}}
-    else if(a==='back'){if(!$('#smBye').hidden)MUSIC.halt(false);MUSIC.setOpts(false);lastSub='main';panel('main');}});
+    if(a==='go'){if(b.dataset.tw)towerSize=+b.dataset.tw;go(b.dataset.tab,b.dataset.mode);}else if(a==='opts'){mkSwap(()=>{panel('opts');},'go',b);MUSIC.setOpts(true);$('#smFx').checked=soundOn;$('#smMusicOn').checked=MUSIC.getMode()!=='nenhuma';$('#smVol').value=MUSIC.getVol();}
+    else if(a==='exit'){MUSIC.halt(true);mkSwap(()=>panel('bye'),'go',b);try{window.close()}catch(_){}}
+    else if(a==='back'){if(!$('#smBye').hidden)MUSIC.halt(false);MUSIC.setOpts(false);try{SFX.whoosh()}catch(_){}mkSwap(()=>{lastSub='main';panel('main');},'back');}});
   const IS=$('#introScreen');const enter=()=>{if(IS.hidden)return;SFX.gong();IS.classList.add('out');setTimeout(()=>{IS.hidden=true},500);panel('main');MUSIC.setIntro(true);setTimeout(giftCheck,1200);};
   /* ---- anúncios: aparecem ao entrar no jogo ---- */
   const ADS_OFF=[{id:'tvd',v:'img/ads/tvd-v.jpg',h:'img/ads/tvd-h.jpg',tab:'tvd',alt:'The Vampire Diaries: Stefan, Damon, Bonnie e Lexi e 3 arenas de Mystic Falls. Já na Kripta.',bn:{img:'img/ads/tvd-h.jpg',t:'The Vampire Diaries',s:'Stefan, Damon, Bonnie e Lexi',c:'Ver'}},
@@ -7364,7 +7588,7 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
     G.querySelector('#giftOk').onclick=()=>{if(cheatOn()){SFX.clang();toast('Desligue os cheats para resgatar o presente.');return}SFX.hit();addCoins(g.n,g.why);LS.set(g.k,true);try{renderCoins()}catch(e){}G.classList.add('out');
       setTimeout(()=>{G.remove();giftShown=false;setTimeout(giftCheck,700);},400);};}
   function closeAd(){if(AD.hidden)return;AD.classList.add('out');setTimeout(()=>{AD.hidden=true;AD.classList.remove('out')},300);}
-  $('#adClose').onclick=e=>{e.stopPropagation();SFX.tick();if(adIdx+1<ADS.length){showAd(adIdx+1);return}closeAd();const f=M.querySelector('#smMain .sm-item');if(f)f.focus({preventScroll:true});};
+  $('#adClose').onclick=e=>{e.stopPropagation();SFX.tick();if(adIdx+1<ADS.length){showAd(adIdx+1);return}closeAd();const f=M.querySelector('#smMain .mkb');if(f)f.focus({preventScroll:true});};
   $('#adBuy').onclick=e=>{e.stopPropagation();const a=adCur;closeAd();if(a&&a.sub){const k=M.querySelector('#smMain [data-act="sub"][data-sub="'+a.sub+'"]');if(k)k.click();return}if(a&&a.ev){const k=M.querySelector('#smMain [data-act="eventos"]');if(k)k.click();return}if(a&&a.tab)krGoto={tab:a.tab};else if(a&&a.pack)krGoto=a.pack;else if(a&&a.arena)krGoto={arena:a.arena};const k=M.querySelector('#smMain [data-act="kripta"]');if(k)k.click();};
   /* ---- carrossel de anúncios no menu: troca a cada 7 segundos ---- */
   const BN=$('#smAd');let bnI=0,bnT=null;
@@ -10644,7 +10868,7 @@ function hallOpen(){const ks=hallKeys();if(!zeroLiberado()){SFX.clang();toast('B
   H.querySelector('.hall-grid').onclick=async e=>{const b=e.target.closest('[data-k]');if(!b)return;SFX.hit();const k=b.dataset.k;const me=fighterFrom(k);if(!me)return;
     const fP=finalPara(k);await champScreen(me);const txt=await fP;await endingScreen(me,txt,'Voltar ▶');MUSIC.setOverride('abertura');};
   return true;}
-function hallMenuSync(){const b=document.getElementById('smHall');if(!b)return;const lk=!zeroLiberado();b.classList.toggle('sm-lock',lk);b.innerHTML='Hall dos Campeões'+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');}
+function hallMenuSync(){const b=document.getElementById('smHall');if(!b)return;const lk=!zeroLiberado();b.classList.toggle('sm-lock',lk);(b.querySelector('.smi-t')||b).innerHTML='Hall dos Campeões'+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');}
 
 /* ====== BABALITY: a descrição é de quem VIRA bebê ====== */
 const BEBE={
@@ -10895,7 +11119,7 @@ function expLock(k){const e=k&&expOf(k);if(!e)return null;return {tipo:'exped',m
 function fightLock(k){return keyLocked(k)||expLock(k)}
 function homeOf(k){if(k.startsWith('u:')){const ch=roster.find(c=>c.id===k.slice(2));return ch?ch.input.reino||'':''}const c=canonByName(k.slice(2));return c?c.r||'':''}
 function frRival(k){const pool=D.canon.filter(c=>c.n!=='General Shao'&&'c:'+c.n!==k&&!(typeof KR_SOON!=='undefined'&&KR_SOON.includes(c.n))).map(c=>'c:'+c.n).filter(x=>fighterFrom(x));return pool[Math.floor(Math.random()*pool.length)];}
-function foraBadge(){const b=document.getElementById('smFora');if(!b)return;const n=EXP.filter(expReady).length;b.innerHTML='Fora do Ringue'+(n?` <span class="sm-badge" aria-label="${n} expedição pronta">${n}</span>`:'');}
+function foraBadge(){const b=document.getElementById('smFora');if(!b)return;const n=EXP.filter(expReady).length;(b.querySelector('.smi-t')||b).innerHTML='Fora do Ringue'+(n?` <span class="sm-badge" aria-label="${n} expedição pronta">${n}</span>`:'');}
 setInterval(()=>{try{foraBadge()}catch(e){}},5000);
 function expReport(k,rival,dest,dur,home){const n=frName(k),r=frName(rival),R=Math.random;const fe=(fighterFrom(k)||{}).g==='f',G=(m,f)=>fe?f:m;
   const ida=pick(R,[`${n} partiu rumo a ${dest} levando só o essencial.`,`${n} atravessou um portal instável até ${dest}.`,`Sem avisar ninguém, ${n} seguiu para ${dest} antes do sol nascer.`]);
@@ -16067,7 +16291,7 @@ function fshEnd(toCred){if(!FSH)return;const solo=FSH.sel;FSH=null;fightTok++;MU
   if(solo){fshPick(solo.key);return;}
   if(toCred){MUSIC.setOverride('creditos');showCredits(false);}
   else loading({action:()=>{document.body.style.overflow='';MUSIC.setOverride(null);$('#brand').click();}});}
-function fshMenuSync(){[['smFin','Finalizações'],['smFinP','Ver por Personagem']].forEach(([id,t])=>{const b=document.getElementById(id);if(!b)return;const lk=!zeroLiberado();b.classList.toggle('sm-lock',lk);b.innerHTML=t+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');});}
+function fshMenuSync(){[['smFin','Finalizações'],['smFinP','Ver por Personagem']].forEach(([id,t])=>{const b=document.getElementById(id);if(!b)return;const lk=!zeroLiberado();b.classList.toggle('sm-lock',lk);(b.querySelector('.smi-t')||b).innerHTML=t+(lk?' <span class="sm-lk" aria-label="bloqueado">🔒</span>':'');});}
 /* ---------- Escolher personagem: vê as finalizações (e os Brutalities) de um lutador ---------- */
 function fshList(){const seen=new Set();
   return D.canon.map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).map(k=>{try{return fighterFrom(k)}catch(e){return null}})
