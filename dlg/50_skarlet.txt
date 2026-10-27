@@ -1,0 +1,475 @@
+=Skarlet|Skarlet
+A: Uma cópia minha? Vamos ver quem sangra mais bonito. / Eu sangro. Você bebe. / Então eu ganho de qualquer jeito.
+A: Duas magas de sangue no mesmo lugar. Que desperdício de veias. / Uma de nós vai virar poça. / A poça vai ser você.
+
+=Skarlet|Sheeva
+A: Quatro braços. Quanto sangue será que cabe aí dentro? / Mais do que você aguenta beber. / Desafio aceito.
+A: Você traiu o Kahn. Eu nunca traí. / Você é o cachorro dele. / Cachorro com dentes afiados.
+
+=Sheeva|Skarlet
+A: A bruxinha de estimação de Shao Kahn. / Bruxinha que vai te secar. / Os Shokan têm sangue de pedra.
+A: Você bebe sangue como um animal. / E você pisa como um. / Pelo menos eu não me ajoelho.
+
+=Skarlet|Coelho
+A: Pequeno e rápido. Sangra rápido também? / Eu nem vou sangrar. / Todo mundo sangra.
+A: Mil cortes. Eu adoro cada um. / Os meus não são para você. / Todos são para mim.
+
+=Coelho|Skarlet
+A: Você fica mais forte quando eu te corto? / Fico. / Então eu vou bater sem cortar.
+A: Pula, pula, e você nem me toca. / Eu não preciso tocar. / Isso é trapaça.
+
+=Skarlet|Tigre
+A: Tigre. Seu sangue deve ser quente. / E o seu, frio. / Vou esquentar com o seu.
+A: Sua foice corta fundo. / Fundo o bastante para você. / Eu adoro fundo.
+
+=Tigre|Skarlet
+A: Você cheira a caça ferida. / Cheiro a caçadora. / Vamos ver quem morde.
+A: Eu também gosto de sangue. Mas na carne. / Que cafona. / Que fome.
+
+=Skarlet|Cobra
+A: Você drena almas. Eu dreno sangue. Somos parecidos. / Eu sou mais rápido. / Eu sou mais sedenta.
+A: Seu veneno contamina meu banho. / Então não me morda. / Tarde demais.
+
+=Cobra|Skarlet
+A: Seu sangue deve ter gosto de magia. / Tem gosto de fim. / Vou provar.
+A: Meu Supremo também queria seu sangue. / Diga a ele que acabou. / Ele não aceita não.
+
+=Skarlet|Cabra
+A: Um bode com bombas. Que barulhento. / Barulho é minha arte. / A minha é silêncio e sangue.
+A: Explode e eu junto os pedaços. / Não vai sobrar nada. / Sempre sobra uma gota.
+
+=Cabra|Skarlet
+A: Sangue não segura uma explosão. / Segura e devolve. / Quero ver.
+A: Você vai virar fumaça vermelha. / Fumaça vermelha é linda. / Você é doida.
+
+=Skarlet|Touro
+A: Um touro. Muito sangue para mim. / Muito chifre para você. / Eu desvio.
+A: Corre, touro. Eu espero com a faca. / Ninguém para um touro. / Uma veia para.
+
+=Touro|Skarlet
+A: Vermelho me deixa furioso. / Eu sou toda vermelha. / Exatamente.
+A: Vou te pisotear até virar poça. / Poça é o meu lar. / Esquisita.
+
+=Skarlet|Lorenzo
+A: Garoto de Veyrath. Milhares morreram e você bebeu tudo. / Eu não bebi. Eu herdei. / Dá no mesmo.
+A: Sua energia verde não tem gosto. / Ela não é para você. / Tudo é para mim.
+
+=Lorenzo|Skarlet
+A: Magia de sangue? Isso parece meme ruim. / Meme ruim vai ser o seu enterro. / Ok, essa foi boa.
+A: Você parece o tipo que eu vi em Veyrath. / Eu estava lá? Que pena. / Não brinca com isso.
+
+=Skarlet|Art the Clown
+A: Você também gosta de sangue, palhaço. / ... / Mas eu bebo. Você só espalha.
+A: Que sorriso nojento. Vou pintar de vermelho. / ... / Já está vermelho? Ótimo.
+
+=Art the Clown|Skarlet
+A: ... / Mímica não salva veia nenhuma. / ...
+A: ... / Sua serra suja o meu banho. / ...
+
+=Skarlet|Freddy Krueger
+A: Garras e sangue. Gosto do seu estilo. / E eu do seu, querida. / Mas o sangue é meu.
+A: Nos seus sonhos também tem sangue? / Rios. / Então eu vou nadar.
+
+=Freddy Krueger|Skarlet
+A: Sangue nos meus sonhos? Que sonho bom. / Vai virar pesadelo. / Eu adoro pesadelos.
+A: Durma, mocinha. Eu te espero lá. / Eu não durmo. Eu bebo. / Que pena.
+
+=Skarlet|Jason Voorhees
+A: Você derrama tanto sangue. Eu agradeço. / ... / Nem um obrigado de volta?
+A: Máscara e facão. Clássico. / ... / Silêncio é ótimo para beber.
+
+=Jason Voorhees|Skarlet
+A: ... / Mais um. Que fartura. / ...
+A: ... / Você sangra? Não? Que desperdício. / ...
+
+=Skarlet|Stefan
+A: Vampiro que luta contra a sede. Que desperdício. / Que desperdício seria ceder. / Ceder é tão gostoso.
+A: Você tem medo de virar monstro. Eu já sou. / Por isso eu luto. / Por isso eu ganho.
+
+=Stefan|Skarlet
+A: Sinto a sede em você. É parecida com a minha. / A minha é maior. / Eu temia isso.
+A: Eu me controlo há séculos. Você nunca tentou. / Nunca precisei. / Isso te faz pior que eu.
+
+=Skarlet|Damon
+A: Um vampiro. Concorrência. / Eu prefiro dizer colega de dieta. / Colega não. Rival.
+A: Você bebe por fome. Eu bebo por poder. / Eu bebo por diversão. / Então somos três motivos.
+
+=Damon|Skarlet
+A: Finalmente alguém que entende a dieta. / Eu entendo melhor. / Vamos ver quem tem mais sede.
+A: Você não brilha no sol, né? / Eu brilho vermelho. / Charmoso.
+
+=Skarlet|Bonnie
+A: Bruxa da Terra. Seu sangue tem magia antiga. / E vai continuar dentro de mim. / Por pouco tempo.
+A: Você estoura veias de longe. Eu bebo de perto. / Que nojo. / Que delícia.
+
+=Bonnie|Skarlet
+A: Magia de sangue é a mais perigosa que existe. / Por isso eu uso. / Por isso eu vou te parar.
+A: Você parece aquelas bruxas que os Bennett caçam. / Eu caço as caçadoras. / Vamos ver.
+
+=Skarlet|Lexi
+A: Vampira de festa. Bebe pouco. / Bebo com estilo. / Eu bebo com fome.
+A: Seu sangue é velho. / Velho e bem guardado. / Vou abrir a garrafa.
+
+=Lexi|Skarlet
+A: Uma maga de sangue? Isso é uma festa! / Festa minha. / Me convida?
+A: Sangue mágico deve dar uma ressaca enorme. / Só para os fracos. / Eu aguento tudo.
+
+=Skarlet|Sonya Blade
+A: Soldado. Sangue com gosto de disciplina. / Você vai ficar sem dentes. / Eu tenho magia para isso.
+A: Seus anéis cortam? Que gentileza. / Não é gentileza. / Para mim é.
+
+=Sonya Blade|Skarlet
+A: Bruxa de sangue. Mais uma ameaça para eliminar. / Me põe na lista. / Você já está.
+A: Missão: neutralizar a bruxa. / Missão: beber a soldada. / Nojenta.
+
+=Skarlet|Jax
+A: Braços de metal. Mas o resto sangra. / O resto bate. / Vamos ver.
+A: Soldado do Plano Terreno. Sangue com gosto de pólvora. / Você bebe qualquer coisa. / Quase.
+
+=Jax|Skarlet
+A: Bruxa de sangue. Eu odeio magia. / E eu odeio metal. / Então estamos quites.
+A: Eu já apanhei de bruxa antes. / E vai apanhar de novo. / Duvido.
+
+=Skarlet|Kano
+A: Kano. Seu sangue vale quanto? / Mais que você pode pagar. / Eu pago em gotas.
+A: Mercenário traiçoeiro. Você trairia o Kahn? / Por um bom preço. / Então eu bebo antes.
+
+=Kano|Skarlet
+A: Uma maga de sangue? Isso deve valer uma fortuna. / Você quer me vender? / Quero.
+A: Um pouquinho do seu sangue em frasco valeria ouro. / Você vai pagar com o seu. / Negócio arriscado.
+
+=Skarlet|Jade
+A: Jade. Eu quase bebi você inteira. / Quase. / Desta vez não tem Kitana para te salvar.
+A: Seu sangue tem gosto de Edênia. Doce. / Você não vai provar de novo. / Vou sim.
+
+=Jade|Skarlet
+A: Você me drenou no acampamento. / E você ainda tem gosto de vitória. / Hoje é a minha vez.
+A: Kitana te derrotou. Eu vou terminar. / Kitana não está aqui. / Eu estou. Basta.
+
+=Skarlet|Ana Letícia
+A: Você sorri demais. Sorriso sangra? / Sorriso processa. / Processa isso.
+A: Advogada? Em Exoterra a lei é o sangue. / Então eu mudo de vara. / Vara vermelha.
+
+=Ana Letícia|Skarlet
+A: Que roupa vermelha linda. Onde compra? / Eu faço com sangue. / Ok, não quero mais.
+A: Posso te processar por excesso de sangue? / Eu pago com o seu. / Recurso negado.
+
+=Skarlet|Vega
+A: Máscara de lobo. Seu sangue é de caçadora. / E o seu de presa. / Eu não sou presa.
+A: Seus lobos sangram? / Eles mordem. / Morder sangra.
+
+=Vega|Skarlet
+A: Uma assassina de vermelho. Concorrência. / Eu faço mais bagunça. / Eu faço mais limpo.
+A: Meu contrato não pagava para enfrentar bruxas. / Cobre a mais. / Já cobrei.
+
+=Skarlet|Teresa
+A: Rainha do crime. Quanto sangue você já derramou? / Mais que você. / Então me dá um pouco.
+A: Pistolas fazem buracos. Eu gosto de buracos. / Que gosto estranho. / Que gosto bom.
+
+=Teresa|Skarlet
+A: Uma bruxinha de sangue no meu território? / Seu território vai ficar vermelho. / Ele já é.
+A: Eu não tenho medo de bruxa. / Deveria. / Eu tenho uma pistola.
+
+=Skarlet|Rudolf
+A: Filho de Kitana. Sangue de princesa e de deus. / Não é para o seu bico. / Vamos ver.
+A: Seus leques queimam. Sangue apaga fogo. / O meu fogo é teimoso. / O meu sangue também.
+
+=Rudolf|Skarlet
+A: Tia Skarlet, né? Ah, não, essa é a do mal. / A do mal e com fome. / Pior combinação.
+A: Minha mãe te derrotou uma vez. / Sua mãe teve sorte. / Então eu vou ter também.
+
+=Skarlet|Mileena
+A: Mileena. Você me matou. / E vou matar de novo. / Desta vez eu bebo primeiro.
+A: Seus dentes contra meu sangue. / Meus dentes sempre ganham. / Não hoje.
+
+=Mileena|Skarlet
+A: Skarlet, você voltou. Que pena para você. / Que pena para você. / Eu já comi você uma vez.
+A: A bruxinha favorita do papai. / Ele também foi o seu. / Não fale do meu pai.
+
+=Skarlet|Kitana
+A: Princesa. Você me derrotou no acampamento. / E vou de novo. / Não sem a Jade para te distrair.
+A: Seu sangue é de rainha. Vale o dobro. / Você nunca vai prová-lo. / Uma gota já me basta.
+
+=Kitana|Skarlet
+A: Skarlet. Você quase matou Jade. / Quase. Foi um erro meu. / Foi o seu último.
+A: Shao Kahn te criou. Eu vou te desfazer. / Tente, princesa. / Já tentei. E ganhei.
+
+=Skarlet|Katherine Pierce
+A: Vampira. Mais uma que bebe o que é meu. / Divide? / Nunca.
+A: Você trai todo mundo. Eu só traio quem eu bebo. / Que nobreza. / Que inveja.
+
+=Katherine Pierce|Skarlet
+A: Sangue mágico? Quero provar. / Vou te dar uma gota. Sua. / Sem graça.
+A: Você parece uma Petrova de vermelho. / Eu pareço a última coisa que você vai ver. / Dramática.
+
+=Skarlet|Sub-Zero
+A: Gelo. Sangue congelado é picolé. / Você não vai gostar. / Eu gosto de tudo.
+A: Lin Kuei. Sangue frio de família. / E mãos frias também. / Eu esquento.
+
+=Sub-Zero|Skarlet
+A: Vou congelar seu sangue nas veias. / Vou derreter com o meu ódio. / Tente.
+A: Um golpe meu e seu sangue vira gelo. / Gelo derrete. / Não o meu.
+
+=Skarlet|Scorpion
+A: Fogo do inferno. Seu sangue deve ser lava. / E vai queimar a sua garganta. / Eu tomo gelado.
+A: Get over here, você diz. Eu vou. / Vem. / Com sede.
+
+=Scorpion|Skarlet
+A: Você bebe o sangue dos inocentes. / Ninguém é inocente. / Eu era.
+A: Você é igual ao Quan Chi: brinca com o que não entende. / Eu entendo muito bem. / Então paga.
+
+=Skarlet|Baraka
+A: Tarkatano. Seu sangue tem gosto de ferrugem. / E o seu tem gosto de medo. / Eu não tenho medo de nada.
+A: Você traiu o Kahn por Kitana. / Eu escolhi o meu povo. / Escolheu morrer.
+
+=Baraka|Skarlet
+A: A assassina do imperador. Ainda limpa as botas dele? / Eu limpo o sangue dos inimigos dele. / Então limpe o seu.
+A: Minhas lâminas vão te fazer sangrar. / Por favor. Eu adoro. / Você é doente.
+
+=Skarlet|Raiden
+A: Deus do trovão. Será que sangue de deus dá choque? / Você nunca vai saber. / Quero tanto saber.
+A: Seu raio queima o meu sangue. / E vai queimar você. / Então eu bebo rápido.
+
+=Raiden|Skarlet
+A: A magia de sangue corrompe tudo que toca. / Exatamente. Que bom, né? / Não.
+A: Sinto a maldade do Kahn em você. / Ele me deixou de herança. / Que herança triste.
+
+=Skarlet|Geras
+A: Você não sangra direito. É só areia. / Eu sou o tempo. / O tempo também tem veias.
+A: Kronika me trouxe de volta. Você me deve isso. / Eu não devo nada. / Então devolvo a areia.
+
+=Geras|Skarlet
+A: Kronika te trouxe de volta. Pode te tirar de novo. / Kronika caiu. / Eu não.
+A: Eu vi seu fim em mil linhas do tempo. / E eu voltei em todas. / Por enquanto.
+
+=Skarlet|Johnny Cage
+A: O ator. Seu sangue deve ser azul de tão famoso. / Vermelho e com autógrafo. / Vou guardar a assinatura.
+A: Pare de sorrir. Sangue mancha esse dente. / Esse sorriso é seguro. / Por enquanto.
+
+=Johnny Cage|Skarlet
+A: Uau, cosplay de vampira? Ficou ótimo. / Não é fantasia. / Ah. Isso é pior.
+A: Você podia fazer filme de terror. / Eu faço terror de verdade. / Sem dublê?
+
+=Skarlet|Ladybug
+A: Uma heroína de vermelho. Combina comigo. / Meu vermelho é de sorte. / O meu é de azar para você.
+A: Seu ioiô corta? / Não. Prende. / Que tédio.
+
+=Ladybug|Skarlet
+A: Você está toda de vermelho. Que coincidência. / Coincidência nenhuma. É sangue. / Ai. Menos legal.
+A: Eu protejo pessoas. E você? / Eu como pessoas. / Então eu vou te parar.
+
+=Skarlet|Conan
+A: Um bárbaro cheio de sangue quente. / Por Crom, você é estranha. / Estranha e com fome.
+A: Sua espada abre o caminho. Eu bebo o que sai. / Bebe isso aqui. / Que grosseiro.
+
+=Conan|Skarlet
+A: Bruxas de sangue não têm honra. / Honra não enche a barriga. / Na Ciméria enche.
+A: Já matei bruxas piores na Hiperbórea. / Nenhuma com tanta sede. / Vou descobrir.
+
+=Skarlet|Cyrax
+A: Uma máquina. Nenhuma gota para mim. / Seu poder é inútil contra mim. / Ainda tem um humano aí dentro.
+A: Óleo não serve. Quero o que está por baixo. / Acesso negado. / Eu arrombo.
+
+=Cyrax|Skarlet
+A: Alvo: maga de sangue. Prioridade alta. / Prioridade minha. / Iniciando eliminação.
+A: Seu sangue não interfere nos meus sistemas. / Interfere no seu coração. / Coração: não detectado.
+
+=Skarlet|Ermac
+A: Feito de almas. Sem sangue para mim. / Nós somos muitos. / E todos secos.
+A: Shao Kahn também fez você. Somos irmãos? / Nós não temos irmãos. / Que pena.
+
+=Ermac|Skarlet
+A: Nós sentimos o sangue de mil mortos em você. / Mil e um, em breve. / Não seremos o próximo.
+A: Nós já fomos criados pelo mesmo mestre. / Então somos família. / Família se destrói.
+
+=Skarlet|General Shao
+A: General. O imperador confia em você. Eu não. / O imperador sou eu agora. / Então eu escolho de quem é o sangue.
+A: Seu machado derrama muito sangue. Gosto disso. / Então lute ao meu lado. / Depois de te provar.
+
+=General Shao|Skarlet
+A: A bruxa de Shao Kahn. Sirva a mim agora. / Eu sirvo ao sangue. / Então vai servir o seu.
+A: Seu sangue fede a traição. / Fede a poder. / Mesma coisa.
+
+=Skarlet|Ashrah
+A: Sua espada purifica. Meu sangue contamina. / A Kriss vai te limpar. / Ela vai enferrujar primeiro.
+A: Uma demônia buscando pureza. Que piada. / E uma órfã buscando um pai. / Cuidado com a língua.
+
+=Ashrah|Skarlet
+A: Sua magia é sangue roubado. / Sangue emprestado. Eu nunca devolvo. / Então eu cobro.
+A: A Kriss sente cheiro de maldade em você. / Ela tem bom faro. / E boa lâmina.
+
+=Skarlet|Ghostface
+A: Faca e máscara. Você também gosta de sangue. / Eu gosto de gritos. / Eu gosto do que vem depois.
+A: Você liga para as vítimas? Eu só bebo. / Que falta de suspense. / Que falta de sede.
+
+=Ghostface|Skarlet
+A: Qual é o seu filme favorito? / Qualquer um com muito sangue. / Escolha clássica.
+A: Você tem cara de quem grita bonito. / Eu faço os outros gritarem. / Melhor ainda.
+
+=Skarlet|Havik
+A: Seu corpo é torto, mas o sangue é forte. / O caos corre nas minhas veias. / Vai correr nas minhas.
+A: Clérigo do Caos. Eu sou a ordem do sangue. / Sangue é caos. / Não nas minhas mãos.
+
+=Havik|Skarlet
+A: Magia de sangue é só caos com regras. / Regras que eu escrevo. / Vou rasgar.
+
+=Skarlet|Homelander
+A: Seu sangue deve ter gosto de poder. / Você nunca vai provar. / Todo mundo diz isso.
+A: Seus olhos queimam. Meu sangue apaga fogo. / Ninguém me toca. / Eu não preciso tocar.
+
+=Homelander|Skarlet
+A: Uma bruxinha de sangue. Que fofo. / Fofo vai ser o seu pescoço aberto. / Ninguém fala assim comigo.
+A: Ajoelha e talvez eu te deixe viver. / Eu me ajoelho só para beber. / Que nojo.
+
+=Skarlet|Li Mei
+A: Pequena. Pouco sangue. / Muito fogo. / Fogo evapora sangue. Que pena.
+A: Você defende uma aldeia. Eu devoro aldeias. / Não a minha. / Ainda não.
+
+=Li Mei|Skarlet
+A: Você assustou a minha aldeia por anos. / Eu assustei Exoterra inteira. / Hoje acaba.
+A: Meu fogo vai secar seu sangue. / Meu sangue apaga seu fogo. / Veremos qual dura mais.
+
+=Skarlet|Liu Kang
+A: O Deus do Fogo. Seu sangue deve ferver. / E queimar a sua boca. / Vale o risco.
+A: Você refez o tempo. Eu sobrevivi. / A Nova Era tem lugar para você. / Só se for no trono.
+
+=Liu Kang|Skarlet
+A: Skarlet. Mesmo numa nova era, você escolhe o sangue. / Sangue nunca me decepcionou. / Eu vou.
+A: Na Nova Era, você poderia ser outra coisa. / Eu escolhi ser isto. / Então eu escolho te parar.
+
+=Skarlet|Kung Lao
+A: Chapéu afiado. Corta veias? / Corta tudo. / Ótimo, mais sangue.
+A: Shaolin. Seu sangue é calmo demais. / Paciência é força. / Paciência sangra igual.
+
+=Kung Lao|Skarlet
+A: Uma bruxa de sangue. Meu chapéu já cortou coisa pior. / Mas não coisa mais sedenta. / Veremos.
+A: Shao Kahn criou você para matar Shaolin. / E eu nunca falhei. / Hoje falha.
+
+=Skarlet|Kenshi
+A: Cego. Mas o seu sangue enxerga? / Sento enxerga por mim. / Sento não sangra.
+A: Você sente o meu poder? / Sinto uma ferida aberta. / Exato.
+
+=Kenshi|Skarlet
+A: Sinto o cheiro de sangue roubado. / Roubado não. Coletado. / Vou devolver aos donos.
+A: Sento me avisa: ela é toda ferida. / Sento é esperto. / Mais que você.
+
+=Skarlet|Omni-Man
+A: Um Viltrumita. Que sangue será esse? / Mais forte que você imagina. / Eu imagino muito.
+A: Você conquista planetas. Eu conquisto veias. / Pequena demais. / Eficiente demais.
+
+=Omni-Man|Skarlet
+A: Uma humana com truques. Que tédio. / Truque é o que você vai virar. / Vamos ver.
+A: Já vi impérios caírem. Você é só uma garota. / Uma garota com fome. / Que medo.
+
+=Skarlet|Noob Saibot
+A: Sombra. Você sangra preto? / Eu não sangro. / Todo mundo sangra.
+A: Você e sua cópia. Dois para beber. / Duas sombras para te engolir. / Que conversa escura.
+
+=Noob Saibot|Skarlet
+A: O Netherrealm já provou o seu sangue. / E vomitou. / Veremos.
+A: Sua magia não alcança as sombras. / As sombras também têm sangue. / Não as minhas.
+
+=Skarlet|Peacemaker
+A: Você mata pela paz. Eu mato pela sede. / Pelo menos é honesta. / Sempre.
+A: Seu capacete brilha. Seu sangue também vai. / Eu tenho armas! / Eu tenho fome.
+
+=Peacemaker|Skarlet
+A: Uma vampira! Eu tenho uma arma para isso. / Não sou vampira. / Tenho uma arma para isso também.
+A: Paz é quando ninguém sangra. / Que chatice. / Concordo, na verdade.
+
+=Skarlet|Nitara
+A: Vampira de Vaeternus. Nós duas bebemos. / Mas eu tenho asas. / Eu tenho sede maior.
+A: Seu povo bebe para viver. Eu bebo para mandar. / Que ambição. / Que fome.
+
+=Nitara|Skarlet
+A: Uma humana que bebe sangue? Que imitação. / Imitação que vai te secar. / Eu duvido.
+A: Seu sangue deve ser forte. Me empresta? / Empresto a faca. / Que mal-educada.
+
+=Skarlet|Quan Chi
+A: Necromante. Você também brinca com sangue. / Eu brinco com almas. / Sangue é mais gostoso.
+A: Sua magia verde não me assusta. / Minha magia te trouxe de volta antes. / E eu agradeço com uma facada.
+
+=Quan Chi|Skarlet
+A: Uma criação de Shao Kahn. Eu faço melhor. / Faça. Eu bebo a sua. / Que vulgar.
+A: Seu sangue alimentaria meus mortos por anos. / Meus mortos têm fome também. / Que competição.
+
+=Skarlet|Reiko
+A: General do Kahn. Eu sempre fui a favorita. / Eu sou o próximo Kahn. / Então vai precisar de mim.
+A: Seu sangue tem gosto de ambição. / E o seu de servidão. / Cuidado.
+
+=Reiko|Skarlet
+A: A bruxinha favorita. O Kahn te descarta quando quiser. / Ele precisa de mim. / Por enquanto.
+A: Quando eu for Kahn, você será minha. / Eu serei o seu fim. / Que ousadia.
+
+=Skarlet|Rain
+A: Água. Que coisa sem graça. / A água limpa o sangue. / Mancha nunca sai.
+A: Príncipe de Edênia. Sangue nobre. / Você não é digna. / Eu sou faminta.
+
+=Rain|Skarlet
+A: Sangue e água não se misturam. / Misturam. Fica rosa. / Que nojo.
+A: Eu faço chover. Você faz chover sangue. Que cópia. / Cópia melhor. / Cópia nojenta.
+
+=Skarlet|Sektor
+A: Outro robô. Que dieta pobre. / Seus poderes não funcionam em mim. / Funcionam em quem está dentro.
+A: Seus mísseis cortam? Gosto de cortes. / Recalculando. / Rápido.
+
+=Sektor|Skarlet
+A: Ameaça biológica detectada. / Ameaça faminta. / Iniciando contenção.
+A: Sistemas de defesa contra líquidos ativados. / Que fofo. / Ativado.
+
+=Skarlet|Reptile
+A: Sangue frio. Que decepção. / Meu sangue é ácido. / Eu tenho estômago.
+A: Pode ficar invisível. O cheiro do sangue entrega. / Eu não sangro. / Ainda.
+
+=Reptile|Skarlet
+A: Sinto cheiro de sangue em você. / Sempre. É meu perfume. / Que nojo.
+A: Meu ácido vai estragar seu banho. / Eu tomo banho em qualquer coisa. / Eca.
+
+=Skarlet|Shang Tsung
+A: Feiticeiro. Almas e sangue, que dupla. / Eu fico com as almas. / E eu com o resto.
+A: Você bebe almas como eu bebo sangue. / Com mais classe. / Com menos sede.
+
+=Shang Tsung|Skarlet
+A: Que alma interessante, toda manchada de vermelho. / Não toque nela. / Vou tocar e levar.
+A: Shao Kahn sempre teve brinquedos interessantes. / Brinquedo que morde. / Melhor ainda.
+
+=Skarlet|Takeda
+A: Chicote afiado. Abre veias? / Abre caminho. / Para mim.
+A: Filho de Scorpion. Sangue de inferno. / Não é para você. / Tudo é.
+
+=Takeda|Skarlet
+A: Meu pai me falou de você. / Falou bem? / Falou para eu correr.
+A: Você parece cansada de servir. / Eu nunca canso. / Mentira.
+
+=Skarlet|Tanya
+A: Tanya. Você também serve a quem paga. / Eu sirvo a mim. / Então sirva o seu sangue.
+A: Seus bastões giram. Meu sangue também. / Que imagem. / Bonita, não?
+
+=Tanya|Skarlet
+A: Skarlet, vamos fazer um trato. / Trato de sangue? / Qualquer um.
+A: Seu sangue vale quanto no mercado? / Mais do que você pode pagar. / Eu tenho crédito.
+
+=Skarlet|Smoke
+A: Fumaça não sangra. / Exato. / Mas o homem dentro dela sim.
+A: Desaparece e eu acho pelo cheiro. / Fumaça não tem cheiro. / O medo tem.
+
+=Smoke|Skarlet
+A: Você não pega fumaça. / Pego o pulmão dela. / Que charme.
+A: Tente drenar a fumaça. / Eu drenaria o vento. / Que exagero.
+
+=Skarlet|T-1000
+A: Metal líquido. Eu sou sangue líquido. / Eu me adapto. / Eu me espalho.
+A: Você não sangra. Que tristeza. / Sem emoção. / Com sede.
+
+=T-1000|Skarlet
+A: Analisando: magia de sangue. Inútil contra metal. / Analise de novo. / Analisando.
+A: Seu sangue não me afeta. / O seu nem existe. / Correto.
+
+=Skarlet|Sindel
+A: Rainha. Seu grito me dá dor de cabeça. / Meu grito vai te calar. / Seu sangue vai me curar.
+A: Shao Kahn é seu marido e meu criador. Que família. / Uma família de monstros. / Pelo menos é unida.
+
+=Sindel|Skarlet
+A: A bruxinha do meu marido. Que ciúme seria esse? / Ciúme do sangue que eu vou beber. / Vulgar como sempre.
+A: Meu marido criou você para me substituir? / Ele criou algo melhor. / Vou gritar até você explodir.
+
