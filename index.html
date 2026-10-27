@@ -14906,6 +14906,8 @@ async function finRun(w,l,ch,o,x){x=x||{};const t=fightTok;const chk=()=>{if(t!=
   anim(w,'lunge');if(x.o2)anim(l,'lunge');await sleep(300);chk();
   const p=run(()=>{const r=finFx(w,l,ch,o);if(x.o2)finFx(l,w,ch,x.o2);return r;});
   await Promise.all([Promise.race([p,sleep(14000)]),sleep(ch==='Babality'?3200:3400)]);chk();
+  /* Friendship: na luta e na opção por personagem dos Extras a cena se repete até o jogador sair; no desfile automático dos Extras, passa para a próxima */
+  if(ch==='Friendship'&&(!FS||!FS.opts||FS.opts.mode!=='finshow'||x.loop))frLoop(w,l,o,x,t);
   if(ch==='Fatality'){await sleep(350);chk();if(played)MUSIC.fxSeek('Fatality',16);}
   if(ch==='Animality'){await sleep(500);chk();if(played)MUSIC.fxSeek('Animality',14);}
 }
@@ -14947,6 +14949,17 @@ function winCenter(w){const W=$('#fF'+w),A=document.querySelector('#fight .f-are
   W.getAnimations().forEach(x=>x.cancel());W.style.zIndex='3';
   try{W.animate([{transform:'none'},{transform:`translate(${dx.toFixed(0)}px,0) scale(1.06)`}],{duration:750,easing:'cubic-bezier(.3,1.2,.5,1)',fill:'forwards'});}catch(e){}
   if(Lf)try{Lf.animate([{opacity:1},{opacity:0}],{duration:450,fill:'forwards'});}catch(e){}}
+
+/* ---- Friendship: a cena se repete (e a música continua) até o jogador sair da tela ---- */
+function frReset(){try{$$('.fx-friend').forEach(e=>e.remove());$$('#finL .fa-x,#finL .fin-drop').forEach(e=>e.remove());
+  $$('.f-fig').forEach(e=>{e.getAnimations().forEach(a=>a.cancel());e.style.transform='';e.style.transformOrigin='';e.style.opacity='';e.classList.remove('fa-glow','fa-morph');delete e.dataset.near;e._pos=null;if(e._html){e.innerHTML=e._html;e._html=null;}});}catch(e){}}
+async function frLoop(w,l,o,x,t){
+  while(true){await sleep(500);if(t!==fightTok)break;
+    frReset();finDarkOn();
+    try{const p=[finFx(w,l,'Friendship',o)];if(x&&x.o2)p.push(finFx(l,w,'Friendship',x.o2));await Promise.race([Promise.all(p),sleep(14000)]);}catch(e){if(e!=='abort')console.error(e);}
+    await sleep(700);if(t!==fightTok)break;}
+  /* saiu da tela no meio de uma cena: limpa o que ela ainda deixou */
+  setTimeout(()=>{$$('#finL .fa-x').forEach(e=>e.remove());},50);}
 
 /* ====== TELA DE VITÓRIA DO FATALITY ======
    Depois do fatality o cenário escuro aproxima e entra o vencedor, no estilo da tela de Versus,
@@ -15763,10 +15776,12 @@ async function fshItem(it,idx,P){
   try{MUSIC.tail(stMus(FSH.st),stMus(FSH.st)==='covil'?6:8)}catch(e){}
   await fshW(sleep(2600));fshChk();
   const q=p=>fshW(p.catch(e=>{if(e!=='abort')console.error(e)}));
-  try{await q(finRun(0,1,ch,o,ch==='Babality'?{o2}:{}));fshChk();
+  try{await q(finRun(0,1,ch,o,ch==='Babality'?{o2}:{loop:!!P.solo}));fshChk();
     if(ch==='Fatality'){await q(wvShow(0,{}));fshChk();await fshW(sleep(900));fshChk();brutClean();}
     else{if(ch==='Brutality')brutClean();const b=$('#fBanner');b.className='f-banner endb';b.innerHTML=`<div class="fin-t end-in"><img src="${FSH_IMG[ch]}" alt="${ch}"></div>`;b.hidden=false;void b.offsetWidth;b.classList.add('pop');
       try{SFX.say(ch)}catch(e){}
+      /* Friendship na opção por personagem: fica repetindo até o jogador clicar em próximo ou sair */
+      if(ch==='Friendship'&&P.solo){await fshW(new Promise(()=>{}));}
       await fshW(sleep(1500));b.hidden=true;fshChk();}}
   finally{MUSIC.holdFx(false);}}
 function fshEnd(toCred){if(!FSH)return;const solo=FSH.sel;FSH=null;fightTok++;MUSIC.holdFx(false);fshResume();['fshTg','fshPz'].forEach(i=>{const e=document.getElementById(i);if(e)e.remove()});$('#fight').classList.remove('fsh-hide');
