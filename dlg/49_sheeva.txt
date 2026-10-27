@@ -1,0 +1,468 @@
+=Sheeva|Sheeva
+A: Outra Shokan com a minha cara? Os deuses estão sem ideia. / Ou estão testando quem tem mais honra. / Então isso acaba rápido.
+A: Quatro braços contra quatro braços. Justo. / Justo e barulhento. / Os Shokan gostam de barulho.
+
+=Sheeva|Coelho
+A: Pequeno e rápido. Os pequenos sempre acham que vão escapar. / Eu sempre escapo. / Não de quatro mãos.
+A: Mil cortes, foi o que disseram de você. / Mil e um, se você ficar parada. / Eu não fico parada. Eu piso.
+
+=Coelho|Sheeva
+A: Você é enorme. Vai ser fácil acertar. / E vai ser fácil te esmagar. / Só se me pegar.
+A: Dizem que Shokan não pula. Pula? / Pulo tão alto que some da tela. / Isso é trapaça.
+
+=Sheeva|Tigre
+A: Um homem-tigre. Os Shokan caçavam bichos como você. / Eu não sou bicho. / Ruge como um.
+A: Sua foice é afiada. Meus braços, mais. / Braço não corta. / Braço quebra.
+
+=Tigre|Sheeva
+A: Shokan. Uma presa grande. / Presa? Eu sou a caçadora. / Então vamos ver quem caça quem.
+A: Você ruge mais que eu. / Eu não rujo. Eu piso. / Isso ainda é barulho.
+
+=Sheeva|Cobra
+A: Mais um que serviu ao tal Supremo. Eu também já servi a um monstro. / E saiu? / Saí. E arrastei o trono comigo.
+A: Seus olhos de cobra não me assustam. / Deveriam. Eu drenei gente maior que você. / Ninguém é maior que um Shokan.
+
+=Cobra|Sheeva
+A: Shokan. Sua alma deve ser pesada. / Pesada demais para você engolir. / Vou tentar mesmo assim.
+A: Você serviu um imperador. Eu servi um Supremo. Somos iguais. / Não. Eu me rebelei. / Eu também. Do meu jeito.
+
+=Sheeva|Cabra
+A: Um homem-bode do Supremo. Os centauros também se achavam fortes. / Os centauros não tinham dinamite. / Também não tinham pressa de morrer. Você tem?
+A: Você cheira a pólvora e a medo. / Pólvora é minha. O medo deve ser seu. / Shokan não sente medo. Sente fome de luta.
+
+=Cabra|Sheeva
+A: Eu explodo coisas grandes. Você é bem grande. / E você é pequeno demais para isso. / Então vamos ver o que sobra.
+A: Quatro braços, quatro alvos. / Quatro mãos para jogar a sua bomba de volta. / Ninguém nunca fez isso.
+
+=Sheeva|Touro
+A: Um touro. Os centauros também tinham chifres. / E perderam? / Perderam para mim.
+A: Pode correr. Eu seguro. / Ninguém segura um touro. / Eu tenho quatro mãos.
+
+=Touro|Sheeva
+A: Quatro braços. Mais coisa para meus chifres furarem. / Mais braços para segurar esses chifres. / Tente.
+A: Eu derrubo paredes com a cabeça. / Eu derrubo touros com as mãos. / Vamos ver isso.
+
+=Sheeva|Lorenzo
+A: Garoto de Edênia. Você carrega mortos nas costas. / Milhares. / Então precisa de braços fortes. Treine comigo.
+A: Sua foice é estranha. Sua tristeza também. / Os dois cortam. / Os Shokan respeitam isso.
+
+=Lorenzo|Sheeva
+A: Quatro braços? Já pensou em virar meme? / O que é meme? / Uma coisa que eu vou fazer de você.
+A: Você é a guarda da Kahn. Eu sou ninguém. / Ninguém não carrega um massacre nas costas. / Isso foi quase um elogio.
+
+=Sheeva|Art the Clown
+A: Um bobo da corte que não fala. Exoterra tinha vários. / ... / Todos acabaram no Koliseu. Você também vai.
+A: Pode rir, palhaço. Eu tenho quatro mãos para tirar esse sorriso. / ... / Que pena. Ia ser uma conversa curta.
+
+=Art the Clown|Sheeva
+A: ... / Se quer mímica, eu faço: quatro socos. / ...
+A: ... / Essa serra não corta pele Shokan, palhaço. / ...
+
+=Sheeva|Freddy Krueger
+A: Um demônio de sonho. Eu não durmo durante a guerra. / Uma hora você dorme, querida. / E vou sonhar com sua cara amassada.
+A: Essas garras me lembram os tarkatanos. Só que mais feias. / Feias e afiadas. / Feias e quebradas, em breve.
+
+=Freddy Krueger|Sheeva
+A: Quatro braços! Mais coisa para eu cortar. / Mais mãos para te pegar. / Bem-vinda ao meu pesadelo.
+A: Já sonhou com o seu povo de joelhos? / Esse é o seu último erro. / Eu adoro quando ficam bravos.
+
+=Sheeva|Jason Voorhees
+A: Você não fala, não sente e não morre. Os Shokan chamariam isso de bom soldado. / ... / Mas eu prefiro quem sangra.
+A: Machete contra quatro punhos. / ... / Eu também não gosto de conversa.
+
+=Jason Voorhees|Sheeva
+A: ... / Você levanta mesmo depois de morto? Eu também sei fazer isso. / ...
+A: ... / Silêncio. Gosto disso em um oponente. / ...
+
+=Sheeva|Stefan
+A: Vampiro de olhos tristes. Você luta contra a própria fome. / Todo dia. / Então você entende disciplina.
+A: Você é educado. Isso não salva ninguém em Exoterra. / Salva quem eu amo. / Então lute por eles.
+
+=Stefan|Sheeva
+A: Quatro braços. Imagino a força. / Não imagine. Sinta. / Eu tinha medo disso.
+A: Você parece uma guerreira cansada de guerra. / Cansada não. Acostumada. / Isso é pior.
+
+=Sheeva|Damon
+A: Vampiro. Você parece frágil para quem vive há séculos. / Charme é minha armadura. / A minha é de couro e osso.
+A: Tem sorriso de traidor. / E você tem cara de quem nunca riu. / Vou rir quando você cair.
+
+=Damon|Sheeva
+A: Quatro braços. Imagino os abraços. / Imagine os socos. / Prefiro os abraços, mas tudo bem.
+A: Você não é humana. Não sei se posso te morder. / Tente. Vai perder os dentes. / Desafio aceito.
+
+=Sheeva|Bonnie
+A: Bruxa. Shang Tsung me fez desconfiar de feitiços. / Os meus vêm dos meus ancestrais. Não de almas roubadas. / Vou lembrar disso quando você me queimar.
+A: Você mexe com a mente. Eu mexo com ossos. / Cuidado. Eu estouro veias de longe. / E eu esmago de perto. Chegue mais.
+
+=Bonnie|Sheeva
+A: Quatro braços. Eu só tenho dois e uma dor de cabeça enorme. / Então vou acabar rápido com ela. / Não era um convite.
+A: Você é Shokan, certo? Nunca li nada sobre vocês. / Os Shokan não escrevem. Nós lutamos. / Isso explica muita coisa.
+
+=Sheeva|Lexi
+A: Vampira de sorriso fácil. Na guerra, isso acaba. / Eu sorrio até na guerra. / Então sorria agora.
+A: Você é rápida. Eu sou paciente. / Paciência não me alcança. / O chão alcança todo mundo.
+
+=Lexi|Sheeva
+A: Quatro braços. Já pensou na festa que você seria? / Já pensei na luta que eu sou. / Que triste.
+A: Relaxa, Shokan. Ninguém aqui é seu imperador. / Ainda bem. / Viu? Já está melhor.
+
+=Sheeva|Sonya Blade
+A: Soldado do Plano Terreno. Lutamos juntas contra Kronika. / E ganhamos. / Agora uma de nós vai perder.
+A: Seus anéis de energia coçam. / Eles cortam. / Na pele Shokan, coçam.
+
+=Sonya Blade|Sheeva
+A: Sheeva. Prefiro você como aliada. / Hoje sou adversária. / Então sem piedade.
+A: Kano está na lista de nós duas. / A minha lista é mais longa. / Então vamos tirar ele da sua.
+
+=Sheeva|Jax
+A: Braços de metal. Dois. Eu tenho quatro de carne. / Os meus não cansam. / Os meus não enferrujam.
+A: Você lutou em Exoterra antes. Lembro do seu nome. / Lembro do seu pisão. Doeu. / Vai doer de novo.
+
+=Jax|Sheeva
+A: Shokan. Já enfrentei o Goro. Você é a próxima? / O Goro é um tolo. Eu não sou. / Ótimo. Vai ser mais interessante.
+A: Quatro braços contra dois de aço. Parece justo. / É justo para mim. / Veremos.
+
+=Sheeva|Kano
+A: Kano. Você me vendeu para Shao Kahn. / Negócios, querida. Nada pessoal. / Para mim é pessoal.
+A: Eu disse que ia te encontrar, mercenário. / E eu disse que ia fugir. / Desta vez não tem porta.
+
+=Kano|Sheeva
+A: Sheeva! Ainda brava por aquela vez? / Brava é pouco. / Vamos negociar. Eu te dou um desconto.
+A: Quatro mãos, quatro carteiras para eu roubar. / Tente e perde as suas. / Gosto de um desafio.
+
+=Sheeva|Jade
+A: Jade. A sombra da Kahn. / E você, o escudo dela. / Então somos uma família estranha.
+A: Seu bastão é rápido. Meus braços são mais. / Velocidade não é tudo, Shokan. / Força também não. Mas ajuda.
+
+=Jade|Sheeva
+A: Sheeva. A Kahn confia em você. Eu ainda observo. / Observe. Eu não escondo nada. / É isso que me deixa desconfiada.
+A: Treino com você ou briga? / Os Shokan não veem diferença. / Eu sabia que ia doer.
+
+=Sheeva|Ana Letícia
+A: Você sorri demais para quem está numa luta. / Eu sorrio para as câmeras. / Aqui não tem câmera.
+A: Advogada? Em Exoterra a lei é o punho. / Então eu mudo de tribunal. / Este tribunal é meu.
+
+=Ana Letícia|Sheeva
+A: Quatro braços! Você ia arrasar numa novela. / Eu arraso em batalha. / Também serve.
+A: Posso te processar por excesso de braços? / Pode tentar. / Vou entrar com o recurso depois.
+
+=Sheeva|Vega
+A: Uma assassina de máscara. Os Shokan lutam de rosto limpo. / Minha máscara não esconde. Revela. / Então vou arrancá-la.
+A: Seus lobos uivam. Eu piso. / Os lobos são rápidos. / Meu pisão é mais.
+
+=Vega|Sheeva
+A: Quatro braços. Meu contrato não falava nisso. / Cobre a mais. / Já estou cobrando.
+A: Uma Shokan. Grande demais para ser discreta. / Eu não preciso de discrição. / Eu preciso. Por isso vou ganhar.
+
+=Sheeva|Teresa
+A: Você tem cara de rainha que manda matar. / E você tem cara de quem obedece. / Obedeço a quem merece.
+A: Pistolas não furam pele Shokan. / Furam qualquer coisa. / Venha descobrir.
+
+=Teresa|Sheeva
+A: Uma guarda-costas de quatro braços. Quanto você cobra? / Você não tem ouro suficiente. / Eu sempre tenho.
+A: Quatro braços e nenhuma elegância. / Elegância não vence luta. / Vence. Você vai ver.
+
+=Sheeva|Rudolf
+A: Filho de Kitana. Sua mãe me pediu para cuidar de você. / Eu sei me cuidar. / Então me prove.
+A: Seus leques pegam fogo. Meus punhos também. / Os leques voam mais longe. / Meus pisões caem mais forte.
+
+=Rudolf|Sheeva
+A: Tia Sheeva! Pega leve, que a mãe tá olhando. / Ela pediu para eu não pegar. / Típico.
+A: Quatro braços e nenhum leque. Que desperdício. / Quer emprestar os seus? / Nem pensar.
+
+=Sheeva|Mileena
+A: Mileena. A Kahn é sua irmã, e eu sirvo a ela. / Servir é tudo que você sabe fazer. / E lutar. Já vai ver.
+A: Seus dentes não me assustam. / Deveriam. / Os Shokan também mordem.
+
+=Mileena|Sheeva
+A: A cadela de guarda da minha irmã. / A guarda que já te derrubou uma vez. / Desta vez eu como você.
+A: Quatro braços. Eu queria saber que gosto tem. / Gosto de derrota. / Deliciosa.
+
+=Sheeva|Kitana
+A: Minha Kahn. Treinar com você é uma honra. / Não pegue leve, Sheeva. / Os Shokan nunca pegam leve.
+A: Eu protegi sua mãe. Agora protejo você. / Então me prove que ainda está afiada. / Prove você.
+
+=Kitana|Sheeva
+A: Sheeva. Você foi a primeira a duvidar de mim. / E a primeira a ficar quando os outros fugiram. / Por isso confio em você.
+A: Mostre ao meu povo a força dos Shokan. / Com prazer, minha Kahn. / Mas não quebre muito o chão.
+
+=Sheeva|Katherine Pierce
+A: Você trai como respira. Eu odeio traidores. / Eu sobrevivo. É diferente. / Para mim é igual.
+A: Sorriso bonito. Os traidores sempre têm. / E as guerreiras sempre têm mau humor. / Com razão.
+
+=Katherine Pierce|Sheeva
+A: Quatro braços. Imagino quantas vezes você já foi traída. / Uma vez a mais do que eu perdoei. / Então não vou pedir perdão.
+A: Você é leal demais. Isso te mata um dia. / Morro de pé. / Que drama.
+
+=Sheeva|Sub-Zero
+A: Lin Kuei. Seu gelo não congela sangue Shokan. / Congela qualquer coisa. / Então tente.
+A: Você é frio. Eu sou montanha. / Montanhas também congelam. / E derrubam avalanches.
+
+=Sub-Zero|Sheeva
+A: Shokan. Força bruta não vence técnica. / Técnica não segura quatro punhos. / Veremos.
+A: O Lin Kuei respeita força. Prove a sua. / Prepare o gelo. Eu trago o pisão. / Combinado.
+
+=Sheeva|Scorpion
+A: Escorpião. Meu animal favorito. / Que coincidência infeliz para você. / Vamos ver qual ferrão é mais forte.
+A: Sua lança puxa. Meus braços seguram. / Get over here, Shokan. / Venha você.
+
+=Scorpion|Sheeva
+A: Eu sinto o calor da sua raiva. / É o calor do meu povo. / Então queime comigo.
+A: Shokan. Eu já derrotei o Goro. / O Goro é um tolo. / Isso todo mundo concorda.
+
+=Sheeva|Baraka
+A: Tarkatano. Sem a sua tribo, Kitana nunca teria me convencido. / Os tarkatanos lutam por quem nos trata como gente. / Os Shokan também. Hoje, só um de nós lutando.
+A: Lembra do Koliseu? Você nas lâminas, eu nos punhos. / Lembro. E lembro de você pisando no meu pé. / Foi de propósito. Você estava no meu caminho.
+
+=Baraka|Sheeva
+A: Sheeva. Kitana disse que você não confiava em nós. / Não confiava. Até ver vocês sangrarem por Exoterra. / Então confie nas minhas lâminas agora.
+A: Shokan e tarkatanos lado a lado. Quem diria. / Hoje não. Hoje é treino. / Treino com sangue. Do jeito que eu gosto.
+
+=Sheeva|Raiden
+A: Deus do trovão. Você nunca confiou nos Shokan. / Confiei quando foi preciso. / Então confie no meu pisão.
+A: Seu raio dói. Meu punho dói mais. / Raio é mais rápido. / Punho é mais perto.
+
+=Raiden|Sheeva
+A: Sheeva. Kronika caiu também por causa dos Shokan. / Os Shokan não esquecem quem lutou junto. / Nem eu.
+A: Mostre a força de Exoterra. / Mostre a força do céu. / Então vamos tremer o chão e o céu.
+
+=Sheeva|Geras
+A: O servo de Kronika. Eu lutei contra a sua mestra. / Eu lembro. Você perdeu. / Perdi uma batalha. Ganhei a guerra.
+A: Areia e tempo. Eu prefiro pedra e punho. / O tempo vence a pedra. / Não hoje.
+
+=Geras|Sheeva
+A: Eu já vi você cair mil vezes em outras linhas do tempo. / Então já viu eu me levantar mil e uma. / Isso também está nos registros.
+A: Shokan. Força sem fim, paciência curta. / Paciência acabou agora. / Previsível.
+
+=Sheeva|Johnny Cage
+A: O ator. Você fala demais. / E você bate demais. A gente se completa. / Não completa nada.
+A: Tira esses óculos. Quero ver os olhos de quem vou derrubar. / Os óculos ficam. É contrato. / Então vão quebrar junto.
+
+=Johnny Cage|Sheeva
+A: Uau. Quatro braços. Já pensou em fazer cinema? / Eu já penso em te quebrar. / Isso é um sim?
+A: Você bem que podia ser dublê. / Os Shokan não fingem. Os Shokan batem. / Sem ensaio? Que medo.
+
+=Sheeva|Ladybug
+A: Uma heroína de máscara vermelha. Pequena, mas corajosa. / A sorte me ajuda. / Sorte não segura um pisão.
+A: Seu ioiô não me prende. / Você nunca viu meu ioiô. / Eu já vi correntes maiores.
+
+=Ladybug|Sheeva
+A: Uau, quatro braços! Isso deve ajudar a lavar louça. / Ajuda a quebrar crânios. / Ok, menos legal.
+A: Eu protejo Paris. Você protege o quê? / Meu povo inteiro. / Então nós duas temos muito trabalho.
+
+=Sheeva|Conan
+A: Um bárbaro de outro mundo. Você lembra os guerreiros Shokan. / Por Crom, você tem braços demais. / E você tem músculos de menos.
+A: Sua espada é boa. Meus punhos são melhores. / Vamos ver isso no aço. / No aço e no osso.
+
+=Conan|Sheeva
+A: Mulher de quatro braços. Já vi coisas mais estranhas na Ciméria. / Duvido. / Tem razão. Não vi.
+A: Você luta como uma rainha bárbara. / Os Shokan não têm rainha. Têm guerreiras. / Melhor ainda.
+
+=Sheeva|Cyrax
+A: Uma máquina amarela. Nunca confiei em coisas que não sangram. / Eu fui humano. Já sangrei muito. / Então vai sangrar óleo hoje.
+A: Sua bomba faz tique. Meu pisão faz silêncio. / Análise: ameaça alta. / Análise certa.
+
+=Cyrax|Sheeva
+A: Alvo identificado: Shokan, fêmea, quatro membros superiores. / E muita paciência perdida. / Paciência não consta na análise.
+A: Protocolo: neutralizar ameaça. / Tente neutralizar quatro punhos. / Recalculando.
+
+=Sheeva|Ermac
+A: Feito de almas. Shao Kahn adorava criar soldados assim. / Nós somos muitos. Você é uma. / Uma Shokan vale um exército.
+A: Você também foi escravo do Kahn. / Nós escolhemos ser livres. / Então lutamos do mesmo lado. Hoje não.
+
+=Ermac|Sheeva
+A: Nós lembramos de você. Carcereira do imperador. / Eu também lembro de vocês. Barulhentos. / Nós somos legião.
+A: Nós sentimos a sua raiva. Ela é antiga. / Tão antiga quanto o Koliseu. / Então vamos acabar com ela.
+
+=Sheeva|General Shao
+A: Shao. Os Shokan nunca vão se ajoelhar para outro Kahn. / Vocês se ajoelharam antes. / E nos levantamos. Com o seu trono nas costas.
+A: Seu machado é pesado. Meus quatro braços aguentam. / Vou arrancar um de cada vez. / Tente o primeiro.
+
+=General Shao|Sheeva
+A: Sheeva. A guarda-costas que traiu o imperador. / Eu traí um tirano. Você é o próximo. / Então venha. Os Shokan sempre morrem de pé.
+A: Os Shokan servem a quem é forte. Eu sou forte. / Os Shokan servem a quem tem honra. / Honra não ganha guerras.
+
+=Sheeva|Ashrah
+A: Uma demônia que quer ser pura. Os Shokan não se envergonham do que são. / Vocês nunca carregaram uma Kriss. / Não precisamos. Nossos braços bastam.
+A: Sua espada brilha. A minha honra também. / A honra não corta demônios. / Corta traidores. É o que me importa.
+
+=Ashrah|Sheeva
+A: Você serviu Shao Kahn por séculos. Ainda carrega essa mancha? / Carrego. E carrego o dia em que me virei contra ele. / Então talvez você também procure redenção.
+A: Quatro braços e nenhuma dúvida. Eu invejo isso. / Dúvida é luxo de quem não protege ninguém. / Então eu protejo a mim mesma. Lute.
+
+=Sheeva|Ghostface
+A: Um mascarado com uma faca. Na minha terra isso é piada. / Na minha é filme. / Então vai ter um final ruim.
+A: Você liga para as vítimas? Eu só piso nelas. / Que falta de estilo. / Falta de paciência.
+
+=Ghostface|Sheeva
+A: Qual é o seu filme de terror favorito? / A sua derrota. / Boa resposta. Clichê, mas boa.
+A: Quatro braços. Fica difícil se esconder no armário. / Eu não me escondo. Você sim. / Só às vezes.
+
+=Sheeva|Havik
+A: Clérigo do Caos. Os Shokan respeitam ordem. / Ordem é uma jaula. / Então eu vou te prender nela.
+A: Seu corpo é torto. O meu é de guerra. / O meu é livre. / Livre para quebrar.
+
+=Havik|Sheeva
+A: Uma guerreira presa a juramentos. Que tédio. / Juramento é o que me mantém de pé. / Vamos ver se mantém agora.
+A: Quatro braços, e todos presos à mesma regra. / E todos prontos para quebrar o seu pescoço. / Isso sim é caos.
+
+=Sheeva|Homelander
+A: Você se diz herói e voa como um deus. Shao Kahn também se achava. / Eu sou melhor que qualquer Kahn. / Todos dizem isso antes de cair.
+A: Seu olhar queima. Minha pele aguenta. / Ninguém aguenta. / Os Shokan aguentam.
+
+=Homelander|Sheeva
+A: Quatro braços e nenhum fã. Que triste. / Eu tenho um povo. Você tem câmeras. / O povo é que tem a mim.
+A: Ajoelha e eu te deixo viver. / Os Shokan não se ajoelham. / Então vai ser do jeito difícil.
+
+=Sheeva|Li Mei
+A: Li Mei. Pequena para tanto fogo. / O fogo cabe em qualquer tamanho. / O meu cabe em quatro punhos.
+A: Você protegeu sua aldeia. Eu protejo meu povo. / Então lutamos pelo mesmo motivo. / Mas só uma de nós vence.
+
+=Li Mei|Sheeva
+A: Você é enorme. Vou precisar de muitos golpes. / Precisa de mais do que isso. / Eu tenho tempo.
+A: Shokan! Minha avó contava histórias sobre vocês. / Eram histórias de medo? / Eram de respeito.
+
+=Sheeva|Liu Kang
+A: O protetor do tempo. Na minha linha, você também lutou ao meu lado. / Em muitas linhas, sim. / Então você sabe como eu bato.
+A: Seu fogo é dragão. O meu é Shokan. / Os dois queimam. / O meu queima mais perto.
+
+=Liu Kang|Sheeva
+A: Sheeva. Em todas as eras, você é leal. / Leal a quem merece. / Espero continuar merecendo.
+A: Mostre-me a força Shokan. / Prepare o chão. / Já está pronto.
+
+=Sheeva|Kung Lao
+A: Chapéu afiado. Truque bonito. / Truque mortal. / Truque que eu piso em cima.
+A: Shaolin. Vocês sempre lutam em grupo. / Hoje eu luto sozinho. / Hoje você perde sozinho.
+
+=Kung Lao|Sheeva
+A: Quatro braços e nenhum chapéu. / Eu não preciso de chapéu. / Todo mundo precisa de estilo.
+A: Já derrubei um Shokan com um chapéu. / Era um Shokan fraco. / Era o Goro.
+
+=Sheeva|Kenshi
+A: Cego e mesmo assim enxerga mais que muitos Kahns. / A espada vê por mim. / Então ela vai ver você cair.
+A: Sua alma é calma. A minha ferve. / Calma vence a raiva. / Não a raiva Shokan.
+
+=Kenshi|Sheeva
+A: Sinto quatro corações de raiva em você. / Só um. Mas é grande. / Então bate forte.
+A: Sento me avisa: cuidado com o pisão. / Sua espada é esperta. / Eu também.
+
+=Sheeva|Omni-Man
+A: Mais um conquistador de outro mundo. Já derrubei um imperador. / Eu não sou um imperador. Sou pior. / Todos dizem isso.
+A: Você é forte. Eu sou forte e tenho quatro braços. / Força não é matemática. / Aqui é.
+
+=Omni-Man|Sheeva
+A: Os Viltrumitas conquistaram povos mais fortes que o seu. / Nenhum era Shokan. / Vamos descobrir.
+A: Quatro braços. Interessante. Inútil, mas interessante. / Inútil vai ser o seu bigode. / Agora ficou pessoal.
+
+=Sheeva|Noob Saibot
+A: Sombra. Os Shokan não temem o escuro. / O escuro teme a mim. / Então vamos acender a luta.
+A: Você e seu clone. Mais dois para eu derrubar. / Mais duas para nós matarmos. / A conta não fecha para vocês.
+
+=Noob Saibot|Sheeva
+A: O Netherrealm guarda um lugar para você. / Um dia. Não hoje. / Hoje mesmo.
+A: Sua alma é teimosa. / Como todo Shokan. / Eu gosto de quebrar o que é teimoso.
+
+=Sheeva|Peacemaker
+A: Você faz guerra pela paz. Os Shokan também. / Finalmente alguém que entende. / Mas o capacete é feio.
+A: Pare de falar e lute. / Eu luto falando. / Então vai perder falando.
+
+=Peacemaker|Sheeva
+A: Quatro braços! Imagina quantas armas você segura. / Eu não preciso de armas. / Isso é muito triste.
+A: Eu mato pela paz. E você? / Pela honra do meu povo. / Também serve.
+
+=Sheeva|Nitara
+A: Vampira de Vaeternus. Seu povo bebe. O meu luta. / O meu também luta. De barriga cheia. / Então hoje fica com fome.
+A: Asas não fogem de quatro mãos. / Asas voam. / Eu salto mais alto.
+
+=Nitara|Sheeva
+A: Seu sangue deve ser forte como montanha. / E amargo para você. / Vou provar mesmo assim.
+A: Shokan e vampiros. Dois povos que o Kahn usou. / Dois povos livres agora. / Então lutemos livres.
+
+=Sheeva|Quan Chi
+A: Feiticeiro. Você já trouxe mortos de volta. Eu ajudei a trazer Sindel. / E se arrependeu. / Muito. Você vai pagar por ela.
+A: Suas magias verdes não pegam em pele Shokan. / Pegam em qualquer pele. / Venha provar.
+
+=Quan Chi|Sheeva
+A: Uma Shokan. Seu esqueleto daria um ótimo trono. / O seu vai virar pó. / Que deselegante.
+A: Sindel voltou graças a gente como você. Que ironia. / Eu corrijo meus erros. / Então comece por mim.
+
+=Sheeva|Reiko
+A: O general de Shao Kahn. Você lembra de mim nas masmorras? / Lembro. Você vigiava os presos. / E você era um deles por dentro.
+A: Você é ambicioso. Eu sou leal. Hoje isso decide. / Ambição vence lealdade. / Não contra quatro punhos.
+
+=Reiko|Sheeva
+A: A carcereira do Kahn. Você abria as celas para mim. / E hoje eu fecho a sua. / Que poético.
+A: Shokan. Força sem cérebro. / Força com quatro punhos. / Mesma coisa.
+
+=Sheeva|Rain
+A: Príncipe de Edênia. Você mudou de lado mais vezes que o vento. / A água segue o caminho mais fácil. / O caminho fácil termina no meu pé.
+A: Sua água não apaga meu fogo. / Apaga qualquer fogo. / Não o fogo Shokan.
+
+=Rain|Sheeva
+A: Shokan. Sempre leal a quem manda. / Leal a quem merece. / Eu mereço?
+A: A água contorna qualquer pedra. / Esta pedra rola em cima de você. / Que imagem desagradável.
+
+=Sheeva|Sektor
+A: Mais uma máquina vermelha. A primeira era amarela. / Eu sou o modelo superior. / O chão não liga para modelo.
+A: Seus mísseis me seguem. Eu vou atrás de você. / Erro de cálculo. / Erro seu.
+
+=Sektor|Sheeva
+A: Alvo: Shokan. Taxa de sucesso: alta. / Recalcule. / Recalculado. Ainda alta.
+A: Ameaça Shokan detectada. Iniciando extermínio. / Inicie. Eu termino. / Protocolo de combate ativo.
+
+=Sheeva|Reptile
+A: Zaterrano. Seu povo também foi escravo do Kahn. / E foi esquecido. / Os Shokan não esquecem.
+A: Pode ficar invisível. Eu sinto o chão tremer. / Eu não faço barulho. / Mas eu faço.
+
+=Reptile|Sheeva
+A: Shokan. Vocês tiveram mais sorte que o meu povo. / Sorte não. Força. / Então eu vou tirar a sua.
+A: Eu posso sumir na sua frente. / E eu posso pisar onde você sumiu. / Arriscado.
+
+=Sheeva|Shang Tsung
+A: Shang Tsung. Eu te ajudei a pegar a coroa. Erro meu. / Você foi muito útil, Shokan. / Agora vou ser útil para quebrar você.
+A: Sua língua é mais afiada que lâmina. / E a sua alma é mais saborosa que pão. / Tente morder.
+
+=Shang Tsung|Sheeva
+A: Sheeva, minha aliada favorita. Que pena que acabou. / Não fui sua aliada. Fui enganada. / Dá no mesmo.
+A: Sua alma Shokan valeria um ano de vida. / Valeria um dente quebrado seu. / Que oferta pobre.
+
+=Sheeva|Takeda
+A: Filho de Scorpion. Seu chicote é rápido. / Rápido e longo. / Meus braços também.
+A: Você é jovem para enfrentar uma Shokan. / Eu já enfrentei coisa pior. / Duvido.
+
+=Takeda|Sheeva
+A: Quatro braços. Vou precisar de quatro chicotadas. / Vai precisar de quarenta. / Eu tenho tempo.
+A: Meu pai me ensinou a respeitar os Shokan. / Seu pai é sábio. / E eu sou teimoso.
+
+=Sheeva|Tanya
+A: Tanya. Você vende qualquer um. / Eu sobrevivo. / Os Shokan chamam isso de traição.
+A: Seus bastões giram. Meus punhos também. / Giram mais rápido. / Batem mais forte.
+
+=Tanya|Sheeva
+A: Sheeva, que tal um acordo? / Eu não faço acordo com quem trai. / Pena. Eu ofereceria um bom preço.
+A: Você está do lado da Kitana. Por quanto tempo? / Para sempre. / Ninguém é leal para sempre.
+
+=Sheeva|Smoke
+A: Fumaça. Difícil de acertar. / Impossível, na verdade. / Fumaça some com vento. Eu sou vento.
+A: Você some e aparece. Eu espero. / Espere sentada. / Eu espero de pé, pronta para pisar.
+
+=Smoke|Sheeva
+A: Você é grande demais para me pegar. / Grande demais para cair também. / Vamos testar as duas coisas.
+A: Shokan não pegam fumaça. / Mas pegam quem está dentro dela. / Boa sorte com isso.
+
+=Sheeva|T-1000
+A: Metal líquido. Os Shokan nunca viram nada assim. / Eu me adapto a qualquer coisa. / Adapte-se a ser pisado.
+A: Você muda de forma. Eu mudo de humor. / Humor não é uma ameaça. / O meu é.
+
+=T-1000|Sheeva
+A: Analisando: quatro braços. Copiando. / Não vai copiar a honra. / Honra não é necessária.
+A: Seu corpo tem pontos fracos. / Encontre algum. / Procurando.
+
+=Sheeva|Sindel
+A: Minha rainha. Eu te protegi por séculos, e você traiu todos nós. / Eu fiz o que era necessário. / Então eu faço o que é necessário agora.
+A: Eu ajudei a trazer você de volta. Vou ajudar a mandar de volta. / Você não conseguiu da última vez. / Da última vez eu não estava com raiva.
+
+=Sindel|Sheeva
+A: Minha guarda leal. Ainda acha que tem escolha? / Sempre tive. Escolhi você uma vez. / E se arrependeu. Que fraqueza.
+A: Ajoelhe-se diante da sua rainha. / Você deixou de ser minha rainha quando traiu Kitana. / Então vou te ensinar de novo.
+
