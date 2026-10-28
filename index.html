@@ -4386,7 +4386,7 @@ D.elementos = {
   'Ácido': {cor:'#9be22d', adj:'corrosivo', subs:'ácido', proj:['Cuspe Corrosivo','Bolha Tóxica','Névoa Ácida'], aura:['Pele Camaleão','Invisibilidade Sáuria'], animal:['camaleão gigante','naja colossal','sapo venenoso enorme'], morte:'derrete até virar uma poça borbulhante', bebe:'baba uma bolha verde e ri sozinho', amigo:'rega uma plantinha que cresce na hora'},
   'Vento': {cor:'#bfe9dd', adj:'cortante', subs:'ventos', proj:['Lâmina de Vendaval','Tornado Fino','Rajada Fujin'], aura:['Salto do Ciclone','Escudo de Ar'], animal:['falcão gigante','dragão do vento','grifo'], morte:'é girado num tornado de lâminas até virar confete', bebe:'tenta soprar uma vela e é levado pelo próprio sopro', amigo:'empina uma pipa com o símbolo do clã'},
   'Água': {cor:'#3fa9ff', adj:'abissal', subs:'águas', proj:['Bolha Prisão','Chicote de Maré','Gêiser'], aura:['Forma Líquida','Tridente da Maré'], animal:['leviatã','orca colossal','polvo gigante'], morte:'é afogado numa bolha flutuante e esmagado pela pressão do abismo', bebe:'brinca numa banheirinha com patinho', amigo:'faz um arco-íris com um jato d’água'},
-  'Terra': {cor:'#c08a4a', adj:'tectônico', subs:'rochas', proj:['Pedregulho Partido','Estaca de Granito','Onda Sísmica'], aura:['Pele de Pedra','Muralha Erguida'], animal:['gorila de pedra','tatu blindado gigante','rinoceronte de basalto'], morte:'é engolido pelo chão, que se fecha com um estalo seco', bebe:'empilha pedrinhas e derruba tudo', amigo:'planta um jardim zen na arena'},
+  'Terra': {cor:'#c08a4a', adj:'tectônico', subs:'rochas', proj:['Pedregulho Partido','Estaca de Granito','Onda Sísmica'], aura:['Pele de Pedra','Muralha Erguida'], animal:['urso de pedra','tatu blindado gigante','rinoceronte de basalto'], morte:'é engolido pelo chão, que se fecha com um estalo seco', bebe:'empilha pedrinhas e derruba tudo', amigo:'planta um jardim zen na arena'},
   'Tempo / Areia': {cor:'#e8c170', adj:'temporal', subs:'areia do tempo', proj:['Ampulheta Partida','Areia Afiada','Eco do Ontem'], aura:['Voltar Três Segundos','Congelar o Instante'], animal:['escaravelho colossal','serpente das dunas','esfinge'], morte:'envelhece mil anos em três segundos e vira pó', bebe:'faz o oponente desenvelhecer até virar bebê de colo', amigo:'entrega um relógio de bolso com dedicatória'},
   'Caos': {cor:'#c44dff', adj:'caótico', subs:'caos', proj:['Fissura do Caos','Riso Partido','Estilhaço Anárquico'], aura:['Corpo Desconjuntado','Troca de Lugar'], animal:['quimera de três cabeças','hiena mutante','dragão de várias bocas'], morte:'tem o corpo reorganizado na ordem errada', bebe:'monta um quebra-cabeça com as peças trocadas e bate palmas', amigo:'organiza uma festa surpresa completamente bagunçada'},
   'Ordem': {cor:'#f2e2a0', adj:'absoluto', subs:'luz da Ordem', proj:['Selo da Lei','Prisma Perfeito','Decreto Final'], aura:['Muralha de Regras','Julgamento Exato'], animal:['leão dourado','coruja de bronze','touro de mármore'], morte:'é dividido em cubos perfeitamente iguais', bebe:'arruma os brinquedos por cor e tamanho', amigo:'entrega um diploma de participação carimbado'},
@@ -6295,7 +6295,7 @@ const FICHA_EXTRA={
     {n:'Peso Morto',cond:'O golpe final deve ser a Pancada Dupla.',d:'Na última batida o oponente afunda no chão e não sai mais.'},
     {n:'Curto-Circuito',cond:'Termine com a Rajada de Pulso. Segure →.',d:'A rajada atravessa o oponente e sai fumaça pelas costas.'},
     {n:'Contagem Encerrada',cond:'Termine com o Tremor de Terra.',d:'O tremor estoura o oponente como um saco de areia.'}],
-  animality:{animal:'gorila de prata',n:'Gorila de Aço',c:'← → ↓ 4',d:'Jax vira um gorila enorme de braços metálicos, bate no peito e esmaga o oponente com um só soco.'},
+  animality:{animal:'leão',n:'Leão de Aço',c:'← → ↓ 4',d:'Jax vira um leão de juba prateada e garras de metal, ruge e esmaga o oponente com uma patada só.'},
   babality:{n:'Bebê Bombado',c:'↓ ← ↓ 3',d:'O oponente vira um bebê com bracinhos de metal pesados demais para levantar. Ele tenta, desiste e chora.'},
   friendship:{n:'Queda de Braço',c:'→ ← ↓ 1',d:'Jax puxa uma mesa, convida o oponente para uma queda de braço e perde de propósito, sorrindo.'},
   faccao:{n:'Forças Especiais',d:'A unidade de elite do Plano Terreno, treinada para quando os portais se abrem.'}},
@@ -7051,7 +7051,7 @@ Object.assign(FICHA_EXTRA,{
     {n:'Leg Day',cond:'Termine com a Joelhada Mortal.',oficial:'MK11',d:'Jacqui segura o pescoço e dá joelhadas até a última atravessar a cabeça do oponente.'},
     {n:'Just Kickin\' It',cond:'Termine com um chute. Segure 4.',oficial:'MK11',d:'Um chute giratório com a bota reforçada tão forte que arranca a cabeça e a manda longe.'}],
   finSrc:'MK11',
-  animality:{animal:'gorila',n:'Gorila Biônico',c:'→ ↓ ↓ ← 2',d:'Jacqui vira um gorila de pelo escuro com braços de metal iguais aos do pai, bate no peito, esmurra o oponente no chão e arranca os braços dele.'},
+  animality:{animal:'harpia',n:'Harpia Biônica',c:'→ ↓ ↓ ← 2',d:'Jacqui vira uma harpia com garras de metal iguais aos braços do pai, agarra o oponente, sobe até sumir da arena e solta lá de cima.'},
   babality:{n:'Bebê Biônica',c:'↓ ↓ → ← 1',d:'O oponente vira um bebê com manoplas grandes demais. Tenta dar um soco no chão, as manoplas pesam e ele cai sentado chorando.'},
   friendship:{n:'Wibbly Wobbly Kronibop',c:'↓ ↓ ↓ ↓ 2',oficial:'MK11',d:'Jacqui tira do bolso um boneco de cabeça balançante da Kronika, dá um peteleco e dança junto enquanto a cabeça da deusa do tempo bamboleia sem parar.'},
   kameo:{n:'Jax',d:'O pai entra com os braços de metal, dá um soco no chão e faz o oponente quicar para a filha terminar.'},
@@ -18170,15 +18170,22 @@ const JQ_MINE=`<svg viewBox="-20 -16 40 32" style="width:100%;height:100%;overfl
   <ellipse cx="0" cy="0" rx="10" ry="8" fill="#5a6470" stroke="#1a1d22" stroke-width="2"/><path d="M-7 -3 Q0 -9 7 -3" stroke="#ffc83a" stroke-width="2" fill="none"/><circle class="jq-led" cx="0" cy="1" r="3" fill="#ff2a3a"/></svg>`;
 const JQ_BOBBLE=`<svg viewBox="0 0 60 110" style="width:100%;height:100%;overflow:visible"><rect x="12" y="96" width="36" height="12" rx="3" fill="#2a2f36"/><path d="M18 96 Q16 66 30 60 Q44 66 42 96 Z" fill="#c9a03a" stroke="#5a4a10" stroke-width="2"/><path d="M30 60 L30 50" stroke="#9aa2ac" stroke-width="3" stroke-dasharray="2 2"/>
   <g class="jq-bh" style="transform-box:view-box;transform-origin:30px 52px"><path d="M8 26 Q6 2 30 0 Q54 2 52 26 Q52 50 30 52 Q8 50 8 26 Z" fill="#e8d2b8" stroke="#5a4a3a" stroke-width="2"/><path d="M6 24 Q4 -6 30 -8 Q56 -6 54 24 L48 18 Q30 4 12 18 Z" fill="#f0f0f0" stroke="#9a9a9a" stroke-width="1.6"/><path d="M14 -4 L30 -16 L46 -4" fill="#c9a03a" stroke="#5a4a10" stroke-width="1.6"/><circle cx="22" cy="28" r="3" fill="#2a1a3a"/><circle cx="38" cy="28" r="3" fill="#2a1a3a"/><path d="M24 40 Q30 44 36 40" stroke="#8a3a3a" stroke-width="2" fill="none"/><circle cx="30" cy="10" r="3" fill="#7ad0ff"/></g></svg>`;
-/* gorila biônico (Jacqui), virado para a direita */
-const JQ_GORILLA=`<svg viewBox="-100 -100 200 200" style="width:100%;height:100%;overflow:visible">
-  <path d="M-30 50 L-36 92 L-12 92 L-8 56 M18 52 L22 92 L44 92 L36 50" fill="#2a2228" stroke="#0a0608" stroke-width="2.4"/>
-  <path d="M-52 -20 Q-56 -70 0 -76 Q50 -74 56 -24 Q62 30 30 56 Q0 68 -30 56 Q-62 30 -52 -20 Z" fill="#2e262c" stroke="#0a0608" stroke-width="2.4"/>
-  <path d="M-24 -10 Q0 -20 24 -10 Q28 22 0 34 Q-28 22 -24 -10 Z" fill="#4a3e46"/>
-  <g class="jq-al" style="transform-box:view-box;transform-origin:-46px -40px"><path d="M-46 -48 Q-82 -30 -86 20 L-66 26 Q-62 -6 -38 -22 Z" fill="#c9a03a" stroke="#4a3a10" stroke-width="2.4"/><path d="M-90 18 Q-96 46 -72 50 Q-56 48 -60 22 Z" fill="#d84a2a" stroke="#4a1a10" stroke-width="2.4"/><path d="M-80 -2 L-68 0" stroke="#4a3a10" stroke-width="2"/></g>
-  <g class="jq-ar" style="transform-box:view-box;transform-origin:46px -40px"><path d="M46 -48 Q82 -30 86 20 L66 26 Q62 -6 38 -22 Z" fill="#c9a03a" stroke="#4a3a10" stroke-width="2.4"/><path d="M90 18 Q96 46 72 50 Q56 48 60 22 Z" fill="#d84a2a" stroke="#4a1a10" stroke-width="2.4"/><path d="M80 -2 L68 0" stroke="#4a3a10" stroke-width="2"/></g>
-  <path d="M-22 -78 Q-26 -100 0 -102 Q30 -100 26 -76 Q36 -64 22 -50 Q0 -42 -20 -50 Q-34 -62 -22 -78 Z" fill="#2e262c" stroke="#0a0608" stroke-width="2.4"/>
-  <path d="M-14 -70 Q0 -76 18 -70 Q24 -56 2 -50 Q-18 -54 -14 -70 Z" fill="#5a4a52"/><circle cx="-6" cy="-80" r="3.4" fill="#ffc83a"/><circle cx="12" cy="-80" r="3.4" fill="#ffc83a"/><path d="M-2 -60 l3 4 l3 -4 l3 4 l3 -4" stroke="#fff" stroke-width="1.6" fill="none"/></svg>`;
+/* harpia biônica (Jacqui), virada para a direita */
+const JQ_HARPY=`<svg viewBox="-100 -100 200 200" style="width:100%;height:100%;overflow:visible">
+  <g class="jq-wb" style="transform-box:view-box;transform-origin:-6px -18px"><path d="M-6 -18 Q-40 -86 -96 -92 Q-74 -76 -78 -64 Q-58 -64 -60 -50 Q-40 -50 -40 -36 Q-22 -34 -10 -6 Z" fill="#3a3a40" stroke="#121216" stroke-width="2.4" stroke-linejoin="round"/></g>
+  <path d="M-58 8 L-100 -6 L-102 10 L-98 26 L-56 22 Z" fill="#6a6a72" stroke="#121216" stroke-width="2.2"/><path d="M-92 -3 L-94 22 M-80 -1 L-81 24 M-68 3 L-68 23" stroke="#1a1a1e" stroke-width="4"/>
+  <g class="jq-claw"><path d="M-12 26 L-18 56 M12 28 L10 58" stroke="#e8a83a" stroke-width="9" stroke-linecap="round"/>
+   <path d="M-26 56 Q-30 66 -34 70 M-18 58 Q-18 68 -22 74 M-10 56 Q-4 66 -6 72 M2 58 Q-2 68 -6 74 M10 60 Q10 70 6 76 M18 58 Q24 68 22 74" stroke="#c8ccd2" stroke-width="5" stroke-linecap="round" fill="none"/>
+   <path d="M-24 52 L-10 52 L-12 60 L-22 60 Z M4 54 L18 54 L16 62 L6 62 Z" fill="#c9a03a" stroke="#4a3a10" stroke-width="1.6"/></g>
+  <path d="M-62 4 Q-50 -34 -4 -36 Q40 -36 50 -14 Q54 14 30 30 Q0 42 -30 34 Q-58 26 -62 4 Z" fill="#4a4a52" stroke="#121216" stroke-width="2.6"/>
+  <path d="M-30 30 Q-10 6 26 6 Q46 10 30 30 Q0 42 -30 30 Z" fill="#f4f2ec"/><path d="M14 -20 Q36 -24 46 -10 Q40 2 22 4 Q12 -6 14 -20 Z" fill="#1a1a1e"/>
+  <g class="jq-head"><path d="M28 -44 L22 -74 L36 -54 L40 -78 L48 -54 Z" fill="#2a2a2e" stroke="#121216" stroke-width="1.6"/>
+   <path d="M22 -36 Q22 -60 46 -60 Q70 -58 72 -36 Q70 -18 50 -14 Q28 -14 22 -36 Z" fill="#c8c8cc" stroke="#121216" stroke-width="2.6"/>
+   <path d="M66 -40 Q86 -42 88 -26 Q86 -18 80 -16 Q80 -24 70 -26 Z" fill="#2a2a2e" stroke="#000" stroke-width="1.6"/>
+   <circle cx="56" cy="-40" r="5" fill="#1a1a1a"/><circle cx="57" cy="-41" r="1.8" fill="#ffd23a"/><path d="M46 -48 Q56 -52 66 -46" stroke="#121216" stroke-width="2.4" fill="none"/></g>
+  <g class="jq-wf" style="transform-box:view-box;transform-origin:4px -16px"><path d="M4 -16 Q-30 -96 -82 -98 Q-62 -82 -66 -70 Q-46 -70 -46 -56 Q-28 -56 -28 -42 Q-12 -40 0 -8 Z" fill="#55555e" stroke="#121216" stroke-width="2.4" stroke-linejoin="round"/>
+   <path d="M-60 -78 L-36 -52 M-44 -82 L-22 -46 M-28 -86 L-10 -38" stroke="#2a2a30" stroke-width="2.4"/></g>
+</svg>`;
 
 /* um ponto e uma explosão de fogo */
 function trBoom(x,y,R){faSfx('boom');const b=faEl('fa-part',null,`left:${x}px;top:${y}px;width:${R*2}px;height:${R*2}px;border-radius:50%;background:radial-gradient(circle,#fffbe0 0%,#ffd23a 22%,#ff7a00 48%,rgba(255,40,0,.55) 66%,rgba(255,0,0,0) 74%);mix-blend-mode:screen;z-index:38`);
@@ -18421,31 +18428,32 @@ BR_SC.jqkick=async c=>{const {w,l,d}=c;await c.beat(2);const W=$('#fF'+w),lr=faR
   setTimeout(()=>{SFX.thud();finPool(l)},1100);await k;await c.sl(1000);};
 BR_OVR['Jacqui Briggs|Target Destroyed']='jqtarget';BR_OVR['Jacqui Briggs|Leg Day']='jqleg';BR_OVR["Jacqui Briggs|Just Kickin' It"]='jqkick';
 
-/* Animality: gorila biônico */
+/* Animality: harpia biônica — agarra o oponente, sobe e solta lá de cima */
 FA_AN_OVR['Jacqui Briggs']=async function(w,l,an){const W=$('#fF'+w),F=$('#fF'+l),R=faR(w),L=faR(l),d=faDir(w,l);
   const puff=faEl('fa-puff',null,`left:${R.left+R.width/2}px;top:${R.top+R.height*.6}px;width:${R.width*1.4}px;height:${R.width*1.4}px`);faSfx('boom');W.classList.add('fa-morph');await sleep(350);W.style.opacity='0';
-  const gw=Math.min(R.width*1.5,innerWidth*.4),gx=R.left+R.width/2,gy=R.bottom-gw*.5;
-  const X=faEl('fa-obj',`<div style="width:100%;height:100%;transform:scaleX(${d})">${JQ_GORILLA}</div>`,`left:${gx-gw/2}px;top:${gy-gw/2}px;width:${gw}px;height:${gw}px;z-index:36`);
+  const gw=Math.min(R.width*1.6,innerWidth*.42),gx=R.left+R.width/2,gy=R.bottom-gw*.5;
+  const X=faEl('fa-obj',`<div style="width:100%;height:100%;transform:scaleX(${d})">${JQ_HARPY}</div>`,`left:${gx-gw/2}px;top:${gy-gw/2}px;width:${gw}px;height:${gw}px;z-index:36`);
   await faAn(X,[{transform:'scale(.2)',opacity:0},{transform:'scale(1)',opacity:1}],{duration:420});setTimeout(()=>puff.remove(),500);
-  const al=X.querySelector('.jq-al'),ar=X.querySelector('.jq-ar');
-  /* bate no peito */
-  faSfx('roar');for(let i=0;i<4;i++){const a=i%2?ar:al;if(a)a.animate([{transform:'rotate(0)'},{transform:`rotate(${i%2?-40:40}deg)`},{transform:'rotate(0)'}],{duration:220});faSfx('thud');await sleep(230);}
-  /* pula em cima */
-  const tx=(L.left+L.width/2)-gx,ty=L.top+L.height*.35-gy;faSfx('whoosh');
-  await faAn(X,[{transform:'translate(0,0)'},{transform:`translate(${tx*.5}px,${ty-L.height*.4}px)`,offset:.5},{transform:`translate(${tx}px,${ty}px)`}],{duration:520,easing:'ease-in',fill:'forwards'});
-  F.style.transformOrigin='50% 100%';
-  for(let i=0;i<4;i++){if(al)al.animate([{transform:'rotate(-60deg)'},{transform:'rotate(30deg)'}],{duration:180,fill:'forwards'});if(ar)ar.animate([{transform:'rotate(60deg)'},{transform:'rotate(-30deg)'}],{duration:180,fill:'forwards'});
-    faSfx('hit');faShake();anim(l,'hit');finSpray(l,8+i*3,i>1);F.animate([{transform:`scaleY(${1-i*.06})`},{transform:`scaleY(${1-(i+1)*.06})`}],{duration:180,fill:'forwards'});if(i===1)try{gritar(FS.P[l])}catch(e){}await sleep(260);}
-  /* arranca os braços */
-  try{SFX.gore()}catch(e){}faShake();
-  const {pieces,r}=finPieces(l,[[0,22,26,70],[74,22,100,70],[26,0,74,100],[0,0,26,22],[74,0,100,22],[0,70,26,100],[74,70,100,100]]);
-  pieces[0].animate([{transform:'translate(0,0) rotate(0)'},{transform:`translate(${-r.width*.9}px,${-r.height*.5}px) rotate(-300deg)`,offset:.5},{transform:`translate(${-r.width*1.2}px,${r.height*.5}px) rotate(-540deg)`}],{duration:1100,fill:'forwards',easing:'ease-in'});
-  pieces[1].animate([{transform:'translate(0,0) rotate(0)'},{transform:`translate(${r.width*.9}px,${-r.height*.5}px) rotate(300deg)`,offset:.5},{transform:`translate(${r.width*1.2}px,${r.height*.5}px) rotate(540deg)`}],{duration:1100,fill:'forwards',easing:'ease-in'});
-  pieces.slice(2).forEach(p=>{p.style.transformOrigin='50% 100%';p.animate([{transform:'rotate(0) scaleY(.76)'},{transform:`rotate(${d*86}deg) translateY(8%) scaleY(.76)`}],{duration:800,delay:500,fill:'forwards',easing:'ease-in'});});
-  finSpray(l,40,true);setTimeout(()=>{SFX.thud();finPool(l)},1200);
-  await faAn(X,[{transform:`translate(${tx}px,${ty}px)`},{transform:`translate(${tx*.6}px,0)`}],{duration:500,fill:'forwards'});
-  faSfx('roar');for(let i=0;i<4;i++){const a=i%2?ar:al;if(a)a.animate([{transform:'rotate(0)'},{transform:`rotate(${i%2?-40:40}deg)`},{transform:'rotate(0)'}],{duration:220});await sleep(230);}
-  await sleep(500);await faAn(X,[{transform:`translate(${tx*.6}px,0)`},{transform:'translate(0,0)'}],{duration:500,fill:'forwards'});
+  const wb=X.querySelector('.jq-wb'),wf=X.querySelector('.jq-wf'),hd=X.querySelector('.jq-head');
+  const flap=ms=>[wb,wf].filter(Boolean).map(g=>g.animate([{transform:'scaleY(1)'},{transform:'scaleY(-.55)'}],{duration:ms||170,iterations:Infinity,direction:'alternate'}));
+  /* abre as asas e grita */
+  faSfx('roar');if(hd)hd.animate([{transform:'rotate(0)'},{transform:'rotate(-14deg)'},{transform:'rotate(0)'}],{duration:500});
+  let fl=flap(260);await sleep(700);fl.forEach(a=>a.cancel());fl=flap(130);
+  /* sobe e mergulha em cima do oponente */
+  const tx=(L.left+L.width/2)-gx,ty=(L.top-gw*.35)-gy;faSfx('whoosh');
+  await faAn(X,[{transform:'translate(0,0)'},{transform:`translate(${tx*.3}px,${-innerHeight*.35}px)`,offset:.45},{transform:`translate(${tx}px,${ty}px)`}],{duration:900,easing:'ease-in',fill:'forwards'});
+  faSfx('hit');faShake();anim(l,'hit');finSpray(l,10,false);try{gritar(FS.P[l])}catch(e){}
+  /* leva o oponente lá pra cima */
+  const up=-(L.bottom+40);faSfx('whoosh');
+  await Promise.all([faAn(X,[{transform:`translate(${tx}px,${ty}px)`},{transform:`translate(${tx}px,${ty+up}px)`}],{duration:900,easing:'ease-in',fill:'forwards'}),
+    faAn(F,[{transform:'translateY(0)'},{transform:`translateY(${up}px)`}],{duration:900,easing:'ease-in',fill:'forwards'})]);
+  await sleep(450);
+  /* solta */
+  faSfx('whoosh');await faAn(F,[{transform:`translateY(${up}px) rotate(0)`},{transform:`translateY(0) rotate(${d*14}deg)`}],{duration:520,easing:'cubic-bezier(.55,0,1,.45)',fill:'forwards'});
+  F.getAnimations().forEach(a=>a.cancel());faShake();finExplode(l,true);setTimeout(()=>{try{SFX.thud();finPool(l)}catch(e){}},700);
+  /* volta voando e pousa */
+  await faAn(X,[{transform:`translate(${tx}px,${ty+up}px)`},{transform:`translate(${tx*.4}px,${-innerHeight*.2}px)`,offset:.5},{transform:'translate(0,0)'}],{duration:1100,easing:'ease-out',fill:'forwards'});
+  fl.forEach(a=>a.cancel());faSfx('roar');if(hd)hd.animate([{transform:'rotate(0)'},{transform:'rotate(-14deg)'},{transform:'rotate(0)'}],{duration:500});fl=flap(260);await sleep(900);fl.forEach(a=>a.cancel());
   const p2=faEl('fa-puff',null,`left:${R.left+R.width/2}px;top:${R.top+R.height*.6}px;width:${R.width*1.4}px;height:${R.width*1.4}px`);faSfx('boom');
   await faAn(X,[{opacity:1},{opacity:0,transform:'scale(.4)'}],{duration:300});X.remove();setTimeout(()=>p2.remove(),600);
   W.style.opacity='';W.classList.remove('fa-morph');await faAn(W,[{opacity:0,transform:'scale(.6)'},{opacity:1,transform:'scale(1)'}],{duration:350});W.getAnimations().forEach(a=>a.cancel());return true;};
