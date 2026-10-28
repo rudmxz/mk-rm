@@ -8925,26 +8925,32 @@ function kamDefs(i){const kf=kamOf(i);if(!kf||!kamCan(i))return [];
   return kamPowers(kf).map((p,j)=>({k:'kam'+j,t:p.n,icon:portrait(kf,'kb-pic'),sub:'Kameo '+kf.nome+' · '+KAM_COST+' de barra',cls:'kam',key:FS.two&&!FS.online&&i===1?'':(j?'0':'9')}));}
 function kamCpu(i){if(!kamCan(i))return null;const o=1-i;const p=FS.hp[o]<=FS.max[o]*.25?.6:.3;return Math.random()<p?'kam'+(Math.random()<.5?0:1):null;}
 const isKam=a=>typeof a==='string'&&/^kam[01]$/.test(a);
-/* entrada: o principal recua e fica atrás; o Kameo aparece no lugar dele */
-async function kamEnter(i,kf){const F=$('#fF'+i),ar=F.parentNode;const w=F.offsetWidth,h=F.offsetHeight,dir=i?1:-1;
+/* posição do lutador principal enquanto o Kameo luta: atrás, um pouco acima e escurecido */
+const kamBackPos=(w,h,dir)=>({x:dir*w*.16,y:-h*.42,s:.8});
+/* quadros de caminhada entre duas posições (passinhos com balanço) */
+function kamWalk(a,b,steps){const fr=[];for(let k=0;k<=steps;k++){const t=k/steps,x=a.x+(b.x-a.x)*t,y=a.y+(b.y-a.y)*t,sc=a.s+(b.s-a.s)*t,bob=(k%2&&k<steps)?-7:0,rot=(k===0||k===steps)?0:(k%2?2.5:-2.5),dim=a.d+(b.d-a.d)*t;
+    fr.push({transform:`translate(${x.toFixed(0)}px,${(y+bob).toFixed(0)}px) rotate(${rot}deg) scale(${sc.toFixed(3)})`,filter:`brightness(${(1-.45*dim).toFixed(2)}) saturate(${(1-.15*dim).toFixed(2)})`,opacity:1});}return fr;}
+/* entrada: o principal anda para trás; o Kameo aparece no lugar dele */
+async function kamEnter(i,kf){const F=$('#fF'+i),ar=F.parentNode;const w=F.offsetWidth,h=F.offsetHeight,dir=i?1:-1;const B=kamBackPos(w,h,dir);
   const g=document.createElement('div');g.className='f-resfig kam-back '+(i?'r':'l');g.innerHTML=portrait(FS.P[i],'pf');
-  Object.assign(g.style,{width:w+'px',height:h+'px',left:F.offsetLeft+'px',top:F.offsetTop+'px'});ar.insertBefore(g,ar.firstChild);
-  const back=`translate(${(dir*w*.16).toFixed(0)}px,${(-h*.42).toFixed(0)}px) scale(.8)`;
-  g.animate([{transform:'none',opacity:1,filter:'none'},{transform:back,opacity:1,filter:'brightness(.55) saturate(.85)'}],{duration:420,easing:'ease-out',fill:'forwards'});
-  F.animate([{opacity:1},{opacity:0}],{duration:160,fill:'forwards'});
-  try{SFX.whoosh()}catch(e){}await sleep(200);
-  F.innerHTML=portrait(kf,'pf')+'<span class="kam-tag">Kameo</span>';F.classList.add('kam-on');
+  Object.assign(g.style,{width:w+'px',height:h+'px',left:F.offsetLeft+'px',top:F.offsetTop+'px',opacity:'1'});ar.insertBefore(g,ar.firstChild);
+  g.animate(kamWalk({x:0,y:0,s:1,d:0},{x:B.x,y:B.y,s:B.s,d:1},4),{duration:520,easing:'linear',fill:'forwards'});
+  F.style.opacity='0';
+  try{SFX.whoosh()}catch(e){}await sleep(220);
+  F.innerHTML=portrait(kf,'pf')+'<span class="kam-tag">Kameo</span>';F.classList.add('kam-on');F.style.opacity='';
   try{SFX.say(kf.nome,true)}catch(e){}
   await F.animate([{transform:`translate(${(-dir*w*.15).toFixed(0)}px,${(-h*.4).toFixed(0)}px) rotate(${-dir*12}deg)`,opacity:0},{transform:`translate(0,${(-h*.18).toFixed(0)}px)`,opacity:1,offset:.6},{transform:'none',opacity:1}],{duration:480,easing:'ease-out'}).finished;
   F.getAnimations().forEach(a=>a.cancel());return g;}
-/* saída: mortal para trás, some, e o principal volta para o lugar */
-async function kamLeave(i,g){const F=$('#fF'+i),w=F.offsetWidth,h=F.offsetHeight,dir=i?1:-1;
+/* saída: o Kameo dá um mortal para trás e some; o principal volta andando para o lugar, sem sumir */
+async function kamLeave(i,g){const F=$('#fF'+i),w=F.offsetWidth,h=F.offsetHeight,dir=i?1:-1;const B=kamBackPos(w,h,dir);
   try{SFX.whoosh()}catch(e){}
   await F.animate([{transform:'none',opacity:1},{transform:`translate(${(dir*w*.25).toFixed(0)}px,${(-h*.55).toFixed(0)}px) rotate(${dir*190}deg)`,opacity:1,offset:.55},{transform:`translate(${(dir*w*.6).toFixed(0)}px,${(-h*.2).toFixed(0)}px) rotate(${dir*360}deg) scale(.7)`,opacity:0}],{duration:640,easing:'ease-in-out',fill:'forwards'}).finished;
+  /* no mesmo quadro: o lutador volta para o seu lugar começando de onde estava atrás, e a cópia de trás sai */
   F.classList.remove('kam-on');showActive(i);F.getAnimations().forEach(a=>a.cancel());
-  if(g){const fr=g.getAnimations();fr.forEach(a=>a.cancel());F.style.opacity='0';
-    await g.animate([{transform:`translate(${(dir*w*.16).toFixed(0)}px,${(-h*.42).toFixed(0)}px) scale(.8)`,filter:'brightness(.55) saturate(.85)'},{transform:'none',filter:'none'}],{duration:380,easing:'ease-out',fill:'forwards'}).finished;
-    F.style.opacity='';g.remove();}}
+  F.style.transformOrigin='50% 100%';
+  const walk=F.animate(kamWalk({x:B.x,y:B.y,s:B.s,d:1},{x:0,y:0,s:1,d:0},6),{duration:900,easing:'linear',fill:'forwards'});
+  if(g)g.remove();
+  await walk.finished;walk.cancel();F.style.transformOrigin='';}
 /* o poder corpo a corpo: o Kameo corre até o oponente, bate e volta */
 async function kamDash(i,d,hit,kf){const F=$('#fF'+i),r=F.getBoundingClientRect(),D=$('#fF'+d).getBoundingClientRect(),dir=D.left>r.left?1:-1;
   const tx=(D.left+D.width/2)-(r.left+r.width/2)-dir*D.width*.6;
