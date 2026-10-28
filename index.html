@@ -3684,9 +3684,9 @@ html.land #tab-dialogos .versus{max-width:640px;margin:0 auto}
 .e2-card.t-diario{padding-top:70px}
 /* página de um evento */
 .e2-page{max-width:680px;margin:0 auto;display:grid;gap:14px;padding-bottom:20px}
-#evento[data-e2] .ev-h{text-shadow:none!important;filter:drop-shadow(0 2px 0 #000);background:linear-gradient(180deg,#fff,var(--e1));-webkit-background-clip:text;background-clip:text;color:transparent;font-family:var(--f-display);text-transform:none;letter-spacing:.01em}
-#evento[data-e2] .ev-back{border-color:var(--e1)}
-#evento[data-e2] .ev-timer{box-shadow:inset 0 0 0 1px var(--e1);background:rgba(0,0,0,.6)}
+#evento[data-e2t] .ev-h{text-shadow:none!important;filter:drop-shadow(0 2px 0 #000);background:linear-gradient(180deg,#fff,var(--e1));-webkit-background-clip:text;background-clip:text;color:transparent;font-family:var(--f-display);text-transform:none;letter-spacing:.01em}
+#evento[data-e2t] .ev-back{border-color:var(--e1)}
+#evento[data-e2t] .ev-timer{box-shadow:inset 0 0 0 1px var(--e1);background:rgba(0,0,0,.6)}
 .e2-hero{position:relative;overflow:hidden;display:grid;gap:8px;padding:14px;border-radius:6px;background:var(--e2);box-shadow:0 0 0 1px #000,0 0 0 2px var(--e1),0 0 22px color-mix(in srgb,var(--e1) 30%,transparent)}
 .e2-hero>*{position:relative;z-index:1}
 .e2-hbg{position:absolute!important;inset:0;z-index:0!important;background:center 22%/cover no-repeat;opacity:.45}
@@ -3792,7 +3792,7 @@ html.land #tab-dialogos .versus{max-width:640px;margin:0 auto}
 .e2-res .ev-rpic{width:150px;height:150px;border-radius:6px;overflow:hidden}
 .e2-res .ev-rpic img,.e2-res .ev-rpic .e2-coinpic,.e2-res .ev-rpic .e2-curpic{width:100%;height:100%;object-fit:cover;object-position:center 20%}
 /* fundos por tipo */
-#evento[data-e2="ritual"] .ev-bg img{filter:saturate(.6) brightness(.45) sepia(.4) hue-rotate(-20deg)}
+#evento[data-e2t="ritual"] .ev-bg img{filter:saturate(.6) brightness(.45) sepia(.4) hue-rotate(-20deg)}
 .e2-altar .ev-wheel{filter:drop-shadow(0 0 22px rgba(200,20,30,.55))}
 .kr-evc .kr-goev{font-size:12px!important;line-height:1.1;padding:4px 8px}
 
@@ -11265,7 +11265,7 @@ function evWheelSVG(){const its=EV_HW.items,n=its.length,seg=360/n,R=96;const P=
 
 /* ---- telas ---- */
 function renderEventos(){evCoins();const B=$('#evBody');
-  {const bg=document.querySelector('#evento .ev-bg img');const W=document.getElementById('evento');if(evView!=='ev2'){W.style.removeProperty('--e1');W.style.removeProperty('--e2');delete W.dataset.e2;}
+  {const bg=document.querySelector('#evento .ev-bg img');const W=document.getElementById('evento');if(evView!=='ev2'){W.style.removeProperty('--e1');W.style.removeProperty('--e2');delete W.dataset.e2t;}
     const want=evView==='ev2'?((ev2Def(EV2_CUR_ID)||{}).bg||''):evView==='roleta'||evOn()?EV_HW.bg:'img/kripta/fundo.jpg';if(bg&&want&&bg.getAttribute('src')!==want)bg.src=want;}
   if(evView==='ev2'){ev2Render();return;}
   if(evView==='lista'){B.innerHTML=ev2List();return;}
@@ -11431,7 +11431,7 @@ function ev2Head(e,extra){return `<div class="ev-top e2-top"><button type="butto
   <header class="e2-hero"><span class="e2-hbg" style="background-image:url(${e.bg})"></span><span class="e2-htag">${esc(e.tag)}</span><p>${esc(e.d)}</p>${extra||''}</header>`;}
 function ev2Wallet(keys){return `<div class="e2-wallet">${keys.map(k=>`<span class="e2-wi" title="${esc(EV2_CUR[k].n)}">${curSvg(k)}<b>${cur2(k)}</b><small>${esc(EV2_CUR[k].s)}</small></span>`).join('')}</div>`;}
 function ev2Render(){const e=ev2Def(EV2_CUR_ID);const B=$('#evBody');if(!e||!ev2Active(e)){evView='lista';renderEventos();return}
-  const W=document.getElementById('evento');W.style.setProperty('--e1',e.c[0]);W.style.setProperty('--e2',e.c[1]);W.dataset.e2=e.tipo;
+  const W=document.getElementById('evento');W.style.setProperty('--e1',e.c[0]);W.style.setProperty('--e2',e.c[1]);W.dataset.e2t=e.tipo;
   const fn={roleta:ev2Roleta,troca:ev2Troca,ritual:ev2Ritual,sorteio:ev2Sorteio,missoes:ev2Missoes,diario:ev2Missoes,login:ev2Login}[e.tipo];
   B.innerHTML=`<div class="e2-page t-${e.tipo}">${fn(e)}</div>`;}
 /* -- roda genérica (roleta, troca e ritual) -- */
