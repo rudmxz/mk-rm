@@ -7639,7 +7639,7 @@ function progApply(f,how){if(!f)return f;how=how||{};const key=f.key;
   if(how.base){lv=1;}
   else if(how.cpuLv){lv=Math.max(1,Math.min(6,how.cpuLv));const k=kitOf(key);if(k){if(lv>=2)eq.push(k.p2.id);if(lv>=4)eq.push(k.p4.id);if(lv>=6)eq.push(k.p6.id);}const ch=userCh(key);if(ch&&ch.input.hab0)eq.push(ch.input.hab0);if(ch&&ch.input.def0)df.push(ch.input.def0);if(lv>=3)df.push('reforco');if(lv>=5)df.push('aparar');}
   else{const L=loadoutOf(key);lv=L.lv;eq=L.eq.filter(Boolean);df=L.df.filter(Boolean);}
-  if(!how.base&&!how.cpuLv){f.slotAt=atOf(key);f.slotDt=dtOf(key);}else{f.slotAt=null;f.slotDt=null;}
+  f.slotAt=null;f.slotDt=null;/* a luta mostra os golpes normais + o que estiver nos espaços de habilidade e defesa */
   f.lv=lv;f.atr=atrOf(key,lv);f.kit=kitOf(key);f.eq=eq.map(habById).filter(Boolean);f.df=df.map(defById).filter(Boolean);
   f.fx=(f.kit&&f.kit.fx)||'impacto';
   f.m={F:f.atr.F,V:f.atr.A,T:0,M:f.atr.M,R:f.atr.V-1};
@@ -7880,10 +7880,8 @@ function openEvo(key){EVO_KEY=key;const info=evoInfo(key);if(!info)return;const 
         <div class="ev-atrs">${evoAtrRow(key,lv)}</div>${ch?`<button type="button" class="ev-btn" id="evRespec">Redistribuir pontos</button>`:''}</div></header>
     <section class="ev-sec"><h3>Níveis</h3><div class="ev-track">${track}</div>
       ${kit&&kit.p5?`<p class="ev-p5 ${lv>=5?'on':''}"><b>⚡ Especial aprimorado (nível 5):</b> ${esc(p5Txt(kit.p5))}</p>`:''}</section>
-    <section class="ev-sec"><h3>Habilidades <small>4 espaços · ativas podem virar botões de ataque, passivas valem sempre</small></h3><div class="ev-slots">${[0,1,2,3].map(i=>slot(L.eq,i,false)).join('')}</div></section>
-    <section class="ev-sec"><h3>Defesas <small>4 espaços · Bloquear e Esquivar estão sempre disponíveis</small></h3><div class="ev-slots">${[0,1,2,3].map(i=>slot(L.df,i,true)).join('')}</div></section>
-    <section class="ev-sec"><h3>Botões de ataque <small>4 espaços · é o que aparece na luta</small></h3>${evoBtnSlots(key,false)}</section>
-    <section class="ev-sec"><h3>Botões de defesa <small>4 espaços · escolha entre Bloquear, Esquivar e as defesas equipadas</small></h3>${evoBtnSlots(key,true)}</section>
+    <section class="ev-sec"><h3>Habilidades <small>4 espaços · as ativas aparecem como botões na luta, junto dos golpes normais; as passivas valem sempre</small></h3><div class="ev-slots">${[0,1,2,3].map(i=>slot(L.eq,i,false)).join('')}</div></section>
+    <section class="ev-sec"><h3>Defesas <small>4 espaços · aparecem como botões na luta, junto de Bloquear e Esquivar</small></h3><div class="ev-slots">${[0,1,2,3].map(i=>slot(L.df,i,true)).join('')}</div></section>
     <section class="ev-sec ev-rules"><details><summary>Como ganhar XP</summary><ul>${XP_RULES.map(r=>`<li>${esc(r)}</li>`).join('')}</ul></details></section>
   </div></div><div class="ev-pick" id="evPick" hidden></div>`;
   S.hidden=false;document.body.style.overflow='hidden';
