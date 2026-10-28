@@ -11047,17 +11047,17 @@ const BOOK2={id:2,cap:'Capítulo 2',t:'As Vozes de Veyrath',key:'forja_mk_histor
 
 /* ====== KRIPTA: loja de personagens, arenas e artes ====== */
 const KR_KEY='forja_mk_kripta';
-let KR=(()=>{const v=LS.get(KR_KEY,null)||{};return {chars:Array.isArray(v.chars)?v.chars:[],arenas:Array.isArray(v.arenas)?v.arenas:[],arts:Array.isArray(v.arts)?v.arts:[],habs:Array.isArray(v.habs)?v.habs:[],skins:Array.isArray(v.skins)?v.skins:[],ev:(v.ev&&typeof v.ev==='object')?v.ev:{hw:0}}})();
+let KR=(()=>{const v=LS.get(KR_KEY,null)||{};return {chars:Array.isArray(v.chars)?v.chars:[],arenas:Array.isArray(v.arenas)?v.arenas:[],arts:Array.isArray(v.arts)?v.arts:[],habs:Array.isArray(v.habs)?v.habs:[],skins:Array.isArray(v.skins)?v.skins:[],ev:(v.ev&&typeof v.ev==='object')?v.ev:{hw:0},ev2:(v.ev2&&typeof v.ev2==='object')?v.ev2:{},evMig2:v.evMig2||0}})();
 function krSave(){LS.set(KR_KEY,KR)}
 /* cheat "Moedas 99999": guarda o saldo e as compras de antes; ao desligar, tudo volta */
 const SNAP_KEY='forja_mk_cheat_snap';
 function cheatMoedas(on){const s=LS.get(SNAP_KEY,null);
   if(on){if(!s)LS.set(SNAP_KEY,{m:MOEDAS,kr:JSON.parse(JSON.stringify(KR)),log:MOEDA_LOG.slice()});CHEAT.moedas=true;MOEDAS=99999;LS.set('forja_mk_moedas',MOEDAS);toast('Cheat ligado: 99.999 moedas.');}
-  else{CHEAT.moedas=false;if(s){MOEDAS=+s.m||0;KR.chars=s.kr.chars||[];KR.arenas=s.kr.arenas||[];KR.arts=s.kr.arts||[];KR.habs=s.kr.habs||[];KR.skins=s.kr.skins||[];KR.ev=s.kr.ev||{hw:0};krSave();MOEDA_LOG=Array.isArray(s.log)?s.log:[];LS.set('forja_mk_moedas',MOEDAS);LS.set('forja_mk_moedas_log',MOEDA_LOG);LS.set(SNAP_KEY,null);}
+  else{CHEAT.moedas=false;if(s){MOEDAS=+s.m||0;KR.chars=s.kr.chars||[];KR.arenas=s.kr.arenas||[];KR.arts=s.kr.arts||[];KR.habs=s.kr.habs||[];KR.skins=s.kr.skins||[];KR.ev=s.kr.ev||{hw:0};KR.ev2=s.kr.ev2||KR.ev2||{};KR.evMig2=s.kr.evMig2||0;krSave();MOEDA_LOG=Array.isArray(s.log)?s.log:[];LS.set('forja_mk_moedas',MOEDAS);LS.set('forja_mk_moedas_log',MOEDA_LOG);LS.set(SNAP_KEY,null);}
     pickSel=pickSel.map(k=>keyLocked(k)?null:k);toast('Cheat desligado: saldo e compras voltaram ao que eram antes.');}
   try{renderCoins()}catch(e){}try{if(krOpen)renderKripta()}catch(e){}}
 /* se a página fechou com o cheat ligado, desfaz ao abrir de novo */
-(function(){const s=LS.get(SNAP_KEY,null);if(s&&typeof s==='object'){MOEDAS=+s.m||0;LS.set('forja_mk_moedas',MOEDAS);if(s.kr){KR={chars:s.kr.chars||[],arenas:s.kr.arenas||[],arts:s.kr.arts||[],habs:s.kr.habs||[],skins:s.kr.skins||[],ev:s.kr.ev||{hw:0}};krSave();}if(Array.isArray(s.log)){MOEDA_LOG=s.log;LS.set('forja_mk_moedas_log',MOEDA_LOG);}LS.set(SNAP_KEY,null);}})();
+(function(){const s=LS.get(SNAP_KEY,null);if(s&&typeof s==='object'){MOEDAS=+s.m||0;LS.set('forja_mk_moedas',MOEDAS);if(s.kr){KR={chars:s.kr.chars||[],arenas:s.kr.arenas||[],arts:s.kr.arts||[],habs:s.kr.habs||[],skins:s.kr.skins||[],ev:s.kr.ev||{hw:0},ev2:s.kr.ev2||{},evMig2:s.kr.evMig2||0};krSave();}if(Array.isArray(s.log)){MOEDA_LOG=s.log;LS.set('forja_mk_moedas_log',MOEDA_LOG);}LS.set(SNAP_KEY,null);}})();
 const KR_FREE=['Rudolf','Kitana','Mileena','Sindel','Liu Kang','Kung Lao','Raiden','Johnny Cage','Scorpion','Sub-Zero','Li Mei','Baraka','Ana Letícia'];
 const KR_STORY={'Reiko':1,'Teresa':2,'Katherine Pierce':3,'Nitara':3,'Rain':6,'Havik':7,'Shang Tsung':9,'Jade':10,'General Shao':10};
 const KR_STORY_LBL=i=>i===10?'terminar o Modo História':`terminar o ${i===0?'Prólogo':'Capítulo '+i} do Modo História`;
