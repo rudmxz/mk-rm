@@ -1,0 +1,499 @@
+=Chameleon|Chameleon
+A: Outro de mim? Qual cor você roubou? / A mesma que você. / Então um de nós é cópia da cópia.
+A: Se eu te copiar, viro o quê? / Viramos o mesmo erro. / Fale por você.
+
+=Chameleon|Khameleon
+A: Irmã de escamas. Ainda viva. / Ainda. E você continua copiando homens. / Eles são mais fáceis de imitar.
+A: Quantas cores você usa hoje? / Cinco. Você usa sete e erra todas. / Vamos ver quem erra no fim.
+
+=Khameleon|Chameleon
+A: Você treinou olhando os ninjas do imperador. / E você, as filhas dele. / Pelo menos as minhas sabem lutar.
+A: Somos os últimos. Não precisamos brigar. / Precisamos treinar. / Então não chore quando perder.
+
+=Chameleon|Kitana
+A: Princesa. Copiei os ninjas que guardavam o seu palácio. / Eles nunca me deixaram entrar. / Eu entrei invisível.
+A: Seu leque não acha o que não vê. / Eu vejo o ar se mexendo. / Então veja isso.
+
+=Kitana|Chameleon
+A: Você trocou de cor três vezes enquanto eu falava. / Quatro. Você não viu uma. / Viu agora?
+A: Os Zaterranos sofreram nas mãos do meu pai adotivo. / Não sofreram. Morreram. / Então lute pelos que morreram.
+
+=Chameleon|Mileena
+A: Dentes demais e paciência de menos. / E você, rosto de menos. / Eu tenho sete. Escolha um.
+A: Eu copio golpes. Você copia a irmã. / Repete isso e eu arranco sua língua. / Língua de réptil cresce de novo.
+
+=Mileena|Chameleon
+A: Lagartinho colorido. Vou te comer cru. / Escamas engasgam. / Eu cuspo.
+A: Você é amarelo ou verde? Decide! / Os dois. Decido no golpe. / Odeio gente indecisa.
+
+=Chameleon|Jade
+A: Seu bastão é rápido. Mas eu já fui mais rápido que Smoke. / Smoke não é tão rápido. / Ele também acha.
+A: Você protege Kitana. Eu não protejo ninguém. / Por isso está sozinho. / Por isso estou vivo.
+
+=Jade|Chameleon
+A: Já lutei com Reptile. Você é parecido. / Ele late. Eu observo. / Observe o bastão chegando.
+A: Fique visível e lute com honra. / Honra não salvou Zaterra. / Mas pode salvar você hoje.
+
+=Chameleon|Tanya
+A: Traidora de Edênia. Copiar você não vale a pena. / Ninguém pediu. / Ótimo.
+A: Você muda de lado. Eu mudo de cor. / Pelo menos eu escolho. / Eu também. Escolhi te bater.
+
+=Tanya|Chameleon
+A: As Umgadi treinam com a Khameleon. Você é o irmão dela? / Somos o que sobrou. / Então sobre um pouco menos.
+A: Você não tem um estilo. Isso te deixa previsível. / Sete estilos não é nenhum. / É confuso. Não é previsível.
+
+=Chameleon|Skarlet
+A: Sangue não muda de cor. Eu mudo. / Mas você sangra igual a todo mundo. / Só se você me achar.
+A: Você foi criada pelo imperador. Eu fui caçado por ele. / Que vida triste a sua. / Vou deixar a sua mais curta.
+
+=Skarlet|Chameleon
+A: Sangue de réptil. Frio e fino. / Dê uma provada e vai ver o veneno. / Eu bebo veneno de café.
+A: Fique invisível. O sangue sempre aparece. / Então não vou sangrar. / Promessa bonita.
+
+=Chameleon|Sheeva
+A: Quatro braços e nenhum me acerta. / Só preciso de um. / Precisa achar primeiro.
+A: Os Shokan e os Zaterranos serviram ao mesmo tirano. / Eu servi à minha rainha. / Eu não sirvo a ninguém.
+
+=Sheeva|Chameleon
+A: Pare de piscar e lute! / Não estou piscando. Estou trocando. / Vou trocar seus dentes de lugar.
+A: Um lagarto contra uma Shokan. Isso termina rápido. / Concordo. / Você entendeu errado.
+
+=Chameleon|Coelho
+A: Você também vive nas sombras, justiceiro. / Eu escolhi as sombras. / Eu nasci nelas.
+A: Uma faca contra sete ninjas. / Uma faca basta se acertar a garganta certa. / Qual delas você acha que é a minha?
+
+=Coelho|Chameleon
+A: Você mata por quê? / Porque me caçaram primeiro. / Comigo foi parecido.
+A: Fique visível. Eu prefiro olhar no olho. / Meus olhos mudam a cada golpe. / Então eu escolho um e furo.
+
+=Chameleon|Tigre
+A: Dois gadanhos. Nunca copiei isso. / Nem tenta, você corta o próprio rabo. / Rabo cresce de novo.
+A: Você ri muito para quem perdeu tudo. / Rir é o que sobra. / Então ria enquanto pode.
+
+=Tigre|Chameleon
+A: Que bonitinho, ele muda de cor que nem lâmpada de festa! / Essa festa vai acabar. / Mas eu trouxe o som.
+A: Qual é o seu nome de verdade? / Não tenho. / Vou te chamar de Pisca-Pisca.
+
+=Chameleon|Cobra
+A: Curandeiro das serpentes. Répteis deviam ficar do mesmo lado. / Serpentes não têm lado. / Então somos diferentes.
+A: Você roubou um corpo. Eu só roubo golpes. / Cada um sobrevive como pode. / Eu sobrevivo sem roubar gente.
+
+=Cobra|Chameleon
+A: Seu sangue frio daria um bom remédio. / Remédio para quê? / Para a minha fome.
+A: Séculos preso num objeto. E você preso em cores dos outros. / Pelo menos eu me mexo. / Por pouco tempo.
+
+=Chameleon|Cabra
+A: Explosivos caseiros. Barulhentos demais. / Barulho é o charme. / Silêncio é o meu.
+A: Você vai me explodir se não me enxergar? / Eu exploro a área toda. / Prático.
+
+=Cabra|Chameleon
+A: Câmera térmica. Agora quero ver você sumir. / Sangue frio não aparece. / Droga, esqueci disso.
+A: Você também perdeu a família inteira? / Uma raça inteira. / Então não vou pegar leve. Por respeito.
+
+=Chameleon|Touro
+A: Soldado. Suas balas não acham o que não veem. / Eu atiro em tudo que se mexe. / Eu não me mexo.
+A: Você luta pela memória de alguém. / Luto por Vera. / Eu luto por Zaterra. Dá na mesma.
+
+=Touro|Chameleon
+A: Alvo camuflado, sete padrões. Já fiz pior no treino. / Seu treino não troca de cor. / Meu fuzil também não precisa.
+A: Fique visível, soldado sem rosto. / Não sou soldado. / Então é só alvo.
+
+=Chameleon|Lorenzo
+A: Você voltou dos mortos. Eu nunca morri. / Ainda. / Ameaça de criança.
+A: Veyrath e Zaterra. Dois massacres. / Dois sobreviventes. / Um a menos em breve.
+
+=Lorenzo|Chameleon
+A: Você tem cara de quem também viu a casa cair. / Vi o reino inteiro cair. / Então sabe o que eu sinto.
+A: Fica parado, quero ver se você é de verdade. / Sou de verdade quando bato. / Então bate.
+
+=Chameleon|Art the Clown
+A: Palhaço sem voz. Eu também falo pouco. / ... / Pelo menos eu não sorrio assim.
+A: Você esconde serras. Eu escondo tudo. / ... / Vamos ver quem acha o outro primeiro.
+
+=Art the Clown|Chameleon
+A: ... / Para de acenar. / ...
+A: ... / Isso é uma serra? Que maravilha. / ...
+
+=Chameleon|Freddy Krueger
+A: Seus pesadelos não me assustam. Eu já vi o fim da minha raça. / Então vou te mostrar de novo, lagarto. / Já está mostrando. Não dói mais.
+A: Você também troca de forma. / Mas eu faço com estilo. / E eu faço acordado.
+
+=Freddy Krueger|Chameleon
+A: Um camaleão no meu sonho? Que cor você fica com medo? / Nenhuma. / Vamos descobrir, rapazinho.
+A: Sete ninjas e nenhuma alma própria. Que delícia. / Minha alma é minha. / Por enquanto.
+
+=Chameleon|Jason Voorhees
+A: Você não corre. Eu não paro. / ... / Vai cansar antes de mim.
+A: Máscara de hóquei. Também escondo o rosto. / ... / Mas o meu ainda está aqui.
+
+=Jason Voorhees|Chameleon
+A: ... / Facão grande. Alvo pequeno. / ...
+A: ... / Você não me acha no escuro. / ...
+
+=Chameleon|Stefan
+A: Você bebe sangue de bicho. Eu sou bicho. / Hoje não estou com sede. / Que bom. Eu estou com raiva.
+A: Você luta contra o monstro dentro de você. / Todo dia. / Eu deixo o meu sair.
+
+=Stefan|Chameleon
+A: Você deve ter visto muita gente morrer. / Todo o meu povo. / Sinto muito. De verdade.
+A: Você escreve um diário? / Eu copio o diário dos outros. / Isso explica muita coisa.
+
+=Chameleon|Damon
+A: Vampiro sarcástico. Você fala demais. / E você pisca demais. / Pisco quando acerto.
+A: Já cansou de esperar alguém? / Cento e quarenta e cinco anos. / Eu espero meu povo há mais.
+
+=Damon|Chameleon
+A: Ótimo. Um lagarto de festa junina. / Repete e eu te faço de enfeite. / Ui. Medo.
+A: Me mostra qual ninja você vai ser agora, que eu escolho a frase de efeito. / Escolhe rápido. / Pronto. Tchau, lagarto.
+
+=Chameleon|Bonnie
+A: Bruxa Bennett. Sua magia acha o invisível? / Acha o que se esconde. / Então vai me achar ocupado.
+A: Você se sacrifica pelos amigos. Eu não tenho amigos. / Talvez seja por isso que você está sozinho. / Talvez.
+
+=Bonnie|Chameleon
+A: Revela! / Não funciona em quem não tem forma própria. / Então eu queimo todas.
+A: Eu sinto muita dor em você. / Dor de um reino inteiro. / Isso não te dá direito de machucar os outros.
+
+=Chameleon|Lexi
+A: Trezentos e cinquenta anos e ainda rindo. / Alguém tem que rir nesse torneio. / Eu observo quem ri.
+A: Seu sai é bom. Eu podia copiar. / Ninguém copia o meu charme. / Charme não é golpe.
+
+=Lexi|Chameleon
+A: Você muda de cor quando está nervoso? / Mudo quando quero. / Mentira. Você ficou vermelho agora.
+A: Um conselho de amiga: arranja uma cor só. / Uma cor só é fácil de matar. / Justo.
+
+=Chameleon|Sonya Blade
+A: Comandante. Seus satélites não me veem. / Eu não preciso de satélite. / Precisa de sorte.
+A: Você caça o Dragão Negro. Eu caço quem caçou meu povo. / Somos parecidos. / Não muito.
+
+=Sonya Blade|Chameleon
+A: Alvo camuflado. Ativar térmica. / Sangue frio. / Então eu atiro no frio.
+A: Identifique-se. / Não tenho nome. / Então vai entrar no relatório como alvo abatido.
+
+=Chameleon|Jax
+A: Braços de metal. Eu vejo o seu reflexo neles. / Então vai ver o soco chegando. / Vejo e desvio.
+A: Você foi um soldado do Submundo. / Fui controlado. Não é a mesma coisa. / Eu nunca fui de ninguém.
+
+=Jax|Chameleon
+A: Garoto, para de piscar. Tá me dando dor de cabeça. / Feche os olhos. / Aí eu fico mais forte.
+A: Já lutei com Reptile. Você é a versão colorida. / Ele é a versão chata. / Nisso eu concordo.
+
+=Chameleon|Kano
+A: Mercenário. Vendeu tudo que viu. / Inclusive lagarto. / Tente me vender.
+A: Seu olho laser não acha o invisível. / Ele acha o calor. / Eu não tenho calor.
+
+=Kano|Chameleon
+A: Um lagarto que vira sete ninjas. Isso vale ouro no mercado negro. / Ninguém me pega. / Todo mundo diz isso no começo.
+A: Fica quieto que eu te empalho e penduro no bar. / Seu bar vai ficar sem dono. / Ah, é? Vem.
+
+=Chameleon|Ana Letícia
+A: Você finge ser outra pessoa. Eu também. / Eu finjo melhor, querido. / Sem cor nenhuma?
+A: Sua pistola não me acha. / Minha bolsa acha qualquer coisa. / Inclusive o seu fim?
+
+=Ana Letícia|Chameleon
+A: Que fofo, ele muda de cor que nem esmalte. / Esmalte não morde. / Que pena. Eu adoro uma mordida.
+A: Me ensina a ser invisível? Ia facilitar tanto a minha vida. / Você já é invisível para a verdade. / Grosso.
+
+=Chameleon|Vega
+A: Você trocou o próprio corpo. Eu troco a cor. / Não é a mesma coisa. / Também não é fácil.
+A: O Outro Lado tem répteis? / O Outro Lado tem de tudo. / Então manda lembranças.
+
+=Vega|Chameleon
+A: Paranormal ou só um lagarto bem treinado? / Os dois. / Odeio quando é os dois.
+A: Já vi coisa pior que você. / Ainda não viu eu inteiro. / Vou ver quando você parar de piscar.
+
+=Chameleon|Teresa
+A: Você subiu mentindo. Eu sobrevivi escondendo. / Ninguém sobe sem esconder algo. / Ninguém cai sem descobrir.
+A: Advogada. Me processa por roubo de golpe? / Processo e ganho. / Ganha de mim primeiro.
+
+=Teresa|Chameleon
+A: Um homem sem rosto. Que conveniente. / Para quem? / Para quem quer culpar alguém.
+A: Você roubou os golpes de quem? / De todos. / Então você me entende melhor do que eu pensei.
+
+=Chameleon|Rudolf
+A: Filho da princesa. Seu leque de fogo é novo. / Novo e feito pra lagarto. / Lagarto gosta de calor.
+A: Você fala muito para quem ainda não me viu. / Não preciso te ver, só esquentar a sala. / Esquenta, então.
+
+=Rudolf|Chameleon
+A: Primo da Khameleon? Vocês fazem rodízio de cor? / Ela tem cinco. Eu tenho sete. / Exibido.
+A: Fica parado que eu quero ver qual ninja eu vou derrotar. / Todos. Um por vez. / Bom, vai ser rápido.
+
+=Chameleon|Katherine Pierce
+A: Quinhentos anos fugindo. Eu sei o que é isso. / A diferença é que eu fujo bonita. / Eu fujo invisível.
+A: Você mente para sobreviver. Eu copio para sobreviver. / Somos sobreviventes, querido. / Só um de nós sai daqui.
+
+=Katherine Pierce|Chameleon
+A: Um homem que se esconde. Meu tipo favorito. / Você vai cansar de mim. / Eu canso de todo mundo.
+A: Me ensina esse truque de sumir. / Por quê? / Porque eu tenho muita gente atrás de mim.
+
+=Chameleon|Sub-Zero
+A: Copio o seu gelo melhor que você. / Copie o frio também. / Já tenho sangue frio.
+A: Lin Kuei. Eu treinei olhando vocês. / Então sabe como termina. / Sei. Comigo de pé.
+
+=Sub-Zero|Chameleon
+A: Você usa a técnica dos Lin Kuei sem permissão. / Permissão de quem? Do Grão-Mestre? / De mim.
+A: Fique visível e lute como um guerreiro. / Eu luto como você. / Então vai perder como os outros.
+
+=Chameleon|Scorpion
+A: Venha cá! Ouvi você dizer isso tantas vezes. / Não tem graça na sua boca. / Tem na minha corrente.
+A: Você perdeu o clã. Eu perdi a raça. / Isso não nos torna aliados. / Só nos torna iguais.
+
+=Scorpion|Chameleon
+A: Você roubou o fogo do inferno. / Peguei emprestado. / Eu vou cobrar com juros.
+A: Fique amarelo de novo e eu te mostro o que é ser Scorpion. / Mostra. Eu copio. / Copie isso.
+
+=Chameleon|Baraka
+A: Tarkatano. Suas lâminas cortam o vento. Eu sou o vento. / O vento sangra também. / Prova.
+A: Seu povo foi doente. O meu foi extinto. / Nós dois sabemos o que é perder. / Eu sei o que é sobrar.
+
+=Baraka|Chameleon
+A: Não gosto de presa que some. / Então fique com fome. / Eu como você inteiro.
+A: Os Tarkatanos e os Zaterranos foram esquecidos. / Eu não esqueço. / Então lute lembrando.
+
+=Chameleon|Raiden
+A: Deus do trovão. Seus raios acham o invisível? / Acham qualquer coisa. / Erre e eu provo o contrário.
+A: Você protegeu a Terra. Ninguém protegeu Zaterra. / Eu não pude. / Pôde. Não quis.
+
+=Raiden|Chameleon
+A: Sinto a tristeza de um reino inteiro em você. / Sinta o soco também. / Não é preciso isso.
+A: Os Zaterranos merecem paz. / Os Zaterranos merecem vingança. / A vingança nunca devolveu ninguém.
+
+=Chameleon|Geras
+A: Você controla o tempo. Volte até antes de Zaterra cair. / Kronika não permitiria. / Então você não serve.
+A: Areia não acha o invisível. / A areia acha tudo, com tempo. / Você não tem tempo.
+
+=Geras|Chameleon
+A: Sua linha do tempo está cheia de cores. / Todas emprestadas. / Mas o fim é só seu.
+A: Eu já vi mil versões de você. / Quantas venceram? / Nenhuma ainda.
+
+=Chameleon|Johnny Cage
+A: Ator. Você imita heróis. Eu imito ninjas. / Eu imito com contrato e cachê. / Eu imito de graça.
+A: Seus óculos não me acham. / Eles acham o melhor ângulo. / Não existe ângulo bom para perder.
+
+=Johnny Cage|Chameleon
+A: Cara, você é tipo sete dublês num só! Contrata você! / Não trabalho para humanos. / Que pena, o plano odontológico é ótimo.
+A: Muda pra verde! Não, amarelo! Ah, perfeito, fica assim! / Não sou figurino. / Mas devia, hein.
+
+=Chameleon|Ladybug
+A: Heroína de Paris. Você usa máscara também. / Para proteger as pessoas. / Eu uso para me proteger delas.
+A: Seu ioiô é rápido. / Minha sorte é mais. / Sorte não acha o invisível.
+
+=Ladybug|Chameleon
+A: Você não é uma akuma, é? / Sou pior. Sou de verdade. / Então eu não posso só te purificar.
+A: Muda de cor quantas vezes quiser. Eu acho você. / Com sorte? / Com atenção.
+
+=Chameleon|Conan
+A: Bárbaro. Você só conhece o que vê. / E o que eu corto. / Tente cortar o ar.
+A: Sua espada é pesada. Minha velocidade não. / Velocidade não para aço. / Mas desvia dele.
+
+=Conan|Chameleon
+A: Crom não fez homens que somem. / Eu não sou homem. / Então caço como caço feras.
+A: Uma fera de sete cores. Vai virar troféu. / Troféu precisa de corpo. / Vou achar o seu.
+
+=Chameleon|Cyrax
+A: Ciborgue. Seus sensores travaram de novo? / Calibrando para espectro reptiliano. / Calibre rápido.
+A: Você foi humano um dia. / Lembrança arquivada. / Eu nunca arquivo nada.
+
+=Cyrax|Chameleon
+A: Alvo detectado. Alvo perdido. Alvo detectado. / Está com defeito? / Negativo. Você está.
+A: Padrão de cor inconsistente. Classificando como ameaça. / Finalmente acertou algo. / Iniciando eliminação.
+
+=Chameleon|Ermac
+A: Vermelho é a sua cor. Agora é minha também. / Nós somos muitos. Você é um só. / Um só que copia muitos.
+A: Copio sua telecinese. / Copie as almas também. / Prefiro só uma.
+
+=Ermac|Chameleon
+A: Nós sentimos uma alma solitária. / Bem solitária. / Nós podemos fazer companhia.
+A: Você imita o que somos. Nós somos milhares. / E eu sou o único. / Por enquanto.
+
+=Chameleon|General Shao
+A: O conquistador. Seus exércitos passaram por Zaterra. / Zaterra não resistiu. / Eu resisti.
+A: Seu martelo é lento. / Não precisa ser rápido. Só uma vez basta. / Então erre essa vez.
+
+=General Shao|Chameleon
+A: Um lagarto que sobreviveu. Erro dos meus soldados. / Erro que vai te custar. / Ninguém cobra Shao.
+A: Ajoelhe-se e sirva como Reptile serve. / Reptile ajoelha. Eu não. / Então caia.
+
+=Chameleon|Ashrah
+A: Caçadora de demônios. Eu não sou demônio. / Mas você tem sombra de um. / Sombra é a do Noob.
+A: Sua espada purifica? / Purifica o que está corrompido. / Então vai ficar sem trabalho comigo.
+
+=Ashrah|Chameleon
+A: Você carrega muito ódio. / Ódio é o que me mantém visível. / Então eu vou tirar o ódio.
+A: Sua cor muda, mas sua luz não. / Que luz? / Exatamente.
+
+=Chameleon|Ghostface
+A: Máscara branca. Você liga antes de atacar? / Qual é o seu filme de terror favorito? / O que tem lagarto.
+A: Sua faca é pequena. / Pequena e certeira. / Eu sou menor ainda.
+
+=Ghostface|Chameleon
+A: Alô? Tô te vendo... ou não tô? / Não está. / Que filme ruim.
+A: Você muda de cor que nem efeito especial barato. / Eu sou real. / Os melhores sempre dizem isso.
+
+=Chameleon|Havik
+A: Clérigo do caos. Sua bagunça me esconde. / Minha bagunça engole quem se esconde. / Engula isso.
+A: Você muda de forma quebrando os ossos. Eu só mudo a cor. / Que sem graça. / Funcional.
+
+=Havik|Chameleon
+A: Sete ninjas em um só corpo! Isso é caos puro! / É sobrevivência. / Caos e sobrevivência são a mesma coisa.
+A: Me deixa abrir você e ver as cores por dentro. / Vermelho. Igual a todos. / Que decepção.
+
+=Chameleon|Homelander
+A: Você vê através das paredes. Me ache. / Eu vejo tudo. / Então me diga que cor eu sou agora.
+A: Seu sorriso é falso. / O seu rosto também. / Pelo menos eu admito.
+
+=Homelander|Chameleon
+A: Um lagarto com problema de identidade. Fofo. / E você com problema de mãe. / Cuidado.
+A: Ninguém se esconde de mim. / Eu não estou escondido. Estou em todo lugar. / Então eu destruo todo lugar.
+
+=Chameleon|Li Mei
+A: Você protegeu o seu povo de Shao Kahn. / Protegi sim. / Ninguém protegeu o meu.
+A: Sua energia brilha demais. Eu vejo você chegando. / Eu quero que veja. / Então vem.
+
+=Li Mei|Chameleon
+A: Você tem os olhos de quem perdeu um lar. / Perdi um reino. / Então lute com cuidado. Eu sei o que é isso.
+A: Pare de mudar de cor. Fique e converse. / Conversa é para quem tem tempo. / Eu tenho.
+
+=Chameleon|Liu Kang
+A: Deus do fogo. Na sua Nova Era, existe Zaterra? / Existe. Em paz. / Então por que eu ainda estou aqui?
+A: Você reescreveu o tempo. Esqueceu de mim. / Ninguém é esquecido. / Eu fui.
+
+=Liu Kang|Chameleon
+A: Você não pertence a esta linha do tempo. / Eu não pertenço a nenhuma. / Talvez eu possa te dar uma.
+A: A sua raiva pode virar força. / Já virou. / Então use para proteger.
+
+=Chameleon|Kung Lao
+A: Chapéu afiado. Corte o que não vê. / Eu giro e corto tudo. / Gira, então.
+A: Você fala muito de Shaolin. / E você fala pouco de tudo. / Eu falo com os punhos.
+
+=Kung Lao|Chameleon
+A: Já cortei Reptile. Você é a versão arco-íris. / Corta, se conseguir. / Segura o chapéu.
+A: Fica visível que eu quero ver de qual ninja eu vou rir. / Ria do último. / Do Smoke. Sempre do Smoke.
+
+=Chameleon|Kenshi
+A: Espadachim cego. Você não precisa de cor. / Eu sinto a sua mente. / Então sinta isso.
+A: Para você não importa a cor. / Importa o golpe. / Então importa.
+
+=Kenshi|Chameleon
+A: Suas cores não me enganam. Eu nunca vi nenhuma. / Vantagem sua. / Muitas vezes.
+A: Sua mente é cheia de vozes que não são suas. / Ninjas que eu copiei. / E qual é a sua?
+
+=Chameleon|Omni-Man
+A: Viltrumita. Você conquista reinos. / E apaga raças. / Já fizeram isso comigo.
+A: Você é rápido. Mas não me vê. / Eu ouço o seu coração. / Coração de réptil bate devagar.
+
+=Omni-Man|Chameleon
+A: Uma raça extinta e você ainda insiste. / Insistir é tudo que sobrou. / Viltrum não insiste. Vence.
+A: Pense no que você vai ter em mil anos. / Uma raça de volta. / Ou nada.
+
+=Chameleon|Noob Saibot
+A: Sombra. Sua cor é a mais fácil de copiar. / Mas a mais difícil de vencer. / Isso veremos.
+A: Você foi Sub-Zero. Agora é sombra. / E você nunca foi nada. / Fui sete coisas.
+
+=Noob Saibot|Chameleon
+A: Você usa a minha escuridão. / Ela se encaixa bem. / Ela vai te engolir.
+A: O Submundo tem lugar para lagartos. / Não vou para o Submundo. / Todos vão.
+
+=Chameleon|Peacemaker
+A: Pacificador. Paz com quantas armas? / Todas que couberem. / Nenhuma me acerta.
+A: Seu capacete é brilhante demais. Eu vejo meu reflexo nele. / Que tal? / Bonito. Assustado.
+
+=Peacemaker|Chameleon
+A: Cara, é igual àquele lagarto da minha infância! Eu chamava de Pisquinha. / Não sou bicho de estimação. / Pisquinha também mordia.
+A: Paz! Mesmo que eu tenha que matar todos os ninjas que você imita! / Eles vão gostar de saber. / Fala pra eles que é nada pessoal.
+
+=Chameleon|Nitara
+A: Vampira de asas. Você enxerga no escuro? / Enxergo o sangue. / O meu é frio.
+A: Você quer separar o seu reino. Eu quero o meu de volta. / Então somos iguais. / Só que eu ganho.
+
+=Nitara|Chameleon
+A: Sangue de réptil tem gosto de terra. / Prove e descubra. / Com prazer.
+A: Seu povo também foi engolido por Exoterra. / Engolido e esquecido. / Eu não deixo o meu ser esquecido.
+
+=Chameleon|Quan Chi
+A: Feiticeiro. Você ressuscita mortos. Ressuscite o meu povo. / E o que você me dá em troca? / Nada.
+A: Suas runas não seguram quem muda. / As runas seguram almas. / Então segure.
+
+=Quan Chi|Chameleon
+A: Posso trazer de volta os Zaterranos... como revenants. / Prefiro que fiquem mortos. / Que desperdício.
+A: Suas sete cores dariam um ótimo exército. / Sou um só. / Eu multiplico.
+
+=Chameleon|Reiko
+A: General do Kahn. Você marchou por Zaterra? / Marchei por muitos reinos. / Então lembre desse.
+A: Seu martelo e suas estrelas não me acham. / Eu acerto onde você vai estar. / Eu não vou estar.
+
+=Reiko|Chameleon
+A: Um sobrevivente. Erros devem ser corrigidos. / Venha corrigir. / Com prazer.
+A: Sirva a Shao e viverá. / Servir não é viver. / Para você, é a única opção.
+
+=Chameleon|Rain
+A: Roxo. Sua água e seus raios. Agora são meus. / Copiar um príncipe? Que ousado. / Que fácil.
+A: Você se acha da realeza. / Eu sou da realeza. / Eu sou de sete.
+
+=Rain|Chameleon
+A: Imitação barata de um príncipe edeniano. / Barata e mais rápida. / Rápida não, desesperada.
+A: Fique roxo e lute com elegância. / Elegância não é força. / Para você, nada é.
+
+=Chameleon|Sektor
+A: Ciborgue. Seu míssil procura calor. / E acha. / Eu não tenho.
+A: Você destruiu o próprio clã. Eu perdi o meu. / Perdi por escolha. / Pior.
+
+=Sektor|Chameleon
+A: Assinatura térmica: ausente. Inimigo: presente. / Que confuso. / Ajustando arsenal.
+A: Copiar não é evoluir. / E virar máquina é? / Afirmativo.
+
+=Chameleon|Reptile
+A: Irmão de raça. Você ainda serve a quem nos matou. / Eu sobrevivo. / Eu também. Sem ajoelhar.
+A: Copiar você é o mais fácil. / Mas você não tem o meu veneno. / Tenho o meu ódio.
+
+=Reptile|Chameleon
+A: Você deveria lutar ao meu lado. / Ao lado do imperador? Nunca. / Então você morre sozinho.
+A: Você copia o meu ácido. / Copio o seu orgulho também. Pena que você não tem. / Vou te ensinar a ter respeito.
+
+=Chameleon|Shang Tsung
+A: Ladrão de almas. Você também copia os outros. / Eu copio e consumo. / Eu copio e sigo vivo.
+A: Sua forma muda. A minha também. / Mas eu fico com a alma de quem copio. / Isso é roubo.
+
+=Shang Tsung|Chameleon
+A: Um camaleão que imita sete ninjas. Que alma rara. / Não está à venda. / Eu não compro. Eu tomo.
+A: Me dê sua forma e eu te ensino a ser qualquer um. / Eu já sou. / Então seja meu.
+
+=Chameleon|Takeda
+A: Filho de Kenshi. Suas lâminas são rápidas. / Rápidas e precisas. / Precisão contra sete cores?
+A: Você lê mentes como o seu pai? / Leio o suficiente. / Leia isso.
+
+=Takeda|Chameleon
+A: Já lutei com Reptile. Você é tipo a versão premium. / Premium e perigosa. / Tá bom, a gente vê.
+A: Sua mente está confusa. Sete ninjas brigando por espaço. / Todos ganham de você. / Isso é muita gente.
+
+=Chameleon|Smoke
+A: Fumaça. Você some. Eu sumo melhor. / Você troca de cor. Eu nem tenho. / Então somos parecidos.
+A: Copio a sua fumaça. / Não copie a minha alma. / Não quero.
+
+=Smoke|Chameleon
+A: Você usa a minha cor sem pedir. / Cinza é de todo mundo. / Meu cinza não.
+A: Dois que somem. Vamos ver quem aparece primeiro. / Quem bater primeiro. / Combinado.
+
+=Chameleon|T-1000
+A: Metal líquido que imita gente. Eu imito ninjas. / Eu imito melhor. / Você não muda de cor.
+A: Você copia quem toca. / Copio e substituo. / Eu copio e venço.
+
+=T-1000|Chameleon
+A: Padrão de cor instável. / Igual ao seu formato. / Afirmativo.
+A: Imitação detectada. / Também te detectei. / Iniciando eliminação.
+
+=Chameleon|Sindel
+A: Rainha. Sua voz não acha quem não está. / Minha voz acha todos. / Então grite.
+A: Você também foi de Shao Kahn. / Fui prisioneira. / Eu fui alvo.
+
+=Sindel|Chameleon
+A: As Umgadi treinam com a sua irmã. Você podia servir também. / Não sirvo rainhas. / Que pena. Eu sou ótima de servir.
+A: Sua cor muda, mas o seu grito é o mesmo. / Não grito. / Vai gritar.
+
+=Chameleon|Cassie Cage
+A: Pistolas. Barulho demais para um alvo invisível. / Relaxa, eu atiro pra todo lado. / Que estratégia.
+A: Você não para de falar. / E você não para de piscar. Tá com conjuntivite? / Vou te fazer engolir essa.
+
+=Cassie Cage|Chameleon
+A: Ei, Pisca-Pisca, fica parado pra uma foto! / Sem fotos. / Já tirei três. Você saiu borrado em todas.
+A: Olha, se você fosse um filtro eu usava o amarelo. / Escolha a cor do seu fim. / Amarelo, então. Combina com o meu cabelo.

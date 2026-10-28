@@ -1,0 +1,491 @@
+=Cassie Cage|Cassie Cage
+A: Nossa, eu sou linda até de longe. / Eu sei, né? / Pena que uma de nós vai apanhar.
+A: Quem é a cópia aqui? / A que tá com a franja errada. / Golpe baixo. Gostei.
+
+=Cassie Cage|Khameleon
+A: Você troca de cor que nem filtro de rede social. / E você fala que nem propaganda. / Pelo menos eu vendo.
+A: Se você copiar a minha mãe, eu fico ofendida. / Eu só copio ninjas. / Ufa. A minha mãe bate mais.
+
+=Khameleon|Cassie Cage
+A: Você nunca fica quieta? / Nunca. É de família. / Então vou calar você.
+A: Suas balas não acham o que não veem. / Por isso eu trouxe muitas. / Barulhenta.
+
+=Cassie Cage|Kitana
+A: Princesa, adoro o look. Mil anos e nenhuma ruga. / Obrigada. Agora lute. / Educada até pra bater.
+A: Seu filho é o Rudolf, né? Ele faz piada igual eu. / Infelizmente. / Vou levar como elogio.
+
+=Kitana|Cassie Cage
+A: Sua mãe fala muito de você. / Fala que eu sou um orgulho? / Fala que você não obedece.
+A: Os leques de Edênia não perdoam deboche. / Sorte que eu não peço perdão. / Então vai pedir socorro.
+
+=Cassie Cage|Mileena
+A: Amiga, esses dentes são de verdade? Quem é o seu dentista? / Vou mostrar mordendo. / Passo, valeu.
+A: Calma, ninguém quer o seu trono. Só quero bater em você. / É o que todos dizem. / Mas eu cumpro.
+
+=Mileena|Cassie Cage
+A: Filhinha de estrela. Vai chorar pro papai? / Ele chora mais que eu. / Que família patética.
+A: Eu vou arrancar esse sorriso da sua cara. / Esse sorriso é herança. Tem seguro. / Vou ver se cobre mordida.
+
+=Cassie Cage|Jade
+A: Bastão bonito. Dá pra tirar selfie com ele? / Dá pra levar com ele. / Entendi, é um não.
+A: Você é a guarda-costas da Kitana. Eu sou a comandante. Quem manda mais? / Quem sobra de pé. / Justo.
+
+=Jade|Cassie Cage
+A: Fale menos e lute mais. / Dá pra fazer as duas coisas. Olha. / Isso foi só barulho.
+A: Sua mãe treinou você bem. / A técnica é dela. O charme é do meu pai. / O charme não vai te salvar.
+
+=Cassie Cage|Tanya
+A: Você trai todo mundo. Tem cartão fidelidade? / Engraçadinha. / O povo me ama.
+A: Comanda as Umgadi e ainda faz hora extra de traíra. / Eu escolho o lado que vence. / Então vem pro meu.
+
+=Tanya|Cassie Cage
+A: Terráquea arrogante. Você nem sabe o que é Edênia. / Sei que tem gente bonita e briguenta. / Pelo menos isso.
+A: Sua boca vai te custar caro. / Põe na conta do meu pai. / Com prazer.
+
+=Cassie Cage|Skarlet
+A: Maga de sangue. Isso é um look ou um problema de saúde? / Os dois. / Respeito.
+A: Se você beber o meu sangue, vai ficar engraçada. / Vou ficar mais forte. / E engraçada. Pacote completo.
+
+=Skarlet|Cassie Cage
+A: Seu sangue é quente. Cheio de deboche. / Tem gosto de pipoca de cinema. / Vou provar.
+A: Uma gota sua e eu fico mais forte. / Uma bala minha e você fica menos. / Veremos.
+
+=Cassie Cage|Sheeva
+A: Quatro braços. Dá pra fazer quatro selfies ao mesmo tempo! / Dá pra te esmagar quatro vezes. / Prefiro a primeira opção.
+A: Rainha dos Shokan, adoro sua postura. / Isso é ameaça, não postura. / Mesmo assim, arrasou.
+
+=Sheeva|Cassie Cage
+A: Terráquea pequena e barulhenta. / Pequena? Eu tenho um metro e setenta, querida. / Para mim é um petisco.
+A: Os Shokan não se curvam a humanos. / Ninguém pediu pra curvar. Só pra perder. / Insolente!
+
+=Cassie Cage|Coelho
+A: Uma faca e um monte de anéis. Você é tipo um rapper justiceiro. / Eu não sou piada. / Tudo bem, fica sério então.
+A: Você trabalha pro Supremo? Ele paga bem? / Pago com o que eu quero. / Cassie Cage aceita Pix.
+
+=Coelho|Cassie Cage
+A: Você não leva nada a sério. / Levo sim. A minha imagem. / Vou estragar ela.
+A: Sua família ainda existe. Valorize. / Eu valorizo. Mas não conta pra eles. / ...Tá.
+
+=Cassie Cage|Tigre
+A: Dois gadanhos e um sorriso! Finalmente alguém divertido! / Bora fazer bagunça! / Bora, mas eu ganho.
+A: Você fala mais que eu. Isso é um insulto. / Aprende com o mestre. / Mestre é a minha mãe. E ela odeia você.
+
+=Tigre|Cassie Cage
+A: Ô, filha do ator! Me arruma um autógrafo do seu pai? / Te dou um autógrafo na testa. / Fechado!
+A: Se a gente brigar, quem ri mais? / Eu, depois que eu ganhar. / Ah, assim não tem graça.
+
+=Cassie Cage|Cobra
+A: Curandeiro egípcio? Tem alguma coisa pra dor de cotovelo? / Tenho para dor eterna. / Passo.
+A: Serpente pra todo lado. Que medo. Brincadeira. / Você vai sentir o veneno. / Já tomei vacina.
+
+=Cobra|Cassie Cage
+A: Sua vida é jovem e cheia de força. / Valeu, faço pilates. / Eu vou drenar tudo.
+A: Você ri da morte. / Rio de tudo. É mecanismo de defesa. / Hoje não vai defender nada.
+
+=Cassie Cage|Cabra
+A: Explosivo caseiro? Isso é tutorial da internet? / É talento. / Talento pra explodir a própria sobrancelha.
+A: Hackeia o meu drone e eu te dou um tapa. / Já hackeei. / Que mentira. ...É mentira, né?
+
+=Cabra|Cassie Cage
+A: Comandante das Forças Especiais? Seu sistema é fácil de invadir. / Por isso eu bato pessoalmente. / Justo.
+A: A gente podia formar uma dupla. Eu explodo, você posa. / Fechado. Mas eu posso explodir também. / Ainda melhor.
+
+=Cassie Cage|Touro
+A: Subtenente? Eu sou comandante. Bate continência. / Bato outra coisa. / Grossa. Gostei.
+A: Você atira bem. Eu atiro bem e bonito. / Bonito não mata. / Mata de inveja.
+
+=Touro|Cassie Cage
+A: Comandante tão nova? Deve ser nepotismo. / Foi mérito. E um pouco de nepotismo. / Pelo menos é sincera.
+A: Arma em punho. Sem gracinha. / Sem gracinha eu não sei lutar. / Então aprende agora.
+
+=Cassie Cage|Lorenzo
+A: Você voltou dos mortos? Ai, que dark. / Não tem graça. / Tudo tem graça se você tentar.
+A: Cara, sorri um pouco. Você já morreu, o pior já foi. / Você não sabe nada. / Sei que ninguém morre de sorrir.
+
+=Lorenzo|Cassie Cage
+A: Você faz piada de tudo. / É melhor do que chorar. / Eu já chorei demais.
+A: Você tem família viva. Sabe a sorte que tem? / Sei. Só não fala isso pro meu pai, ele fica emotivo. / ...Tá bom.
+
+=Cassie Cage|Art the Clown
+A: Um palhaço que não fala? É o sonho de qualquer festa infantil. / ... / Tá, agora fiquei com medo.
+A: Esse sorriso é maquiagem ou é você mesmo? / ... / Responde com a cabeça, sei lá.
+
+=Art the Clown|Cassie Cage
+A: ... / Para de buzinar essa coisa! / ...
+A: ... / Isso é uma serra? Eu tenho duas pistolas. Bora. / ...
+
+=Cassie Cage|Freddy Krueger
+A: Luva de lâminas? Que acessório anos oitenta. / Bem-vinda ao seu pesadelo, docinho. / Eu durmo de oito a dez horas, querido.
+A: Meus pesadelos são reuniões de família. Duvido você fazer pior. / Duvida? / Já tô arrependida.
+
+=Freddy Krueger|Cassie Cage
+A: Hora de dormir, comandante. / Me acorda se for me matar. / Com prazer.
+A: O que você mais teme? Ser igual ao papai? / Ser igual à mamãe. Brincadeira. Os dois. / Hahaha, adorei.
+
+=Cassie Cage|Jason Voorhees
+A: Máscara de hóquei! Você joga em qual time? / ... / Do time do silêncio, entendi.
+A: Você anda devagar e chega sempre. Meu pai chega atrasado. / ... / Vocês dariam um ótimo filme.
+
+=Jason Voorhees|Cassie Cage
+A: ... / Ei, eu não tô acampando! / ...
+A: ... / Larga esse facão que eu largo a arma. Brincadeira. / ...
+
+=Cassie Cage|Stefan
+A: Vampiro que escreve diário? Você tem um blog? / Não. / Devia. Ia viralizar.
+A: Cabelo perfeito, cara triste. Clássico. / Já passei por muita coisa. / Então passa por mim também.
+
+=Stefan|Cassie Cage
+A: Você me lembra a Lexi. / Ela é bonita? / Ela é irritante. Do jeito bom.
+A: Não quero machucar você. / Que fofo. Eu quero machucar você. / Justo.
+
+=Cassie Cage|Damon
+A: Ah, finalmente alguém tão debochado quanto eu. / Ninguém é tão debochado quanto eu. / Desafio aceito.
+A: Cento e quarenta e cinco anos esperando uma garota? Isso é muito tempo. / Ela valia a pena. / Ela não voltou, né?
+
+=Damon|Cassie Cage
+A: A filha de Johnny Cage. Seu pai ainda faz filme? / Faz, mas ninguém vê. / Ui. Gostei de você.
+A: Você tem sangue de celebridade. Deve ser saboroso. / Tem gosto de protetor solar. / Que pena.
+
+=Cassie Cage|Bonnie
+A: Bruxa? Faz um feitiço pro meu cabelo ficar assim pra sempre. / Não é assim que funciona. / Então pra que serve?
+A: Sua magia é mais forte que bala? / Bem mais. / Então vou atirar mais.
+
+=Bonnie|Cassie Cage
+A: Você é sempre assim? / Assim como? Linda e engraçada? / Insuportável.
+A: Respeite a magia. / Respeito. Só não tenho medo. / Vai ter.
+
+=Cassie Cage|Lexi
+A: Uma vampira engraçada? Finalmente! / Nós duas vamos nos dar bem. / Depois que eu ganhar.
+A: Trezentos e cinquenta anos e você ainda arrasa no look. / Segredo: não envelhecer. / Golpe baixo.
+
+=Lexi|Cassie Cage
+A: Gostei do cabelo. Quer ser vampira? / Não obrigada, gosto de sol. / Que pena, ia ser icônica.
+A: Uma piada boa vale um soco bom. / Então você vai levar muitos. / Eu sei. Eu ri primeiro.
+
+=Cassie Cage|Sonya Blade
+A: Oi, mãe. Antes que você comece, eu já comi. / Posição de combate, Cassandra. / Ela me chamou de Cassandra. Tô ferrada.
+A: Se eu ganhar, você me deixa ficar com o caça? / Se você ganhar, eu penso. / Isso é um não disfarçado.
+
+=Sonya Blade|Cassie Cage
+A: Você deixou o relatório em branco de novo. / Coloquei um emoji no final! / Isso não é relatório.
+A: Cassie, para de rir no meio da luta. / Não dá, mãe. É genético. Culpa o pai. / Eu culpo todo dia.
+
+=Cassie Cage|Jax
+A: Tio Jax! A Jacqui mandou um beijo. / Ela mandou você me bater? / Isso ela não mandou. Foi ideia minha.
+A: Esses braços são novos? Que brilho! / São de titânio. / Os meus são de deboche.
+
+=Jax|Cassie Cage
+A: Garota, você é igualzinha ao seu pai. / Por favor, não me ofende assim. / Hahaha. Vem.
+A: Vou pegar leve porque você é filha da Sonya. / Não pega não, tio. Ela ia ficar sabendo. / Justo.
+
+=Cassie Cage|Kano
+A: Kano. Ainda vendendo bugiganga no mercado negro? / Ainda vendendo sorriso, princesinha? / Tô vendendo surra hoje.
+A: Lembra daquele rastreador no seu helicóptero? Fui eu. / Sua pirralha! / Educação, por favor. Tem criança ouvindo.
+
+=Kano|Cassie Cage
+A: A filha da Sonya. Vou mandar sua cabeça de presente pra ela. / Ela vai devolver com a sua dentro. / Típica Blade.
+A: Seu velho é um idiota, sabia? / Sei. Mas é o meu idiota. / Então vai junto com ele.
+
+=Cassie Cage|Ana Letícia
+A: Amei essa bolsa. É falsificada? / É de grife, querida. Como a pistola dentro. / Ok, agora eu respeito.
+A: Você finge que é boazinha? Que cansativo. / Funciona. / Comigo não.
+
+=Ana Letícia|Cassie Cage
+A: Você é a garota das Forças Especiais? Que cabelo maltratado. / O seu tá cheio de veneno. / Pelo menos combina comigo.
+A: Vamos fazer um acordo. Você me deixa ganhar e eu te dou metade. / Metade de nada? / Esperta demais.
+
+=Cassie Cage|Vega
+A: Agente paranormal? Tipo Arquivo X? / Pior. / Que demais.
+A: Você trocou de corpo pelos amigos. Isso é muito brabo. / Não foi escolha fácil. / Mesmo assim. Brabo.
+
+=Vega|Cassie Cage
+A: Você não leva a sério nem o Outro Lado. / Ele me leva a sério? / Ele leva tudo.
+A: Seus pais nunca tinham tempo pra você? / Tinham tempo de sobra pra brigar na minha frente. / Então você me entende.
+
+=Cassie Cage|Teresa
+A: Advogada? Me defende no tribunal da moda? / Você seria condenada. / Que maldade.
+A: Você subiu na vida mentindo. Eu subi apanhando. / As duas doem. / Uma dói mais. Quer descobrir qual?
+
+=Teresa|Cassie Cage
+A: Menina rica brincando de soldado. / Rica? Meu pai gasta tudo em óculos. / Ainda assim, privilegiada.
+A: Eu não tive nada. Você teve tudo. / Eu tive pais famosos e divorciados. Quer trocar? / ...Não.
+
+=Cassie Cage|Rudolf
+A: Rudolf! Finalmente alguém tão engraçado quanto eu. / Mais engraçado. / Agora você me ofendeu.
+A: Leque de fogo? Que coisa mais dramática. / Disse a menina que dá soco no saco. / Clássicos nunca morrem.
+
+=Rudolf|Cassie Cage
+A: A filha do Johnny Cage. Seu pai ainda acha que é bonito? / Ele tem certeza. / Coitada de você.
+A: Vamos ver quem faz a melhor piada antes de bater. / Já fiz: você. / Ah, assim é covardia.
+
+=Cassie Cage|Katherine Pierce
+A: Quinhentos anos e ainda dando trabalho? Ícone. / Obrigada, docinho. / Não me chama de docinho.
+A: Você engana todo mundo? / Quase todo mundo. / Eu não caio nessa.
+
+=Katherine Pierce|Cassie Cage
+A: Comandante, você é bonitinha demais pra esse emprego. / E você é velha demais pra esse vestido. / Ai.
+A: Você me lembra de mim mesma, só que barulhenta. / E você me lembra de um alerta de golpe. / Engraçadinha.
+
+=Cassie Cage|Sub-Zero
+A: Sub-Zero, o seu gelo cura dor de cabeça? / Cura falta de respeito. / Então não serve pra mim.
+A: Já pensou em abrir uma sorveteria? / Concentração. / Vou entender como um talvez.
+
+=Sub-Zero|Cassie Cage
+A: Você é tão barulhenta quanto o seu pai. / Mais. Eu tenho microfone de drone. / Silêncio.
+A: Os Lin Kuei treinam em silêncio. / Os Cage treinam com música. / Então lute ao som do gelo.
+
+=Cassie Cage|Scorpion
+A: Venha cá! Ah, desculpa, essa é sua. / Não brinque com isso. / Toda vez que eu falo, você vem. Que fofo.
+A: Você é o ninja amarelo, né? Combina com o meu cabelo. / Silêncio. / Ninguém aceita elogio nesse torneio.
+
+=Scorpion|Cassie Cage
+A: Sua língua é mais afiada que a minha kunai. / Obrigada! É treino. / Não foi elogio.
+A: Fique e lute como seus pais lutaram. / Melhor ainda: eu lute como eu. / Arrogante.
+
+=Cassie Cage|Baraka
+A: Que dentes! Sério, quem é o seu dentista? / Venha cá e veja de perto. / Não, obrigada. Tô de boa.
+A: Suas lâminas saem do braço? Dói? / Só em quem eu corto. / Pergunta errada, entendi.
+
+=Baraka|Cassie Cage
+A: Humana pequena e cheirosa. / Isso foi um elogio ou um cardápio? / Os dois.
+A: Os Tarkatanos não temem armas de fogo. / Os Tarkatanos nunca viram a minha mira. / Vamos ver.
+
+=Cassie Cage|Raiden
+A: Raiden! O meu pai disse que você é meio dramático. / Seu pai disse muitas coisas. / A maioria verdade.
+A: Pode ficar sem raio por hoje? Meu cabelo arrepia. / Não. / Que deus mais chato.
+
+=Raiden|Cassie Cage
+A: Você derrotou Shinnok. Eu lembro. / Eu também lembro. Eu conto em todo jantar. / Humildade, Cassandra.
+A: Seu potencial é enorme. / Eu sei, eu sei. / Mas sua disciplina não.
+
+=Cassie Cage|Geras
+A: Ei, homem do tempo! Vai chover hoje? / Vai chover areia. / Péssima previsão.
+A: Você trabalhava pra Kronika. A gente brigou muito, lembra? / Lembro de todas as linhas do tempo. / Que cansativo.
+
+=Geras|Cassie Cage
+A: Em mil linhas do tempo, você sempre faz piada. / É a minha constante. / A minha é vencer.
+A: Você mudou o destino uma vez. Não mudará de novo. / Quer apostar? / Eu já sei o resultado.
+
+=Cassie Cage|Johnny Cage
+A: Pai, você tirou os óculos pra lutar comigo? / Claro que não, Cass. É parte do figurino. / Então vai perder com estilo.
+A: Se eu ganhar, você para de contar a história do Goro no jantar? / Nunca. Essa história é ouro! / Vou ter que ganhar feio.
+
+=Johnny Cage|Cassie Cage
+A: Minha filha linda! Igualzinha ao pai! / Graças a Deus, não. / Ai, essa doeu mais que um chute.
+A: Cassie, pega leve com o velho, tá? / Você não é velho, pai. É vintage. / Te amo, filha. Agora apanha.
+
+=Cassie Cage|Ladybug
+A: Ladybug de verdade? Posso tirar uma foto? / Depois da luta. / Fechado, mas eu vou postar.
+A: Seu ioiô é fofo. As minhas pistolas são mais rápidas. / Rápidas não é sinônimo de certeiras. / Ouch.
+
+=Ladybug|Cassie Cage
+A: Você não parece estar akumatizada. / Não, eu sou assim mesmo. / Isso é mais assustador.
+A: Vamos lutar com justiça. / Justiça é atirar em quem merece. / Não é bem assim.
+
+=Cassie Cage|Conan
+A: Conan! Você é mais alto que o meu pai e mais quieto. Perfeito! / Por Crom! / Isso foi um oi?
+A: Já pensou em cortar o cabelo? / Já pensei em cortar você. / Entendido. Deixa o cabelo.
+
+=Conan|Cassie Cage
+A: Uma guerreira de língua solta. / E pistolas soltas também. / Aço vence pólvora.
+A: Lute sem armas de covarde. / Isso aqui é arma de quem chega primeiro. / Covardia moderna.
+
+=Cassie Cage|Cyrax
+A: Cyrax! Sua bateria tá carregada? / Bateria: 97 por cento. / Vou descarregar.
+A: Você tem Bluetooth? Queria conectar o meu drone. / Conexão negada. / Que antissocial.
+
+=Cyrax|Cassie Cage
+A: Alvo: Cassandra Cage. Nível de deboche: crítico. / Que honra! / Iniciando eliminação.
+A: Análise: probabilidade de silêncio: zero. / Corretíssimo. / Desligando sensores de áudio.
+
+=Cassie Cage|Ermac
+A: Ermac, quantas almas tem aí dentro? / Milhares. / Alguma tem senso de humor?
+A: Você fala no plural. É elegante ou esquisito? / Nós somos muitos. / Esquisito, então.
+
+=Ermac|Cassie Cage
+A: Nós sentimos uma alma barulhenta. / Barulhenta e linda. / Nós concordamos com uma das duas.
+A: Junte-se a nós. / Não, obrigada. Já tenho uma família doida. / Nós entendemos.
+
+=Cassie Cage|General Shao
+A: General Shao! Esse martelo é compensação? / Insolente! / Era só uma pergunta.
+A: Você invadiu a Terra? Que coisa mais anos noventa. / A Terra vai ajoelhar. / A Terra vai te dar um soco no saco.
+
+=General Shao|Cassie Cage
+A: Humana. Você não é nada. / Sou a comandante das Forças Especiais. / Nada com título.
+A: Seu sangue vai cobrir meu martelo. / Esse martelo precisa de uma lavada mesmo. / Morra!
+
+=Cassie Cage|Ashrah
+A: Caçadora de demônios. Eu sou demônia? / Não. Apenas irritante. / Isso eu aceito.
+A: Sua espada brilha muito. Dá até inveja. / Ela purifica. / Purifica minha vergonha de perder? Brincadeira.
+
+=Ashrah|Cassie Cage
+A: Sua luz é forte, mas você esconde a dor com piadas. / Que análise grátis! / Não é grátis. Custa uma luta.
+A: Você não precisa ser engraçada o tempo todo. / Preciso sim. Senão eu choro. / Então lute sem chorar.
+
+=Cassie Cage|Ghostface
+A: Alô? É o meu fã? / Qual é o seu filme de terror favorito? / Os do meu pai. Eles dão medo de tão ruins.
+A: Você liga antes de atacar? Que educado. / Alô? Tô atrás de você. / Tá não, tô vendo você na frente.
+
+=Ghostface|Cassie Cage
+A: Ei, filha do Johnny Cage, quer participar do meu próximo filme? / Só se eu for a final girl. / Ninguém sobrevive.
+A: Você grita bonito? / Eu não grito. Eu atiro. / Que roteiro chato.
+
+=Cassie Cage|Havik
+A: Havik, esse pescoço quebrado é pose ou acidente? / Caos! / Acidente, então.
+A: Você ama bagunça? Minha casa na adolescência era seu sonho. / Seus pais brigavam? / Brigavam e depois brigavam de novo.
+
+=Havik|Cassie Cage
+A: Você é pura desordem! Adoro! / Obrigada. Pura beleza também. / Vamos quebrar tudo juntos!
+A: Deixa eu abrir você pra ver o caos aí dentro. / Só tem piada e mau humor. / Delicioso.
+
+=Cassie Cage|Homelander
+A: Homelander, você é do tipo que só sorri em foto? / Eu sorrio quando quero. / Que assustador.
+A: Para de voar, vem lutar no chão. Medo? / Medo de você? / É, eu também acho engraçado.
+
+=Homelander|Cassie Cage
+A: Você é uma celebridade também, né? / Sou. Só que a do bem. / A do bem é a que dura menos.
+A: Eu sou o herói mais amado do mundo. / Eu sou a filha do herói mais metido do mundo. / Empate.
+
+=Cassie Cage|Li Mei
+A: Li Mei! Esses punhos brilhando são lindos! / Obrigada. / Pena que eu vou ter que apagar eles.
+A: Você é sempre tão gentil? / Tento ser. / Que preguiça. Brincadeira, você é ótima.
+
+=Li Mei|Cassie Cage
+A: Você é corajosa. / E linda. Esquece de dizer a parte importante. / Corajosa e convencida.
+A: Vamos lutar com respeito. / Respeito com uma pitada de deboche? / Só respeito.
+
+=Cassie Cage|Liu Kang
+A: Deus do Fogo! Me faz famosa na Nova Era? / Você já é. / Ah, que gentil.
+A: Na sua linha do tempo, meus pais são casados? / Não posso dizer. / Ou seja, não.
+
+=Liu Kang|Cassie Cage
+A: Você é uma guerreira valorosa. / E fofa. / A arrogância é seu ponto fraco.
+A: Seu pai foi meu aliado. / Ele fala de você o tempo todo. / Isso explica a sua confiança.
+
+=Cassie Cage|Kung Lao
+A: Esse chapéu corta pizza? / Corta qualquer coisa. / Que útil!
+A: Você é o shaolin mais metido que eu conheço. / E você é a terráquea mais metida. / Viu? Combinamos.
+
+=Kung Lao|Cassie Cage
+A: Ei, Cage júnior. Seu pai ainda acha que é o melhor? / Ele tem certeza. / E você?
+A: Fala menos e esquiva mais. / Eu faço os dois. Vê? / Esquivou bem. Falou mal.
+
+=Cassie Cage|Kenshi
+A: Kenshi, você nunca viu o meu rosto. Tô arrasando hoje. / Eu sinto sua arrogância. / Ela é linda também.
+A: O Takeda fala muito de você. / Ele fala muito de você também. / Quê? O que ele disse?
+
+=Kenshi|Cassie Cage
+A: Sua mente é barulhenta. / Bem-vindo à minha vida. / Silencie-a.
+A: Meu filho confia em você. / Eu confio nele também. / Então não decepcione nenhum de nós.
+
+=Cassie Cage|Omni-Man
+A: Esse bigode é de verdade? / Você vai descobrir de perto. / Ui, que pai rígido.
+A: Você parece um pai legal. Até não ser. / A Terra é fraca. / Eu sou da Terra. Testa.
+
+=Omni-Man|Cassie Cage
+A: Humana. Pense no que você vai ter em quinhentos anos. / Uma estátua com o meu rosto? / Nada.
+A: Você me lembra o meu filho. Teimoso. / Ele é fofo? / Ele perdeu.
+
+=Cassie Cage|Noob Saibot
+A: Noob? Seu nome é um insulto? / É o nome do meu mestre ao contrário. / Que história triste.
+A: Você é tão escuro que nem aparece nas fotos. / Ótimo. / Péssimo para o seu marketing.
+
+=Noob Saibot|Cassie Cage
+A: Sua alegria vai morrer nas sombras. / Ela tem plano de saúde. / Não vai precisar.
+A: Eu sou o fim da sua linhagem. / Minha linhagem é teimosa. / O Submundo é paciente.
+
+=Cassie Cage|Peacemaker
+A: Pacificador! Seu capacete serve de espelho? / Serve de tudo! / Então segura que eu vou retocar o batom.
+A: Você mata pela paz? Que contraditório. / Contradição é meu nome do meio. / O meu é Cage.
+
+=Peacemaker|Cassie Cage
+A: Oi, gatinha das Forças Especiais! / Me chama de gatinha de novo. / ...Comandante?
+A: Bora ver quem tem mais arma? / Não é sobre quantidade. / Pra mim é sim.
+
+=Cassie Cage|Nitara
+A: Uma vampira de asas! Que glamour! / Você não está com medo? / Tô impressionada, é diferente.
+A: Você quer sangue? O meu é bem caro. / Eu não pago. / Então vai pegar no braço?
+
+=Nitara|Cassie Cage
+A: Seu sangue cheira a coragem. / E a perfume francês. / Ambos deliciosos.
+A: Fique quieta e será rápido. / Ficar quieta? Nunca ouvi falar. / Que pena.
+
+=Cassie Cage|Quan Chi
+A: Quan Chi! Lembra de mim? Eu derrotei o seu chefe. / Shinnok não era meu chefe. / Era sim, e eu bati nele.
+A: Essas tatuagens doeram? / Não tanto quanto a sua morte vai doer. / Então doeram.
+
+=Quan Chi|Cassie Cage
+A: A garota que derrotou Shinnok. Que sorte. / Sorte não, talento. / Talento termina hoje.
+A: Seus pais foram meus revenants. Lembra? / Isso foi muito pesado, cara. / Posso fazer de novo.
+
+=Cassie Cage|Reiko
+A: General do Kahn? Que uniforme sem graça. / Você vai ver a graça do meu martelo. / Melhor não.
+A: Você tá sempre bravo assim? / Sempre. / Vou contar uma piada. Talvez ajude.
+
+=Reiko|Cassie Cage
+A: Ajoelhe-se diante de Shao. / Joelho só pra amarrar o tênis. / Insolente!
+A: Sua família não pode te salvar. / Ela nem tá aqui. Sou só eu. E basta. / Veremos.
+
+=Cassie Cage|Rain
+A: Príncipe da água! Você usa protetor solar? / Edenianos não precisam disso. / Inveja.
+A: Esse roxo combina com você. Combina com o seu ego também. / Ego de príncipe é merecido. / Então merece apanhar.
+
+=Rain|Cassie Cage
+A: Terráquea vulgar. / Vulgar é o seu cabelo molhado. / Eu sou da realeza!
+A: Não ouse rir de mim. / Tarde demais. Já ri. / Vou fazer chover em você.
+
+=Cassie Cage|Sektor
+A: Sektor! Você é o robô vermelho, né? / Unidade LK-9T9. / Vou te chamar de vermelhinho.
+A: Mísseis no peito? Que agressivo. / Eficiente. / Agressivo.
+
+=Sektor|Cassie Cage
+A: Alvo identificado. / Vai me pedir autógrafo? / Negativo. Eliminação.
+A: Seu comportamento é ineficiente. / Mas é divertido. / Diversão não é métrica.
+
+=Cassie Cage|Reptile
+A: Reptile! Vai cuspir em mim? Que nojo. / Vou derreter você. / Prefiro cuspir em você.
+A: Você é o cara verde da Khameleon? / Não sou de ninguém. / Ah, então você tá solteiro?
+
+=Reptile|Cassie Cage
+A: Humana arrogante. / Prefiro dizer confiante. / Vou derreter essa confiança.
+A: Você vai sentir o ácido. / Eu vou sentir é pena de você. / Grrr.
+
+=Cassie Cage|Shang Tsung
+A: Shang Tsung! Você troca de rosto? Faz um meu! / Seu rosto será meu de qualquer jeito. / Ai, que esquisito.
+A: Você rouba almas? A minha dá trabalho, já aviso. / Almas difíceis são as melhores. / Que creepy.
+
+=Shang Tsung|Cassie Cage
+A: A alma da filha de dois heróis. Que iguaria. / Com pimenta? / Com prazer.
+A: Seu sorriso será meu. / Ele vem com garantia? / Não precisa.
+
+=Cassie Cage|Takeda
+A: Takeda! Treino ou briga? / Briga. / Ainda bem. Treino é chato.
+A: Você lê mentes, então já sabe o que eu vou fazer. / Você vai fazer piada. / Errou. Vou te chutar.
+
+=Takeda|Cassie Cage
+A: Cassie, sério, não vou pegar leve. / Ótimo, eu também não vou. / Isso vai doer.
+A: Você nunca leva nada a sério? / Levo você a sério. Só não falo. / ...Valeu.
+
+=Cassie Cage|Smoke
+A: Smoke! Você é tipo uma máquina de fumaça de show! / Isso não é um elogio. / Pra mim é.
+A: Você some quando a coisa fica feia? / Eu sumo quando quero. / Que covarde estiloso.
+
+=Smoke|Cassie Cage
+A: Você fala demais. / E você aparece de menos. / Agora eu apareço.
+A: Fique atenta à fumaça. / Já tô atenta. Tô até tossindo. / Vai tossir mais.
+
+=Cassie Cage|T-1000
+A: Robô líquido! Faz uma estátua minha? / Imitação iniciada. / Ficou bem feia, hein.
+A: Você é tipo metal derretido de filme. / Eu sou o futuro. / Sorte minha, eu vivo no presente.
+
+=T-1000|Cassie Cage
+A: Alvo: Cassandra Cage. Eliminar. / Ei, eu sou a mocinha aqui. / Mocinhas também são alvos.
+A: Imitando voz: Cassie, filha, sou eu, o papai. / Meu pai nunca fala tão sério. Péssima imitação. / Ajustando.
+
+=Cassie Cage|Sindel
+A: Rainha Sindel! Que cabelo é esse? Mega hair? / É natural. / Inveja total.
+A: Seu grito é forte. O meu é de fã quando vejo promoção. / Patético. / Mais alto que o seu.
+
+=Sindel|Cassie Cage
+A: Criança tola. Uma rainha fala com você. / Uma rainha fala comigo e eu tô de boa. / Insolente.
+A: Vou gritar até sua cabeça explodir. / Já ouvi meu pai cantando, sobrevivo a tudo. / Veremos.
