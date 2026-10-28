@@ -2660,6 +2660,16 @@ html.land .st-books{grid-template-columns:1fr 1fr}
 @keyframes resIn{0%{opacity:0;transform:translateY(-70%) scale(.4)}55%{opacity:1;transform:translateY(5%) scale(.86)}75%{transform:translateY(-3%) scale(.8)}100%{opacity:1;transform:translateY(0) scale(.82)}}
 @keyframes resOut{0%{opacity:1;transform:translateY(0) scale(.82)}28%{opacity:1;transform:translateY(6%) scaleY(.76) scaleX(.86)}100%{opacity:0;transform:translateY(-75%) scale(.3)}}
 @media (prefers-reduced-motion:reduce){.f-resfig.in{animation:none;opacity:1}.f-resfig.out{animation:none;opacity:0}}
+
+/* Kameo */
+.f-res.kam-ok .fr-pic{border-color:#ffd23a;box-shadow:0 0 8px #ffb000}
+.f-res.kam-ok .fr-n{color:#ffd23a}
+.fr-bar.kam i{background:linear-gradient(90deg,#c86a12,#ffd23a)}
+#fight .f-btn.circ-b.kam .cb-c{background:radial-gradient(circle at 35% 28%,#ffd23a,#7a3a04 72%);border-color:#ffe08a;overflow:hidden}
+#fight .f-btn.circ-b.kam .cb-i{width:100%;height:100%;display:block}
+#fight .f-btn.circ-b.kam .cb-i .kb-pic{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+.kam-fig{z-index:5;pointer-events:none;filter:drop-shadow(0 0 10px rgba(255,190,40,.85))}
+.kam-tag{position:absolute;left:50%;top:-4px;transform:translate(-50%,-100%);font-family:var(--f-ui);font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#ffd23a;text-shadow:0 2px 0 #000;white-space:nowrap}
 /* =====================================================================
    TEMAS POR TELA — cada parte do jogo tem a sua identidade
    Forja: ferro e brasa · Evolução: jade e ouro de Edênia · Fichas: dossiês do Submundo
@@ -3413,7 +3423,7 @@ html.land #fight .f-banner.endb.wvb.wvr{left:46%;right:0}
       <div class="sel-top">
         <button type="button" class="sel-menu" id="selMenu">Menu</button>
         <div class="sel-mode" id="cyfTitle">Versus</div>
-        <div class="duo-tog" role="radiogroup" aria-label="Quantos lutadores por lado"><button type="button" data-duo="0" role="radio" aria-checked="true">1</button><button type="button" data-duo="1" role="radio" aria-checked="false">Dupla</button></div>
+        <div class="duo-tog" role="radiogroup" aria-label="Usar Kameo"><button type="button" data-duo="0" role="radio" aria-checked="false">Sem Kameo</button><button type="button" data-duo="1" role="radio" aria-checked="true">Com Kameo</button></div>
       </div>
       <div class="sel-stage" id="selStage">
         <div class="sel-side l"><button type="button" class="sel-slot p1" id="slot0" aria-pressed="false"><span class="sel-spic" id="slotPic0"></span><span class="sel-st" id="slotT0"></span><span class="sel-sn" id="slotN0">—</span></button><button type="button" class="sel-slot p1" id="slot2" aria-pressed="false"><span class="sel-spic" id="slotPic2"></span><span class="sel-st" id="slotT2"></span><span class="sel-sn" id="slotN2">—</span></button></div>
@@ -6890,7 +6900,7 @@ const DLC=['Skarlet','Sheeva','Ermac','Quan Chi','Takeda','Noob Saibot','Cyrax',
 const LOCK='<svg class="lock" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1Zm2 0h6V7a3 3 0 0 0-6 0v3Z"/></svg>';
 function cpic(c){const rib=c.fan?'<span class="crib fan">FÃ</span>':(c.special||c.n==='Katherine Pierce')?'<span class="crib extra">EXTRA</span>':(c.guest||DLC.includes(c.n))?'<span class="crib">DLC</span>':'';
   return `<span class="cpic">${rib}${FOTO[c.n]?`<img class="ph" src="${FOTO[c.n]}" alt="" loading="lazy">`:`<img class="lockd" src="img/dragao.png" alt="">${LOCK}`}</span>`;}
-let pickSel=[null,null,null,null],pickSlot=0,lastPicked=null,pickDuo=false,towerSize=6;
+let pickSel=[null,null,null,null],pickSlot=0,lastPicked=null,pickDuo=true,towerSize=6;
 const MATE={0:2,2:0,1:3,3:1};
 function pickOrder(){if(pickMode==='repick'||pickMode==='sobrev'||pickMode==='fora')return [0];const torre=pickMode==='torre';return torre?(pickDuo?[0,2]:[0]):(pickDuo?[0,2,1,3]:[0,1]);}
 function nextSlot(){const o=pickOrder();const e=o.find(i=>!pickSel[i]);return e===undefined?pickSlot:e;}
@@ -6901,7 +6911,7 @@ function selGoPage(p,focusEdge){if(p<0||p>=selPages||p===selPage)return false;se
 function selPageOf(k){const cols=SEL_G().reduce((x,y)=>x+y,0),PS=cols*SEL_ROWS();const i=SEL_ALL.findIndex(h=>k==='rnd'?h.includes('data-rnd'):h.includes(`data-k="${esc(k)}"`));return i<0?0:Math.floor(i/PS);}
 let selSync=false;
 function selEnter(){const prev=pickSel[0];pickSel=[null,null,null,null];pickSlot=0;selCur=prev&&!fightLock(prev)&&selInfo(prev)?prev:'rnd';selSync=true;}
-function selLabel(i){const two=pickMode==='2p',tr=pickMode==='treino';const base=i%2===0?(two?'Jogador 1':'Você'):(two?'Jogador 2':tr?'Boneco':'Máquina');return i>=2?base+' · reserva':base;}
+function selLabel(i){const two=pickMode==='2p',tr=pickMode==='treino';const base=i%2===0?(two?'Jogador 1':'Você'):(two?'Jogador 2':tr?'Boneco':'Máquina');return i>=2?base+' · Kameo':base;}
 function selPicHtml(k){if(!k||k==='rnd')return '<span class="sel-q"><img src="img/dragao.png" alt=""><b>?</b></span>';const s=selInfo(k);if(!s)return '<span class="sel-q"><b>?</b></span>';const src=s.user?s.foto:FOTO[s.n];
   return src?`<img src="${src}" alt="">`:`<span class="upic" style="--c:${esc(s.cor||'#555')}"><img src="img/dragao.png" alt=""><b>${esc(initials(s.n))}</b></span>`;}
 const SEL_G=()=>isLand()?[4,4,4]:[5];
@@ -6931,7 +6941,7 @@ function renderOfficial(){
 function selHero(){const k=selCur;const s=k&&k!=='rnd'?selInfo(k):null;
   $('#selName').textContent=s?s.n:'Aleatório';$('#selPhoto').innerHTML=selPicHtml(k);{const el=$('#selLvl');if(el){if(s){const p=PROG.c[k]||{xp:0};const lv=lvFromXp(p.xp||0),nx=xpNext(p.xp||0),prev=LV_XP[lv-1]||0;el.hidden=false;el.innerHTML=`<b>Nível ${lv}</b><span class="sl-bar"><i style="width:${nx?Math.round(((p.xp||0)-prev)/(nx-prev)*100):100}%"></i></span><small>${nx?`${p.xp||0}/${nx} XP`:'máximo'}</small>`;}else el.hidden=true;}}$('#selPhoto').classList.toggle('p2',pickSlot%2===1);
   $('#btnInfo').hidden=!s;{const sk=$('#btnChSkin');if(sk)sk.hidden=!(s&&!s.user&&skOf(s.n).length);}
-  const who=selLabel(pickSlot);$('#pickHint').textContent=`${who}: ${pickSlot%2===0?(pickSlot>=2?'escolha a reserva':'escolha seu lutador'):(pickSlot>=2?'escolha a reserva':pickMode==='2p'?'escolha seu lutador':pickMode==='treino'?'escolha o boneco':'escolha o oponente')}`;
+  const who=selLabel(pickSlot);$('#pickHint').textContent=`${who}: ${pickSlot%2===0?(pickSlot>=2?'escolha o lutador de apoio':'escolha seu lutador'):(pickSlot>=2?'escolha o lutador de apoio':pickMode==='2p'?'escolha seu lutador':pickMode==='treino'?'escolha o boneco':'escolha o oponente')}`;
   const last=pickOrder().filter(i=>!pickSel[i]&&i!==pickSlot).length===0;
   $('#btnLutar').textContent='Selecionar';$('#btnLutar').classList.toggle('last',last);}
 function selLayout(){const sec=$('#tab-elenco');if(!sec||sec.hidden)return;const grid=$('#oGrid');const land=isLand();const W=window.innerWidth,H=window.innerHeight;
@@ -6966,7 +6976,7 @@ $('#oGrid').addEventListener('click',e=>{const t=e.target.closest('.ctile');if(!
 function selConfirm(){if(!pickOrder().includes(pickSlot))pickSlot=pickOrder()[0];let k=selCur;
   if(!k||k==='rnd'){const mate=pickDuo?pickSel[MATE[pickSlot]]:null;const pool=D.canon.map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).filter(x=>!fightLock(x)&&x!==mate&&selInfo(x));k=pool[Math.floor(Math.random()*pool.length)];SFX.whoosh();try{const F=fighterFrom(k);if(F)SFX.say(F.nome,true);}catch(e){}}
   {const L=fightLock(k);if(L){SFX.clang();toast(lockMsg(k.slice(2),L));return}}
-  if(pickDuo&&pickSel[MATE[pickSlot]]===k){SFX.clang();toast('Esse lutador já está nessa dupla.');return}
+  if(pickDuo&&pickSel[MATE[pickSlot]]===k){SFX.clang();toast('Esse lutador já foi escolhido desse lado. O Kameo tem que ser outro.');return}
   pickSel[pickSlot]=k;lastPicked=k;SFX.clang();
   const nx=pickOrder().find(i=>!pickSel[i]);
   if(nx===undefined){renderOfficial();selGo();return}
@@ -7754,8 +7764,8 @@ function fxLayer(){let L=document.getElementById('fFxL');if(!L){L=document.creat
 function fxType(A,kind,ab){if(kind==='hab'&&ab)return ab.fx||A.fx||'impacto';if(kind==='especial')return A.fx||'impacto';if(kind==='forte'&&FX_THROW.includes(A.fx)&&!['missil','bomba','cranio','corvo','bala'].includes(A.fx))return A.fx;return null;}
 /* os golpes voando têm sempre a velocidade normal (o modo rápido só acelera dados e textos) */
 const fxWait=ms=>sleep(ms);
-async function atkVisual(atk,def,kind,ab,hit){const A=FS.P[atk];const t=fxType(A,kind,ab);if(!t)return;if(typeof LITE!=='undefined'&&LITE.on()){return;}
-  const L=fxLayer(),s=figCenter(atk),d=figCenter(def),dir=d.x>s.x?1:-1,c=fxColors(t);
+async function atkVisual(atk,def,kind,ab,hit,ov){const A=(ov&&ov.A)||FS.P[atk];const t=fxType(A,kind,ab);if(!t)return;if(typeof LITE!=='undefined'&&LITE.on()){return;}
+  const L=fxLayer(),s=(ov&&ov.s)||figCenter(atk),d=figCenter(def),dir=d.x>s.x?1:-1,c=fxColors(t);
   const dx=d.x-s.x,dy=d.y-s.y,dist=Math.hypot(dx,dy),ang=Math.atan2(dy,dx)*180/Math.PI;
   const size=Math.max(54,Math.min(110,d.w*.42))*(t==='dragao'?1.5:1);
   const end=hit?{x:d.x,y:d.y}:{x:d.x+dir*d.w*.9,y:d.y-d.h*.5};
@@ -8091,10 +8101,10 @@ async function banner(html,ms,cls){const b=$('#fBanner');b.className='f-banner '
 function partyFor(key){if(key.startsWith('u:')){const ch=roster.find(c=>c.id===key.slice(2));return ch?Object.assign({},ch.input,{g:genKey(ch.input.genero),dialogos:ch.dialogos,espelho:ch.espelho}):null}return canonParty(key.slice(2)).party;}
 function fichaOf(key){if(key.startsWith('u:')){const ch=roster.find(c=>c.id===key.slice(2));return ch?ch.ficha:null}const fx=allChars().find(x=>x.fixo&&x.input.nome===key.slice(2));return fx?fx.ficha:null}
 /* ---- dupla: os reservas aparecem atrás dos titulares durante o diálogo ---- */
-async function resShow(){if(!FS||!FS.duo||!FS.team)return [];const ar=$('#fight .f-arena');if(!ar)return [];const out=[];
-  for(const i of [0,1]){const f=FS.team[i][1];if(!f)continue;const F=$('#fF'+i);
-    const el=document.createElement('div');el.className='f-resfig '+(i?'r':'l');el.setAttribute('aria-label',f.nome+' na reserva');
-    el.innerHTML=portrait(f,'pf')+`<span class="frf-n">${esc(f.nome)}</span>`;
+async function resShow(){if(!FS||!FS.kameo||!(FS.kameo[0]||FS.kameo[1]))return [];const ar=$('#fight .f-arena');if(!ar)return [];const out=[];
+  for(const i of [0,1]){const f=FS.kameo[i];if(!f)continue;const F=$('#fF'+i);
+    const el=document.createElement('div');el.className='f-resfig '+(i?'r':'l');el.setAttribute('aria-label','Kameo: '+f.nome);
+    el.innerHTML=portrait(f,'pf')+`<span class="frf-n">Kameo · ${esc(f.nome)}</span>`;
     const w=F.offsetWidth,h=F.offsetHeight,F0=$('#fF0'),F1=$('#fF1'),gap=F1.offsetLeft-(F0.offsetLeft+F0.offsetWidth),tight=gap<w*.6;const dx=w*(tight?.2:.46)*(i?-1:1),dy=h*(tight?.3:.06);el.style.width=w+'px';el.style.height=h+'px';el.style.left=(F.offsetLeft+dx)+'px';el.style.top=(F.offsetTop-dy)+'px';
     ar.insertBefore(el,ar.firstChild);out.push(el);
     void el.offsetWidth;el.classList.add('in');try{SFX.whoosh()}catch(e){}
@@ -8162,6 +8172,7 @@ function atkDefs(i){chBar();const s=FS.P[i];const cost=espCost(s),can=FS.bar[i]>
   const abs=(s.eq||[]).filter(h=>h.t!=='p').map((h,j)=>{const left=(h.u||1)-(FS.uses[i][h.id]||0),ok=abReady(i,h);return {k:h.id,t:h.n,icon:h.i||'✦',key:FS.two&&!FS.online&&i===1?'':String(5+j),sub:left<=0?'já usada':h.b&&FS.bar[i]<h.b?'precisa da barra cheia':FS.lastAb[i]===h.id?'espere uma vez':h.ak==='cura'?`cura · ${left}×`:`${h.dd[0]}d6+${h.dd[1]+(s.atr[dmgAtr(s,'hab',h)]||0)} · ${left}×`,disabled:!ok,cls:h.t==='s'?'sup':'hab'}});
   const xt=[];
   if(canLaunch()){const ns=STAGES.find(x=>x.k===TRANS[FS.st.k]);xt.push({k:'lancar',t:ACTS.lancar.t,icon:ACTS.lancar.icon,key:FS.two&&!FS.online&&i===1?keyFor(i,6):'8',sub:`d20 ${sgn(-1+half(a.F))||'+0'} · 1d6`,cls:'launch'});}
+  kamDefs(i).forEach(d=>xt.push(d));
   if(partnerAlive(i)&&!(FS.swOpen&&FS.swOpen[i]))xt.push({k:'trocar',t:'Trocar',icon:'🔄',sub:'chama '+FS.team[i][1-FS.act[i]].nome,cls:'swap',key:FS.two&&!FS.online&&i===1?keyFor(i,5):'9'});
   let main=base.concat(abs);
   if(s.slotAt){const by={};main.forEach(d=>by[d.k]=d);main=s.slotAt.map(id=>id&&by[id]).filter(Boolean);}
@@ -8178,6 +8189,7 @@ function defDefs(i,all){const s=FS.P[i],a=s.atr;const ef=FS.efx&&FS.efx[i]||{};
 function cpuAtk(i){const o=1-i,s=FS.P[i];const abs=(s.eq||[]).filter(h=>h.t!=='p'&&abReady(i,h));
   const sup=abs.find(h=>h.t==='s'&&h.ak==='golpe');if(sup&&FS.hp[o]>FS.max[o]*.3&&Math.random()<.7)return sup.id;
   const cura=abs.find(h=>h.ak==='cura');if(cura&&FS.hp[i]<=FS.max[i]*.4&&Math.random()<.8)return cura.id;
+  {const k=kamCpu(i);if(k)return k;}
   const cost=espCost(s);if(FS.bar[i]>=cost){const low=FS.hp[o]<=FS.max[o]*.35||FS.open[o];const p=low?.85:FS.bar[i]>=100?.6:.35;if(Math.random()<p)return 'especial';}
   const act=abs.filter(h=>h.t==='a'&&h.ak==='golpe');if(act.length&&Math.random()<.35)return pick(Math.random,act).id;
   if(canLaunch()&&Math.random()<.22)return 'lancar';
@@ -8202,9 +8214,10 @@ function who(i){return i===0?'p1':'p2'}
 
 /* ---- duplas (2 lutadores por lado) ---- */
 function applyAlt(f,a){if(f&&a){if(a.nome)f.nome=a.nome;if(a.dark)f.dark=true;}return f;}
-function setupTeams(res,boss,altRes){res=res||[null,null];altRes=altRes||[];FS.boss=!!boss;FS.team=[[FS.P[0]],[FS.P[1]]];
-  [0,1].forEach(i=>{if(res[i]){const f=applyAlt(fighterFrom(res[i]),altRes[i]);if(f){progApply(f,FS.how?FS.how(i):{});FS.team[i].push(f);}}});
-  FS.duo=FS.team[0].length>1||FS.team[1].length>1;$('#fight').classList.toggle('duo',FS.duo);
+function setupTeams(res,boss,altRes){res=res||[null,null];altRes=altRes||[];FS.boss=!!boss;FS.team=[[FS.P[0]],[FS.P[1]]];FS.kameo=[null,null];
+  /* o segundo lutador de cada lado agora é o Kameo: só apoio, não entra na luta */
+  [0,1].forEach(i=>{if(res[i]){const f=applyAlt(fighterFrom(res[i]),altRes[i]);if(f){progApply(f,FS.how?FS.how(i):{});FS.kameo[i]=f;}}});
+  FS.duo=false;$('#fight').classList.remove('duo');$('#fight').classList.toggle('kam',!!(FS.kameo[0]||FS.kameo[1]));
   FS.tmax=FS.team.map((t,i)=>t.map((f,j)=>fHP(f)+(i===1&&boss&&j===0?2:0)));FS.thp=FS.tmax.map(a=>a.slice());FS.act=[0,0];}
 function showActive(i){const f=FS.P[i];$('#fN'+i).textContent=f.nome;$('#fF'+i).className='f-fig '+(i?'r':'l');$('#fF'+i).innerHTML=portrait(f,'pf');goreRender(i);efxHud();}
 function resetTeams(sides){if(!FS||!FS.team)return;(sides||[0,1]).forEach(i=>{FS.thp[i]=FS.tmax[i].slice();FS.act[i]=0;FS.P[i]=FS.team[i][0];FS.max[i]=FS.tmax[i][0];FS.hp[i]=FS.max[i];FS.hideMax[i]=!!(FS.boss&&i===1);showActive(i);});}
@@ -8219,9 +8232,9 @@ async function tagIn(i){const out=FS.P[i];setActive(i,1-FS.act[i]);SFX.gong();an
   log(`<b>${esc(out.nome)}</b> caiu! <span class="who ${who(i)}">${esc(FS.P[i].nome)}</span> entra na luta.`);
   await banner(`<div class="tag-t">${esc(FS.P[i].nome)}<span>entra na luta!</span></div>`,FAST?700:1400,'tagb');}
 function resEl(i){let el=$('#fR'+i);if(!el){el=document.createElement('div');el.id='fR'+i;el.className='f-res';$$('.f-side')[i].appendChild(el);}return el;}
-function hudTeams(){[0,1].forEach(i=>{const el=resEl(i);if(!FS||!FS.duo||!FS.team||!FS.team[i][1]){el.hidden=true;return}
-  const o=1-FS.act[i],f=FS.team[i][o],hp=Math.max(0,FS.thp[i][o]);el.hidden=false;el.classList.toggle('ko',hp<=0);
-  el.innerHTML=`<span class="fr-pic">${portrait(f,'frp')}</span><span class="fr-n">${esc(f.nome)}</span><span class="fr-bar"><i style="width:${hp/FS.tmax[i][o]*100}%"></i></span>`;});}
+function hudTeams(){[0,1].forEach(i=>{const el=resEl(i);const f=FS&&FS.kameo?FS.kameo[i]:null;if(!f){el.hidden=true;return}
+  const b=Math.min(1,(FS.bar[i]||0)/KAM_COST),ok=b>=1;el.hidden=false;el.classList.remove('ko');el.classList.toggle('kam-ok',ok);
+  el.innerHTML=`<span class="fr-pic">${portrait(f,'frp')}</span><span class="fr-n">Kameo · ${esc(f.nome)}</span><span class="fr-bar kam"><i style="width:${(b*100).toFixed(0)}%"></i></span>`;});}
 
 async function passPhone(i,verbo){if(!FS||!FS.two||FS.online)return;const P=$('#fPass');
   $('#fPassT').textContent='Vez do Jogador '+(i+1);$('#fPassN').innerHTML=`<b>${esc(FS.P[i].nome)}</b> ${verbo}`;P.className='f-pass '+who(i);P.hidden=false;SFX.tick();
@@ -8402,7 +8415,7 @@ async function runFight(k0,k1,opts){finCleanup();preloadSfx();preloadBanners();V
     const ov=$('#dragonT');if(dtVis()){ov.hidden=false;ov.classList.remove('go');void ov.offsetWidth;ov.classList.add('go');}if(dtSnd())try{SFX.trans()}catch(e){}
     await sleep(900);
     const lbl=opts.online?(opts.online.local===0?['Você','Amigo']:['Amigo','Você']):two?['Jogador 1','Jogador 2']:['Você',boss?'Luta final':(opts.mode==='torre'||opts.mode==='historia'||opts.mode==='sobrev')?'Oponente':'Máquina'];
-    const vs=$('#vsScreen');const vr=i=>FS.team[i][1]?`<div class="vsres">${portrait(FS.team[i][1],'vsp2')}<span>& ${esc(FS.team[i][1].nome)}</span></div>`:'';const lvT=i=>P[i].lv?`<b>Nv ${P[i].lv}</b>`:'';
+    const vs=$('#vsScreen');const vr=i=>FS.kameo[i]?`<div class="vsres">${portrait(FS.kameo[i],'vsp2')}<span>Kameo: ${esc(FS.kameo[i].nome)}</span></div>`:'';const lvT=i=>P[i].lv?`<b>Nv ${P[i].lv}</b>`:'';
     {const ai=$('#vsArena');ai.src=st.img;ai.alt=st.n;$('#vsArenaN').textContent=st.n;}
     $('#vsL').innerHTML=portrait(P[0],'vsp');$('#vsR').innerHTML=portrait(P[1],'vsp');
     $('#vsPL').innerHTML=`<div class="vsn">${esc(P[0].nome)}</div><div class="vst">${lbl[0]}${lvT(0)}</div>${vr(0)}`;$('#vsPR').innerHTML=`<div class="vsn">${esc(P[1].nome)}</div><div class="vst">${lvT(1)}${lbl[1]}</div>${vr(1)}`;
@@ -8436,7 +8449,7 @@ async function runFight(k0,k1,opts){finCleanup();preloadSfx();preloadBanners();V
         else if(isHuman(atk)&&!FS.two){act=await askAtk(atk);if(act==='trocar'){await doSwap(atk);log('<b>Sua vez.</b> Escolha o golpe.');act=await askAtk(atk);}stance=await askDef(def);}
         else if(isHuman(def)&&!FS.two){stance=await askDef(def);act=await askAtk(atk);}
         else{await passPhone(atk,'ataca');act=await askAtk(atk);if(act==='trocar'){await doSwap(atk);log(`<span class="who ${who(atk)}">${esc(FS.P[atk].nome)}</span> ataca. Escolha o golpe no seu lado da tela.`);act=await askAtk(atk);}await passPhone(def,'defende');log(`<span class="who ${who(def)}">${esc(Dd.nome)}</span> defende. Escolha bloquear ou esquivar no seu lado.`);stance=await askDef(def);}
-        await doExchange(atk,def,act,stance);
+        if(isKam(act))await kamAttack(atk,def,+act.slice(3),stance);else await doExchange(atk,def,act,stance);
         {const tk=efxTick();hud();if(tk.length){log(tk.join('<br>'));await sleep(FAST?450:1200);}}
         for(const s of [def,atk])if(FS.hp[s]<=0&&partnerAlive(s))await tagIn(s);
         atk=def;
@@ -8679,7 +8692,7 @@ $('#fFast').onclick=()=>{FAST=!FAST;LS.set('forja_mk_fast',FAST);$('#fFast').set
 let TW=null;
 const TOWERS={3:{n:'Torre do Iniciante'},4:{n:'Torre do Guerreiro'},6:{n:'Torre do Campeão'}};
 const ladK=e=>Array.isArray(e)?e[0]:e, ladR=e=>Array.isArray(e)?e[1]:null;
-function ladName(e){const a=tw$(ladK(e)),r=ladR(e)?tw$(ladR(e)):null;return a.nome+(r?' & '+r.nome:'');}
+function ladName(e){const a=tw$(ladK(e)),r=ladR(e)?tw$(ladR(e)):null;return a.nome+(r?' (Kameo: '+r.nome+')':'');}
 function towerPool(playerKey,resKey){const ex=[playerKey,resKey].filter(Boolean).map(k=>{const s=selInfo(k);return s&&!s.user?s.n:null}).filter(Boolean);
   const duo=!!resKey;const skip=['General Shao','Shang Tsung'].concat(duo?['Quan Chi','Reiko']:[]);
   const pool=D.canon.filter(c=>!skip.includes(c.n)&&!ex.includes(c.n)&&!(typeof KR_SOON!=='undefined'&&KR_SOON.includes(c.n)&&!CHEAT.criador)).map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id).filter(k=>k!==playerKey&&k!==resKey));
@@ -8692,8 +8705,8 @@ function twSwap(k){if(TW&&k)TW.player=k;}
 function tw$(k){const f=fighterFrom(k);return f;}
 function twFight(stage){const e=TW.ladder[TW.level];if(TW.arena1&&TW.level===0&&stage===undefined){TW.arena1=false;openArenaPick(s=>twFight(s||null));return}return runFight(TW.player,ladK(e),{stage:stage||undefined,mode:'torre',level:TW.level,boss:TW.level===TW.ladder.length-1,sub:TW.level===TW.ladder.length-2,onEnd:towerEnd,res:[TW.res,ladR(e)]});}
 function renderTower(){const box=$('#twCol');const n=TW.ladder.length;
-  box.innerHTML=TW.ladder.map((k,i)=>({k,i})).reverse().map(({k,i})=>{const f=tw$(ladK(k)),r=ladR(k)?tw$(ladR(k)):null;return `<div class="tw-row${i<TW.level?' done':''}${i===TW.level?' cur':''}${i===n-1?' boss':''}${r?' duo':''}" data-i="${i}"><div class="tw-pic">${portrait(f,'twp')}${r?`<span class="tw-pic2">${portrait(r,'twp')}</span>`:''}</div><div class="tw-n">${esc(f.nome)}${r?'<small> & '+esc(r.nome)+'</small>':''}</div></div>`}).join('');
-  const me=tw$(TW.player),mr=TW.res?tw$(TW.res):null;$('#twMe').innerHTML=portrait(me,'twp');$('#twMeN').textContent=me.nome+(mr?' & '+mr.nome:'');const tt=$('#twTitle');if(tt)tt.textContent=(TOWERS[TW.size]||{n:'A Torre'}).n;}
+  box.innerHTML=TW.ladder.map((k,i)=>({k,i})).reverse().map(({k,i})=>{const f=tw$(ladK(k)),r=ladR(k)?tw$(ladR(k)):null;return `<div class="tw-row${i<TW.level?' done':''}${i===TW.level?' cur':''}${i===n-1?' boss':''}${r?' duo':''}" data-i="${i}"><div class="tw-pic">${portrait(f,'twp')}${r?`<span class="tw-pic2">${portrait(r,'twp')}</span>`:''}</div><div class="tw-n">${esc(f.nome)}${r?'<small> · Kameo '+esc(r.nome)+'</small>':''}</div></div>`}).join('');
+  const me=tw$(TW.player),mr=TW.res?tw$(TW.res):null;$('#twMe').innerHTML=portrait(me,'twp');$('#twMeN').textContent=me.nome+(mr?' · Kameo '+mr.nome:'');const tt=$('#twTitle');if(tt)tt.textContent=(TOWERS[TW.size]||{n:'A Torre'}).n;}
 function rowTop(i){const r=$(`.tw-row[data-i="${i}"]`);return r?r.offsetTop:0}
 function camAt(i,dur){const v=$('#twView'),w=$('#twWorld'),r=$(`.tw-row[data-i="${i}"]`);if(!r)return;
   const pic=r.querySelector('.tw-pic'),mk=$('#twMarker');
@@ -8880,6 +8893,7 @@ async function runTraining(k0,k1,res,stageK){preloadSfx();
       <p>No dano, soma o atributo do tipo de ataque: <b>Força</b> em murro, chute e agarrão; <b>Agilidade</b> em arma lançada e tiro; <b>Mente</b> em magia. A vida é 27 + Vitalidade.</p>
       ${(A.eq||[]).length?`<p>Habilidades equipadas: ${A.eq.map(h=>`<b>${esc(h.n)}</b>`).join(', ')}.</p>`:'<p>Equipe habilidades em <b>Criar Kombatente › Evolução</b>.</p>'}
       <p>Quando quiser parar, toque no botão de pausa no alto da tela.</p>`,'Começar ▶');
+    if(FS.kameo&&FS.kameo[0])await coach('Kameo',`<p><b>${esc(FS.kameo[0].nome)}</b> é o seu Kameo. Ele não luta: fica de apoio.</p><p>Quando a barra chega a <b>${KAM_COST}</b>, aparecem os dois poderes do Kameo junto dos seus golpes. Tocou, ele pula na frente de <b>${esc(A.nome)}</b>, ataca e some. Usar é opcional.</p>`);
     if(FS.duo)await coach('Dupla',`<p>Você está treinando em dupla. <b>${esc(FS.team[0][0].nome)}</b> começa e <b>${esc((FS.team[0][1]||FS.team[0][0]).nome)}</b> fica na reserva.</p><p>O botão <b>🔄 Trocar</b> chama a reserva sem perder a vez: quem entra ataca na hora, mas fica aberto no próximo golpe do oponente.</p>`);
     let first=true;
     while(true){
@@ -8892,13 +8906,64 @@ async function runTraining(k0,k1,res,stageK){preloadSfx();
       if(first)await coach('2 · Defesa do boneco',`<p>Agora escolha como <b>${esc(Dd.nome)}</b> se defende.</p><ul class="ck-list"><li>🛡 <b>Bloquear</b>: D20 + 1 + metade da Agilidade. O agarrão passa direto.</li><li>💨 <b>Esquivar</b>: D20 + Agilidade − 2. Faz o agarrão errar.</li></ul>`);
       first=false;
       const stance=await waitChoice(defDefs(1));
-      const hp0=FS.hp[0];await doExchange(0,1,act,stance);FS.hp[0]=Math.max(FS.hp[0],hp0);
+      const hp0=FS.hp[0];if(isKam(act))await kamAttack(0,1,+act.slice(3),stance);else await doExchange(0,1,act,stance);FS.hp[0]=Math.max(FS.hp[0],hp0);
       {const tk=efxTick();FS.hp[0]=Math.max(FS.hp[0],1);hud();if(tk.length){log(tk.join('<br>'));await sleep(900);}}
       if(FS.hp[1]<=0&&partnerAlive(1)){SFX.boom();await tagIn(1);continue;}
       if(FS.hp[1]<=0){SFX.boom();if(FS.duo)resetTeams([1]);await coach('Boneco derrubado!',`<p>Numa luta de verdade, isso ganharia o round.</p><p>A vida de ${esc(Dd.nome)} volta ao máximo para você continuar treinando.</p>`);FS.hp[1]=FS.max[1];FS.bar[1]=0;efxClear(1);hud();}
     }
   }catch(e){if(e!=='abort')console.error(e);}
 }
+
+/* ====== KAMEO: lutador de apoio ======
+   Não luta e não troca de lugar. Com 30 de barra, o jogador pode chamar o Kameo para usar um de dois poderes:
+   ele pula na frente do lutador principal, ataca o oponente e sai dando um mortal para trás. */
+const KAM_COST=30;
+function kamOf(i){return FS&&FS.kameo?FS.kameo[i]||null:null;}
+function kamPowers(f){const L=(f&&f.esp&&f.esp.length)?f.esp:[];const a=L[0]||{n:'Golpe de apoio'},b=L[1]&&L[1].n!==a.n?L[1]:{n:'Investida'};
+  return [{n:a.n,mode:'tiro'},{n:b.n,mode:'corpo'}];}
+function kamCan(i){return !!kamOf(i)&&FS.bar[i]>=KAM_COST;}
+function kamDefs(i){const kf=kamOf(i);if(!kf||!kamCan(i))return [];
+  return kamPowers(kf).map((p,j)=>({k:'kam'+j,t:p.n,icon:portrait(kf,'kb-pic'),sub:'Kameo '+kf.nome+' · '+KAM_COST+' de barra',cls:'kam',key:FS.two&&!FS.online&&i===1?'':(j?'0':'9')}));}
+function kamCpu(i){if(!kamCan(i))return null;const o=1-i;const p=FS.hp[o]<=FS.max[o]*.25?.6:.3;return Math.random()<p?'kam'+(Math.random()<.5?0:1):null;}
+const isKam=a=>typeof a==='string'&&/^kam[01]$/.test(a);
+/* golpe do Kameo: 2d6+2. Bloquear corta pela metade; esquivar escapa com 11+ no d20 */
+async function kamAttack(atk,def,j,stance){const kf=kamOf(atk);if(!kf)return;const A=FS.P[atk],Dd=FS.P[def];const p=kamPowers(kf)[j]||kamPowers(kf)[0];
+  FS.bar[atk]=Math.max(0,FS.bar[atk]-KAM_COST);hud();
+  let D=(Dd.df||[]).find(x=>x.id===stance)||null;if(D){try{defMark(def,D)}catch(e){}}
+  const mode=D?D.mode:stance==='esquivar'?'dodge':'block';
+  const roll=r20(),dodge=mode==='dodge'&&roll>=11;
+  const d1=r6(),d2=r6();let dm=d1+d2+2;const half=!dodge&&mode!=='dodge'&&stance!=='travado';if(half)dm=Math.ceil(dm/2);
+  if(def===0&&CHEAT.god)dm=0;if(atk===0&&CHEAT.dmg)dm=Math.max(dm,half?7:14);
+  log(`<b>Kameo!</b> <span class="who ${who(atk)}">${esc(kf.nome)}</span> entra para ajudar ${esc(A.nome)} com <b>${esc(p.n)}</b>.`);
+  try{SFX.say(kf.nome,true)}catch(e){}
+  await kamVisual(atk,def,kf,p,!dodge);
+  if(!dodge){FS.hp[def]-=dm;FS.dmg[def]+=dm;hitFx(def,'dor');try{addGore(def,dm)}catch(e){}}
+  hud();
+  const why=dodge?`${esc(Dd.nome)} esquivou do Kameo (${roll} no dado).`:mode==='dodge'?`${esc(Dd.nome)} tentou esquivar (${roll}), mas não deu.`:`${esc(Dd.nome)} bloqueou e levou só metade.`;
+  await result(`<b>${esc(kf.nome)}</b> usou <b>${esc(p.n)}</b>.<br>${why}${dodge?'':`<br><span class="bad"><b>${esc(Dd.nome)}</b> levou <b>${dm}</b> de dano</span> <small>(2d6+2: ${d1}+${d2}+2${half?', metade':''})</small>.${FS.hp[def]<=0?' <b>Nocaute!</b>':''}`}`);}
+/* o Kameo pula na frente, ataca e volta com um mortal para trás */
+async function kamVisual(i,d,kf,p,hit){
+  if(typeof LITE!=='undefined'&&LITE.on()){await sleep(300);if(hit)anim(d,'hit');return;}
+  const L=fxLayer(),r=$('#fF'+i).getBoundingClientRect(),D=$('#fF'+d).getBoundingClientRect();const dir=D.left>r.left?1:-1;
+  const w=r.width*.82,h=r.height*.82;const el=document.createElement('div');el.className='f-fig kam-fig '+(i?'r':'l');
+  el.style.cssText=`position:fixed;margin:0;left:${(r.left+(r.width-w)/2).toFixed(0)}px;top:${(r.top+r.height-h).toFixed(0)}px;width:${w.toFixed(0)}px;height:${h.toFixed(0)}px`;
+  el.innerHTML=portrait(kf,'pf')+'<span class="kam-tag">Kameo</span>';L.appendChild(el);
+  const fr=dir*r.width*.62,T=(x,y,ex)=>`translate(${x.toFixed(0)}px,${y.toFixed(0)}px)${ex||''}`;
+  try{SFX.whoosh()}catch(e){}
+  await el.animate([{transform:T(-dir*r.width*.3,0,' scale(.85)'),opacity:0},{transform:T(fr*.45,-h*.45),opacity:1,offset:.5},{transform:T(fr,0),opacity:1}],{duration:540,easing:'ease-out',fill:'forwards'}).finished;
+  await sleep(120);
+  if(p.mode==='tiro'){const kr=el.getBoundingClientRect();
+    el.animate([{transform:T(fr,0)},{transform:T(fr+dir*16,0,` rotate(${dir*5}deg)`)},{transform:T(fr,0)}],{duration:300,fill:'forwards'});
+    await atkVisual(i,d,'especial',null,hit,{A:kf,s:{x:kr.left+kr.width/2,y:kr.top+kr.height*.42,w:kr.width,h:kr.height}});
+    if(hit)anim(d,'hit');else anim(d,'dodge');await sleep(350);}
+  else{const kr=el.getBoundingClientRect();const tx=fr+(D.left+D.width/2-(kr.left+kr.width/2))-dir*D.width*.6;
+    await el.animate([{transform:T(fr,0)},{transform:T(tx,-h*.06)}],{duration:230,easing:'ease-in',fill:'forwards'}).finished;
+    const c=figCenter(d);if(hit){impactAt(c.x,c.y,fxColors(kf.fx||'impacto'));try{SFX.hit()}catch(e){}anim(d,'hit');}else anim(d,'dodge');
+    await sleep(320);
+    await el.animate([{transform:T(tx,-h*.06)},{transform:T(fr,0)}],{duration:260,easing:'ease-out',fill:'forwards'}).finished;}
+  try{SFX.whoosh()}catch(e){}
+  await el.animate([{transform:T(fr,0,' rotate(0deg)'),opacity:1},{transform:T(fr*.3,-h*.6,` rotate(${-dir*200}deg)`),opacity:1,offset:.55},{transform:T(-dir*r.width*.5,-h*.15,` rotate(${-dir*360}deg) scale(.7)`),opacity:0}],{duration:640,easing:'ease-in-out',fill:'forwards'}).finished;
+  el.remove();}
 
 /* ====== MODO HISTÓRIA: A CHAMA DE EDÊNIA ====== */
 const SPK={R:{n:'Rudolf',f:'Rudolf'},K:{n:'Kitana',f:'Kitana'},T:{n:'Teresa',f:'Teresa'},C:{n:'Katherine',f:'Katherine Pierce'},M:{n:'Mileena',f:'Mileena'},S:{n:'Sindel',f:'Sindel'},
