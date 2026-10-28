@@ -3799,6 +3799,9 @@ html.land #tab-dialogos .versus{max-width:640px;margin:0 auto}
 #kripta .kr-h small{display:inline}
 #kripta .kr-h{flex-wrap:wrap}
 #smMain .sm-evtm:not([hidden]){display:inline-block;margin-left:6px;padding:1px 7px;border-radius:10px;background:#e0301e;color:#fff;font-family:var(--f-ui);font-size:11px;letter-spacing:.5px;line-height:1.4;box-shadow:0 0 8px rgba(224,48,30,.7);vertical-align:middle}
+/* centro das roletas: o símbolo fica exatamente no meio do disco */
+.ev-wheel-wrap .ev-hub{left:50%!important;top:50%!important;width:24%!important;height:24%!important;aspect-ratio:1;transform:translate(-50%,-50%)!important;display:grid!important;place-items:center!important;margin:0!important;padding:0!important;line-height:0!important;font-size:0!important}
+.ev-wheel-wrap .ev-hub>.ico,.ev-wheel-wrap .ev-hub>.cur-svg,.ev-wheel-wrap .ev-hub>svg{display:block!important;width:66%!important;height:66%!important;margin:0!important;vertical-align:0!important}
 </style>
 
 <div class="wrap">
@@ -11267,6 +11270,7 @@ function evWheelSVG(){const its=EV_HW.items,n=its.length,seg=360/n,R=96;const P=
 function renderEventos(){evCoins();const B=$('#evBody');
   {const bg=document.querySelector('#evento .ev-bg img');const W=document.getElementById('evento');if(evView!=='ev2'){W.style.removeProperty('--e1');W.style.removeProperty('--e2');delete W.dataset.e2t;}
     const want=evView==='ev2'?((ev2Def(EV2_CUR_ID)||{}).bg||''):evView==='roleta'||evOn()?EV_HW.bg:'img/kripta/fundo.jpg';if(bg&&want&&bg.getAttribute('src')!==want)bg.src=want;}
+  if(evView!=='ev2'){const W=document.getElementById('evento');const m=evView==='roleta'||evOn()?'halloween':'ruas';if(W.dataset.mus!==m){W.dataset.mus=m;try{MUSIC.setOverride(m)}catch(_){}}}
   if(evView==='ev2'){ev2Render();return;}
   if(evView==='lista'){B.innerHTML=ev2List();return;}
   const n=evSpins(),cost=evCost(n),pool=evPool(),fr=EV_HW.items[0],frOwn=evOwned(fr),done=!pool.length,can=MOEDAS>=cost&&!evSpinning&&!done;
@@ -11295,7 +11299,7 @@ function evSpin(){if(evSpinning||!evPool().length)return;const cost=evCost();if(
     if(p<1)requestAnimationFrame(step);else{evRot=target%360;evSpinning=false;evGrant(it);evCoins();setTimeout(()=>evResult(it),250);}};
   requestAnimationFrame(step);}
 function openEventos(view){evOpen=true;evView=view||'lista';if(evView==='roleta'&&!evOn())evView='lista';if(evView.startsWith('ev2:')){EV2_CUR_ID=evView.slice(4);evView='ev2';}document.body.classList.add('krypt');document.body.style.overflow='hidden';
-  $('#evento').hidden=false;$('#evModal').hidden=true;renderEventos();$('#evBody').scrollTop=0;MUSIC.setIntro(false);MUSIC.setOverride('halloween');}
+  $('#evento').hidden=false;$('#evModal').hidden=true;delete $('#evento').dataset.mus;MUSIC.setIntro(false);renderEventos();$('#evBody').scrollTop=0;}
 function closeEventos(){if(evSpinning)return;evOpen=false;
   loading({action:()=>{$('#evento').hidden=true;$('#evModal').hidden=true;document.body.classList.remove('krypt');document.body.style.overflow='';MUSIC.setOverride(null);$('#brand').click();}});}
 $('#evClose').onclick=()=>{SFX.hit();closeEventos();};
@@ -11315,44 +11319,44 @@ const EV2_T0=Date.parse('2026-10-28T00:00:00-03:00');
 const evDay=d=>EV2_T0+d*86400000;
 const coinIt=(v,w)=>({id:'c'+v,kind:'coins',v,w,tier:'coin'});
 const EVS=[
-  {id:'diario',tipo:'diario',n:'Missões Diárias',tag:'Todo dia',end:null,bg:'img/menu/jogar.jpg',c:['#ffb347','#3a1a06'],
+  {id:'diario',mus:'cemiterio',tipo:'diario',n:'Missões Diárias',tag:'Todo dia',end:null,bg:'img/menu/jogar.jpg',c:['#ffb347','#3a1a06'],
    d:'Pequenas missões que dão até 100 moedas por dia. Renovam toda meia-noite.',
    ms:[{id:'d1',t:'luta',n:1,x:'Jogue 1 luta',r:10},{id:'d2',t:'vitoria',n:2,x:'Vença 2 lutas',r:20},{id:'d3',t:'finalizacao',n:1,x:'Faça 1 finalização',r:15},{id:'d4',t:'torre',n:1,x:'Vença 1 luta na Torre',r:20},{id:'d5',t:'fofa',n:1,x:'Faça um Friendship ou uma Babality',r:10},{id:'d6',t:'especial',n:3,x:'Use o golpe especial 3 vezes',r:10},{id:'d7',t:'flawless',n:1,x:'Vença um round sem levar dano',r:15}]},
-  {id:'vega',tipo:'roleta',n:'Roleta da Agente',tag:'Roleta',end:evDay(12),bg:'img/s/vega-agente.jpg',c:['#3ad8e0','#04262c'],cost:100,
+  {id:'vega',mus:'obsession',tipo:'roleta',n:'Roleta da Agente',tag:'Roleta',end:evDay(25),bg:'img/s/vega-agente.jpg',c:['#3ad8e0','#04262c'],cost:100,
    d:'Prêmio principal: Vega. Prêmio secundário: a skin Vega Agente da Ordem.',
    items:[{id:'vega',kind:'char',ref:'Vega',n:'Vega',w:3,tier:'main'},{id:'skvega',kind:'skin',ref:'vega-agente',n:'Vega Agente da Ordem',w:7,tier:'sec'},coinIt(25,20),coinIt(50,16),coinIt(75,12),coinIt(100,9),coinIt(150,5),coinIt(300,1.5)]},
-  {id:'lorenzo',tipo:'sorteio',n:'O Herdeiro de Veyrath',tag:'Sorteio',end:evDay(18),bg:'img/luta/serenata.jpg',c:['#e0485a','#2a0610'],
+  {id:'lorenzo',mus:'serenata',tipo:'sorteio',n:'O Herdeiro de Veyrath',tag:'Sorteio',end:evDay(30),bg:'img/luta/serenata.jpg',c:['#e0485a','#2a0610'],
    d:'Tire 2 prêmios da mesa e sorteie até 8 vezes, sem repetir. Prêmio principal: Lorenzo. Secundário: a arena Serenata.',
    items:[{id:'lorenzo',kind:'char',ref:'Lorenzo',n:'Lorenzo',w:2,tier:'main'},{id:'serenata',kind:'arena',ref:'serenata',n:'Arena Serenata',w:4,tier:'sec'},coinIt(20,10),coinIt(30,10),coinIt(40,10),coinIt(50,10),coinIt(60,10),coinIt(70,10),coinIt(80,10),coinIt(100,10)]},
-  {id:'tvd2',tipo:'troca',n:'The Vampire Diaries · Parte 2',tag:'Roleta e troca',end:evDay(20),bg:'img/luta/mysticfalls.jpg',c:['#d81c2c','#120206'],cost:200,
+  {id:'tvd2',mus:'tvd',tipo:'troca',n:'The Vampire Diaries · Parte 2',tag:'Roleta e troca',end:evDay(25),bg:'img/luta/mysticfalls.jpg',c:['#d81c2c','#120206'],cost:200,
    d:'Gire para juntar Projetos de Mystic Falls e Pedras da Evolução e troque por Damon, Bonnie ou Lexi.',
    items:[{id:'pedra',kind:'cur',ref:'pedra',v:1,n:'Pedra da Evolução',w:6,tier:'main'},{id:'proj',kind:'cur',ref:'proj',v:1,n:'Projeto de Mystic Falls',w:12,tier:'sec'},coinIt(25,30),coinIt(50,24),coinIt(100,15),coinIt(150,8),coinIt(300,5)],
    shop:[{id:'damon',kind:'char',ref:'Damon',n:'Damon',p:{proj:4,pedra:2}},{id:'bonnie',kind:'char',ref:'Bonnie',n:'Bonnie',p:{proj:3,pedra:2}},{id:'lexi',kind:'char',ref:'Lexi',n:'Lexi',p:{proj:2,pedra:1}}]},
-  {id:'ritual',tipo:'ritual',n:'Ritual da Hexatombe',tag:'Ritual',end:evDay(15),bg:'img/luta/caldeira.jpg',c:['#c8202a','#160404'],costT:3,costM:300,
+  {id:'ritual',mus:'h_shang',tipo:'ritual',n:'Ritual da Hexatombe',tag:'Ritual',end:evDay(25),bg:'img/luta/caldeira.jpg',c:['#c8202a','#160404'],costT:3,costM:300,
    d:'Cobra e Touro estão presos no círculo de sangue. Cada invocação pode libertar um deles ou deixar Marcas de Sangue: com 12 marcas você liberta quem quiser.',
    items:[{id:'cobra',kind:'char',ref:'Cobra',n:'Cobra',w:2,tier:'main'},{id:'touro',kind:'char',ref:'Touro',n:'Touro',w:2,tier:'main'},{id:'m1',kind:'cur',ref:'marca',v:1,n:'1 Marca de Sangue',w:44,tier:'sec'},{id:'m2',kind:'cur',ref:'marca',v:2,n:'2 Marcas de Sangue',w:30,tier:'sec'},{id:'m3',kind:'cur',ref:'marca',v:3,n:'3 Marcas de Sangue',w:12,tier:'sec'},coinIt(50,10)],
    shop:[{id:'cobra',kind:'char',ref:'Cobra',n:'Cobra',p:{marca:12}},{id:'touro',kind:'char',ref:'Touro',n:'Touro',p:{marca:12}}]},
-  {id:'hexa',tipo:'missoes',n:'Caçada da Hexatombe',tag:'Missões · grátis',end:evDay(20),bg:'img/luta/necroterio.jpg',c:['#7ad04a','#0c1a06'],cur:'tok_hexa',
+  {id:'hexa',mus:'h_pit',tipo:'missoes',n:'Caçada da Hexatombe',tag:'Missões · grátis',end:evDay(20),bg:'img/luta/necroterio.jpg',c:['#7ad04a','#0c1a06'],cur:'tok_hexa',
    d:'Missões diárias dão Tokens da Hexatombe. Troque por Coelho, Cabra e Tickets do Ritual.',
    ms:[{id:'h1',t:'vitoria',n:1,x:'Vença 1 luta',r:20},{id:'h2',t:'vitoria',n:3,x:'Vença 3 lutas',r:25},{id:'h3',t:'fatality',n:1,x:'Faça 1 Fatality',r:20},{id:'h4',t:'brutality',n:1,x:'Faça 1 Brutality',r:20},{id:'h5',t:'torre',n:1,x:'Vença 1 luta na Torre',r:25},{id:'h6',t:'kameo',n:2,x:'Use o Kameo 2 vezes',r:20},{id:'h7',t:'flawless',n:1,x:'Vença um round sem levar dano',r:20}],
    shop:[{id:'coelho',kind:'char',ref:'Coelho',n:'Coelho',p:{tok_hexa:500}},{id:'cabra',kind:'char',ref:'Cabra',n:'Cabra',p:{tok_hexa:500}},{id:'t3',kind:'cur',ref:'tkt',v:3,n:'3 Tickets do Ritual',p:{tok_hexa:120},rep:true},{id:'t5',kind:'cur',ref:'tkt',v:5,n:'5 Tickets do Ritual',p:{tok_hexa:190},rep:true},{id:'t9',kind:'cur',ref:'tkt',v:9,n:'9 Tickets do Ritual',p:{tok_hexa:320},rep:true}]},
-  {id:'login',tipo:'login',n:'Arenas Grátis',tag:'Entre todo dia',end:evDay(10),bg:'img/luta/bank.jpg',c:['#ffcf4a','#2a1a02'],
+  {id:'login',mus:'banco',tipo:'login',n:'Arenas Grátis',tag:'Entre todo dia',end:evDay(10),bg:'img/luta/bank.jpg',c:['#ffcf4a','#2a1a02'],
    d:'Entre no jogo em dias diferentes e ganhe três arenas e moedas.',
    days:[{kind:'arena',ref:'thebank',n:'Arena The Bank'},{kind:'coins',v:100,n:'100 moedas'},{kind:'arena',ref:'thepit',n:'Arena The Pit'},{kind:'coins',v:200,n:'200 moedas'},{kind:'arena',ref:'forja',n:'Arena Forja do Dragão'}]},
-  {id:'kham',tipo:'sorteio',n:'O Espelho de Zaterra',tag:'Sorteio',end:evDay(15),bg:'img/p/khameleon.jpg',c:['#b07aff','#140a24'],
+  {id:'kham',mus:'portal',tipo:'sorteio',n:'O Espelho de Zaterra',tag:'Sorteio',end:evDay(30),bg:'img/p/khameleon.jpg',c:['#b07aff','#140a24'],
    d:'Tire 2 prêmios da mesa e sorteie até 8 vezes, sem repetir. Prêmio principal: Khameleon. Secundários: Skarlet e Sheeva.',
    items:[{id:'kham',kind:'char',ref:'Khameleon',n:'Khameleon',w:2,tier:'main'},{id:'skarlet',kind:'char',ref:'Skarlet',n:'Skarlet',w:4,tier:'sec'},{id:'sheeva',kind:'char',ref:'Sheeva',n:'Sheeva',w:4,tier:'sec'},coinIt(25,10),coinIt(40,10),coinIt(50,10),coinIt(60,10),coinIt(75,10),coinIt(90,10),coinIt(100,10)]},
-  {id:'ninjas',tipo:'sorteio',n:'Guarda-Roupa de Edênia',tag:'Sorteio de skins',end:evDay(15),bg:'img/s/kitana-safira.jpg',c:['#4a8aff','#06102a'],
+  {id:'ninjas',mus:'covil',tipo:'sorteio',n:'Guarda-Roupa de Edênia',tag:'Sorteio de skins',end:evDay(30),bg:'img/s/kitana-safira.jpg',c:['#4a8aff','#06102a'],
    d:'Tire 2 prêmios da mesa e sorteie até 8 vezes, sem repetir. Skins da Kitana, da Jade e da Mileena.',
    items:[{id:'skkit',kind:'skin',ref:'kitana-safira',n:'Kitana Safira Imperial',w:2,tier:'main'},{id:'skjade',kind:'skin',ref:'jade-mk2',n:'Jade MK2 Classic',w:4,tier:'sec'},{id:'skmil',kind:'skin',ref:'mileena-rosa',n:'Mileena Neon Rosa',w:4,tier:'sec'},coinIt(25,10),coinIt(40,10),coinIt(50,10),coinIt(60,10),coinIt(75,10),coinIt(90,10),coinIt(100,10)]},
-  {id:'mfarenas',tipo:'missoes',n:'Noites de Mystic Falls',tag:'Missões · grátis',end:evDay(20),bg:'img/luta/relogio.jpg',c:['#ff5a6a','#1a0408'],cur:'tok_mf',
-   d:'Missões diárias dão Tokens de Mystic Falls. Troque pelas três arenas de The Vampire Diaries.',
+  {id:'mfarenas',mus:'tvdoutro',tipo:'missoes',n:'Noites de Mystic Falls',tag:'Missões · grátis',end:evDay(20),bg:'img/luta/relogio.jpg',c:['#ff5a6a','#1a0408'],cur:'tok_mf',
+   d:'Missões diárias dão Tokens de Mystic Falls. Troque pelas três arenas de The Vampire Diaries (300 tokens cada).',
    ms:[{id:'m1',t:'luta',n:2,x:'Jogue 2 lutas',r:20},{id:'m2',t:'vitoria',n:2,x:'Vença 2 lutas',r:25},{id:'m3',t:'finalizacao',n:2,x:'Faça 2 finalizações',r:25},{id:'m4',t:'especial',n:5,x:'Use o golpe especial 5 vezes',r:20},{id:'m5',t:'torre',n:1,x:'Vença 1 luta na Torre',r:25},{id:'m6',t:'fofa',n:1,x:'Faça um Friendship ou uma Babality',r:20},{id:'m7',t:'flawless',n:1,x:'Vença um round sem levar dano',r:15}],
-   shop:[{id:'relogio',kind:'arena',ref:'relogio',n:'Torre do Relógio',p:{tok_mf:900}},{id:'mausoleu',kind:'arena',ref:'mausoleu',n:'Mausoléu Stefan',p:{tok_mf:900}},{id:'mysticfalls',kind:'arena',ref:'mysticfalls',n:'Bem-vindo a Mystic Falls',p:{tok_mf:900}}]},
-  {id:'baile',tipo:'missoes',n:'Baile de Máscaras',tag:'Missões · grátis',end:evDay(20),bg:'img/s/katherine-mascaras.jpg',c:['#ff8ac8','#200818'],cur:'tok_baile',
-   d:'Missões diárias dão Tokens do Baile. Troque pelas skins da Bonnie e da Katherine.',
+   shop:[{id:'relogio',kind:'arena',ref:'relogio',n:'Torre do Relógio',p:{tok_mf:300}},{id:'mausoleu',kind:'arena',ref:'mausoleu',n:'Mausoléu Stefan',p:{tok_mf:300}},{id:'mysticfalls',kind:'arena',ref:'mysticfalls',n:'Bem-vindo a Mystic Falls',p:{tok_mf:300}}]},
+  {id:'baile',mus:'holdon',tipo:'missoes',n:'Baile de Máscaras',tag:'Missões · grátis',end:evDay(20),bg:'img/s/katherine-mascaras.jpg',c:['#ff8ac8','#200818'],cur:'tok_baile',
+   d:'Missões diárias dão Tokens do Baile. Troque pelas skins da Bonnie e da Katherine (500 tokens cada).',
    ms:[{id:'b1',t:'vitoria',n:1,x:'Vença 1 luta',r:20},{id:'b2',t:'vitoria',n:4,x:'Vença 4 lutas',r:30},{id:'b3',t:'fatality',n:2,x:'Faça 2 Fatalities',r:25},{id:'b4',t:'animality',n:1,x:'Faça 1 Animality',r:20},{id:'b5',t:'kameo',n:3,x:'Use o Kameo 3 vezes',r:20},{id:'b6',t:'especial',n:3,x:'Use o golpe especial 3 vezes',r:15},{id:'b7',t:'torre',n:1,x:'Vença 1 luta na Torre',r:20}],
-   shop:[{id:'skbonnie',kind:'skin',ref:'bonnie-baile',n:'Bonnie Rainha do Baile',p:{tok_baile:1200}},{id:'skkath',kind:'skin',ref:'katherine-mascaras',n:'Katherine Baile de Máscaras',p:{tok_baile:1200}}]}
+   shop:[{id:'skbonnie',kind:'skin',ref:'bonnie-baile',n:'Bonnie Rainha do Baile',p:{tok_baile:500}},{id:'skkath',kind:'skin',ref:'katherine-mascaras',n:'Katherine Baile de Máscaras',p:{tok_baile:500}}]}
 ];
 const EV2_COST=[150,160,170,180,190,200,215,235];
 /* moedas próprias de cada evento */
@@ -11433,7 +11437,7 @@ function ev2Wallet(keys){return `<div class="e2-wallet">${keys.map(k=>`<span cla
 function ev2Render(){const e=ev2Def(EV2_CUR_ID);const B=$('#evBody');if(!e||!ev2Active(e)){evView='lista';renderEventos();return}
   const W=document.getElementById('evento');W.style.setProperty('--e1',e.c[0]);W.style.setProperty('--e2',e.c[1]);W.dataset.e2t=e.tipo;
   const fn={roleta:ev2Roleta,troca:ev2Troca,ritual:ev2Ritual,sorteio:ev2Sorteio,missoes:ev2Missoes,diario:ev2Missoes,login:ev2Login}[e.tipo];
-  B.innerHTML=`<div class="e2-page t-${e.tipo}">${fn(e)}</div>`;}
+  B.innerHTML=`<div class="e2-page t-${e.tipo}">${fn(e)}</div>`;if(e.mus&&W.dataset.mus!==e.mus){W.dataset.mus=e.mus;try{MUSIC.setOverride(e.mus)}catch(_){}}}
 /* -- roda genérica (roleta, troca e ritual) -- */
 function ev2WheelSVG(e,owned){const its=e.items,n=its.length,seg=360/n,R=96;const P=(a,r)=>[(Math.sin(a*Math.PI/180)*r).toFixed(2),(-Math.cos(a*Math.PI/180)*r).toFixed(2)];
   let h=`<defs><radialGradient id="e2gM"><stop offset=".15" stop-color="#fff2b0"/><stop offset=".6" stop-color="${e.c[0]}"/><stop offset="1" stop-color="${e.c[1]}"/></radialGradient><radialGradient id="e2gS"><stop offset=".2" stop-color="${e.c[0]}" stop-opacity=".75"/><stop offset="1" stop-color="${e.c[1]}"/></radialGradient><clipPath id="e2Clip"><circle r="17"/></clipPath></defs><circle r="99" fill="#080404" stroke="${e.c[0]}" stroke-width="2"/>`;
