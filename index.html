@@ -8347,7 +8347,7 @@ async function doExchange(atk,def,act,stance){
   /* acertou: rola o dano primeiro; só depois o golpe sai e chega no alvo */
   if(hit&&dmgRolls.length){$('#fRes').innerHTML=`<div class="f-pre">${why}</div>`;$('#fRoll').hidden=false;await sleep(FAST?350:1000);await rollShow(dmgRolls,'Dano · '+AC.t);await sleep(FAST?150:450);}
   $('#fRoll').hidden=true;anim(atk,'lunge');atkSfx(A);
-  try{await atkVisual(atk,def,kind,ab,hit);}catch(e){if(e==='abort')throw e;}
+  try{await (FS.kamVis?FS.kamVis(atk,def,kind,ab,hit):atkVisual(atk,def,kind,ab,hit));}catch(e){if(e==='abort')throw e;}
   if(!fxType(A,kind,ab))await sleep(FAST?120:260);
   let extra=[];
   if(hit){
@@ -8447,9 +8447,9 @@ async function runFight(k0,k1,opts){finCleanup();preloadSfx();preloadBanners();V
         else if(FS.ctrl[atk]==='cpu'&&cpuWantsSwap(atk)){await sleep(FAST?250:700);await doSwap(atk);if(isHuman(def))log(`<b>${esc(FS.P[atk].nome)}</b> vai atacar. Escolha sua defesa!`);}
         if(FS.online){}
         else if(isHuman(atk)&&!FS.two){act=await askAtk(atk);if(act==='trocar'){await doSwap(atk);log('<b>Sua vez.</b> Escolha o golpe.');act=await askAtk(atk);}stance=await askDef(def);}
-        else if(isHuman(def)&&!FS.two){stance=await askDef(def);act=await askAtk(atk);}
-        else{await passPhone(atk,'ataca');act=await askAtk(atk);if(act==='trocar'){await doSwap(atk);log(`<span class="who ${who(atk)}">${esc(FS.P[atk].nome)}</span> ataca. Escolha o golpe no seu lado da tela.`);act=await askAtk(atk);}await passPhone(def,'defende');log(`<span class="who ${who(def)}">${esc(Dd.nome)}</span> defende. Escolha bloquear ou esquivar no seu lado.`);stance=await askDef(def);}
-        if(isKam(act))await kamAttack(atk,def,+act.slice(3),stance);else await doExchange(atk,def,act,stance);
+        else if(isHuman(def)&&!FS.two){act=await askAtk(atk);if(!isKam(act))stance=await askDef(def);}
+        else{await passPhone(atk,'ataca');act=await askAtk(atk);if(act==='trocar'){await doSwap(atk);log(`<span class="who ${who(atk)}">${esc(FS.P[atk].nome)}</span> ataca. Escolha o golpe no seu lado da tela.`);act=await askAtk(atk);}if(!isKam(act)){await passPhone(def,'defende');log(`<span class="who ${who(def)}">${esc(Dd.nome)}</span> defende. Escolha bloquear ou esquivar no seu lado.`);stance=await askDef(def);}}
+        if(isKam(act))await kamAttack(atk,def,+act.slice(3),stance,stance==null?async()=>{if(FS.two&&!FS.online){await passPhone(def,'defende');log(`<span class="who ${who(def)}">${esc(Dd.nome)}</span> defende. Escolha bloquear ou esquivar no seu lado.`);}return askDef(def);}:null);else await doExchange(atk,def,act,stance);
         {const tk=efxTick();hud();if(tk.length){log(tk.join('<br>'));await sleep(FAST?450:1200);}}
         for(const s of [def,atk])if(FS.hp[s]<=0&&partnerAlive(s))await tagIn(s);
         atk=def;
@@ -8915,55 +8915,59 @@ async function runTraining(k0,k1,res,stageK){preloadSfx();
 }
 
 /* ====== KAMEO: lutador de apoio ======
-   Não luta e não troca de lugar. Com 30 de barra, o jogador pode chamar o Kameo para usar um de dois poderes:
-   ele pula na frente do lutador principal, ataca o oponente e sai dando um mortal para trás. */
+   Não luta e não troca de lugar. Com 30 de barra, o jogador pode chamar o Kameo para usar um de dois poderes.
+   O lutador principal dá uns passos para trás, o Kameo assume a posição dele e ataca como um lutador normal
+   (dado de ataque contra a defesa que o oponente escolher). Depois sai com um mortal para trás. */
 const KAM_COST=30;
 function kamOf(i){return FS&&FS.kameo?FS.kameo[i]||null:null;}
-function kamPowers(f){const L=(f&&f.esp&&f.esp.length)?f.esp:[];const a=L[0]||{n:'Golpe de apoio'},b=L[1]&&L[1].n!==a.n?L[1]:{n:'Investida'};
-  return [{n:a.n,mode:'tiro'},{n:b.n,mode:'corpo'}];}
+function kamPowers(f){const L=(f&&f.esp&&f.esp.length)?f.esp:[];const a=L[0]||{n:'Golpe de apoio'},b=L[1]&&L[1].n!==a.n?L[1]:null;
+  return [{n:a.n,mode:'tiro',ei:0},{n:b?b.n:'Investida',mode:'corpo',ei:b?1:0}];}
 function kamCan(i){return !!kamOf(i)&&FS.bar[i]>=KAM_COST;}
 function kamDefs(i){const kf=kamOf(i);if(!kf||!kamCan(i))return [];
   return kamPowers(kf).map((p,j)=>({k:'kam'+j,t:p.n,icon:portrait(kf,'kb-pic'),sub:'Kameo '+kf.nome+' · '+KAM_COST+' de barra',cls:'kam',key:FS.two&&!FS.online&&i===1?'':(j?'0':'9')}));}
 function kamCpu(i){if(!kamCan(i))return null;const o=1-i;const p=FS.hp[o]<=FS.max[o]*.25?.6:.3;return Math.random()<p?'kam'+(Math.random()<.5?0:1):null;}
 const isKam=a=>typeof a==='string'&&/^kam[01]$/.test(a);
-/* golpe do Kameo: 2d6+2. Bloquear corta pela metade; esquivar escapa com 11+ no d20 */
-async function kamAttack(atk,def,j,stance){const kf=kamOf(atk);if(!kf)return;const A=FS.P[atk],Dd=FS.P[def];const p=kamPowers(kf)[j]||kamPowers(kf)[0];
-  FS.bar[atk]=Math.max(0,FS.bar[atk]-KAM_COST);hud();
-  let D=(Dd.df||[]).find(x=>x.id===stance)||null;if(D){try{defMark(def,D)}catch(e){}}
-  const mode=D?D.mode:stance==='esquivar'?'dodge':'block';
-  const roll=r20(),dodge=mode==='dodge'&&roll>=11;
-  const d1=r6(),d2=r6();let dm=d1+d2+2;const half=!dodge&&mode!=='dodge'&&stance!=='travado';if(half)dm=Math.ceil(dm/2);
-  if(def===0&&CHEAT.god)dm=0;if(atk===0&&CHEAT.dmg)dm=Math.max(dm,half?7:14);
-  log(`<b>Kameo!</b> <span class="who ${who(atk)}">${esc(kf.nome)}</span> entra para ajudar ${esc(A.nome)} com <b>${esc(p.n)}</b>.`);
+/* entrada: o principal recua e fica atrás; o Kameo aparece no lugar dele */
+async function kamEnter(i,kf){const F=$('#fF'+i),ar=F.parentNode;const w=F.offsetWidth,h=F.offsetHeight,dir=i?1:-1;
+  const g=document.createElement('div');g.className='f-resfig kam-back '+(i?'r':'l');g.innerHTML=portrait(FS.P[i],'pf');
+  Object.assign(g.style,{width:w+'px',height:h+'px',left:F.offsetLeft+'px',top:F.offsetTop+'px'});ar.insertBefore(g,ar.firstChild);
+  const back=`translate(${(dir*w*.16).toFixed(0)}px,${(-h*.42).toFixed(0)}px) scale(.8)`;
+  g.animate([{transform:'none',opacity:1,filter:'none'},{transform:back,opacity:1,filter:'brightness(.55) saturate(.85)'}],{duration:420,easing:'ease-out',fill:'forwards'});
+  F.animate([{opacity:1},{opacity:0}],{duration:160,fill:'forwards'});
+  try{SFX.whoosh()}catch(e){}await sleep(200);
+  F.innerHTML=portrait(kf,'pf')+'<span class="kam-tag">Kameo</span>';F.classList.add('kam-on');
   try{SFX.say(kf.nome,true)}catch(e){}
-  await kamVisual(atk,def,kf,p,!dodge);
-  if(!dodge){FS.hp[def]-=dm;FS.dmg[def]+=dm;hitFx(def,'dor');try{addGore(def,dm)}catch(e){}}
-  hud();
-  const why=dodge?`${esc(Dd.nome)} esquivou do Kameo (${roll} no dado).`:mode==='dodge'?`${esc(Dd.nome)} tentou esquivar (${roll}), mas não deu.`:`${esc(Dd.nome)} bloqueou e levou só metade.`;
-  await result(`<b>${esc(kf.nome)}</b> usou <b>${esc(p.n)}</b>.<br>${why}${dodge?'':`<br><span class="bad"><b>${esc(Dd.nome)}</b> levou <b>${dm}</b> de dano</span> <small>(2d6+2: ${d1}+${d2}+2${half?', metade':''})</small>.${FS.hp[def]<=0?' <b>Nocaute!</b>':''}`}`);}
-/* o Kameo pula na frente, ataca e volta com um mortal para trás */
-async function kamVisual(i,d,kf,p,hit){
-  if(typeof LITE!=='undefined'&&LITE.on()){await sleep(300);if(hit)anim(d,'hit');return;}
-  const L=fxLayer(),r=$('#fF'+i).getBoundingClientRect(),D=$('#fF'+d).getBoundingClientRect();const dir=D.left>r.left?1:-1;
-  const w=r.width*.82,h=r.height*.82;const el=document.createElement('div');el.className='f-fig kam-fig '+(i?'r':'l');
-  el.style.cssText=`position:fixed;margin:0;left:${(r.left+(r.width-w)/2).toFixed(0)}px;top:${(r.top+r.height-h).toFixed(0)}px;width:${w.toFixed(0)}px;height:${h.toFixed(0)}px`;
-  el.innerHTML=portrait(kf,'pf')+'<span class="kam-tag">Kameo</span>';L.appendChild(el);
-  const fr=dir*r.width*.62,T=(x,y,ex)=>`translate(${x.toFixed(0)}px,${y.toFixed(0)}px)${ex||''}`;
+  await F.animate([{transform:`translate(${(-dir*w*.15).toFixed(0)}px,${(-h*.4).toFixed(0)}px) rotate(${-dir*12}deg)`,opacity:0},{transform:`translate(0,${(-h*.18).toFixed(0)}px)`,opacity:1,offset:.6},{transform:'none',opacity:1}],{duration:480,easing:'ease-out'}).finished;
+  F.getAnimations().forEach(a=>a.cancel());return g;}
+/* saída: mortal para trás, some, e o principal volta para o lugar */
+async function kamLeave(i,g){const F=$('#fF'+i),w=F.offsetWidth,h=F.offsetHeight,dir=i?1:-1;
   try{SFX.whoosh()}catch(e){}
-  await el.animate([{transform:T(-dir*r.width*.3,0,' scale(.85)'),opacity:0},{transform:T(fr*.45,-h*.45),opacity:1,offset:.5},{transform:T(fr,0),opacity:1}],{duration:540,easing:'ease-out',fill:'forwards'}).finished;
-  await sleep(120);
-  if(p.mode==='tiro'){const kr=el.getBoundingClientRect();
-    el.animate([{transform:T(fr,0)},{transform:T(fr+dir*16,0,` rotate(${dir*5}deg)`)},{transform:T(fr,0)}],{duration:300,fill:'forwards'});
-    await atkVisual(i,d,'especial',null,hit,{A:kf,s:{x:kr.left+kr.width/2,y:kr.top+kr.height*.42,w:kr.width,h:kr.height}});
-    if(hit)anim(d,'hit');else anim(d,'dodge');await sleep(350);}
-  else{const kr=el.getBoundingClientRect();const tx=fr+(D.left+D.width/2-(kr.left+kr.width/2))-dir*D.width*.6;
-    await el.animate([{transform:T(fr,0)},{transform:T(tx,-h*.06)}],{duration:230,easing:'ease-in',fill:'forwards'}).finished;
-    const c=figCenter(d);if(hit){impactAt(c.x,c.y,fxColors(kf.fx||'impacto'));try{SFX.hit()}catch(e){}anim(d,'hit');}else anim(d,'dodge');
-    await sleep(320);
-    await el.animate([{transform:T(tx,-h*.06)},{transform:T(fr,0)}],{duration:260,easing:'ease-out',fill:'forwards'}).finished;}
-  try{SFX.whoosh()}catch(e){}
-  await el.animate([{transform:T(fr,0,' rotate(0deg)'),opacity:1},{transform:T(fr*.3,-h*.6,` rotate(${-dir*200}deg)`),opacity:1,offset:.55},{transform:T(-dir*r.width*.5,-h*.15,` rotate(${-dir*360}deg) scale(.7)`),opacity:0}],{duration:640,easing:'ease-in-out',fill:'forwards'}).finished;
-  el.remove();}
+  await F.animate([{transform:'none',opacity:1},{transform:`translate(${(dir*w*.25).toFixed(0)}px,${(-h*.55).toFixed(0)}px) rotate(${dir*190}deg)`,opacity:1,offset:.55},{transform:`translate(${(dir*w*.6).toFixed(0)}px,${(-h*.2).toFixed(0)}px) rotate(${dir*360}deg) scale(.7)`,opacity:0}],{duration:640,easing:'ease-in-out',fill:'forwards'}).finished;
+  F.classList.remove('kam-on');showActive(i);F.getAnimations().forEach(a=>a.cancel());
+  if(g){const fr=g.getAnimations();fr.forEach(a=>a.cancel());F.style.opacity='0';
+    await g.animate([{transform:`translate(${(dir*w*.16).toFixed(0)}px,${(-h*.42).toFixed(0)}px) scale(.8)`,filter:'brightness(.55) saturate(.85)'},{transform:'none',filter:'none'}],{duration:380,easing:'ease-out',fill:'forwards'}).finished;
+    F.style.opacity='';g.remove();}}
+/* o poder corpo a corpo: o Kameo corre até o oponente, bate e volta */
+async function kamDash(i,d,hit,kf){const F=$('#fF'+i),r=F.getBoundingClientRect(),D=$('#fF'+d).getBoundingClientRect(),dir=D.left>r.left?1:-1;
+  const tx=(D.left+D.width/2)-(r.left+r.width/2)-dir*D.width*.6;
+  await F.animate([{transform:'none'},{transform:`translate(${tx.toFixed(0)}px,${(-r.height*.06).toFixed(0)}px)`}],{duration:230,easing:'ease-in',fill:'forwards'}).finished;
+  const c=figCenter(d);if(hit){impactAt(c.x,c.y,fxColors(kf.fx||'impacto'));}
+  await sleep(260);
+  await F.animate([{transform:`translate(${tx.toFixed(0)}px,${(-r.height*.06).toFixed(0)}px)`},{transform:'none'}],{duration:260,easing:'ease-out',fill:'forwards'}).finished;
+  F.getAnimations().forEach(a=>a.cancel());}
+/* golpe do Kameo: é um especial do próprio Kameo, com dado de ataque contra a defesa escolhida */
+async function kamAttack(atk,def,j,stance,askD){const kf=kamOf(atk);if(!kf)return;const main=FS.P[atk],Dd=FS.P[def];const p=kamPowers(kf)[j]||kamPowers(kf)[0];
+  FS.bar[atk]=Math.max(0,FS.bar[atk]-KAM_COST);hud();
+  log(`<b>Kameo!</b> <span class="who ${who(atk)}">${esc(main.nome)}</span> chama <b>${esc(kf.nome)}</b>.`);
+  const g=await kamEnter(atk,kf);
+  const save={bar:FS.bar[atk],esp:FS.espIdx[atk]};
+  try{
+    if(stance==null){log(`<b>${esc(kf.nome)}</b> vai usar <b>${esc(p.n)}</b>. ${esc(Dd.nome)}, escolha a defesa!`);stance=askD?await askD():cpuDef(def);}
+    FS.P[atk]=kf;FS.espIdx[atk]=p.ei;FS.bar[atk]=save.bar+espCost(kf);
+    if(p.mode==='corpo')FS.kamVis=(a,d,kind,ab,hit)=>kamDash(a,d,hit,kf);
+    await doExchange(atk,def,'especial',stance);
+  }finally{FS.kamVis=null;FS.P[atk]=main;FS.espIdx[atk]=save.esp;FS.bar[atk]=save.bar;}
+  await kamLeave(atk,g);hud();}
 
 /* ====== MODO HISTÓRIA: A CHAMA DE EDÊNIA ====== */
 const SPK={R:{n:'Rudolf',f:'Rudolf'},K:{n:'Kitana',f:'Kitana'},T:{n:'Teresa',f:'Teresa'},C:{n:'Katherine',f:'Katherine Pierce'},M:{n:'Mileena',f:'Mileena'},S:{n:'Sindel',f:'Sindel'},
