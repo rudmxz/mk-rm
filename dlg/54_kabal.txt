@@ -1,0 +1,523 @@
+=Kabal|Kabal
+A: Dois de mim? Um vai ficar sem ar. / Eu respiro mais rápido. / Então respira isso.
+A: Quem te queimou? / Os mesmos que queimaram você. / Então vamos ver quem correu mais desde então.
+
+=Kabal|Stryker
+A: Parceiro. Ainda de cassetete? / Ainda. E você, ainda correndo do passado? / Correndo na frente dele.
+A: Lembra da patrulha? Você sempre chegava atrasado. / Eu chegava vivo. / Isso é discutível hoje.
+
+=Stryker|Kabal
+A: Kabal, você tá preso. / Por qual crime? / Por me fazer correr atrás de você de novo.
+A: Você era um bom policial. / Eu era um bom mentiroso. / Então vou ter que te prender de verdade.
+
+=Kabal|Jacqui Briggs
+A: Manoplas de metal. Pesadas demais pra me alcançar. / Não preciso alcançar. Elas atiram. / Então mira rápido.
+A: Você é a filha do Jax. Ele é lento também. / Ele é forte. / Força não pega vento.
+
+=Jacqui Briggs|Kabal
+A: Ex-Dragão Negro. Meu pai caçava gente como você. / Seu pai nunca me pegou. / Eu não sou o meu pai.
+A: Você corre muito. Eu atiro mais rápido. / Ninguém é mais rápido. / Testa.
+
+=Kabal|Khameleon
+A: Você some. Eu corro. Os dois chegam primeiro. / Eu chego invisível. / Eu chego antes de você aparecer.
+A: Uma réptil que copia ninjas. Copia isso. / Sua velocidade é feia. / Mas funciona.
+
+=Khameleon|Kabal
+A: Sua máscara esconde o quê? / O que sobrou de mim. / Então mostra.
+A: Você respira alto. Eu te acho pelo barulho. / Quando ouvir, já passei. / Veremos.
+
+=Kabal|Chameleon
+A: Sete cores. Eu só preciso de uma velocidade. / Velocidade não acha o invisível. / Mas tropeça nele.
+A: Você copia ninjas. Nenhum deles é rápido como eu. / Smoke é. / Smoke é fumaça. Eu sou vento.
+
+=Chameleon|Kabal
+A: Você também sobreviveu a um extermínio. / Sobrevivi queimado. / Eu sobrevivi sozinho.
+A: Seu respirador faz barulho. / É o som de quem não morreu. / Ainda.
+
+=Kabal|Cassie Cage
+A: Filha do ator. Fala tanto que perde o fôlego. / Fôlego é o seu problema, não o meu. / Engraçadinha.
+A: Suas balas são lentas. / Você tá com inveja da minha mira. / Tô com pena.
+
+=Cassie Cage|Kabal
+A: Kabal! Esse respirador é Darth Vader genérico? / Repete. / Hhhh... ficou parecido!
+A: Você é tipo um carro de Fórmula 1 sem freio. / Freio é pra quem perde. / Ou pra quem bate na parede.
+
+=Kabal|Kitana
+A: Princesa. Seus leques cortam o ar. Eu sou o ar. / Ar também sangra. / Prova.
+A: Edênia nunca foi problema meu. / Hoje é. / Então seja rápida.
+
+=Kitana|Kabal
+A: Você queimou nas mãos dos homens do meu pai adotivo. / E sobrevivi para lembrar. / Então lute por isso.
+A: Pare de correr e lute. / Correr é lutar. / Então eu te espero no fim da corrida.
+
+=Kabal|Mileena
+A: Dentes demais. Eu não tenho rosto pra perder. / Eu arranco o resto. / Tem que me pegar.
+A: Você também é feia por dentro? / Mais do que você imagina. / Duvido.
+
+=Mileena|Kabal
+A: Tira essa máscara. Quero ver se é pior que a minha cara. / É. / Ótimo, vamos comparar.
+A: Corre, coelhinho. Eu gosto de caçar. / Eu gosto de ser caçado. / Mentiroso.
+
+=Kabal|Jade
+A: Seu bastão gira rápido. Eu giro mais. / Mostra. / Já mostrei. Você piscou.
+A: Você protege a princesa. Eu protejo a mim mesmo. / Por isso está sozinho. / Por isso estou vivo.
+
+=Jade|Kabal
+A: Velocidade sem disciplina é só barulho. / Barulho que derruba. / Veremos.
+A: Você já foi criminoso. Ainda é? / Depende de quem pergunta. / Eu pergunto com o bastão.
+
+=Kabal|Tanya
+A: Traidora. Você muda de lado mais rápido que eu corro. / Ninguém corre como você. / Elogio aceito.
+A: Você ia gostar do Dragão Negro. / Eu não sigo humanos. / Sorte dos humanos.
+
+=Tanya|Kabal
+A: Um terráqueo queimado. Patético. / Patético e mais rápido que você. / Vamos ver.
+A: Junte-se a mim. Um homem rápido serve. / Eu não sirvo. Eu comando. / Comandar o quê? Um tanque de ar?
+
+=Kabal|Skarlet
+A: Você bebe sangue. O meu tem gosto de fumaça. / Eu provo mesmo assim. / Tente me alcançar.
+A: Shao Kahn te criou. Os homens dele me queimaram. / E você está com raiva de mim? / Estou com raiva de tudo.
+
+=Skarlet|Kabal
+A: Seu sangue corre rápido. Gosto disso. / Ele vai correr longe de você. / Ele sempre volta pra mim.
+A: Vou secar você até o tubo chiar. / Ele já chia. / Então vai chiar mais.
+
+=Kabal|Sheeva
+A: Quatro braços e nenhum rápido o bastante. / Um só me basta. / Pega.
+A: Os Shokan andam devagar. / Os Shokan não precisam correr. / Precisam sim, hoje.
+
+=Sheeva|Kabal
+A: Pare de correr, terráqueo! / Pare de piscar, Shokan. / Insolente!
+A: Eu esmago coisas rápidas também. / Coisas rápidas não ficam paradas para serem esmagadas. / Você vai parar.
+
+=Kabal|Coelho
+A: Justiceiro com uma faca. Já fui mais perigoso que você. / Foi. / Ainda sou.
+A: Você trabalha pro Supremo. Eu trabalhei pro Kano. Ninguém escapa do chefe. / Eu escapei. / Ainda não.
+
+=Coelho|Kabal
+A: Você foi criminoso e virou herói. / E depois criminoso de novo. / Eu caço os dois.
+A: Uma faca só precisa de um segundo. / Eu só preciso de meio. / Então vamos ver o segundo.
+
+=Kabal|Tigre
+A: Dois gadanhos. Bonitinho. / E você, duas espadas de cabide! / Isso foi um insulto?
+A: Você ri demais. / Você respira alto demais! / Pelo menos eu respiro.
+
+=Tigre|Kabal
+A: Cara, faz o som de novo! Hhhhhh! / Para. / Hhhhhhh!
+A: Aposto corrida com você! / Você vai perder. / Eu sei, mas vai ser divertido!
+
+=Kabal|Cobra
+A: Curandeiro? Cura pulmão queimado? / Curo a vida. Ou tiro. / Então me deixa em paz.
+A: Serpentes são lentas. / Serpentes esperam. / Eu não espero ninguém.
+
+=Cobra|Kabal
+A: Sua vida está pela metade. Vou pegar o resto. / Corre atrás dela. / Ela vem até mim.
+A: Eu sinto o seu corpo sofrendo. / Ele está acostumado. / Então não vai sentir quando acabar.
+
+=Kabal|Cabra
+A: Explosivos caseiros. Eu já explodi coisas melhores. / Nada explode melhor que o meu. / Vamos ver.
+A: Você hackeia sistemas. Hackeia o meu tanque e eu te mato. / Já tô dentro. / Mentira.
+
+=Cabra|Kabal
+A: Um tanque de ar nas costas? Um tiro e você vira foguete. / Tente acertar. / Eu explodo a área toda.
+A: Você era policial? Que decepção. / Eu era policial corrupto. / Ah, assim melhora.
+
+=Kabal|Touro
+A: Soldado. Suas balas são lentas pra mim. / Rajada não precisa ser rápida. Só precisa ser muita. / Gasta, então.
+A: Você atira em tudo que se mexe. / E você se mexe muito. / Eu me mexo mais que as suas balas.
+
+=Touro|Kabal
+A: Alvo em alta velocidade. Calculando. / Calcula rápido. / Já calculei.
+A: Ex-criminoso. Já prendi gente como você. / Ninguém prendeu gente como eu. / Primeira vez pra tudo.
+
+=Kabal|Lorenzo
+A: Você voltou dos mortos. Eu quase não voltei. / Quase é melhor que nada. / Fale isso pros meus pulmões.
+A: Garoto amaldiçoado. Corre? / Não preciso correr. / Então vai ficar para trás.
+
+=Lorenzo|Kabal
+A: Você também foi queimado vivo. / E não morri. / Eu morri. Não é melhor.
+A: Por que você corre tanto? / Porque parar dói. / Eu entendo.
+
+=Kabal|Art the Clown
+A: Palhaço. Você é lento demais pra me assustar. / ... / Para de sorrir.
+A: Serra? Eu sou mais rápido que qualquer serra. / ... / Tá, isso me preocupou.
+
+=Art the Clown|Kabal
+A: ... / Para de imitar a minha respiração. / ...
+A: ... / Isso é um balão? Pra mim? / ...
+
+=Kabal|Freddy Krueger
+A: Seus pesadelos são lentos. / Nos sonhos ninguém corre, garoto. / Eu corro até dormindo.
+A: Você também é queimado. / Somos irmãos de churrasco, hein? / Não somos nada.
+
+=Freddy Krueger|Kabal
+A: Olha só, outro carvão ambulante! / Eu sobrevivi. Você virou piada. / Sou a piada que mata.
+A: Vamos ver quanto ar sobra no seu pesadelo. / Mais do que você pensa. / Hehehe. Duvido.
+
+=Kabal|Jason Voorhees
+A: Você anda. Eu corro. Nunca vai me pegar. / ... / Por que isso me preocupa?
+A: Máscara de hóquei. A minha é mais útil. / ... / Pelo menos a minha respira.
+
+=Jason Voorhees|Kabal
+A: ... / Corre o quanto quiser, grandão. / ...
+A: ... / Você não cansa nunca? / ...
+
+=Kabal|Stefan
+A: Vampiro. Você é rápido? / Mais do que pensa. / Mais do que eu? Duvido.
+A: Você luta contra o monstro dentro de você. / Todo dia. / Eu já perdi essa luta faz tempo.
+
+=Stefan|Kabal
+A: Seu sangue cheira a fumaça. / Não beba. Faz mal. / Não pretendia.
+A: Você foi policial e criminoso. Qual é a verdade? / A que me deixa vivo. / Isso não é verdade. É desculpa.
+
+=Kabal|Damon
+A: Vampiro sarcástico. Você corre? / Eu corro pra onde tem bebida. / Então corra daqui.
+A: Fala menos. / Fala mais alto, tô ouvindo só chiado. / Engraçadinho.
+
+=Damon|Kabal
+A: O Darth Vader do esquadrão de rua! / Repete. / Hhhhh. Pronto.
+A: Você é rápido. Eu sou rápido e charmoso. / Charme não pega vento. / Pega garota. Já é alguma coisa.
+
+=Kabal|Bonnie
+A: Bruxa. Sua magia é rápida? / Rápida o bastante pra parar você. / Parar o vento? Boa sorte.
+A: Seus feitiços me queimam? Já fui queimado. / Eu faço pior. / Duvido.
+
+=Bonnie|Kabal
+A: Eu sinto muita dor em você. / Sinta de longe. / Posso aliviar.
+A: Pare de correr! / Me faça parar. / Com prazer.
+
+=Kabal|Lexi
+A: Vampira rindo. Do quê? / De você respirando assim. / Vai rir do chão.
+A: Trezentos anos e ainda lenta. / Lenta? Vem cá, vem. / Já fui e voltei.
+
+=Lexi|Kabal
+A: Você é um ex-mau. Eu conheço o tipo. / O tipo vence. / O tipo se arrepende depois.
+A: Quer um conselho? Tira a máscara e respira devagar. / Se eu tirar, você não vai gostar. / Já vi coisa pior.
+
+=Kabal|Sonya Blade
+A: Comandante. Você caçou o Dragão Negro inteiro. Menos eu. / Ainda. / Corra atrás.
+A: Suas Forças Especiais nunca me pegaram. / Elas te pegaram queimado no chão. / E eu levantei.
+
+=Sonya Blade|Kabal
+A: Kabal. Você ainda trabalha pro Kano? / Eu não trabalho pra ninguém. / Então vai ser preso sozinho.
+A: Velocidade não te salva de uma algema. / Algema precisa me alcançar. / Alcança sim.
+
+=Kabal|Jax
+A: Braços de metal. Lentos e pesados. / Pesados pra derrubar você. / Se acertar.
+A: Sua filha atira bem. Pena que eu sou mais rápido. / Fica longe da minha filha. / Então me alcança.
+
+=Jax|Kabal
+A: Dragão Negro de novo? Achei que tinha largado. / Larguei. Depois voltei. / Então volta pra cadeia.
+A: Você corre como quem foge de alguma coisa. / Fujo de mim mesmo. / Então para que eu te ajudo.
+
+=Kabal|Kano
+A: Kano. Você me comprou uma vez. Nunca mais. / Todo mundo tem um preço, parceiro. / O meu é a sua cabeça.
+A: Seu Dragão Negro é lixo. O meu vai ser melhor. / O seu? Você não comanda nem o próprio fôlego. / Comando o suficiente pra te derrubar.
+
+=Kano|Kabal
+A: Kabal, meu garoto! Volta pra família! / Família? Você me deixou queimar. / Detalhe.
+A: Você ainda deve dinheiro pro Dragão Negro. / Vem cobrar. / Com juros, parceiro.
+
+=Kabal|Ana Letícia
+A: Você mente bem. Eu mentia melhor. / Ninguém mente melhor que eu, querido. / Eu menti pra polícia inteira.
+A: Sua pistola é bonita. Lenta. / Ela é rápida quando precisa. / Eu também.
+
+=Ana Letícia|Kabal
+A: Que homem misterioso. Tira a máscara pra mim? / Não. / Charme de vilão. Adoro.
+A: Me ensina a ser tão rápida? Fugir da polícia ia ficar fácil. / Fugir da polícia é fácil. / Ah, conta mais.
+
+=Kabal|Vega
+A: Agente paranormal. Eu sou só rápido. / Rápido demais pra ser normal. / Então me investiga.
+A: Você trocou de corpo. Eu queria trocar o meu. / Não é tão bom quanto parece. / Nada é.
+
+=Vega|Kabal
+A: Velocidade sobre-humana sem explicação. Isso é paranormal. / É raiva. / Raiva também é paranormal às vezes.
+A: Você vai cansar. / Nunca canso. / Todo mundo cansa.
+
+=Kabal|Teresa
+A: Advogada. Me defende no tribunal? / Você não tem como pagar. / Eu roubo o dinheiro.
+A: Você subiu mentindo. Eu caí mentindo. / Questão de prática. / Questão de sorte.
+
+=Teresa|Kabal
+A: Um criminoso com velocidade. Que cliente útil. / Eu não sou cliente. / Todo mundo é, um dia.
+A: Corra quanto quiser. A lei alcança. / A lei é lenta. / Eu não sou.
+
+=Kabal|Rudolf
+A: Filho da princesa. Leques de fogo? Já fui queimado melhor. / Isso foi uma piada? / Foi um aviso.
+A: Você fala muito. / E você chia muito. / Então cala a boca e corre.
+
+=Rudolf|Kabal
+A: Você é tipo um ventilador ambulante. / Repete isso. / Ventilador ambulante com espada.
+A: Vou te queimar de novo, desculpa. / Tente. / Ah, não peça duas vezes.
+
+=Kabal|Katherine Pierce
+A: Você foge há quinhentos anos. Eu fujo há trinta. / Quer dica? / Quero velocidade. Já tenho.
+A: Você engana todo mundo. / Quase todo mundo. / Eu não caio.
+
+=Katherine Pierce|Kabal
+A: Um homem que corre. Sempre gostei dos que fogem. / Eu não fujo. / Todos dizem isso.
+A: Que sedução nesse chiado. / Não é sedução. É sobrevivência. / Pra mim dá na mesma.
+
+=Kabal|Sub-Zero
+A: Gelo. Vou passar antes de congelar. / O frio é mais rápido do que você pensa. / Prova.
+A: Lin Kuei. Vocês treinam devagar. / Nós treinamos com precisão. / Precisão não pega vento.
+
+=Sub-Zero|Kabal
+A: Sua velocidade é desperdiçada em crimes. / E a sua em obediência. / Silêncio.
+A: Pare de correr. / Pare de gelar. / Congelado você para.
+
+=Kabal|Scorpion
+A: Venha cá? Eu chego antes. / Então fique. / Não paro pra ninguém.
+A: Você foi queimado também. / No inferno. / Eu fui na rua. Dói igual.
+
+=Scorpion|Kabal
+A: Você era de Quan Chi também. / Revenant. Não escolhi. / Ninguém escolhe.
+A: Minha corrente te alcança. / Ela tem que ser rápida. / Ela é.
+
+=Kabal|Baraka
+A: Tarkatano. Seus dentes não pegam vento. / Pegam carne. / Só se a carne parar.
+A: Você é feio. Eu também. Estamos quites. / Os tarkatanos são belos. / Pra quem?
+
+=Baraka|Kabal
+A: Você cheira a fumaça. / Você cheira a carniça. / Elogio aceito.
+A: Pare de girar essas espadas! / Desvia. / Eu corto.
+
+=Kabal|Raiden
+A: Raiden. Você não salvou a minha cidade. / Salvei o mundo. / Minha cidade era o mundo.
+A: Seus raios são rápidos. Eu sou mais. / Ninguém é mais rápido que um raio. / Vamos ver.
+
+=Raiden|Kabal
+A: Sua alma ainda pode ser salva. / Minha alma tá queimada. / Toda alma pode ser purificada.
+A: Use sua velocidade pelo bem. / Já usei. Não pagou. / O bem não paga. Recompensa.
+
+=Kabal|Geras
+A: Você controla o tempo. Volta antes da minha queimadura. / Kronika não permite. / Então você não serve.
+A: Areia é lenta. / Areia é paciente. / Eu não sou.
+
+=Geras|Kabal
+A: Vi mil versões de você. Todas correndo. / Alguma parou? / Nenhuma.
+A: Sua velocidade não supera o tempo. / O tempo não supera a minha raiva. / Testaremos.
+
+=Kabal|Johnny Cage
+A: Ator. Você fez filme de corrida? / Fiz um com dublê. / Eu não preciso de dublê.
+A: Seus óculos me veem? / Meus óculos veem estilo. Você não tem. / Tenho velocidade.
+
+=Johnny Cage|Kabal
+A: Cara, você daria um vilão perfeito no meu próximo filme! / Eu sou vilão de verdade. / Melhor ainda, sem custo de figurino!
+A: Faz o som da máscara, por favor! / Não. / Eu faço então: hhhhhh!
+
+=Kabal|Ladybug
+A: Heroína de Paris. Seu ioiô é lento. / Ele é preciso. / Precisão não pega vento.
+A: Você salva gente. Eu me salvo. / Isso é solitário. / Isso é seguro.
+
+=Ladybug|Kabal
+A: Você não é uma akuma, né? / Não. Sou pior. / Ok, eu sei lidar com pior.
+A: Você corre muito. Mas eu tenho sorte. / Sorte acaba. / A minha não.
+
+=Kabal|Conan
+A: Bárbaro. Sua espada é pesada demais. / Pesada pra te partir ao meio. / Se acertar.
+A: Você fala de Crom. Eu falo de mim. / Crom não gosta de covardes. / Eu não sou covarde. Sou rápido.
+
+=Conan|Kabal
+A: Por Crom, fique parado! / Não. / Então vou cansar você.
+A: Um guerreiro de máscara. Mostre o rosto! / Não vai gostar. / Já vi coisa pior em batalha.
+
+=Kabal|Cyrax
+A: Ciborgue. Seus sensores me acompanham? / Velocidade: 340 por cento acima do humano. / Gostei da estatística.
+A: Você foi humano um dia. / Lembrança arquivada. / Eu também arquivo o meu passado.
+
+=Cyrax|Kabal
+A: Alvo em movimento rápido. Recalibrando. / Recalibra mais rápido. / Recalibrando.
+A: Pulmões danificados detectados. / Obrigado pelo diagnóstico. / Eliminação recomendada.
+
+=Kabal|Ermac
+A: Ermac. Revenant como eu fui. / Nós lembramos. / Eu também.
+A: Sua telecinese me segura? / Nós seguramos qualquer coisa. / Tente me segurar.
+
+=Ermac|Kabal
+A: Nós sentimos uma alma ferida. / Ferida e rápida. / Nós somos mais.
+A: Você também foi escravo de Quan Chi. / Fui. Agora sou livre. / Liberdade é ilusão.
+
+=Kabal|General Shao
+A: Shao. Seus esquadrões me queimaram. / E você ainda respira? Por pouco tempo. / Eu respiro por um tubo e venço por raiva.
+A: Seu martelo é lento. / Não precisa ser rápido. / Precisa acertar. Não vai.
+
+=General Shao|Kabal
+A: Um sobrevivente queimado. Erro dos meus homens. / Erro que vai te custar. / Ninguém cobra Shao.
+A: Ajoelhe-se e terei piedade. / Não sei me ajoelhar. / Eu ensino.
+
+=Kabal|Ashrah
+A: Caçadora de demônios. Eu sou demônio? / Você tem um dentro. / Ele é rápido também.
+A: Sua espada purifica? / Purifica o que está corrompido. / Vai ter trabalho comigo.
+
+=Ashrah|Kabal
+A: Você carrega ódio. / Ódio me mantém respirando. / Ódio também te sufoca.
+A: Pare de fugir de si mesmo. / Correr é tudo que eu sei. / Aprenda a parar.
+
+=Kabal|Ghostface
+A: Máscara branca. Você liga antes? / Qual é seu filme favorito? / Velozes e Furiosos.
+A: Sua faca é lenta. / Lenta e certeira. / Lenta e inútil.
+
+=Ghostface|Kabal
+A: Alô? Tô ouvindo uma respiração do outro lado... ah, é você. / Desliga. / Que clima.
+A: Você seria uma vítima difícil. / Eu sou o assassino aqui. / Dois assassinos? Que filme bom.
+
+=Kabal|Havik
+A: Havik. Seu caos é lento. / Meu caos é tudo! / Tudo devagar.
+A: Você quebra os próprios ossos? / Por diversão! / Eu já sofri o suficiente.
+
+=Havik|Kabal
+A: Um homem queimado e acelerado! Puro caos! / É sobrevivência. / Mesma coisa!
+A: Deixa eu ver seus pulmões por dentro! / Não. / Que egoísta.
+
+=Kabal|Homelander
+A: Você voa. Eu corro. Quem chega antes? / Eu sempre chego antes. / Hoje não.
+A: Seu sorriso é falso. / Seu rosto é pior. / Pelo menos o meu é honesto.
+
+=Homelander|Kabal
+A: Um criminoso queimado. Que triste. / Triste é você precisando de aplauso. / Cuidado.
+A: Eu vejo seus pulmões. Estão horríveis. / Obrigado por notar. / Posso acabar com o sofrimento.
+
+=Kabal|Li Mei
+A: Li Mei. Você protegeu seu povo do Kahn. / Protegi sim. / Ninguém protegeu a minha cidade.
+A: Sua energia brilha demais. Te vejo chegando. / Quero que veja. / Então vem.
+
+=Li Mei|Kabal
+A: Você não precisa ser criminoso. / Eu preciso ser alguma coisa. / Seja melhor.
+A: Pare de correr e converse. / Conversa é lenta. / Eu tenho tempo.
+
+=Kabal|Liu Kang
+A: Deus do Fogo. Na sua Nova Era, eu sou queimado? / Não. / Então eu me lembro de quem eu sou.
+A: Você me fez revenant uma vez. / Não era eu. Era a minha sombra. / Sua sombra correu menos que eu.
+
+=Liu Kang|Kabal
+A: Você tem uma segunda chance. / Já tive três. / Então use a quarta melhor.
+A: Sua raiva é velocidade sem direção. / Direção é pra quem tem mapa. / Eu te dou um.
+
+=Kabal|Kung Lao
+A: Chapéu afiado. Corta o vento? / Corta o que estiver na frente. / Eu não fico na frente.
+A: Você gira. Eu corro. / Os dois cansam. / Eu não.
+
+=Kung Lao|Kabal
+A: Você é rápido. Mas o chapéu é mais. / Joga. / Já joguei. Olha pra trás.
+A: Dragão Negro de novo? Achei que tinha virado policial. / Mudei de ideia. / Muda de novo.
+
+=Kabal|Kenshi
+A: Espadachim cego. Você me sente? / Sinto o vento que você faz. / Então sente isso.
+A: Sua espada é rápida. A minha também. / A minha vê mais. / A minha corre mais.
+
+=Kenshi|Kabal
+A: Sua mente é barulhenta. / Minha respiração também. / Silencie as duas.
+A: Você corre de algo. / De quem eu fui. / Ninguém escapa de si mesmo.
+
+=Kabal|Omni-Man
+A: Viltrumita. Você é rápido. Mas eu também. / Eu viajo entre planetas. / Eu viajo entre golpes.
+A: Você não sente dor? / Não. / Sorte sua.
+
+=Omni-Man|Kabal
+A: Humano frágil e queimado. / Frágil? Ainda estou de pé. / Por pouco tempo.
+A: Pense no que você vai ser em mil anos. / Cinzas. / Exatamente.
+
+=Kabal|Noob Saibot
+A: Sombra. Você também foi revenant. / Eu escolhi a escuridão. / Eu escolhi a velocidade.
+A: Sua sombra é lenta. / Minha sombra está em todo lugar. / Eu também.
+
+=Noob Saibot|Kabal
+A: Você correrá para o Submundo. / Já estive lá. / Desta vez fica.
+A: Quan Chi foi seu mestre também. / Foi um dono, não um mestre. / Diferença pequena.
+
+=Kabal|Peacemaker
+A: Pacificador. Paz com quantas armas? / Todas! / Nenhuma me acerta.
+A: Seu capacete brilha. Eu vejo meu reflexo. / Bonito, né? / Assustador.
+
+=Peacemaker|Kabal
+A: Cara, você é tipo um super-herói dos anos 90! / Eu sou um vilão. / Melhor ainda!
+A: Paz! Mesmo que eu tenha que te parar! / Me pare. / Tá, segura aí.
+
+=Kabal|Nitara
+A: Vampira com asas. Você voa rápido? / Rápido o bastante. / Não o bastante.
+A: Meu sangue cheira a fumaça. / Tem cheiro de raiva também. / Prova.
+
+=Nitara|Kabal
+A: Seu sangue corre quente. / Corre rápido. / Vou beber rápido também.
+A: Seu reino foi destruído também? / Minha cidade. / Então lute por ela.
+
+=Kabal|Quan Chi
+A: Quan Chi. Você me fez revenant. / E posso fazer de novo. / Desta vez eu corro antes.
+A: Suas runas não seguram vento. / Elas seguram almas. / A minha queimou.
+
+=Quan Chi|Kabal
+A: Meu velho servo. Saudades? / De te matar. / Que gratidão.
+A: Você era útil como revenant. / Agora sou útil vivo. / Vamos corrigir isso.
+
+=Kabal|Reiko
+A: General do Kahn. Seus soldados me queimaram. / Com prazer. / O prazer vai acabar.
+A: Seu martelo é lento. / Eu acerto onde você vai estar. / Eu não vou estar.
+
+=Reiko|Kabal
+A: Um sobrevivente. Imperdoável. / Eu não pedi perdão. / Vai pedir.
+A: Sirva a Shao e viverá. / Eu sirvo a mim mesmo. / Por pouco tempo.
+
+=Kabal|Rain
+A: Príncipe da água. Molhado demais pra correr. / Eu não preciso correr. / Então vai ficar parado.
+A: Você é arrogante. / E você é queimado. / Pelo menos sou rápido.
+
+=Rain|Kabal
+A: Terráqueo queimado. Patético. / Patético e na sua frente. / Insolente!
+A: Minha água apaga qualquer fogo. / O meu fogo já apagou. Sobrou raiva. / Raiva se afoga também.
+
+=Kabal|Sektor
+A: Ciborgue. Seu míssil me persegue? / Ele procura calor. / Eu tô fervendo.
+A: Você destruiu seu clã. Eu quero refazer o meu. / Ineficiente. / Eficiente pra mim.
+
+=Sektor|Kabal
+A: Alvo identificado: Kabal. Ex-Dragão Negro. / E futuro chefe dele. / Probabilidade baixa.
+A: Velocidade acima do padrão humano. / Obrigado. / Neutralizando.
+
+=Kabal|Reptile
+A: Réptil. Você é rápido também. Mas não tanto. / Ssssim, sou. / Prova.
+A: Você serve a qualquer um. / Você também serviu. / Não sirvo mais.
+
+=Reptile|Kabal
+A: Sua respiração denuncia você. / A sua língua também. / Ssssilêncio!
+A: Ácido derrete a máscara. / Aí você vê o que tem embaixo. / Prefiro não ver.
+
+=Kabal|Shang Tsung
+A: Ladrão de almas. A minha está queimada. / Queimada, mas forte. / Não está à venda.
+A: Você muda de forma. Eu mudo de lado. / Somos parecidos. / Somos rivais.
+
+=Shang Tsung|Kabal
+A: Sua velocidade daria um ótimo prêmio. / Tente pegar. / Eu não corro. Eu espero.
+A: Seu corpo é uma ruína. Sua alma não. / Pare de olhar a minha alma. / Impossível.
+
+=Kabal|Takeda
+A: Filho de Kenshi. Seus chicotes são rápidos. / Mais rápidos que você. / Duvido.
+A: Você lê mentes. Lê a minha. / Só tem velocidade e raiva. / Exatamente.
+
+=Takeda|Kabal
+A: Kabal, você tá do nosso lado ou não? / Depende do dia. / Hoje parece que não.
+A: Sua mente corre tanto quanto as pernas. / Ela nunca para. / Isso cansa.
+
+=Kabal|Smoke
+A: Fumaça. Você some. Eu passo. / Você não me pega. / Eu passo por você.
+A: Somos dois rápidos. / Eu sou fumaça. Você é vento. / Vento espalha fumaça.
+
+=Smoke|Kabal
+A: Você respira minha fumaça? / Não respiro nada sem filtro. / Esperto.
+A: Rápido demais. Mas eu apareço atrás. / Eu já estou atrás de você. / ...
+
+=Kabal|T-1000
+A: Metal líquido. Você corre? / Eu persigo. / Persegue rápido.
+A: Imita a minha velocidade. / Imitação impossível. / Finalmente alguém admite.
+
+=T-1000|Kabal
+A: Alvo: Kabal. Velocidade elevada. / Corre atrás. / Perseguição iniciada.
+A: Respiração artificial detectada. / Você é artificial inteiro. / Afirmativo.
+
+=Kabal|Sindel
+A: Rainha Sindel. Você me matou uma vez. / E farei de novo. / Desta vez corro antes do grito.
+A: Seu grito é rápido. / Ninguém escapa dele. / Eu escapo.
+
+=Sindel|Kabal
+A: Eu me lembro de você. Queimado e fraco. / Queimado sim. Fraco não. / Vamos ver.
+A: Meu grito vai arrebentar seu tanque. / Tente. / Com prazer.

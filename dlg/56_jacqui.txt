@@ -1,0 +1,523 @@
+=Jacqui Briggs|Jacqui Briggs
+A: Outra eu? Espero que você mire melhor. / Eu sou você. Miro igual. / Então vai ser empate. Odeio empate.
+A: Meu pai sabe que tem duas de nós? / Melhor não contar. / Concordo.
+
+=Jacqui Briggs|Khameleon
+A: Invisível? Minha manopla tem sensor térmico. / Sangue frio. / Então eu atiro no frio.
+A: Para de trocar de cor. Tô tentando mirar. / Esse é o objetivo. / Tá, então vou atirar em tudo.
+
+=Khameleon|Jacqui Briggs
+A: Soldado com braços de metal. Que barulho você faz. / Faço barulho e acerto. / Acertar o quê?
+A: Eu copio guerreiras. Você não vale a cópia. / Que bom. Eu sou original. / Original e lenta.
+
+=Jacqui Briggs|Chameleon
+A: Sete ninjas num só? Vou ter que gastar munição. / Gasta. / Tenho muita.
+A: Sensor térmico desligado. Seu sangue é frio demais. / Eu sei. / Então vou no chute. Literalmente.
+
+=Chameleon|Jacqui Briggs
+A: Suas manoplas são pesadas. / Pesadas pra acertar com força. / Se acertarem.
+A: Você luta pelo seu pai. Eu luto pelo meu povo. / Os dois valem. / Só um vence.
+
+=Jacqui Briggs|Cassie Cage
+A: Cass, foco. / Eu tô focada! Em ganhar de você. / Isso não é foco, é ego.
+A: Se você fizer piada no meio da luta, eu te acerto. / Você vai me acertar de qualquer jeito. / Verdade. Mas com mais vontade.
+
+=Cassie Cage|Jacqui Briggs
+A: Jacqui! Minha melhor amiga e minha maior rival! / Desde quando? / Desde agora. Bora!
+A: Prometo não fazer piada. / Mentira. / Tá, prometo fazer piada boa.
+
+=Jacqui Briggs|Kabal
+A: Ex-Dragão Negro. Meu pai prendeu gente como você. / Seu pai nunca me pegou. / Eu não sou meu pai.
+A: Você é rápido. Eu tenho foguete. / Foguete erra. / O meu procura.
+
+=Kabal|Jacqui Briggs
+A: Filha do Jax. Lenta como ele. / Meu pai não é lento. Você que é rápido demais. / Isso foi um elogio?
+A: Manoplas bonitas. Pesadas demais. / Pesadas pra derrubar você. / Se alcançarem.
+
+=Jacqui Briggs|Stryker
+A: Stryker! Quer mostrar o que a polícia sabe fazer? / Granadas. / Eu também tenho. E foguetes.
+A: Você luta sem poder nenhum. Respeito. / Respeito e cooperação. / Respeito sim. Cooperação não.
+
+=Stryker|Jacqui Briggs
+A: Sargento Briggs. Seu pai mandou cuidar de você. / Meu pai manda muita coisa. / Então vou cuidar com granada.
+A: Foguete no punho é arma pesada. / É herança. / Herança registrada?
+
+=Jacqui Briggs|Kitana
+A: Princesa Kitana. Minha mãe tinha um pôster seu. / Sério? / Brincadeira. Mas o meu pai tinha.
+A: Seus leques contra os meus foguetes. / Os leques voltam. / Os foguetes não precisam voltar.
+
+=Kitana|Jacqui Briggs
+A: Filha de Jax. Ele lutou ao meu lado. / Ele fala muito bem de você. / Então lute à altura dele.
+A: Suas armas são barulhentas. / São eficientes. / Edênia prefere elegância.
+
+=Jacqui Briggs|Mileena
+A: Mileena, fecha a boca. Ninguém quer ver isso. / Eu vou morder você. / Minha manopla é de titânio.
+A: Você quer o trono. Eu quero ir pra casa. / Então vá. / Depois que eu ganhar.
+
+=Mileena|Jacqui Briggs
+A: Braços de metal. Vou quebrar os dentes neles. / Vai mesmo. / Eu tenho dentes de sobra.
+A: Soldadinha da Terra. Que gostosa. / Isso foi muito estranho. / Era pra ser.
+
+=Jacqui Briggs|Jade
+A: Jade. Seu bastão contra meu punho. / O bastão é mais longo. / O punho atira.
+A: Você protege a Kitana como eu protejo a Cassie. / Você protege uma comediante. / É, é mais difícil.
+
+=Jade|Jacqui Briggs
+A: Disciplina militar. Respeito isso. / E eu respeito o seu bastão. / Então lute direito.
+A: Você não precisa de tanta arma. / Preciso. Você não viu o que eu enfrento. / Já vi.
+
+=Jacqui Briggs|Tanya
+A: Traidora. Meu pai tem uma lista de gente como você. / Seu pai é humano. / E muito bom de lista.
+A: Muda de lado de novo e eu te acerto pelos dois. / Engraçadinha. / Aprendi com a Cassie.
+
+=Tanya|Jacqui Briggs
+A: Humana armada até os dentes. / Até os braços. / Patético.
+A: Você não entende Edênia. / Entendo que você trai tudo. / Só quem vale a pena.
+
+=Jacqui Briggs|Skarlet
+A: Maga de sangue. Minha manopla não sangra. / Mas você sim. / Só se você me acertar.
+A: Você bebe sangue? Que nojo. / Delicioso. / Que nojo duplo.
+
+=Skarlet|Jacqui Briggs
+A: Seu sangue é forte. Militar. / Você não vai provar. / Vou sim.
+A: Braços de metal não me impedem. / Mas machucam. / Gosto de dor.
+
+=Jacqui Briggs|Sheeva
+A: Quatro braços contra dois de metal. / Quatro é mais. / Dois atiram.
+A: Rainha Shokan. Meu pai lutou contra o Goro. / Goro era fraco. / Então você vai ser divertida.
+
+=Sheeva|Jacqui Briggs
+A: Humana pequena com braços falsos. / Biônicos. / Falsos!
+A: Os Shokan esmagam metal. / Esse metal esmaga Shokan. / Insolente!
+
+=Jacqui Briggs|Coelho
+A: Justiceiro. Você mata sem regra. / A regra me abandonou. / A minha não.
+A: Faca contra foguete? Que corajoso. / Faca chega mais perto. / Foguete chega mais rápido.
+
+=Coelho|Jacqui Briggs
+A: Você tem família. / Tenho. / Então volte pra ela.
+A: Soldado. Você segue ordens? / Sigo o que é certo. / Às vezes não é a mesma coisa.
+
+=Jacqui Briggs|Tigre
+A: Para de rir, cara. / Não dá! Seus braços são tipo de robô! / São biônicos!
+A: Dois gadanhos? Eu tenho dois foguetes. / Empate! / Não. Foguete ganha.
+
+=Tigre|Jacqui Briggs
+A: Me empresta essas manoplas! / Nunca. / Só um minutinho!
+A: Bora fazer uma luta divertida? / Divertida e rápida. / Combinado!
+
+=Jacqui Briggs|Cobra
+A: Curandeiro egípcio? Cura pulso quebrado? / Curo ou tiro a vida. / Fica com a segunda opção longe de mim.
+A: Serpente pra todo lado. Meu foguete gosta de alvo. / Serpentes desviam. / Foguete persegue.
+
+=Cobra|Jacqui Briggs
+A: Sua vida é forte e jovem. / E vai continuar sendo. / Não comigo aqui.
+A: Metal não tem vida. / Mas eu tenho. / Então vou tomar a sua.
+
+=Jacqui Briggs|Cabra
+A: Explosivo caseiro? Isso é amadorismo. / Amadorismo que explode. / Profissionalismo explode melhor.
+A: Hackeia minha manopla e você tá morta. / Já tô dentro. / Mentira. Ela é analógica.
+
+=Cabra|Jacqui Briggs
+A: Que tecnologia linda! Posso abrir? / Não. / Só um parafuso!
+A: Bora ver quem explode melhor! / Você vai se explodir. / Já aconteceu. Não morri.
+
+=Jacqui Briggs|Touro
+A: Subtenente. Eu sou sargento. Bate continência. / Bato outra coisa. / Bate, então.
+A: Fuzil contra foguete. / Fuzil tem mais munição. / Foguete tem mais estrago.
+
+=Touro|Jacqui Briggs
+A: Sargento Briggs. Ouvi falar do seu pai. / Todo mundo ouviu. / Agora vão ouvir de você.
+A: Militar contra militar. Sem frescura. / Sem frescura e sem piada. / Ótimo.
+
+=Jacqui Briggs|Lorenzo
+A: Você voltou dos mortos? Meu pai também, de certa forma. / Revenant? / Pior. Kronika.
+A: Garoto, você parece cansado. / Eu morri. / Isso cansa mesmo.
+
+=Lorenzo|Jacqui Briggs
+A: Você tem pai vivo. / Tenho. E brigo muito com ele. / Não desperdiça isso.
+A: Por que você luta? / Pra proteger os outros. / Eu luto pra lembrar quem perdi.
+
+=Jacqui Briggs|Art the Clown
+A: Um palhaço. Que medo. Só que não. / ... / Tá, agora deu medo.
+A: Larga essa serra. / ... / Ok, eu atiro primeiro.
+
+=Art the Clown|Jacqui Briggs
+A: ... / Para de acenar pra mim! / ...
+A: ... / Isso é uma buzina? Sério? / ...
+
+=Jacqui Briggs|Freddy Krueger
+A: Freddy. Meus pesadelos são com o meu pai virando revenant. / Que delícia, conta mais. / Não.
+A: Luva de lâminas contra manopla de titânio. / Nos sonhos eu sou mais forte. / Eu não durmo em missão.
+
+=Freddy Krueger|Jacqui Briggs
+A: Vamos sonhar com o papai, docinho? / Cala a boca. / Hehehe. Toquei na ferida.
+A: Seus braços de metal enferrujam no meu sonho. / Os meus não. / Todos enferrujam.
+
+=Jacqui Briggs|Jason Voorhees
+A: Facão. Que antiquado. / ... / Tá, você não fala. Entendi.
+A: Para de andar devagar. / ... / Ah, você não vai parar. Tá bom.
+
+=Jason Voorhees|Jacqui Briggs
+A: ... / Foguete na sua máscara. / ...
+A: ... / Você nunca corre, né? / ...
+
+=Jacqui Briggs|Stefan
+A: Vampiro que escreve diário? / Me ajuda a lembrar. / Eu tento esquecer.
+A: Você é bem educado pra um monstro. / Eu tento. / Respeito.
+
+=Stefan|Jacqui Briggs
+A: Você luta pelo seu pai. / E com ele. / Isso é bonito.
+A: Não quero machucar você. / Eu quero ganhar. Não é a mesma coisa. / Verdade.
+
+=Jacqui Briggs|Damon
+A: Você é o vampiro debochado? A Cassie te ama. / Todo mundo me ama. / Eu não.
+A: Para de falar. / Nunca. / Então apanha falando.
+
+=Damon|Jacqui Briggs
+A: Braços de robô. Muito sexy. / Isso foi assédio. / Foi elogio.
+A: Sua amiga Cassie é engraçada. Você não. / Eu sou eficiente. / Chata.
+
+=Jacqui Briggs|Bonnie
+A: Bruxa. Magia contra tecnologia. / Magia é mais antiga. / Tecnologia é mais rápida.
+A: Você se sacrifica pelos amigos. Eu também. / Então a gente se entende. / Depois da luta.
+
+=Bonnie|Jacqui Briggs
+A: Você é muito leal. Gosto disso. / Obrigada. / Mas não vou pegar leve.
+A: Sua tecnologia falha com magia. / Minha mira não. / Veremos.
+
+=Jacqui Briggs|Lexi
+A: Vampira simpática? Isso existe? / Existe, e sou eu. / Interessante.
+A: Seu sai contra meu punho. / Meu sai é rápido. / Meu punho atira.
+
+=Lexi|Jacqui Briggs
+A: Gostei desses braços. Combinam com você. / Valeu. / Quer ser vampira? Ia ser forte.
+A: Você é séria demais. / Alguém tem que ser. / A Cassie compensa, né?
+
+=Jacqui Briggs|Sonya Blade
+A: Comandante Blade. Treino ou luta de verdade? / Os dois. / Então vou com tudo.
+A: A Cassie ia rir se eu ganhasse de você. / Ela ia rir de qualquer jeito. / Verdade.
+
+=Sonya Blade|Jacqui Briggs
+A: Briggs. Mostre o que as Forças Especiais ensinaram. / Mostro o que meu pai ensinou também. / Então vai ser bom.
+A: Sargento, sua postura caiu. / Caiu nada. Tô fingindo. / Espero que sim.
+
+=Jacqui Briggs|Jax
+A: Pai. Hoje você não pega leve. / Eu nunca pego leve. / Mentira. Você sempre pega.
+A: Lembra quando você não queria que eu entrasse nas Forças Especiais? / Lembro. / Agora vou te mostrar por quê eu tava certa.
+
+=Jax|Jacqui Briggs
+A: Minha filha. Tá pronta? / Nasci pronta. / Isso eu ensinei.
+A: Essas manoplas foram inspiradas nos meus braços? / Melhoradas. / Ah, é? Vamos ver.
+
+=Jacqui Briggs|Kano
+A: Kano. Meu pai te caçou por anos. Eu termino. / A filhinha do Jax! Que fofa! / A filhinha vai quebrar seu olho.
+A: Seu laser contra meu foguete. / O meu é mais bonito. / O meu é maior.
+
+=Kano|Jacqui Briggs
+A: Filha do Jax. Seu velho ainda tem pesadelos comigo? / Ele ri de você. / Mentira.
+A: Esses braços valem uma fortuna no mercado negro. / Vem pegar. / Com prazer.
+
+=Jacqui Briggs|Ana Letícia
+A: Você mente pra todo mundo? / Só pra quem merece. / Todo mundo merece, né?
+A: Larga a bolsa. Sei que tem arma aí. / É de grife, querida. / Mesmo assim.
+
+=Ana Letícia|Jacqui Briggs
+A: Que braços pesados! Não estraga a manicure? / Não tenho manicure. / Que triste.
+A: Me deixa vencer e eu te pago bem. / Não. / Vocês, militares, são tão honestos. Que chato.
+
+=Jacqui Briggs|Vega
+A: Agente paranormal. Eu sou agente das Forças Especiais. / Paranormal é mais difícil. / Normal dá mais trabalho.
+A: Você trocou de corpo pelos amigos. Respeito. / Faria de novo. / Eu também.
+
+=Vega|Jacqui Briggs
+A: Braços biônicos. Isso não é paranormal. / É ciência. / Ciência às vezes é assustadora também.
+A: Seu pai fez escolhas ruins também? / Muitas. / Então a gente se entende.
+
+=Jacqui Briggs|Teresa
+A: Advogada? Eu prefiro resolver no soco. / Eu prefiro no tribunal. / Aqui não tem tribunal.
+A: Você subiu mentindo. Eu subi suando. / Mentir também cansa. / Não tanto.
+
+=Teresa|Jacqui Briggs
+A: Uma soldada pobre como eu era. / Não sou pobre. Sou militar. / Mesma coisa no salário.
+A: Você podia ter muito mais com essas mãos. / Eu tenho o que preciso. / Que falta de ambição.
+
+=Jacqui Briggs|Rudolf
+A: Rudolf, seus leques são bonitos. Meus foguetes são mais. / Discordo. / Discorda depois de levar um.
+A: A Cassie disse que você é engraçado. / Ela tem razão. / Então faz piada caído.
+
+=Rudolf|Jacqui Briggs
+A: A filha do Jax! Seus braços dão abraço? / Dão soco. / Ok, sem abraço.
+A: Vamos ver quem é mais rápido: fogo ou foguete. / Foguete tem fogo. / Golpe baixo.
+
+=Jacqui Briggs|Katherine Pierce
+A: Quinhentos anos e ainda aprontando? / Sempre. / Hoje acaba.
+A: Você manipula todo mundo. / Quase. / Comigo não funciona.
+
+=Katherine Pierce|Jacqui Briggs
+A: Que soldadinha séria. / Que vampira irritante. / Pelo menos sou bonita.
+A: Me ensina a usar esses braços? / Não. / Tá bom, eu roubo depois.
+
+=Jacqui Briggs|Sub-Zero
+A: Sub-Zero. Gelo congela titânio? / Congela qualquer coisa. / Então vou atirar antes.
+A: Lin Kuei e Forças Especiais já foram aliados. / Hoje não. / Hoje é treino.
+
+=Sub-Zero|Jacqui Briggs
+A: Sua disciplina é boa. / Obrigada. / Mas o frio é melhor.
+A: Abaixe as armas. / Elas fazem parte de mim. / Então congelo as duas.
+
+=Jacqui Briggs|Scorpion
+A: Scorpion. O Takeda fala muito de você. / Ele é meu discípulo. / E meu noivo. Então pega leve.
+A: Venha cá? Vem você. / Corajosa. / Biônica.
+
+=Scorpion|Jacqui Briggs
+A: Noiva de Takeda. Ele escolheu bem. / Ele sabe disso. / Mostre por quê.
+A: Seus braços são fortes. / Os do meu pai são mais. / Então honre ele.
+
+=Jacqui Briggs|Baraka
+A: Tarkatano. Seus dentes contra meu titânio. / Dentes vencem. / Duvido.
+A: Lâminas no braço? Eu tenho foguete. / Lâmina não acaba munição. / Mas foguete explode.
+
+=Baraka|Jacqui Briggs
+A: Braços de metal. Não dá pra comer. / Que bom. / Mas o resto dá.
+A: Os Tarkatanos não temem humanos armados. / Deveriam. / Venha provar.
+
+=Jacqui Briggs|Raiden
+A: Raiden. Você protegeu meu pai? / Tentei. / Tentar não foi suficiente.
+A: Seus raios contra minha manopla de metal. Isso é ruim pra mim, né? / Muito. / Ótimo, gosto de desafio.
+
+=Raiden|Jacqui Briggs
+A: Você tem a força do seu pai. / E a cabeça da minha mãe. / Uma boa combinação.
+A: A Terra precisa de você. / A Terra sempre precisa de alguém. / Hoje é você.
+
+=Jacqui Briggs|Geras
+A: Geras. Você trabalhou pra Kronika. A mesma que levou meu pai. / Eu sei. / Então você me deve uma.
+A: Areia do tempo contra foguete. / O tempo vence tudo. / O foguete chega antes.
+
+=Geras|Jacqui Briggs
+A: Seu pai serviu a Kronika. / Por um tempo. / Você pode servir também.
+A: Eu vi você vencer em algumas linhas do tempo. / Nesta também. / Veremos.
+
+=Jacqui Briggs|Johnny Cage
+A: Tio Johnny. Sem fazer pose. / Pose é minha arma secreta. / Então perdeu.
+A: A Cassie disse que você ainda conta a história do Goro. / Porque é ótima! / Porque é sempre a mesma.
+
+=Johnny Cage|Jacqui Briggs
+A: Jacqui! A melhor amiga da minha filha! Pega leve, tá? / Não. / Pelo menos foi direta.
+A: Esses braços dariam um ótimo efeito especial! / São reais. / Ainda melhor!
+
+=Jacqui Briggs|Ladybug
+A: Ladybug. Heroína de Paris. Respeito. / E eu respeito as Forças Especiais. / Então vamos lutar com respeito.
+A: Seu ioiô contra meu foguete. / Minha sorte contra sua mira. / Veremos.
+
+=Ladybug|Jacqui Briggs
+A: Você protege seu mundo também. / Todo dia. / Então somos parecidas.
+A: Suas armas são assustadoras. / Só pra quem merece. / Eu não mereço!
+
+=Jacqui Briggs|Conan
+A: Conan. Força bruta contra força biônica. / Por Crom, que braços! / Valeu.
+A: Sua espada é pesada. Meus punhos também. / Vamos ver qual é mais forte. / Vamos.
+
+=Conan|Jacqui Briggs
+A: Uma guerreira de aço. Respeito. / E eu respeito o seu músculo. / Então lute!
+A: Armas de fogo são de covarde. / São de quem quer voltar pra casa. / Crom não aprova.
+
+=Jacqui Briggs|Cyrax
+A: Cyrax. Meu pai disse que você era humano. / Lembrança arquivada. / Eu ainda lembro por você.
+A: Ciborgue contra biônica. / Eu sou mais avançado. / Eu sou mais teimosa.
+
+=Cyrax|Jacqui Briggs
+A: Analisando: membros biônicos. / Gostou? / Tecnologia inferior.
+A: Alvo: Briggs, Jacqueline. / Ninguém me chama de Jacqueline. / Correção registrada.
+
+=Jacqui Briggs|Ermac
+A: Ermac. Você arrancou os braços do meu pai. / Nós lembramos. / Eu nunca esqueci.
+A: Sua telecinese contra meu foguete. / Nós desviamos. / Esse procura.
+
+=Ermac|Jacqui Briggs
+A: Nós sentimos sua raiva. / Ela tem nome: Jax. / Nós lembramos dele.
+A: Seus braços são metal. Nós também podemos arrancá-los. / Tente. / Nós tentaremos.
+
+=Jacqui Briggs|General Shao
+A: General Shao. Vim terminar o que meu pai começou. / Seu pai não começou nada. / Começou sim. Eu termino.
+A: Seu martelo é grande. Meu foguete também. / Foguetes não me ferem. / Esse fere.
+
+=General Shao|Jacqui Briggs
+A: Humana de braços falsos. / Biônicos. / Falsos!
+A: Seu pai foi meu inimigo. Você será a próxima. / Vou ser a última. / Arrogante.
+
+=Jacqui Briggs|Ashrah
+A: Caçadora de demônios. Eu caço vilões. / Às vezes são os mesmos. / Às vezes.
+A: Sua espada brilha. Minha manopla também. / A minha purifica. / A minha explode.
+
+=Ashrah|Jacqui Briggs
+A: Sua alma é forte. / Herança de família. / Uma boa herança.
+A: Você não precisa de tanto ódio. / Não é ódio. É determinação. / Então mostre.
+
+=Jacqui Briggs|Ghostface
+A: Ghostface. Liga pra mim e eu rastreio. / Qual é o seu filme favorito? / Os da Cassie. Brincadeira.
+A: Sua faca contra meu foguete. / Faca é mais íntima. / Foguete é mais rápido.
+
+=Ghostface|Jacqui Briggs
+A: Alô, sargento? Tô atrás de você. / Sensor térmico. Você tá na minha frente. / Que tecnologia chata.
+A: Militares morrem no meio do filme. / Eu sobrevivo até os créditos. / Veremos.
+
+=Jacqui Briggs|Havik
+A: Havik. Pare de quebrar o pescoço, que nojo. / É lindo! / É nojento.
+A: Seu caos contra a minha disciplina. / O caos sempre vence. / Hoje não.
+
+=Havik|Jacqui Briggs
+A: Que braços lindos! Posso quebrar? / Não. / Que pena!
+A: A ordem é chata, sargento. / A ordem salva vidas. / Que tédio.
+
+=Jacqui Briggs|Homelander
+A: Homelander. Seu sorriso é falso. / Seus braços também. / Os meus funcionam.
+A: Você voa. Meu foguete também. / Foguete não me fere. / Esse é especial.
+
+=Homelander|Jacqui Briggs
+A: Que soldadinha corajosa. / Eu não sou pequena. / Pra mim, todo mundo é.
+A: Eu vejo seus ossos através do metal. / Que invasivo. / É o meu charme.
+
+=Jacqui Briggs|Li Mei
+A: Li Mei. Seus punhos brilham. Os meus explodem. / Os dois machucam. / Então vamos ver quem machuca mais.
+A: Você protegeu seu povo. Eu protejo o meu. / Então somos parecidas. / Na luta, não.
+
+=Li Mei|Jacqui Briggs
+A: Sua força é impressionante. / Obrigada. A sua também. / Vamos lutar com honra.
+A: Você luta pelo seu pai? / E por mim. / Isso é bonito.
+
+=Jacqui Briggs|Liu Kang
+A: Deus do Fogo. Na sua Nova Era, meu pai é feliz? / Ele é. / Então valeu a pena.
+A: Você é um deus. Eu sou uma sargento. / Os dois protegem. / Só um ganha folga.
+
+=Liu Kang|Jacqui Briggs
+A: Você tem um futuro brilhante. / Eu sei. / Mas precisa vencer primeiro.
+A: Seu pai lutou contra mim quando eu era revenant. / Ele disse. / E você?
+
+=Jacqui Briggs|Kung Lao
+A: Kung Lao. Seu chapéu contra meu punho. / O chapéu volta. / O punho não precisa.
+A: A Cassie disse que você é convencido. / Ela também é. / Então vocês se merecem.
+
+=Kung Lao|Jacqui Briggs
+A: A noiva do Takeda! Ele tá aqui? / Não. Mas eu sim. / Então segura o chapéu.
+A: Esses braços são novos? / Melhorados. / Ok, vou girar mais rápido.
+
+=Jacqui Briggs|Kenshi
+A: Sogrão! / Ainda não. / Ainda não, mas logo.
+A: Você me vê sem olhos? / Sinto a sua mente. / Ela tá dizendo "pega leve".
+
+=Kenshi|Jacqui Briggs
+A: Takeda escolheu bem. / Ele sabe disso. / Mostre que ele está certo.
+A: Sua mente é forte. / Herança. / Respeito.
+
+=Jacqui Briggs|Omni-Man
+A: Viltrumita. Meu foguete fere você? / Nada me fere. / Então vou testar.
+A: Você conquista planetas. Eu protejo o meu. / Você vai falhar. / Nunca falhei.
+
+=Omni-Man|Jacqui Briggs
+A: Humana com braços de lata. / Titânio. / Lata.
+A: Pense no que você vai ser em mil anos. / Uma lenda. / Pó.
+
+=Jacqui Briggs|Noob Saibot
+A: Noob Saibot. A sombra do Sub-Zero. / Eu sou mais que isso. / Hoje você é só o meu alvo.
+A: Sua escuridão contra meu sensor. / Escuridão engole luz. / Mas não foguete.
+
+=Noob Saibot|Jacqui Briggs
+A: Seu pai serviu a Quan Chi. / Por obrigação. / Você também servirá.
+A: A escuridão é paciente. / Eu não sou. / Por isso perderá.
+
+=Jacqui Briggs|Peacemaker
+A: Peacemaker. Paz com foguete? Combinamos. / Ei, você é legal! / Não. Só eficiente.
+A: Seu capacete é ridículo. / Meu capacete é maravilhoso! / Ridículo.
+
+=Peacemaker|Jacqui Briggs
+A: Militar! Vamos fazer um time? / Não. / Por que não?
+A: Eu tenho mais armas que você! / Eu tenho armas nos braços. / Ok, isso é muito legal.
+
+=Jacqui Briggs|Nitara
+A: Vampira com asas. Meu foguete te acha no ar. / Eu voo rápido. / Ele também.
+A: Você quer separar seu reino. Eu quero proteger o meu. / Somos parecidas. / Na luta, não.
+
+=Nitara|Jacqui Briggs
+A: Seu sangue cheira a determinação. / E a pólvora. / Eu gosto de pólvora.
+A: Braços de metal não protegem o pescoço. / Mas atiram nele. / Interessante.
+
+=Jacqui Briggs|Quan Chi
+A: Quan Chi. Você transformou meu pai em revenant. / E posso fazer com você também. / Tente. Eu já te venci uma vez.
+A: Suas runas contra meu foguete. / As runas são eternas. / O foguete é agora.
+
+=Quan Chi|Jacqui Briggs
+A: A filha de Jax. Ele foi um bom servo. / Ele foi seu prisioneiro. / Detalhes.
+A: Posso trazer seu pai de volta para mim. / Só por cima do meu cadáver. / Com prazer.
+
+=Jacqui Briggs|Reiko
+A: Reiko. General de invasão. / E vencedor. / Ainda não.
+A: Seu martelo contra meu punho. / O martelo é maior. / O punho é mais rápido.
+
+=Reiko|Jacqui Briggs
+A: Humana armada. Shao vai gostar de quebrar você. / Shao vai ser o próximo. / Insolente.
+A: Renda-se. / Nunca aprendi essa palavra. / Vai aprender.
+
+=Jacqui Briggs|Rain
+A: Príncipe da água. Molha meus braços e eu enferrujo? / Talvez. / Que pena, eles são à prova d'água.
+A: Você é muito arrogante. / Eu sou da realeza. / Eu sou da Terra. Ganha a Terra.
+
+=Rain|Jacqui Briggs
+A: Terráquea com brinquedos de metal. / Brinquedos que explodem. / Que barulho desagradável.
+A: Ajoelhe-se diante de um príncipe. / Não ajoelho nem pro meu pai. / Que falta de educação.
+
+=Jacqui Briggs|Sektor
+A: Sektor. Robô vermelho. / Unidade LK-9T9. / Vou te chamar de lata vermelha.
+A: Seus mísseis contra os meus. / Os meus são superiores. / Os meus têm coração.
+
+=Sektor|Jacqui Briggs
+A: Tecnologia biônica primitiva. / Primitiva e eficaz. / Calculando.
+A: Rendição recomendada. / Recusada. / Eliminação.
+
+=Jacqui Briggs|Reptile
+A: Reptile. Para de ficar invisível. / Ssssem chance. / Então eu atiro em tudo.
+A: Seu ácido contra meu titânio. / Ácido derrete. / Esse não.
+
+=Reptile|Jacqui Briggs
+A: Humana barulhenta. / Barulhenta e certeira. / Ssssilêncio!
+A: Seu metal vai derreter. / Vai doer em você primeiro. / Ssss!
+
+=Jacqui Briggs|Shang Tsung
+A: Shang Tsung. Ladrão de almas. / Sua alma é saborosa. / Não está à venda.
+A: Você muda de forma. Meu foguete acha qualquer forma. / Interessante. / Eficaz.
+
+=Shang Tsung|Jacqui Briggs
+A: A filha de Jax. Que alma determinada. / Determinada a te derrubar. / Delicioso.
+A: Me dê sua alma e eu te dou poder. / Já tenho poder. Nos braços. / Que tolice.
+
+=Jacqui Briggs|Takeda
+A: Amor. Hoje não tem moleza. / Nunca tem com você. / Que bom que você sabe.
+A: Se você ler minha mente, eu te acerto. / Já li. Você vai me acertar de qualquer jeito. / Exatamente.
+
+=Takeda|Jacqui Briggs
+A: Jacqui, vamos combinar de não machucar muito? / Combinado. Mentira. / Eu sabia.
+A: Lembra do primeiro treino? / Você caiu de bunda. / Você também lembra disso.
+
+=Jacqui Briggs|Smoke
+A: Smoke. Fumaça contra foguete. / Fumaça engana. / Foguete persegue.
+A: Você some. Eu acho. / Tente. / Já achei.
+
+=Smoke|Jacqui Briggs
+A: Seus braços fazem barulho. Eu te acho fácil. / Eu não quero me esconder. / Então vem.
+A: Fumaça é difícil de acertar. / Difícil não é impossível. / Veremos.
+
+=Jacqui Briggs|T-1000
+A: T-1000. Metal líquido contra titânio. / Titânio é inferior. / Titânio atira.
+A: Imita meus braços. / Imitação concluída. / Mas não imita minha mira.
+
+=T-1000|Jacqui Briggs
+A: Alvo: sargento Briggs. / Pode vir. / Perseguição iniciada.
+A: Imitando voz: Jacqui, é o papai. / Meu pai não fala assim. / Ajustando.
+
+=Jacqui Briggs|Sindel
+A: Rainha Sindel. Seu grito contra meu protetor de ouvido. / Ele não vai segurar. / É de nível militar.
+A: Você matou muitos guerreiros da Terra. / E farei de novo. / Hoje não.
+
+=Sindel|Jacqui Briggs
+A: Humana de braços falsos. / Biônicos. / Falsos.
+A: Meu grito vai arrebentar seu metal. / Tente. / Com prazer.

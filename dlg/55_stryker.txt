@@ -1,0 +1,515 @@
+=Stryker|Stryker
+A: Policial falso. Mostra o distintivo. / Mostra o seu primeiro. / Os dois são iguais. Isso é ruim.
+A: Um de nós vai pro relatório. / Como suspeito. / Ou como herói.
+
+=Stryker|Jacqui Briggs
+A: Sargento. Bom ver as Forças Especiais aqui. / Bom ver a polícia acordada. / Engraçadinha.
+A: Seu pai e eu lutamos juntos uma vez. / Ele contou. Disse que você era lento. / Disse? Vou falar com ele.
+
+=Jacqui Briggs|Stryker
+A: Stryker, sem poderes e ainda vivo. Respeito. / Sem poderes, mas com granada. / Isso é poder.
+A: Bora ver quem tem o melhor equipamento? / O meu tem garantia do governo. / O meu é biônico. Perdeu.
+
+=Stryker|Khameleon
+A: Suspeita invisível. Isso complica o boletim. / Escreve "não encontrada". / Vou escrever "detida".
+A: Mãos onde eu possa ver. / Você nunca vê. / Lanterna resolve.
+
+=Khameleon|Stryker
+A: Um humano sem magia. Que coragem. / Coragem é o que sobrou. / Vai sobrar menos.
+A: Sua lanterna não me acha. / Acha o contorno. / Contorno não sangra.
+
+=Stryker|Chameleon
+A: Sete ninjas num suspeito só. Que dia. / Escolhe qual você vai prender. / Todos.
+A: Para de trocar de cor, tô tentando fazer o retrato falado. / Pinta de verde. / Anotado.
+
+=Chameleon|Stryker
+A: Policial. Sem poderes, sem chance. / Tenho granada. / Granada não acha o invisível.
+A: Você sobreviveu ao fim da sua cidade. Eu, ao fim do meu povo. / Então você sabe como é. / Sei. Por isso não paro.
+
+=Stryker|Cassie Cage
+A: Filha do Johnny Cage. Sem gracinha. / Sem gracinha eu morro. / Então morra de tédio.
+A: Sua mãe sabe que você tá aqui? / Ela me mandou. / Então lute direito.
+
+=Cassie Cage|Stryker
+A: Stryker! O boné virado ainda tá na moda? / Não tá. Eu também não. / Pelo menos você admite.
+A: Você é o único sem poder aqui? Que coragem. Ou que burrice. / Um pouco dos dois. / Gostei.
+
+=Stryker|Kitana
+A: Princesa. Edênia tem polícia? / Temos guardas. / Então você entende o meu trabalho.
+A: Leques são armas brancas. Larga no chão. / Venha pegar. / Não era um pedido.
+
+=Kitana|Stryker
+A: Um guerreiro sem magia. Isso merece respeito. / Respeito e cooperação, por favor. / Respeito sim. Cooperação não.
+A: Você protege sua cidade como eu protejo meu reino. / Só que eu ganho menos. / Lute pelo que vale.
+
+=Stryker|Mileena
+A: Dentes à mostra. Isso é ameaça. / Isso é sorriso. / Pior ainda.
+A: Você tem o direito de ficar calada. / Eu tenho o direito de morder. / Isso não tá na lei.
+
+=Mileena|Stryker
+A: Humano sem poderes. Que petisco fácil. / Petisco com granada. / Engasga gostoso.
+A: Larga esse cassetete. / Larga esses dentes. / Não dá, são meus.
+
+=Stryker|Jade
+A: Bastão é arma. Tem porte? / Tenho uma princesa. / Isso não é documento.
+A: Você parece disciplinada. Isso facilita. / Disciplinada para vencer. / Isso dificulta.
+
+=Jade|Stryker
+A: Você não tem poderes e ainda luta. / Alguém tem que fazer o trabalho sujo. / Admiro isso.
+A: Abaixe a arma, humano. / Abaixe o bastão primeiro. / Ninguém abaixa nada, então.
+
+=Stryker|Tanya
+A: Traição é crime em qualquer lugar. / Em Edênia é estratégia. / Aqui é cadeia.
+A: Você tem histórico. / Tenho talento. / Tem ficha.
+
+=Tanya|Stryker
+A: Um policial terráqueo? Que piada. / Piada com algema. / Tente.
+A: Seus homens fugiram, os meus não. / Os meus morreram. / Então você está sozinho.
+
+=Stryker|Skarlet
+A: Cena de crime ambulante. / Obrigada. / Não foi elogio.
+A: Sangue no chão é prova. / É café da manhã. / Isso piora a sua situação.
+
+=Skarlet|Stryker
+A: Seu sangue é comum. Mas serve. / Comum e teimoso. / Eu gosto de teimosos.
+A: Sem magia? Que desperdício de sangue. / Então não desperdiça. / Eu não desperdiço nada.
+
+=Stryker|Sheeva
+A: Quatro braços. Vou precisar de duas algemas. / Vai precisar de um exército. / Tenho granadas.
+A: Rainha dos Shokan. Você tá presa. / Por qual motivo? / Por ser grande demais.
+
+=Sheeva|Stryker
+A: Humano pequeno com um bastão. / Bastão de choque. / Faz cócegas.
+A: Os Shokan não temem policiais. / Os policiais temem os Shokan. Por isso trouxe granadas. / Esperto.
+
+=Stryker|Coelho
+A: Justiceiro com faca. Justiça com as próprias mãos é crime. / A lei falhou comigo. / Ela não vai falhar agora.
+A: Você tem nome? / Enrico. / Vai pro boletim.
+
+=Coelho|Stryker
+A: Policial. Você protege quem merece? / Protejo todo mundo. / Esse é o problema.
+A: Sua lei é lenta. / Mas é justa. / Nem sempre.
+
+=Stryker|Tigre
+A: Dois gadanhos. Porte ilegal de arma rural. / Isso é crime? / Agora é.
+A: Para de rir, garoto. / Não consigo! Seu boné é muito engraçado! / Isso é desacato.
+
+=Tigre|Stryker
+A: Ô seu guarda! Me prende! / Com prazer. / Ah, era brincadeira!
+A: Bora brincar de polícia e ladrão! / Isso não é brincadeira. / Pra mim é tudo!
+
+=Stryker|Cobra
+A: Feitiço egípcio. Não tá no manual. / Nada sobre mim está. / Vou improvisar.
+A: Você drena vida. Isso é homicídio. / É sobrevivência. / Diz isso pro juiz.
+
+=Cobra|Stryker
+A: Sua vida é forte. Vou levar comigo. / Ela vem com algema. / Interessante.
+A: Os séculos me ensinaram a esperar. / A polícia também. / Esperamos juntos, então.
+
+=Stryker|Cabra
+A: Explosivo caseiro. Esquadrão anti-bomba é comigo. / Desarma esse aqui, então. / Fio vermelho. Sempre o vermelho.
+A: Invasão de sistema também é crime. / Prova. / Seu notebook tá aberto.
+
+=Cabra|Stryker
+A: Policial do esquadrão anti-bomba? Que medo! / Deveria ter. / Não tenho, mas é fofo você achar.
+A: Já invadi o banco de dados da polícia. Sua ficha é chata. / Chata e limpa. / Por isso mesmo.
+
+=Stryker|Touro
+A: Subtenente. Militar e policial no mesmo ringue. / Militar ganha. / Vamos ver.
+A: Você atira bem. / Eu atiro melhor que bem. / Então a gente se entende.
+
+=Touro|Stryker
+A: Tropa de choque? Já treinei com gente melhor. / E sobreviveu? / Sobrevivi.
+A: Arma no coldre, Stryker. Aqui é mano a mano. / Mano a mano com granada. / Típico.
+
+=Stryker|Lorenzo
+A: Garoto, você deveria estar morto. / Eu estive. / Isso complica o atestado.
+A: Você não tem família? / Morreram no massacre. / A minha cidade também.
+
+=Lorenzo|Stryker
+A: Você perdeu sua cidade inteira. / Perdi. / Eu perdi a minha também.
+A: Por que você ainda luta? / Porque alguém precisa ficar de pé. / Eu entendo.
+
+=Stryker|Art the Clown
+A: Palhaço armado. Isso é chamada de emergência. / ... / Mãos ao alto.
+A: Você tem o direito de ficar calado. / ... / Pelo visto, você usa esse direito.
+
+=Art the Clown|Stryker
+A: ... / Para de buzinar pra mim! / ...
+A: ... / Isso é uma serra? Coloca no chão! / ...
+
+=Stryker|Freddy Krueger
+A: Freddy Krueger. Mandado de prisão de 1984. / Você nunca vai me prender acordado. / Então não durmo.
+A: Luva de lâminas é arma proibida. / Tudo é proibido nos meus sonhos, tira. / Aqui não é sonho.
+
+=Freddy Krueger|Stryker
+A: Um policial! Eu adoro policiais. Eles têm pesadelos ótimos. / Os meus são com papelada. / Que chato!
+A: Hora de dormir, guarda. / Plantão de 48 horas. Não durmo. / Uma hora você dorme.
+
+=Stryker|Jason Voorhees
+A: Mãos ao alto. / ... / Acho que você não ouviu.
+A: Você tem o direito de ficar calado. / ... / Direito exercido.
+
+=Jason Voorhees|Stryker
+A: ... / Para de andar na minha direção! / ...
+A: ... / Facão no chão, agora! / ...
+
+=Stryker|Stefan
+A: Vampiro. Você tem documento? / Tenho cento e cinquenta anos. / Então tá vencido.
+A: Você parece educado. Facilita a abordagem. / Eu não quero problemas. / Ótimo. Nem eu.
+
+=Stefan|Stryker
+A: Você não tem poderes e luta contra monstros. / Alguém precisa. / Isso é coragem de verdade.
+A: Não quero machucar você. / Agradeço. Mas eu quero te algemar. / Isso vai ser difícil.
+
+=Stryker|Damon
+A: Desacato à autoridade, no mínimo. / Eu nem falei nada ainda. / Já tô adivinhando.
+A: Você bebe sangue de gente? / Só nos fins de semana. / Isso é crime todo dia.
+
+=Damon|Stryker
+A: Olha, um guarda de trânsito perdido. / Tropa de choque. / Tanto faz, o boné é o mesmo.
+A: Me prende, vai. Quero ver. / Mãos atrás da cabeça. / Ui, autoritário.
+
+=Stryker|Bonnie
+A: Bruxaria não tá no código penal. / Então não posso ser presa. / Vou criar uma lei.
+A: Abaixa as mãos, moça. / Minhas mãos não são o problema. / Então abaixa a voz.
+
+=Bonnie|Stryker
+A: Você é corajoso pra quem não tem magia. / Tenho granada. / Isso não é magia.
+A: Eu não quero brigar com a polícia. / Então coopere. / Não posso.
+
+=Stryker|Lexi
+A: Vampira simpática. Isso é raro. / Eu sou rara. / E perigosa, aposto.
+A: Sai é arma branca. / É acessório. / É prova.
+
+=Lexi|Stryker
+A: Policial! Já fui presa umas três vezes. Bons tempos. / Vai ser a quarta. / Que romântico.
+A: Você precisa relaxar. / Relaxo depois do plantão. / O plantão nunca acaba, né?
+
+=Stryker|Sonya Blade
+A: Comandante Blade. Militares e polícia, juntos de novo. / Hoje separados. / Ordens são ordens.
+A: Você ainda caça o Kano? / Sempre. / Me avisa quando pegar. Quero assinar o boletim.
+
+=Sonya Blade|Stryker
+A: Stryker. Ainda de boné virado? / Ainda vivo também. / Isso eu respeito.
+A: Forças Especiais contra polícia. Treino rápido. / Treino justo. / Justo não existe em combate.
+
+=Stryker|Jax
+A: Major. Esses braços são de serviço? / São de briga. / Então tão autorizados.
+A: Sua filha é boa de tiro. / A melhor. / Ela disse que eu sou lento.
+
+=Jax|Stryker
+A: Stryker! Policial sem poder ainda vivo depois de tudo? / Teimosia. / Teimosia é poder.
+A: Vamos ver se esse cassetete aguenta meu soco. / É de choque. / E meu braço é de metal. Problema seu.
+
+=Stryker|Kano
+A: Kano. Mandado de prisão internacional. / Me pega, então. / Algema já tá na mão.
+A: Dragão Negro, contrabando, homicídio. Quer que eu continue? / Pula a parte chata. / Tudo é a parte chata.
+
+=Kano|Stryker
+A: Um tira! Que saudade de bater em tira. / Bate, então. / Com prazer, parceiro.
+A: Seu amiguinho Kabal trabalhava pra mim. / Ele trabalhou com você. Não pra você. / Detalhe.
+
+=Stryker|Ana Letícia
+A: Moça, abre a bolsa, por favor. / Revistar uma dama? Que grosseria. / Tem uma pistola aí dentro.
+A: Chantagem também é crime. / Prova, querido. / Você acabou de me ameaçar.
+
+=Ana Letícia|Stryker
+A: Um policial! Que charme. Me algema? / Isso é sério, senhora. / Eu também estou falando sério.
+A: Quanto você ganha por mês? Eu pago o dobro. / Corrupção ativa. / Ai, ele é honesto. Que chato.
+
+=Stryker|Vega
+A: Agente do governo? Mostra o crachá. / Não tenho mais. / Então é civil armada.
+A: Paranormal não tá no manual. / Nada sobre mim está. / Vou improvisar.
+
+=Vega|Stryker
+A: Um policial sem poder no meio disso tudo. Respeito. / Respeito e cooperação. / Cooperação depende.
+A: Você já viu coisa estranha? / Vi minha cidade sumir. / Então você sabe.
+
+=Stryker|Teresa
+A: Doutora. Falsificação de documento é crime. / Prova. / Eu sempre acho prova.
+A: Você mentiu pra chegar aqui. / Todo mundo mente. / Nem todo mundo é preso.
+
+=Teresa|Stryker
+A: Um policial? Eu conheço meus direitos. / Então sabe que vai perder. / Veremos no tribunal.
+A: Eu posso tirar você do caso. / Eu não estou num caso. Estou numa luta. / Pior pra você.
+
+=Stryker|Rudolf
+A: Leque de fogo é arma de quê? / De diversão. / Isso é incêndio.
+A: Você fala demais, garoto. / Me prende por isso. / Vontade não falta.
+
+=Rudolf|Stryker
+A: Seu guarda, posso ver sua carteira de herói? / Isso não existe. / Então é um impostor.
+A: Me prende se for capaz! / Mãos ao alto. / Ops. Era brincadeira.
+
+=Stryker|Katherine Pierce
+A: Senhora, você tem documentos? / Tenho quinhentos anos de documentos falsos. / Então vai ser um boletim longo.
+A: Manipulação é crime? / Devia ser. / Concordo, mas não com você.
+
+=Katherine Pierce|Stryker
+A: Um policial bonitinho. / Isso é suborno? / É elogio. Mas pode ser os dois.
+A: Você sempre segue as regras? / Sempre. / Que tédio.
+
+=Stryker|Sub-Zero
+A: Gelo. Você congela as provas. / Eu congelo os culpados. / Isso dificulta o meu trabalho.
+A: Lin Kuei tem alvará? / Lin Kuei tem honra. / Honra não substitui documento.
+
+=Sub-Zero|Stryker
+A: Um humano sem dons. Admirável. / Obrigado. / Mas não vencerá.
+A: Abaixe a arma. / Abaixe o gelo. / Teimoso.
+
+=Stryker|Scorpion
+A: Corrente com lâmina. Arma proibida. / Venha cá! / Isso foi desacato.
+A: Você quer vingança. Eu quero justiça. / Para mim é a mesma coisa. / Não é.
+
+=Scorpion|Stryker
+A: Um soldado da lei. Honrado. / Obrigado. / Mas vai cair mesmo assim.
+A: Abaixe a arma ou queime. / Prefiro a algema. / Não para mim.
+
+=Stryker|Baraka
+A: Dentes e lâminas. Vou precisar de reforço. / Ninguém vai vir. / Por isso trouxe granada.
+A: Mãos ao alto. Devagar. / Minhas mãos têm lâminas. / Então bem devagar.
+
+=Baraka|Stryker
+A: Humano sem poder. Fácil. / Fácil é o que todos dizem. / Os tarkatanos provam.
+A: Seu bastão faz faísca. / Faz mais que isso. / Eu gosto de faísca.
+
+=Stryker|Raiden
+A: Raiden. Você me mandou aquela visão. / Mandei. / Da próxima, manda antes do portal abrir.
+A: Por que eu sobrevivi? / Sua alma é forte. / Então ela fica comigo.
+
+=Raiden|Stryker
+A: Sua coragem salvou mais vidas do que você imagina. / Não salvou a minha cidade. / Salvou o mundo.
+A: Você não precisa de magia para ser um campeão. / Preciso de munição. / Isso eu não forneço.
+
+=Stryker|Geras
+A: Você controla o tempo? Me devolve as horas extras. / Isso não é possível. / Então não serve.
+A: Areia do tempo. Isso é prova? / Isso é eternidade. / Vai pro depósito do mesmo jeito.
+
+=Geras|Stryker
+A: Em todas as linhas do tempo, você sobrevive. / Teimosia. / Kronika chamaria de defeito.
+A: Você é só um humano. / Só um humano que não cai. / Todos caem.
+
+=Stryker|Johnny Cage
+A: Cage. Você me deve uma multa de trânsito. / Aquilo foi gravação de filme! / Sem autorização.
+A: Celebridade não tem imunidade. / Tem advogado. / Eu tenho algema.
+
+=Johnny Cage|Stryker
+A: Stryker! Você daria um ótimo policial no meu filme! / Eu sou um policial de verdade. / Melhor ainda, não preciso pagar consultor!
+A: Para de me olhar como se eu fosse suspeito. / Você é suspeito. / De quê? De ser bonito?
+
+=Stryker|Ladybug
+A: Heroína mascarada. Vigilante. / Eu ajudo a polícia de Paris! / Aqui não é Paris.
+A: Seu ioiô é perigoso? / Só pra quem merece. / Eu decido quem merece.
+
+=Ladybug|Stryker
+A: Policial! Vamos trabalhar juntos? / Primeiro a gente luta. / Tá bom, mas depois vamos.
+A: Você não tem poderes e luta mesmo assim? / Alguém precisa. / Isso é incrível.
+
+=Stryker|Conan
+A: Espada desse tamanho exige licença. / Crom não dá licenças. / Então vai ser apreendida.
+A: Você tá preso por vadiagem. / Eu sou um rei! / Rei sem documento.
+
+=Conan|Stryker
+A: Um guerreiro de pólvora. Fraco. / Pólvora derruba gigantes. / Venha provar.
+A: Por Crom! Largue essa coisa que faz barulho! / Granada? Não. / Covarde moderno.
+
+=Stryker|Cyrax
+A: Robô armado. Precisa de licença. / Licença: inexistente. / Então tá preso.
+A: Você foi humano? / Lembrança arquivada. / Vou abrir o arquivo.
+
+=Cyrax|Stryker
+A: Alvo: policial humano. Ameaça baixa. / Granada no seu pé. / Reclassificando ameaça.
+A: Comando: renda-se. / Isso é minha fala. / Plágio detectado.
+
+=Stryker|Ermac
+A: Ermac. Quantos suspeitos você é? / Nós somos milhares. / Vou precisar de mais algemas.
+A: Telecinese é invasão de espaço pessoal. / Nós não temos espaço pessoal. / Percebi.
+
+=Ermac|Stryker
+A: Nós lembramos de você. Revenant como nós. / Eu não lembro. / Melhor assim.
+A: Um humano comum. / Comum e de pé. / Por enquanto.
+
+=Stryker|General Shao
+A: Shao. Invasão, genocídio, destruição. Você tá preso. / Tente me prender, humano. / Algema reforçada.
+A: Seu martelo é arma de destruição em massa. / Meu martelo é justiça. / Não é a minha.
+
+=General Shao|Stryker
+A: Um policial terráqueo. Ridículo. / Ridículo com granada. / Ajoelhe-se.
+A: Sua cidade caiu. Você cairá também. / Eu sou o que sobrou dela. / Então sobrará menos.
+
+=Stryker|Ashrah
+A: Espada brilhante. Tem licença? / Tenho uma missão. / Missão não é licença.
+A: Você caça demônios. Eu caço criminosos. / Às vezes são os mesmos. / Às vezes.
+
+=Ashrah|Stryker
+A: Sua alma é limpa. / Obrigado. / Isso é raro.
+A: Você não precisa lutar comigo. / Preciso sim, é o torneio. / Então lute com honra.
+
+=Stryker|Ghostface
+A: Máscara branca. Polícia de Woodsboro mandou lembranças. / Qual é o seu filme favorito, policial? / Os documentários.
+A: Trote telefônico é crime. / Alô? Tô atrás de você. / Não, você tá na minha frente.
+
+=Ghostface|Stryker
+A: Policiais nos filmes sempre morrem primeiro. / Aqui não é filme. / Tudo é filme.
+A: Tô ligando pra denunciar um policial muito sério. / Denúncia anotada. / Que chato.
+
+=Stryker|Havik
+A: Você é um risco à ordem pública. / Ordem é chata! / Ordem é o meu trabalho.
+A: Quebrar o próprio pescoço não é crime, mas é estranho. / É arte! / É estranho.
+
+=Havik|Stryker
+A: Policial! Inimigo natural do caos! / É meu trabalho. / Vou bagunçar tudo!
+A: Deixa eu quebrar seu boné! / Isso é dano ao patrimônio. / Que delícia.
+
+=Stryker|Homelander
+A: Super-herói. Mostra o registro. / Eu sou o registro. / Isso não vale.
+A: Você tá acima da lei? / Eu sou a lei. / Não na minha jurisdição.
+
+=Homelander|Stryker
+A: Um policial comum. Que fofo. / Comum e na sua frente. / Por pouco tempo.
+A: As pessoas me amam. / As pessoas te temem. / Tanto faz.
+
+=Stryker|Li Mei
+A: Li Mei. Você protegeu seu povo. / Como você protegeu o seu. / O meu não sobreviveu.
+A: Sua energia brilha. Isso é arma? / É o meu espírito. / Então é arma.
+
+=Li Mei|Stryker
+A: Você é muito corajoso. / Ou teimoso. / Os dois são bons.
+A: Vamos lutar com respeito. / Respeito eu tenho. / Então comece.
+
+=Stryker|Liu Kang
+A: Deus do Fogo. Na sua Nova Era, minha cidade existe? / Existe. Em paz. / Então valeu a pena.
+A: Você é um deus. Eu sou um policial. / Os dois protegem. / Só um ganha bem.
+
+=Liu Kang|Stryker
+A: Sua coragem me inspira. / Obrigado. / Mas o torneio exige que lutemos.
+A: Nenhum poder, e ainda assim um campeão. / Campeão de plantão. / Campeão de verdade.
+
+=Stryker|Kung Lao
+A: Chapéu com lâmina é arma. / É herança. / Herança apreendida.
+A: Para de girar, tá me deixando tonto. / Esse é o objetivo. / Isso é agressão.
+
+=Kung Lao|Stryker
+A: Policial no torneio? Você trouxe donut? / Trouxe granada. / Melhor não abrir isso.
+A: Você é corajoso, mas sem chapéu. / Tenho boné. / Não corta nada.
+
+=Stryker|Kenshi
+A: Espadachim cego. Você enxerga meu distintivo? / Sinto ele. / Isso já ajuda.
+A: Espada exige licença. / A Sento tem séculos. / Então tá vencida.
+
+=Kenshi|Stryker
+A: Sua mente é organizada. / É treinamento. / É raro.
+A: Não preciso ver para vencer. / Não preciso de poder para lutar. / Então somos dois teimosos.
+
+=Stryker|Omni-Man
+A: Viltrumita. Invasão planetária é crime federal. / Seus crimes não me importam. / Importam pra mim.
+A: Você é forte. Eu sou persistente. / Persistência morre. / A minha não.
+
+=Omni-Man|Stryker
+A: Um humano com um bastão. Patético. / Um humano que ainda tá de pé. / Não por muito tempo.
+A: Pense no que você vai ser em quinhentos anos. / Aposentado. / Morto.
+
+=Stryker|Noob Saibot
+A: Sombra. Você também foi policial em algum universo? / Fui Sub-Zero. / Isso não ajuda.
+A: Minha lanterna acaba com a sua escuridão. / Minha escuridão engole a luz. / Pilha nova.
+
+=Noob Saibot|Stryker
+A: Você foi revenant do meu mestre. / Ele não era meu mestre. / Era seu dono.
+A: A escuridão não teme policiais. / A lanterna não teme a escuridão. / Ingênuo.
+
+=Stryker|Peacemaker
+A: Paz com quantas armas? / Todas que couberem! / Então você tá preso por porte ilegal.
+A: Você mata pela paz. Isso não é paz. / É paz com efeitos colaterais. / É crime.
+
+=Peacemaker|Stryker
+A: Ei, policial! A gente devia ser parceiro! / Você mata gente. / Gente ruim!
+A: Meu capacete tem mais tecnologia que sua viatura! / Minha viatura não mata ninguém. / Ainda.
+
+=Stryker|Nitara
+A: Vampira alada. Isso não tá no manual. / Nada é. / Tô percebendo.
+A: Morder gente é agressão. / É alimentação. / Diz isso pro juiz.
+
+=Nitara|Stryker
+A: Seu sangue é forte. / Sangue de policial. / Vou provar.
+A: Você também perdeu seu lar. / Minha cidade. / Lute por ela, então.
+
+=Stryker|Quan Chi
+A: Quan Chi. Você me transformou em revenant. / E posso fazer de novo. / Desta vez eu algemo primeiro.
+A: Necromancia é crime em todos os reinos. / Não no meu. / Seu reino não tem polícia. Ainda.
+
+=Quan Chi|Stryker
+A: Meu antigo servo. Mais fraco vivo do que morto. / Mais livre vivo. / Liberdade é superestimada.
+A: Suas armas não ferem um feiticeiro. / Granada fere tudo. / Que deselegante.
+
+=Stryker|Reiko
+A: Reiko. General de um exército invasor. / E vencedor. / Ainda não.
+A: Seu martelo tem marca de sangue. É prova. / É troféu. / Vai pro depósito.
+
+=Reiko|Stryker
+A: Um policial? Shao vai rir disso. / Shao vai ser preso depois de você. / Insolente.
+A: Renda-se. / Essa é a minha fala. / Não mais.
+
+=Stryker|Rain
+A: Príncipe. Imunidade diplomática não vale aqui. / Eu sou da realeza! / Aqui você é suspeito.
+A: Controlar a água é perigoso perto de fio elétrico. / E daí? / Meu cassetete é de choque.
+
+=Rain|Stryker
+A: Um terráqueo sem poder. Que ousadia. / Ousadia e granada. / Granadas não funcionam molhadas.
+A: Ajoelhe-se diante de um príncipe. / Eu não me ajoelho nem pra prefeito. / Que grosseria.
+
+=Stryker|Sektor
+A: Robô com mísseis. Isso é arsenal ilegal. / Arsenal autorizado pelo Grão-Mestre. / Ele não é autoridade aqui.
+A: Você destruiu seu clã. Tá preso por isso também. / Crimes de outro reino. / Jurisdição universal.
+
+=Sektor|Stryker
+A: Alvo humano. Armamento primitivo. / Primitivo e eficiente. / Calculando.
+A: Rendição recomendada. / Recomendação recusada. / Eliminação.
+
+=Stryker|Reptile
+A: Lagarto. Ácido em público é crime. / Ssssério? / Seríssimo.
+A: Você some e aparece. Isso é fuga. / É ssssobrevivência. / É fuga.
+
+=Reptile|Stryker
+A: Humano fraco. / Fraco e teimoso. / Teimosia derrete no ácido.
+A: Sua lanterna me incomoda. / Esse é o objetivo. / Ssss!
+
+=Stryker|Shang Tsung
+A: Shang Tsung. Roubo de alma é crime. / Para mim é refeição. / Mesmo assim.
+A: Você muda de rosto. Fica difícil fazer o retrato falado. / Esse é o objetivo. / Então eu pego as digitais.
+
+=Shang Tsung|Stryker
+A: Sua alma é forte. Por isso não a tomamos. / Ela continua comigo. / Por enquanto.
+A: Um simples policial. / Um simples policial vivo. / Vamos corrigir isso.
+
+=Stryker|Takeda
+A: Garoto, essas lâminas no chicote são legais? / São do Shirai Ryu. / Então não são.
+A: Você lê mentes. Isso é invasão de privacidade. / Só leio o necessário. / Tudo é necessário pra você.
+
+=Takeda|Stryker
+A: Stryker, minha noiva disse que você é lento. / A Jacqui fala demais. / Ela fala a verdade.
+A: Você é o único sem poder aqui. / Sou o único sem desculpa. / Gostei disso.
+
+=Stryker|Smoke
+A: Fumaça em local fechado. Isso é proibido. / Eu sou a fumaça. / Então tá preso.
+A: Você some. Isso é fuga. / Eu desapareço. / Mesma coisa no boletim.
+
+=Smoke|Stryker
+A: Você não pode prender fumaça. / Mas posso abrir a janela. / Esperto.
+A: Lanterna não acha o que não tem forma. / Acha o contorno. / Contorno engana.
+
+=Stryker|T-1000
+A: T-1000. Você imitou um policial. Isso é falsa identidade. / Eu sou o policial perfeito. / Policial perfeito não mata.
+A: Metal líquido. Algema não segura. / Afirmativo. / Granada segura.
+
+=T-1000|Stryker
+A: Imitando: policial Stryker. / Meu boné não é assim. / Ajustando.
+A: Alvo: policial humano. Ameaça mínima. / Granada no seu pé. / Reavaliando.
+
+=Stryker|Sindel
+A: Rainha Sindel. Você me matou uma vez. / E farei de novo. / Eu trouxe protetor auricular.
+A: Seu grito é poluição sonora. / É um dom. / É crime.
+
+=Sindel|Stryker
+A: Um policial? Que divertido. / Divertido não, profissional. / Mesmo assim, divertido.
+A: Ajoelhe-se diante da sua rainha. / Você não é minha rainha. / Serei.
