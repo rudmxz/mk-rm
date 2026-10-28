@@ -8781,16 +8781,16 @@ function towerPool(playerKey,resKey){const ex=[playerKey,resKey].filter(Boolean)
 const TWC_N=12;
 function twCustomPick(playerKey,resKey,done){let O=document.getElementById('twCustom');if(!O){O=document.createElement('div');O.id='twCustom';O.className='twc';O.setAttribute('role','dialog');O.setAttribute('aria-label','Torre Personalizada');document.body.appendChild(O);}
   const cache={},F=k=>cache[k]||(cache[k]=fighterFrom(k));
-  const all=D.canon.filter(c=>!(typeof KR_SOON!=='undefined'&&KR_SOON.includes(c.n)&&!CHEAT.criador)).map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).filter(k=>k!==playerKey&&k!==resKey&&F(k));
+  const all=D.canon.filter(c=>!(typeof KR_SOON!=='undefined'&&KR_SOON.includes(c.n)&&!CHEAT.criador)).map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).filter(k=>F(k));
   let sel=(LS.get('forja_mk_twcustom',[])||[]).filter(k=>all.includes(k)).slice(0,TWC_N);
   const pic=k=>portrait(F(k),'twc-p');
   const render=()=>{const full=sel.length===TWC_N;
-    O.innerHTML=`<div class="twc-in"><header class="twc-h"><button type="button" class="twc-back" data-a="back">‹ Voltar</button><div><h2>Torre Personalizada</h2><p>Toque nos lutadores para montar as 12 lutas, na ordem. A luta 12 é a final. Toque numa luta para tirar.</p></div></header>
+    O.innerHTML=`<div class="twc-in"><header class="twc-h"><button type="button" class="twc-back" data-a="back">‹ Voltar</button><div><h2>Torre Personalizada</h2><p>Toque nos lutadores para montar as 12 lutas, na ordem. Pode repetir o mesmo lutador, inclusive o seu. A luta 12 é a final. Toque numa luta para tirar.</p></div></header>
       <div class="twc-slots">${Array.from({length:TWC_N},(_,i)=>{const k=sel[i];return `<button type="button" class="twc-s${k?' on':''}${i===TWC_N-1?' fin':''}" data-s="${i}" aria-label="Luta ${i+1}${k?': '+esc(F(k).nome):' vazia'}"><span class="twc-n">${i===TWC_N-1?'Final':i+1}</span>${k?pic(k)+`<b>${esc(F(k).nome)}</b>`:''}</button>`}).join('')}</div>
       <div class="twc-bar"><button type="button" class="f-btn" data-a="rnd">Completar aleatório</button><button type="button" class="f-btn" data-a="clr">Limpar</button><button type="button" class="f-btn big twc-go" data-a="go" ${full?'':'disabled'}>Começar (${sel.length}/${TWC_N})</button></div>
-      <div class="twc-grid">${all.map(k=>`<button type="button" class="twc-t${sel.includes(k)?' used':''}" data-k="${esc(k)}">${pic(k)}<b>${esc(F(k).nome)}</b>${sel.includes(k)?`<i>${sel.indexOf(k)+1}</i>`:''}</button>`).join('')}</div></div>`;};
+      <div class="twc-grid">${all.map(k=>{const n=sel.filter(x=>x===k).length;return `<button type="button" class="twc-t${n?' used':''}" data-k="${esc(k)}">${pic(k)}<b>${esc(F(k).nome)}</b>${n?`<i>${n>1?n+'×':'✓'}</i>`:''}</button>`}).join('')}</div></div>`;};
   O.onclick=e=>{const b=e.target.closest('button');if(!b||b.disabled)return;
-    if(b.dataset.k){const k=b.dataset.k,i=sel.indexOf(k);if(i>=0)sel.splice(i,1);else if(sel.length<TWC_N){sel.push(k);try{SFX.say(F(k).nome,true)}catch(_){}}else{SFX.clang();toast('As 12 lutas já estão preenchidas. Toque numa luta para trocar.');return}SFX.tick();const y=O.scrollTop;render();O.scrollTop=y;return}
+    if(b.dataset.k){const k=b.dataset.k;if(sel.length<TWC_N){sel.push(k);try{SFX.say(F(k).nome,true)}catch(_){}}else{SFX.clang();toast('As 12 lutas já estão preenchidas. Toque numa luta para trocar.');return}SFX.tick();const y=O.scrollTop;render();O.scrollTop=y;return}
     if(b.dataset.s!==undefined){const i=+b.dataset.s;if(sel[i]){sel.splice(i,1);SFX.tick();const y=O.scrollTop;render();O.scrollTop=y;}return}
     const a=b.dataset.a;
     if(a==='rnd'){const rest=all.filter(k=>!sel.includes(k));for(let i=rest.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[rest[i],rest[j]]=[rest[j],rest[i]];}while(sel.length<TWC_N&&rest.length)sel.push(rest.pop());SFX.whoosh();render();return}
