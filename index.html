@@ -8782,9 +8782,9 @@ const TWC_N=12;
 function twCustomPick(playerKey,resKey,done){let O=document.getElementById('twCustom');if(!O){O=document.createElement('div');O.id='twCustom';O.className='twc';O.setAttribute('role','dialog');O.setAttribute('aria-label','Torre Personalizada');document.body.appendChild(O);}
   const cache={},F=k=>cache[k]||(cache[k]=fighterFrom(k));
   const all=D.canon.filter(c=>!(typeof KR_SOON!=='undefined'&&KR_SOON.includes(c.n)&&!CHEAT.criador)).map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).filter(k=>F(k));
-  let sel=(LS.get('forja_mk_twcustom',[])||[]).filter(k=>all.includes(k)).slice(0,TWC_N);
+  let sel=[];/* não guarda a montagem: cada torre personalizada começa vazia */try{localStorage.removeItem('forja_mk_twcustom')}catch(e){}
   const pic=k=>portrait(F(k),'twc-p');
-  const render=()=>{const full=sel.length===TWC_N;
+  const render=()=>{const full=sel.length===TWC_N;LS.set('forja_mk_twcustom',sel);
     O.innerHTML=`<div class="twc-in"><header class="twc-h"><button type="button" class="twc-back" data-a="back">‹ Voltar</button><div><h2>Torre Personalizada</h2><p>Toque nos lutadores para montar as 12 lutas, na ordem. Pode repetir o mesmo lutador, inclusive o seu. A luta 12 é a final. Toque numa luta para tirar.</p></div></header>
       <div class="twc-slots">${Array.from({length:TWC_N},(_,i)=>{const k=sel[i];return `<button type="button" class="twc-s${k?' on':''}${i===TWC_N-1?' fin':''}" data-s="${i}" aria-label="Luta ${i+1}${k?': '+esc(F(k).nome):' vazia'}"><span class="twc-n">${i===TWC_N-1?'Final':i+1}</span>${k?pic(k)+`<b>${esc(F(k).nome)}</b>`:''}</button>`}).join('')}</div>
       <div class="twc-bar"><button type="button" class="f-btn" data-a="rnd">Completar aleatório</button><button type="button" class="f-btn" data-a="clr">Limpar</button><button type="button" class="f-btn big twc-go" data-a="go" ${full?'':'disabled'}>Começar (${sel.length}/${TWC_N})</button></div>
@@ -8795,7 +8795,7 @@ function twCustomPick(playerKey,resKey,done){let O=document.getElementById('twCu
     const a=b.dataset.a;
     if(a==='rnd'){const rest=all.filter(k=>!sel.includes(k));for(let i=rest.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[rest[i],rest[j]]=[rest[j],rest[i]];}while(sel.length<TWC_N&&rest.length)sel.push(rest.pop());SFX.whoosh();render();return}
     if(a==='clr'){sel=[];SFX.tick();render();return}
-    if(a==='go'){LS.set('forja_mk_twcustom',sel);SFX.gong();O.hidden=true;done(sel.slice());return}
+    if(a==='go'){SFX.gong();O.hidden=true;done(sel.slice());return}
     if(a==='back'){SFX.tick();O.hidden=true;done(null);}};
   render();O.hidden=false;O.scrollTop=0;try{$('#loadScreen').hidden=true}catch(e){}}
 function startTower(playerKey,resKey,size){size=size||6;
