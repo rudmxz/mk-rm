@@ -1,0 +1,483 @@
+=Khameleon|Khameleon
+A: Outra eu? Eu achava que era a última. / Talvez uma de nós seja só uma cor. / Então vamos ver quem desbota primeiro.
+A: Se eu copiar você, eu viro o quê? / Viramos a mesma derrota. / Fale por você.
+
+=Khameleon|Kitana
+A: Princesa. Seu leque ficou lindo na minha mão. / Copiar não é ser. / Mas acerta igual.
+A: Eu aprendi a girar o leque vendo você treinar. / Então você sabe como eu ganho. / Sei. E sei como você perde.
+
+=Kitana|Khameleon
+A: Você usa as minhas armas sem pedir. / Pedir é coisa de quem tem reino. / Eu te dou um motivo para pedir desculpas.
+A: Por que copiar as outras? Você não tem rosto próprio? / O meu rosto morreu com Zaterra. / Então lute por ele.
+
+=Khameleon|Mileena
+A: Seus sais são mais leves do que eu pensava. / Devolve, lagartixa. / Venha buscar.
+A: Você também é uma cópia, Mileena. Somos parecidas. / Eu sou a original de mim mesma. / Isso eu posso imitar também.
+
+=Mileena|Khameleon
+A: Você imitou o meu sorriso? Que ousadia. / Imitei os dentes. O sorriso eu deixo para você. / Vou arrancar os seus.
+A: Shao Kahn acabou com a sua raça. Eu acabo com você. / Você nem existia quando ele começou. / Mas termino o serviço.
+
+=Khameleon|Jade
+A: Seu bastão gira bem na minha mão. / Ele obedece à dona. / Hoje a dona sou eu.
+A: Você protege a princesa. Eu só protejo a minha espécie. / Uma espécie de uma só. / Por isso eu luto em dobro.
+
+=Jade|Khameleon
+A: Eu treinei anos para girar esse bastão. / Eu precisei de uma tarde olhando você. / Então aprenda a apanhar também.
+A: Você está no Rudolf? Não, é só a cor verde. / Verde fica bem em mim. / Fica melhor em mim.
+
+=Khameleon|Tanya
+A: Comandante. Hoje eu não estou de serviço. / Uma Umgadi nunca está de folga. / Então me dê uma ordem: perder.
+A: Eu copiei a sua dança de fogo. / Copiou errado. / Vou te mostrar quem dança melhor.
+
+=Tanya|Khameleon
+A: Umgadi, você deveria estar guardando a rainha. / A rainha sabe se cuidar. Eu quero lutar. / Então lute direito.
+A: Você vira qualquer uma de nós. Quem é você de verdade? / A que sobrou. / Isso não é resposta.
+
+=Khameleon|Skarlet
+A: Sangue até que é fácil de copiar. / Fácil de derramar também. / O seu, eu espero.
+A: Você foi feita por Shao Kahn. Eu fui destruída por ele. / Pelo menos eu sou útil. / Útil para morrer primeiro.
+
+=Skarlet|Khameleon
+A: Uma lagarta brincando de maga de sangue. / Lagartixa. E eu aprendo rápido. / Vamos ver se sangra rápido.
+A: Seu sangue é frio, réptil. / Frio dura mais. / Eu esquento com um corte.
+
+=Khameleon|Sheeva
+A: Quatro braços. Isso eu não consigo copiar. / Ainda bem para você. / Mas consigo desviar de todos.
+A: Os Shokan também sofreram com Shao Kahn. / Eu escolhi lutar contra ele. / Eu nunca tive escolha.
+
+=Sheeva|Khameleon
+A: Lagarto pequeno. Eu esmago com uma mão. / Você vai precisar das quatro. / Desafio aceito.
+A: Você some e aparece. Isso é covardia. / Isso é sobrevivência. / Hoje não vai funcionar.
+
+=Khameleon|Coelho
+A: Você é rápido, Coelho. Eu sou invisível. / Rápido acha o invisível. / Só se souber onde procurar.
+A: Sua faca é bonita. Posso copiar? / Só se aguentar o corte. / Eu aguento mais do que pareço.
+
+=Coelho|Khameleon
+A: Cadê você? Sei que está aí. / Atrás de você. / Sempre atrás. Que coisa feia.
+A: Você muda de cor. Eu mudo de lugar. / Então vamos ver quem acha quem. / Já achei.
+
+=Khameleon|Tigre
+A: Dois gadanhos. Bonito, mas ninja nenhuma usa isso. / Então você não pode copiar. / Eu posso desviar.
+A: Felino caça lagarto. Mas este lagarto morde. / Eu gosto de comida que reage. / Vai ficar com fome.
+
+=Tigre|Khameleon
+A: Seu cheiro denuncia, mesmo invisível. / Então sinta o cheiro do golpe. / Chegou tarde.
+A: Lagarto pequeno, caça fácil. / Caça que muda de cor confunde o caçador. / Eu não confundo.
+
+=Khameleon|Cobra
+A: Cobra. Outro réptil por aqui. / Eu cuido de serpentes, não de lagartos. / Hoje vai cuidar de um ferimento.
+A: Seu veneno é forte, mas eu troco de pele. / Pele nova, veneno novo. / Vamos ver qual dura mais.
+
+=Cobra|Khameleon
+A: Suas escamas pedem cura. / Elas pedem vingança. / Vingança não cicatriza.
+A: Eu sinto o calor de quem se esconde. / Então sinta isto. / Senti. Doeu pouco.
+
+=Khameleon|Cabra
+A: Bombas fazem barulho. Eu sou silêncio. / Silêncio explode também. / Só se você me achar.
+A: Você acerta o que vê. Eu não vou estar lá. / Eu acerto tudo em volta. / Que desperdício.
+
+=Cabra|Khameleon
+A: Não sei onde você está, então vou explodir tudo. / Isso é desespero. / Isso é estratégia.
+A: Você muda de cor. Fumaça muda de forma. / Fumaça não me esconde melhor que eu. / Vamos ver.
+
+=Khameleon|Touro
+A: Armas de fogo. Ninja nenhuma usa isso. / Por isso eu ganho. / Bala que não acha alvo não ganha nada.
+A: Você mira bem, subtenente. Mas mira em quê? / Em qualquer coisa que se mexer. / Então eu fico parada.
+
+=Touro|Khameleon
+A: Alvo invisível. Que novidade. / Novidade para quem nunca lutou com um Zaterrano. / Primeira e última vez.
+A: Fica parada que eu acerto. / Eu nunca fico parada. / Então eu atiro nas sombras.
+
+=Khameleon|Lorenzo
+A: Você carrega um massacre nas costas. Eu também. / O meu foi em Veyrath. / O meu foi em Zaterra. Vamos ver quem pesa mais.
+A: Herdeiro de alguma coisa. Eu sou herdeira de nada. / Então não tem nada a perder. / Por isso eu sou perigosa.
+
+=Lorenzo|Khameleon
+A: Os sobreviventes se reconhecem. / Eu reconheço um alvo. / Que pena. Achei que seria diferente.
+A: Você se esconde como eu me escondi. / Eu me escondo para atacar. / Eu também.
+
+=Khameleon|Art the Clown
+A: Um palhaço que não fala. Eu também sei ficar quieta. / ... / Mas eu sei sumir. Isso você não sabe.
+A: Suas cores não mudam. As minhas, sim. / ... / Que plateia difícil.
+
+=Art the Clown|Khameleon
+A: ... / Você está rindo de mim? / ...
+A: ... / Some daqui, palhaço. / ...
+
+=Khameleon|Freddy Krueger
+A: Nos sonhos ninguém me vê. Nem você. / Nos meus sonhos eu vejo tudo, lagartixa. / Então tente me sonhar.
+A: Suas garras são feias. Prefiro os leques. / Copia as garras, se tiver coragem. / Coragem eu tenho. Gosto, não.
+
+=Freddy Krueger|Khameleon
+A: Uma menina que troca de cor. Que pesadelo divertido. / O pesadelo vai ser seu. / Bem-vinda ao meu mundo.
+A: Você some, mas eu entro na sua cabeça. / Lá dentro só tem raiva. / Perfeito. Eu adoro raiva.
+
+=Khameleon|Jason Voorhees
+A: Você nunca corre. Eu nunca paro. / ... / Vai cansar antes de mim.
+A: Máscara de hóquei. Também gosto de esconder o rosto. / ... / Pelo menos o meu ainda está aqui.
+
+=Jason Voorhees|Khameleon
+A: ... / Você não vai me achar no escuro. / ...
+A: ... / Facão grande demais para um lagarto pequeno. / ...
+
+=Khameleon|Stefan
+A: Vampiro com diário. Escreve sobre mim. / Eu nem sei o seu nome. / Khameleon. Escreva com cuidado.
+A: Você controla a fome. Eu controlo a cor. / Cada um com a sua maldição. / A minha pelo menos é bonita.
+
+=Stefan|Khameleon
+A: Eu sinto o seu coração, mesmo invisível. / Então sabe que ele está calmo. / Calmo demais. Isso me assusta.
+A: Você parece perdida. / Eu perdi um mundo inteiro. / Eu entendo mais do que você imagina.
+
+=Khameleon|Damon
+A: Seu sorriso é falso. O meu também. / Pelo menos eu admito. / Eu admito batendo.
+A: Vampiro charmoso. Charme não funciona em réptil. / Tudo funciona em todo mundo. / Comigo, não.
+
+=Damon|Khameleon
+A: Uma garota que muda de cor. Divertido. / Divertido até eu virar a Skarlet. / Aí fica mais divertido ainda.
+A: Você é fria, literalmente. / Sangue frio vence briga quente. / Vamos testar.
+
+=Khameleon|Bonnie
+A: Bruxa. Magia eu não sei copiar. / Ainda bem. / Mas sei desviar dela.
+A: Seus feitiços acham o invisível? / Acham qualquer coisa. / Então acham também a minha raiva.
+
+=Bonnie|Khameleon
+A: Eu sinto magia em você. Antiga. / É a magia de um povo morto. / Então eu respeito. Mas luto.
+A: Você não precisa se esconder de mim. / Eu me escondo de todo mundo. / Que solidão.
+
+=Khameleon|Lexi
+A: Melhor amiga do vampiro. Eu não tenho melhor amiga. / Quer uma? / Quero uma luta.
+A: Você é leve. Eu também. / Então vai ser rápido. / Para uma de nós.
+
+=Lexi|Khameleon
+A: Você é sempre tão séria? / Eu sou a última da espécie. / Ah. Faz sentido.
+A: Você troca de cor, eu troco de humor. / O meu humor é sempre ruim. / Percebi.
+
+=Khameleon|Sonya Blade
+A: Forças Especiais. Eu sou a força invisível. / Eu tenho visão térmica. / Réptil tem sangue frio, tenente.
+A: Você luta como soldado. Eu luto como qualquer uma. / Qualquer uma não ganha de mim. / Hoje eu sou cinco.
+
+=Sonya Blade|Khameleon
+A: Alvo camuflado. Já vi isso no treinamento. / No treinamento o alvo não revida. / Eu vou gostar disso.
+A: Identifique-se. / Sou a última Zaterrana. / Isso não está nos meus arquivos.
+
+=Khameleon|Jax
+A: Braços de metal. Isso eu não copio. / Melhor. Ninguém aguenta o peso. / Eu desvio do peso.
+A: Você bate forte. Mas bate no lugar errado. / Eu acerto o lugar onde você vai estar. / Então adivinhe.
+
+=Jax|Khameleon
+A: Não consigo te ver, mas consigo te esmagar. / Primeiro tem que achar. / Já senti o vento.
+A: Você parece com aquele Reptile. / Não fale dele. / Toquei na ferida, hein.
+
+=Khameleon|Kano
+A: Mercenário. Por quanto você me venderia? / Pela pele, um bom preço. / A minha pele não sai de mim.
+A: Seu olho brilha. Fácil de achar no escuro. / E o seu? / O meu some.
+
+=Kano|Khameleon
+A: Pele de lagarto vale ouro no mercado negro. / Vem buscar. / Com prazer, querida.
+A: Invisível, é? Eu atiro em tudo. / Gaste as balas. / Elas são baratas.
+
+=Khameleon|Ana Letícia
+A: Você sorri enquanto atira. Eu sumo enquanto bato. / Eu acho você. / Ninguém acha.
+A: Vilã de novela. Eu sou vilã de verdade. / Eu também sou de verdade, querida. / Então prova.
+
+=Ana Letícia|Khameleon
+A: Que cor linda. Fica melhor com sangue. / Sangue de quem? / Do seu, de preferência.
+A: Uma mulher que muda de cara. Eu me identifico. / Você muda por diversão. Eu, por sobrevivência. / O resultado é o mesmo.
+
+=Khameleon|Vega
+A: Você deu o corpo pelos amigos. Eu não tenho amigos. / Talvez falte isso. / Falta um mundo inteiro.
+A: Agente. Já espionou alguém invisível? / Não. Será a primeira. / E a última.
+
+=Vega|Khameleon
+A: Eu sei me esconder também. / Mas não troca de cor. / Troco de identidade.
+A: Você tem os olhos vazios. / Eles já viram tudo o que precisavam. / Então vê isto.
+
+=Khameleon|Teresa
+A: Advogada. Me defenda do massacre de Zaterra. / Esse caso prescreveu. / Para mim, não.
+A: Você ganha nos tribunais. Aqui é outra coisa. / Aqui também tem regras. / As minhas são outras.
+
+=Teresa|Khameleon
+A: Você não tem documento, nem rosto, nem nome fixo. / Eu tenho raiva fixa. / Isso não vale como prova.
+A: Copiar golpes é plágio, querida. / Me processe. / Eu prefiro te derrotar.
+
+=Khameleon|Rudolf
+A: Filho de Kitana. Seus leques pegam fogo. / Quer copiar? / Já copiei. Só falta o fogo.
+A: Você tem o rosto da sua mãe. / Todo mundo diz isso. / Eu tenho o rosto de ninguém.
+
+=Rudolf|Khameleon
+A: Espera, você é a minha mãe ou não é? / Só a cor. / Que susto.
+A: Você copiou o leque da minha mãe? / Copiei. Ficou bonito. / O meu pega fogo. Copia esse.
+
+=Khameleon|Katherine Pierce
+A: Quinhentos anos se escondendo. Eu também me escondo. / Eu me escondo com estilo. / Eu me escondo de verdade.
+A: Você troca de lado. Eu troco de cor. / No fundo é a mesma coisa. / Não. A minha é sobrevivência.
+
+=Katherine Pierce|Khameleon
+A: Garota, eu inventei essa coisa de sumir. / Eu não sumo de mentira. / Eu também não.
+A: Você parece interessante. Quer uma aliança? / Eu não confio em ninguém. / Ótimo. Eu também não.
+
+=Khameleon|Sub-Zero
+A: Gelo não pega o que não vê. / Gelo pega tudo em volta. / Então congele o vento.
+A: Os Lin Kuei treinam ninjas. Eu nasci uma. / Nasceu réptil. / Réptil ninja.
+
+=Sub-Zero|Khameleon
+A: Um Zaterrano? Pensei que não houvesse mais. / Sou a última. / Então lute com honra.
+A: Seu sangue é frio como o meu gelo. / Frio e paciente. / Paciência eu tenho.
+
+=Khameleon|Scorpion
+A: Fogo do inferno. Eu prefiro sumir no escuro. / Venha aqui. / Eu já estou aí.
+A: Você também perdeu tudo. / Meu clã e minha família. / Eu perdi minha espécie.
+
+=Scorpion|Khameleon
+A: Venha aqui! / Estou atrás de você. / Então venha aqui de novo.
+A: Vingança consome. Eu sei. / A minha é contra o imperador. / Então não estamos do mesmo lado. Ainda.
+
+=Khameleon|Baraka
+A: Tarkatanos sobreviveram a Shao Kahn. Os Zaterranos, não. / Sorte nossa. / Azar o seu hoje.
+A: Suas lâminas são feias. Não vou copiar. / Elas cortam igual. / Mas não acham ninguém.
+
+=Baraka|Khameleon
+A: Cheiro de lagarto. Comida. / Comida que morde. / Melhor ainda.
+A: Você se esconde como presa. / A presa vai virar caçadora. / Eu adoro quando tentam.
+
+=Khameleon|Raiden
+A: Deus do trovão. Você viu Zaterra cair? / Eu não pude impedir. / Então assista a minha vingança.
+A: Seus raios acham o invisível? / Acham tudo que tem metal ou medo. / Eu não tenho nenhum dos dois.
+
+=Raiden|Khameleon
+A: A última Zaterrana. Eu lamento pelo seu povo. / Lamento não traz ninguém. / Mas a raiva também não.
+A: Não use a dor das outras como armadura. / Eu uso o golpe delas. A dor é minha. / Então lute com o que é seu.
+
+=Khameleon|Geras
+A: Você manda no tempo. Volte ele antes de Zaterra cair. / Não é assim que funciona. / Então você não serve para nada.
+A: Você não morre. Eu sou a última. Ironia. / O tempo é cruel. / Você é o tempo.
+
+=Geras|Khameleon
+A: Eu vi você em mil linhas do tempo. Sempre sozinha. / Esta vai ser diferente. / Talvez.
+A: Você não pode se esconder do tempo. / Eu me escondo dos seus olhos. Basta. / Veremos.
+
+=Khameleon|Johnny Cage
+A: Estrela de cinema. Eu sou figurante invisível. / Até figurante eu faço brilhar. / Brilho demais denuncia.
+A: Você é fácil de copiar. É só posar. / Não tem como copiar esse charme. / Nem quero.
+
+=Johnny Cage|Khameleon
+A: Uma ninja que vira todas as ninjas? Isso é roteiro de sequência. / E você é o vilão. / Eu sou o astro, meu bem.
+A: Fica parada para a foto. / Eu não apareço em foto. / Aí é sacanagem.
+
+=Khameleon|Ladybug
+A: Heroína de Paris. Também tem roupa vermelha. / A minha é de joaninha. / Joaninha come lagarto?
+A: Você usa um ioiô. Isso eu posso copiar. / Não vai funcionar sem o milagre. / Eu vivo sem milagres.
+
+=Ladybug|Khameleon
+A: Você parece triste. Posso ajudar? / Ninguém pode. / Eu sempre tento.
+A: Uma vilã que muda de cor? Já enfrentei coisa pior. / Nunca enfrentou uma espécie inteira de raiva. / Então vou com cuidado.
+
+=Khameleon|Conan
+A: Bárbaro. Você só conhece a espada. / E ela me basta. / Ela não acha o que não vê.
+A: Crom não tem pena de ninguém. Eu também não. / Então somos parecidos. / Não. Eu sumo, você grita.
+
+=Conan|Khameleon
+A: Feitiçaria de lagarto. Eu odeio feitiçaria. / Não é feitiço, é a minha pele. / Pior ainda.
+A: Lute de frente. / De frente eu sou cinco. / Que venham as cinco.
+
+=Khameleon|Cyrax
+A: Robô. Seus sensores me acham? / Detectando calor corporal. Baixo. / Réptil, querido.
+A: Você foi humano um dia. Eu fui um povo. / Ambos perdemos algo. / Eu perdi tudo.
+
+=Cyrax|Khameleon
+A: Alvo camuflado. Iniciando varredura. / Varra o que quiser. / Alvo localizado.
+A: Espécie não registrada. / Espécie extinta, quase. / Atualizando banco de dados.
+
+=Khameleon|Ermac
+A: Vocês são muitos. Eu sou uma só. / Nós somos muitos. / Mas eu sou cinco ninjas.
+A: Almas presas num corpo. Eu, um povo preso numa alma. / Nós entendemos. / Então sofra comigo.
+
+=Ermac|Khameleon
+A: Nós sentimos as almas de Zaterra em você. / Elas pedem vingança. / Nós também pedimos.
+A: Invisível aos olhos. Não às almas. / Então as almas vão sentir o golpe. / Nós sentimos tudo.
+
+=Khameleon|General Shao
+A: Seu império destruiu Zaterra. / Eu destruo muitos reinos. Não lembro de todos. / Vai lembrar deste.
+A: Eu esperei a vida inteira por você. / Esperou para morrer. / Esperei para te ver cair.
+
+=General Shao|Khameleon
+A: Um réptil que sobrou. Erro meu. / O último erro que você vai cometer. / Eu vou corrigir agora.
+A: Copie as ninjas que quiser. Todas se ajoelham para mim. / Esta não. / Então rasteje.
+
+=Khameleon|Ashrah
+A: Caçadora de demônios. Eu não sou demônio. / Seu ódio parece um. / Meu ódio tem motivo.
+A: Sua espada brilha. A minha pele também. / A luz me guia. / A escuridão me esconde.
+
+=Ashrah|Khameleon
+A: Sinto escuridão em você. / Sinto falta do meu povo. / Isso eu posso purificar.
+A: Sua vingança vai te transformar. / Eu já me transformo o tempo todo. / Não assim.
+
+=Khameleon|Ghostface
+A: Máscara branca. Eu tenho cabelo branco. / Qual o seu filme de terror favorito? / O massacre de Zaterra.
+A: Você liga para as vítimas. Eu não atendo. / Mas eu vou te achar. / Boa sorte.
+
+=Ghostface|Khameleon
+A: Olá, Khameleon. Onde você está? / Atrás da porta. / Errado. Atrás de você.
+A: Garota invisível. Eu adoro um desafio. / Eu adoro quem subestima. / Vamos ver no final.
+
+=Khameleon|Havik
+A: Caos combina comigo. Eu mudo sempre. / Então seja livre! / Livre eu sou. Sozinha também.
+A: Seu rosto é horrível. O meu é emprestado. / Os dois são caos. / Os dois vão sangrar.
+
+=Havik|Khameleon
+A: Você muda de cor como o caos muda de forma! / Não me compare a você. / Tarde demais. Já comparei.
+A: Abandone as regras! Seja todas as ninjas ao mesmo tempo! / Isso eu já faço. / Maravilhoso!
+
+=Khameleon|Homelander
+A: Você se acha deus. Já vi deuses caírem. / Eu não caio. / Todo mundo cai.
+A: Visão de raio X. Me vê agora? / Vejo uma lagartixa assustada. / Lagartixa com veneno.
+
+=Homelander|Khameleon
+A: Eu vejo através de tudo. Até de você. / Então vê o golpe chegando. / Vejo e rio.
+A: Você é só uma imitação. / Imitação que vai te derrubar. / Adorei a confiança.
+
+=Khameleon|Li Mei
+A: Você também luta pela rainha. / Luto pela minha honra. / Eu luto pela minha espécie.
+A: Suas faíscas são lindas. Posso copiar? / Só se aguentar a queimadura. / Réptil gosta de calor.
+
+=Li Mei|Khameleon
+A: Você é das Umgadi? Nunca te vi. / Ninguém nunca me vê. / Isso explica muita coisa.
+A: Lute com o seu próprio estilo! / Meu estilo é o de todas. / Isso é uma desculpa.
+
+=Khameleon|Liu Kang
+A: Deus do fogo. Você criou esta linha do tempo. / Criei e protejo. / Então por que eu ainda estou sozinha?
+A: Você deu um reino para cada povo. E o meu? / Zaterra merece respeito. / Merece existir.
+
+=Liu Kang|Khameleon
+A: Nesta linha do tempo, os Zaterranos ainda podem voltar. / Eu ouvi isso antes. / Desta vez é verdade.
+A: Não deixe a raiva guiar seus golpes. / Ela guia melhor que qualquer mestre. / Eu discordo.
+
+=Khameleon|Kung Lao
+A: Chapéu afiado. Eu poderia copiar. / Ninguém joga como eu. / Ninguém some como eu.
+A: Monge Shaolin. Já meditou invisível? / Já meditou sem falar? / Ponto para você.
+
+=Kung Lao|Khameleon
+A: Um chapéu acha qualquer alvo. / O alvo não estava aí. / Aprendo rápido.
+A: Você é das Umgadi. Respeito a sua rainha. / Respeite a mim também. / Depois da luta.
+
+=Khameleon|Kenshi
+A: Você é cego. Minha camuflagem não faz diferença. / Eu vejo com a alma. / Então veja a minha raiva.
+A: Seus olhos são como os meus: brancos. / Os seus enxergam. / Às vezes, só o que eu perdi.
+
+=Kenshi|Khameleon
+A: Minha telecinese sente você. / Sente, mas não segura. / Vamos testar.
+A: Você é a primeira que eu não preciso ver para enxergar. / Bonito de ouvir. / Feio de apanhar.
+
+=Khameleon|Omni-Man
+A: Outro conquistador. Já conheço o tipo. / Eu não sou um tipo. / Todos dizem isso.
+A: Você destrói planetas. Eu sobrevivi a um. / Eu destruo de novo. / Desta vez, eu não deixo.
+
+=Omni-Man|Khameleon
+A: Pense no que você vai ter depois de mil anos. / Uma espécie de volta. / Vai ter nada.
+A: Pequena. Frágil. Invisível. / E viva. / Por enquanto.
+
+=Khameleon|Noob Saibot
+A: Você vive nas sombras. Eu também. / As sombras são minhas. / Hoje elas são de quem chegar primeiro.
+A: Duas sombras. Uma vai sumir de vez. / Você. / Você não me vê para afirmar isso.
+
+=Noob Saibot|Khameleon
+A: Sombra contra sombra. / Eu tenho cor. Você, não. / Cor nenhuma brilha no escuro.
+A: Junte-se a mim nas trevas. / Eu já vivo lá. Sozinha. / Então não estará mais.
+
+=Khameleon|Peacemaker
+A: Você mata pela paz. Eu mato pela minha espécie. / A paz é maior. / A paz nunca chegou em Zaterra.
+A: Capacete brilhante. Fácil de achar. / Eu acho você também. / Não acha.
+
+=Peacemaker|Khameleon
+A: Garota camaleão? Isso é um super-herói ou uma vilã? / Sou o que eu precisar ser. / Isso é tão maneiro.
+A: Eu vou matar você pela paz. / A sua paz é estranha. / Ela é linda.
+
+=Khameleon|Nitara
+A: Vampira. Seu sangue é quente ou frio? / Depende de quem eu bebo. / Não beba o meu.
+A: Você salvou o seu povo. Eu falhei com o meu. / Ainda dá tempo. / Será?
+
+=Nitara|Khameleon
+A: Sangue de réptil tem gosto amargo. / Nem vai provar. / Veremos.
+A: Nós duas vivemos por um povo. / O seu está vivo. / O seu ainda pode estar.
+
+=Khameleon|Quan Chi
+A: Feiticeiro. Você trouxe mortos de volta. Traga Zaterra. / Isso tem um preço. / Eu pago com o seu sangue.
+A: Você gosta de controlar os outros. Eu não sou controlável. / Todos são. / Eu nem sou visível.
+
+=Quan Chi|Khameleon
+A: Eu posso trazer o seu povo de volta. Como escravos. / Nunca. / Pense bem, lagartixa.
+A: Invisível? Que truque barato. / Mais barato que o seu. / Insolente.
+
+=Khameleon|Reiko
+A: Braço direito de Shao. Você ajudou no massacre? / Eu ajudo em todos. / Este vai te custar o braço.
+A: Você tem lealdade. Eu tenho vingança. / A lealdade vence. / A vingança não desiste.
+
+=Reiko|Khameleon
+A: O general mandou acabar com os Zaterranos. Falta você. / Venha tentar. / Com prazer.
+A: Esconder-se é covardia. / Sobreviver é arte. / Arte que acaba hoje.
+
+=Khameleon|Rain
+A: Príncipe da chuva. Eu fico invisível na água. / Eu sou a água. / Então você me sente. E sofre.
+A: Você se acha da realeza. Eu sou a última de um povo. / Isso também é realeza. / Então lute como rei.
+
+=Rain|Khameleon
+A: A chuva acha tudo. Até você. / Gotas não seguram ninguém. / Uma tempestade segura.
+A: Edênia acolheu muitos. Por que não você? / Ninguém me ofereceu. / Eu ofereço uma surra.
+
+=Khameleon|Sektor
+A: Mísseis acham calor. Eu sou fria. / Recalibrando. / Recalibre rápido.
+A: Você obedece a um programa. Eu obedeço à raiva. / Ambos são eficientes. / O meu é mais.
+
+=Sektor|Khameleon
+A: Assinatura térmica baixa. Réptil. / Pontaria baixa também. / Corrigindo.
+A: Você deve ser eliminada. / Já tentaram com o meu povo inteiro. / E falharam por um.
+
+=Khameleon|Reptile
+A: Reptile. O último macho da nossa espécie. Traidor. / Eu escolhi sobreviver. / Escolheu se ajoelhar.
+A: Eu te contei a verdade sobre Shao Kahn. Você voltou para ele. / Eu não tinha para onde ir. / Tinha a mim.
+
+=Reptile|Khameleon
+A: Khameleon. Você ainda está viva? / Para te lembrar do que você fez. / Eu lembro todos os dias.
+A: Junte-se a mim. Somos os últimos. / Eu não me junto a traidores. / Então seremos os últimos inimigos.
+
+=Khameleon|Shang Tsung
+A: Você também copia os outros. Mas rouba as almas. / Eu tomo o que é meu. / Eu só tomo o golpe.
+A: Você já se transformou em mim? / Em todos. Até no que você foi. / Isso você nunca vai saber.
+
+=Shang Tsung|Khameleon
+A: Uma imitadora. Que adorável. Eu sou o original. / O original morre igual. / A sua alma vai me fortalecer.
+A: Você copia o corpo. Eu copio a alma. / Por isso você é monstro. / Por isso eu venço.
+
+=Khameleon|Takeda
+A: Você usa chicotes. Isso eu ainda não copiei. / Nem vai. / Me mostre devagar.
+A: Telepatia. Lê o que eu penso? / Leio raiva e saudade. / Leu certo.
+
+=Takeda|Khameleon
+A: Eu ouvi seus pensamentos antes de você aparecer. / Então sabe o que vem. / Sei. E vou desviar.
+A: Você pensa muito no seu povo. / Eu não penso em mais nada. / Isso cansa.
+
+=Khameleon|Smoke
+A: Você some na fumaça. Eu sumo na pele. / A fumaça é maior. / A pele é mais rápida.
+A: Dois fantasmas no mesmo campo. / Só um vai continuar visível. / Nenhum dos dois, talvez.
+
+=Smoke|Khameleon
+A: Na fumaça ninguém me vê. Nem você. / Na pele ninguém me vê. Nem você. / Empate. Por enquanto.
+A: Você é das Umgadi? Os Lin Kuei respeitam vocês. / Respeite lutando. / Com prazer.
+
+=Khameleon|T-1000
+A: Metal líquido que imita gente. Eu imito ninjas. / Eu imito melhor. / Você não muda de cor.
+A: Você também copia quem toca. / Copio e substituo. / Eu copio e venço.
+
+=T-1000|Khameleon
+A: Forma copiada. Analisando. / Analise rápido. / Análise concluída. Alvo frágil.
+A: Você imita. Eu sou a imitação perfeita. / Perfeito não tem vingança. / Vingança é irrelevante.
+
+=Khameleon|Sindel
+A: Minha rainha. Hoje eu luto contra você. / Uma Umgadi contra a rainha? / Uma Zaterrana contra todo mundo.
+A: Seu grito estilhaça vidro. Eu sumo antes. / Ninguém some do meu grito. / Eu sou a primeira.
+
+=Sindel|Khameleon
+A: Khameleon, você jurou me proteger. / Hoje é treino, minha rainha. / Então treine apanhando.
+A: Edênia guardará um lugar para Zaterra. Eu prometo. / Promessas de rainha costumam esquecer. / A minha, não.
