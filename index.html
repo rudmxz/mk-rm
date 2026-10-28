@@ -2707,6 +2707,22 @@ html.land .st-books{grid-template-columns:1fr 1fr}
 .twc-t i{position:absolute;right:4px;top:4px;min-width:22px;padding:2px 5px;border-radius:12px;background:#ffd27a;color:#1a0e04;font-style:normal;font-weight:700;font-size:13px}
 .twc button:focus-visible{outline:2px solid #ffd27a;outline-offset:2px}
 @media (max-width:520px){.twc-slots{grid-template-columns:repeat(5,1fr);gap:4px}.twc-s b{font-size:9px}}
+
+/* cabide de skin nas listas de lutadores */
+.sk-chip{position:absolute;right:3px;bottom:3px;z-index:4;width:24px;height:24px;display:grid;place-items:center;border-radius:50%;background:rgba(0,0,0,.72);color:#ffd27a;border:1px solid #ffd27a;cursor:pointer;box-shadow:0 1px 4px #000}
+.sk-chip svg{width:15px;height:15px}
+.sk-chip:hover,.sk-chip:focus-visible{background:#ffd27a;color:#1a0e04;outline:none}
+.cpic,.twc-t,.tn-tile,.fshp-c,.fshp-big,.sel-photo{position:relative}
+.cpic .sk-chip{width:20px;height:20px;right:2px;bottom:2px}.cpic .sk-chip svg{width:12px;height:12px}
+.sel-photo .sk-chip{width:34px;height:34px;right:6px;bottom:6px}.sel-photo .sk-chip svg{width:20px;height:20px}
+.twc-t .sk-chip{bottom:auto;top:4px;left:4px;right:auto}
+.twc-k{position:absolute;right:2px;top:2px;z-index:2;width:42%;aspect-ratio:3/4;border:2px solid #ffd27a;border-radius:4px;overflow:hidden;box-shadow:0 1px 6px #000;background:#000}
+.twc-k .twc-p{position:static;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.twc-s.sel{outline:3px solid #ffd27a;outline-offset:1px}
+.twc-menu{display:grid;gap:8px;justify-items:center;padding:12px;border:1px solid #c89a3a;border-radius:8px;background:rgba(20,10,4,.95)}
+.twc-menu b{font-family:var(--f-ui);letter-spacing:1px;color:#ffd27a;text-align:center}
+.twc-menu .f-btn{min-width:220px}
+.twc-kmode{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;padding:8px 12px;border:1px solid #ffd27a;border-radius:8px;background:rgba(60,30,4,.9);color:#fff;text-align:center}
 /* =====================================================================
    TEMAS POR TELA — cada parte do jogo tem a sua identidade
    Forja: ferro e brasa · Evolução: jade e ouro de Edênia · Fichas: dossiês do Submundo
@@ -6978,7 +6994,7 @@ function initials(n){const p=n.replace(/['’]/g,'').split(/[\s-]+/).filter(Bool
 const DLC=['Khameleon','Skarlet','Sheeva','Ermac','Quan Chi','Takeda','Noob Saibot','Cyrax','Sektor','Sonya Blade','Jax','Kano','Stefan','Damon','Bonnie','Lexi'];
 const LOCK='<svg class="lock" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1Zm2 0h6V7a3 3 0 0 0-6 0v3Z"/></svg>';
 function cpic(c){const rib=c.fan?'<span class="crib fan">FÃ</span>':(c.special||c.n==='Katherine Pierce')?'<span class="crib extra">EXTRA</span>':(c.guest||DLC.includes(c.n))?'<span class="crib">DLC</span>':'';
-  return `<span class="cpic">${rib}${FOTO[c.n]?`<img class="ph" src="${FOTO[c.n]}" alt="" loading="lazy">`:`<img class="lockd" src="img/dragao.png" alt="">${LOCK}`}</span>`;}
+  return `<span class="cpic">${rib}${FOTO[c.n]?`<img class="ph" src="${FOTO[c.n]}" alt="" loading="lazy">`:`<img class="lockd" src="img/dragao.png" alt="">${LOCK}`}${FOTO[c.n]&&typeof skChip==='function'?skChip(c.n):''}</span>`;}
 let pickSel=[null,null,null,null],pickSlot=0,lastPicked=null,pickDuo=false,towerSize=6;
 const MATE={0:2,2:0,1:3,3:1};
 function pickOrder(){if(pickMode==='repick'||pickMode==='sobrev'||pickMode==='fora')return [0];const torre=pickMode==='torre';return torre?(pickDuo?[0,2]:[0]):(pickDuo?[0,2,1,3]:[0,1]);}
@@ -7018,7 +7034,7 @@ function renderOfficial(){
   selHero();selLayout();
 }
 function selHero(){const k=selCur;const s=k&&k!=='rnd'?selInfo(k):null;
-  $('#selName').textContent=s?s.n:'Aleatório';$('#selPhoto').innerHTML=selPicHtml(k);{const el=$('#selLvl');if(el){if(s){const p=PROG.c[k]||{xp:0};const lv=lvFromXp(p.xp||0),nx=xpNext(p.xp||0),prev=LV_XP[lv-1]||0;el.hidden=false;el.innerHTML=`<b>Nível ${lv}</b><span class="sl-bar"><i style="width:${nx?Math.round(((p.xp||0)-prev)/(nx-prev)*100):100}%"></i></span><small>${nx?`${p.xp||0}/${nx} XP`:'máximo'}</small>`;}else el.hidden=true;}}$('#selPhoto').classList.toggle('p2',pickSlot%2===1);
+  $('#selName').textContent=s?s.n:'Aleatório';$('#selPhoto').innerHTML=selPicHtml(k)+(s&&!s.user&&typeof skChip==='function'?skChip(s.n):'');{const el=$('#selLvl');if(el){if(s){const p=PROG.c[k]||{xp:0};const lv=lvFromXp(p.xp||0),nx=xpNext(p.xp||0),prev=LV_XP[lv-1]||0;el.hidden=false;el.innerHTML=`<b>Nível ${lv}</b><span class="sl-bar"><i style="width:${nx?Math.round(((p.xp||0)-prev)/(nx-prev)*100):100}%"></i></span><small>${nx?`${p.xp||0}/${nx} XP`:'máximo'}</small>`;}else el.hidden=true;}}$('#selPhoto').classList.toggle('p2',pickSlot%2===1);
   $('#btnInfo').hidden=!s;{const sk=$('#btnChSkin');if(sk)sk.hidden=!(s&&!s.user&&skOf(s.n).length);}
   const who=selLabel(pickSlot);$('#pickHint').textContent=`${who}: ${pickSlot%2===0?(pickSlot>=2?'escolha o lutador de apoio':'escolha seu lutador'):(pickSlot>=2?'escolha o lutador de apoio':pickMode==='2p'?'escolha seu lutador':pickMode==='treino'?'escolha o boneco':'escolha o oponente')}`;
   const last=pickOrder().filter(i=>!pickSel[i]&&i!==pickSlot).length===0;
@@ -8780,27 +8796,41 @@ function towerPool(playerKey,resKey){const ex=[playerKey,resKey].filter(Boolean)
 /* Torre Personalizada: o jogador escolhe de 1 a 15 oponentes, na ordem das lutas */
 const TWC_N=15;
 function twCustomPick(playerKey,resKey,done){let O=document.getElementById('twCustom');if(!O){O=document.createElement('div');O.id='twCustom';O.className='twc';O.setAttribute('role','dialog');O.setAttribute('aria-label','Torre Personalizada');document.body.appendChild(O);}
-  const cache={},F=k=>cache[k]||(cache[k]=fighterFrom(k));
+  let cache={};const F=k=>cache[k]||(cache[k]=fighterFrom(k));
   const all=D.canon.filter(c=>!(typeof KR_SOON!=='undefined'&&KR_SOON.includes(c.n)&&!CHEAT.criador)).map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).filter(k=>F(k));
-  let sel=[];/* não guarda a montagem: cada torre personalizada começa vazia */try{localStorage.removeItem('forja_mk_twcustom')}catch(e){}
-  const pic=k=>portrait(F(k),'twc-p');
+  /* cada luta: {k: oponente, kam: Kameo dele ou null}. Não fica salvo: cada torre começa vazia */
+  let sel=[],kamFor=-1,menuAt=-1;try{localStorage.removeItem('forja_mk_twcustom')}catch(e){}
+  const pic=k=>portrait(F(k),'twc-p');const nm=k=>esc(F(k).nome);const chip=k=>k.startsWith('c:')?skChip(k.slice(2)):'';
   const render=()=>{const ok=sel.length>0,last=sel.length-1;
-    O.innerHTML=`<div class="twc-in"><header class="twc-h"><button type="button" class="twc-back" data-a="back">‹ Voltar</button><div><h2>Torre Personalizada</h2><p>Toque nos lutadores para montar as lutas, na ordem: de 1 até ${TWC_N}. Pode repetir o mesmo lutador, inclusive o seu. A última que você escolher é a final. Toque numa luta para tirar.</p></div></header>
-      <div class="twc-slots">${Array.from({length:TWC_N},(_,i)=>{const k=sel[i];return `<button type="button" class="twc-s${k?' on':''}${k&&i===last?' fin':''}" data-s="${i}" aria-label="Luta ${i+1}${k?': '+esc(F(k).nome):' vazia'}"><span class="twc-n">${k&&i===last&&last>0?'Final':i+1}</span>${k?pic(k)+`<b>${esc(F(k).nome)}</b>`:''}</button>`}).join('')}</div>
-      <div class="twc-bar"><button type="button" class="f-btn" data-a="rnd">Completar aleatório</button><button type="button" class="f-btn" data-a="clr">Limpar</button><button type="button" class="f-btn big twc-go" data-a="go" ${ok?'':'disabled'}>Começar (${sel.length} ${sel.length===1?'luta':'lutas'})</button></div>
-      <div class="twc-grid">${all.map(k=>{const n=sel.filter(x=>x===k).length;return `<button type="button" class="twc-t${n?' used':''}" data-k="${esc(k)}">${pic(k)}<b>${esc(F(k).nome)}</b>${n?`<i>${n>1?n+'×':'✓'}</i>`:''}</button>`}).join('')}</div></div>`;};
+    const bar=kamFor>=0&&sel[kamFor]?`<div class="twc-kmode"><span>Escolha o <b>Kameo</b> de <b>${nm(sel[kamFor].k)}</b> (luta ${kamFor+1})</span><button type="button" class="f-btn" data-a="kcancel">Cancelar</button></div>`
+      :`<button type="button" class="f-btn" data-a="rnd">Completar aleatório</button><button type="button" class="f-btn" data-a="clr">Limpar</button><button type="button" class="f-btn big twc-go" data-a="go" ${ok?'':'disabled'}>Começar (${sel.length} ${sel.length===1?'luta':'lutas'})</button>`;
+    const menu=menuAt>=0&&sel[menuAt]?`<div class="twc-menu" role="menu"><b>Luta ${menuAt+1}: ${nm(sel[menuAt].k)}${sel[menuAt].kam?' · Kameo '+nm(sel[menuAt].kam):''}</b>
+      <button type="button" class="f-btn" data-a="kset">${sel[menuAt].kam?'Trocar o Kameo':'Escolher Kameo'}</button>${sel[menuAt].kam?'<button type="button" class="f-btn" data-a="koff">Tirar o Kameo</button>':''}
+      <button type="button" class="f-btn" data-a="del">Tirar esta luta</button><button type="button" class="f-btn" data-a="mclose">Fechar</button></div>`:'';
+    O.innerHTML=`<div class="twc-in"><header class="twc-h"><button type="button" class="twc-back" data-a="back">‹ Voltar</button><div><h2>Torre Personalizada</h2><p>Toque nos lutadores para montar as lutas, na ordem: de 1 até ${TWC_N}. Pode repetir o mesmo lutador, inclusive o seu. A última é a final. Toque numa luta para escolher o Kameo dela ou tirar. O cabide troca a skin.</p></div></header>
+      <div class="twc-slots">${Array.from({length:TWC_N},(_,i)=>{const e=sel[i];return `<button type="button" class="twc-s${e?' on':''}${e&&i===last?' fin':''}${i===kamFor||i===menuAt?' sel':''}" data-s="${i}" aria-label="Luta ${i+1}${e?': '+nm(e.k)+(e.kam?', Kameo '+nm(e.kam):''):' vazia'}"><span class="twc-n">${e&&i===last&&last>0?'Final':i+1}</span>${e?pic(e.k)+`<b>${nm(e.k)}</b>`+(e.kam?`<span class="twc-k" title="Kameo">${pic(e.kam)}</span>`:''):''}</button>`}).join('')}</div>
+      ${menu}<div class="twc-bar">${bar}</div>
+      <div class="twc-grid">${all.map(k=>{const n=sel.filter(x=>x.k===k).length;return `<button type="button" class="twc-t${n?' used':''}" data-k="${esc(k)}">${pic(k)}<b>${nm(k)}</b>${n?`<i>${n>1?n+'×':'✓'}</i>`:''}${chip(k)}</button>`}).join('')}</div></div>`;};
+  const keep=()=>{const y=O.scrollTop;render();O.scrollTop=y;};
   O.onclick=e=>{const b=e.target.closest('button');if(!b||b.disabled)return;
-    if(b.dataset.k){const k=b.dataset.k;if(sel.length<TWC_N){sel.push(k);try{SFX.say(F(k).nome,true)}catch(_){}}else{SFX.clang();toast('Já são '+TWC_N+' lutas, o máximo. Toque numa luta para tirar.');return}SFX.tick();const y=O.scrollTop;render();O.scrollTop=y;return}
-    if(b.dataset.s!==undefined){const i=+b.dataset.s;if(sel[i]){sel.splice(i,1);SFX.tick();const y=O.scrollTop;render();O.scrollTop=y;}return}
+    if(b.dataset.k){const k=b.dataset.k;
+      if(kamFor>=0&&sel[kamFor]){if(sel[kamFor].k===k){SFX.clang();toast('O Kameo tem que ser outro lutador.');return}sel[kamFor].kam=k;kamFor=-1;SFX.clang();try{SFX.say(F(k).nome,true)}catch(_){}keep();return}
+      if(sel.length<TWC_N){sel.push({k,kam:null});menuAt=-1;try{SFX.say(F(k).nome,true)}catch(_){}}else{SFX.clang();toast('Já são '+TWC_N+' lutas, o máximo. Toque numa luta para tirar.');return}SFX.tick();keep();return}
+    if(b.dataset.s!==undefined){const i=+b.dataset.s;if(sel[i]){kamFor=-1;menuAt=menuAt===i?-1:i;SFX.tick();keep();}return}
     const a=b.dataset.a;
-    if(a==='rnd'){const rest=all.filter(k=>!sel.includes(k));for(let i=rest.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[rest[i],rest[j]]=[rest[j],rest[i]];}while(sel.length<TWC_N&&rest.length)sel.push(rest.pop());SFX.whoosh();render();return}
-    if(a==='clr'){sel=[];SFX.tick();render();return}
-    if(a==='go'){SFX.gong();O.hidden=true;done(sel.slice());return}
-    if(a==='back'){SFX.tick();O.hidden=true;done(null);}};
+    if(a==='kset'){kamFor=menuAt;menuAt=-1;SFX.tick();keep();toast('Agora toque no lutador que vai ser o Kameo.');return}
+    if(a==='koff'){if(sel[menuAt])sel[menuAt].kam=null;menuAt=-1;SFX.tick();keep();return}
+    if(a==='del'){if(sel[menuAt])sel.splice(menuAt,1);menuAt=-1;SFX.tick();keep();return}
+    if(a==='mclose'||a==='kcancel'){menuAt=-1;kamFor=-1;SFX.tick();keep();return}
+    if(a==='rnd'){const rest=all.filter(k=>!sel.some(x=>x.k===k));for(let i=rest.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[rest[i],rest[j]]=[rest[j],rest[i]];}while(sel.length<TWC_N&&rest.length)sel.push({k:rest.pop(),kam:null});SFX.whoosh();render();return}
+    if(a==='clr'){sel=[];menuAt=-1;kamFor=-1;SFX.tick();render();return}
+    if(a==='go'){SFX.gong();O.hidden=true;document.removeEventListener('skinchange',onSkin);done(sel.map(x=>x.kam?[x.k,x.kam]:x.k));return}
+    if(a==='back'){SFX.tick();O.hidden=true;document.removeEventListener('skinchange',onSkin);done(null);}};
+  const onSkin=()=>{if(O.hidden)return;cache={};keep();};document.addEventListener('skinchange',onSkin);
   render();O.hidden=false;O.scrollTop=0;try{$('#loadScreen').hidden=true}catch(e){}}
 function startTower(playerKey,resKey,size){size=size||6;
   if(size==='p'){twCustomPick(playerKey,resKey,list=>{if(!list){openPick('torre');return}
-      let ladder=list;if(resKey){const pool=towerPool(playerKey,resKey).filter(k=>!list.includes(k));ladder=list.map((k,i)=>pool.length?[k,pool[i%pool.length]]:k);}
+      const ladder=list;/* o Kameo de cada oponente é o que o jogador escolheu (ou nenhum) */
       TW={player:playerKey,res:resKey||null,ladder,level:0,size:'p',arena1:ARENA1};ARENA1=false;showTower(true);});return;}
   const pool=towerPool(playerKey,resKey);let ladder;
   if(resKey){ladder=[];for(let i=0;i<size;i++)ladder.push([pool[2*i],pool[2*i+1]]);ladder.push(['c:Shang Tsung','c:Quan Chi'],['c:General Shao','c:Reiko']);}
@@ -10638,7 +10668,13 @@ function skOpen(c){skClose();const M=document.createElement('div');M.id='skModal
     const b=e.target.closest('[data-sk]');if(!b)return;const id=b.dataset.sk||null;
     if(id&&!skOwned(id)){const s=skById(id);if(!spendCoins(s.price,'Skin: '+s.n)){SFX.clang();toast(`Faltam ${s.price-MOEDAS} moedas para ${s.n}.`);return}
       KR.skins=KR.skins||[];KR.skins.push(id);krSave();SFX.coin();try{renderCoins()}catch(_){}toast(`${s.n} comprada!`);}
-    skEquip(c,id);SFX.hit();draw();try{renderOfficial()}catch(_){}};}
+    skEquip(c,id);SFX.hit();draw();try{renderOfficial()}catch(_){}try{document.dispatchEvent(new CustomEvent('skinchange',{detail:c}))}catch(_){}};}
+/* ---- botão de cabide: troca a skin em qualquer lista de lutadores (seleção, torres, torneio, finalizações...) ---- */
+const SK_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.5a2.2 2.2 0 1 1 2.2-2.2c0 1.2-1 1.6-2.2 2.6L3.3 14.6c-1 .7-.5 2.2.7 2.2h16c1.2 0 1.7-1.5.7-2.2L12 8.1" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+function skChip(n){return n&&skOf(n).length&&FOTO0[n]&&!charLock(n)?`<span class="sk-chip" role="button" tabindex="0" data-skc="${esc(n)}" aria-label="Trocar a skin de ${esc(n)}" title="Trocar skin">${SK_ICON}</span>`:'';}
+document.addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('[data-skc]');if(!c)return;e.preventDefault();e.stopPropagation();skOpen(c.dataset.skc);},true);
+document.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const c=e.target.closest&&e.target.closest('[data-skc]');if(!c)return;e.preventDefault();e.stopPropagation();skOpen(c.dataset.skc);},true);
+document.addEventListener('pointerdown',e=>{if(e.target.closest&&e.target.closest('[data-skc]'))e.stopPropagation();},true);
 /* ---- segurar o lutador (≈0,5 s) abre a escolha de skin ---- */
 (function(){let T=null,sx=0,sy=0,held=false;
   const keyOf=t=>{if(t.closest('#selPhoto'))return selCur;const c=t.closest('.ctile');return c&&!c.classList.contains('barred')&&!c.dataset.rnd?c.dataset.k:null;};
@@ -10927,7 +10963,7 @@ function tnPick(t){TN.pickFor=t;TN.team[t]=[];tnPickRender();}
 function tnPickRender(){const t=TN.pickFor,sel=TN.team[t];
   const who=TN.two?`Jogador ${t+1}`:'Você';
   const slots=[0,1,2,3].map(i=>{const k=sel[i];return `<button type="button" class="tn-slot t${t}${k?' on':''}" data-rm="${i}" ${k?'':'disabled'}><span class="tn-sn">${i+1}º</span><span class="tn-sp">${k?tnPic(k):'<span class="tn-q">?</span>'}</span><span class="tn-snm">${k?esc(tnName(k)):'Escolha'}</span></button>`}).join('');
-  const tiles=tnPool().map(k=>{const i=sel.indexOf(k);return `<button type="button" class="tn-tile${i>=0?' on t'+t:''}" data-k="${esc(k)}" aria-pressed="${i>=0}"><span class="tn-tp">${tnPic(k)}</span>${i>=0?`<i class="tn-num">${i+1}</i>`:''}<span class="tn-tn">${esc(tnName(k))}</span></button>`}).join('');
+  const tiles=tnPool().map(k=>{const i=sel.indexOf(k);return `<button type="button" class="tn-tile${i>=0?' on t'+t:''}" data-k="${esc(k)}" aria-pressed="${i>=0}"><span class="tn-tp">${tnPic(k)}</span>${i>=0?`<i class="tn-num">${i+1}</i>`:''}<span class="tn-tn">${esc(tnName(k))}</span>${k.startsWith('c:')?skChip(k.slice(2)):''}</button>`}).join('');
   tnBody(`<div class="tn-head"><img class="tn-logo" src="img/dragao.png" alt=""><h2>Torneio</h2><p><b class="tn-t${t}">${who}</b>: escolha 4 lutadores. A ordem decide quem luta em cada combate.</p></div>
     <div class="tn-slots">${slots}</div>
     <div class="tn-grid">${tiles}</div>
@@ -11006,6 +11042,9 @@ sonyaHold($('#tnBody'),()=>!!(TN&&!TN.online&&TN.team&&TN.pickFor!=null&&$('#tnB
 function openTorneioOnline(st,local){
   TN={two:true,online:{local,seed:st.seed>>>0,id:st.id,stages:st.stages},team:[st.p[0].slice(0,4),st.p[1].slice(0,4)],m:[],busy:false};
   $('#tourney').hidden=false;document.body.style.overflow='hidden';tnStart();}
+
+/* trocou a skin pelo cabide: redesenha a escolha do torneio */
+document.addEventListener('skinchange',()=>{try{if(TN&&document.querySelector('.tn-grid'))tnPickRender()}catch(e){}});
 
 /* ====== SOBREVIVÊNCIA ====== */
 let SV=null;
@@ -16322,19 +16361,21 @@ function fshPick(key){
   const L=fshList();
   const leave=()=>{fshPickClose();loading({action:()=>{document.body.style.overflow='';MUSIC.setOverride(null);$('#brand').click();}});};
   const grid=(q)=>{
-    const qq=(q||'').trim().toLowerCase();const arr=L.filter(f=>!qq||f.nome.toLowerCase().includes(qq));
+    o.dataset.view='grid';const qq=(q||'').trim().toLowerCase();const arr=L.filter(f=>!qq||f.nome.toLowerCase().includes(qq));
     o.innerHTML=`<div class="fshp-top"><button type="button" class="f-btn" data-p="leave">Voltar</button><h3>Escolha o personagem</h3><input type="search" class="fshp-q" placeholder="Buscar…" value="${esc(q||'')}" aria-label="Buscar personagem"></div>
-    <div class="fshp-grid">${arr.map(f=>`<button type="button" class="fshp-c" data-k="${esc(f.key)}"><span class="fshp-ph">${portrait(f,'pf')}</span><b>${esc(f.nome)}</b></button>`).join('')||'<p class="fshp-no">Ninguém com esse nome.</p>'}</div>`;
+    <div class="fshp-grid">${arr.map(f=>`<button type="button" class="fshp-c" data-k="${esc(f.key)}"><span class="fshp-ph">${portrait(f,'pf')}</span><b>${esc(f.nome)}</b>${f.key.startsWith('c:')?skChip(f.nome):''}</button>`).join('')||'<p class="fshp-no">Ninguém com esse nome.</p>'}</div>`;
     const inp=o.querySelector('.fshp-q');inp.oninput=()=>{const p=inp.selectionStart;grid(inp.value);const n=o.querySelector('.fshp-q');n.focus();try{n.setSelectionRange(p,p)}catch(e){}};};
   const det=(k)=>{const f=L.find(x=>x.key===k);if(!f){grid();return;}
     const rows=[];FSH_PARTS.forEach(([ch,t])=>{
       if(ch==='Babality'){if((f.fins.Babality||[]).length)rows.push({ch,n:null,txt:'Babality',d:'Vira bebê o oponente'});return;}
       (f.fins[ch]||[]).forEach((x,n)=>rows.push({ch,n,txt:x.n,d:x.d||''}));});
     o.innerHTML=`<div class="fshp-top"><button type="button" class="f-btn" data-p="back">Personagens</button><h3>${esc(f.nome)}</h3></div>
-    <div class="fshp-det"><div class="fshp-big">${portrait(f,'pf')}</div>
+    <div class="fshp-det"><div class="fshp-big">${portrait(f,'pf')}${f.key.startsWith('c:')?skChip(f.nome):''}</div>
     <div class="fshp-list"><button type="button" class="f-btn big" data-p="all">▶ Ver todas</button>
     ${rows.map(r=>`<button type="button" class="fshp-r ${r.ch.toLowerCase()}" data-ch="${r.ch}"${r.n==null?'':` data-n="${r.n}"`}><img src="${FSH_IMG[r.ch]}" alt="${r.ch}"><span><b>${esc(r.txt)}</b>${r.d?`<small>${esc(r.d)}</small>`:''}</span></button>`).join('')||'<p class="fshp-no">Sem finalizações.</p>'}</div></div>`;
-    o.dataset.k=k;};
+    o.dataset.k=k;o.dataset.view='det';};
+  const onSk=()=>{if(!o.isConnected){document.removeEventListener('skinchange',onSk);return}L.forEach(f=>{if(f.key.startsWith('c:')&&FOTO[f.nome])f.foto=FOTO[f.nome]});if(o.dataset.view==='det')det(o.dataset.k);else grid((o.querySelector('.fshp-q')||{}).value||'');};
+  document.addEventListener('skinchange',onSk);
   o.onclick=e=>{const b=e.target.closest('button');if(!b)return;SFX.hit();
     if(b.dataset.p==='leave'){leave();return;}
     if(b.dataset.p==='back'){grid();return;}
