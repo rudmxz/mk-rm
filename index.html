@@ -2688,7 +2688,7 @@ html.land .st-books{grid-template-columns:1fr 1fr}
 .twc-h h2{margin:0;font-family:var(--f-display);font-size:clamp(24px,6vw,38px);color:#ffd27a;text-shadow:0 2px 0 #000}
 .twc-h p{margin:4px 0 0;font-size:14px;color:#d4c3a0;max-width:60ch}
 .twc-back{flex:none;padding:8px 12px;border:1px solid #c89a3a;border-radius:6px;background:rgba(0,0,0,.4);color:#f0e2c4;font:inherit;cursor:pointer}
-.twc-slots{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.twc-slots{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;width:100%;max-width:640px;margin:0 auto}
 .twc-s{position:relative;aspect-ratio:3/4;padding:0;border:2px dashed #6a4a20;border-radius:6px;background:rgba(0,0,0,.45);color:#f0e2c4;cursor:pointer;overflow:hidden;font:inherit}
 .twc-s.on{border-style:solid;border-color:#c89a3a}
 .twc-s.fin{border-color:#e0302a}
@@ -2706,7 +2706,7 @@ html.land .st-books{grid-template-columns:1fr 1fr}
 .twc-t.used .twc-p{opacity:.45}
 .twc-t i{position:absolute;right:4px;top:4px;min-width:22px;padding:2px 5px;border-radius:12px;background:#ffd27a;color:#1a0e04;font-style:normal;font-weight:700;font-size:13px}
 .twc button:focus-visible{outline:2px solid #ffd27a;outline-offset:2px}
-@media (max-width:520px){.twc-slots{grid-template-columns:repeat(4,1fr)}}
+@media (max-width:520px){.twc-slots{grid-template-columns:repeat(5,1fr);gap:4px}.twc-s b{font-size:9px}}
 /* =====================================================================
    TEMAS POR TELA — cada parte do jogo tem a sua identidade
    Forja: ferro e brasa · Evolução: jade e ouro de Edênia · Fichas: dossiês do Submundo
@@ -3743,7 +3743,7 @@ html.land #fight .f-banner.endb.wvb.wvr{left:46%;right:0}
       <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="4">Torre do Guerreiro<small>6 lutas</small></button>
       <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="6">Torre do Campeão<small>8 lutas</small></button>
       <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="10">Torre Lendária<small>12 lutas</small></button>
-      <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="p">Torre Personalizada<small>você escolhe as 12 lutas</small></button>
+      <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="p">Torre Personalizada<small>você escolhe até 15 lutas</small></button>
       <button type="button" class="sm-item sm-exit" data-act="sub" data-sub="lutar">Voltar</button>
     </nav>
     <nav class="sm-menu sm-subm" id="smSub-torneio" hidden>
@@ -8777,20 +8777,20 @@ function towerPool(playerKey,resKey){const ex=[playerKey,resKey].filter(Boolean)
   const duo=!!resKey;const skip=['General Shao','Shang Tsung'].concat(duo?['Quan Chi','Reiko']:[]);
   const pool=D.canon.filter(c=>!skip.includes(c.n)&&!ex.includes(c.n)&&!(typeof KR_SOON!=='undefined'&&KR_SOON.includes(c.n)&&!CHEAT.criador)).map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id).filter(k=>k!==playerKey&&k!==resKey));
   for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}return pool;}
-/* Torre Personalizada: o jogador escolhe os 12 oponentes, na ordem das lutas */
-const TWC_N=12;
+/* Torre Personalizada: o jogador escolhe de 1 a 15 oponentes, na ordem das lutas */
+const TWC_N=15;
 function twCustomPick(playerKey,resKey,done){let O=document.getElementById('twCustom');if(!O){O=document.createElement('div');O.id='twCustom';O.className='twc';O.setAttribute('role','dialog');O.setAttribute('aria-label','Torre Personalizada');document.body.appendChild(O);}
   const cache={},F=k=>cache[k]||(cache[k]=fighterFrom(k));
   const all=D.canon.filter(c=>!(typeof KR_SOON!=='undefined'&&KR_SOON.includes(c.n)&&!CHEAT.criador)).map(c=>'c:'+c.n).concat(roster.map(c=>'u:'+c.id)).filter(k=>F(k));
   let sel=[];/* não guarda a montagem: cada torre personalizada começa vazia */try{localStorage.removeItem('forja_mk_twcustom')}catch(e){}
   const pic=k=>portrait(F(k),'twc-p');
-  const render=()=>{const full=sel.length===TWC_N;LS.set('forja_mk_twcustom',sel);
-    O.innerHTML=`<div class="twc-in"><header class="twc-h"><button type="button" class="twc-back" data-a="back">‹ Voltar</button><div><h2>Torre Personalizada</h2><p>Toque nos lutadores para montar as 12 lutas, na ordem. Pode repetir o mesmo lutador, inclusive o seu. A luta 12 é a final. Toque numa luta para tirar.</p></div></header>
-      <div class="twc-slots">${Array.from({length:TWC_N},(_,i)=>{const k=sel[i];return `<button type="button" class="twc-s${k?' on':''}${i===TWC_N-1?' fin':''}" data-s="${i}" aria-label="Luta ${i+1}${k?': '+esc(F(k).nome):' vazia'}"><span class="twc-n">${i===TWC_N-1?'Final':i+1}</span>${k?pic(k)+`<b>${esc(F(k).nome)}</b>`:''}</button>`}).join('')}</div>
-      <div class="twc-bar"><button type="button" class="f-btn" data-a="rnd">Completar aleatório</button><button type="button" class="f-btn" data-a="clr">Limpar</button><button type="button" class="f-btn big twc-go" data-a="go" ${full?'':'disabled'}>Começar (${sel.length}/${TWC_N})</button></div>
+  const render=()=>{const ok=sel.length>0,last=sel.length-1;
+    O.innerHTML=`<div class="twc-in"><header class="twc-h"><button type="button" class="twc-back" data-a="back">‹ Voltar</button><div><h2>Torre Personalizada</h2><p>Toque nos lutadores para montar as lutas, na ordem: de 1 até ${TWC_N}. Pode repetir o mesmo lutador, inclusive o seu. A última que você escolher é a final. Toque numa luta para tirar.</p></div></header>
+      <div class="twc-slots">${Array.from({length:TWC_N},(_,i)=>{const k=sel[i];return `<button type="button" class="twc-s${k?' on':''}${k&&i===last?' fin':''}" data-s="${i}" aria-label="Luta ${i+1}${k?': '+esc(F(k).nome):' vazia'}"><span class="twc-n">${k&&i===last&&last>0?'Final':i+1}</span>${k?pic(k)+`<b>${esc(F(k).nome)}</b>`:''}</button>`}).join('')}</div>
+      <div class="twc-bar"><button type="button" class="f-btn" data-a="rnd">Completar aleatório</button><button type="button" class="f-btn" data-a="clr">Limpar</button><button type="button" class="f-btn big twc-go" data-a="go" ${ok?'':'disabled'}>Começar (${sel.length} ${sel.length===1?'luta':'lutas'})</button></div>
       <div class="twc-grid">${all.map(k=>{const n=sel.filter(x=>x===k).length;return `<button type="button" class="twc-t${n?' used':''}" data-k="${esc(k)}">${pic(k)}<b>${esc(F(k).nome)}</b>${n?`<i>${n>1?n+'×':'✓'}</i>`:''}</button>`}).join('')}</div></div>`;};
   O.onclick=e=>{const b=e.target.closest('button');if(!b||b.disabled)return;
-    if(b.dataset.k){const k=b.dataset.k;if(sel.length<TWC_N){sel.push(k);try{SFX.say(F(k).nome,true)}catch(_){}}else{SFX.clang();toast('As 12 lutas já estão preenchidas. Toque numa luta para trocar.');return}SFX.tick();const y=O.scrollTop;render();O.scrollTop=y;return}
+    if(b.dataset.k){const k=b.dataset.k;if(sel.length<TWC_N){sel.push(k);try{SFX.say(F(k).nome,true)}catch(_){}}else{SFX.clang();toast('Já são '+TWC_N+' lutas, o máximo. Toque numa luta para tirar.');return}SFX.tick();const y=O.scrollTop;render();O.scrollTop=y;return}
     if(b.dataset.s!==undefined){const i=+b.dataset.s;if(sel[i]){sel.splice(i,1);SFX.tick();const y=O.scrollTop;render();O.scrollTop=y;}return}
     const a=b.dataset.a;
     if(a==='rnd'){const rest=all.filter(k=>!sel.includes(k));for(let i=rest.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[rest[i],rest[j]]=[rest[j],rest[i]];}while(sel.length<TWC_N&&rest.length)sel.push(rest.pop());SFX.whoosh();render();return}
