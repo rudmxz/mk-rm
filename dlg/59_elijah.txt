@@ -1,0 +1,539 @@
+=Elijah|Elijah
+A: Um reflexo meu. Pelo menos bem vestido. / Igualmente educado. / Então lutaremos com educação.
+A: Qual de nós é o verdadeiro? / O que cumprir a palavra. / Então somos os dois.
+
+=Elijah|Rebekah
+A: Rebekah. Não precisamos fazer isso. / Precisamos sim. Você sempre fica do lado do Nik. / Eu fico do lado da família.
+A: Seu temperamento ainda vai te matar. / Meu temperamento é o que me mantém viva. / Então use com sabedoria.
+
+=Rebekah|Elijah
+A: Elijah, ajeita esse terno. Vai sujar de sangue. / O sangue será seu, irmã. / Que cavalheiro.
+A: Você sempre perdoa o Nik. / Alguém precisa. / Eu não preciso.
+
+=Elijah|Khameleon
+A: Uma guerreira invisível. Que elegante. / Elegante e mortal. / Assim como eu.
+A: Mostre-se, por favor. / Educação não me fará aparecer. / Pena.
+
+=Khameleon|Elijah
+A: Um vampiro de terno. Estranho. / Eu prefiro dizer refinado. / Estranho e refinado.
+A: Você arranca corações. / Com uma mão. / Eu vou arrancar com cinco armas.
+
+=Elijah|Chameleon
+A: Sete guerreiros num só. Admirável. / Um só que vence. / Veremos.
+A: Peço que se mostre. / Não. / Então eu procuro com mais atenção.
+
+=Chameleon|Elijah
+A: Vampiro elegante. / Obrigado. / Elegância não me vê.
+A: Você fala de família. Eu não tenho mais. / Sinto muito. / Não sinta.
+
+=Elijah|Cassie Cage
+A: Senhorita Cage. Sua mãe é uma mulher admirável. / E meu pai? / Seu pai é... animado.
+A: Sem piadas, por favor. / Impossível. / Então eu tolero.
+
+=Cassie Cage|Elijah
+A: Elijah! O único vampiro bem vestido aqui. / Agradeço. / Pena que vai amassar.
+A: Você é tipo um mordomo assassino. / Prefiro cavalheiro. / Mordomo cavalheiro.
+
+=Elijah|Kabal
+A: Velocidade impressionante. / E você é lento. / Eu sou preciso.
+A: Você já foi policial. E criminoso. / Depende do dia. / Que inconstante.
+
+=Kabal|Elijah
+A: Um vampiro educado. Que desperdício. / Educação é poder. / Velocidade é poder.
+A: Você limpa as mãos depois de matar? / Sempre. / Que frescura.
+
+=Elijah|Stryker
+A: Policial. Peço desculpas pela bagunça que farei. / Bagunça é crime. / Então serei rápido.
+A: Você é corajoso para um humano. / Coragem é o que eu tenho. / Admirável.
+
+=Stryker|Elijah
+A: Senhor, você está detido. / Por qual motivo? / Arrancar corações em público.
+A: Você é educado. Isso facilita a abordagem. / Agradeço. / Mãos ao alto, então.
+
+=Elijah|Jacqui Briggs
+A: Sargento. Seu pai deve se orgulhar. / Ele se orgulha. / Então lutemos com respeito.
+A: Seus braços são impressionantes. / E os seus são rápidos. / Mais rápidos.
+
+=Jacqui Briggs|Elijah
+A: Um vampiro de terno. Isso é sério? / Muito sério. / Então eu também.
+A: Você parece o mais calmo dos Mikaelson. / Eu sou. / Isso é assustador.
+
+=Elijah|Kitana
+A: Princesa. Uma honra. / Você é educado para um vampiro. / Eu sou educado para qualquer um.
+A: Você também protege sua família. / Sempre. / Então nos entendemos.
+
+=Kitana|Elijah
+A: Um nobre de outro mundo. / Um nobre de mil anos. / Então mostre sua nobreza.
+A: Você tem honra? / Mais do que imagina. / Prove.
+
+=Elijah|Mileena
+A: Senhora. Por favor, feche a boca ao sorrir. / Por quê? / Por respeito ao público.
+A: Você quer um trono. Eu quero paz. / Paz é chata. / Paz é rara.
+
+=Mileena|Elijah
+A: Um vampiro bonito. Delícia. / Peço que mantenha a distância. / Não.
+A: Seu terno vai ficar lindo rasgado. / Meu terno não rasga. / Vamos ver.
+
+=Elijah|Jade
+A: Uma guarda leal. Admiro isso. / Você é leal? / Sempre à minha família.
+A: Seu bastão é preciso. / Assim como suas mãos. / Obrigado.
+
+=Jade|Elijah
+A: Você é calmo demais. / Calma é força. / Calma é perigo.
+A: Lute com honra. / Eu sempre luto. / Prove.
+
+=Elijah|Tanya
+A: Uma traidora. Que lamentável. / Que nobre você é. / Sou o que sou.
+A: Você muda de lado. Eu nunca mudo. / Por isso você sofre. / Por isso eu sou confiável.
+
+=Tanya|Elijah
+A: Um nobre? Que entediante. / Um traidor? Que previsível. / Insolente.
+A: Junte-se a mim. / Eu já tenho uma família. / Sua família te usa.
+
+=Elijah|Skarlet
+A: Uma maga de sangue. Interessante. / Seu sangue é antigo. / E não está disponível.
+A: Você foi criada por um tirano. / E você? / Por outro.
+
+=Skarlet|Elijah
+A: Sangue de original. Que tentação. / Resista. / Nunca resisto.
+A: Você limpa as mãos depois? Que desperdício. / É educação. / É desperdício.
+
+=Elijah|Sheeva
+A: Rainha Shokan. Uma honra. / Um vampiro educado. Que raro. / Sou raro.
+A: Quatro braços. Admiro a técnica. / Admire de perto. / Com prazer.
+
+=Sheeva|Elijah
+A: Um vampiro pequeno. / Pequeno e rápido. / Esmagarei.
+A: Você é educado demais. / Educação não é fraqueza. / Veremos.
+
+=Elijah|Coelho
+A: Um justiceiro. Eu respeito justiça. / Você mata. / Às vezes, por justiça.
+A: Sua faca é rápida. / Suas mãos também. / Mais rápidas.
+
+=Coelho|Elijah
+A: Você é um monstro de terno. / Um monstro honrado. / Isso existe?
+A: Você protege quem? / Minha família. / Eu protegia a minha avó.
+
+=Elijah|Tigre
+A: Um jovem alegre. Que agradável. / Valeu! / Mas o torneio exige seriedade.
+A: Dois gadanhos. Que excesso. / Excesso é bom! / Discordo.
+
+=Tigre|Elijah
+A: Cara, você é tipo um vampiro de filme antigo! / Agradeço. / Mas vou te bater!
+A: Ajeita a gravata! Tá torta! / Não está. / Tá sim! Brincadeira.
+
+=Elijah|Cobra
+A: Um curandeiro antigo. Respeito sua idade. / E eu, a sua. / Somos antigos.
+A: Suas serpentes não me afetam. / Elas sentem o seu sangue. / Que inconveniente.
+
+=Cobra|Elijah
+A: Sua vida é eterna. Vou tomar um pouco. / Não está disponível. / Tudo está.
+A: Você também foi amaldiçoado. / Pela minha mãe. / Família é cruel.
+
+=Elijah|Cabra
+A: Explosivos? Que barulho desnecessário. / Barulho é diversão! / Discordo.
+A: Você perdeu sua irmã. Sinto muito. / Valeu. / Eu também perdi muitos irmãos.
+
+=Cabra|Elijah
+A: Um vampiro elegante! Posso explodir sua gravata? / Não. / Ok, educado.
+A: Você é tão formal. Relaxa! / Nunca relaxo. / Que tédio.
+
+=Elijah|Touro
+A: Uma soldada. Respeito sua disciplina. / E eu respeito sua educação. / Lutemos com respeito.
+A: Suas balas não me ferem. / Mas te irritam. / Um pouco.
+
+=Touro|Elijah
+A: Alvo: vampiro. Munição inútil. / Peço desculpas. / Desculpa aceita. Mão no punho.
+A: Você perdeu alguém? / Muitos. / Eu também.
+
+=Elijah|Lorenzo
+A: Um jovem que voltou dos mortos. Sinto muito. / Por quê? / Porque eu sei como é.
+A: Você carrega muita dor. / Eu sei. / Use-a com sabedoria.
+
+=Lorenzo|Elijah
+A: Você é calmo. Como consegue? / Mil anos de prática. / Eu não tenho mil anos.
+A: Você protege sua família. / Sempre. / Eu não consegui proteger a minha.
+
+=Elijah|Art the Clown
+A: Um palhaço. Que desagradável. / ... / Peço que se retire.
+A: Você não fala? Que alívio. / ... / Mesmo assim, desagradável.
+
+=Art the Clown|Elijah
+A: ... / Por favor, abaixe a serra. / ...
+A: ... / Isso é uma buzina? Que vulgar. / ...
+
+=Elijah|Freddy Krueger
+A: Um assassino de sonhos. Que covarde. / Covarde? Eu entro na sua cabeça. / Minha cabeça é organizada.
+A: Luva de lâminas. Que deselegante. / Elegante é ser eficiente. / Discordo.
+
+=Freddy Krueger|Elijah
+A: Um vampiro de terno. Que pesadelo chato. / Peço desculpas. / Não peça, apanhe.
+A: Qual é o seu pesadelo? A família desmoronando? / ...Silêncio. / Hehehe, acertei.
+
+=Elijah|Jason Voorhees
+A: Um assassino silencioso. Respeito a eficiência. / ... / Mas não a máscara.
+A: Você não cansa? / ... / Nem eu.
+
+=Jason Voorhees|Elijah
+A: ... / Peço que abaixe o facão. / ...
+A: ... / Muito bem. Então lutemos. / ...
+
+=Elijah|Stefan
+A: Stefan. Sempre educado. / Você também, Elijah. / Então será uma luta civilizada.
+A: Você tentou ajudar meu irmão. / E ele me destruiu. / Ele destrói a todos. Sinto muito.
+
+=Stefan|Elijah
+A: Elijah. O único original em quem eu confio. / Agradeço. / Mas hoje lutamos.
+A: Você sempre cumpre a palavra. / Sempre. / Então prometa não me matar.
+
+=Elijah|Damon
+A: Damon. Sempre tão... você. / Obrigado. / Não foi elogio.
+A: Seu sarcasmo é cansativo. / Seu terno é cansativo. / Meu terno é impecável.
+
+=Damon|Elijah
+A: Elijah! O original que limpa as mãos depois de matar. / Educação. / Frescura.
+A: Você ainda faz acordos? / Sempre. / Então faz um: perde pra mim.
+
+=Elijah|Bonnie
+A: Senhorita Bennett. Uma bruxa poderosa. / Você é um original perigoso. / Somos respeitosos, então.
+A: Sua magia não me assusta. / Deveria. / Talvez.
+
+=Bonnie|Elijah
+A: Elijah. Você é diferente dos seus irmãos. / Eu tento ser. / Mas ainda é um original.
+A: Não me obrigue a usar magia. / Não obrigarei. / Então lute com as mãos.
+
+=Elijah|Lexi
+A: Uma vampira alegre. Que agradável. / Você é sempre tão formal? / Sempre.
+A: Você ajudou Stefan. Admiro isso. / E você? / Tentei ajudar meu irmão.
+
+=Lexi|Elijah
+A: Elijah, relaxa um pouco. / Não sei relaxar. / Eu ensino.
+A: Seu terno é lindo. / Agradeço. / Pena que vai rasgar.
+
+=Elijah|Katherine Pierce
+A: Katerina. Quinhentos anos. / Elijah. Ainda bonito. / Ainda perigosa.
+A: Você me traiu. / Eu sobrevivi. / Às custas de quem?
+
+=Katherine Pierce|Elijah
+A: Elijah, você ainda pensa em mim? / Às vezes. / Mentiroso.
+A: Lute comigo como antes. / Antes eu te amava. / E agora?
+
+=Elijah|Sonya Blade
+A: Comandante. Admiro sua liderança. / E eu admiro sua educação. / Lutemos com honra.
+A: Suas armas não me ferem. / Mas te atrasam. / Um pouco.
+
+=Sonya Blade|Elijah
+A: Vampiro original. Nível de ameaça: extremo. / Peço desculpas. / Não peça. Renda-se.
+A: Você é educado demais pra um assassino. / Educação é tudo. / Não é eficiente.
+
+=Elijah|Jax
+A: Major. Seus braços são impressionantes. / E suas mãos são assassinas. / Ambas são.
+A: Você protege sua filha. Eu protejo minha família. / Então nos entendemos. / Na luta, não.
+
+=Jax|Elijah
+A: Um vampiro de terno? Que coisa. / Elegância é poder. / Força é poder.
+A: Você é o mais calmo da família? / Sim. / Imagina os outros.
+
+=Elijah|Kano
+A: Um mercenário. Que vulgar. / Um vampiro metido. / Um vampiro educado.
+A: Seu olho laser é deselegante. / Mas funciona. / Às vezes.
+
+=Kano|Elijah
+A: Quanto vale um vampiro de terno? / Mais do que você pode pagar. / Vamos ver.
+A: Você limpa as mãos? Que frescura. / Que higiene. / Mesma coisa.
+
+=Elijah|Ana Letícia
+A: Uma dama perigosa. / Um cavalheiro perigoso. / Somos parecidos.
+A: Você mente bem. / Você compele bem. / Somos eficientes.
+
+=Ana Letícia|Elijah
+A: Que homem elegante. Rico? / Mil anos de herança. / Casa comigo.
+A: Me ensina a ser educada assim? / Não se ensina. Se nasce. / Grosso.
+
+=Elijah|Vega
+A: Uma agente paranormal. Admiro sua coragem. / Admiro sua educação. / Lutemos.
+A: Você sacrificou o corpo pelos amigos. / Faria de novo. / Eu faria pela família.
+
+=Vega|Elijah
+A: Vampiro original, o mais educado. Isso é raro. / Sou raro. / E perigoso.
+A: Você protege a família a qualquer custo. / Sempre. / Isso é perigoso.
+
+=Elijah|Teresa
+A: Uma mulher ambiciosa. Admiro. / Um homem rico. Admiro mais. / Que sincera.
+A: Você mente para subir. Eu cumpro a palavra. / Por isso você não subiu mais. / Discordo.
+
+=Teresa|Elijah
+A: Um cavalheiro. Que raro. / Uma dama. Que raro. / Somos raros.
+A: Você me lembraria um cliente perfeito. / Eu não preciso de advogada. / Todos precisam.
+
+=Elijah|Rudolf
+A: O filho da princesa. Uma honra. / Você é o Mikaelson educado? / O único.
+A: Seus leques de fogo. Cuidado com o terno. / Eu queimo de propósito. / Que deselegante.
+
+=Rudolf|Elijah
+A: Um vampiro de terno? Estiloso! / Agradeço. / Pena que vou queimar.
+A: Você arranca corações e limpa as mãos? / Sempre. / Que limpinho.
+
+=Elijah|Sub-Zero
+A: Mestre do gelo. Respeito sua disciplina. / Eu respeito sua. / Lutemos.
+A: Seu gelo não me mata. / Mas te atrasa. / Um pouco.
+
+=Sub-Zero|Elijah
+A: Você tem honra. / Sempre. / Então lute com ela.
+A: Disciplina é força. / Concordo. / Prove.
+
+=Elijah|Scorpion
+A: Um guerreiro que voltou pela família. / Você entende? / Perfeitamente.
+A: Sua vingança é justa. / E sua lealdade? / Eterna.
+
+=Scorpion|Elijah
+A: Você protege seu irmão mesmo quando ele erra. / Sempre. / Isso é honra ou loucura?
+A: Venha cá. / Com prazer. / Educado até no inferno.
+
+=Elijah|Baraka
+A: Um tarkatano. Que dentes. / Venha ver. / Prefiro manter distância.
+A: Suas lâminas são primitivas. / Mas cortam. / Minhas mãos também.
+
+=Baraka|Elijah
+A: Um vampiro de terno. Que estranho. / Que elegante. / Que comestível.
+A: Seu sangue é antigo. / E não está disponível. / Vou pegar.
+
+=Elijah|Raiden
+A: Um deus. Que honra. / Você tem honra? / Mais do que imagina.
+A: Seus raios não me matam. / Mas te ferem. / Um pouco.
+
+=Raiden|Elijah
+A: Você protege sua família. / Sempre. / Então lute com sabedoria.
+A: Sua alma é dividida. / Entre o monstro e o nobre. / Escolha o nobre.
+
+=Elijah|Geras
+A: O tempo. Que adversário interessante. / Eu sou o tempo. / Eu tenho mil anos dele.
+A: Você já viu minhas versões? / Todas educadas. / Que alívio.
+
+=Geras|Elijah
+A: Em todas as linhas, você morre pelo irmão. / Eu sei. / E aceita?
+A: O tempo não se importa com honra. / Eu me importo. / Isso basta?
+
+=Elijah|Johnny Cage
+A: Um ator. Que divertido. / Um vampiro de terno. Que clássico. / Obrigado.
+A: Por favor, menos poses. / Pose é minha arte. / Arte questionável.
+
+=Johnny Cage|Elijah
+A: Cara, você é tipo um vampiro de filme dos anos 90! / Agradeço. / E ainda assim vou te bater!
+A: Você daria um ótimo mordomo no meu filme! / Eu não sou mordomo. / Ah, ok.
+
+=Elijah|Ladybug
+A: Uma heroína. Que agradável. / Você é um herói? / Às vezes.
+A: Seu ioiô é preciso. / Assim como suas mãos. / Obrigado.
+
+=Ladybug|Elijah
+A: Você machuca pessoas. / Às vezes, por necessidade. / Isso não é justo.
+A: Vamos lutar com justiça. / Sempre. / Combinado.
+
+=Elijah|Conan
+A: Um bárbaro. Que vigor. / Por Crom! / Por educação, por favor.
+A: Sua espada é pesada. Minhas mãos, não. / Aço vence mão. / Prove.
+
+=Conan|Elijah
+A: Um guerreiro de pano fino. / Pano fino, mãos de aço. / Lute!
+A: Por Crom, você fala bonito. / Agradeço. / Mas lute feio!
+
+=Elijah|Cyrax
+A: Uma máquina. Que eficiente. / Analisando. / Analise com respeito.
+A: Você foi humano. / Lembrança arquivada. / Que triste.
+
+=Cyrax|Elijah
+A: Alvo: original. Ameaça: extrema. / Peço desculpas. / Desculpa irrelevante.
+A: Velocidade: acima do padrão. / Agradeço. / Eliminação.
+
+=Elijah|Ermac
+A: Muitas almas. Que fardo. / Nós somos muitos. / Eu sou um só. Mas honrado.
+A: Você foi escravo. / Nós lembramos. / Eu também lembro de muita coisa.
+
+=Ermac|Elijah
+A: Nós sentimos lealdade em você. / Sempre à família. / Nós somos uma família.
+A: Junte-se a nós. / Eu já tenho uma família. / Ela te destrói.
+
+=Elijah|General Shao
+A: Um conquistador. Que vulgar. / Vulgar? Eu sou rei. / Rei vulgar.
+A: Seu martelo é deselegante. / É poder. / Poder sem classe.
+
+=General Shao|Elijah
+A: Um vampiro de terno. Ridículo. / Ridículo e mortal. / Ajoelhe-se.
+A: Você será meu servo. / Eu não sirvo. / Vai servir.
+
+=Elijah|Ashrah
+A: Uma caçadora de demônios. Eu sou um? / Você tem trevas. / Mas também luz.
+A: Sua espada purifica. / Sim. / Tente.
+
+=Ashrah|Elijah
+A: Sua alma é dividida. / Eu sei. / Escolha a luz.
+A: Você pode ser redimido. / Eu tento todo dia. / Continue.
+
+=Elijah|Ghostface
+A: Um mascarado. Que vulgar. / Qual seu filme de terror favorito? / Nenhum. Eu vivo um.
+A: Sua faca é deselegante. / Eficiente. / Deselegante.
+
+=Ghostface|Elijah
+A: Alô? Tô atrás de você. / Eu sei. Você respira alto. / Que chato.
+A: Vampiros de terno morrem primeiro. / Não este. / Veremos.
+
+=Elijah|Havik
+A: Caos. Que desagradável. / Caos é tudo! / Ordem é tudo.
+A: Seu pescoço é perturbador. / É lindo! / Perturbador.
+
+=Havik|Elijah
+A: Um homem de ordem! Odeio! / Eu tolero. / Eu não.
+A: Deixa eu bagunçar seu terno! / Nunca. / Que pena.
+
+=Elijah|Homelander
+A: Um herói. Que falso. / Um vampiro. Que fraco. / Fraco? Veremos.
+A: Seu sorriso é mentira. / E o seu? / O meu é educação.
+
+=Homelander|Elijah
+A: Um vampiro educado. Que fofo. / Agradeço. / Não foi elogio.
+A: Eu sou o mais forte. / Força sem honra é nada. / Honra é fraqueza.
+
+=Elijah|Li Mei
+A: Uma guerreira honrada. / Assim como você. / Lutemos.
+A: Seus punhos brilham. / E suas mãos são rápidas. / Obrigado.
+
+=Li Mei|Elijah
+A: Você é gentil para um vampiro. / Eu tento. / Continue tentando.
+A: Vamos lutar com honra. / Sempre. / Combinado.
+
+=Elijah|Liu Kang
+A: Deus do Fogo. Uma honra. / Você tem honra? / Sempre.
+A: Você reescreveu o tempo. Minha família está em paz? / Está. / Então valeu a pena.
+
+=Liu Kang|Elijah
+A: Você sacrificou tudo pelo irmão. / Faria de novo. / Isso é amor ou loucura?
+A: Sua nobreza é rara. / Eu tento. / Continue.
+
+=Elijah|Kung Lao
+A: Um chapéu cortante. Que criativo. / Obrigado. / Mas deselegante.
+A: Você é arrogante. / Você também. / Sou educado.
+
+=Kung Lao|Elijah
+A: Um vampiro de terno. Isso vai ser rápido. / Para mim. / Ha.
+A: Meu chapéu corta terno. / Meu terno não rasga. / Veremos.
+
+=Elijah|Kenshi
+A: Um espadachim cego. Admiro sua técnica. / Eu sinto sua calma. / É real.
+A: Você não vê meu terno. Que pena. / Eu sinto o seu orgulho. / Também real.
+
+=Kenshi|Elijah
+A: Sua mente é organizada. / Mil anos de prática. / Respeito.
+A: Você esconde muita dor. / Todos escondem. / Você esconde mais.
+
+=Elijah|Omni-Man
+A: Um viltrumita. Que arrogante. / Eu sou superior. / Sem classe.
+A: Você conquista. Eu protejo. / Proteger é fraqueza. / É honra.
+
+=Omni-Man|Elijah
+A: Uma criatura antiga e frágil. / Antiga, sim. Frágil, não. / Veremos.
+A: Pense no que você vai ter em mil anos. / Eu já tenho mil. / E está cansado.
+
+=Elijah|Noob Saibot
+A: Uma sombra. Que triste. / Eu sou a escuridão. / Eu sou a luz da minha família.
+A: Você foi Sub-Zero. Que decadência. / Você foi humano. / Melhorei.
+
+=Noob Saibot|Elijah
+A: Sua honra não te salvará. / Ela me guia. / Para o Submundo.
+A: A escuridão é paciente. / Eu também. / Veremos.
+
+=Elijah|Peacemaker
+A: Paz com armas? Que contraditório. / Paz complicada! / Deselegante.
+A: Seu capacete é questionável. / É maravilhoso! / Questionável.
+
+=Peacemaker|Elijah
+A: Um vampiro elegante! Você seria meu parceiro? / Não. / Por quê?
+A: Paz! Mesmo que eu tenha que te estacar! / Não sabe usar estaca. / Ensina?
+
+=Elijah|Nitara
+A: Uma vampira alada. Que elegante. / Você é educado. / Sempre.
+A: Seu reino quer liberdade. / Sim. / Eu entendo.
+
+=Nitara|Elijah
+A: Um vampiro sem asas. Que limitado. / Limitado e rápido. / Ainda limitado.
+A: Seu sangue cura? / Não o seu. / Vou provar.
+
+=Elijah|Quan Chi
+A: Um feiticeiro. Minha mãe era bruxa. Tenho cautela. / Sua mãe era poderosa. / Sim. E cruel.
+A: Necromancia. Que desagradável. / Eficaz. / Desagradável.
+
+=Quan Chi|Elijah
+A: Um original. Que experimento. / Não sou experimento. / Todos são.
+A: Posso controlar você. / Ninguém me controla. / Veremos.
+
+=Elijah|Reiko
+A: Um general obediente. / Lealdade. / Eu respeito lealdade.
+A: Seu martelo contra minhas mãos. / Martelo vence. / Veremos.
+
+=Reiko|Elijah
+A: Shao vai quebrar você. / Shao vai se arrepender. / Insolente.
+A: Ajoelhe-se. / Nunca. / Vai.
+
+=Elijah|Rain
+A: Um príncipe. Que arrogante. / Eu sou realeza. / Eu sou original.
+A: Sua água é inconveniente. / Esse é o objetivo. / Que imaturo.
+
+=Rain|Elijah
+A: Um vampiro educado. Quase nobre. / Mais que nobre. / Arrogante.
+A: Ajoelhe-se diante de um príncipe. / Não. / Que grosseria.
+
+=Elijah|Sektor
+A: Uma máquina. Que deselegante. / Unidade LK-9T9. / Deselegante.
+A: Seus mísseis são barulhentos. / Eficientes. / Barulhentos.
+
+=Sektor|Elijah
+A: Alvo: original. Arsenal insuficiente. / Peço desculpas. / Irrelevante.
+A: Velocidade: acima do padrão. / Agradeço. / Eliminação.
+
+=Elijah|Reptile
+A: Um réptil. Que nojento. / Ssssilêncio. / Que nojento e mal-educado.
+A: Seu ácido contra meu terno. / Ácido vence. / Meu terno é impecável.
+
+=Reptile|Elijah
+A: Um vampiro de terno. / Ssssim. / Que estranho.
+A: Seu sangue é frio também. / Mais frio que o seu. / Ssss.
+
+=Elijah|Shang Tsung
+A: Um ladrão de almas. Que vulgar. / Sua alma é antiga. / E não está disponível.
+A: Você muda de rosto. Eu tenho um só. / Eu poderia ter o seu. / Nunca.
+
+=Shang Tsung|Elijah
+A: Uma alma honrada. Deliciosa. / Não ouse. / Eu ouso tudo.
+A: Você e eu somos parecidos. / Não. Eu cumpro a palavra. / Eu também. Às vezes.
+
+=Elijah|Takeda
+A: Um jovem ninja. Admirável. / Obrigado. / Mas o torneio é sério.
+A: Você lê mentes. Leia a minha. / Muita dor. / E honra.
+
+=Takeda|Elijah
+A: Sua mente é muito organizada. / Mil anos. / Respeito.
+A: Vampiro educado. Isso existe? / Existe. / Então tá.
+
+=Elijah|Smoke
+A: Fumaça. Que elusivo. / Você não me pega. / Eu tenho paciência.
+A: Você some. Eu fico. / Eu volto. / Eu também.
+
+=Smoke|Elijah
+A: Você é educado demais. / Educação é força. / Fumaça não liga.
+A: Fumaça não se arranca o coração. / Mas se dispersa. / Veremos.
+
+=Elijah|T-1000
+A: Uma máquina que imita. Que vulgar. / Imitação: Elijah. / O terno ficou bom.
+A: Metal líquido. Interessante. / Afirmativo. / Mas deselegante.
+
+=T-1000|Elijah
+A: Alvo: original. Imortal. / Exato. / Recalculando.
+A: Imitando: lenço. / Isso é meu. / Ajustando.
+
+=Elijah|Sindel
+A: Rainha Sindel. Uma honra. / Um vampiro educado. Que raro. / Sou raro.
+A: Seu grito é poderoso. / Assim como sua educação. / Agradeço.
+
+=Sindel|Elijah
+A: Um nobre de outro mundo. / Um nobre de mil anos. / Então ajoelhe-se.
+A: Meu grito vai quebrar você. / Eu me curo. / Veremos.

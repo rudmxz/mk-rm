@@ -1,0 +1,531 @@
+=Rebekah|Rebekah
+A: Outra de mim? Finalmente alguém com bom gosto. / E com o mesmo péssimo temperamento. / Isso vai ser divertido.
+A: Uma de nós vai acabar num caixão. / O Nik adoraria. / Então nenhuma.
+
+=Rebekah|Khameleon
+A: Invisível? Que tímida. / Estratégica. / Tímida.
+A: Você copia guerreiras. Me copia. / Não vale a pena. / Que grosseria.
+
+=Khameleon|Rebekah
+A: Uma vampira loira e arrogante. / Uma lagartixa invisível. / Insolente.
+A: Você ficou anos num caixão? / Décadas. / Eu fiquei séculos sozinha.
+
+=Rebekah|Chameleon
+A: Sete cores? Escolhe uma, querido. / Não. / Que indeciso.
+A: Você copia os outros. Eu sou original. / Literalmente. / Exatamente.
+
+=Chameleon|Rebekah
+A: Vampira original. Fraca. / Fraca? Mil anos de força. / Mil anos dormindo.
+A: Seus irmãos te prenderam. / E eu escapei. / Ainda.
+
+=Rebekah|Cassie Cage
+A: Uma soldadinha engraçada. Que irritante. / Uma vampira mandona. Que clichê. / Cuidado.
+A: Suas balas me fazem cócegas. / Então vou atirar mais. / Atire.
+
+=Cassie Cage|Rebekah
+A: Rebekah! Você é tipo a Regina George dos vampiros! / Quem? / Esquece. Foi elogio.
+A: Seu irmão é o Klaus? Sinto muito. / Obrigada. Sério. / Agora apanha.
+
+=Rebekah|Kabal
+A: Velocidade humana. Que fofo. / Eu sou mais rápido. / Ninguém é mais rápido que uma original.
+A: Você respira por um tubo? Que deprimente. / Você dormiu num caixão. / Golpe baixo.
+
+=Kabal|Rebekah
+A: Vampira arrogante. / Original. Corrija. / Tanto faz.
+A: Seu irmão te guardava no caixão? / Muitas vezes. / Faz sentido.
+
+=Rebekah|Stryker
+A: Um policial. Que fofo. / Senhora, você está detida. / Por qual crime?
+A: Algemas não me prendem. / Granadas, talvez. / Ah, isso pode doer.
+
+=Stryker|Rebekah
+A: Acidente na ponte Wickery. Você tem envolvimento? / ...Talvez. / Então você está presa.
+A: Mãos ao alto, senhora. / Senhorita. / Mãos ao alto, senhorita.
+
+=Rebekah|Jacqui Briggs
+A: Braços de metal? Que feios. / Eficientes. / Feios.
+A: Você é muito séria. / Sargento. / Que tédio.
+
+=Jacqui Briggs|Rebekah
+A: Vampira original. Meu foguete vai adorar. / Que grosseira. / Que mira.
+A: Você parece a mais brava da família. / Eu sou. / Isso me preocupa.
+
+=Rebekah|Kitana
+A: Princesa. Eu também sou realeza. / De onde? / De mil anos de história.
+A: Seus leques são bonitos. / Cortam. / Minha adaga também.
+
+=Kitana|Rebekah
+A: Uma princesa vampira. Interessante. / Original. / Então mostre sua força.
+A: Seus irmãos te traíram também? / O tempo todo. / Os meus também.
+
+=Rebekah|Mileena
+A: Que boca horrível. / Que cabelo bonito. Vou arrancar. / Tenta.
+A: Você quer o trono da irmã. Eu entendo. / Você quer o trono do irmão? / Quero a liberdade dele.
+
+=Mileena|Rebekah
+A: Uma vampira! Eu também bebo sangue. / Com essa boca? Que bagunça. / Bagunça é divertido.
+A: Seu irmão te prendia. O meu pai me odiava. / Somos parecidas. / Não muito.
+
+=Rebekah|Jade
+A: A guarda fiel. Que tédio. / Lealdade não é tédio. / É escravidão bonita.
+A: Seu bastão contra minha adaga. / O bastão é mais longo. / A adaga é mais mortal.
+
+=Jade|Rebekah
+A: Você é impulsiva. / Eu sou apaixonada. / É a mesma coisa.
+A: Lute com disciplina. / Disciplina é para soldados. / Então perca.
+
+=Rebekah|Tanya
+A: Uma traidora. Eu conheço o tipo. / Você também trai. / Por amor.
+A: Você muda de lado. / E você muda de namorado. / Que grosseira.
+
+=Tanya|Rebekah
+A: Uma vampira mimada. / Mimada? Fui guardada num caixão. / Mimada num caixão.
+A: Junte-se a mim. / Eu não me junto a ninguém. / Patético.
+
+=Rebekah|Skarlet
+A: Maga de sangue. Você bebe também? / Eu me banho. / Que exagero.
+A: Você foi criada por um tirano. / E você? / Por dois.
+
+=Skarlet|Rebekah
+A: Sangue de original. Que delícia. / Não está disponível. / Tudo está.
+A: Você também odeia quem te criou. / Odeio meu pai. Meu irmão eu só detesto. / Que família.
+
+=Rebekah|Sheeva
+A: Quatro braços. Que exagero. / Que poder. / Que exagero.
+A: Rainha Shokan. Eu sou princesa original. / Princesa? / De mil anos.
+
+=Sheeva|Rebekah
+A: Uma vampira pequena. / Pequena e forte. / Esmagarei.
+A: Seus irmãos te deixam? / Eles me prendem. / Eu esmago irmãos.
+
+=Rebekah|Coelho
+A: Um justiceiro com faca. Que fofo. / Você mata inocentes. / Às vezes.
+A: Seus anéis são bonitos. / O seu também. / O meu protege do sol.
+
+=Coelho|Rebekah
+A: Você é cruel. / Eu sou apaixonada. / É a mesma coisa.
+A: Você tem família? / Infelizmente. / Valoriza.
+
+=Rebekah|Tigre
+A: Para de rir. / Mas você é engraçada! / Eu sou aterrorizante.
+A: Dois gadanhos? Que exagero. / Exagero é bom! / Às vezes.
+
+=Tigre|Rebekah
+A: Uma vampira loira! Bora fazer festa! / Eu sou rainha do baile. / Melhor ainda!
+A: Seu irmão é o Klaus? Que tenso. / Muito. / Tadinha.
+
+=Rebekah|Cobra
+A: Curandeiro antigo. Mais velho que eu? / Muito mais. / Que irritante.
+A: Serpentes. Que primitivo. / Lobos também. / Eu não sou lobo. O Nik é.
+
+=Cobra|Rebekah
+A: Sua vida é longa. Vou tomar um pouco. / Não ouse. / Eu ouso.
+A: Você também foi amaldiçoada. / Pela minha mãe. / Família é cruel.
+
+=Rebekah|Cabra
+A: Explosivos? Que barulho. / Diversão! / Barulho.
+A: Você perdeu a irmã. Eu perdi irmãos. / Sinto muito. / Eu também. Às vezes.
+
+=Cabra|Rebekah
+A: Posso explodir o caixão do seu irmão? / Por favor. / Combinado!
+A: Você é tão brava! / Mil anos de motivo. / Faz sentido.
+
+=Rebekah|Touro
+A: Uma soldada. Que dura. / Mais dura que você. / Duvido.
+A: Suas balas não me ferem. / Mas te irritam. / Muito.
+
+=Touro|Rebekah
+A: Alvo: vampira original. Munição inútil. / Exato. / Então punho.
+A: Você perdeu o amor? / Muitas vezes. / Eu também.
+
+=Rebekah|Lorenzo
+A: Um garoto triste. Que fofo. / Eu morri. / Eu também. Mais ou menos.
+A: Você precisa de diversão. / Eu preciso de paz. / Diversão é paz.
+
+=Lorenzo|Rebekah
+A: Você é cruel. / Eu sou sincera. / Isso não é a mesma coisa.
+A: Você quer uma vida normal? / Mais que tudo. / Eu também queria.
+
+=Rebekah|Art the Clown
+A: Um palhaço. Que horrível. / ... / Fecha esse sorriso.
+A: Serra? Que deselegante. / ... / Pelo menos você não fala.
+
+=Art the Clown|Rebekah
+A: ... / Não me dê balão! / ...
+A: ... / Que nojento. / ...
+
+=Rebekah|Freddy Krueger
+A: Um assassino de sonhos. Que cafona. / Qual é o seu pesadelo, docinho? O caixão? / ...Cala a boca.
+A: Luva de lâminas? Que cafona. / Funciona. / Cafona.
+
+=Freddy Krueger|Rebekah
+A: Uma vampira loira. Vou te prender no caixão do sonho. / Isso não tem graça. / Pra mim tem.
+A: Seu irmão te ama? / Do jeito dele. / Hehehe. Que jeito.
+
+=Rebekah|Jason Voorhees
+A: Um assassino silencioso. Que alívio. / ... / Pelo menos não fala.
+A: Máscara de hóquei. Que feio. / ... / Ok, vamos lutar.
+
+=Jason Voorhees|Rebekah
+A: ... / Para de andar devagar! / ...
+A: ... / Facão contra adaga. Vamos. / ...
+
+=Rebekah|Stefan
+A: Stefan. Lembra dos anos vinte? / Eu lembro agora. / Éramos felizes.
+A: Você escolheu a Elena. / Eu escolhi o que era certo. / Que tédio.
+
+=Stefan|Rebekah
+A: Rebekah. Não quero brigar com você. / Mas vai. / Infelizmente.
+A: Você merecia uma vida normal. / Ainda mereço. / Então para de brigar.
+
+=Rebekah|Damon
+A: Damon. Sempre tão irritante. / Sempre tão loira. / Isso não é insulto.
+A: Você me usou uma vez. / E você me usou de volta. / Justo.
+
+=Damon|Rebekah
+A: Rebekah! Ainda brava porque eu te usei? / Muito. / Que rancorosa.
+A: Você ainda quer ser humana? / Quero. / Que entediante.
+
+=Rebekah|Bonnie
+A: A bruxa Bennett. Que irritante. / A original mimada. Que irritante. / Empate.
+A: Sua magia não me assusta. / Deveria. / Talvez.
+
+=Bonnie|Rebekah
+A: Rebekah, você causou o acidente da Elena. / Foi necessário. / Não foi.
+A: Eu posso te deixar fraca. / Tenta. / Com prazer.
+
+=Rebekah|Lexi
+A: Uma vampira alegre. Que estranho. / Você é sempre brava? / Mil anos de motivo.
+A: Você ajudou o Stefan. / E você estragou ele. / Eu amei ele.
+
+=Lexi|Rebekah
+A: Você é a ex do Stefan? / Uma delas. / Que fila.
+A: Relaxa, loira. / Eu não relaxo. / Que triste.
+
+=Rebekah|Katherine Pierce
+A: Katerina. A doppelgänger que fugiu do Nik. / E você nunca fugiu. / Golpe baixo.
+A: Você roubou o Elijah. / Ele quis ser roubado. / Odeio você.
+
+=Katherine Pierce|Rebekah
+A: Rebekah. Ainda amarga? / Ainda viva. / Por enquanto.
+A: Seu irmão te ama mais que a mim. / Ele odeia você. / Exatamente.
+
+=Rebekah|Sonya Blade
+A: Uma comandante. Que mandona. / Você também. / Eu tenho motivo.
+A: Suas armas não me ferem. / Mas te atrasam. / Que irritante.
+
+=Sonya Blade|Rebekah
+A: Vampira original. Nível de ameaça: alto. / Altíssimo. / Anotado.
+A: Você tem histórico de violência. / Mil anos de histórico. / Isso piora.
+
+=Rebekah|Jax
+A: Braços de metal. Que feios. / Eficientes. / Feios.
+A: Você protege sua filha. Meu pai me caçava. / Sinto muito. / Não sinta.
+
+=Jax|Rebekah
+A: Uma vampira brava. / Original. / Ainda brava.
+A: Você precisa de um pai melhor. / Eu precisava de qualquer pai. / Entendo.
+
+=Rebekah|Kano
+A: Um mercenário. Que vulgar. / Uma vampira metida. / Original.
+A: Seu olho é horrível. / Obrigado. / Não foi elogio.
+
+=Kano|Rebekah
+A: Quanto vale uma vampira original? / Mais do que você vale. / Vamos ver.
+A: Você é muito bonitinha pra lutar. / Eu sou muito perigosa pra você. / Ui.
+
+=Rebekah|Ana Letícia
+A: Uma vilã charmosa. Eu gosto. / Eu também gosto de você. / Que perigo.
+A: Você manipula? Eu também. / Somos parecidas. / Na luta, não.
+
+=Ana Letícia|Rebekah
+A: Que vampira elegante. / Original. / Ainda elegante.
+A: Me ensina a ser tão perigosa? / Mil anos de prática. / Vou precisar de tempo.
+
+=Rebekah|Vega
+A: Uma agente paranormal. Que chato. / Você é paranormal. / Eu sou original.
+A: Você deu o corpo pelos amigos. Que nobre. / Você faria pela família? / Faria. E fiz.
+
+=Vega|Rebekah
+A: Vampira original. Muitas lendas. / Todas verdadeiras. / Isso assusta.
+A: Você quer ser humana? / Mais que tudo. / Talvez um dia.
+
+=Rebekah|Teresa
+A: Uma mulher ambiciosa. Eu gosto. / E uma princesa mimada. / Original.
+A: Você subiu mentindo. Eu nasci no topo. / E caiu várias vezes. / Golpe baixo.
+
+=Teresa|Rebekah
+A: Você nunca trabalhou na vida. / Eu sobrevivi mil anos. / Isso não é trabalho.
+A: Você é rica? / Muito. / Então somos amigas.
+
+=Rebekah|Rudolf
+A: O filho da princesa. Que fofo. / Você é a irmã do Klaus? / Infelizmente.
+A: Seus leques de fogo. Cuidado com meu cabelo. / Eu queimo de propósito. / Que grosseiro.
+
+=Rudolf|Rebekah
+A: A irmã do vampiro dos caixões? / Não me lembre. / Sinto muito.
+A: Fogo contra vampira. Vamos ver. / Fogo me irrita. / Ótimo.
+
+=Rebekah|Sub-Zero
+A: Gelo. Que frio. / Silêncio. / Que mal-humorado.
+A: Lin Kuei. Uma família de assassinos. / Não somos como vocês. / São piores.
+
+=Sub-Zero|Rebekah
+A: Você é impulsiva. / Apaixonada. / Impulsiva.
+A: Disciplina é força. / Paixão é força. / Prove.
+
+=Rebekah|Scorpion
+A: Um homem que voltou pela família. / Você entende? / Perfeitamente.
+A: Venha cá? Eu vou de qualquer jeito. / Ótimo. / Estou indo.
+
+=Scorpion|Rebekah
+A: Você protege sua família? / Às vezes. / Às vezes não é honra.
+A: Você tem fogo nos olhos. / Mil anos de raiva. / Então lute.
+
+=Rebekah|Baraka
+A: Que dentes. / Venha ver. / Prefiro não.
+A: Você é feio. / Você é arrogante. / Eu tenho motivo.
+
+=Baraka|Rebekah
+A: Uma vampira loira. Diferente. / Original. / Comestível.
+A: Seu sangue é antigo. / E não está disponível. / Vou pegar.
+
+=Rebekah|Raiden
+A: Um deus. Que conveniente. / Você é uma aberração. / Uma aberração original.
+A: Seus raios me incomodam. / Esse é o objetivo. / Que imaturo.
+
+=Raiden|Rebekah
+A: Você merece paz. / Eu sei. / Então busque.
+A: Sua família te machuca. / O tempo todo. / Você pode escolher outro caminho.
+
+=Rebekah|Geras
+A: O tempo. Eu perdi décadas num caixão. / Eu sei. / Me devolve?
+A: Areia por todo lado. Que bagunça. / O tempo é bagunça. / O meu é.
+
+=Geras|Rebekah
+A: Em todas as linhas do tempo, você busca amor. / E nunca encontro. / Às vezes encontra.
+A: O tempo não devolve décadas. / Que injusto. / O tempo é injusto.
+
+=Rebekah|Johnny Cage
+A: Um ator. Que cafona. / Uma vampira. Que clichê. / Original.
+A: Seus filmes são horríveis. / Seus irmãos também. / Touché.
+
+=Johnny Cage|Rebekah
+A: Uma vampira loira! Contrata pro meu filme! / Só se eu for a protagonista. / Fechado!
+A: Você é tipo uma rainha de baile malvada! / Eu fui rainha de baile. / Sabia!
+
+=Rebekah|Ladybug
+A: Uma heroína. Que doce. / Você é vilã? / Às vezes.
+A: Seu ioiô contra minha adaga. / Minha sorte contra sua raiva. / Veremos.
+
+=Ladybug|Rebekah
+A: Você machuca pessoas. / Às vezes. / Isso tem que parar.
+A: Vamos lutar com justiça. / Justiça é chata. / Justiça é necessária.
+
+=Rebekah|Conan
+A: Um bárbaro. Eu conheci muitos. / Por Crom! / Por Odin, na minha época.
+A: Sua espada é pesada. / Minha força também. / Veremos.
+
+=Conan|Rebekah
+A: Uma guerreira loira. Por Crom! / Original. / Lute!
+A: Você bebe sangue de inimigo? / Às vezes. / Crom aprova.
+
+=Rebekah|Cyrax
+A: Uma máquina. Que tédio. / Analisando. / Analise rápido.
+A: Você foi humano. / Lembrança arquivada. / Eu também arquivo. Com raiva.
+
+=Cyrax|Rebekah
+A: Alvo: original. Ameaça: alta. / Altíssima. / Eliminação.
+A: Emoções detectadas: raiva. / Mil anos dela. / Ineficiente.
+
+=Rebekah|Ermac
+A: Muitas almas. Que bagunça. / Nós somos muitos. / Eu sou uma e valho mais.
+A: Você foi escravo. / Nós lembramos. / Eu também fui. Num caixão.
+
+=Ermac|Rebekah
+A: Nós sentimos solidão em você. / Vocês não sentem nada. / Nós sentimos tudo.
+A: Junte-se a nós. / Nunca. / Por isso está só.
+
+=Rebekah|General Shao
+A: Um conquistador. Que vulgar. / Uma vampira. Que fraca. / Fraca? Veremos.
+A: Seu martelo é feio. / É poder. / Poder feio.
+
+=General Shao|Rebekah
+A: Uma vampira loira. Ridícula. / Original. / Ajoelhe-se.
+A: Você será minha serva. / Eu não sirvo. / Vai servir.
+
+=Rebekah|Ashrah
+A: Caçadora de demônios. Eu sou um? / Você tem trevas. / Todo mundo tem.
+A: Sua espada brilha. / Purifica. / Tente.
+
+=Ashrah|Rebekah
+A: Sua alma é solitária. / Não fala da minha alma. / É verdade.
+A: Você pode ser redimida. / Eu quero ser humana. / É um começo.
+
+=Rebekah|Ghostface
+A: Um mascarado. Que cafona. / Qual seu filme de terror favorito? / Minha família.
+A: Sua faca é pequena. / E certeira. / Pequena.
+
+=Ghostface|Rebekah
+A: Alô? Tô atrás de você. / Eu sei. Você respira alto. / Que chato.
+A: As loiras morrem primeiro. / Eu já morri. Voltei. / Que roteiro chato.
+
+=Rebekah|Havik
+A: Caos. Que interessante. / Caos é tudo! / Às vezes.
+A: Seu pescoço é nojento. / É lindo! / Nojento.
+
+=Havik|Rebekah
+A: Uma vampira brava! Que caos! / Raiva não é caos. / É sim!
+A: Deixa eu bagunçar seu cabelo! / Nunca. / Que pena.
+
+=Rebekah|Homelander
+A: Um herói que ninguém ama de verdade. / Você também. / Golpe baixo.
+A: Seu sorriso é falso. / O seu também. / O meu é sincero. Às vezes.
+
+=Homelander|Rebekah
+A: Uma vampira carente. Familiar. / Não fala de mim. / Somos iguais.
+A: Eu sou o mais forte. / Eu sou a mais brava. / Cuidado.
+
+=Rebekah|Li Mei
+A: Uma guerreira gentil. Que raro. / E uma vampira brava. Nada raro. / Touché.
+A: Seus punhos brilham. / E você vai ver de perto. / Que ameaça adorável.
+
+=Li Mei|Rebekah
+A: Você não precisa ser cruel. / Eu gosto. / Isso é triste.
+A: Lute com honra. / Eu luto para vencer. / Isso não é honra.
+
+=Rebekah|Liu Kang
+A: Deus do Fogo. Me dá uma vida humana? / Não posso. / Então você não serve.
+A: Você reescreveu o tempo. Reescreve meu irmão. / Isso não é possível. / Que pena.
+
+=Liu Kang|Rebekah
+A: Você merece paz. / Eu sei. / Então lute por ela.
+A: Sua raiva é antiga. / Mil anos. / É hora de soltar.
+
+=Rebekah|Kung Lao
+A: Um chapéu com lâmina. Que cafona. / Arma ancestral. / Cafona.
+A: Você é arrogante. / Você também. / Eu tenho motivo.
+
+=Kung Lao|Rebekah
+A: Uma vampira loira. Vai ser rápido. / Para mim. / Ha.
+A: Meu chapéu corta cabelo. / Encosta no meu cabelo e você morre. / Ok.
+
+=Rebekah|Kenshi
+A: Um espadachim cego. Que poético. / Eu sinto sua raiva. / Ela é grande.
+A: Você não vê meu rosto. Que perda. / Eu sinto o suficiente. / Que pena.
+
+=Kenshi|Rebekah
+A: Sua mente é cheia de abandono. / Fica fora da minha mente. / É barulhenta.
+A: Você quer amor. / Todo mundo quer. / Você quer mais.
+
+=Rebekah|Omni-Man
+A: Um viltrumita. Outro pai horrível. / Cuidado. / Eu reconheço o tipo.
+A: Você conquista planetas. Eu conquisto bailes. / Pequeno. / Elegante.
+
+=Omni-Man|Rebekah
+A: Uma criatura antiga e fraca. / Fraca? Original. / Eu sou viltrumita.
+A: Pense no que você vai ter em mil anos. / Eu já tenho mil. / E está sozinha.
+
+=Rebekah|Noob Saibot
+A: Uma sombra. Que deprimente. / Eu sou a escuridão. / Eu sou o sol. Com anel.
+A: Você foi Sub-Zero. Que decadência. / E você foi humana. / Melhorei.
+
+=Noob Saibot|Rebekah
+A: Você também conhece a escuridão. / Num caixão. / Então volte para ela.
+A: O Submundo espera por você. / Ele vai esperar. / Paciência eterna.
+
+=Rebekah|Peacemaker
+A: Um palhaço de capacete. / Uma vampira de cabelo bonito! / Obrigada. Ainda é palhaço.
+A: Paz com armas? Que contraditório. / Paz complicada! / Cafona.
+
+=Peacemaker|Rebekah
+A: Cara, você é tipo uma princesa vampira! / Original. / Melhor ainda!
+A: Paz! Mesmo que eu tenha que te estacar! / Não dá. / Tenho estaca!
+
+=Rebekah|Nitara
+A: Uma vampira com asas. Que exótico. / Eu sou de Vaeternus. / Eu sou original. Mais antiga.
+A: Seu reino quer liberdade. / Sim. / Eu também.
+
+=Nitara|Rebekah
+A: Uma vampira sem asas. Que sem graça. / Com estilo. / Ainda sem graça.
+A: Seu sangue cura? / Não o seu. / Vou provar.
+
+=Rebekah|Quan Chi
+A: Um feiticeiro. Minha mãe era bruxa. Odeio bruxos. / Sua mãe era poderosa. / E cruel.
+A: Necromancia. Que brega. / Eficaz. / Brega.
+
+=Quan Chi|Rebekah
+A: Uma original. Que experimento. / Não sou experimento. / Todos são.
+A: Posso controlar você. / Ninguém me controla. / Ainda.
+
+=Rebekah|Reiko
+A: Um general obediente. Que tédio. / Lealdade. / Escravidão bonita.
+A: Seu martelo contra minha adaga. / Martelo vence. / Veremos.
+
+=Reiko|Rebekah
+A: Shao vai quebrar você. / Shao vai sangrar. / Insolente.
+A: Ajoelhe-se. / Nunca. / Vai.
+
+=Rebekah|Rain
+A: Um príncipe arrogante. / Eu sou realeza. / Eu também.
+A: Sua água estraga meu cabelo. / Esse é o objetivo. / Que imaturo.
+
+=Rain|Rebekah
+A: Uma vampira que se acha princesa. / Eu sou princesa. / De quê?
+A: Ajoelhe-se diante de um príncipe. / Nunca. / Que grosseria.
+
+=Rebekah|Sektor
+A: Uma máquina vermelha. Que brega. / Unidade LK-9T9. / Brega.
+A: Seus mísseis me irritam. / Objetivo. / Que imaturo.
+
+=Sektor|Rebekah
+A: Alvo: original. Arsenal insuficiente. / Exato. / Recalibrando.
+A: Emoções detectadas: raiva. / Muita. / Ineficiente.
+
+=Rebekah|Reptile
+A: Um réptil. Que nojo. / Ssssilêncio. / Nojo e barulho.
+A: Seu ácido contra minha pele. / Ácido vence. / Pele se cura.
+
+=Reptile|Rebekah
+A: Uma vampira brava. / Original. / Ssss.
+A: Você também foi prisioneira. / Num caixão. / Eu numa jaula.
+
+=Rebekah|Shang Tsung
+A: Um ladrão de almas. Que vulgar. / Sua alma é antiga. / E não está à venda.
+A: Você muda de rosto. Eu tenho um perfeito. / Eu poderia ter o seu. / Nunca.
+
+=Shang Tsung|Rebekah
+A: Uma alma de mil anos. Deliciosa. / Não ouse. / Eu ouso.
+A: Você quer ser humana. Eu posso te dar isso. / A que preço? / Sua alma.
+
+=Rebekah|Takeda
+A: Um garoto ninja. Que fofo. / Eu sou guerreiro. / Fofo guerreiro.
+A: Você lê mentes. Leia a minha. / Muita raiva. / Isso é charme.
+
+=Takeda|Rebekah
+A: Sua mente é cheia de solidão. / Fica fora dela. / Tá barulhenta.
+A: Você é muito brava. / Mil anos de motivo. / Faz sentido.
+
+=Rebekah|Smoke
+A: Fumaça. Que elusivo. / Você não me pega. / Eu sou paciente.
+A: Você some. Eu fico. / Eu volto. / Eu também.
+
+=Smoke|Rebekah
+A: Você fala demais. / Você aparece pouco. / Agora apareço.
+A: Fumaça não se apunhala. / Mas se dispersa. / Veremos.
+
+=Rebekah|T-1000
+A: Uma máquina que imita. Que vulgar. / Imitação: Rebekah. / Pelo menos ficou bonita.
+A: Metal líquido. Que interessante. / Afirmativo. / Que entediante.
+
+=T-1000|Rebekah
+A: Alvo: original. Imortal. / Exato. / Recalculando.
+A: Imitando: adaga. / Isso é meu. / Ajustando.
+
+=Rebekah|Sindel
+A: Uma rainha. Eu sou princesa. / Princesa de quê? / De mil anos.
+A: Seu grito é bonito. / É uma arma. / Tudo que é bonito é arma.
+
+=Sindel|Rebekah
+A: Uma princesa sem reino. / Meu reino é minha família. / Pequeno.
+A: Meu grito vai quebrar você. / Eu me curo. / Veremos.

@@ -1,0 +1,555 @@
+=Niklaus|Niklaus
+A: Outro de mim? Finalmente alguém à minha altura. / E igualmente insuportável. / Somos perfeitos.
+A: Um de nós vai acabar num caixão. / Eu tenho a adaga. / Eu também.
+
+=Niklaus|Elijah
+A: Elijah. Vai me apontar a sua moral de novo? / Vou apontar o meu punho, Niklaus. / Que mudança agradável.
+A: Sempre e para sempre, irmão. / Até quando você me apunhala. / Detalhes de família.
+
+=Elijah|Niklaus
+A: Niklaus, você não precisa provar nada. / Preciso provar que sou o mais forte. / Você já provou que é o mais teimoso.
+A: Guarde a adaga, irmão. / Só se você guardar o sermão. / Isso nunca.
+
+=Niklaus|Rebekah
+A: Irmãzinha. Saudades do caixão? / Encoste em mim com essa adaga e eu te queimo vivo. / Que temperamento.
+A: Você sempre foge com o primeiro que aparece. / Eu fujo de você. / Que injusto.
+
+=Rebekah|Niklaus
+A: Nik. Mil anos e você ainda tem medo de ficar sozinho. / Eu não tenho medo de nada. / Então por que guarda a gente em caixões?
+A: Hoje não tem adaga, irmão. Só eu e você. / Que ameaçador. / Ainda não viu nada.
+
+=Niklaus|Caroline
+A: Caroline, amor. Você veio por mim? / Vim te bater. / É quase a mesma coisa.
+A: Eu disse que esperaria. Vou esperar você levantar do chão. / Você vai esperar sentado. / Eu tenho todo o tempo do mundo.
+
+=Caroline|Niklaus
+A: Klaus. Para de me olhar desse jeito. / Que jeito, amor? / Esse. Tipo um pintor esquisito.
+A: Eu não vou cair no seu charme. / Você já caiu uma vez. / Foi um erro de cálculo.
+
+=Niklaus|Khameleon
+A: Uma réptil invisível. Que exótico. / E você, um lobo arrogante. / Prefiro "híbrido original".
+A: Mostre a sua cor verdadeira. / Não tenho. / Que triste. Eu tenho duas naturezas.
+
+=Khameleon|Niklaus
+A: Lobo e vampiro. Uma mistura instável. / Eu sou perfeito. / Perfeito e sozinho.
+A: Sua mordida é veneno? / Para vampiros. Para você, só dor. / Venha provar.
+
+=Niklaus|Chameleon
+A: Sete cores. Eu tenho só uma: dourado. / Dourado é cor de covarde. / Dourado é cor de rei.
+A: Você copia os outros. Eu crio. / Você destrói. / Também crio destruição.
+
+=Chameleon|Niklaus
+A: Um lobo que se acha rei. / Eu sou rei. Nova Orleans prova. / Aqui não é Nova Orleans.
+A: Seus irmãos fogem de você. / Eles sempre voltam. / Eu não volto.
+
+=Niklaus|Cassie Cage
+A: Uma soldadinha que fala demais. / Um vampiro que fala com sotaque. / Charme britânico, amor.
+A: Suas balas não me ferem. / Mas incomodam, né? / Muito.
+
+=Cassie Cage|Niklaus
+A: Klaus! Você é tipo vilão de série que todo mundo ama. / Eu sou o protagonista, amor. / Viu? Vilão.
+A: Esse colar é de verdade ou é de feira? / Tem mil anos. / Parece de feira.
+
+=Niklaus|Kabal
+A: Velocidade humana. Que fofo. / Eu sou mais rápido que você. / Ninguém é mais rápido que um original.
+A: Você respira por um tubo. Que deprimente. / E você respira raiva. / Também.
+
+=Kabal|Niklaus
+A: Um vampiro arrogante. / Um híbrido. Corrija-se. / Tanto faz. Cai do mesmo jeito.
+A: Seus olhos ficam dourados? Que ridículo. / Que assustador, você quer dizer. / Ridículo.
+
+=Niklaus|Stryker
+A: Um policial. Que adorável. / Você está preso. / Já fui preso por mil anos. Num caixão. Não funcionou.
+A: Sua algema não segura um original. / Tenho granada. / Ah, isso pode doer.
+
+=Stryker|Niklaus
+A: Homicídios em série, mil anos. Você tem advogado? / Eu tenho compulsão. / Isso é crime também.
+A: Mãos ao alto. / Que charmoso. Não. / Tentei.
+
+=Niklaus|Jacqui Briggs
+A: Braços de metal? Eu arranco braços de carne. / Esses não arranca. / Desafio aceito.
+A: Militar. Disciplinada. Previsível. / Previsível com foguete. / Isso muda as coisas.
+
+=Jacqui Briggs|Niklaus
+A: Vampiro original? Meu foguete gosta de coisa antiga. / Que grosseira. / Mira certeira.
+A: Para de sorrir. / Por quê? / Porque é irritante.
+
+=Niklaus|Kitana
+A: Princesa de Edênia. Eu também sou realeza. / De onde? / De Nova Orleans, amor.
+A: Seus leques são bonitos. Eu pintaria você. / Pinte depois de perder. / Romântica.
+
+=Kitana|Niklaus
+A: Um rei vampiro. Edênia já teve tiranos demais. / Eu não sou tirano. Sou visionário. / Disse todo tirano.
+A: Você ama sua família? / Do meu jeito. / Seu jeito tem adagas.
+
+=Niklaus|Mileena
+A: Que sorriso, amor. / Gostou? / É quase tão assustador quanto o meu.
+A: Você quer o trono? Eu já tenho um. / Eu quero o seu também. / Que ambiciosa.
+
+=Mileena|Niklaus
+A: Um lobo! Que delícia. / Eu mordo de volta. / Melhor ainda.
+A: Seus dentes são bonitos. Os meus são mais. / São mais numerosos, não mais bonitos. / Grosseiro.
+
+=Niklaus|Jade
+A: A guarda fiel da princesa. Que tédio, lealdade. / Lealdade é força. / Lealdade é fraqueza que alguém explora.
+A: Seu bastão contra as minhas garras. / Meu bastão é mais longo. / Minhas garras são mais rápidas.
+
+=Jade|Niklaus
+A: Você trai sua própria família. / Eu protejo minha família. Do meu jeito. / Com caixões?
+A: Arrogância derruba reis. / Eu nunca caio. / Todos caem.
+
+=Niklaus|Tanya
+A: Tanya. Uma traidora. Que simpatia. / Você também trai. / Eu traio por amor.
+A: Você ia ser útil como híbrida. / Eu não sirvo ninguém. / Ninguém serve. Até servir.
+
+=Tanya|Niklaus
+A: Um rei vampiro? Junte-se a mim. / Eu não me junto. Eu comando. / Então vai comandar o chão.
+A: Sua família te odeia. / Minha família me ama. Só não admite. / Patético.
+
+=Niklaus|Skarlet
+A: Maga de sangue. Eu adoraria uma conversa. / Seu sangue tem gosto de quê? / Poder. Não beba.
+A: Você foi criada por um tirano. Eu também. / Mikael? / Não diga esse nome.
+
+=Skarlet|Niklaus
+A: Sangue de original. Deve ser delicioso. / Ele cura vampiros. E mata você de inveja. / Vou provar.
+A: Você odeia o seu pai. / Ele não era meu pai. / Que conveniente.
+
+=Niklaus|Sheeva
+A: Quatro braços. Eu pintaria você com seis, para dramatizar. / Que insolente. / Que artístico.
+A: Rainha Shokan. Eu também sou rei. / De quê? / De tudo que eu quiser.
+
+=Sheeva|Niklaus
+A: Um vampiro arrogante. / Híbrido, amor. / Esmagarei os dois lados.
+A: Você não teme nada? / Só o abandono. / Vou deixar você sozinho no chão.
+
+=Niklaus|Coelho
+A: Um justiceiro com faca. Que adorável. / Você mata inocentes. / Ninguém é inocente.
+A: Seus anéis são bonitos. Eu tenho um melhor. / O seu protege do sol. / Exato.
+
+=Coelho|Niklaus
+A: Você machuca quem ama. / Eu protejo quem amo. / Com caixões?
+A: Monstros como você eu caço. / Tente. Eu caço há mil anos. / Eu sou paciente.
+
+=Niklaus|Tigre
+A: Para de rir, garoto. / Mas você é engraçado! / Eu sou aterrorizante.
+A: Dois gadanhos. Que exagero. / Exagero é bom! / Eu gosto de exagero.
+
+=Tigre|Niklaus
+A: Um lobisomem! Uiva pra mim! / Não. / Por favor!
+A: Você tem sotaque legal! / Obrigado. / Mas eu vou te bater mesmo assim!
+
+=Niklaus|Cobra
+A: Curandeiro egípcio. Mais velho que eu? / Mais velho e mais paciente. / Paciência é para quem não tem poder.
+A: Serpentes. Que primitivo. / Lobos também. / Touché.
+
+=Cobra|Niklaus
+A: Sua vida é longa. Vou tomar um pouco. / Ela é eterna. / Então tomo devagar.
+A: Você também foi amaldiçoado. / E quebrei a maldição. / Eu não consegui.
+
+=Niklaus|Cabra
+A: Explosivos? Que barulhento. / Eficiente. / Barulhento.
+A: Você perdeu a irmã. Eu perdi a família várias vezes. / Você mesmo causou. / Detalhe.
+
+=Cabra|Niklaus
+A: Um vampiro antigo! Posso hackear seu caixão? / Não toque nos caixões. / Ok, sensível.
+A: Você coleciona irmãos em caixões? Que esquisito. / É amor. / Esquisito.
+
+=Niklaus|Touro
+A: Uma soldada. Que dura. / Mais dura do que você imagina. / Eu imagino muita coisa.
+A: Balas de madeira? / Balas normais. / Ótimo. Não vão me matar.
+
+=Touro|Niklaus
+A: Alvo: vampiro original. Munição inútil. / Exato. / Então eu uso o punho.
+A: Você perdeu alguém? / Muitos. / Eu também.
+
+=Niklaus|Lorenzo
+A: Um garoto que voltou dos mortos. Que comum. / Pra mim não foi comum. / Na minha família é.
+A: Você parece triste. Por que não se diverte com o poder? / Porque ele matou minha família. / Ah. Entendo.
+
+=Lorenzo|Niklaus
+A: Você também é um monstro? / Um monstro com estilo. / Isso não melhora.
+A: Você machuca sua família. / Eles me deixam. / Talvez você deixe primeiro.
+
+=Niklaus|Art the Clown
+A: Um palhaço. Que medonho. / ... / Eu gosto.
+A: Você não fala? Que alívio. / ... / Pelo menos é educado.
+
+=Art the Clown|Niklaus
+A: ... / Para de imitar o meu sorriso. / ...
+A: ... / Isso é uma serra? Que primitivo. / ...
+
+=Niklaus|Freddy Krueger
+A: Um assassino de sonhos. Que limitado. / E você, um vampiro com problemas com o papai. / Cuidado.
+A: Luva de lâminas. Eu tenho garras naturais. / As minhas são mais estilosas. / Discordo.
+
+=Freddy Krueger|Niklaus
+A: Qual é o seu pesadelo, amor? O papai Mikael? / Não diga esse nome. / Hehehe. Acertei.
+A: Vou te colocar num caixão no sonho. / Eu já vivi isso. Com os outros. / Então vamos inverter.
+
+=Niklaus|Jason Voorhees
+A: Um assassino silencioso. Que eficiente. / ... / Eu prefiro falar.
+A: Máscara de hóquei. Que deselegante. / ... / Bem, você não liga.
+
+=Jason Voorhees|Niklaus
+A: ... / Você não cansa nunca? / ...
+A: ... / Facão contra garra. Vamos ver. / ...
+
+=Niklaus|Stefan
+A: Stefan. Meu velho amigo dos anos vinte. / Você me compeliu a esquecer. / E agora você lembra. Nostálgico?
+A: O Estripador e o híbrido. Que dupla éramos. / Éramos monstros. / Éramos divertidos.
+
+=Stefan|Niklaus
+A: Klaus. Você nunca vai deixar a Caroline em paz? / Nunca, amigo. / Então hoje você apanha.
+A: Você me fez o Estripador de novo. / Você nunca deixou de ser. / Hoje eu deixo.
+
+=Niklaus|Damon
+A: Damon. Sempre o irmão mais irritante. / Olha quem fala. / Eu sou irritante com classe.
+A: Seu sarcasmo me cansa. / Seu sotaque me cansa. / Que pena.
+
+=Damon|Niklaus
+A: Klaus! O híbrido mais dramático do mundo. / Dramático e mais forte que você. / Dramático, sim.
+A: Você ainda tá correndo atrás da Barbie Vampira? / Não fale dela assim. / Ui, apaixonado.
+
+=Niklaus|Bonnie
+A: A bruxa Bennett. Você tentou me matar, lembra? / E vou tentar de novo. / Que persistente.
+A: Sua magia não me assusta. / Deveria. / Já tentaram. Muitas vezes.
+
+=Bonnie|Niklaus
+A: Klaus. Você matou a tia da Elena. / Por um bom motivo. / Não existe bom motivo.
+A: Eu posso te prender de novo. / Pode tentar, amor. / Não me chame de amor.
+
+=Niklaus|Lexi
+A: Uma vampira simpática. Isso é raro. / Você é o famoso Klaus? / Famoso e encantador.
+A: Você foi amiga do Stefan. Eu também. / Eu ajudei ele. Você estragou. / Perspectivas.
+
+=Lexi|Niklaus
+A: Você estragou o Stefan. / Eu revelei quem ele era. / Quem ele era é meu amigo.
+A: Para de sorrir assim. / É meu charme. / É assustador.
+
+=Niklaus|Katherine Pierce
+A: Katerina. Quinhentos anos fugindo de mim. / E nunca me pegou. / Hoje pego.
+A: Você roubou o meu sacrifício. / Eu salvei a minha vida. / Às custas da minha maldição.
+
+=Katherine Pierce|Niklaus
+A: Klaus. Você ainda está bravo? / Bravo é pouco, amor. / Que rancoroso.
+A: Eu sobrevivi a você. / Por pouco. / Pouco é tudo que eu preciso.
+
+=Niklaus|Sonya Blade
+A: Uma comandante. Que autoritária. / Você também é. / Eu tenho mil anos de prática.
+A: Suas armas não me ferem. / Mas te atrasam. / Que irritante.
+
+=Sonya Blade|Niklaus
+A: Vampiro original. Nível de ameaça: extremo. / Que lisonjeiro. / Não foi elogio.
+A: Você está sob custódia. / Eu estou sob ninguém. / Isso vai mudar.
+
+=Niklaus|Jax
+A: Braços de metal. Eu arranco os de carne. / Os meus voltam. / Interessante.
+A: Você protege sua filha. Eu protejo a minha. / Então somos parecidos. / Na luta, não.
+
+=Jax|Niklaus
+A: Um vampiro que se acha rei. / Eu sou rei. / Não aqui.
+A: Você tem filha também? / Hope. / Então você entende. Não mexe com a minha.
+
+=Niklaus|Kano
+A: Um mercenário. Que vulgar. / Um vampiro metido. Que chato. / Cuidado.
+A: Seu olho laser não me assusta. / Assusta sim. / Não muito.
+
+=Kano|Niklaus
+A: Quanto vale um vampiro original no mercado? / Mais do que você pode pagar. / Vou descobrir.
+A: Você tem cara de quem nunca trabalhou. / Eu trabalhei mil anos. / Em quê?
+
+=Niklaus|Ana Letícia
+A: Uma vilã charmosa. Eu gosto. / Eu também gosto de você. / Que perigo.
+A: Você manipula todo mundo? / Quase. / Eu também.
+
+=Ana Letícia|Niklaus
+A: Que homem misterioso. / Que mulher perigosa. / Combinamos.
+A: Me compele a ficar rica? / Eu compelo você a sumir. / Grosso.
+
+=Niklaus|Vega
+A: Uma agente paranormal. Eu sou paranormal. / Eu sei. Já li seu arquivo. / Era muito grande?
+A: Você deu o corpo pelos amigos. Que nobre. / Você faria pela família? / Faria. E fiz.
+
+=Vega|Niklaus
+A: Híbrido original. Isso é paranormal no nível máximo. / Obrigado, amor. / Não foi elogio.
+A: Você tem medo de ficar sozinho. / Não tenho medo de nada. / Mentira.
+
+=Niklaus|Teresa
+A: Uma mulher que subiu do nada. Eu respeito ambição. / E você nasceu rico. / Nasci bastardo.
+A: Você mente bem. / E você compele. É mais fácil. / Muito.
+
+=Teresa|Niklaus
+A: Um rei com problemas de família. / Todas as famílias têm problemas. / A sua tem caixões.
+A: Você me lembra os ricos que eu desprezo. / Eu sou pior. / Percebi.
+
+=Niklaus|Rudolf
+A: O filho da princesa. Leques de fogo? Encantador. / Você é o vampiro dos caixões? / Prefiro "o híbrido original".
+A: Você faz piada demais. / E você é dramático demais. / Dramático com estilo.
+
+=Rudolf|Niklaus
+A: Um vampiro que guarda os irmãos em caixões? Isso é amor? / É do meu jeito. / Que jeito horrível.
+A: Fogo contra lobo. Vamos ver. / Fogo me incomoda. / Ótimo.
+
+=Niklaus|Sub-Zero
+A: Gelo. Que frio, amor. / Silêncio. / Que mal-humorado.
+A: Lin Kuei. Uma família de assassinos. Gosto. / Não somos como você. / São piores.
+
+=Sub-Zero|Niklaus
+A: Sua arrogância vai congelar. / Ela é eterna. / Assim como o gelo.
+A: Você não tem honra. / Tenho família. / Isso não é honra.
+
+=Niklaus|Scorpion
+A: Um homem que voltou do inferno pela família. Eu entendo. / Você entende? / Eu faria o mesmo.
+A: Venha cá? Eu vou de qualquer jeito. / Ótimo. / Estou indo.
+
+=Scorpion|Niklaus
+A: Você protege sua família? / Sempre e para sempre. / Então lute por ela.
+A: Você tem fogo nos olhos. / Dourado. / Os meus são do inferno.
+
+=Niklaus|Baraka
+A: Um tarkatano. Que dentes, amor. / Venha ver de perto. / Eu tenho os meus.
+A: Você é feio. / Você é arrogante. / Eu sou lindo e arrogante.
+
+=Baraka|Niklaus
+A: Um lobo vampiro. Que estranho. / Que superior. / Que comestível.
+A: Seus dentes são pequenos. / Mas venenosos. / Interessante.
+
+=Niklaus|Raiden
+A: Um deus. Que conveniente. Eu sou quase um. / Você é uma aberração. / Uma aberração original.
+A: Seus raios não me matam. / Mas te atordoam. / Que irritante.
+
+=Raiden|Niklaus
+A: Você causou muita dor. / E sofri muita. / Isso não justifica.
+A: Sua família merece paz. / Minha família merece a mim. / Isso não é paz.
+
+=Niklaus|Geras
+A: O tempo. Que coisa interessante. / Eu o controlo. / Eu tenho mil anos dele.
+A: Você já viu muitas versões de mim? / Todas arrogantes. / Todas lindas.
+
+=Geras|Niklaus
+A: Em todas as linhas do tempo, você fica sozinho. / Mentira. / Kronika não mente.
+A: Mil anos não é nada para o tempo. / É muito para mim. / Então aprenda.
+
+=Niklaus|Johnny Cage
+A: Um ator. Eu sou mais dramático. / Eu sou mais bonito. / Discutível.
+A: Seus filmes são horríveis. / Seu sotaque é falso. / É verdadeiro, amor.
+
+=Johnny Cage|Niklaus
+A: Cara, você é tipo um vilão de série da CW! / O que é CW? / Esquece.
+A: Você seria ótimo no meu filme! / Eu seria o protagonista. / Ok, a gente discute o cachê.
+
+=Niklaus|Ladybug
+A: Uma heroína de Paris. Que doce. / Você é um vilão? / Sou complicado.
+A: Seu ioiô contra minhas garras. / Minha sorte contra seu ego. / Que espirituosa.
+
+=Ladybug|Niklaus
+A: Você machuca pessoas. / Às vezes. / Isso tem que parar.
+A: Vou purificar sua maldade. / Não dá, amor. / Vou tentar.
+
+=Niklaus|Conan
+A: Um bárbaro. Eu já fui um. / Por Crom! / Por Odin, na minha época.
+A: Sua espada é pesada. Minhas garras, não. / Aço vence garra. / Prove.
+
+=Conan|Niklaus
+A: Um lobo que fala. Por Crom! / Um bárbaro que grita. Por Deus. / Lute!
+A: Você é um demônio. / Um híbrido. / Mesma coisa.
+
+=Niklaus|Cyrax
+A: Uma máquina. Que tédio. / Analisando. / Analise rápido.
+A: Você foi humano um dia. / Lembrança arquivada. / Eu também arquivo lembranças. Com adagas.
+
+=Cyrax|Niklaus
+A: Alvo: híbrido. Ameaça: extrema. / Obrigado. / Eliminação.
+A: Seus sentimentos são ineficientes. / Meus sentimentos são minha força. / Contradição detectada.
+
+=Niklaus|Ermac
+A: Muitas almas num corpo. Que bagunça. / Nós somos muitos. / Eu sou um só e valho mais.
+A: Você foi escravo. Eu fui amaldiçoado. / Nós lembramos. / Eu também.
+
+=Ermac|Niklaus
+A: Nós sentimos solidão em você. / Vocês não sentem nada. / Nós sentimos tudo.
+A: Junte-se a nós. / Eu não me junto a ninguém. / Por isso está só.
+
+=Niklaus|General Shao
+A: Um conquistador. Eu também conquisto. / Você conquista bares. Eu conquisto reinos. / Eu conquistei Nova Orleans.
+A: Seu martelo é feio. / Meu martelo é poder. / Eu tenho estilo.
+
+=General Shao|Niklaus
+A: Um vampiro que se acha rei. / Eu sou rei. / Aqui só existe um.
+A: Ajoelhe-se. / Eu não me ajoelho. / Vai.
+
+=Niklaus|Ashrah
+A: Uma caçadora de demônios. Eu sou um? / Você é pior. / Que elogio.
+A: Sua espada purifica? Tente. / Ela vai tentar. / Vai falhar.
+
+=Ashrah|Niklaus
+A: Sua alma está ferida. / Minha alma está ótima. / Não está.
+A: Você pode ser redimido. / Eu não preciso. / Todos precisam.
+
+=Niklaus|Ghostface
+A: Um mascarado. Que sem graça. / Qual seu filme de terror favorito? / Minha vida.
+A: Sua faca é pequena. / E certeira. / Pequena.
+
+=Ghostface|Niklaus
+A: Alô, Klaus? Tô atrás de você. / Eu sei. Te ouvi respirar. / Que chato.
+A: Os vampiros morrem no meio do filme. / Eu sou o filme. / Ego.
+
+=Niklaus|Havik
+A: Caos. Que interessante. / Você é caos também! / Eu sou ordem com estilo.
+A: Você quebra o próprio corpo? / Por diversão! / Eu quebro os dos outros.
+
+=Havik|Niklaus
+A: Um lobo e um vampiro! Que caos maravilhoso! / Que bagunça você é. / Obrigado!
+A: Deixa eu ver seu sangue! / Ele cura. Você não merece. / Que pena.
+
+=Niklaus|Homelander
+A: Um herói que ninguém ama de verdade. / Você é igual. / Eu tenho uma família.
+A: Seu sorriso é falso. / O seu também. / O meu é encantador.
+
+=Homelander|Niklaus
+A: Um vampiro com problemas com o pai. Familiar. / Não fale do meu pai. / Somos iguais.
+A: Eu sou o mais forte. / Você é o mais carente. / Cuidado.
+
+=Niklaus|Li Mei
+A: Uma guerreira gentil. Que raro. / E um vampiro cruel. Nada raro. / Touché.
+A: Seus punhos brilham. / E você vai ver de perto. / Que ameaça adorável.
+
+=Li Mei|Niklaus
+A: Você não precisa machucar ninguém. / Eu gosto. / Isso é triste.
+A: Lute com honra. / Eu luto para vencer. / Isso não é honra.
+
+=Niklaus|Liu Kang
+A: Um deus. Que conveniente. / Você é um ser de mil anos. / Isso me torna quase um.
+A: Você reescreveu o tempo. Reescreva o meu pai. / Isso não é possível. / Então você não serve.
+
+=Liu Kang|Niklaus
+A: Você pode encontrar paz. / Eu encontrei uma filha. / Então lute por ela.
+A: Sua raiva é antiga. / Mil anos. / É tempo de soltar.
+
+=Niklaus|Kung Lao
+A: Um chapéu com lâmina. Que cafona. / É uma arma ancestral. / Cafona.
+A: Você é arrogante. / E você é arrogante. / Eu tenho motivo.
+
+=Kung Lao|Niklaus
+A: Um vampiro que se acha rei. / Eu sou. / Aqui não.
+A: Meu chapéu corta tudo. / Minha pele cura tudo. / Vamos ver.
+
+=Niklaus|Kenshi
+A: Um espadachim cego. Que poético. / Eu sinto sua arrogância. / Ela é grande.
+A: Você não vê meu rosto. Que perda. / Eu sinto o suficiente. / Que pena.
+
+=Kenshi|Niklaus
+A: Sua mente é cheia de abandono. / Fique fora da minha mente. / É barulhenta demais.
+A: Você tem medo. / Eu não tenho medo. / Todos têm.
+
+=Niklaus|Omni-Man
+A: Um viltrumita. Outro pai problemático. / Cuidado. / Eu reconheço o tipo.
+A: Você conquista planetas. Eu conquisto cidades. / Pequeno. / Elegante.
+
+=Omni-Man|Niklaus
+A: Uma criatura antiga. Mas fraca. / Fraco? Eu sou original. / Eu sou viltrumita.
+A: Pense no que você vai ter em mil anos. / Eu já tenho mil. / E está sozinho.
+
+=Niklaus|Noob Saibot
+A: Uma sombra. Que deprimente. / Eu sou a escuridão. / Eu sou a lua cheia.
+A: Você foi Sub-Zero. Agora é sombra. Que decadência. / E você foi humano. / Melhorei.
+
+=Noob Saibot|Niklaus
+A: Você também caminha nas trevas. / Eu escolho as trevas. / Eu sou elas.
+A: O Submundo espera por você. / Ele vai esperar muito. / Paciência é eterna.
+
+=Niklaus|Peacemaker
+A: Um palhaço de capacete. / Um vampiro de sotaque. / Charme, amor.
+A: Paz com armas? Que contraditório. / Paz com estilo! / Nada de estilo.
+
+=Peacemaker|Niklaus
+A: Cara, você é tipo um super-vilão europeu! / Sou britânico. / Melhor ainda!
+A: Paz! Mesmo que eu tenha que te matar! / Não dá, amor. / Eu tenho estaca!
+
+=Niklaus|Nitara
+A: Uma vampira com asas. Que exótico. / Eu sou de Vaeternus. / Eu sou de Mystic Falls. Mais chique.
+A: Seu sangue deve ser antigo. / Antigo e meu. / Que egoísta.
+
+=Nitara|Niklaus
+A: Um vampiro sem asas. Que sem graça. / Com garras. / Ainda sem graça.
+A: Seu sangue cura? / Cura vampiros. Não você. / Vou provar.
+
+=Niklaus|Quan Chi
+A: Um feiticeiro. Minha mãe era bruxa. Odeio bruxos. / Sua mãe era poderosa. / E me amaldiçoou.
+A: Necromancia. Que brega. / Eficaz. / Brega.
+
+=Quan Chi|Niklaus
+A: Um híbrido. Que experimento interessante. / Eu não sou experimento. / Todos somos.
+A: Posso controlar você. / Ninguém me controla. / Ainda.
+
+=Niklaus|Reiko
+A: Um general. Que obediente. / Lealdade. / Fraqueza.
+A: Seu martelo contra minhas garras. / O martelo vence. / Veremos.
+
+=Reiko|Niklaus
+A: Shao vai gostar de quebrar você. / Shao vai sangrar. / Insolente.
+A: Ajoelhe-se. / Eu não ajoelho. / Vai.
+
+=Niklaus|Rain
+A: Um príncipe arrogante. Como eu. / Eu sou realeza de verdade. / Eu também, amor.
+A: Sua água me molha. Que irritante. / Esse é o objetivo. / Que imaturo.
+
+=Rain|Niklaus
+A: Um vampiro que se acha rei. / Eu sou rei. / Rei de quê?
+A: Ajoelhe-se diante de um príncipe. / Diante de você? Nunca. / Que grosseria.
+
+=Niklaus|Sektor
+A: Uma máquina vermelha. Que brega. / Unidade LK-9T9. / Brega.
+A: Seus mísseis me incomodam. / Esse é o objetivo. / Que mal-educado.
+
+=Sektor|Niklaus
+A: Alvo: híbrido. Arsenal insuficiente. / Exato. / Recalibrando.
+A: Emoções detectadas: raiva, abandono. / Pare de me analisar. / Análise concluída.
+
+=Niklaus|Reptile
+A: Um réptil. Que nojento. / Ssssilêncio! / Que nojento e barulhento.
+A: Seu ácido contra minha regeneração. / Ácido vence. / Regeneração ri.
+
+=Reptile|Niklaus
+A: Um lobo arrogante. / Híbrido. / Mesma coisa.
+A: Você também é um bicho. / Eu sou um rei. / Ssss.
+
+=Niklaus|Shang Tsung
+A: Um ladrão de almas. Que vulgar. / Sua alma é antiga. / E não está à venda.
+A: Você muda de rosto. Eu tenho um rosto perfeito. / Eu poderia ter o seu. / Nunca.
+
+=Shang Tsung|Niklaus
+A: Uma alma de mil anos. Deliciosa. / Não ouse. / Eu ouso tudo.
+A: Você e eu somos parecidos. / Não somos nada parecidos. / Somos manipuladores.
+
+=Niklaus|Takeda
+A: Um garoto ninja. Que adorável. / Eu sou um guerreiro. / Adorável guerreiro.
+A: Você lê mentes. Leia a minha. / Muita raiva. / Isso é charme.
+
+=Takeda|Niklaus
+A: Sua mente é cheia de dor. / Fique fora dela. / Tá bom, mas tá barulhenta.
+A: Você é arrogante demais. / Eu tenho motivos. / Nenhum bom.
+
+=Niklaus|Smoke
+A: Fumaça. Que elusivo. / Você não me pega. / Eu sou paciente.
+A: Você some. Eu fico. / Eu volto. / Eu também.
+
+=Smoke|Niklaus
+A: Você fala demais. / Você aparece pouco. / Agora eu apareço.
+A: Fumaça não se morde. / Mas se dispersa. / Veremos.
+
+=Niklaus|T-1000
+A: Uma máquina que imita. Que vulgar. / Imitação: Niklaus. / Ficou bonito, pelo menos.
+A: Metal líquido. Que interessante. / Afirmativo. / Que entediante.
+
+=T-1000|Niklaus
+A: Alvo: híbrido. Imortalidade detectada. / Exato. / Recalculando.
+A: Imitando voz: amor. / Isso é meu! / Ajustando.
+
+=Niklaus|Sindel
+A: Uma rainha. Eu sou um rei. / Você é um vampiro. / Rei vampiro.
+A: Seu grito é bonito. / É uma arma. / Tudo que é bonito é arma.
+
+=Sindel|Niklaus
+A: Um rei sem reino. / Nova Orleans é meu reino. / Pequeno.
+A: Meu grito vai quebrar você. / Eu quebro e me curo. / Veremos.
