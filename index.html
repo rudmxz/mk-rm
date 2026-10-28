@@ -3657,6 +3657,148 @@ html:not(.land) #fight.finshow .f-panel{position:absolute!important;left:10px!im
 .ea-i .ico,.aa-i .ico,.eh-i .ico,.pk-i .ico,.kr-hab-i .ico{width:1.15em;height:1.15em;color:var(--og-gold2)}
 html.land #tab-dialogos .dlg-face{max-height:44vh;width:auto;justify-self:center;aspect-ratio:3/4}
 html.land #tab-dialogos .versus{max-width:640px;margin:0 auto}
+
+/* ====== EVENTOS 2 ====== */
+#evento{--e1:#ffb347;--e2:#1a0800}
+.e2-list{display:grid;gap:14px;max-width:680px;margin:8px auto 20px}
+.e2-sh{margin:8px 0 -2px;font-family:var(--f-ui);font-weight:600;font-size:18px;letter-spacing:3px;text-transform:uppercase;color:var(--og-gold2);padding-bottom:6px;background:linear-gradient(90deg,var(--og-gold),transparent) left bottom/100% 1px no-repeat}
+.e2-foot{margin:6px 0 0;text-align:center;font-size:13px;color:var(--og-mut)}
+.e2-card{position:relative;display:grid;gap:6px;text-align:left;padding:94px 14px 12px;border:0;border-radius:6px;overflow:hidden;color:#fff;cursor:pointer;background:var(--e2);font:inherit;
+  box-shadow:0 0 0 1px #000,0 0 0 2px var(--e1),0 0 0 3px #000,0 0 22px color-mix(in srgb,var(--e1) 35%,transparent);transition:transform .15s,box-shadow .15s}
+.e2-card:hover,.e2-card:focus-visible{transform:translateY(-2px);outline:none;box-shadow:0 0 0 1px #000,0 0 0 2px #fff3d0,0 0 0 3px #000,0 0 28px color-mix(in srgb,var(--e1) 60%,transparent)}
+.e2-card>*{position:relative;z-index:1}
+.e2-cbg{position:absolute!important;inset:0;z-index:0!important;background:center 25%/cover no-repeat}
+.e2-cbg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 0%,color-mix(in srgb,var(--e2) 70%,transparent) 45%,var(--e2) 78%),linear-gradient(90deg,color-mix(in srgb,var(--e2) 60%,transparent),transparent 60%)}
+.e2-ctag{justify-self:start;display:inline-flex;align-items:center;gap:6px;padding:2px 10px;border-radius:2px;font-family:var(--f-ui);font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#120804;background:var(--e1);box-shadow:0 0 0 1px #000}
+.e2-cnew{position:absolute!important;top:10px;right:10px;padding:3px 10px;border-radius:12px;background:#e0301e;color:#fff;font-family:var(--f-ui);font-size:14px;letter-spacing:1px;box-shadow:0 0 0 2px #000,0 0 12px rgba(255,60,30,.8);animation:e2Pulse 1.4s ease-in-out infinite}
+@keyframes e2Pulse{50%{transform:scale(1.08)}}
+.e2-cn{font-family:var(--f-display);font-weight:900;font-size:clamp(26px,7vw,36px);line-height:1;background:linear-gradient(180deg,#fff,color-mix(in srgb,var(--e1) 75%,#fff) 55%,var(--e1));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 2px 0 #000) drop-shadow(0 0 10px rgba(0,0,0,.8))}
+.e2-cd{font-size:14px;line-height:1.35;color:#efe2cc;text-shadow:0 1px 2px #000;max-width:52ch}
+.e2-crow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:4px}
+.e2-ths{display:flex;gap:6px}
+.e2-th{width:44px;height:44px;border-radius:50%;overflow:hidden;display:grid;place-items:center;background:#000;box-shadow:0 0 0 2px #000,0 0 0 3px var(--e1)}
+.e2-th img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.e2-th.own{box-shadow:0 0 0 2px #000,0 0 0 3px #8fe06a}
+.e2-th .e2-curpic svg,.e2-th .cur-svg{width:34px;height:34px}
+.e2-ct{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:3px;background:rgba(0,0,0,.65);box-shadow:inset 0 0 0 1px var(--e1);font-family:var(--f-ui);font-size:15px;letter-spacing:1px;color:#fff3d6;white-space:nowrap}
+.e2-card.t-diario{padding-top:70px}
+/* página de um evento */
+.e2-page{max-width:680px;margin:0 auto;display:grid;gap:14px;padding-bottom:20px}
+#evento[data-e2] .ev-h{text-shadow:none!important;filter:drop-shadow(0 2px 0 #000);background:linear-gradient(180deg,#fff,var(--e1));-webkit-background-clip:text;background-clip:text;color:transparent;font-family:var(--f-display);text-transform:none;letter-spacing:.01em}
+#evento[data-e2] .ev-back{border-color:var(--e1)}
+#evento[data-e2] .ev-timer{box-shadow:inset 0 0 0 1px var(--e1);background:rgba(0,0,0,.6)}
+.e2-hero{position:relative;overflow:hidden;display:grid;gap:8px;padding:14px;border-radius:6px;background:var(--e2);box-shadow:0 0 0 1px #000,0 0 0 2px var(--e1),0 0 22px color-mix(in srgb,var(--e1) 30%,transparent)}
+.e2-hero>*{position:relative;z-index:1}
+.e2-hbg{position:absolute!important;inset:0;z-index:0!important;background:center 22%/cover no-repeat;opacity:.45}
+.e2-hbg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--e2) 10%,color-mix(in srgb,var(--e2) 40%,transparent))}
+.e2-hero p{margin:0;font-size:15px;line-height:1.4;color:#f0e4cc;text-shadow:0 1px 2px #000}
+.e2-htag{justify-self:start;padding:2px 10px;border-radius:2px;background:var(--e1);color:#120804;font-family:var(--f-ui);font-size:13px;letter-spacing:2px;text-transform:uppercase}
+.e2-hero .ev-mainp{background:rgba(0,0,0,.55);box-shadow:inset 0 0 0 1px var(--e1)}
+.e2-wallet{display:flex;flex-wrap:wrap;gap:8px}
+.e2-wi{display:inline-flex;align-items:center;gap:6px;padding:4px 12px 4px 6px;border-radius:22px;background:rgba(0,0,0,.65);box-shadow:inset 0 0 0 1px var(--e1)}
+.e2-wi .cur-svg{width:30px;height:30px}
+.e2-wi b{font-family:var(--f-ui);font-size:22px;line-height:1;color:#fff}
+.e2-wi small{font-size:12px;color:#d8c8a8}
+.cur-svg{width:1.6em;height:1.6em;flex:none;filter:drop-shadow(0 1px 1px rgba(0,0,0,.7))}
+.cur-v{display:inline-flex;align-items:center;gap:3px;margin-right:6px}
+.cur-v b{font-family:var(--f-ui);font-size:17px;color:#fff3d6}
+.e2-coinpic,.e2-curpic{position:relative;width:100%;height:100%;display:grid;place-items:center;background:radial-gradient(circle at 50% 35%,color-mix(in srgb,var(--e1) 25%,#140a06),#080404)}
+.e2-coinpic .coin{width:52%;height:52%}
+.e2-coinpic b{position:absolute;bottom:4%;font-family:var(--f-ui);font-size:15px;color:#ffe08a;text-shadow:0 1px 0 #000}
+.e2-curpic .cur-svg{width:62%;height:62%}
+.e2-curpic b{position:absolute;bottom:4%;right:8%;font-family:var(--f-ui);font-size:15px;color:#fff;text-shadow:0 1px 0 #000}
+.e2-page .ev-wheel-wrap{filter:drop-shadow(0 0 18px color-mix(in srgb,var(--e1) 45%,transparent))}
+.e2-page .ev-hub{color:var(--e1)}
+.e2-page .ev-hub .ico,.e2-page .ev-hub .cur-svg{width:62%;height:62%}
+.e2-page .ev-pointer{border-top-color:var(--e1)!important}
+.e2-page .ev-spin{background:linear-gradient(180deg,color-mix(in srgb,var(--e1) 85%,#fff),var(--e1) 45%,color-mix(in srgb,var(--e1) 55%,#000))!important;color:#120804!important;box-shadow:0 0 0 1px #000,0 0 0 2px #fff3d0,0 0 20px color-mix(in srgb,var(--e1) 55%,transparent)!important;border:0!important}
+.e2-page .ev-spin.alt{background:linear-gradient(180deg,#ffe08a,#e0a020 45%,#8a5a00)!important}
+.e2-page .ev-spin[disabled]{filter:grayscale(.8) brightness(.6)}
+.e2-page .ev-cost .cur-svg{width:22px;height:22px;margin-right:2px}
+.e2-two{display:flex!important;flex-wrap:wrap;gap:10px;justify-content:center}
+.e2-tip{margin:-4px 0 0;text-align:center;font-size:13px;color:#d8c8a8}
+.e2-guide{padding:10px 12px;border-radius:4px;background:rgba(0,0,0,.6);box-shadow:inset 0 0 0 1px var(--e1);font-size:14px;color:#f0e4cc}
+.e2-guide b{color:var(--e1)}
+.ev-odds em{margin-left:auto;font-style:normal;font-family:var(--f-ui);font-size:15px;color:var(--e1)}
+.ev-odds .ev-oi img,.ev-odds .ev-oi .e2-coinpic,.ev-odds .ev-oi .e2-curpic{width:100%;height:100%;object-fit:cover}
+/* mesa do sorteio */
+.e2-table{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;perspective:800px}
+.e2-tc{position:relative;display:grid;justify-items:center;gap:3px;padding:5px 4px 6px;border:0;border-radius:4px;background:linear-gradient(180deg,#1e140e,#0b0705);color:#f0e4cc;font:inherit;cursor:default;box-shadow:0 0 0 1px #000,0 0 0 2px #3a2814;transition:transform .3s,opacity .3s,box-shadow .2s}
+.e2-tc[data-e2="tog"]{cursor:pointer}
+.e2-tc.t-main{box-shadow:0 0 0 1px #000,0 0 0 2px #ffd23a,0 0 14px rgba(255,210,60,.35)}
+.e2-tc.t-sec{box-shadow:0 0 0 1px #000,0 0 0 2px var(--e1)}
+.e2-tcp{width:100%;aspect-ratio:1;border-radius:3px;overflow:hidden;background:#000}
+.e2-tcp img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.e2-tc b{font-family:var(--f-ui);font-size:12px;line-height:1.05;text-align:center}
+.e2-tc small{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--e1);min-height:1.2em}
+.e2-tc.pick,.e2-tc.rm{opacity:.45;filter:grayscale(1)}
+.e2-tc.pick::after,.e2-tc.rm::after{content:"✕";position:absolute;inset:0;display:grid;place-items:center;font-size:40px;color:#ff5a4a;text-shadow:0 2px 0 #000}
+.e2-tc.won{box-shadow:0 0 0 1px #000,0 0 0 2px #8fe06a,0 0 14px rgba(140,230,100,.35)}
+.e2-tc.won small{color:#8fe06a}
+.e2-tc.shuf{animation:e2Shuf .45s ease-in-out 2}
+@keyframes e2Shuf{25%{transform:translateY(-4px) rotate(-3deg)}75%{transform:translateY(-2px) rotate(3deg)}}
+.e2-tc.flip{animation:e2Flip .6s ease both;z-index:2}
+@keyframes e2Flip{0%{transform:rotateY(0) scale(1)}50%{transform:rotateY(90deg) scale(1.25)}100%{transform:rotateY(0) scale(1.15)}}
+.e2-steps{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.e2-step{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:12px;background:rgba(0,0,0,.6);box-shadow:inset 0 0 0 1px #4a3418;font-family:var(--f-ui);font-size:14px;color:#bfa985}
+.e2-step i{font-style:normal;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;background:#2a1c12;font-size:12px}
+.e2-step.done{color:#8fe06a;box-shadow:inset 0 0 0 1px #4a7a2a}
+.e2-step.now{color:#fff;box-shadow:inset 0 0 0 1px var(--e1),0 0 10px color-mix(in srgb,var(--e1) 40%,transparent)}
+.e2-step.now i{background:var(--e1);color:#120804}
+/* lojas */
+.e2-shop,.e2-mis{padding:14px;border-radius:6px;background:var(--og-panel);box-shadow:0 0 0 1px #000,0 0 0 2px color-mix(in srgb,var(--e1) 60%,#3a2814),0 10px 24px rgba(0,0,0,.6)}
+.e2-shop h3,.e2-mis h3{margin:0 0 10px;font-family:var(--f-ui);font-weight:600;font-size:19px;letter-spacing:2px;text-transform:uppercase;color:var(--e1);padding-bottom:6px;background:linear-gradient(90deg,var(--e1),transparent) left bottom/100% 1px no-repeat}
+.e2-mis h3 small{display:block;margin-top:2px;font-family:var(--f-body);font-size:12px;letter-spacing:0;text-transform:none;color:#d8c8a8}
+.e2-shopg{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}
+.e2-shopc{display:grid;justify-items:center;gap:6px;padding:8px 8px 10px;border-radius:4px;background:rgba(0,0,0,.45);box-shadow:inset 0 0 0 1px #3a2814;text-align:center}
+.e2-shopc.own{box-shadow:inset 0 0 0 1px #6a8a3a}
+.e2-sp{width:100%;aspect-ratio:1;border-radius:3px;overflow:hidden;background:#000;box-shadow:0 0 0 1px #000,0 0 0 2px #4a3418}
+.e2-sp img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.e2-shopc b{font-family:var(--f-ui);font-size:16px;line-height:1.05;color:#fff3d6}
+.e2-price{display:flex;flex-wrap:wrap;justify-content:center}
+.e2-shopc .f-btn{min-height:36px!important;font-size:16px!important;padding:4px 14px!important}
+.e2-owned{font-family:var(--f-ui);font-size:15px;letter-spacing:1px;color:#8fe06a}
+/* missões */
+.e2-mis ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.e2-m{display:grid;grid-template-columns:38px 1fr auto auto;align-items:center;gap:10px;padding:8px 10px;border-radius:4px;background:rgba(0,0,0,.45);box-shadow:inset 0 0 0 1px #3a2814}
+.e2-m.ok{box-shadow:inset 0 0 0 1px var(--e1),0 0 12px color-mix(in srgb,var(--e1) 30%,transparent)}
+.e2-m.got{opacity:.55}
+.e2-mi{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;color:var(--e1);background:radial-gradient(circle at 50% 30%,#3a2412,#120804);box-shadow:0 0 0 1px #000,0 0 0 2px #6a4214}
+.e2-mi .ico{width:20px;height:20px}
+.e2-mt{display:grid;gap:3px;min-width:0}
+.e2-mt b{font-size:14px;font-weight:600;color:#f3e6cc}
+.e2-mbar{height:6px;border-radius:3px;background:#1a0e08;box-shadow:inset 0 0 0 1px #3a2814;overflow:hidden}
+.e2-mbar i{display:block;height:100%;background:linear-gradient(90deg,color-mix(in srgb,var(--e1) 60%,#000),var(--e1))}
+.e2-mt small{font-size:11px;color:#bfa985}
+.e2-mr{display:inline-flex;align-items:center;gap:4px;font-family:var(--f-ui);font-size:17px;color:#ffe08a;white-space:nowrap}
+.e2-mr .coin{width:18px;height:18px}
+.e2-m .f-btn{min-height:34px!important;font-size:15px!important;padding:3px 12px!important}
+/* calendário de login */
+.e2-lgn{padding:6px 12px;border-radius:3px;background:rgba(0,0,0,.6);box-shadow:inset 0 0 0 1px var(--e1);font-size:14px;color:#f0e4cc;justify-self:start}
+.e2-lgn b{color:var(--e1);font-family:var(--f-ui);font-size:18px}
+.e2-cal{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.e2-day{display:grid;justify-items:center;gap:5px;padding:8px 6px 10px;border-radius:4px;background:linear-gradient(180deg,#1e140e,#0b0705);box-shadow:0 0 0 1px #000,0 0 0 2px #3a2814;text-align:center}
+.e2-day.ok{box-shadow:0 0 0 1px #000,0 0 0 2px var(--e1),0 0 14px color-mix(in srgb,var(--e1) 35%,transparent)}
+.e2-day.got{box-shadow:0 0 0 1px #000,0 0 0 2px #6a8a3a}
+.e2-dn{font-family:var(--f-ui);font-size:15px;letter-spacing:2px;text-transform:uppercase;color:var(--e1)}
+.e2-dp{width:100%;aspect-ratio:1;border-radius:3px;overflow:hidden;background:#000}
+.e2-dp img{width:100%;height:100%;object-fit:cover}
+.e2-day b{font-family:var(--f-ui);font-size:13px;line-height:1.05;color:#f3e6cc}
+.e2-day small{font-size:11px;color:#bfa985}
+.e2-day .f-btn{min-height:30px!important;font-size:14px!important;padding:2px 10px!important}
+@media (max-width:520px){.e2-table{grid-template-columns:repeat(4,1fr)}.e2-cal{grid-template-columns:repeat(3,1fr)}.e2-m{grid-template-columns:34px 1fr auto;}.e2-m .e2-mr{grid-column:2}.e2-m .f-btn,.e2-m .e2-owned{grid-column:3;grid-row:1/span 2}}
+/* resultado */
+.e2-res{box-shadow:0 0 0 1px #000,0 0 0 3px var(--e1),0 0 40px color-mix(in srgb,var(--e1) 45%,transparent)!important}
+.e2-res .ev-rpic{width:150px;height:150px;border-radius:6px;overflow:hidden}
+.e2-res .ev-rpic img,.e2-res .ev-rpic .e2-coinpic,.e2-res .ev-rpic .e2-curpic{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+/* fundos por tipo */
+#evento[data-e2="ritual"] .ev-bg img{filter:saturate(.6) brightness(.45) sepia(.4) hue-rotate(-20deg)}
+.e2-altar .ev-wheel{filter:drop-shadow(0 0 22px rgba(200,20,30,.55))}
+.kr-evc .kr-goev{font-size:12px!important;line-height:1.1;padding:4px 8px}
+
+#kripta .kr-h small{display:inline}
+#kripta .kr-h{flex-wrap:wrap}
+#smMain .sm-evtm:not([hidden]){display:inline-block;margin-left:6px;padding:1px 7px;border-radius:10px;background:#e0301e;color:#fff;font-family:var(--f-ui);font-size:11px;letter-spacing:.5px;line-height:1.4;box-shadow:0 0 8px rgba(224,48,30,.7);vertical-align:middle}
 </style>
 
 <div class="wrap">
@@ -7377,7 +7519,7 @@ function renderOfficial(){
   const tiles=D.canon.map(c=>({k:'c:'+c.n,n:c.n,html:cpic(c),locked:!FOTO[c.n],lk:fightLock('c:'+c.n)})).concat(roster.map(ch=>({k:'u:'+ch.id,n:ch.input.nome,html:upic(ch),locked:false,lk:fightLock('u:'+ch.id)}))).sort((a,b)=>String(a.n).localeCompare(String(b.n),'pt',{sensitivity:'base'}));
   const L2=pickMode==='2p'?'2P':pickMode==='treino'?'ALVO':'CPU';
   const vis=tiles;
-  const parts=vis.map(t=>{if(t.lk)return `<button type="button" class="ctile barred" data-k="${esc(t.k)}" data-lock="1" aria-label="${esc(t.n)} (bloqueado)">${t.html}<span class="klock">${t.lk.tipo==='kripta'?(t.lk.price?'<span class="coin"></span>'+t.lk.price:'Grátis'):t.lk.tipo==='exped'?'<span class="soon exp">Em expedição</span>':t.lk.tipo==='breve'?'<span class="soon">Em breve</span>':t.lk.tipo==='evento'?'🎃':'📖'}</span></button>`;const p1=pickSel[0]===t.k,p2=pickSel[1]===t.k,r1=pickDuo&&pickSel[2]===t.k,r2=pickDuo&&pickSel[3]===t.k;const any=p1||p2||r1||r2;
+  const parts=vis.map(t=>{if(t.lk)return `<button type="button" class="ctile barred" data-k="${esc(t.k)}" data-lock="1" aria-label="${esc(t.n)} (bloqueado)">${t.html}<span class="klock">${t.lk.tipo==='kripta'?(t.lk.price?'<span class="coin"></span>'+t.lk.price:'Grátis'):t.lk.tipo==='exped'?'<span class="soon exp">Em expedição</span>':t.lk.tipo==='breve'?'<span class="soon">Em breve</span>':t.lk.tipo==='evento'?(t.lk.ev?'★':'🎃'):'📖'}</span></button>`;const p1=pickSel[0]===t.k,p2=pickSel[1]===t.k,r1=pickDuo&&pickSel[2]===t.k,r2=pickDuo&&pickSel[3]===t.k;const any=p1||p2||r1||r2;
     return `<button type="button" class="ctile${t.locked?' locked':''}${p1||r1?' is-p1':''}${p2||r2?' is-p2':''}${selCur===t.k?' is-cur':''}" data-k="${esc(t.k)}" aria-label="${esc(t.n)}" aria-pressed="${selCur===t.k}">${t.html}${any?`<span class="ptags">${p1?'<i class="t1">1P</i>':''}${r1?'<i class="t1 r">1P·R</i>':''}${p2?`<i class="t2">${L2}</i>`:''}${r2?`<i class="t2 r">${L2}·R</i>`:''}</span>`:''}</button>`});
   const cols=SEL_G().reduce((x,y)=>x+y,0),PS=cols*SEL_ROWS();const mid=Math.min(parts.length,Math.floor((SEL_ROWS()-1)/2)*cols+Math.floor(cols/2));
   parts.splice(mid,0,`<button type="button" class="ctile rnd-tile${selCur==='rnd'?' is-cur':''}" data-rnd="1" aria-label="Aleatório" aria-pressed="${selCur==='rnd'}"><span class="cpic"><span class="rnd-q"><img src="img/dragao.png" alt=""><b>?</b></span></span></button>`);
@@ -7835,12 +7977,12 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
     AD.setAttribute('aria-label','Anúncio: '+a.alt);box.classList.remove('ad-swap');void box.offsetWidth;box.classList.add('ad-swap');
     AD.classList.remove('out');AD.hidden=false;setTimeout(()=>{try{$('#adBuy').focus({preventScroll:true})}catch(e){}},400);return true;}
   /* presentes de moedas: aparecem um de cada vez, ao entrar no jogo */
-  const GIFTS=[{k:'forja_mk_gift200',n:200,t:'Ganhe <b>200 moedas</b> de graça para gastar na Kripta e na Roleta de Halloween.',why:'Presente de boas-vindas'},
-    {k:'forja_mk_gift400',n:400,t:'Ganhe <b>400 moedas</b> de graça. Que tal levar a <b>Skarlet</b> e a <b>Sheeva</b>, novas na Kripta?',why:'Presente: novas lutadoras'}];
+  /* um presente só, uma vez na vida: 400 moedas de boas-vindas */
+  const GIFTS=[{k:'forja_mk_gift400',n:400,t:'Bem-vindo! Ganhe <b>400 moedas</b> de presente para gastar na Kripta e nos Eventos.',why:'Presente de boas-vindas'}];
   let giftShown=false;
   function giftCheck(){if(giftShown)return;const g=GIFTS.find(x=>!LS.get(x.k,false));if(!g)return;if(!AD.hidden||!M||M.hidden){setTimeout(giftCheck,900);return}if(document.getElementById('giftBox'))return;
     giftShown=true;const G=document.createElement('div');G.id='giftBox';G.className='gift';G.setAttribute('role','dialog');G.setAttribute('aria-label','Presente');
-    G.innerHTML=`<div class="gift-box"><div class="gift-ic">🎁</div><div class="gift-t">Presente!</div><p>${g.t}</p><div class="gift-coins"><span class="coin"></span>${g.n}</div><button type="button" class="f-btn big" id="giftOk">Resgatar</button><button type="button" class="gift-later" id="giftLater">Depois</button></div>`;
+    G.innerHTML=`<div class="gift-box"><div class="gift-ic">${ico('estrela')}</div><div class="gift-t">Presente!</div><p>${g.t}</p><div class="gift-coins"><span class="coin"></span>${g.n}</div><button type="button" class="f-btn big" id="giftOk">Resgatar</button><button type="button" class="gift-later" id="giftLater">Depois</button></div>`;
     document.body.appendChild(G);SFX.gong();
     G.querySelector('#giftLater').onclick=()=>{SFX.tick();G.remove();giftShown=false;};
     G.querySelector('#giftOk').onclick=()=>{if(cheatOn()){SFX.clang();toast('Desligue os cheats para resgatar o presente.');return}SFX.hit();addCoins(g.n,g.why);LS.set(g.k,true);try{renderCoins()}catch(e){}G.classList.add('out');
@@ -7855,7 +7997,7 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
     const bar=$('#smAd .sm-adbar i');if(bar){bar.style.animation='none';void bar.offsetWidth;bar.style.animation='';}}
   function bnStart(){clearInterval(bnT);if(ADS.length>1)bnT=setInterval(()=>{if(!M.hidden&&!BN.hidden)bnShow(bnI+1)},7000);}
   bnStart();if(!ADS.length){BN.hidden=true;BN.innerHTML='';}
-  {const eb=M.querySelector('#smMain [data-act="eventos"]');if(eb){if(!evOn())eb.hidden=true;else{const tg=document.createElement('span');tg.className='sm-evtm';tg.dataset.evtimer='';tg.textContent=evFmt();eb.appendChild(tg);}}}
+  try{ev2Badge()}catch(e){}
   BN.addEventListener('click',e=>{const b=e.target.closest('.sm-adi');if(!b)return;e.stopPropagation();const a=ADS[+b.dataset.ad];SFX.hit();if(a.sub){const k=M.querySelector('#smMain [data-act="sub"][data-sub="'+a.sub+'"]');if(k)k.click();return}if(a.ev){const k=M.querySelector('#smMain [data-act="eventos"]');if(k)k.click();return}if(a.tab)krGoto={tab:a.tab};else if(a.pack)krGoto=a.pack;else if(a.arena)krGoto={arena:a.arena};const k=M.querySelector('#smMain [data-act="kripta"]');if(k)k.click();});
   document.addEventListener('keydown',e=>{if(!AD.hidden&&e.key==='Escape'){e.preventDefault();$('#adClose').click();}});
   IS.addEventListener('click',enter);document.addEventListener('keydown',e=>{if(!IS.hidden&&(e.key==='Enter'||e.key===' ')){e.preventDefault();enter()}});
@@ -8764,6 +8906,7 @@ async function doExchange(atk,def,act,stance){
   let D=stance==='travado'?DEF_TRAVADO:(defById(stance)||defById('bloquear'));
   if(D.id!=='travado'&&FS.efx[def].ator&&D.mode!=='block')D=defById('bloquear');
   const AC=ab?{t:ab.n,icon:ab.i||'✦'}:ACTS[act];let mv;
+  if(act==='especial'&&atk===0&&isHuman(0)&&!FS.two&&!FS.training)try{misTrack('especial')}catch(e){}
   if(act==='especial'){mv=A.esp[FS.espIdx[atk]%A.esp.length];FS.espIdx[atk]++;FS.bar[atk]=Math.max(0,FS.bar[atk]-espCost(A));}
   else if(ab){mv={n:ab.n,d:ab.f};abUse(atk,ab);}
   else if(act==='lancar'){const ns=STAGES.find(x=>x.k===TRANS[FS.st.k]);mv={n:'Gancho pra cima',d:`${A.nome} mira um gancho por baixo para jogar ${Dd.nome} até ${ns?ns.n:'a arena de cima'}.`};FS.lastAb[atk]=null;}
@@ -8922,7 +9065,7 @@ async function runFight(k0,k1,opts){finCleanup();preloadSfx();preloadBanners();V
       }
       const w=FS.hp[0]>0?0:1;FS.wins[w]++;nextStart=1-w;hud();$('#fAct').innerHTML='';$('#fActL').innerHTML='';$('#fActR').innerHTML='';MUSIC.setArena('silencio');
       if(FS.wins[w]>=need){await finishSeq(w);return;}
-      const flaw=FS.dmg[w]===0;if(flaw&&w===0&&!FS.two)addCoins(COIN.flawless,'Flawless Victory');
+      const flaw=FS.dmg[w]===0;if(flaw&&w===0&&!FS.two)addCoins(COIN.flawless,'Flawless Victory');if(flaw&&w===0&&!FS.two&&!FS.online&&isHuman(0))try{misTrack('flawless')}catch(e){}
       SFX.say(P[w].nome+' wins'+(flaw?'. Flawless victory':''));await banner(`<div class="wins-t">${esc(P[w].nome)} <span>wins</span></div>${flaw?'<div class="flaw-t">Flawless Victory</div>':''}`,2100,'winb');
       try{await falasDizer(FS.round===1?[[w,falaDe(P[w],'r1v')],[1-w,falaDe(P[1-w],'r1p')]]:[[w,falaDe(P[w],'rv')],[1-w,falaDe(P[1-w],'r1p')]]);}catch(e){if(e==='abort')throw e;console.error(e);}
       log(`Fim do round ${FS.round}. Placar: <b>${esc(P[0].nome)} ${FS.wins[0]}</b> × <b>${FS.wins[1]} ${esc(P[1].nome)}</b>.`);await waitChoice([{k:'ok',t:'Próximo round ▶',cls:'big',key:'Espaço'}]);
@@ -9092,6 +9235,8 @@ async function finishSeq(w){
     finHtml=`<div class="fin-t">${IMG?`<img src="${IMG}" alt="${ch}">`:`<b>${ch}</b>`}</div>`;}
   else if(!noFin){log('O tempo acabou. Sem finalização.');await sleep(900);}
   const flaw=FS.dmg[w]===0;
+  /* missões dos eventos */
+  try{if(!FS.two&&!FS.online&&!FS.training&&FS.opts.mode!=='finshow'&&isHuman(0)){misTrack('luta');if(w===0){misTrack('vitoria');if(FS.opts.mode==='torre')misTrack('torre');if(flaw)misTrack('flawless');if(ch&&ch!=='Golpe'){misTrack('finalizacao');misTrack(ch==='Friendship'||ch==='Babality'?'fofa':ch.toLowerCase());}}}}catch(e){}
   let xpRes=[];try{xpRes=progAward(w,ch,flaw);}catch(e){console.error(e);}
   if(w===0&&!FS.two){addCoins(COIN.vitoria,'Vitória');if(flaw)addCoins(COIN.flawless,'Flawless Victory');if(ch&&ch!=='Golpe'&&COIN[ch])addCoins(COIN[ch],ch);}
   try{
@@ -9471,7 +9616,7 @@ async function kamDash(i,d,hit,kf){const F=$('#fF'+i),r=F.getBoundingClientRect(
   F.getAnimations().forEach(a=>a.cancel());}
 /* golpe do Kameo: é um especial do próprio Kameo, com dado de ataque contra a defesa escolhida */
 async function kamAttack(atk,def,j,stance,askD){const kf=kamOf(atk);if(!kf)return;const main=FS.P[atk],Dd=FS.P[def];const p=kamPowers(kf)[j]||kamPowers(kf)[0];
-  FS.bar[atk]=Math.max(0,FS.bar[atk]-KAM_COST);hud();
+  FS.bar[atk]=Math.max(0,FS.bar[atk]-KAM_COST);hud();if(atk===0&&isHuman(0)&&!FS.two&&!FS.training)try{misTrack('kameo')}catch(e){}
   log(`<b>Kameo!</b> <span class="who ${who(atk)}">${esc(main.nome)}</span> chama <b>${esc(kf.nome)}</b>.`);
   const g=await kamEnter(atk,kf);
   const save={bar:FS.bar[atk],esp:FS.espIdx[atk]};
@@ -10921,12 +11066,12 @@ const KR_HW=['Art the Clown','Jason Voorhees'];const KR_HEXA=['Coelho','Tigre','
 function krCharPrice(n){if(KR_NOVA.includes(n))return 200;if(KR_GIFT.includes(n))return 400;if(KR_GUEST.includes(n))return KR_PRICE.guest;if(KR_BASE.includes(n))return KR_PRICE.base;if(KR_HW.includes(n))return KR_PRICE.terror;if(n==='Ladybug')return KR_PRICE.extra;{const p=KR_PACKS.find(p=>p.list.includes(n));if(p)return p.each||KR_PRICE.dlc;}return 0;}
 function histDone(){const fin=LS.get('forja_mk_historia_finais',[]);if(Array.isArray(fin)&&fin.length)return 99;return +LS.get('forja_mk_hist_max',0)||0;}
 const KR_SOON=[];
-function charLock(n){if(KR_SOON.includes(n))return CHEAT.criador?null:{tipo:'breve'};if(KR_EVENTO.includes(n))return (CHEAT.criador||KR.chars.includes(n))?null:{tipo:'evento'};if(KR_FREE.includes(n)||CHEAT.criador||KR.chars.includes(n))return null;
+function charLock(n){if(KR_SOON.includes(n))return CHEAT.criador?null:{tipo:'breve'};{const eo=evOnlyChar(n);if(eo)return (CHEAT.criador||KR.chars.includes(n))?null:{tipo:'evento',ev:eo};}if(KR_EVENTO.includes(n))return (CHEAT.criador||KR.chars.includes(n))?null:{tipo:'evento'};if(KR_FREE.includes(n)||CHEAT.criador||KR.chars.includes(n))return null;
   if(n in KR_STORY){if(n==='General Shao'&&CHEAT.shao)return null;return histDone()>KR_STORY[n]?null:{tipo:'historia',cap:KR_STORY[n]};}
   const pr=krCharPrice(n);if(pr)return KR.chars.includes(n)?null:{tipo:'kripta',price:pr};return null;}
 function keyLocked(k){if(!k||k.startsWith('u:'))return null;return charLock(k.slice(2));}
-function lockMsg(n,L){if(L&&L.tipo==='exped')return L.msg;if(L.tipo==='kripta'&&!L.price)return `${n} está grátis! Resgate na Kripta, aba Personagens.`;if(L.tipo==='breve')return `${n} chega em breve. Ainda não dá para jogar.`;if(L.tipo==='evento')return `${n} está bloqueado. Ganhe ele na Roleta de Halloween, no menu Eventos.`;return L.tipo==='kripta'?`${n} está bloqueado. Desbloqueie na Kripta por ${L.price} moedas.`:`${n} está bloqueado. Para liberar: ${KR_STORY_LBL(L.cap)}.`;}
-function stageLocked(s){if(s&&s.soon)return !CHEAT.criador;if(s&&s.ev)return !CHEAT.criador&&!KR.arenas.includes(s.k);return !!(s&&s.price&&!CHEAT.criador&&!KR.arenas.includes(s.k));}
+function lockMsg(n,L){if(L&&L.tipo==='exped')return L.msg;if(L.tipo==='kripta'&&!L.price)return `${n} está grátis! Resgate na Kripta, aba Personagens.`;if(L.tipo==='breve')return `${n} chega em breve. Ainda não dá para jogar.`;if(L.tipo==='evento')return L.ev?`${n} só sai no evento “${ev2Name(L.ev)}”. Veja no menu Eventos.`:`${n} está bloqueado. Ganhe ele na Roleta de Halloween, no menu Eventos.`;return L.tipo==='kripta'?`${n} está bloqueado. Desbloqueie na Kripta por ${L.price} moedas.`:`${n} está bloqueado. Para liberar: ${KR_STORY_LBL(L.cap)}.`;}
+function stageLocked(s){if(s&&s.soon)return !CHEAT.criador;if(s&&evOnlyArena(s.k))return !CHEAT.criador&&!KR.arenas.includes(s.k);if(s&&s.ev)return !CHEAT.criador&&!KR.arenas.includes(s.k);return !!(s&&s.price&&!CHEAT.criador&&!KR.arenas.includes(s.k));}
 const krOwns=n=>!charLock(n);
 const krHasChar=n=>CHEAT.criador||KR.chars.includes(n),krHasArena=k=>CHEAT.criador||KR.arenas.includes(k),krHasArt=id=>CHEAT.criador||KR.arts.includes(id);
 function pickStage(){const pool=STAGES.filter(s=>!stageLocked(s));return pool[Math.floor(Math.random()*pool.length)];}
@@ -10945,30 +11090,30 @@ function krArts(){const a=[];
 let krGoto=null;let krTab='chars',krScareT=null,krBg=true,krOpen=false;
 function krCoins(){$('#krCoinN').textContent=MOEDAS.toLocaleString('pt-BR');}
 function krBtn(price,owned,id,kind){if(owned)return `<span class="kr-own">✓ Liberado</span>`;if(!price)return `<button type="button" class="kr-buy kr-free" data-buy="${esc(id)}" data-kind="${kind}" data-price="0">Resgatar grátis</button>`;const can=MOEDAS>=price;return `<button type="button" class="kr-buy${can?'':' poor'}" data-buy="${esc(id)}" data-kind="${kind}" data-price="${price}"><span class="coin"></span>${price}</button>`;}
-function krArenaCard(s){const owned=krHasArena(s.k);return `<div class="kr-card arena${owned?' own':''}" data-arena="${s.k}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${owned?'':'<span class="kr-lock">'+ico('cadeado')+'</span>'}${s.price>=250?'<span class="kr-rare">Especial</span>':''}</div><div class="kr-n">${esc(s.n)}</div>${krBtn(s.price,owned,s.k,'arena')}</div>`}
-function krCharCard(n){const owned=krOwns(n);return `<div class="kr-card${owned?' own':''}"><div class="kr-pic">${FOTO[n]?`<img src="${fotoOrig(n)}" alt="" loading="lazy">`:''}${owned?'':'<span class="kr-lock">'+ico('cadeado')+'</span>'}</div><div class="kr-n">${esc(n)}</div>${krBtn(krCharPrice(n),owned,n,'char')}</div>`;}
-function krSkinCard(s){const o=skOwned(s.id),base=!charLock(s.c);return `<div class="kr-card skin${o?' own':''}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${o?'':'<span class="kr-lock">'+ico('cadeado')+'</span>'}</div><div class="kr-n">${esc(s.n)}</div><div class="kr-sb">${base?'Para '+esc(s.c):'Precisa de '+esc(s.c)}</div>${krBtn(s.price,o,s.id,'skin')}</div>`}
+function krArenaCard(s){if(evOnlyArena(s.k))return krEvCard({kind:'arena',ref:s.k,n:s.n},'arena');const owned=krHasArena(s.k);return `<div class="kr-card arena${owned?' own':''}" data-arena="${s.k}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${owned?'':'<span class="kr-lock">'+ico('cadeado')+'</span>'}${s.price>=250?'<span class="kr-rare">Especial</span>':''}</div><div class="kr-n">${esc(s.n)}</div>${krBtn(s.price,owned,s.k,'arena')}</div>`}
+function krEvCard(it,cls){const own=ev2Owns(it),ev=it.kind==='char'?evOnlyChar(it.ref):it.kind==='arena'?evOnlyArena(it.ref):evOnlySkin(it.ref);const e=ev2Def(ev),on=e&&ev2Active(e);
+  return `<div class="kr-card ${cls||''} kr-evc${own?' own':''}"><div class="kr-pic"><img src="${ev2Img(it)}" alt="" loading="lazy">${own?'':'<span class="kr-lock">'+ico('estrela')+'</span>'}</div><div class="kr-n">${esc(it.n||it.ref)}</div>${own?'<span class="kr-own">✓ Liberado</span>':on?`<button type="button" class="kr-story kr-goev" data-goev="${ev}">Evento: ${esc(e.n)}</button>`:'<span class="kr-story">Evento encerrado</span>'}</div>`;}
+function krCharCard(n){if(evOnlyChar(n))return krEvCard({kind:'char',ref:n,n});const owned=krOwns(n);return `<div class="kr-card${owned?' own':''}"><div class="kr-pic">${FOTO[n]?`<img src="${fotoOrig(n)}" alt="" loading="lazy">`:''}${owned?'':'<span class="kr-lock">'+ico('cadeado')+'</span>'}</div><div class="kr-n">${esc(n)}</div>${krBtn(krCharPrice(n),owned,n,'char')}</div>`;}
+function krSkinCard(s){if(evOnlySkin(s.id))return krEvCard({kind:'skin',ref:s.id,n:s.n},'skin');const o=skOwned(s.id),base=!charLock(s.c);return `<div class="kr-card skin${o?' own':''}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${o?'':'<span class="kr-lock">'+ico('cadeado')+'</span>'}</div><div class="kr-n">${esc(s.n)}</div><div class="kr-sb">${base?'Para '+esc(s.c):'Precisa de '+esc(s.c)}</div>${krBtn(s.price,o,s.id,'skin')}</div>`}
 function krPackPrice(p){const rest=p.list.filter(n=>!krOwns(n));if(!rest.length)return 0;const each=p.each||KR_PRICE.dlc;return rest.length===p.list.length?(p.pack||KR_PRICE.pack):Math.round(rest.length*each*.83/50)*50;}
 function renderKripta(){krCoins();{const tv=krTab==='tvd';$('#krBg').classList.toggle('tvd',tv);$('#kripta').classList.toggle('tvd',tv);if(krOpen)MUSIC.setOverride(tv?'tvd':'kripta');}$('#krCriador').hidden=!CHEAT.criador;$$('.kr-tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===krTab));const box=$('#krBody');let h='';
   if(krTab==='chars'){
-    h+=`<h4 class="kr-h kr-hexa" data-pack="sheeva">Novidades <small>200 moedas cada</small></h4><div class="kr-grid">${KR_NOVA.map(krCharCard).join('')}</div>`;
-    h+=`<h4 class="kr-h kr-hexa" data-pack="lorenzo">Lorenzo <small>400 moedas</small></h4><div class="kr-grid">${KR_GIFT.map(krCharCard).join('')}</div>`;
-    {const p=KR_PACKS.find(x=>x.id==='hexa'),pp=krPackPrice(p);h+=`<h4 class="kr-h kr-hexa" data-pack="hexa">Hexatombe <small>${p.each} moedas cada</small></h4>${pp?`<div class="kr-pack"><span>Pacote com ${p.list.filter(n=>!krOwns(n)).length} lutadores</span>${krBtn(pp,false,p.id,'pack')}</div>`:''}<div class="kr-grid">${KR_HEXA.map(krCharCard).join('')}</div>`;}
+    h+=`<h4 class="kr-h kr-hexa">${ico('estrela')} Só nos eventos <small>não estão à venda: ganhe no menu Eventos</small></h4><div class="kr-grid">${Object.keys(EVO().char).map(krCharCard).join('')}</div>`;
+    {const p=KR_PACKS.find(x=>x.id==='hexa');h+=`<h4 class="kr-h kr-hexa" data-pack="hexa">Hexatombe <small>${p.each} moedas · os outros 4 saem nos eventos</small></h4><div class="kr-grid">${KR_HEXA.filter(n=>!evOnlyChar(n)).map(krCharCard).join('')}</div>`;}
     h+=`<h4 class="kr-h kr-hw">${ico('abobora')} Convidados do Terror <small>${KR_PRICE.terror} moedas cada</small></h4><div class="kr-grid">${KR_HW.map(krCharCard).join('')}${KR_EVENTO.map(n=>{const L=charLock(n);return `<div class="kr-card hw${L?'':' own'}"><div class="kr-pic">${FOTO[n]?`<img src="${FOTO[n]}" alt="" loading="lazy">`:''}${L?'<span class="kr-lock">'+ico('abobora')+'</span>':''}</div><div class="kr-n">${esc(n)}</div>${L?'<button type="button" class="kr-story kr-goev" data-goev="1">Só na Roleta de Halloween</button>':'<span class="kr-own">✓ Liberado</span>'}</div>`}).join('')}</div>`;
     h+=`<h4 class="kr-h">Elenco do MK1 <small>${KR_PRICE.base} moedas cada</small></h4><div class="kr-grid">${KR_BASE.map(krCharCard).join('')}</div>`;
     KR_PACKS.filter(p=>!p.page).forEach(p=>{const pp=krPackPrice(p);h+=`<h4 class="kr-h" data-pack="${p.id}">${esc(p.n)} <small>${p.each||KR_PRICE.dlc} cada</small></h4>${pp?`<div class="kr-pack"><span>Pacote com ${p.list.filter(n=>!krHasChar(n)).length} lutadores</span>${krBtn(pp,false,p.id,'pack')}</div>`:''}<div class="kr-grid">${p.list.map(krCharCard).join('')}</div>`;});
     h+=`<h4 class="kr-h">Participação especial <small>${KR_PRICE.extra} moedas</small></h4><div class="kr-grid">${krCharCard('Ladybug')}</div>`;
-    h+=`<h4 class="kr-h">Convidada <small>${KR_PRICE.guest} moedas</small></h4><div class="kr-grid">${KR_GUEST.map(krCharCard).join('')}</div>`;
     h+=`<h4 class="kr-h">Modo História <small>não estão à venda</small></h4><div class="kr-grid">${Object.keys(KR_STORY).map(n=>{const L=charLock(n);return `<div class="kr-card${L?'':' own'}"><div class="kr-pic">${FOTO[n]?`<img src="${FOTO[n]}" alt="" loading="lazy">`:''}${L?'<span class="kr-lock">'+ico('livro')+'</span>':''}</div><div class="kr-n">${esc(n)}</div>${L?`<span class="kr-story">${n==='General Shao'?'Termine a história':KR_STORY[n]===10?'Termine a história':'Capítulo '+KR_STORY[n]}</span>`:'<span class="kr-own">✓ Liberado</span>'}</div>`}).join('')}</div>`;
   }else if(krTab==='skins'){
     h+=`<p class="kr-hab-note">Skins mudam a aparência do lutador. Todos podem comprar, mas só dá para usar a skin com o personagem liberado. Escolha na seleção de lutador, no botão <b>Skin</b>.</p>`;
     [...new Set(SKN.filter(s=>!s.tvd).map(s=>s.g))].forEach(g=>{const L=SKN.filter(s=>s.g===g&&!s.tvd);h+=`<h4 class="kr-h">${esc(g)} <small>${L[0].price} moedas cada</small></h4><div class="kr-grid">${L.map(krSkinCard).join('')}</div>`;});
   }else if(krTab==='arenas'){
-    h+=`<h4 class="kr-h">Arenas novas</h4><div class="kr-grid wide">${STAGES.filter(s=>s.price&&!s.pack).map(krArenaCard).join('')}</div>`;
+    h+=`<h4 class="kr-h">Arenas novas</h4><div class="kr-grid wide">${STAGES.filter(s=>s.price&&!s.pack&&!evOnlyArena(s.k)).map(krArenaCard).join('')}</div>`;h+=`<h4 class="kr-h kr-hexa">${ico('estrela')} Só nos eventos</h4><div class="kr-grid wide">${Object.keys(EVO().arena).map(kk=>STAGES.find(s=>s.k===kk)).filter(Boolean).map(krArenaCard).join('')}</div>`;
     h+=`<h4 class="kr-h kr-hw">${ico('abobora')} Evento de Halloween <small>só na roleta</small></h4><div class="kr-grid wide">${STAGES.filter(s=>s.ev==='hw').map(s=>{const o=krHasArena(s.k);return `<div class="kr-card arena hw${o?' own':''}"><div class="kr-pic"><img src="${s.img}" alt="" loading="lazy">${o?'':'<span class="kr-lock">'+ico('abobora')+'</span>'}</div><div class="kr-n">${esc(s.n)}</div>${o?'<span class="kr-own">✓ Liberado</span>':'<button type="button" class="kr-story kr-goev" data-goev="1">Só na Roleta de Halloween</button>'}</div>`}).join('')}</div>`;
   }else if(krTab==='tvd'){const p=KR_PACKS.find(x=>x.id==='tvd'),pp=krPackPrice(p);
     h+=`<div class="tvd-head"><img class="tvd-logo" src="img/tvd/logo.png" alt="The Vampire Diaries"><div class="tvd-sub">Bem-vindo a Mystic Falls</div></div>`;
-    h+=`<h4 class="kr-h" data-pack="tvd">Personagens <small>${p.each} moedas cada</small></h4>${pp?`<div class="kr-pack"><span>Pacote com ${p.list.filter(n=>!krOwns(n)).length} lutadores</span>${krBtn(pp,false,p.id,'pack')}</div>`:''}<div class="kr-grid">${p.list.map(krCharCard).join('')}</div>`;
+    h+=`<h4 class="kr-h" data-pack="tvd">Personagens <small>${p.each} moedas · Damon, Bonnie e Lexi saem no evento</small></h4><div class="kr-grid">${p.list.map(krCharCard).join('')}</div>`;
     h+=`<h4 class="kr-h">Arenas de Mystic Falls <small>200 moedas cada</small></h4><div class="kr-grid wide">${STAGES.filter(s=>s.pack==='tvd').map(krArenaCard).join('')}</div>`;
     h+=`<h4 class="kr-h">Skins <small>150 moedas cada</small></h4><div class="kr-grid">${SKN.filter(s=>s.tvd).map(krSkinCard).join('')}</div>`;
   }else if(krTab==='habs'){
@@ -11005,7 +11150,7 @@ function closeKripta(){krOpen=false;clearTimeout(krScareT);
   loading({action:()=>{$('#kripta').hidden=true;$('#krBg').hidden=true;$('#krScare').hidden=true;$('#krModal').hidden=true;$('#krView').hidden=true;document.body.classList.remove('krypt');document.body.style.overflow='';WEAP.toggle(krBg);MUSIC.setOverride(null);$('#brand').click();}});}
 $('#krClose').onclick=()=>{SFX.hit();closeKripta();};
 $$('.kr-tabs button').forEach(b=>b.onclick=()=>{krTab=b.dataset.t;SFX.tick();renderKripta();$('#krBody').scrollTop=0;});
-$('#krBody').addEventListener('click',e=>{if(e.target.closest('[data-goev]')){SFX.hit();krOpen=false;clearTimeout(krScareT);loading({action:()=>{$('#kripta').hidden=true;$('#krBg').hidden=true;$('#krModal').hidden=true;document.body.classList.remove('krypt');document.body.style.overflow='';WEAP.toggle(krBg);openEventos('roleta');}});return}const b=e.target.closest('[data-buy]');if(b){krConfirm(b.dataset.kind,b.dataset.buy,+b.dataset.price);return}const v=e.target.closest('[data-view]');if(v){SFX.tick();krView(v.dataset.view);}});
+$('#krBody').addEventListener('click',e=>{if(e.target.closest('[data-goev]')){const gv=e.target.closest('[data-goev]').dataset.goev;SFX.hit();krOpen=false;clearTimeout(krScareT);loading({action:()=>{$('#kripta').hidden=true;$('#krBg').hidden=true;$('#krModal').hidden=true;document.body.classList.remove('krypt');document.body.style.overflow='';WEAP.toggle(krBg);openEventos(gv&&gv!=='1'?'ev2:'+gv:'roleta');}});return}const b=e.target.closest('[data-buy]');if(b){krConfirm(b.dataset.kind,b.dataset.buy,+b.dataset.price);return}const v=e.target.closest('[data-view]');if(v){SFX.tick();krView(v.dataset.view);}});
 
 /* ====== SKN: aparências extras vendidas na Kripta ====== */
 const SKN=[
@@ -11033,10 +11178,11 @@ function skClose(){const m=$('#skModal');if(m)m.remove();}
 function skOpen(c){skClose();const M=document.createElement('div');M.id='skModal';M.className='sk-modal';M.setAttribute('role','dialog');M.setAttribute('aria-label','Skins de '+c);
   const draw=()=>{const cur=skActive(c);const opts=[{id:null,n:'Original',img:FOTO0[c]}].concat(skOf(c));
     M.innerHTML=`<div class="sk-box"><div class="sk-t">Skins de ${esc(c)}</div><div class="sk-coins"><span class="coin"></span>${MOEDAS.toLocaleString('pt-BR')}</div><div class="sk-row">${opts.map(o=>{const on=(cur?cur.id:null)===o.id;const own=!o.id||skOwned(o.id);
-      return `<button type="button" class="sk-opt${on?' on':''}${own?'':' lock'}" data-sk="${o.id||''}"><span class="sk-pic"><img src="${o.img}" alt="">${own?'':'<span class="sk-lk">'+ico('cadeado')+'</span>'}</span><b>${esc(o.n)}</b><span class="sk-st">${on?'✓ Em uso':own?'Usar':`<span class="coin"></span>${o.price} · Comprar`}</span></button>`}).join('')}</div><button type="button" class="f-btn" data-sk-x="1">Fechar</button></div>`;};
+      return `<button type="button" class="sk-opt${on?' on':''}${own?'':' lock'}" data-sk="${o.id||''}"><span class="sk-pic"><img src="${o.img}" alt="">${own?'':'<span class="sk-lk">'+ico('cadeado')+'</span>'}</span><b>${esc(o.n)}</b><span class="sk-st">${on?'✓ Em uso':own?'Usar':o.id&&evOnlySkin(o.id)?'Só no evento':`<span class="coin"></span>${o.price} · Comprar`}</span></button>`}).join('')}</div><button type="button" class="f-btn" data-sk-x="1">Fechar</button></div>`;};
   draw();document.body.appendChild(M);SFX.tick();
   M.onclick=e=>{if(e.target===M||e.target.closest('[data-sk-x]')){SFX.tick();skClose();return}
     const b=e.target.closest('[data-sk]');if(!b)return;const id=b.dataset.sk||null;
+    if(id&&!skOwned(id)&&evOnlySkin(id)){SFX.clang();toast(`Essa skin só sai no evento “${ev2Name(evOnlySkin(id))}”. Veja no menu Eventos.`);return}
     if(id&&!skOwned(id)){const s=skById(id);if(!spendCoins(s.price,'Skin: '+s.n)){SFX.clang();toast(`Faltam ${s.price-MOEDAS} moedas para ${s.n}.`);return}
       KR.skins=KR.skins||[];KR.skins.push(id);krSave();SFX.coin();try{renderCoins()}catch(_){}toast(`${s.n} comprada!`);}
     skEquip(c,id);SFX.hit();draw();try{renderOfficial()}catch(_){}try{document.dispatchEvent(new CustomEvent('skinchange',{detail:c}))}catch(_){}};}
@@ -11064,8 +11210,8 @@ function evLeft(){return Date.parse('2026-11-03T00:00:00-03:00')-Date.now();}
 function evOn(){return evLeft()>0;}
 function evFmt(){const r=Math.max(0,evLeft());if(r>2*86400000){const d=Math.floor(r/86400000);return d+' dias';}const t=Math.floor(r/1000);return [Math.floor(t/3600),Math.floor(t%3600/60),t%60].map(n=>String(n).padStart(2,'0')).join(':');}
 function evTimerTick(){const on=evOn();$$('[data-evtimer]').forEach(e=>{e.textContent=(e.dataset.evtimer||'')+evFmt();});
-  if(!on){const b=document.querySelector('#smMain [data-act="eventos"]');if(b)b.hidden=true;$$('#smAd .sm-adi[data-ev="1"]').forEach(x=>x.remove());{const BN=document.getElementById('smAd');if(BN&&!BN.querySelector('.sm-adi'))BN.hidden=true;}
-    if(typeof evOpen!=='undefined'&&evOpen&&!evSpinning){toast('O Evento de Halloween terminou.');closeEventos();}clearInterval(EV_TICK);}}
+  if(!on){$$('#smAd .sm-adi[data-ev="1"]').forEach(x=>x.remove());{const BN=document.getElementById('smAd');if(BN&&!BN.querySelector('.sm-adi'))BN.hidden=true;}
+    if(typeof evOpen!=='undefined'&&evOpen&&!evSpinning&&evView==='roleta'){toast('O Evento de Halloween terminou.');evView='lista';renderEventos();}clearInterval(EV_TICK);}}
 var EV_TICK=setInterval(()=>{try{evTimerTick()}catch(e){}},1000);
 /* ====== EVENTOS: Roleta de Halloween ====== */
 const EV_HW={id:'hw',n:'Roleta de Halloween',bg:'img/luta/abobora.jpg',prices:[100],
@@ -11119,8 +11265,10 @@ function evWheelSVG(){const its=EV_HW.items,n=its.length,seg=360/n,R=96;const P=
 
 /* ---- telas ---- */
 function renderEventos(){evCoins();const B=$('#evBody');
-  if(evView==='lista'){
-    B.innerHTML=`<div class="ev-list"><button type="button" class="ev-card" data-ev="hw"><span class="ev-card-bg" style="background-image:url(${EV_HW.bg})"></span><span class="ev-card-tag">${ico('abobora')} Evento de Halloween</span><span class="ev-card-n">Roleta de Halloween</span><span class="ev-card-d">Prêmio principal: <b>Freddy Krueger</b>. Também tem 3 arenas, 2 habilidades e moedas.</span><span class="ev-timer">${ico('ampulheta')} <span data-evtimer="Termina em ">Termina em ${evFmt()}</span></span><span class="ev-card-go">Entrar ›</span></button>${evShowcase()}</div>`;return;}
+  {const bg=document.querySelector('#evento .ev-bg img');const W=document.getElementById('evento');if(evView!=='ev2'){W.style.removeProperty('--e1');W.style.removeProperty('--e2');delete W.dataset.e2;}
+    const want=evView==='ev2'?((ev2Def(EV2_CUR_ID)||{}).bg||''):evView==='roleta'||evOn()?EV_HW.bg:'img/kripta/fundo.jpg';if(bg&&want&&bg.getAttribute('src')!==want)bg.src=want;}
+  if(evView==='ev2'){ev2Render();return;}
+  if(evView==='lista'){B.innerHTML=ev2List();return;}
   const n=evSpins(),cost=evCost(n),pool=evPool(),fr=EV_HW.items[0],frOwn=evOwned(fr),done=!pool.length,can=MOEDAS>=cost&&!evSpinning&&!done;
   const note=CHEAT.criador?'<p class="ev-note">Modo do Criador ativo: os prêmios já estão liberados.</p>':cheatOn()?'<p class="ev-note">Cheat ligado: moedas ganhas na roleta não contam.</p>':!pool.length?'<p class="ev-note">Você já ganhou todos os prêmios da roleta!</p>':'';
   B.innerHTML=`<div class="ev-rol">
@@ -11146,13 +11294,13 @@ function evSpin(){if(evSpinning||!evPool().length)return;const cost=evCost();if(
     const idx=Math.floor((((360-evRot%360)%360)+360)%360/seg);if(last!==null&&idx!==last){SFX.tick();if(ptr){ptr.classList.remove('kick');void ptr.offsetWidth;ptr.classList.add('kick');}}last=idx;
     if(p<1)requestAnimationFrame(step);else{evRot=target%360;evSpinning=false;evGrant(it);evCoins();setTimeout(()=>evResult(it),250);}};
   requestAnimationFrame(step);}
-function openEventos(view){if(!evOn()){SFX.clang();toast('O Evento de Halloween terminou.');return;}evOpen=true;evView=view||'lista';document.body.classList.add('krypt');document.body.style.overflow='hidden';
+function openEventos(view){evOpen=true;evView=view||'lista';if(evView==='roleta'&&!evOn())evView='lista';if(evView.startsWith('ev2:')){EV2_CUR_ID=evView.slice(4);evView='ev2';}document.body.classList.add('krypt');document.body.style.overflow='hidden';
   $('#evento').hidden=false;$('#evModal').hidden=true;renderEventos();$('#evBody').scrollTop=0;MUSIC.setIntro(false);MUSIC.setOverride('halloween');}
 function closeEventos(){if(evSpinning)return;evOpen=false;
   loading({action:()=>{$('#evento').hidden=true;$('#evModal').hidden=true;document.body.classList.remove('krypt');document.body.style.overflow='';MUSIC.setOverride(null);$('#brand').click();}});}
 $('#evClose').onclick=()=>{SFX.hit();closeEventos();};
-$('#evBody').addEventListener('click',e=>{if(e.target.closest('[data-ev]')){SFX.hit();evView='roleta';renderEventos();$('#evBody').scrollTop=0;return}
-  if(e.target.closest('#evBack')){if(evSpinning)return;SFX.tick();evView='lista';renderEventos();return}
+$('#evBody').addEventListener('click',e=>{{const c=e.target.closest('[data-ev2]');if(c){SFX.hit();EV2_CUR_ID=c.dataset.ev2;evView='ev2';renderEventos();$('#evBody').scrollTop=0;return}}{const c=e.target.closest('[data-e2]');if(c&&c.dataset.e2&&!c.disabled&&c.getAttribute('aria-disabled')!=='true'){ev2Click(c);return}}if(e.target.closest('[data-ev]')){SFX.hit();evView='roleta';renderEventos();$('#evBody').scrollTop=0;return}
+  if(e.target.closest('#evBack')){if(evSpinning||ev2Busy)return;SFX.tick();evView='lista';renderEventos();$('#evBody').scrollTop=0;return}
   if(e.target.closest('#evSpin')){evSpin();}});
 
 /* vitrine de prêmios na lista de eventos: o que dá para ganhar e o que você já tem */
@@ -11160,6 +11308,223 @@ function evShowcase(){const it=EV_HW.items.filter(x=>x.kind!=='coins');const coi
   return `<section class="ev-show"><h3 class="ev-show-h">Prêmios da roleta</h3><div class="ev-show-g">${it.map(x=>{const o=evOwned(x);const img=evImg(x);
     return `<div class="ev-pz${o?' own':''}${x.tier==='main'?' main':''}"><span class="ev-pz-i">${img?`<img src="${img}" alt="" loading="lazy">`:ico(x.kind==='hab'?'runa':'estrela')}</span><b>${esc(evName(x))}</b><small>${o?'Já é seu':EV_TIER[x.tier]}</small></div>`}).join('')}</div>
     <p class="ev-show-c">${ico('moeda')} E também de ${Math.min(...coins)} a ${Math.max(...coins)} moedas por giro.</p></section>`;}
+
+/* ====== EVENTOS 2: roletas, sorteios, missões diárias, lojas de tokens, login e o ritual ======
+   Tudo o que sai nestes eventos NÃO se compra com moedas na Kripta: só dá para ganhar aqui. */
+const EV2_T0=Date.parse('2026-10-28T00:00:00-03:00');
+const evDay=d=>EV2_T0+d*86400000;
+const coinIt=(v,w)=>({id:'c'+v,kind:'coins',v,w,tier:'coin'});
+const EVS=[
+  {id:'diario',tipo:'diario',n:'Missões Diárias',tag:'Todo dia',end:null,bg:'img/menu/jogar.jpg',c:['#ffb347','#3a1a06'],
+   d:'Pequenas missões que dão até 100 moedas por dia. Renovam toda meia-noite.',
+   ms:[{id:'d1',t:'luta',n:1,x:'Jogue 1 luta',r:10},{id:'d2',t:'vitoria',n:2,x:'Vença 2 lutas',r:20},{id:'d3',t:'finalizacao',n:1,x:'Faça 1 finalização',r:15},{id:'d4',t:'torre',n:1,x:'Vença 1 luta na Torre',r:20},{id:'d5',t:'fofa',n:1,x:'Faça um Friendship ou uma Babality',r:10},{id:'d6',t:'especial',n:3,x:'Use o golpe especial 3 vezes',r:10},{id:'d7',t:'flawless',n:1,x:'Vença um round sem levar dano',r:15}]},
+  {id:'vega',tipo:'roleta',n:'Roleta da Agente',tag:'Roleta',end:evDay(12),bg:'img/s/vega-agente.jpg',c:['#3ad8e0','#04262c'],cost:100,
+   d:'Prêmio principal: Vega. Prêmio secundário: a skin Vega Agente da Ordem.',
+   items:[{id:'vega',kind:'char',ref:'Vega',n:'Vega',w:3,tier:'main'},{id:'skvega',kind:'skin',ref:'vega-agente',n:'Vega Agente da Ordem',w:7,tier:'sec'},coinIt(25,20),coinIt(50,16),coinIt(75,12),coinIt(100,9),coinIt(150,5),coinIt(300,1.5)]},
+  {id:'lorenzo',tipo:'sorteio',n:'O Herdeiro de Veyrath',tag:'Sorteio',end:evDay(18),bg:'img/luta/serenata.jpg',c:['#e0485a','#2a0610'],
+   d:'Tire 2 prêmios da mesa e sorteie até 8 vezes, sem repetir. Prêmio principal: Lorenzo. Secundário: a arena Serenata.',
+   items:[{id:'lorenzo',kind:'char',ref:'Lorenzo',n:'Lorenzo',w:2,tier:'main'},{id:'serenata',kind:'arena',ref:'serenata',n:'Arena Serenata',w:4,tier:'sec'},coinIt(20,10),coinIt(30,10),coinIt(40,10),coinIt(50,10),coinIt(60,10),coinIt(70,10),coinIt(80,10),coinIt(100,10)]},
+  {id:'tvd2',tipo:'troca',n:'The Vampire Diaries · Parte 2',tag:'Roleta e troca',end:evDay(20),bg:'img/luta/mysticfalls.jpg',c:['#d81c2c','#120206'],cost:200,
+   d:'Gire para juntar Projetos de Mystic Falls e Pedras da Evolução e troque por Damon, Bonnie ou Lexi.',
+   items:[{id:'pedra',kind:'cur',ref:'pedra',v:1,n:'Pedra da Evolução',w:6,tier:'main'},{id:'proj',kind:'cur',ref:'proj',v:1,n:'Projeto de Mystic Falls',w:12,tier:'sec'},coinIt(25,30),coinIt(50,24),coinIt(100,15),coinIt(150,8),coinIt(300,5)],
+   shop:[{id:'damon',kind:'char',ref:'Damon',n:'Damon',p:{proj:4,pedra:2}},{id:'bonnie',kind:'char',ref:'Bonnie',n:'Bonnie',p:{proj:3,pedra:2}},{id:'lexi',kind:'char',ref:'Lexi',n:'Lexi',p:{proj:2,pedra:1}}]},
+  {id:'ritual',tipo:'ritual',n:'Ritual da Hexatombe',tag:'Ritual',end:evDay(15),bg:'img/luta/caldeira.jpg',c:['#c8202a','#160404'],costT:3,costM:300,
+   d:'Cobra e Touro estão presos no círculo de sangue. Cada invocação pode libertar um deles ou deixar Marcas de Sangue: com 12 marcas você liberta quem quiser.',
+   items:[{id:'cobra',kind:'char',ref:'Cobra',n:'Cobra',w:2,tier:'main'},{id:'touro',kind:'char',ref:'Touro',n:'Touro',w:2,tier:'main'},{id:'m1',kind:'cur',ref:'marca',v:1,n:'1 Marca de Sangue',w:44,tier:'sec'},{id:'m2',kind:'cur',ref:'marca',v:2,n:'2 Marcas de Sangue',w:30,tier:'sec'},{id:'m3',kind:'cur',ref:'marca',v:3,n:'3 Marcas de Sangue',w:12,tier:'sec'},coinIt(50,10)],
+   shop:[{id:'cobra',kind:'char',ref:'Cobra',n:'Cobra',p:{marca:12}},{id:'touro',kind:'char',ref:'Touro',n:'Touro',p:{marca:12}}]},
+  {id:'hexa',tipo:'missoes',n:'Caçada da Hexatombe',tag:'Missões · grátis',end:evDay(20),bg:'img/luta/necroterio.jpg',c:['#7ad04a','#0c1a06'],cur:'tok_hexa',
+   d:'Missões diárias dão Tokens da Hexatombe. Troque por Coelho, Cabra e Tickets do Ritual.',
+   ms:[{id:'h1',t:'vitoria',n:1,x:'Vença 1 luta',r:20},{id:'h2',t:'vitoria',n:3,x:'Vença 3 lutas',r:25},{id:'h3',t:'fatality',n:1,x:'Faça 1 Fatality',r:20},{id:'h4',t:'brutality',n:1,x:'Faça 1 Brutality',r:20},{id:'h5',t:'torre',n:1,x:'Vença 1 luta na Torre',r:25},{id:'h6',t:'kameo',n:2,x:'Use o Kameo 2 vezes',r:20},{id:'h7',t:'flawless',n:1,x:'Vença um round sem levar dano',r:20}],
+   shop:[{id:'coelho',kind:'char',ref:'Coelho',n:'Coelho',p:{tok_hexa:500}},{id:'cabra',kind:'char',ref:'Cabra',n:'Cabra',p:{tok_hexa:500}},{id:'t3',kind:'cur',ref:'tkt',v:3,n:'3 Tickets do Ritual',p:{tok_hexa:120},rep:true},{id:'t5',kind:'cur',ref:'tkt',v:5,n:'5 Tickets do Ritual',p:{tok_hexa:190},rep:true},{id:'t9',kind:'cur',ref:'tkt',v:9,n:'9 Tickets do Ritual',p:{tok_hexa:320},rep:true}]},
+  {id:'login',tipo:'login',n:'Arenas Grátis',tag:'Entre todo dia',end:evDay(10),bg:'img/luta/bank.jpg',c:['#ffcf4a','#2a1a02'],
+   d:'Entre no jogo em dias diferentes e ganhe três arenas e moedas.',
+   days:[{kind:'arena',ref:'thebank',n:'Arena The Bank'},{kind:'coins',v:100,n:'100 moedas'},{kind:'arena',ref:'thepit',n:'Arena The Pit'},{kind:'coins',v:200,n:'200 moedas'},{kind:'arena',ref:'forja',n:'Arena Forja do Dragão'}]},
+  {id:'kham',tipo:'sorteio',n:'O Espelho de Zaterra',tag:'Sorteio',end:evDay(15),bg:'img/p/khameleon.jpg',c:['#b07aff','#140a24'],
+   d:'Tire 2 prêmios da mesa e sorteie até 8 vezes, sem repetir. Prêmio principal: Khameleon. Secundários: Skarlet e Sheeva.',
+   items:[{id:'kham',kind:'char',ref:'Khameleon',n:'Khameleon',w:2,tier:'main'},{id:'skarlet',kind:'char',ref:'Skarlet',n:'Skarlet',w:4,tier:'sec'},{id:'sheeva',kind:'char',ref:'Sheeva',n:'Sheeva',w:4,tier:'sec'},coinIt(25,10),coinIt(40,10),coinIt(50,10),coinIt(60,10),coinIt(75,10),coinIt(90,10),coinIt(100,10)]},
+  {id:'ninjas',tipo:'sorteio',n:'Guarda-Roupa de Edênia',tag:'Sorteio de skins',end:evDay(15),bg:'img/s/kitana-safira.jpg',c:['#4a8aff','#06102a'],
+   d:'Tire 2 prêmios da mesa e sorteie até 8 vezes, sem repetir. Skins da Kitana, da Jade e da Mileena.',
+   items:[{id:'skkit',kind:'skin',ref:'kitana-safira',n:'Kitana Safira Imperial',w:2,tier:'main'},{id:'skjade',kind:'skin',ref:'jade-mk2',n:'Jade MK2 Classic',w:4,tier:'sec'},{id:'skmil',kind:'skin',ref:'mileena-rosa',n:'Mileena Neon Rosa',w:4,tier:'sec'},coinIt(25,10),coinIt(40,10),coinIt(50,10),coinIt(60,10),coinIt(75,10),coinIt(90,10),coinIt(100,10)]},
+  {id:'mfarenas',tipo:'missoes',n:'Noites de Mystic Falls',tag:'Missões · grátis',end:evDay(20),bg:'img/luta/relogio.jpg',c:['#ff5a6a','#1a0408'],cur:'tok_mf',
+   d:'Missões diárias dão Tokens de Mystic Falls. Troque pelas três arenas de The Vampire Diaries.',
+   ms:[{id:'m1',t:'luta',n:2,x:'Jogue 2 lutas',r:20},{id:'m2',t:'vitoria',n:2,x:'Vença 2 lutas',r:25},{id:'m3',t:'finalizacao',n:2,x:'Faça 2 finalizações',r:25},{id:'m4',t:'especial',n:5,x:'Use o golpe especial 5 vezes',r:20},{id:'m5',t:'torre',n:1,x:'Vença 1 luta na Torre',r:25},{id:'m6',t:'fofa',n:1,x:'Faça um Friendship ou uma Babality',r:20},{id:'m7',t:'flawless',n:1,x:'Vença um round sem levar dano',r:15}],
+   shop:[{id:'relogio',kind:'arena',ref:'relogio',n:'Torre do Relógio',p:{tok_mf:900}},{id:'mausoleu',kind:'arena',ref:'mausoleu',n:'Mausoléu Stefan',p:{tok_mf:900}},{id:'mysticfalls',kind:'arena',ref:'mysticfalls',n:'Bem-vindo a Mystic Falls',p:{tok_mf:900}}]},
+  {id:'baile',tipo:'missoes',n:'Baile de Máscaras',tag:'Missões · grátis',end:evDay(20),bg:'img/s/katherine-mascaras.jpg',c:['#ff8ac8','#200818'],cur:'tok_baile',
+   d:'Missões diárias dão Tokens do Baile. Troque pelas skins da Bonnie e da Katherine.',
+   ms:[{id:'b1',t:'vitoria',n:1,x:'Vença 1 luta',r:20},{id:'b2',t:'vitoria',n:4,x:'Vença 4 lutas',r:30},{id:'b3',t:'fatality',n:2,x:'Faça 2 Fatalities',r:25},{id:'b4',t:'animality',n:1,x:'Faça 1 Animality',r:20},{id:'b5',t:'kameo',n:3,x:'Use o Kameo 3 vezes',r:20},{id:'b6',t:'especial',n:3,x:'Use o golpe especial 3 vezes',r:15},{id:'b7',t:'torre',n:1,x:'Vença 1 luta na Torre',r:20}],
+   shop:[{id:'skbonnie',kind:'skin',ref:'bonnie-baile',n:'Bonnie Rainha do Baile',p:{tok_baile:1200}},{id:'skkath',kind:'skin',ref:'katherine-mascaras',n:'Katherine Baile de Máscaras',p:{tok_baile:1200}}]}
+];
+const EV2_COST=[150,160,170,180,190,200,215,235];
+/* moedas próprias de cada evento */
+const EV2_CUR={
+  tok_hexa:{n:'Tokens da Hexatombe',s:'tokens'},tkt:{n:'Tickets do Ritual',s:'tickets'},marca:{n:'Marcas de Sangue',s:'marcas'},
+  proj:{n:'Projetos de Mystic Falls',s:'projetos'},pedra:{n:'Pedras da Evolução',s:'pedras'},tok_mf:{n:'Tokens de Mystic Falls',s:'tokens'},tok_baile:{n:'Tokens do Baile',s:'tokens'}};
+function curSvg(k){
+  const S={
+  tok_hexa:'<circle r="20" fill="#2a4a10" stroke="#c8f08a" stroke-width="2.5"/><circle r="15" fill="none" stroke="#7ad04a" stroke-width="1.5" stroke-dasharray="3 2"/><path d="M0-10 8.7-5v10L0 10-8.7 5v-10Z" fill="#9ef05a" stroke="#0c1a06" stroke-width="1.5"/><circle r="3.2" fill="#0c1a06"/>',
+  tkt:'<path d="M-22-11h44v6a5 5 0 0 0 0 10v6h-44v-6a5 5 0 0 0 0-10Z" fill="#a8101a" stroke="#ffd27a" stroke-width="2"/><path d="M-8-11v22" stroke="#ffd27a" stroke-width="1.5" stroke-dasharray="2.5 2"/><path d="M4-6l2.4 4.8 5.3.8-3.8 3.7.9 5.2L4 6.1-.8 8.5l.9-5.2L-3.7-.4l5.3-.8Z" fill="#ffd27a"/>',
+  marca:'<path d="M0-21 18-10.5v21L0 21-18 10.5v-21Z" fill="#1a0404" stroke="#e0302a" stroke-width="2.2"/><path d="M0-12C-4-5-8-1-8 4a8 8 0 0 0 16 0c0-5-4-9-8-16Z" fill="#d0101e" stroke="#ff8a7a" stroke-width="1"/>',
+  proj:'<path d="M-15-20h22l8 8v32h-30Z" fill="#e8d6b0" stroke="#6a4a20" stroke-width="2"/><path d="M7-20v8h8" fill="#c8b48a" stroke="#6a4a20" stroke-width="1.6"/><path d="M0-1c-3-4-9-5-12-2 2 0 3 2 3 4-1-1-3-1-4 1 3 0 6 2 7 5h12c1-3 4-5 7-5-1-2-3-2-4-1 0-2 1-4 3-4-3-3-9-2-12 2Z" fill="#1a0a10"/><path d="M-11 14h22" stroke="#a8101a" stroke-width="1.6"/>',
+  pedra:'<path d="M0-21 14-8 9 15H-9L-14-8Z" fill="#7a3cd0" stroke="#e0c8ff" stroke-width="2"/><path d="M0-21-5-8h10ZM-14-8h28M-5-8-9 15M5-8 9 15M-5-8 0 15 5-8" fill="none" stroke="#e0c8ff" stroke-width="1" opacity=".75"/><path d="M-7-14-3-10" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>',
+  tok_mf:'<circle r="20" fill="#3a0610" stroke="#ff8a96" stroke-width="2.5"/><circle r="15" fill="none" stroke="#a8101a" stroke-width="1.5"/><path d="M0-3c-3-4-9-5-12-2 2 0 3 2 3 4-1-1-3-1-4 1 3 0 6 2 7 5h12c1-3 4-5 7-5-1-2-3-2-4-1 0-2 1-4 3-4-3-3-9-2-12 2Z" fill="#ffd0d6"/>',
+  tok_baile:'<circle r="20" fill="#3a0a2a" stroke="#ffc8e6" stroke-width="2.5"/><circle r="15" fill="none" stroke="#ff8ac8" stroke-width="1.5"/><path d="M-13-4c4-3 9-3 13 1 4-4 9-4 13-1-1 6-5 9-9 8-2 0-3-2-4-3-1 1-2 3-4 3-4 1-8-2-9-8Z" fill="#ffd27a" stroke="#6a2a4a" stroke-width="1"/><circle cx="-6" cy="0" r="2" fill="#3a0a2a"/><circle cx="6" cy="0" r="2" fill="#3a0a2a"/>'};
+  return `<svg class="cur-svg" viewBox="-24 -24 48 48" aria-hidden="true">${S[k]||''}</svg>`;}
+const curLbl=(k,v)=>`<span class="cur-v">${curSvg(k)}<b>${v}</b></span>`;
+/* ---- o que só sai em evento (funções para valer em qualquer ponto do carregamento) ---- */
+function EVO(){return EVO.c||(EVO.c={
+  char:{Vega:'vega',Lorenzo:'lorenzo',Damon:'tvd2',Bonnie:'tvd2',Lexi:'tvd2',Cobra:'ritual',Touro:'ritual',Coelho:'hexa',Cabra:'hexa',Khameleon:'kham',Skarlet:'kham',Sheeva:'kham'},
+  arena:{serenata:'lorenzo',thebank:'login',thepit:'login',forja:'login',relogio:'mfarenas',mausoleu:'mfarenas',mysticfalls:'mfarenas'},
+  skin:{'vega-agente':'vega','kitana-safira':'ninjas','jade-mk2':'ninjas','mileena-rosa':'ninjas','bonnie-baile':'baile','katherine-mascaras':'baile'}});}
+function evOnlyChar(n){return EVO().char[n]||null}
+function evOnlyArena(k){return EVO().arena[k]||null}
+function evOnlySkin(id){return EVO().skin[id]||null}
+function ev2Def(id){return EVS.find(e=>e.id===id)||null}
+function ev2Name(id){const e=ev2Def(id);return e?e.n:'Evento';}
+/* quem já tinha esses itens comprados ou resgatados perde: agora só saem no evento */
+(function(){if(KR.evMig2)return;const E=EVO();KR.chars=KR.chars.filter(n=>!E.char[n]);KR.arenas=KR.arenas.filter(k=>!E.arena[k]);KR.skins=(KR.skins||[]).filter(s=>!E.skin[s]);KR.evMig2=1;krSave();})();
+/* ---- estado ---- */
+function E2(id){if(!KR.ev2||typeof KR.ev2!=='object')KR.ev2={};if(!KR.ev2[id])KR.ev2[id]={};return KR.ev2[id];}
+function C2(){if(!KR.ev2)KR.ev2={};if(!KR.ev2.cur)KR.ev2.cur={};return KR.ev2.cur;}
+const cur2=k=>+C2()[k]||0;
+function ev2Active(e){return !e.end||Date.now()<e.end;}
+function ev2Left(e){return e.end?Math.max(0,e.end-Date.now()):Infinity;}
+function ev2Fmt(ms){if(ms===Infinity)return 'Sempre';if(ms>2*86400000)return Math.floor(ms/86400000)+' dias';const t=Math.floor(ms/1000);return [Math.floor(t/3600),Math.floor(t%3600/60),t%60].map(n=>String(n).padStart(2,'0')).join(':');}
+function dayKey(t){const d=t?new Date(t):new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function msToMidnight(){const d=new Date();const m=new Date(d.getFullYear(),d.getMonth(),d.getDate()+1);return m-d;}
+/* posse de um item de evento */
+function ev2Owns(it){if(CHEAT.criador&&it.kind!=='coins'&&it.kind!=='cur')return true;
+  if(it.kind==='char')return KR.chars.includes(it.ref);if(it.kind==='arena')return KR.arenas.includes(it.ref);if(it.kind==='skin')return (KR.skins||[]).includes(it.ref);return false;}
+function ev2Img(it){if(it.kind==='char')return FOTO[it.ref]||'';if(it.kind==='arena'){const s=STAGES.find(x=>x.k===it.ref);return s?s.img:'';}if(it.kind==='skin'){const s=skById(it.ref);return s?s.img:'';}return '';}
+function ev2Pic(it,cls){if(it.kind==='coins')return `<span class="e2-coinpic ${cls||''}"><span class="coin"></span><b>${it.v}</b></span>`;if(it.kind==='cur')return `<span class="e2-curpic ${cls||''}">${curSvg(it.ref)}${it.v>1?`<b>×${it.v}</b>`:''}</span>`;return `<img class="${cls||''}" src="${ev2Img(it)}" alt="" loading="lazy">`;}
+function ev2ItName(it){return it.kind==='coins'?`${it.v} moedas`:it.n;}
+function ev2Grant(it,e){if(it.kind==='char'){if(!KR.chars.includes(it.ref))KR.chars.push(it.ref);}
+  else if(it.kind==='arena'){if(!KR.arenas.includes(it.ref))KR.arenas.push(it.ref);}
+  else if(it.kind==='skin'){KR.skins=KR.skins||[];if(!KR.skins.includes(it.ref))KR.skins.push(it.ref);}
+  else if(it.kind==='cur'){C2()[it.ref]=cur2(it.ref)+it.v;}
+  krSave();if(it.kind==='coins')addCoins(it.v,e?e.n:'Evento');}
+/* ---- missões ---- */
+const MIS_T={luta:1,vitoria:1,torre:1,fatality:1,brutality:1,animality:1,fofa:1,finalizacao:1,flawless:1,kameo:1,especial:1};
+function misState(e){const s=E2(e.id);const k=dayKey();if(s.day!==k){s.day=k;s.prog={};s.got=[];}return s;}
+function misTrack(t,n){if(!MIS_T[t])return;let ch=false;EVS.forEach(e=>{if(!e.ms||!ev2Active(e))return;const s=misState(e);s.prog[t]=(+s.prog[t]||0)+(n||1);ch=true;});if(ch){krSave();try{ev2Badge()}catch(_){}}}
+function misDone(e,m){const s=misState(e);return (+s.prog[m.t]||0)>=m.n;}
+function misClaimable(e){if(!e.ms||!ev2Active(e))return 0;const s=misState(e);return e.ms.filter(m=>misDone(e,m)&&!s.got.includes(m.id)).length;}
+/* ---- login ---- */
+function loginTick(){const e=ev2Def('login');if(!e||!ev2Active(e))return;const s=E2('login');s.days=Array.isArray(s.days)?s.days:[];s.got=Array.isArray(s.got)?s.got:[];const k=dayKey();if(!s.days.includes(k)){s.days.push(k);krSave();}}
+function loginClaimable(){const e=ev2Def('login');if(!e||!ev2Active(e))return 0;const s=E2('login');const n=Math.min((s.days||[]).length,e.days.length);let c=0;for(let i=0;i<n;i++)if(!(s.got||[]).includes(i))c++;return c;}
+function ev2Claimable(e){if(!ev2Active(e))return 0;if(e.ms)return misClaimable(e);if(e.tipo==='login')return loginClaimable();return 0;}
+function ev2Badge(){const b=document.querySelector('#smMain [data-act="eventos"]');if(!b)return;let t=b.querySelector('.sm-evtm');if(!t){t=document.createElement('span');t.className='sm-evtm';b.appendChild(t);}
+  const n=EVS.reduce((s,e)=>s+ev2Claimable(e),0);t.textContent=n?n+' para coletar':'';t.hidden=!n;b.hidden=false;}
+/* ---- lista de eventos (cartões temáticos) ---- */
+function ev2Thumbs(e){const L=(e.items||[]).filter(x=>x.tier==='main'||(x.tier==='sec'&&x.kind!=='cur')).concat((e.shop||[]).filter(x=>x.kind!=='cur')).concat((e.days||[]).filter(x=>x.kind!=='coins'));
+  const seen=new Set();return L.filter(x=>{const k=x.kind+x.ref;if(seen.has(k))return false;seen.add(k);return true}).slice(0,4).map(x=>`<span class="e2-th${ev2Owns(x)?' own':''}">${ev2Pic(x)}</span>`).join('');}
+function ev2Card(e){const n=ev2Claimable(e);
+  return `<button type="button" class="e2-card t-${e.tipo}" data-ev2="${e.id}" style="--e1:${e.c[0]};--e2:${e.c[1]}"><span class="e2-cbg" style="background-image:url(${e.bg})"></span>
+    <span class="e2-ctag">${esc(e.tag)}</span>${n?`<span class="e2-cnew">${n} para coletar</span>`:''}<span class="e2-cn">${esc(e.n)}</span><span class="e2-cd">${esc(e.d)}</span>
+    <span class="e2-crow"><span class="e2-ths">${ev2Thumbs(e)}</span><span class="e2-ct">${ico('ampulheta')} <span data-ev2end="${e.end||''}">${ev2Fmt(ev2Left(e))}</span></span></span></button>`;}
+function ev2List(){const act=EVS.filter(ev2Active);
+  const hw=evOn()?`<button type="button" class="e2-card t-hw" data-ev="hw" style="--e1:#ff8a1e;--e2:#1a0800"><span class="e2-cbg" style="background-image:url(${EV_HW.bg})"></span><span class="e2-ctag">${ico('abobora')} Halloween</span><span class="e2-cn">Roleta de Halloween</span><span class="e2-cd">Prêmio principal: Freddy Krueger. Também tem 3 arenas, 2 habilidades e moedas.</span><span class="e2-crow"><span class="e2-ths"><span class="e2-th"><img src="${evImg(EV_HW.items[0])}" alt=""></span></span><span class="e2-ct">${ico('ampulheta')} <span data-evtimer="">${evFmt()}</span></span></span></button>`:'';
+  return `<div class="e2-list">${act.filter(e=>e.tipo==='diario').map(ev2Card).join('')}<h3 class="e2-sh">Eventos por tempo limitado</h3>${hw}${act.filter(e=>e.tipo!=='diario').map(ev2Card).join('')}
+    <p class="e2-foot">Os prêmios destes eventos não estão à venda na Kripta: só dá para ganhar aqui, antes do tempo acabar.</p></div>`;}
+/* ---- telas de cada evento ---- */
+let EV2_CUR_ID=null,ev2Busy=false,ev2Rot=0;
+function ev2Head(e,extra){return `<div class="ev-top e2-top"><button type="button" class="ev-back" id="evBack">‹ Eventos</button><h2 class="ev-h">${esc(e.n)}</h2><span class="ev-timer top">${ico('ampulheta')} <span data-ev2end="${e.end||''}">${ev2Fmt(ev2Left(e))}</span></span></div>
+  <header class="e2-hero"><span class="e2-hbg" style="background-image:url(${e.bg})"></span><span class="e2-htag">${esc(e.tag)}</span><p>${esc(e.d)}</p>${extra||''}</header>`;}
+function ev2Wallet(keys){return `<div class="e2-wallet">${keys.map(k=>`<span class="e2-wi" title="${esc(EV2_CUR[k].n)}">${curSvg(k)}<b>${cur2(k)}</b><small>${esc(EV2_CUR[k].s)}</small></span>`).join('')}</div>`;}
+function ev2Render(){const e=ev2Def(EV2_CUR_ID);const B=$('#evBody');if(!e||!ev2Active(e)){evView='lista';renderEventos();return}
+  const W=document.getElementById('evento');W.style.setProperty('--e1',e.c[0]);W.style.setProperty('--e2',e.c[1]);W.dataset.e2=e.tipo;
+  const fn={roleta:ev2Roleta,troca:ev2Troca,ritual:ev2Ritual,sorteio:ev2Sorteio,missoes:ev2Missoes,diario:ev2Missoes,login:ev2Login}[e.tipo];
+  B.innerHTML=`<div class="e2-page t-${e.tipo}">${fn(e)}</div>`;}
+/* -- roda genérica (roleta, troca e ritual) -- */
+function ev2WheelSVG(e,owned){const its=e.items,n=its.length,seg=360/n,R=96;const P=(a,r)=>[(Math.sin(a*Math.PI/180)*r).toFixed(2),(-Math.cos(a*Math.PI/180)*r).toFixed(2)];
+  let h=`<defs><radialGradient id="e2gM"><stop offset=".15" stop-color="#fff2b0"/><stop offset=".6" stop-color="${e.c[0]}"/><stop offset="1" stop-color="${e.c[1]}"/></radialGradient><radialGradient id="e2gS"><stop offset=".2" stop-color="${e.c[0]}" stop-opacity=".75"/><stop offset="1" stop-color="${e.c[1]}"/></radialGradient><clipPath id="e2Clip"><circle r="17"/></clipPath></defs><circle r="99" fill="#080404" stroke="${e.c[0]}" stroke-width="2"/>`;
+  its.forEach((it,i)=>{const a0=i*seg,a1=a0+seg,[x0,y0]=P(a0,R),[x1,y1]=P(a1,R);const own=owned(it);
+    const f=own?'#262322':it.tier==='main'?'url(#e2gM)':it.tier==='sec'?'url(#e2gS)':(i%2?'#1c120c':'#120a06');
+    h+=`<path d="M0 0 L${x0} ${y0} A${R} ${R} 0 0 1 ${x1} ${y1} Z" fill="${f}" stroke="${e.c[0]}" stroke-opacity=".5" stroke-width=".8"/><g transform="rotate(${a0+seg/2})"${own?' opacity=".3"':''}>`;
+    if(it.kind==='coins')h+=`<g transform="translate(0,-66)"><circle r="14" fill="#ffd23a" stroke="#8a5a00" stroke-width="2"/><text y="3.6" text-anchor="middle" font-size="${it.v>=100?9.5:11}" font-weight="800" fill="#5a3000">${it.v}</text></g>`;
+    else if(it.kind==='cur')h+=`<g transform="translate(0,-66) scale(.62)">${curSvg(it.ref).replace(/^<svg[^>]*>|<\/svg>$/g,'')}</g>${it.v>1?`<text y="-42" text-anchor="middle" font-size="10" font-weight="800" fill="#fff" stroke="#000" stroke-width="2" paint-order="stroke">×${it.v}</text>`:''}`;
+    else h+=`<g transform="translate(0,-64)"><circle r="19" fill="#000" stroke="${it.tier==='main'?'#ffd23a':e.c[0]}" stroke-width="${it.tier==='main'?3:1.6}"/><image href="${ev2Img(it)}" x="-17" y="-17" width="34" height="34" preserveAspectRatio="xMidYMid slice" clip-path="url(#e2Clip)"/></g>`;
+    if(own)h+=`<text y="-40" text-anchor="middle" font-size="16" font-weight="800" fill="#8fe0a0" stroke="#000" stroke-width="2" paint-order="stroke">✓</text>`;h+='</g>';});
+  h+=`<circle r="24" fill="#120804" stroke="${e.c[0]}" stroke-width="2"/>`;
+  return `<svg class="ev-wheel" id="e2Wheel" viewBox="-100 -100 200 200" style="transform:rotate(${ev2Rot}deg)">${h}</svg>`;}
+function ev2Pool(e,repeat){return repeat?e.items.slice():e.items.filter(it=>!ev2Owns(it)&&!(E2(e.id).won||[]).includes(it.id));}
+function ev2Pick(pool){const tot=pool.reduce((s,x)=>s+x.w,0);let r=Math.random()*tot;for(const it of pool){r-=it.w;if(r<0)return it;}return pool[pool.length-1];}
+function ev2SpinAnim(e,it,done){const its=e.items,n=its.length,seg=360/n,i=its.indexOf(it);const jit=(Math.random()-.5)*seg*.7;const start=ev2Rot;const target=Math.ceil(start/360)*360+360*6+(360-(i*seg+seg/2))+jit;
+  ev2Busy=true;const W=$('#e2Wheel'),ptr=$('#evPtr');try{$('.ev-wheel-wrap').scrollIntoView({block:'nearest',behavior:'smooth'})}catch(_){}const dur=5200,t0=performance.now();let last=null;SFX.whoosh();
+  $$('.e2-spin').forEach(b=>b.disabled=true);
+  const step=now=>{const p=Math.min(1,(now-t0)/dur),q=1-Math.pow(1-p,4);ev2Rot=start+(target-start)*q;if(W)W.style.transform=`rotate(${ev2Rot}deg)`;
+    const idx=Math.floor((((360-ev2Rot%360)%360)+360)%360/seg);if(last!==null&&idx!==last){SFX.tick();if(ptr){ptr.classList.remove('kick');void ptr.offsetWidth;ptr.classList.add('kick');}}last=idx;
+    if(p<1)requestAnimationFrame(step);else{ev2Rot=target%360;ev2Busy=false;done();}};requestAnimationFrame(step);}
+function ev2Result(e,it,note){const M=$('#evModal');const main=it.tier==='main'&&it.kind!=='cur';
+  const msg=note||(it.kind==='char'?'Desbloqueado! Já está na seleção de lutadores.':it.kind==='arena'?'Arena desbloqueada! Já dá para escolher na hora de lutar.':it.kind==='skin'?'Skin liberada! Escolha pelo cabide na seleção de lutador.':it.kind==='cur'?`Guardado: agora você tem ${cur2(it.ref)} ${EV2_CUR[it.ref].s}.`:cheatOn()?'Cheat ligado: essas moedas não contam.':'Moedas adicionadas ao seu saldo.');
+  M.innerHTML=`<div class="ev-res e2-res${main?' main':''}" style="--e1:${e.c[0]};--e2:${e.c[1]}"><div class="ev-rt">${main?'PRÊMIO PRINCIPAL!':'Você ganhou'}</div><div class="ev-rpic">${ev2Pic(it,'big')}</div><div class="ev-rn">${esc(ev2ItName(it))}</div><p>${esc(msg)}</p><button type="button" class="f-btn big" id="evOk">Ok</button></div>`;
+  M.hidden=false;M.classList.remove('in');void M.offsetWidth;M.classList.add('in');
+  if(main){SFX.gong();try{screenShake()}catch(_){}if(it.kind==='char')setTimeout(()=>{try{SFX.say(it.ref,true)}catch(_){}},500);}else if(it.kind==='coins')SFX.coin();else SFX.gong();
+  $('#evOk').onclick=()=>{SFX.hit();M.hidden=true;ev2Render();};}
+function ev2Odds(e,owned,repeat){const pool=repeat?e.items:e.items.filter(x=>!owned(x));const tot=pool.reduce((s,x)=>s+x.w,0);
+  return `<div class="ev-odds"><h4>Prêmios</h4><ul>${e.items.map(it=>{const o=owned(it);const p=o||!tot?0:it.w/tot*100;return `<li class="t-${it.tier}${o?' own':''}"><span class="ev-oi">${ev2Pic(it)}</span><span class="ev-on">${esc(ev2ItName(it))}<small>${it.tier==='main'?'Prêmio principal':it.tier==='sec'?'Prêmio secundário':it.kind==='coins'?'Moedas':''}</small></span>${o?'<b>✓ Seu</b>':`<em>${p<1&&p>0?p.toFixed(1).replace('.',','):Math.round(p)}%</em>`}</li>`}).join('')}</ul></div>`;}
+/* 1) Roleta da Agente: cada prêmio sai uma vez só */
+function ev2Roleta(e){const s=E2(e.id);s.won=s.won||[];const owned=it=>ev2Owns(it)||s.won.includes(it.id);const pool=e.items.filter(x=>!owned(x));const done=!pool.length;const main=e.items[0];
+  return ev2Head(e,`<div class="ev-mainp${owned(main)?' own':''}">${ev2Pic(main)}<div><small>Prêmio principal</small><b>${esc(main.n)}</b><span>${owned(main)?'✓ Já é seu':'Gire para tentar ganhar'}</span></div></div>`)+
+  `<div class="ev-wheel-wrap"><div class="ev-pointer" id="evPtr"></div>${ev2WheelSVG(e,owned)}<div class="ev-hub">${ico('estrela')}</div></div>
+  <div class="ev-spinrow"><button type="button" class="ev-spin e2-spin" data-e2="spin"${done||ev2Busy?' disabled':''}><span>Girar</span><span class="ev-cost"><span class="coin"></span>${e.cost}</span></button>${done?'<p class="ev-note">Você já ganhou todos os prêmios!</p>':MOEDAS<e.cost?`<small>Faltam ${e.cost-MOEDAS} moedas.</small>`:''}</div>`+ev2Odds(e,owned,false);}
+/* 3) TVD Parte 2: roleta que repete + troca por personagens */
+function ev2ShopCard(e,x){const own=x.kind!=='cur'&&ev2Owns(x);const can=!own&&Object.entries(x.p).every(([k,v])=>cur2(k)>=v);
+  return `<div class="e2-shopc${own?' own':''}"><span class="e2-sp">${ev2Pic(x)}</span><b>${esc(x.n)}</b><span class="e2-price">${Object.entries(x.p).map(([k,v])=>curLbl(k,v)).join('')}</span>${own?'<span class="e2-owned">✓ Seu</span>':`<button type="button" class="f-btn${can?' big':''}" data-e2="buy" data-x="${x.id}"${can?'':' disabled'}>Trocar</button>`}</div>`;}
+function ev2Troca(e){const owned=()=>false;
+  return ev2Head(e,ev2Wallet(['proj','pedra']))+`<div class="ev-wheel-wrap"><div class="ev-pointer" id="evPtr"></div>${ev2WheelSVG(e,owned)}<div class="ev-hub e2-bat">${curSvg('tok_mf')}</div></div>
+  <div class="ev-spinrow"><button type="button" class="ev-spin e2-spin" data-e2="spin"${ev2Busy?' disabled':''}><span>Girar</span><span class="ev-cost"><span class="coin"></span>${e.cost}</span></button>${MOEDAS<e.cost?`<small>Faltam ${e.cost-MOEDAS} moedas.</small>`:''}</div>
+  <section class="e2-shop"><h3>Trocar</h3><div class="e2-shopg">${e.shop.map(x=>ev2ShopCard(e,x)).join('')}</div></section>`+ev2Odds(e,owned,true);}
+/* 4) Ritual da Hexatombe: invoca com tickets ou moedas; marcas libertam quem você quiser */
+function ev2Ritual(e){const owned=it=>it.kind==='char'&&ev2Owns(it);const t=cur2('tkt'),canT=t>=e.costT,canM=MOEDAS>=e.costM;const all=e.shop.every(x=>ev2Owns(x));
+  return ev2Head(e,ev2Wallet(['tkt','marca']))+`<div class="ev-wheel-wrap e2-altar"><div class="ev-pointer" id="evPtr"></div>${ev2WheelSVG(e,owned)}<div class="ev-hub">${ico('caveira')}</div></div>
+  <div class="ev-spinrow e2-two">${all?'<p class="ev-note">Cobra e Touro já são seus.</p>':`<button type="button" class="ev-spin e2-spin" data-e2="spinT"${!canT||ev2Busy?' disabled':''}><span>Invocar</span><span class="ev-cost">${curSvg('tkt')}${e.costT}</span></button><button type="button" class="ev-spin e2-spin alt" data-e2="spinM"${!canM||ev2Busy?' disabled':''}><span>Invocar</span><span class="ev-cost"><span class="coin"></span>${e.costM}</span></button>`}</div>
+  <p class="e2-tip">Tickets do Ritual saem na <b>Caçada da Hexatombe</b> (missões diárias).</p>
+  <section class="e2-shop"><h3>Libertar com Marcas de Sangue</h3><div class="e2-shopg">${e.shop.map(x=>ev2ShopCard(e,x)).join('')}</div></section>`+ev2Odds(e,owned,true);}
+/* 2, 8 e 9) Sorteio: tira 2 prêmios, depois até 8 sorteios sem repetir, preço crescente (1500 no total) */
+function ev2Sorteio(e){const s=E2(e.id);s.rm=s.rm||[];s.won=s.won||[];const phase=s.lock?'draw':'rm';const sel=s.sel||[];
+  const left=e.items.filter(x=>!s.rm.includes(x.id)&&!s.won.includes(x.id));const n=s.won.length,cost=EV2_COST[n],done=n>=8||!left.length;
+  const card=x=>{const rm=s.rm.includes(x.id),won=s.won.includes(x.id),pick=sel.includes(x.id),lockd=x.tier!=='coin';const own=x.kind!=='coins'&&ev2Owns(x)&&!won;
+    return `<button type="button" class="e2-tc t-${x.tier}${rm?' rm':''}${won?' won':''}${pick?' pick':''}" data-e2="${phase==='rm'&&!lockd?'tog':''}" data-x="${x.id}"${phase==='rm'&&lockd?' aria-disabled="true"':''}><span class="e2-tcp">${ev2Pic(x)}</span><b>${esc(ev2ItName(x))}</b><small>${won?'✓ Ganho':rm?'Retirado':x.tier==='main'?'Principal':x.tier==='sec'?'Secundário':own?'Você já tem':''}</small></button>`;};
+  const steps=EV2_COST.map((c,i)=>`<span class="e2-step${i<n?' done':i===n&&!done?' now':''}"><i>${i+1}</i>${c}</span>`).join('');
+  return ev2Head(e)+(phase==='rm'?`<div class="e2-guide"><b>Passo 1:</b> escolha até 2 prêmios para tirar da mesa (os principais e secundários não saem). Depois confirme.</div>`:`<div class="e2-guide"><b>Passo 2:</b> cada sorteio tira um prêmio da mesa, sem repetir. ${done?'Mesa vazia: você levou tudo!':`Sorteio ${n+1} de 8.`}</div>`)+
+   `<div class="e2-table">${e.items.map(card).join('')}</div>`+
+   (phase==='rm'?`<div class="ev-spinrow"><button type="button" class="ev-spin e2-spin" data-e2="lock"><span>Confirmar mesa</span><span class="ev-cost">${sel.length}/2 retirados</span></button></div>`
+    :`<div class="e2-steps">${steps}</div><div class="ev-spinrow"><button type="button" class="ev-spin e2-spin" data-e2="draw"${done||ev2Busy?' disabled':''}><span>${done?'Concluído':'Sortear'}</span>${done?'':`<span class="ev-cost"><span class="coin"></span>${cost}</span>`}</button>${!done&&MOEDAS<cost?`<small>Faltam ${cost-MOEDAS} moedas.</small>`:''}</div>`)+
+   `<p class="e2-tip">Os 8 sorteios custam ${EV2_COST.reduce((a,b)=>a+b,0)} moedas no total e garantem tudo o que ficou na mesa.</p>`;}
+/* 5, 7, 10 e 11) Missões diárias e loja de tokens */
+function ev2Missoes(e){const s=misState(e);const coins=!e.cur;const tot=e.ms.reduce((a,m)=>a+m.r,0);
+  const rows=e.ms.map(m=>{const p=Math.min(+s.prog[m.t]||0,m.n),got=s.got.includes(m.id),ok=p>=m.n;
+    return `<li class="e2-m${got?' got':ok?' ok':''}"><span class="e2-mi">${ico({luta:'espadas',vitoria:'coroa',torre:'coroa',fatality:'caveira',brutality:'explosao',animality:'fogo',fofa:'coracao',finalizacao:'caveira',flawless:'escudo',kameo:'trocar',especial:'raio'}[m.t]||'runa')}</span><span class="e2-mt"><b>${esc(m.x)}</b><span class="e2-mbar"><i style="width:${p/m.n*100}%"></i></span><small>${p}/${m.n}</small></span>
+      <span class="e2-mr">${coins?`<span class="coin"></span>${m.r}`:curLbl(e.cur,m.r)}</span>${got?'<span class="e2-owned">✓</span>':`<button type="button" class="f-btn${ok?' big':''}" data-e2="claim" data-m="${m.id}"${ok?'':' disabled'}>Coletar</button>`}</li>`;}).join('');
+  return ev2Head(e,e.cur?ev2Wallet(e.cur==='tok_hexa'?['tok_hexa','tkt']:[e.cur]):'')+
+   `<section class="e2-mis"><h3>Missões de hoje <small>até ${tot} ${coins?'moedas':EV2_CUR[e.cur].s} por dia · novas em <span data-ev2mid>${ev2Fmt(msToMidnight())}</span></small></h3><ul>${rows}</ul></section>`+
+   (e.shop?`<section class="e2-shop"><h3>Trocar tokens</h3><div class="e2-shopg">${e.shop.map(x=>ev2ShopCard(e,x)).join('')}</div></section>`:'');}
+/* 6) Arenas Grátis: um prêmio por dia entrado */
+function ev2Login(e){loginTick();const s=E2('login');const n=(s.days||[]).length;
+  return ev2Head(e,`<div class="e2-lgn">Dias em que você entrou: <b>${Math.min(n,e.days.length)}</b> de ${e.days.length}</div>`)+
+   `<div class="e2-cal">${e.days.map((d,i)=>{const got=(s.got||[]).includes(i),ok=i<n;return `<div class="e2-day${got?' got':ok?' ok':''}"><span class="e2-dn">Dia ${i+1}</span><span class="e2-dp">${ev2Pic(d)}</span><b>${esc(d.n)}</b>${got?'<span class="e2-owned">✓ Coletado</span>':ok?`<button type="button" class="f-btn big" data-e2="day" data-i="${i}">Coletar</button>`:'<small>Volte amanhã</small>'}</div>`}).join('')}</div>`;}
+/* ---- cliques ---- */
+function ev2Click(t){const e=ev2Def(EV2_CUR_ID);if(!e||ev2Busy)return;const a=t.dataset.e2;
+  if(a==='spin'&&e.tipo==='roleta'){const s=E2(e.id);s.won=s.won||[];const pool=e.items.filter(x=>!ev2Owns(x)&&!s.won.includes(x.id));if(!pool.length)return;if(!spendCoins(e.cost,e.n)){SFX.clang();toast(`Faltam ${e.cost-MOEDAS} moedas para girar.`);return}
+    const it=ev2Pick(pool);evCoins();ev2SpinAnim(e,it,()=>{s.won.push(it.id);ev2Grant(it,e);evCoins();ev2Result(e,it);});return}
+  if(a==='spin'&&e.tipo==='troca'){if(!spendCoins(e.cost,e.n)){SFX.clang();toast(`Faltam ${e.cost-MOEDAS} moedas para girar.`);return}const it=ev2Pick(e.items);evCoins();ev2SpinAnim(e,it,()=>{ev2Grant(it,e);evCoins();ev2Result(e,it);});return}
+  if(a==='spinT'||a==='spinM'){if(a==='spinT'){if(cur2('tkt')<e.costT){SFX.clang();toast('Tickets insuficientes.');return}C2().tkt=cur2('tkt')-e.costT;krSave();}else if(!spendCoins(e.costM,e.n)){SFX.clang();toast(`Faltam ${e.costM-MOEDAS} moedas.`);return}
+    const pool=e.items.filter(x=>!(x.kind==='char'&&ev2Owns(x)));const it=ev2Pick(pool);evCoins();ev2SpinAnim(e,it,()=>{ev2Grant(it,e);evCoins();ev2Result(e,it);});return}
+  if(a==='tog'){const s=E2(e.id);s.sel=s.sel||[];const id=t.dataset.x;const i=s.sel.indexOf(id);if(i>=0)s.sel.splice(i,1);else if(s.sel.length<2)s.sel.push(id);else{SFX.clang();toast('Só dá para tirar 2 prêmios.');return}s.rm=s.sel.slice();krSave();SFX.tick();ev2Render();return}
+  if(a==='lock'){const s=E2(e.id);s.rm=(s.sel||[]).slice();s.lock=1;krSave();SFX.gong();ev2Render();return}
+  if(a==='draw'){const s=E2(e.id);const n=(s.won||[]).length;const left=e.items.filter(x=>!s.rm.includes(x.id)&&!s.won.includes(x.id));if(n>=8||!left.length)return;const cost=EV2_COST[n];
+    if(!spendCoins(cost,e.n)){SFX.clang();toast(`Faltam ${cost-MOEDAS} moedas.`);return}const it=ev2Pick(left);s.won.push(it.id);krSave();evCoins();ev2Busy=true;
+    const c=document.querySelector(`.e2-tc[data-x="${it.id}"]`);$$('.e2-tc').forEach(x=>x.classList.add('shuf'));SFX.whoosh();
+    setTimeout(()=>{$$('.e2-tc').forEach(x=>x.classList.remove('shuf'));if(c)c.classList.add('flip');SFX.hit();},900);
+    setTimeout(()=>{ev2Busy=false;const own=it.kind!=='coins'&&ev2Owns(it);if(own&&it.kind!=='coins'){ev2Result(e,it,'Você já tinha este prêmio.');return}ev2Grant(it,e);evCoins();ev2Result(e,it);},1500);return}
+  if(a==='claim'){const m=e.ms.find(x=>x.id===t.dataset.m);const s=misState(e);if(!m||s.got.includes(m.id)||!misDone(e,m))return;s.got.push(m.id);
+    if(e.cur){C2()[e.cur]=cur2(e.cur)+m.r;krSave();SFX.coin();toast(`+${m.r} ${EV2_CUR[e.cur].n}`);}else{krSave();addCoins(m.r,'Missão diária');SFX.coin();toast(cheatOn()?'Cheat ligado: moedas não contam.':`+${m.r} moedas`);}evCoins();ev2Badge();ev2Render();return}
+  if(a==='buy'){const x=e.shop.find(z=>z.id===t.dataset.x);if(!x)return;if(x.kind!=='cur'&&ev2Owns(x))return;if(!Object.entries(x.p).every(([k,v])=>cur2(k)>=v)){SFX.clang();return}
+    Object.entries(x.p).forEach(([k,v])=>{C2()[k]=cur2(k)-v;});const it=Object.assign({},x,{tier:x.kind==='char'?'main':'sec'});ev2Grant(it,e);ev2Result(e,it);return}
+  if(a==='day'){const i=+t.dataset.i;const s=E2('login');s.got=s.got||[];if(s.got.includes(i)||i>=(s.days||[]).length)return;s.got.push(i);const d=e.days[i];ev2Grant(d,e);ev2Badge();ev2Result(e,Object.assign({tier:d.kind==='arena'?'main':'coin'},d));return}}
+/* relógios e badge */
+setInterval(()=>{try{loginTick();$$('[data-ev2end]').forEach(x=>{const end=+x.dataset.ev2end;x.textContent=end?ev2Fmt(Math.max(0,end-Date.now())):'Sempre';});$$('[data-ev2mid]').forEach(x=>x.textContent=ev2Fmt(msToMidnight()));ev2Badge();}catch(_){}},1000);
+try{loginTick();}catch(_){}
 
 /* ====== A QUEDA DO GENERAL SHAO (cena) e HALL DOS CAMPEÕES ====== */
 let CINE_ON=false;
