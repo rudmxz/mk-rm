@@ -3289,186 +3289,6 @@ html.land #fight .f-banner.endb.wvb.wvr{left:46%;right:0}
 #fight.br-black .f-fig.fin-piece:not(.br-lit){filter:brightness(.2)!important}
 
 .br-frost{position:absolute;inset:0;z-index:5;pointer-events:none;border-radius:4px}
-/* ====== MENU PRINCIPAL: medalhões dourados, placas em seta e submenus em bolas de fogo ====== */
-#startMenu{--h:clamp(38px,5.8vh,54px);--med:calc(var(--h) * 1.18);--tip:calc(var(--h) * .42);--lw:min(64vw,330px);--gold:#d9a24a;--gold2:#f3d58e;--goldD:#6a4214;--ser:'Cinzel','Trajan Pro',Georgia,'Times New Roman',serif}
-#startMenu::after{content:"";position:absolute;inset:0;height:auto;pointer-events:none;z-index:1;background:linear-gradient(90deg,rgba(0,0,0,.62),rgba(0,0,0,.25) 45%,transparent 70%),linear-gradient(180deg,rgba(0,0,0,.3),transparent 25%,transparent 60%,rgba(0,0,0,.55))}
-#startMenu.sub::after{height:auto}
-#startMenu .sm-rm{display:none}
-#startMenu .sm-credit{z-index:3}
-/* ---------- ambiente: brasas e névoa ---------- */
-.mk-fx{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
-.mk-ember{position:absolute;bottom:-10px;left:var(--x);width:var(--s,4px);height:var(--s,4px);border-radius:50%;background:#ffb24a;box-shadow:0 0 8px 2px rgba(255,90,20,.8);opacity:0;animation:mkEmber var(--t,9s) linear var(--d,0s) infinite}
-@keyframes mkEmber{0%{transform:translate(0,0);opacity:0}10%{opacity:.95}70%{opacity:.7}100%{transform:translate(var(--dx,30px),-80vh);opacity:0}}
-.mk-fog{position:absolute;left:-20%;right:-20%;bottom:-6%;height:30%;background:radial-gradient(50% 60% at 25% 75%,rgba(150,10,10,.28),transparent 70%),radial-gradient(45% 55% at 75% 85%,rgba(120,10,10,.22),transparent 70%);filter:blur(10px);animation:mkFog 16s ease-in-out infinite alternate}
-@keyframes mkFog{from{transform:translateX(-4%)}to{transform:translateX(4%)}}
-/* ---------- logo ---------- */
-.mk-hero{position:absolute;z-index:2;left:50%;top:calc(env(safe-area-inset-top,0px) + 17vh);transform:translate(-50%,-50%);width:min(86vw,560px);text-align:center;pointer-events:none;animation:mkHero 1s cubic-bezier(.2,.9,.25,1) both;transition:opacity .4s}
-.mk-logo{width:100%;height:auto;display:block;filter:drop-shadow(0 3px 0 #000) drop-shadow(0 0 16px rgba(0,0,0,.95)) drop-shadow(0 0 24px rgba(200,30,10,.45))}
-.mk-rm{margin-top:-4%;font-family:var(--f-display);font-weight:900;font-style:italic;font-size:clamp(46px,8.5vh,92px);line-height:.9;color:#e0101e;transform:skewX(-8deg);text-shadow:0 3px 0 #2a0004,0 0 14px rgba(255,30,30,.85),0 0 30px rgba(255,0,0,.5);-webkit-text-stroke:1px #4a0006;animation:mkRm 2.8s ease-in-out infinite}
-.mk-tag{margin-top:2px;font-family:var(--ser);font-weight:700;font-size:clamp(11px,1.7vh,15px);letter-spacing:.45em;text-transform:uppercase;color:#f0dfbe;text-shadow:0 2px 0 #000,0 0 8px #000;padding-left:.45em}
-@keyframes mkHero{from{opacity:0;transform:translate(-50%,-70%) scale(1.15);filter:blur(6px)}to{opacity:1;transform:translate(-50%,-50%) scale(1);filter:none}}
-@keyframes mkRm{0%,100%{text-shadow:0 3px 0 #2a0004,0 0 12px rgba(255,30,30,.7),0 0 26px rgba(255,0,0,.35)}50%{text-shadow:0 3px 0 #2a0004,0 0 18px rgba(255,60,40,1),0 0 40px rgba(255,0,0,.7)}}
-/* ---------- moedas ---------- */
-.mk-coins{position:absolute;z-index:4;top:calc(env(safe-area-inset-top,0px) + 12px);left:max(12px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;height:40px;padding:0 6px 0 0;border:0;cursor:pointer;color:#f4e6c8;font:inherit;
-  clip-path:polygon(0 0,calc(100% - 16px) 0,100% 50%,calc(100% - 16px) 100%,0 100%);background:linear-gradient(180deg,#e7c27a,#7a4e18 55%,#d8aa5a)}
-.mk-coins::before{content:"";position:absolute;inset:2px;z-index:-1;clip-path:polygon(0 0,calc(100% - 15px) 0,calc(100% - 2px) 50%,calc(100% - 15px) 100%,0 100%);background:linear-gradient(180deg,#221812,#0c0806)}
-.mk-coins{isolation:isolate}
-.mk-coin{width:40px;height:40px;border-radius:50%;flex:none;display:grid;place-items:center;background:radial-gradient(circle,#3a2410,#120a04);box-shadow:0 0 0 2px #e7c27a,0 0 10px rgba(255,170,40,.6)}
-.mk-coin img{width:86%;height:86%;border-radius:50%;filter:sepia(.6) saturate(1.6) hue-rotate(-8deg)}
-.mk-coins b{font-family:var(--ser);font-weight:700;font-size:18px;letter-spacing:.04em;min-width:64px;text-align:left;text-shadow:0 2px 0 #000}
-.mk-plus{width:24px;height:24px;margin-right:14px;display:grid;place-items:center;border-radius:4px;font-family:var(--f-ui);font-size:22px;line-height:1;color:#f4e6c8;background:#2a1c12;box-shadow:inset 0 0 0 1px #c89a4a}
-.mk-coins:hover .mk-plus,.mk-coins:focus-visible .mk-plus{background:#a0101a;color:#fff}
-.mk-coins:focus-visible{outline:none;filter:drop-shadow(0 0 8px #ffb24a)}
-#startMenu.sub .mk-coins{opacity:.9}
-/* ---------- coluna da lista ---------- */
-#startMenu .sm-inner.mk3{position:absolute;inset:0;left:0;right:0;top:0;bottom:0;transform:none;width:auto;max-height:none;display:block;padding:0;z-index:3;overflow:visible;pointer-events:none}
-#startMenu .sm-inner.mk3>*{pointer-events:auto}
-.mk-list{position:absolute;left:max(18px,calc(env(safe-area-inset-left,0px) + 14px));bottom:calc(env(safe-area-inset-bottom,0px) + 112px);width:var(--lw);display:flex;flex-direction:column;gap:calc(var(--h) * .14);margin:0}
-.mk-list[hidden]{display:flex}
-#startMenu .mk3 .sm-ad{position:absolute;left:max(18px,calc(env(safe-area-inset-left,0px) + 14px));right:auto;bottom:calc(env(safe-area-inset-bottom,0px) + 34px);width:min(calc(100vw - 36px),420px);height:66px;margin:0}
-#startMenu.sub .mk3 .sm-ad{display:none}
-/* ---------- item: medalhão redondo + placa em seta com fio de ouro ---------- */
-.mk3b{position:relative;display:flex;align-items:center;height:var(--h);width:100%;padding:0 0 0 10px;border:0;background:none;cursor:pointer;color:#ead9b8;-webkit-tap-highlight-color:transparent;transition:transform .22s cubic-bezier(.2,.9,.3,1.3),filter .25s;animation:mk3In .6s cubic-bezier(.2,.9,.25,1.05) both}
-.mk3b::before{content:"";position:absolute;left:0;top:50%;width:11px;height:11px;transform:translateY(-50%) rotate(45deg);border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);opacity:.85;transition:border-color .2s}
-.mk3-med{position:relative;z-index:2;flex:none;width:var(--med);height:var(--med);border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 50% 38%,#3a2a20,#140c08 68%,#080402);box-shadow:0 0 0 2px #1a0e04,0 0 0 4px var(--gold),0 0 0 5px #fff1c6,0 0 0 7px var(--goldD),0 6px 12px rgba(0,0,0,.85),inset 0 0 14px rgba(0,0,0,.95);transition:box-shadow .25s}
-.mk3-med svg{width:64%;height:64%;filter:drop-shadow(0 2px 1px rgba(0,0,0,.8))}
-.mk3-med img{width:84%;height:84%;border-radius:50%;filter:drop-shadow(0 0 4px rgba(0,0,0,.8))}
-.mk3-pl{position:relative;flex:1;min-width:0;height:calc(var(--h) * .84);margin-left:calc(var(--med) * -.42);padding:0 calc(var(--tip) + 6px) 0 calc(var(--med) * .62);display:flex;align-items:center;isolation:isolate;
-  clip-path:polygon(0 0,calc(100% - var(--tip)) 0,100% 50%,calc(100% - var(--tip)) 100%,0 100%);background:linear-gradient(180deg,var(--gold2),#8a5a1e 48%,#5a3810 52%,#d8aa5a);transition:background .25s}
-.mk3-pl::before{content:"";position:absolute;inset:2px;z-index:-1;clip-path:polygon(0 0,calc(100% - var(--tip) + 1px) 0,calc(100% - 3px) 50%,calc(100% - var(--tip) + 1px) 100%,0 100%);
-  background:linear-gradient(180deg,rgba(255,255,255,.08),transparent 45%,rgba(0,0,0,.35)),repeating-linear-gradient(115deg,rgba(255,255,255,.025) 0 2px,transparent 2px 7px),linear-gradient(90deg,#0e0a08,#221a15 55%,#120d0a);transition:background .25s}
-.mk3-pl::after{content:"";position:absolute;right:calc(var(--tip) * .45);top:50%;width:calc(var(--tip) * .5);height:calc(var(--tip) * .5);transform:translateY(-50%) rotate(45deg);border-top:2px solid rgba(217,162,74,.55);border-right:2px solid rgba(217,162,74,.55)}
-.mk3b .smi-t{position:relative;font-family:var(--ser);font-weight:700;font-size:calc(var(--h) * .36);letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-shadow:0 2px 2px #000,0 0 6px rgba(0,0,0,.8)}
-/* aceso: brasa vermelha, como na referência */
-.mk3b:hover,.mk3b:focus-visible,.mk3b.mk-on{outline:none;color:#fff;transform:translateX(5px);filter:drop-shadow(0 0 10px rgba(255,50,20,.75)) drop-shadow(0 0 22px rgba(200,0,0,.35))}
-.mk3b:hover::before,.mk3b:focus-visible::before,.mk3b.mk-on::before{border-color:#ff5a2a}
-.mk3b:hover .mk3-pl,.mk3b:focus-visible .mk3-pl,.mk3b.mk-on .mk3-pl{background:linear-gradient(180deg,#ffb06a,#e0201e 45%,#8a0008 55%,#ff6a2a)}
-.mk3b:hover .mk3-pl::before,.mk3b:focus-visible .mk3-pl::before,.mk3b.mk-on .mk3-pl::before{background:linear-gradient(180deg,rgba(255,200,160,.18),transparent 45%,rgba(0,0,0,.3)),radial-gradient(120% 140% at 0% 50%,#b0141a,#5a0008 55%,#2a0004)}
-.mk3b:hover .mk3-pl::after,.mk3b:focus-visible .mk3-pl::after,.mk3b.mk-on .mk3-pl::after{border-color:#ffd0a0}
-.mk3b:hover .mk3-med,.mk3b:focus-visible .mk3-med,.mk3b.mk-on .mk3-med{box-shadow:0 0 0 2px #2a0004,0 0 0 4px #ff6a2a,0 0 0 5px #ffd0a0,0 0 0 7px #8a1008,0 0 18px 4px rgba(255,60,20,.8),inset 0 0 14px rgba(120,0,0,.9)}
-.mk3b.mk-on{animation:mk3In .6s cubic-bezier(.2,.9,.25,1.05) both,mkOn 2.2s ease-in-out .6s infinite}
-@keyframes mkOn{0%,100%{filter:drop-shadow(0 0 8px rgba(255,50,20,.6)) drop-shadow(0 0 18px rgba(200,0,0,.3))}50%{filter:drop-shadow(0 0 14px rgba(255,80,30,.95)) drop-shadow(0 0 30px rgba(220,0,0,.55))}}
-.mk3b:active{transform:translateX(3px) scale(.98)}
-.mk3b:nth-child(1){animation-delay:.05s}.mk3b:nth-child(2){animation-delay:.1s}.mk3b:nth-child(3){animation-delay:.15s}.mk3b:nth-child(4){animation-delay:.2s}.mk3b:nth-child(5){animation-delay:.25s}.mk3b:nth-child(6){animation-delay:.3s}.mk3b:nth-child(7){animation-delay:.35s}.mk3b:nth-child(8){animation-delay:.4s}
-@keyframes mk3In{from{opacity:0;transform:translateX(-80px)}to{opacity:1;transform:none}}
-.mk3b.sm-ev .sm-evtm{position:absolute;right:calc(var(--tip) + 4px);top:2px;margin:0;font-family:var(--f-ui);font-size:12px;color:#ffb347;text-shadow:0 1px 0 #000;z-index:3}
-.mk3b.sm-ev .sm-evtag{display:none}
-.mk3b .sm-badge{font-size:.6em;vertical-align:.3em}
-.mk3-quit{align-self:flex-start;margin:2px 0 0 calc(var(--med) * .55);padding:2px 10px;border:0;background:none;cursor:pointer;color:#b7a68a;font:inherit}
-.mk3-quit .smi-t{font-family:var(--ser);font-weight:700;font-size:13px;letter-spacing:.35em;text-transform:uppercase;text-shadow:0 2px 0 #000}
-.mk3-quit:hover,.mk3-quit:focus-visible{outline:none;color:#ff6a4a}
-/* ---------- palco dos submenus ---------- */
-.mk-stage{position:absolute;z-index:3;left:calc(max(18px,env(safe-area-inset-left,0px) + 14px) + var(--med) + 18px);right:max(12px,env(safe-area-inset-right,0px));top:calc(env(safe-area-inset-top,0px) + 30vh);bottom:calc(env(safe-area-inset-bottom,0px) + 40px);display:grid;place-items:center;pointer-events:none}
-#startMenu .sm-inner.mk3>.mk-stage{pointer-events:none}
-.mk-stage>*{pointer-events:auto}
-/* em pé: quando o submenu abre, a lista vira só a coluna de medalhões */
-html:not(.land) #startMenu.sub .mk3-pl,html:not(.land) #startMenu.sub .mk3-quit{display:none}
-html:not(.land) #startMenu.sub .mk-list{width:auto;bottom:auto;top:calc(env(safe-area-inset-top,0px) + 24vh)}
-html:not(.land) #startMenu.sub .mk-stage{top:calc(env(safe-area-inset-top,0px) + 22vh);bottom:calc(env(safe-area-inset-bottom,0px) + 30px)}
-html:not(.land) #startMenu.sub .mk-tag{display:none}
-html:not(.land) .orb-h{font-size:clamp(22px,4vh,40px);white-space:nowrap}
-html:not(.land) .orb-grid{column-gap:8px;row-gap:clamp(8px,1.6vh,18px)}
-html:not(.land) .orb .smi-t{font-size:clamp(12px,1.8vh,16px);text-wrap:balance}
-html:not(.land) .mk-orbs{gap:clamp(8px,1.6vh,18px)}
-html:not(.land) #startMenu.sub .mk3b{transform:none}
-html:not(.land) #startMenu.sub .sm-evtm{display:none}
-html:not(.land) .orb-grid,html:not(.land) .orb-grid.n4{--d:clamp(58px,9.4vh,92px);grid-template-columns:repeat(2,auto)}
-html:not(.land) .orb-grid.n3{grid-template-columns:repeat(2,auto)}
-html:not(.land) .orb-grid.n3 .orb:last-child{grid-column:1/-1}
-html:not(.land) .orb{width:calc(var(--d) * 1.62)}
-html:not(.land) #startMenu.sub .mk-hero{top:calc(env(safe-area-inset-top,0px) + 12vh);width:min(62vw,400px)}
-html:not(.land) #startMenu.sub .mk-rm{font-size:clamp(34px,6vh,64px)}
-/* ---------- bolas de fogo ---------- */
-.mk-orbs{display:grid;justify-items:center;gap:clamp(10px,2.2vh,22px);width:100%;margin:0}
-.mk-orbs[hidden]{display:none}
-.orb-h{margin:0;font-family:var(--ser);font-weight:900;font-size:clamp(26px,5vh,48px);letter-spacing:.06em;text-transform:uppercase;line-height:1;background:linear-gradient(180deg,#fff2c8,#e0a94a 48%,#8a5014 52%,#f0c470);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 3px 0 #000) drop-shadow(0 0 14px rgba(255,60,0,.65));animation:orbH .5s cubic-bezier(.2,.9,.25,1) both}
-@keyframes orbH{from{opacity:0;transform:translateY(-20px) scale(1.3);filter:blur(4px)}to{opacity:1;transform:none}}
-.orb-grid{--d:clamp(74px,12.5vh,122px);display:grid;grid-template-columns:repeat(3,auto);gap:clamp(14px,2.6vh,26px) clamp(18px,3vw,40px);justify-content:center}
-.orb-grid.n2{grid-template-columns:repeat(2,auto)}
-.orb-grid.n4{grid-template-columns:repeat(4,auto)}
-.orb{position:relative;display:grid;justify-items:center;align-content:start;gap:8px;width:calc(var(--d) * 1.45);padding:0;border:0;background:none;cursor:pointer;color:#f2e2c4;font:inherit;-webkit-tap-highlight-color:transparent;animation:orbIn .7s cubic-bezier(.2,1.35,.4,1) both}
-.orb:nth-child(2){animation-delay:.08s}.orb:nth-child(3){animation-delay:.16s}.orb:nth-child(4){animation-delay:.24s}.orb:nth-child(5){animation-delay:.32s}.orb:nth-child(6){animation-delay:.4s}
-@keyframes orbIn{from{opacity:0;transform:translateY(40px) scale(.2)}to{opacity:1;transform:none}}
-.orb-ball{position:relative;width:var(--d);height:var(--d);isolation:isolate;animation:orbFloat 3.2s ease-in-out var(--ph,0s) infinite;transition:scale .25s cubic-bezier(.2,1.4,.4,1)}
-@keyframes orbFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
-.orb-ball::before{content:"";position:absolute;inset:0;z-index:0;border-radius:50%;background:radial-gradient(circle at 50% 42%,#3a0a04,#160202 62%,#050000);box-shadow:0 0 0 2px #2a1004,0 0 0 4px #e0a040,0 0 0 6px #4a1c06,0 0 20px 6px rgba(255,90,0,.55),inset 0 0 22px 6px rgba(255,80,0,.55)}
-.orb-fire{position:absolute;left:-14%;right:-14%;bottom:30%;height:125%;z-index:-1;transform-origin:50% 100%;
-  background:radial-gradient(ellipse 22% 60% at 26% 100%,rgba(255,150,20,.95),transparent 72%),radial-gradient(ellipse 20% 78% at 50% 100%,rgba(255,220,110,.95),transparent 72%),radial-gradient(ellipse 22% 58% at 74% 100%,rgba(255,90,0,.95),transparent 72%),radial-gradient(ellipse 34% 40% at 50% 100%,rgba(255,60,0,.8),transparent 75%);
-  filter:blur(3px);animation:orbFlame .38s ease-in-out infinite alternate}
-@keyframes orbFlame{0%{transform:scale(1,1) skewX(0deg)}50%{transform:scale(1.05,1.12) skewX(3deg)}100%{transform:scale(.96,.94) skewX(-3deg)}}
-.orb-ring{position:absolute;inset:-9%;z-index:1;border-radius:50%;background:conic-gradient(from 0deg,transparent 0 6%,#ff6a00 12%,#ffd25a 16%,transparent 24% 44%,#ff4a00 52%,#ffc040 56%,transparent 64% 80%,#ff7a10 88%,#ffe08a 92%,transparent 98%);
-  -webkit-mask:radial-gradient(circle,transparent 57%,#000 60%,#000 69%,transparent 73%);mask:radial-gradient(circle,transparent 57%,#000 60%,#000 69%,transparent 73%);filter:blur(1.5px) drop-shadow(0 0 6px #ff6a00);animation:orbSpin 2.4s linear infinite}
-@keyframes orbSpin{to{transform:rotate(360deg)}}
-.orb-ball img{position:absolute;left:15%;top:15%;width:70%;height:70%;z-index:2;border-radius:50%;filter:drop-shadow(0 0 8px rgba(255,120,0,.9)) saturate(1.15);animation:orbDrag 2.4s ease-in-out infinite}
-@keyframes orbDrag{0%,100%{filter:drop-shadow(0 0 6px rgba(255,120,0,.7)) saturate(1.1)}50%{filter:drop-shadow(0 0 14px rgba(255,170,40,1)) saturate(1.3) brightness(1.12)}}
-.orb-em{position:absolute;z-index:3;bottom:72%;width:4px;height:4px;border-radius:50%;background:#ffd27a;box-shadow:0 0 6px 2px rgba(255,120,0,.9);opacity:0;animation:orbEm 1.8s ease-out infinite}
-.orb-em:nth-of-type(1){left:28%;animation-delay:.1s}.orb-em:nth-of-type(2){left:55%;animation-delay:.7s}.orb-em:nth-of-type(3){left:72%;animation-delay:1.3s}
-@keyframes orbEm{0%{transform:translate(0,0);opacity:0}15%{opacity:1}100%{transform:translate(8px,-46px);opacity:0}}
-.orb-t{display:grid;justify-items:center;line-height:1.05;text-align:center}
-.orb .smi-t{font-family:var(--ser);font-weight:700;font-size:clamp(13px,2.1vh,18px);letter-spacing:.05em;text-transform:uppercase;color:#f3e3c4;text-shadow:0 2px 2px #000,0 0 8px rgba(0,0,0,.9)}
-.orb-t small{margin-top:3px;font-family:var(--f-body);font-size:clamp(11px,1.6vh,13px);color:#d4b98a;text-shadow:0 1px 2px #000}
-.orb:hover .orb-ball,.orb:focus-visible .orb-ball{scale:1.1}
-.orb:hover .orb-ball::before,.orb:focus-visible .orb-ball::before{box-shadow:0 0 0 2px #2a1004,0 0 0 4px #ffd27a,0 0 0 6px #8a2a06,0 0 30px 10px rgba(255,110,0,.85),inset 0 0 26px 8px rgba(255,110,0,.75)}
-.orb:hover .orb-ring,.orb:focus-visible .orb-ring{animation-duration:1s}
-.orb:hover .smi-t,.orb:focus-visible .smi-t{color:#fff;text-shadow:0 2px 2px #000,0 0 12px rgba(255,90,0,.95)}
-.orb:focus-visible{outline:none}
-.orb.sm-lock{opacity:.7}.orb .sm-lk{font-size:.8em}
-.orb-back{margin-top:2px;padding:6px 18px;border:0;background:none;cursor:pointer;color:#e2c58e;font:inherit;animation:orbH .5s .35s both}
-.orb-back .smi-t{font-family:var(--ser);font-weight:700;font-size:clamp(13px,2vh,17px);letter-spacing:.35em;text-transform:uppercase;text-shadow:0 2px 0 #000}
-.orb-back .smi-t::before{content:"‹ ";color:var(--gold)}
-.orb-back:hover,.orb-back:focus-visible{outline:none;color:#fff;text-shadow:0 0 10px #ff6a2a}
-/* faíscas do clique */
-.mk-spark{position:absolute;z-index:6;width:5px;height:5px;border-radius:50%;background:#ffd27a;box-shadow:0 0 8px 2px rgba(255,100,0,.9);pointer-events:none;animation:mkSpark .7s cubic-bezier(.2,.8,.4,1) both}
-@keyframes mkSpark{from{transform:translate(-50%,-50%);opacity:1}to{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(.3);opacity:0}}
-/* ---------- painéis (opções, moedas, cheats) no palco ---------- */
-#startMenu .mk3 .sm-panel{width:min(100%,460px);max-height:calc(100vh - 34vh - 50px);overflow-y:auto;border:0;border-radius:6px;background:linear-gradient(180deg,rgba(255,240,200,.05),transparent 30%),linear-gradient(160deg,rgba(26,16,12,.96),rgba(10,6,4,.97))!important;box-shadow:0 0 0 2px #1a0e04,0 0 0 4px var(--gold),0 0 0 6px var(--goldD),0 12px 30px rgba(0,0,0,.8);animation:orbH .45s cubic-bezier(.2,.9,.25,1) both}
-#startMenu .mk3 .sm-panel h3{font-family:var(--ser);font-weight:900;letter-spacing:.06em;color:#f3d58e;text-shadow:0 3px 0 #000,0 0 12px rgba(255,60,0,.6)}
-#startMenu .mk3 .sm-panel .sm-item.small{font-family:var(--ser);font-size:16px;letter-spacing:.3em;color:#e2c58e}
-html:not(.land) #startMenu.sub .mk-stage{left:calc(max(18px,env(safe-area-inset-left,0px) + 14px) + var(--med) + 14px)}
-html:not(.land) #startMenu.sub[data-panel="1"] .mk-stage{left:12px}
-html:not(.land) #startMenu.sub[data-panel="1"] .mk-list{display:none}
-/* ---------- deitado ---------- */
-html.land #startMenu{--h:clamp(32px,7.6vh,66px);--lw:min(36vw,440px)}
-html.land .mk-hero{top:calc(env(safe-area-inset-top,0px) + 20vh);width:min(38vw,600px)}
-html.land .mk-rm{font-size:clamp(34px,9vh,96px)}
-html.land .mk-coins{left:auto;right:max(16px,env(safe-area-inset-right,0px));top:calc(env(safe-area-inset-top,0px) + 14px)}
-html.land .mk-list{left:max(3vw,calc(env(safe-area-inset-left,0px) + 14px));top:auto;bottom:calc(env(safe-area-inset-bottom,0px) + 90px)}
-html.land #startMenu .mk3 .sm-ad{left:max(3vw,calc(env(safe-area-inset-left,0px) + 14px));bottom:calc(env(safe-area-inset-bottom,0px) + 28px);width:min(36vw,440px);height:54px}
-html.land .mk-stage{left:calc(max(3vw,env(safe-area-inset-left,0px) + 14px) + var(--lw) + 3vw);top:calc(env(safe-area-inset-top,0px) + 36vh);bottom:calc(env(safe-area-inset-bottom,0px) + 28px)}
-html.land #startMenu.sub .mk-hero{opacity:.35}
-html.land .orb-grid{--d:clamp(64px,15vh,128px)}
-html.land #startMenu::after{background:linear-gradient(90deg,rgba(0,0,0,.7),rgba(0,0,0,.3) 35%,transparent 60%),linear-gradient(180deg,rgba(0,0,0,.25),transparent 30%,transparent 70%,rgba(0,0,0,.5))}
-html.land #startMenu .sm-credit{left:auto;right:max(16px,env(safe-area-inset-right,0px));width:auto;bottom:calc(env(safe-area-inset-bottom,0px) + 6px);font-size:12px;transform:none}
-@media (max-height:560px){
-  html.land .mk-hero{top:calc(env(safe-area-inset-top,0px) + 17vh);width:min(34vw,420px)}
-  html.land .mk-list{bottom:calc(env(safe-area-inset-bottom,0px) + 70px)}
-  html.land #startMenu .mk3 .sm-ad{height:46px;bottom:calc(env(safe-area-inset-bottom,0px) + 18px)}
-  html.land .mk-stage{top:calc(env(safe-area-inset-top,0px) + 30vh)}
-  html.land .orb-t small{display:none}
-  html.land .mk3-quit .smi-t{font-size:11px}
-}
-@media (max-height:700px){
-  html:not(.land) #startMenu{--h:clamp(36px,5.6vh,48px)}
-  html:not(.land) .mk-hero{top:calc(env(safe-area-inset-top,0px) + 17vh);width:min(78vw,460px)}
-  html:not(.land) .mk-list{bottom:calc(env(safe-area-inset-bottom,0px) + 100px)}
-  html:not(.land) #startMenu .mk3 .sm-ad{height:52px;bottom:calc(env(safe-area-inset-bottom,0px) + 40px)}
-  html:not(.land) #startMenu .sm-credit{font-size:11px}
-  html:not(.land) .orb-grid{--d:clamp(64px,11vh,100px)}
-}
-@media (prefers-reduced-motion:reduce){
-  .mk-ember,.mk-fog,.mk-rm,.orb-ball,.orb-ring,.orb-fire,.orb-ball img,.orb-em,.mk3b.mk-on{animation:none!important}
-}
-body.tvmode .mk-fx{display:none}
-/* deitado: anula o layout antigo do menu */
-html.land #startMenu .sm-inner.mk3,html.land #startMenu[data-side] .sm-inner.mk3{left:0;right:0;top:0;bottom:0;transform:none;width:auto;max-height:none;overflow:visible}
-html.land #startMenu::after,html.land #startMenu.sub::after,html.land #startMenu[data-side]::after{left:0;right:0;top:0;bottom:0;width:auto;height:auto;background:linear-gradient(90deg,rgba(0,0,0,.7),rgba(0,0,0,.3) 35%,transparent 60%),linear-gradient(180deg,rgba(0,0,0,.25),transparent 30%,transparent 70%,rgba(0,0,0,.5))}
-html.land #startMenu[data-side] .sm-credit{left:auto;right:max(16px,env(safe-area-inset-right,0px));width:auto;transform:none}
-html.land #startMenu[data-panel="1"] .mk-stage{top:12px;bottom:12px}
-html.land #startMenu[data-panel="1"] .mk-hero{opacity:0}
-html.land #startMenu .mk3 .sm-panel{max-height:calc(100vh - 24px)}
-html.land .mk-hero{left:calc(max(3vw,env(safe-area-inset-left,0px) + 14px) + var(--lw) + (100vw - max(3vw,env(safe-area-inset-left,0px) + 14px) - var(--lw)) / 2);width:min(40vw,560px)}
-html.land #startMenu[data-panel="1"] .mk-stage{top:calc(env(safe-area-inset-top,0px) + 64px)}
-html.land #startMenu .mk3 .sm-panel{max-height:calc(100vh - 76px)}
 </style>
 
 <div class="wrap">
@@ -3845,90 +3665,73 @@ html.land #startMenu .mk3 .sm-panel{max-height:calc(100vh - 76px)}
 <div id="startMenu" role="dialog" aria-label="Menu inicial">
   <img class="sm-bgblur" id="smBlur" src="img/menu-lua.jpg" data-v="img/menu-lua.jpg" alt="" aria-hidden="true">
   <img class="sm-poster" id="smPoster" src="img/menu-lua.jpg" data-v="img/menu-lua.jpg" alt="Ponte do Mortal Kombat sob a lua cheia">
+  <div class="sm-rm"><b>RM</b> · Não oficial</div>
   <button type="button" class="sm-skull" id="smSkull" aria-label="Lua cheia" tabindex="-1"></button>
-  <div class="mk-hero" aria-hidden="true"><img class="mk-logo" src="img/logo-t.png" alt=""><div class="mk-rm">RM</div><div class="mk-tag">Não oficial</div></div>
-  <button type="button" class="mk-coins" data-act="kripta" aria-label="Moedas. Abrir a Kripta"><span class="mk-coin"><img src="img/dragao.png" alt=""></span><b id="mkCoinN">0</b><span class="mk-plus" aria-hidden="true">+</span></button>
-  <div class="mk-fx" aria-hidden="true"><div class="mk-embers"></div><div class="mk-fog"></div></div>
-  <div class="sm-inner mk3">
-    <nav class="sm-menu mk-list" id="smMain" aria-label="Menu principal">
-      <button type="button" class="mk3b" data-act="sub" data-sub="lutar" data-ic="dragao"><span class="mk3-med" aria-hidden="true"></span><span class="mk3-pl"><span class="smi-t">Jogar</span></span></button>
-      <button type="button" class="mk3b" data-act="sub" data-sub="aventura" data-ic="montanha"><span class="mk3-med" aria-hidden="true"></span><span class="mk3-pl"><span class="smi-t">Aventura</span></span></button>
-      <button type="button" class="mk3b" data-act="sub" data-sub="treino" data-ic="meditar"><span class="mk3-med" aria-hidden="true"></span><span class="mk3-pl"><span class="smi-t">Treinamento</span></span></button>
-      <button type="button" class="mk3b" data-act="opts" data-ic="engrenagem"><span class="mk3-med" aria-hidden="true"></span><span class="mk3-pl"><span class="smi-t">Opções</span></span></button>
-      <button type="button" class="mk3b" data-act="sub" data-sub="extras" data-ic="estrela"><span class="mk3-med" aria-hidden="true"></span><span class="mk3-pl"><span class="smi-t">Extras</span></span></button>
-      <button type="button" class="mk3b" data-act="kripta" data-ic="cranio"><span class="mk3-med" aria-hidden="true"></span><span class="mk3-pl"><span class="smi-t">Kripta</span></span></button>
-      <button type="button" class="mk3b sm-ev" data-act="eventos" data-ic="calendario"><span class="mk3-med" aria-hidden="true"></span><span class="mk3-pl"><span class="smi-t">Eventos</span></span></button>
-      <button type="button" class="mk3b" data-act="sub" data-sub="kombatentes" data-ic="trio"><span class="mk3-med" aria-hidden="true"></span><span class="mk3-pl"><span class="smi-t">Kombatentes</span></span></button>
-      <button type="button" class="mk3-quit" data-act="exit"><span class="smi-t">Sair</span></button>
-    </nav>
+  <div class="sm-inner">
     <div class="sm-ad" id="smAd" role="region" aria-label="Novidades" aria-roledescription="carrossel"></div>
-    <div class="mk-stage">
-    <nav class="sm-menu mk-orbs" id="smSub-lutar" hidden aria-label="Jogar">
-      <h3 class="orb-h">Jogar</h3>
-      <div class="orb-grid n6">
-      <button type="button" class="orb" data-act="sub" data-sub="torres"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Modo Torre</span><small>5 a 8 lutas</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="elenco" data-mode="versus"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Versus</span><small>Contra a máquina</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="elenco" data-mode="2p"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">2 Jogadores</span><small>No mesmo aparelho</small></span></button>
-      <button type="button" class="orb" data-act="sub" data-sub="torneio"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Torneio</span><small>4 contra 4</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="elenco" data-mode="sobrev"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Sobrevivência</span><small>Até cair</small></span></button>
-      <button type="button" class="orb" data-act="online"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Online</span><small>Contra um amigo</small></span></button>
-      </div>
-      <button type="button" class="orb-back sm-exit" data-act="back"><span class="smi-t">Voltar</span></button>
+    <nav class="sm-menu sm-hub" id="smMain">
+      <button type="button" class="sm-item" data-act="sub" data-sub="lutar">Jogar</button>
+      <button type="button" class="sm-item" data-act="sub" data-sub="aventura">Aventura</button>
+      <button type="button" class="sm-item" data-act="sub" data-sub="treino">Treinamento</button>
+      <button type="button" class="sm-item" data-act="opts">Opções</button>
+      <button type="button" class="sm-item" data-act="sub" data-sub="extras">Extras</button>
+      <button type="button" class="sm-item" data-act="kripta">Kripta</button>
+      <button type="button" class="sm-item sm-ev" data-act="eventos">Eventos</button>
+      <button type="button" class="sm-item" data-act="sub" data-sub="kombatentes">Kombatentes</button>
+      <button type="button" class="sm-item sm-exit" data-act="exit">Sair</button>
     </nav>
-    <nav class="sm-menu mk-orbs" id="smSub-torres" hidden aria-label="Escolha a torre">
-      <h3 class="orb-h">Escolha a torre</h3>
-      <div class="orb-grid n3">
-      <button type="button" class="orb" data-act="go" data-tab="elenco" data-mode="torre" data-tw="3"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Iniciante</span><small>5 lutas</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="elenco" data-mode="torre" data-tw="4"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Guerreiro</span><small>6 lutas</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="elenco" data-mode="torre" data-tw="6"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Campeão</span><small>8 lutas</small></span></button>
-      </div>
-      <button type="button" class="orb-back sm-exit" data-act="sub" data-sub="lutar"><span class="smi-t">Voltar</span></button>
+    <nav class="sm-menu sm-subm" id="smSub-lutar" hidden>
+      <h3 class="sm-subh">Jogar</h3>
+      <button type="button" class="sm-item" data-act="sub" data-sub="torres">Modo Torre</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="versus">Versus</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="2p">2 Jogadores</button>
+      <button type="button" class="sm-item" data-act="sub" data-sub="torneio">Torneio</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="sobrev">Sobrevivência</button>
+      <button type="button" class="sm-item" data-act="online">Online</button>
+      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
     </nav>
-    <nav class="sm-menu mk-orbs" id="smSub-torneio" hidden aria-label="Torneio">
-      <h3 class="orb-h">Torneio</h3>
-      <div class="orb-grid n2">
-      <button type="button" class="orb" data-act="torneio" data-two="0"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Contra a máquina</span><small>4 lutadores cada</small></span></button>
-      <button type="button" class="orb" data-act="torneio" data-two="1"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">2 Jogadores</span><small>4 lutadores cada</small></span></button>
-      </div>
-      <button type="button" class="orb-back sm-exit" data-act="sub" data-sub="lutar"><span class="smi-t">Voltar</span></button>
+    <nav class="sm-menu sm-subm" id="smSub-torres" hidden>
+      <h3 class="sm-subh">Escolha a torre</h3>
+      <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="3">Torre do Iniciante<small>5 lutas</small></button>
+      <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="4">Torre do Guerreiro<small>6 lutas</small></button>
+      <button type="button" class="sm-item sm-tw" data-act="go" data-tab="elenco" data-mode="torre" data-tw="6">Torre do Campeão<small>8 lutas</small></button>
+      <button type="button" class="sm-item sm-exit" data-act="sub" data-sub="lutar">Voltar</button>
     </nav>
-    <nav class="sm-menu mk-orbs" id="smSub-aventura" hidden aria-label="Aventura">
-      <h3 class="orb-h">Aventura</h3>
-      <div class="orb-grid n2">
-      <button type="button" class="orb" data-act="historia"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Modo História</span><small>A campanha</small></span></button>
-      <button type="button" class="orb" data-act="fora" id="smFora"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Fora do Ringue</span><small>Expedições</small></span></button>
-      </div>
-      <button type="button" class="orb-back sm-exit" data-act="back"><span class="smi-t">Voltar</span></button>
+    <nav class="sm-menu sm-subm" id="smSub-torneio" hidden>
+      <h3 class="sm-subh">Torneio</h3>
+      <button type="button" class="sm-item sm-tw" data-act="torneio" data-two="0">Contra a máquina<small>4 lutadores de cada lado</small></button>
+      <button type="button" class="sm-item sm-tw" data-act="torneio" data-two="1">2 Jogadores<small>Cada um escolhe 4 lutadores</small></button>
+      <button type="button" class="sm-item sm-exit" data-act="sub" data-sub="lutar">Voltar</button>
     </nav>
-    <nav class="sm-menu mk-orbs" id="smSub-treino" hidden aria-label="Treinamento">
-      <h3 class="orb-h">Treinamento</h3>
-      <div class="orb-grid n2">
-      <button type="button" class="orb" data-act="go" data-tab="elenco" data-mode="treino"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Treinar</span><small>Sem pressão</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="sistema"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Como Jogar</span><small>Regras e golpes</small></span></button>
-      </div>
-      <button type="button" class="orb-back sm-exit" data-act="back"><span class="smi-t">Voltar</span></button>
+    <nav class="sm-menu sm-subm" id="smSub-aventura" hidden>
+      <h3 class="sm-subh">Aventura</h3>
+      <button type="button" class="sm-item" data-act="historia">Modo História</button>
+      <button type="button" class="sm-item" data-act="fora" id="smFora">Fora do Ringue</button>
+      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
     </nav>
-    <nav class="sm-menu mk-orbs" id="smSub-kombatentes" hidden aria-label="Kombatentes">
-      <h3 class="orb-h">Kombatentes</h3>
-      <div class="orb-grid n4">
-      <button type="button" class="orb" data-act="go" data-tab="forja"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Forjar Lutador</span><small>Crie do zero</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="fichas"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Fichas</span><small>Todos os lutadores</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="evolucao"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Evolução</span><small>Níveis e habilidades</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="dialogos"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Diálogos</span><small>Antes da luta</small></span></button>
-      </div>
-      <button type="button" class="orb-back sm-exit" data-act="back"><span class="smi-t">Voltar</span></button>
+    <nav class="sm-menu sm-subm" id="smSub-treino" hidden>
+      <h3 class="sm-subh">Treinamento</h3>
+      <button type="button" class="sm-item" data-act="go" data-tab="elenco" data-mode="treino">Treinar</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="sistema">Como Jogar</button>
+      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
     </nav>
-    <nav class="sm-menu mk-orbs" id="smSub-extras" hidden aria-label="Extras">
-      <h3 class="orb-h">Extras</h3>
-      <div class="orb-grid n6">
-      <button type="button" class="orb" data-act="finshow" id="smFin"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Finalizações</span><small>Todas em sequência</small></span></button>
-      <button type="button" class="orb" data-act="finpick" id="smFinP"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Por Personagem</span><small>Escolha um lutador</small></span></button>
-      <button type="button" class="orb" data-act="hall" id="smHall"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Hall dos Campeões</span><small>Os vencedores</small></span></button>
-      <button type="button" class="orb" data-act="go" data-tab="lore"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Lore</span><small>Reinos e eras</small></span></button>
-      <button type="button" class="orb" data-act="moedas"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Moedas</span><small>Saldo e ganhos</small></span></button>
-      <button type="button" class="orb" data-act="credits"><span class="orb-ball" aria-hidden="true"><i class="orb-fire"></i><i class="orb-ring"></i><img src="img/dragao.png" alt=""><i class="orb-em"></i><i class="orb-em"></i><i class="orb-em"></i></span><span class="orb-t"><span class="smi-t">Créditos</span><small>Quem fez o jogo</small></span></button>
-      </div>
-      <button type="button" class="orb-back sm-exit" data-act="back"><span class="smi-t">Voltar</span></button>
+    <nav class="sm-menu sm-subm" id="smSub-kombatentes" hidden>
+      <h3 class="sm-subh">Kombatentes</h3>
+      <button type="button" class="sm-item" data-act="go" data-tab="forja">Forjar Lutador</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="fichas">Fichas</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="evolucao">Evolução</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="dialogos">Diálogos</button>
+      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
+    </nav>
+    <nav class="sm-menu sm-subm" id="smSub-extras" hidden>
+      <h3 class="sm-subh">Extras</h3>
+      <button type="button" class="sm-item" data-act="finshow" id="smFin">Finalizações</button>
+      <button type="button" class="sm-item" data-act="finpick" id="smFinP">Ver por Personagem</button>
+      <button type="button" class="sm-item" data-act="hall" id="smHall">Hall dos Campeões</button>
+      <button type="button" class="sm-item" data-act="go" data-tab="lore">Lore</button>
+      <button type="button" class="sm-item" data-act="moedas">Moedas</button>
+      <button type="button" class="sm-item" data-act="credits">Créditos</button>
+      <button type="button" class="sm-item sm-exit" data-act="back">Voltar</button>
     </nav>
     <div class="sm-panel" id="smOpts" hidden>
       <h3>Opções</h3>
@@ -3977,7 +3780,6 @@ html.land #startMenu .mk3 .sm-panel{max-height:calc(100vh - 76px)}
       <h3>Você saiu da arena</h3>
       <p>A música parou. Pode fechar esta aba quando quiser. Até a próxima luta.</p>
       <button type="button" class="sm-item small" data-act="back">Voltar ao menu</button>
-    </div>
     </div>
   </div>
   <div class="sm-credit">Fã-site não oficial criado por <b>Rudolf Martins</b></div>
@@ -6467,38 +6269,11 @@ const LITE=(()=>{let ac=null;const buf=new Map(),pend={},MAX=28,tags={};let fb=n
   function stop(tag){const set=tags[tag];if(set){set.forEach(s=>{try{s.stop()}catch(e){}});set.clear();}}
   return {on,play,stop};})();
 
-/* ====== MENU PRINCIPAL: medalhões dourados, moedas no topo e submenus em bolas de fogo ====== */
-const MK_IC={
-  montanha:'<path d="M4 40L18 14l6 9 5-7 15 24z"/><path d="M18 14l3 7-4-2-3 5z" fill="#fff3d0" opacity=".55"/><path d="M29 16l3 6-3-1-2 3z" fill="#fff3d0" opacity=".5"/>',
-  meditar:'<circle cx="24" cy="9" r="5"/><path d="M24 15c-4 0-6 3-6 7v6l-8 3c-3 1-3 5 0 6l14 3 14-3c3-1 3-5 0-6l-8-3v-6c0-4-2-7-6-7z"/><path d="M14 27l-6-4c-2-1-1-4 1-3l7 3zM34 27l6-4c2-1 1-4-1-3l-7 3z"/>',
-  engrenagem:'<path fill-rule="evenodd" d="M21 4h6l1 5 4 2 4-3 4 4-3 4 2 4 5 1v6l-5 1-2 4 3 4-4 4-4-3-4 2-1 5h-6l-1-5-4-2-4 3-4-4 3-4-2-4-5-1v-6l5-1 2-4-3-4 4-4 4 3 4-2zM24 17a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>',
-  estrela:'<path d="M24 3l6 14 15 1-11 10 3 15-13-8-13 8 3-15L3 18l15-1z"/>',
-  cranio:'<path fill-rule="evenodd" d="M24 4C14 4 8 11 8 20c0 6 3 10 6 12v7h20v-7c3-2 6-6 6-12 0-9-6-16-16-16zM17 17a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm14 0a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM24 26l-3 5h6z"/><path d="M17 41h3v4h-3zM22.5 41h3v4h-3zM28 41h3v4h-3z"/>',
-  calendario:'<path fill-rule="evenodd" d="M8 10h32v32H8zM12 19v19h24V19z"/><path d="M14 5h4v9h-4zM30 5h4v9h-4z"/><path d="M15 22h4v4h-4zM22 22h4v4h-4zM29 22h4v4h-4zM15 29h4v4h-4zM22 29h4v4h-4zM29 29h4v4h-4z"/>',
-  trio:'<circle cx="24" cy="10" r="5"/><path d="M17 44l2-17-3-8c3-2 5-3 8-3s5 1 8 3l-3 8 2 17h-5l-2-11-2 11z"/><circle cx="10" cy="15" r="4"/><path d="M4 44l2-14-2-6c2-2 4-3 6-3l3 1-2 6 1 16z"/><circle cx="38" cy="15" r="4"/><path d="M44 44l-2-14 2-6c-2-2-4-3-6-3l-3 1 2 6-1 16z"/>'
-};
-function mkIcon(k){if(k==='dragao')return '<img src="img/dragao.png" alt="">';const p=MK_IC[k];if(!p)return '';
-  return `<svg viewBox="0 0 48 48"><defs><linearGradient id="mkg-${k}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe9b0"/><stop offset=".45" stop-color="#d9a24a"/><stop offset="1" stop-color="#7a4a16"/></linearGradient></defs><g fill="url(#mkg-${k})" stroke="#2a1404" stroke-width=".8">${p}</g></svg>`;}
-function mkInit(){const M=document.getElementById('startMenu');if(!M||M.dataset.mk)return;M.dataset.mk='1';
-  M.querySelectorAll('.mk3b[data-ic]').forEach(b=>{const m=b.querySelector('.mk3-med');if(m)m.innerHTML=mkIcon(b.dataset.ic);});
-  /* fases diferentes para cada bola flutuar no seu ritmo */
-  M.querySelectorAll('.orb').forEach((o,i)=>{o.style.setProperty('--ph',(-(i*.7)%3).toFixed(2)+'s');o.style.setProperty('--i',i);});
-  /* brasas subindo pela tela */
-  const em=M.querySelector('.mk-embers');if(em){let h='';for(let i=0;i<22;i++)h+=`<i class="mk-ember" style="--x:${(Math.random()*100).toFixed(1)}%;--s:${(2+Math.random()*3.5).toFixed(1)}px;--t:${(7+Math.random()*7).toFixed(1)}s;--d:${(-Math.random()*12).toFixed(1)}s;--dx:${((Math.random()-.5)*120).toFixed(0)}px"></i>`;em.innerHTML=h;}
-  /* moedas no topo */
-  const n=document.getElementById('mkCoinN');let last=null;const upd=()=>{if(!n||M.hidden)return;let v=0;try{v=MOEDAS}catch(e){}if(v!==last){last=v;n.textContent=Number(v||0).toLocaleString('pt-BR');}};upd();setInterval(upd,600);
-}
-/* explosão de faíscas onde o jogador clicou */
-function mkSparks(x,y,n){const M=document.getElementById('startMenu');if(!M)return;for(let i=0;i<n;i++){const s=document.createElement('i');s.className='mk-spark';const a=Math.random()*Math.PI*2,d=30+Math.random()*80;
-  s.style.cssText=`left:${x}px;top:${y}px;--dx:${(Math.cos(a)*d).toFixed(0)}px;--dy:${(Math.sin(a)*d-20).toFixed(0)}px;animation-delay:${(Math.random()*.06).toFixed(2)}s`;M.appendChild(s);setTimeout(()=>s.remove(),800);}}
+/* menu simples: sem animações */
 let mkBusy=false;
-function mkSwap(fn,dir,btn){const M=document.getElementById('startMenu');if(mkBusy)return;if(!M){fn();return;}
-  if(btn){const r=btn.getBoundingClientRect();mkSparks(r.left+Math.min(r.width,r.height)/2,r.top+r.height/2,14);}
-  M.dataset.dir=dir;mkBusy=true;setTimeout(()=>{fn();mkBusy=false;},btn?120:0);}
-/* qual item do menu principal fica aceso para cada submenu */
-const MK_ROOT={lutar:'lutar',torres:'lutar',torneio:'lutar',aventura:'aventura',treino:'treino',kombatentes:'kombatentes',extras:'extras',moedas:'extras',opts:'opts'};
-function mkMark(id){const M=document.getElementById('startMenu');if(!M)return;const r=MK_ROOT[id];
-  M.querySelectorAll('#smMain .mk3b').forEach(b=>b.classList.toggle('mk-on',!!r&&(b.dataset.sub===r||b.dataset.act===r)));}
+function mkInit(){}
+function mkSwap(fn){fn();}
+function mkMark(){}
 
 /* ====== FATALITIES E ANIMALITIES OFICIAIS ======
    Ordem de pesquisa: UMK3 → Trilogy → Gold → Armageddon (só tem Kreate-A-Fatality) → MK11 → MK1 (2023).
@@ -7515,13 +7290,13 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
   const SIDE={'img/menu/jogar.jpg':'l','img/menu/opcoes.jpg':'c'};
   function setBg(src,side){const po=$('#smPoster'),bl=$('#smBlur');M.dataset.side=side||SIDE[src]||'r';if(po.dataset.v===src)return;po.dataset.v=src;bl.dataset.v=src;po.classList.add('fade');bl.classList.add('fade');
     setTimeout(()=>{po.src=hImg(src);bl.src=hImg(src);const show=()=>{po.classList.remove('fade');bl.classList.remove('fade')};if(po.complete)show();else{po.onload=show;po.onerror=show}},200);}
-  function panel(id){$('#smMain').hidden=id==='bye'||id==='cheats';M.dataset.panel=['opts','moedas','cheats','bye'].includes(id)?'1':'';try{mkMark(id)}catch(e){}{const h=M.querySelector('.mk-hero');if(h)h.hidden=id==='cheats';}{const sk=document.getElementById('smSkull');if(sk)sk.hidden=id!=='main';}if(id==='main')setTimeout(()=>{try{moonPlace()}catch(e){}},50);
+  function panel(id){$('#smMain').hidden=id!=='main';{const sk=document.getElementById('smSkull');if(sk)sk.hidden=id!=='main';}if(id==='main')setTimeout(()=>{try{moonPlace()}catch(e){}},50);
     if(id==='cheats'){CHEAT.unlocked=true;$('#chQuote').textContent=TERESA_CHEAT[Math.floor(Math.random()*TERESA_CHEAT.length)];MUSIC.setTop('cheat');}else MUSIC.setTop(null);{const b=document.getElementById('smAd');if(b)b.hidden=id!=='main'||!b.querySelector('.sm-adi');}$('#smOpts').hidden=id!=='opts';$('#smBye').hidden=id!=='bye';$('#smCheat').hidden=id!=='cheats';$('#smCoins').hidden=id!=='moedas';
     SUBS.forEach(s=>{$('#smSub-'+s).hidden=id!==s});M.classList.toggle('sub',id!=='main'&&id!=='bye');
     setBg(id==='cheats'?'img/menu/cheat.jpg':'img/menu-lua.jpg',id==='opts'?'c':'r');
-    if(SUBS.includes(id)){const f=$('#smSub-'+id+' .orb');if(f)f.focus({preventScroll:true});return}
+    if(SUBS.includes(id)){const f=$('#smSub-'+id+' .sm-item');if(f)f.focus({preventScroll:true});return}
     if(id==='cheats'){$('#chLock').hidden=CHEAT.unlocked;$('#chList').hidden=!CHEAT.unlocked;$('#chErr').hidden=true;$('#chPass').value='';$('#chD100').checked=CHEAT.d100;$('#chDmg').checked=CHEAT.dmg;$('#chGod').checked=CHEAT.god;$('#chBar').checked=CHEAT.bar;$('#chShao').checked=CHEAT.shao;$('#chCriador').checked=CHEAT.criador;$('#chMoedas').checked=CHEAT.moedas;if(!CHEAT.unlocked)setTimeout(()=>$('#chPass').focus(),50);return}
-    const f=M.querySelector(id==='main'?'#smMain .mk3b':'#'+(id==='opts'?'smOpts':'smBye')+' .sm-item');if(f)f.focus({preventScroll:true});}
+    const f=M.querySelector(id==='main'?'#smMain .sm-item':'#'+(id==='opts'?'smOpts':'smBye')+' .sm-item');if(f)f.focus({preventScroll:true});}
   $('#chLock').addEventListener('submit',e=>{e.preventDefault();if($('#chPass').value.trim()===CHEAT.pass){CHEAT.unlocked=true;SFX.gong();SFX.say('Excellent');panel('cheats');}else{SFX.clang();$('#chErr').hidden=false;$('#chPass').select();}});
   $('#chD100').onchange=e=>{CHEAT.d100=e.target.checked;SFX.tick()};$('#chDmg').onchange=e=>{CHEAT.dmg=e.target.checked;SFX.tick()};$('#chGod').onchange=e=>{CHEAT.god=e.target.checked;SFX.tick()};$('#chBar').onchange=e=>{CHEAT.bar=e.target.checked;SFX.tick()};$('#chShao').onchange=e=>{CHEAT.shao=e.target.checked;SFX.tick();if(!CHEAT.shao){pickSel=pickSel.map(k=>k==='c:General Shao'?null:k);}};
   $('#chMoedas').onchange=e=>{SFX.tick();cheatMoedas(e.target.checked);};
@@ -7600,7 +7375,7 @@ const CHEAT={pass:'1701',unlocked:false,d100:false,dmg:false,god:false,bar:false
     G.querySelector('#giftOk').onclick=()=>{if(cheatOn()){SFX.clang();toast('Desligue os cheats para resgatar o presente.');return}SFX.hit();addCoins(g.n,g.why);LS.set(g.k,true);try{renderCoins()}catch(e){}G.classList.add('out');
       setTimeout(()=>{G.remove();giftShown=false;setTimeout(giftCheck,700);},400);};}
   function closeAd(){if(AD.hidden)return;AD.classList.add('out');setTimeout(()=>{AD.hidden=true;AD.classList.remove('out')},300);}
-  $('#adClose').onclick=e=>{e.stopPropagation();SFX.tick();if(adIdx+1<ADS.length){showAd(adIdx+1);return}closeAd();const f=M.querySelector('#smMain .mk3b');if(f)f.focus({preventScroll:true});};
+  $('#adClose').onclick=e=>{e.stopPropagation();SFX.tick();if(adIdx+1<ADS.length){showAd(adIdx+1);return}closeAd();const f=M.querySelector('#smMain .sm-item');if(f)f.focus({preventScroll:true});};
   $('#adBuy').onclick=e=>{e.stopPropagation();const a=adCur;closeAd();if(a&&a.sub){const k=M.querySelector('#smMain [data-act="sub"][data-sub="'+a.sub+'"]');if(k)k.click();return}if(a&&a.ev){const k=M.querySelector('#smMain [data-act="eventos"]');if(k)k.click();return}if(a&&a.tab)krGoto={tab:a.tab};else if(a&&a.pack)krGoto=a.pack;else if(a&&a.arena)krGoto={arena:a.arena};const k=M.querySelector('#smMain [data-act="kripta"]');if(k)k.click();};
   /* ---- carrossel de anúncios no menu: troca a cada 7 segundos ---- */
   const BN=$('#smAd');let bnI=0,bnT=null;
