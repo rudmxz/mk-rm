@@ -7812,7 +7812,7 @@ FX_SVG.leque_fogo=c=>FX_SVG.leque(['#ffb36b','#d12a00']);
 function fxColors(t){return FXC[t]||['#fff','#ff6a00'];}
 function figCenter(i){const el=document.getElementById('fF'+i);const r=el.getBoundingClientRect();return {x:r.left+r.width/2,y:r.top+r.height*.42,w:r.width,h:r.height};}
 function fxLayer(){let L=document.getElementById('fFxL');if(!L){L=document.createElement('div');L.id='fFxL';L.className='f-fxl';document.getElementById('fight').appendChild(L);}return L;}
-function fxType(A,kind,ab){if(kind==='hab'&&ab)return ab.fx||A.fx||'impacto';if(kind==='especial')return A.fx||'impacto';if(kind==='forte'&&FX_THROW.includes(A.fx)&&!['missil','bomba','cranio','corvo','bala'].includes(A.fx))return A.fx;return null;}
+function fxType(A,kind,ab){if(A&&A.khAura&&(kind==='rapido'||kind==='forte'))return A.fx||'impacto';if(kind==='hab'&&ab)return ab.fx||A.fx||'impacto';if(kind==='especial')return A.fx||'impacto';if(kind==='forte'&&FX_THROW.includes(A.fx)&&!['missil','bomba','cranio','corvo','bala'].includes(A.fx))return A.fx;return null;}
 /* os golpes voando têm sempre a velocidade normal (o modo rápido só acelera dados e textos) */
 const fxWait=ms=>sleep(ms);
 async function atkVisual(atk,def,kind,ab,hit,ov){const A=(ov&&ov.A)||FS.P[atk];const t=fxType(A,kind,ab);if(!t)return;if(typeof LITE!=='undefined'&&LITE.on()){return;}
@@ -16095,7 +16095,7 @@ BB_SCENES['Skarlet']=async s=>{
 const KH_AURAS=[{n:'Kitana',c:'#2a7fff'},{n:'Mileena',c:'#9b3cff'},{n:'Jade',c:'#2ed14a'},{n:'Tanya',c:'#ffb000'},{n:'Skarlet',c:'#e0102a'}];
 const KH_EVERY=2;
 const isKh=f=>!!f&&f.key==='c:Khameleon';
-function khSrc(n){try{return fighterFrom('c:'+n)}catch(e){return null}}
+function khSrc(n){try{const s=fighterFrom('c:'+n);if(s){const k=kitOf('c:'+n);s.fx=(k&&k.fx)||'impacto';s.kit=k;}return s}catch(e){return null}}
 /* copia golpes, arma e finalizações da ninja da aura (a foto, a vida e os atributos continuam os dela) */
 function khApply(i){const f=FS.P[i],k=FS.kh[i];if(!isKh(f)||!k)return;const A=KH_AURAS[k.a],s=khSrc(A.n);if(!s)return;
   f.esp=s.esp;f.soco=s.soco;f.chute=s.chute;f.fx=s.fx;f.fins=s.fins;f.khAura=A.n;}
