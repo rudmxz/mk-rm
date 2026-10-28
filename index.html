@@ -3423,7 +3423,7 @@ html.land #fight .f-banner.endb.wvb.wvr{left:46%;right:0}
       <div class="sel-top">
         <button type="button" class="sel-menu" id="selMenu">Menu</button>
         <div class="sel-mode" id="cyfTitle">Versus</div>
-        <div class="duo-tog" role="radiogroup" aria-label="Usar Kameo"><button type="button" data-duo="0" role="radio" aria-checked="false">Sem Kameo</button><button type="button" data-duo="1" role="radio" aria-checked="true">Com Kameo</button></div>
+        <div class="duo-tog" role="radiogroup" aria-label="Usar Kameo"><button type="button" data-duo="0" role="radio" aria-checked="true">Sem Kameo</button><button type="button" data-duo="1" role="radio" aria-checked="false">Com Kameo</button></div>
       </div>
       <div class="sel-stage" id="selStage">
         <div class="sel-side l"><button type="button" class="sel-slot p1" id="slot0" aria-pressed="false"><span class="sel-spic" id="slotPic0"></span><span class="sel-st" id="slotT0"></span><span class="sel-sn" id="slotN0">—</span></button><button type="button" class="sel-slot p1" id="slot2" aria-pressed="false"><span class="sel-spic" id="slotPic2"></span><span class="sel-st" id="slotT2"></span><span class="sel-sn" id="slotN2">—</span></button></div>
@@ -6900,7 +6900,7 @@ const DLC=['Skarlet','Sheeva','Ermac','Quan Chi','Takeda','Noob Saibot','Cyrax',
 const LOCK='<svg class="lock" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1Zm2 0h6V7a3 3 0 0 0-6 0v3Z"/></svg>';
 function cpic(c){const rib=c.fan?'<span class="crib fan">FÃ</span>':(c.special||c.n==='Katherine Pierce')?'<span class="crib extra">EXTRA</span>':(c.guest||DLC.includes(c.n))?'<span class="crib">DLC</span>':'';
   return `<span class="cpic">${rib}${FOTO[c.n]?`<img class="ph" src="${FOTO[c.n]}" alt="" loading="lazy">`:`<img class="lockd" src="img/dragao.png" alt="">${LOCK}`}</span>`;}
-let pickSel=[null,null,null,null],pickSlot=0,lastPicked=null,pickDuo=true,towerSize=6;
+let pickSel=[null,null,null,null],pickSlot=0,lastPicked=null,pickDuo=false,towerSize=6;
 const MATE={0:2,2:0,1:3,3:1};
 function pickOrder(){if(pickMode==='repick'||pickMode==='sobrev'||pickMode==='fora')return [0];const torre=pickMode==='torre';return torre?(pickDuo?[0,2]:[0]):(pickDuo?[0,2,1,3]:[0,1]);}
 function nextSlot(){const o=pickOrder();const e=o.find(i=>!pickSel[i]);return e===undefined?pickSlot:e;}
