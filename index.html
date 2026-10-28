@@ -8881,6 +8881,8 @@ function finalBox(key){if(!zerou(key))return '';const nome=key.startsWith('u:')?
 async function champion(){const me=tw$(TW.player);const key=TW.player;marcarZerado(TW.player);addCoins((COIN.torre[TW.size]||150)+(TW.res?50:0),'Torre zerada');
   const xrs=[];for(const k of [TW.player,TW.res].filter(Boolean)){try{const xr=xpGive(k,20);const f=tw$(k);if(xr&&f){xr.nome=f.nome;xr.foto=f.foto;xrs.push(xr);}}catch(e){console.error(e)}}
   $('#towerScreen').hidden=true;portalHide();document.body.style.overflow='hidden';
+  /* Torre Personalizada: sem tela de campeão nem final do personagem; vai direto para os créditos */
+  if(TW.size==='p'){const xf=TW.xpFight||[];for(const r of xf)await lvUpShow(r);for(const xr of xrs){if(xr.amt)toast(`+${xr.amt} XP para ${xr.nome} por zerar a torre.`);await lvUpShow(xr);}TW=null;showCredits(true);return;}
   const fP=finalPara(key);
   const xf=(TW&&TW.xpFight)||[];await champScreen(me);for(const r of xf)await lvUpShow(r);
   for(const xr of xrs){if(xr.amt)toast(`+${xr.amt} XP para ${xr.nome} por zerar a torre.`);await lvUpShow(xr);}
