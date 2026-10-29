@@ -9379,7 +9379,7 @@ async function doExchange(atk,def,act,stance){
   /* golpe visual voando até o alvo */
   /* acertou: rola o dano primeiro; só depois o golpe sai e chega no alvo */
   if(hit&&dmgRolls.length){$('#fRes').innerHTML=`<div class="f-pre">${why}</div>`;$('#fRoll').hidden=false;await sleep(FAST?350:1000);await rollShow(dmgRolls,'Dano · '+AC.t);await sleep(FAST?150:450);}
-  $('#fRoll').hidden=true;anim(atk,'lunge');atkSfx(A);
+  $('#fRoll').hidden=true;anim(atk,'lunge');atkSfx(A);atkVoz(atk);
   try{await (FS.kamVis?FS.kamVis(atk,def,kind,ab,hit):atkVisual(atk,def,kind,ab,hit));}catch(e){if(e==='abort')throw e;}
   if(!fxType(A,kind,ab))await sleep(FAST?120:260);
   let extra=[];
@@ -9504,11 +9504,16 @@ const GRITOS={1:['Jason Voorhees','Jax','Baraka','Conan','General Shao','Geras',
 const GRITO_A={};
 function gritoDe(f){if(f&&f.g==='f')return 'f';if(!f||f.g!=='m')return null;const n=f.nome;const ops=Object.keys(GRITOS).filter(k=>GRITOS[k].includes(n));
   if(ops.length)return ops[Math.floor(Math.random()*ops.length)];let h=0;for(const c of n)h=(h*31+c.charCodeAt(0))>>>0;return String(1+h%4);}
-/* gemidos de dor próprios (só o General Shao por enquanto) */
-const DOR_VOZ={'General Shao':['audio/shao/dor1.mp3','audio/shao/dor2.mp3','audio/shao/dor3.mp3','audio/shao/dor4.mp3','audio/shao/dor5.mp3','audio/shao/dor6.mp3']};const DOR_A={};let DOR_T=0,DOR_L=-1;
-function dorVoz(i,dm){try{if(!soundOn||!(dm>0)||!FS||!FS.P||!FS.P[i])return;const P=FS.P[i],L=DOR_VOZ[P.finNome||P.nome]||DOR_VOZ[P.nome];if(!L)return;const now=performance.now();if(now-DOR_T<450)return;DOR_T=now;
-  let k=Math.floor(Math.random()*L.length);if(k===DOR_L&&L.length>1)k=(k+1)%L.length;DOR_L=k;const src=L[k];
-  if(LITE.on()){LITE.play(src,1);return}const a=DOR_A[src]||(DOR_A[src]=new Audio(src));a.currentTime=0;a.volume=1;const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
+/* vozes próprias: gemidos de dor e gritos de ataque de alguns lutadores */
+const VZ_SH='audio/shao/',VZ_SV='audio/sheeva/';
+const DOR_VOZ={'General Shao':[VZ_SH+'dor1.mp3',VZ_SH+'dor2.mp3',VZ_SH+'dor3.mp3']};
+const ATK_VOZ={'Sheeva':[1,2,3,4,5,6,7].map(n=>VZ_SV+'atk'+n+'.mp3')};
+const VOZ_A={},VOZ_T={},VOZ_L={};
+function vozPlay(src,duck){try{if(!soundOn)return;if(duck)try{MUSIC.duckFor(duck)}catch(e){}if(LITE.on()){LITE.play(src,1);return}const a=VOZ_A[src]||(VOZ_A[src]=new Audio(src));a.currentTime=0;a.volume=1;const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
+function vozDe(map,tag,i,gap){try{if(!soundOn||!FS||!FS.P||!FS.P[i])return;const P=FS.P[i],L=map[P.finNome||P.nome]||map[P.nome];if(!L)return;const now=performance.now(),key=tag+i;if(now-(VOZ_T[key]||0)<gap)return;VOZ_T[key]=now;
+  let k=Math.floor(Math.random()*L.length);if(k===VOZ_L[key]&&L.length>1)k=(k+1)%L.length;VOZ_L[key]=k;vozPlay(L[k]);}catch(e){}}
+function dorVoz(i,dm){if(dm>0)vozDe(DOR_VOZ,'d',i,450);}
+function atkVoz(i){vozDe(ATK_VOZ,'a',i,250);}
 function gritar(f){if(!soundOn)return;const k=gritoDe(f);if(!k)return;if(LITE.on()){MUSIC.duckFor(3500);LITE.play(k==='f'?'audio/grito_f.mp3':'audio/grito'+k+'.mp3',1);return}try{const a=GRITO_A[k]||(GRITO_A[k]=new Audio(k==='f'?'audio/grito_f.mp3':'audio/grito'+k+'.mp3'));a.currentTime=0;a.volume=1;MUSIC.duckFor(3500);const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
 /* ---- efeitos visuais das finalizações nas fotos ---- */
 const PACI_SVG='<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="13" r="9" fill="none" stroke="#ff7fb8" stroke-width="5"/><rect x="28" y="19" width="8" height="9" rx="2" fill="#ff7fb8"/><ellipse cx="32" cy="36" rx="24" ry="15" fill="#7fd0ff" stroke="#fff" stroke-width="3"/><circle cx="32" cy="36" r="7" fill="#ffd1e6"/></svg>';
@@ -12022,7 +12027,8 @@ async function shaoCine(opts){opts=opts||{};if(CINE_ON)return;CINE_ON=true;
     const pool=shuffle(STAGES.filter(s=>s.k!=='trono')).slice(0,15);GL=glitchMix();const ld=Promise.all(pool.concat([trono,tel]).map(s=>new Promise(r=>{const im=new Image();im.onload=im.onerror=()=>r();im.src=s.img;})));
     setSt(trono);requestAnimationFrame(()=>O.classList.add('in'));cap.textContent='General Shao é arrastado por todos os reinos!';
     await Promise.race([ld,sleep(2500)]);await cineSleep(500,st);
-    for(let i=0;i<pool.length;i++){await cut(pool[i]);GL.go(i);try{SFX.rockSlam()}catch(e){}try{screenShake()}catch(e){}hit(3);setTimeout(()=>{try{if(!st.skip)hit(2)}catch(e){}},230);if(i%2===0&&shao)gritar(shao);await cineSleep(500,st);}
+    try{vozPlay('audio/shao/arrastado.mp3',5000)}catch(e){}
+    for(let i=0;i<pool.length;i++){await cut(pool[i]);GL.go(i);try{SFX.rockSlam()}catch(e){}try{screenShake()}catch(e){}hit(3);setTimeout(()=>{try{if(!st.skip)hit(2)}catch(e){}},230);await cineSleep(500,st);}
     await cut(trono);GL.go();try{SFX.rockSlam()}catch(e){}cap.textContent='…e volta ao trono, destruído.';await cineSleep(900,st);
     /* vira pedra */
     fig.classList.add('stone');try{pedraSfx()}catch(e){}SFX.clang();cap.textContent='A pele do general vira pedra.';await cineSleep(1700,st);
