@@ -8747,7 +8747,7 @@ function efxClear(i){FS.efx[i]={};efxHud();}
 /* fim de cada troca: dano contínuo e contagem */
 function efxTick(){const out=[];[0,1].forEach(i=>{const ef=FS.efx[i];if(!ef)return;let d=0;
     if(ef.sang){d+=1;}if(ef.quei){d+=2;}if(ef.mald){d+=1;}
-    if(d&&FS.hp[i]>0){if(i===0&&CHEAT.god)d=0;FS.hp[i]-=d;FS.dmg[i]+=d;addGore(i,d);if(d)out.push(`${ef.sang?'🩸':''}${ef.quei?'🔥':''}${ef.mald?'🎃':''} <b>${esc(FS.P[i].nome)}</b> perde ${d} de vida.`);}
+    if(d&&FS.hp[i]>0){if(i===0&&CHEAT.god)d=0;FS.hp[i]-=d;FS.dmg[i]+=d;if(typeof dorVoz==='function')dorVoz(i,d);addGore(i,d);if(d)out.push(`${ef.sang?'🩸':''}${ef.quei?'🔥':''}${ef.mald?'🎃':''} <b>${esc(FS.P[i].nome)}</b> perde ${d} de vida.`);}
     ['sang','quei','lent','mald'].forEach(k=>{if(ef[k]){ef[k]--;if(ef[k]<=0)delete ef[k];}});
     ['cong','ator'].forEach(k=>{if(ef[k]){ef['_'+k]=(ef['_'+k]||0)+1;if(ef['_'+k]>2){delete ef[k];delete ef['_'+k];}}});
     if(ef.imm){ef.imm--;if(ef.imm<=0)delete ef.imm;}});
@@ -9385,7 +9385,7 @@ async function doExchange(atk,def,act,stance){
   let extra=[];
   if(hit){
     if(D.id==='aparar'&&dm>0){dm+=1;extra.push('Aparar falhou: +1 de dano.');}
-    FS.hp[def]-=dm;FS.dmg[def]+=dm;if(FS.dealt)FS.dealt[atk]+=dm;FS.bar[def]=Math.min(100,FS.bar[def]+(D.id==='recuo'?0:(dm||2)*5));
+    FS.hp[def]-=dm;FS.dmg[def]+=dm;dorVoz(def,dm);if(FS.dealt)FS.dealt[atk]+=dm;FS.bar[def]=Math.min(100,FS.bar[def]+(D.id==='recuo'?0:(dm||2)*5));
     FS.bar[atk]=Math.min(100,FS.bar[atk]+2*A.atr.M+pasSum(A,'barhit'));
     const svDead=!!(FS.opts&&FS.opts.mode==='sobrev'&&def===1&&FS.hp[def]<=0);SFX.hit();if(!svDead){hurtSfx(Dd);if(dm&&corta(A,kind,ab))playSfx('faca',.85);anim(def,dm?'hit':'block');}if(crit)SFX.boom();
     if(dm&&!svDead){hitFx(def,(kind==='especial'||kind==='hab')?'especial':(kind==='forte'||kind==='agarrao'||kind==='lancar'||crit)?'dor':'leve');addGore(def,dm);}
@@ -9408,9 +9408,9 @@ async function doExchange(atk,def,act,stance){
     if(D.id==='perfeita'&&margin>=5){FS.nextHit[def]=3;extra.push(`🌪️ Esquiva perfeita! ${esc(Dd.nome)} ganha +3 no próximo ataque.`);}
     if(D.id==='passo'&&!isGrab&&!fail){FS.passo[def]=true;}
     if(D.mode==='block'&&!fail&&!isGrab){anim(def,'block');
-      const th=pasSum(Dd,'thorns');if(th){const t=(atk===0&&CHEAT.god)?0:th;FS.hp[atk]-=t;FS.dmg[atk]+=t;anim(atk,'hit');extra.push(`🌑 ${esc(A.nome)} leva ${t} da sombra.`);}
+      const th=pasSum(Dd,'thorns');if(th){const t=(atk===0&&CHEAT.god)?0:th;FS.hp[atk]-=t;FS.dmg[atk]+=t;dorVoz(atk,t);anim(atk,'hit');extra.push(`🌑 ${esc(A.nome)} leva ${t} da sombra.`);}
       if(hasPas(Dd,'contra')&&(kind==='rapido'||kind==='forte')&&!FS.flag[def].contra){FS.flag[def].contra=1;const n2=r20(),tot=n2+3+half(Dd.atr.A);
-        if(tot>=12){const d2=1+Math.floor(RNGF()*4);const t=(atk===0&&CHEAT.god)?0:d2;FS.hp[atk]-=t;FS.dmg[atk]+=t;anim(def,'lunge');anim(atk,'hit');hitFx(atk,'leve');addGore(atk,t);extra.push(`↩️ Contra-ataque de ${esc(Dd.nome)}! (${tot} no dado) ${esc(A.nome)} leva ${t}.`);}
+        if(tot>=12){const d2=1+Math.floor(RNGF()*4);const t=(atk===0&&CHEAT.god)?0:d2;FS.hp[atk]-=t;FS.dmg[atk]+=t;dorVoz(atk,t);anim(def,'lunge');anim(atk,'hit');hitFx(atk,'leve');addGore(atk,t);extra.push(`↩️ Contra-ataque de ${esc(Dd.nome)}! (${tot} no dado) ${esc(A.nome)} leva ${t}.`);}
         else extra.push(`↩️ ${esc(Dd.nome)} tentou o contra-ataque, mas errou (${tot}).`);}}
     else if(D.mode==='dodge')anim(def,'dodge');
   }
@@ -9504,6 +9504,11 @@ const GRITOS={1:['Jason Voorhees','Jax','Baraka','Conan','General Shao','Geras',
 const GRITO_A={};
 function gritoDe(f){if(f&&f.g==='f')return 'f';if(!f||f.g!=='m')return null;const n=f.nome;const ops=Object.keys(GRITOS).filter(k=>GRITOS[k].includes(n));
   if(ops.length)return ops[Math.floor(Math.random()*ops.length)];let h=0;for(const c of n)h=(h*31+c.charCodeAt(0))>>>0;return String(1+h%4);}
+/* gemidos de dor próprios (só o General Shao por enquanto) */
+const DOR_VOZ={'General Shao':['audio/shao/dor1.mp3','audio/shao/dor2.mp3','audio/shao/dor3.mp3','audio/shao/dor4.mp3','audio/shao/dor5.mp3','audio/shao/dor6.mp3']};const DOR_A={};let DOR_T=0,DOR_L=-1;
+function dorVoz(i,dm){try{if(!soundOn||!(dm>0)||!FS||!FS.P||!FS.P[i])return;const P=FS.P[i],L=DOR_VOZ[P.finNome||P.nome]||DOR_VOZ[P.nome];if(!L)return;const now=performance.now();if(now-DOR_T<450)return;DOR_T=now;
+  let k=Math.floor(Math.random()*L.length);if(k===DOR_L&&L.length>1)k=(k+1)%L.length;DOR_L=k;const src=L[k];
+  if(LITE.on()){LITE.play(src,1);return}const a=DOR_A[src]||(DOR_A[src]=new Audio(src));a.currentTime=0;a.volume=1;const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
 function gritar(f){if(!soundOn)return;const k=gritoDe(f);if(!k)return;if(LITE.on()){MUSIC.duckFor(3500);LITE.play(k==='f'?'audio/grito_f.mp3':'audio/grito'+k+'.mp3',1);return}try{const a=GRITO_A[k]||(GRITO_A[k]=new Audio(k==='f'?'audio/grito_f.mp3':'audio/grito'+k+'.mp3'));a.currentTime=0;a.volume=1;MUSIC.duckFor(3500);const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
 /* ---- efeitos visuais das finalizações nas fotos ---- */
 const PACI_SVG='<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="13" r="9" fill="none" stroke="#ff7fb8" stroke-width="5"/><rect x="28" y="19" width="8" height="9" rx="2" fill="#ff7fb8"/><ellipse cx="32" cy="36" rx="24" ry="15" fill="#7fd0ff" stroke="#fff" stroke-width="3"/><circle cx="32" cy="36" r="7" fill="#ffd1e6"/></svg>';
