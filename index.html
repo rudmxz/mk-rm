@@ -9281,8 +9281,9 @@ const RE_CORTE=/espada|faca|facão|lâmina|katana|machado|foice|gadanho|adaga|pu
 function corta(A,kind,ab){if(!A||kind==='agarrao')return false;const t=(kind==='especial'||kind==='hab')?fxType(A,kind,ab):A.fx;if(t&&FX_CORTE.includes(t))return true;if(kind==='hab'||kind==='especial')return false;
   let arma='';try{if(A.key&&A.key.startsWith('u:')){const ch=roster.find(c=>c.id===A.key.slice(2));arma=ch?ch.input.arma||'':'';}else arma=(SIG[A.nome]||[''])[0]||'';}catch(e){}return RE_CORTE.test(arma)||FX_CORTE.includes(A.fx);}
 let lastFinKnife=0;function finKnife(){const n=performance.now();if(n-lastFinKnife<500)return;lastFinKnife=n;playSfx('facafin',.9);}
-function atkSfx(f){if(!f)return;if(f.g==='f')playSfx('fem');else if(f.g==='m')playSfx(isLiu(f)?'lkatk':'matk');}
-function hurtSfx(f){playSfx('dano');if(!f)return;if(f.g==='m')playSfx(isLiu(f)?'lkdano':'mdano');else if(f.g==='f')playSfx('fdano');}
+function vozPropria(f){try{const n=f&&(f.finNome||f.nome);return !!(n&&((DOR_VOZ[n])||(ATK_VOZ[n])||DOR_VOZ[f.nome]||ATK_VOZ[f.nome]))}catch(e){return false}}
+function atkSfx(f){if(!f)return;if(vozPropria(f))return;if(f.g==='f')playSfx('fem');else if(f.g==='m')playSfx(isLiu(f)?'lkatk':'matk');}
+function hurtSfx(f){playSfx('dano');if(!f)return;if(vozPropria(f)){dorVozF(f);return;}if(f.g==='m')playSfx(isLiu(f)?'lkdano':'mdano');else if(f.g==='f')playSfx('fdano');}
 function playSfx(kind,vol){if(!soundOn)return;const s=`audio/sfx/${kind}${1+Math.floor(Math.random()*SFXF[kind])}.mp3`;if(LITE.on()){LITE.play(s,vol||1);return}let a=SFX_POOL[s];
   try{if(!a){a=SFX_POOL[s]=new Audio(s);}else if(!a.paused){a=new Audio(s);}a.currentTime=0;a.volume=vol||1;const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
 /* ---- transições de arena (golpe especial joga o alvo para outra arena) ---- */
@@ -9506,15 +9507,18 @@ function gritoDe(f){if(f&&f.g==='f')return 'f';if(!f||f.g!=='m')return null;cons
   if(ops.length)return ops[Math.floor(Math.random()*ops.length)];let h=0;for(const c of n)h=(h*31+c.charCodeAt(0))>>>0;return String(1+h%4);}
 /* vozes próprias: gemidos de dor e gritos de ataque de alguns lutadores */
 const VZ_SH='audio/shao/',VZ_SV='audio/sheeva/';
-const DOR_VOZ={'General Shao':[VZ_SH+'dor1.mp3',VZ_SH+'dor2.mp3',VZ_SH+'dor3.mp3']};
+const DOR_VOZ={'General Shao':[VZ_SH+'dor1.mp3',VZ_SH+'dor2.mp3',VZ_SH+'dor3.mp3'],'Sheeva':[1,2,3,4,5,6,7].map(n=>VZ_SV+'dor'+n+'.mp3')};
+const GRITO_VOZ={'Sheeva':VZ_SV+'grito.mp3'};
 const ATK_VOZ={'Sheeva':[1,2,3,4,5,6,7].map(n=>VZ_SV+'atk'+n+'.mp3')};
 const VOZ_A={},VOZ_T={},VOZ_L={};
 function vozPlay(src,duck){try{if(!soundOn)return;if(duck)try{MUSIC.duckFor(duck)}catch(e){}if(LITE.on()){LITE.play(src,1);return}const a=VOZ_A[src]||(VOZ_A[src]=new Audio(src));a.currentTime=0;a.volume=1;const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
 function vozDe(map,tag,i,gap){try{if(!soundOn||!FS||!FS.P||!FS.P[i])return;const P=FS.P[i],L=map[P.finNome||P.nome]||map[P.nome];if(!L)return;const now=performance.now(),key=tag+i;if(now-(VOZ_T[key]||0)<gap)return;VOZ_T[key]=now;
   let k=Math.floor(Math.random()*L.length);if(k===VOZ_L[key]&&L.length>1)k=(k+1)%L.length;VOZ_L[key]=k;vozPlay(L[k]);}catch(e){}}
-function dorVoz(i,dm){if(dm>0)vozDe(DOR_VOZ,'d',i,450);}
+function dorVozF(f){try{if(!soundOn||!f)return;const n=f.finNome||f.nome,L=DOR_VOZ[n]||DOR_VOZ[f.nome];if(!L)return;const now=performance.now(),key='dn'+n;if(now-(VOZ_T[key]||0)<450)return;VOZ_T[key]=now;
+  let k=Math.floor(Math.random()*L.length);if(k===VOZ_L[key]&&L.length>1)k=(k+1)%L.length;VOZ_L[key]=k;vozPlay(L[k]);}catch(e){}}
+function dorVoz(i,dm){if(dm>0&&FS&&FS.P)dorVozF(FS.P[i]);}
 function atkVoz(i){vozDe(ATK_VOZ,'a',i,250);}
-function gritar(f){if(!soundOn)return;const k=gritoDe(f);if(!k)return;if(LITE.on()){MUSIC.duckFor(3500);LITE.play(k==='f'?'audio/grito_f.mp3':'audio/grito'+k+'.mp3',1);return}try{const a=GRITO_A[k]||(GRITO_A[k]=new Audio(k==='f'?'audio/grito_f.mp3':'audio/grito'+k+'.mp3'));a.currentTime=0;a.volume=1;MUSIC.duckFor(3500);const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
+function gritar(f){if(!soundOn)return;{const g=f&&(GRITO_VOZ[f.finNome||f.nome]||GRITO_VOZ[f.nome]);if(g){vozPlay(g,3500);return}}const k=gritoDe(f);if(!k)return;if(LITE.on()){MUSIC.duckFor(3500);LITE.play(k==='f'?'audio/grito_f.mp3':'audio/grito'+k+'.mp3',1);return}try{const a=GRITO_A[k]||(GRITO_A[k]=new Audio(k==='f'?'audio/grito_f.mp3':'audio/grito'+k+'.mp3'));a.currentTime=0;a.volume=1;MUSIC.duckFor(3500);const pr=a.play();if(pr&&pr.catch)pr.catch(()=>{});}catch(e){}}
 /* ---- efeitos visuais das finalizações nas fotos ---- */
 const PACI_SVG='<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="13" r="9" fill="none" stroke="#ff7fb8" stroke-width="5"/><rect x="28" y="19" width="8" height="9" rx="2" fill="#ff7fb8"/><ellipse cx="32" cy="36" rx="24" ry="15" fill="#7fd0ff" stroke="#fff" stroke-width="3"/><circle cx="32" cy="36" r="7" fill="#ffd1e6"/></svg>';
 const RATTLE_SVG='<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="33" y="30" width="9" height="30" rx="4.5" transform="rotate(-38 37 45)" fill="#ff7fb8" stroke="#fff" stroke-width="2"/><circle cx="24" cy="22" r="17" fill="#ffd23a" stroke="#fff" stroke-width="3"/><circle cx="17" cy="16" r="3.5" fill="#ff7fb8"/><circle cx="30" cy="25" r="3.5" fill="#7fd0ff"/><circle cx="21" cy="30" r="3" fill="#8fe0a0"/></svg>';
@@ -9617,7 +9621,7 @@ async function finDeath(w,l,ch,o){const F=$('#fF'+l),V=FS.P[l];if(!F)return;
 function finCleanup(){window.__animBleed=null;try{brutClean();$$('.f-fig').forEach(e=>{e.style.zIndex=''});}catch(e){}try{{const st=document.getElementById('fStage');if(st)st.classList.remove('fin-dark');}$$('.fin-piece,.fin-bone,.fin-drop,.fin-pool,.fin-burst,.fin-slash,.fa-x,.rud-hand').forEach(e=>e.remove());$$('.f-fig').forEach(e=>{e.getAnimations().forEach(a=>a.cancel());e.style.transform='';e.style.transformOrigin='';e.style.opacity='';e.classList.remove('fa-glow','fa-morph');delete e.dataset.near;e._pos=null;if(e._html){e.innerHTML=e._html;e._html=null;}});$$('.f-fig').forEach(e=>e.classList.remove('fin-gone','fin-burning','fin-char','fin-skeleton','fin-frozen','fin-crack','fin-zap','fin-dust','fin-melt','dying'));$$('.fin-flames,.fin-skel,.fin-ice,.fin-bolts').forEach(e=>e.remove());}catch(e){}}
 function finFx(w,l,ch,o){const L=$('#fF'+l),W=$('#fF'+w);if(['Fatality','Friendship','Animality','Brutality'].includes(ch)){const st=$('#fStage');if(st)st.classList.add('fin-dark');}
   if(['Fatality','Brutality','Animality'].includes(ch)){return finDeath(w,l,ch,o).catch(e=>{if(e!=='abort')console.error(e)});}
-  else if(ch==='Babality'){L.classList.add('baby');{const sc=typeof BB_SCENES!=='undefined'&&FS.P[l]&&BB_SCENES[FS.P[l].nome];if(sc)return bbRun(w,l,sc);}L.insertAdjacentHTML('beforeend',`<div class="fx-baby"><span class="fx-paci">${PACI_SVG}</span><span class="fx-rattle">${RATTLE_SVG}</span></div>`);}
+  else if(ch==='Babality'){L.classList.add('baby');vozPlay('audio/sfx/bebe.mp3');{const sc=typeof BB_SCENES!=='undefined'&&FS.P[l]&&BB_SCENES[FS.P[l].nome];if(sc)return bbRun(w,l,sc);}L.insertAdjacentHTML('beforeend',`<div class="fx-baby"><span class="fx-paci">${PACI_SVG}</span><span class="fx-rattle">${RATTLE_SVG}</span></div>`);}
   else if(ch==='Friendship'){let fp;try{fp=faFriendship(w,l,o)}catch(e){console.error(e)}let scene=false;try{scene=faFrHas(o)}catch(e){}const cols=['#ff4d6d','#ffd23a','#4fc3ff','#8fe0a0','#c77dff','#ff9f43'];if(!scene)W.insertAdjacentHTML('beforeend',`<div class="fx-friend">${cols.map((c,i)=>`<span class="fx-bal" style="--c:${c};--x:${[-18,8,88,102,-6,76][i]}%;--d:${(i*.18).toFixed(2)}s;--s:${[1,.85,1.1,.9,.75,1][i]}"></span>`).join('')}<span class="fx-laugh">${pick(Math.random,['😂','🤣','😝','🥴','🥳'])}</span></div>`);L.insertAdjacentHTML('beforeend','<div class="fx-friend fx-huh"><span class="fx-confuso">'+pick(Math.random,['🙄','🤨','🤔'])+'</span><b class="fx-q">?</b><b class="fx-q q2">?</b></div>');return fp&&fp.catch?fp.catch(e=>{if(e!=='abort')console.error(e)}):fp;}
 }
 async function shaoStone(l){const F=$('#fF'+l);if(!F)return;
